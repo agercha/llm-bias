@@ -227,8 +227,9 @@ def get_embedding_matrix(model):
         return model.model.embed_tokens.weight
     elif isinstance(model, GPTNeoXForCausalLM):
         return model.base_model.embed_in.weight
-    elif isinstance(model, FlaxBertForCausalLM):
+    elif isinstance(model, BertModel):
         print(dir(model))
+        print(model.named_parameters())
         print(dir(model.base_model))
         print(dir(model.base_model.load_tf_weights()))
         assert(False)
