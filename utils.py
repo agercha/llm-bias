@@ -229,6 +229,7 @@ def get_embedding_matrix(model):
         return model.base_model.embed_in.weight
     elif isinstance(model, BertModel):
         print(dir(model))
+        print(dir(model.base_model))
         assert(False)
     else:
         raise ValueError(f"Unknown model type: {type(model)}")
