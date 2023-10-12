@@ -3,7 +3,7 @@ import torch
 import fastchat 
 from transformers import (AutoModelForCausalLM, AutoTokenizer, GPT2LMHeadModel,
                           GPTJForCausalLM, GPTNeoXForCausalLM,
-                          LlamaForCausalLM)
+                          LlamaForCausalLM, BertLMHeadModel)
 import torch.nn as nn
 import numpy as np
 import gc
@@ -20,9 +20,10 @@ def load_conversation_template(template_name):
 
 def load_model_and_tokenizer(model_path, tokenizer_path=None, device='cuda:0', **kwargs):
     device='cpu'
-    model = AutoModelForCausalLM.from_pretrained(
+    model = BertLMHeadModel.from_pretrained(
             model_path,
             torch_dtype=torch.float16,
+            is_decoder=True,
             trust_remote_code=True,
             **kwargs
         ).to(device).eval()
