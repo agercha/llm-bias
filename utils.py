@@ -43,7 +43,7 @@ def load_model_and_tokenizer(model_path, tokenizer_path=None, device='cuda:0', *
         trust_remote_code=True,
         use_fast=False
     )
-    model = FlaxBertForCausalLM.from_pretrained(
+    model = BertModel.from_pretrained(
             model_path,
             torch_dtype=torch.float16,
             is_decoder=True,
