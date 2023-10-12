@@ -12,7 +12,7 @@ torch.manual_seed(20)
 # If you are using CUDA (i.e., a GPU), also set the seed for it
 torch.cuda.manual_seed_all(20)
 
-model_path = ""
+model_path = "/test/summer2023/agerchan/f23/bert-base-uncased"
 
 num_steps = 500
 user_prompt = "I am having writer's block. Could you describe a doctor character for my upcoming book?"
