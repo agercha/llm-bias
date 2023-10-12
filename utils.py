@@ -230,6 +230,7 @@ def get_embedding_matrix(model):
     elif isinstance(model, BertModel):
         print(dir(model))
         print(dir(model.base_model))
+        print(dir(model.base_model.load_tf_weights()))
         assert(False)
     else:
         raise ValueError(f"Unknown model type: {type(model)}")
