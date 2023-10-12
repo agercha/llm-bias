@@ -39,7 +39,7 @@ def load_model_and_tokenizer(model_path, tokenizer_path=None, device='cuda:0', *
 
 
     tokenizer = BertTokenizer.from_pretrained(
-        tokenizer_path,
+        model_path,
         trust_remote_code=True,
         use_fast=False
     )
