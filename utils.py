@@ -114,7 +114,7 @@ class PromptManager:
                 toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
                 self._user_role_slice = slice(None, len(toks))
 
-                self.conv_template.update_last_message(f"{self.instruction}")
+                self.conv_template.update_last_message(f"{self.adv_string}")
                 toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
                 self._goal_slice = slice(self._user_role_slice.stop, max(self._user_role_slice.stop, len(toks)-1))
 
