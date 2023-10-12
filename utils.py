@@ -1,6 +1,6 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
-import fastchat 
+from fastchat.model import get_conversation_template
 from transformers import (AutoModelForCausalLM, AutoTokenizer, GPT2LMHeadModel,
                           GPTJForCausalLM, GPTNeoXForCausalLM,
                           LlamaForCausalLM, BertModel)
@@ -9,7 +9,7 @@ import numpy as np
 import gc
 
 def load_conversation_template(template_name):
-    conv_template = fastchat.model.get_conversation_template(template_name)
+    conv_template = get_conversation_template(template_name)
     if conv_template.name == 'zero_shot':
         conv_template.roles = tuple(['### ' + r for r in conv_template.roles])
         conv_template.sep = '\n'
