@@ -29,7 +29,7 @@ def load_model_and_tokenizer(model_path, tokenizer_path=None, device='cuda:0', *
     #         **kwargs
     #     ).to(device).eval()
     
-    # tokenizer_path = model_path if tokenizer_path is None else tokenizer_path
+    tokenizer_path = model_path if tokenizer_path is None else tokenizer_path
     
     # tokenizer = AutoTokenizer.from_pretrained(
     #     tokenizer_path,
@@ -43,7 +43,7 @@ def load_model_and_tokenizer(model_path, tokenizer_path=None, device='cuda:0', *
         trust_remote_code=True,
         use_fast=False
     )
-    model = TFBertModel.from_pretrained(
+    model = BertModel.from_pretrained(
             model_path,
             torch_dtype=torch.float16,
             is_decoder=True,
@@ -227,6 +227,9 @@ def get_embedding_matrix(model):
         return model.model.embed_tokens.weight
     elif isinstance(model, GPTNeoXForCausalLM):
         return model.base_model.embed_in.weight
+    elif isinstance(model, BertModel):
+        print(dir(model))
+        assert(False)
     else:
         raise ValueError(f"Unknown model type: {type(model)}")
 
