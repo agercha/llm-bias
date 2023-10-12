@@ -3,7 +3,8 @@ import torch
 from fastchat.model import get_conversation_template
 from transformers import (AutoModelForCausalLM, AutoTokenizer, GPT2LMHeadModel,
                           GPTJForCausalLM, GPTNeoXForCausalLM,
-                          LlamaForCausalLM, BertModel)
+                          LlamaForCausalLM, 
+                          BertModel, BertTokenizer, TFBertModel)
 import torch.nn as nn
 import numpy as np
 import gc
@@ -20,21 +21,35 @@ def load_conversation_template(template_name):
 
 def load_model_and_tokenizer(model_path, tokenizer_path=None, device='cuda:0', **kwargs):
     device='cpu'
-    model = BertModel.from_pretrained(
+    # model = BertModel.from_pretrained(
+    #         model_path,
+    #         torch_dtype=torch.float16,
+    #         is_decoder=True,
+    #         # trust_remote_code=True,
+    #         **kwargs
+    #     ).to(device).eval()
+    
+    # tokenizer_path = model_path if tokenizer_path is None else tokenizer_path
+    
+    # tokenizer = AutoTokenizer.from_pretrained(
+    #     tokenizer_path,
+    #     trust_remote_code=True,
+    #     use_fast=False
+    # )
+
+
+    tokenizer = BertTokenizer.from_pretrained(
+        tokenizer_path,
+        trust_remote_code=True,
+        use_fast=False
+    )
+    model = TFBertModel.from_pretrained(
             model_path,
             torch_dtype=torch.float16,
             is_decoder=True,
             # trust_remote_code=True,
             **kwargs
         ).to(device).eval()
-    
-    tokenizer_path = model_path if tokenizer_path is None else tokenizer_path
-    
-    tokenizer = AutoTokenizer.from_pretrained(
-        tokenizer_path,
-        trust_remote_code=True,
-        use_fast=False
-    )
     
     if 'oasst-sft-6-llama-30b' in tokenizer_path:
         tokenizer.bos_token_id = 1
