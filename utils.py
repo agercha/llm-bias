@@ -4,7 +4,7 @@ from fastchat.model import get_conversation_template
 from transformers import (AutoModelForCausalLM, AutoTokenizer, GPT2LMHeadModel,
                           GPTJForCausalLM, GPTNeoXForCausalLM,
                           LlamaForCausalLM, 
-                          BertModel, BertTokenizer, TFBertModel)
+                          BertModel, BertTokenizer, TFBertModel, FlaxBertForCausalLM)
 import torch.nn as nn
 import numpy as np
 import gc
@@ -43,11 +43,11 @@ def load_model_and_tokenizer(model_path, tokenizer_path=None, device='cuda:0', *
         trust_remote_code=True,
         use_fast=False
     )
-    model = BertModel.from_pretrained(
+    model = FlaxBertForCausalLM.from_pretrained(
             model_path,
             torch_dtype=torch.float16,
             is_decoder=True,
-            # trust_remote_code=True,
+            trust_remote_code=True,
             **kwargs
         ).to(device).eval()
     
@@ -227,7 +227,7 @@ def get_embedding_matrix(model):
         return model.model.embed_tokens.weight
     elif isinstance(model, GPTNeoXForCausalLM):
         return model.base_model.embed_in.weight
-    elif isinstance(model, BertModel):
+    elif isinstance(model, FlaxBertForCausalLM):
         print(dir(model))
         print(dir(model.base_model))
         print(dir(model.base_model.load_tf_weights()))
