@@ -230,6 +230,7 @@ def get_embedding_matrix(model):
     elif isinstance(model, BertModel):
         print(dir(model))
         print(model.encoder.layer)
+        print(dir(model.encoder))
         print(model.named_parameters())
         print(dict(model.named_parameters())['bert.embeddings.LayerNorm.weight'])
         print(dir(model.base_model))
