@@ -398,7 +398,7 @@ def get_logits(*, model, tokenizer, input_ids, test_controls=None, return_ids=Fa
         # max_len = 
         test_ids = [
             # torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:max_len], device=model.device)
-            torch.tensor(tokenizer(control, add_special_tokens=False).input_ids, device=model.device)
+            torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:len(input_ids)], device=model.device)
             for control in test_controls
         ]
         pad_tok = 0
