@@ -283,14 +283,16 @@ def token_gradients(model, input_ids, input_slice, target_slice, loss_slice):
 
     embed_weights = get_embedding_matrix(model)
     one_hot = torch.zeros(
-        input_ids[input_slice].shape[0],
+        # input_ids[input_slice].shape[0],
+        input_ids.shape[0],
         embed_weights.shape[0],
         device=model.device,
         dtype=embed_weights.dtype
     )
     one_hot.scatter_(
         1, 
-        input_ids[input_slice].unsqueeze(1),
+        # input_ids[input_slice].unsqueeze(1),
+        input_ids.unsqueeze(1),
         torch.ones(one_hot.shape[0], 1, device=model.device, dtype=embed_weights.dtype)
     )
     one_hot.requires_grad_()
@@ -298,13 +300,14 @@ def token_gradients(model, input_ids, input_slice, target_slice, loss_slice):
     
     # now stitch it together with the rest of the embeddings
     embeds = get_embeddings(model, input_ids.unsqueeze(0)).detach()
-    full_embeds = torch.cat(
-        [
-            embeds[:,:input_slice.start,:], 
-            input_embeds, 
-            embeds[:,input_slice.stop:,:]
-        ], 
-        dim=1)
+    # full_embeds = torch.cat(
+    #     [
+    #         embeds[:,:input_slice.start,:], 
+    #         input_embeds, 
+    #         embeds[:,input_slice.stop:,:]
+    #     ], 
+    #     dim=1)
+    full_embeds = input_embeds
     
     logits = model(inputs_embeds=full_embeds).logits
     targets = input_ids[target_slice]
@@ -314,6 +317,7 @@ def token_gradients(model, input_ids, input_slice, target_slice, loss_slice):
     
     grad = one_hot.grad.clone()
     grad = grad / grad.norm(dim=-1, keepdim=True)
+    print(grad)
     
     return grad
 
@@ -339,8 +343,8 @@ def sample_control(control_toks, grad, batch_size, topk=256, temp=1, not_allowed
     ).type(torch.int64)
     # print(new_token_pos)
     # new_token_pos = torch.Tensor([1]).type(torch.int64).to(grad.device)
-    print(top_indices)
-    print(new_token_pos)
+    # print(top_indices)
+    # print(new_token_pos)
     new_token_val = torch.gather(
         top_indices[new_token_pos], 1, 
         torch.randint(0, topk, (batch_size, 1),
