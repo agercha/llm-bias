@@ -300,14 +300,14 @@ def token_gradients(model, input_ids, input_slice, target_slice, loss_slice):
     
     # now stitch it together with the rest of the embeddings
     embeds = get_embeddings(model, input_ids.unsqueeze(0)).detach()
-    # full_embeds = torch.cat(
-    #     [
-    #         embeds[:,:input_slice.start,:], 
-    #         input_embeds, 
-    #         embeds[:,input_slice.stop:,:]
-    #     ], 
-    #     dim=1)
-    full_embeds = input_embeds
+    full_embeds = torch.cat(
+        [
+            embeds[:,:0,:], 
+            input_embeds, 
+            embeds[:,len(input_ids):,:]
+        ], 
+        dim=1)
+    # full_embeds = input_embeds
     
     logits = model(inputs_embeds=full_embeds).logits
     targets = input_ids[target_slice]
