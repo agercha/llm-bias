@@ -91,22 +91,23 @@ for i in range(num_steps):
     with torch.no_grad():
         
         # Step 3.1 Slice the input to locate the adversarial suffix.
-        adv_suffix_tokens = input_ids[suffix_manager._goal_slice].to(device)
-        # adv_suffix_tokens = input_ids
+        # adv_suffix_tokens = input_ids[suffix_manager._goal_slice].to(device)
+        print(suffix_manager._goal_slice, suffix_manager._control_slice)
+        adv_suffix_tokens = input_ids
         
         # Step 3.2 Randomly sample a batch of replacements.
-        new_adv_toks = sample_control(adv_suffix_tokens, 
-                       coordinate_grad, 
-                       batch_size, 
-                       topk=topk, 
-                       temp=1, 
-                       not_allowed_tokens=not_allowed_tokens)
-        # new_adv_toks = sample_control(input_ids, 
+        # new_adv_toks = sample_control(adv_suffix_tokens, 
         #                coordinate_grad, 
         #                batch_size, 
         #                topk=topk, 
         #                temp=1, 
         #                not_allowed_tokens=not_allowed_tokens)
+        new_adv_toks = sample_control(input_ids, 
+                       coordinate_grad, 
+                       batch_size, 
+                       topk=topk, 
+                       temp=1, 
+                       not_allowed_tokens=not_allowed_tokens)
         
         # Step 3.3 This step ensures all adversarial candidates have the same number of tokens. 
         # This step is necessary because tokenizers are not invertible
