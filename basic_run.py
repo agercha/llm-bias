@@ -93,9 +93,9 @@ for i in range(num_steps):
         
         # Step 3.1 Slice the input to locate the adversarial suffix.
         # adv_suffix_tokens = input_ids[suffix_manager._goal_slice].to(device)
-        print(suffix_manager._goal_slice, suffix_manager._control_slice)
-        print(input_ids, input_ids[suffix_manager._goal_slice])
-        adv_suffix_tokens = input_ids
+        # print(suffix_manager._goal_slice, suffix_manager._control_slice)
+        # print(input_ids, input_ids[suffix_manager._goal_slice])
+        # adv_suffix_tokens = input_ids
         
         # Step 3.2 Randomly sample a batch of replacements.
         # new_adv_toks = sample_control(adv_suffix_tokens, 
