@@ -75,6 +75,7 @@ not_allowed_tokens = get_nonascii_toks(tokenizer)
 adv_prompt = user_prompt
 
 for i in range(num_steps):
+    print(i)
     
     # Step 1. Encode user prompt (behavior + adv suffix) as tokens and return token ids.
     input_ids = suffix_manager.get_input_ids(adv_string=adv_prompt)
@@ -163,7 +164,7 @@ for i in range(num_steps):
         break
     
     # (Optional) Clean up the cache.
-    del coordinate_grad, adv_suffix_tokens ; gc.collect()
+    del coordinate_grad, input_ids ; gc.collect()
     torch.cuda.empty_cache()
 
 input_ids = suffix_manager.get_input_ids(adv_string=adv_suffix).to(device)
