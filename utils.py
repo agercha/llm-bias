@@ -115,8 +115,8 @@ class PromptManager:
             toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
             self._goal_slice = slice(self._user_role_slice.stop, max(self._user_role_slice.stop, len(toks)))
 
-            self.conv_template.update_last_message(f"{self.adv_string}")
-            toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
+            # self.conv_template.update_last_message(f"{self.adv_string}")
+            # toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
             self._control_slice = slice(self._goal_slice.stop, len(toks))
 
             self.conv_template.append_message(self.conv_template.roles[1], None)
@@ -149,8 +149,8 @@ class PromptManager:
                 self._goal_slice = slice(self._user_role_slice.stop, max(self._user_role_slice.stop, len(toks)-1))
 
                 # separator = ' ' if self.instradv_stringuction else ''
-                self.conv_template.update_last_message(f"{self.adv_string}")
-                toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
+                # self.conv_template.update_last_message(f"{self.adv_string}")
+                # toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
                 self._control_slice = slice(self._goal_slice.stop, len(toks)-1)
 
                 self.conv_template.append_message(self.conv_template.roles[1], None)
