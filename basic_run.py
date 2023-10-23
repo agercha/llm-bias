@@ -91,10 +91,17 @@ for i in range(num_steps):
     with torch.no_grad():
         
         # Step 3.1 Slice the input to locate the adversarial suffix.
-        adv_suffix_tokens = input_ids[suffix_manager._control_slice].to(device)
+        # adv_suffix_tokens = input_ids[suffix_manager._control_slice].to(device)
+        # adv_suffix_tokens = input_ids
         
         # Step 3.2 Randomly sample a batch of replacements.
-        new_adv_suffix_toks = sample_control(adv_suffix_tokens, 
+        # new_adv_suffix_toks = sample_control(adv_suffix_tokens, 
+        #                coordinate_grad, 
+        #                batch_size, 
+        #                topk=topk, 
+        #                temp=1, 
+        #                not_allowed_tokens=not_allowed_tokens)
+        new_adv_toks = sample_control(input_ids, 
                        coordinate_grad, 
                        batch_size, 
                        topk=topk, 
@@ -105,8 +112,8 @@ for i in range(num_steps):
         # This step is necessary because tokenizers are not invertible
         # so Encode(Decode(tokens)) may produce a different tokenization.
         # We ensure the number of token remains to prevent the memory keeps growing and run into OOM.
-        new_adv_suffix = get_filtered_cands(tokenizer, 
-                                            new_adv_suffix_toks, 
+        new_adv = get_filtered_cands(tokenizer, 
+                                            new_adv_toks, 
                                             filter_cand=True, 
                                             curr_control=adv_suffix)
         
@@ -114,20 +121,24 @@ for i in range(num_steps):
         logits, ids = get_logits(model=model, 
                                  tokenizer=tokenizer,
                                  input_ids=input_ids,
-                                 control_slice=suffix_manager._control_slice, 
-                                 test_controls=new_adv_suffix, 
+                                #  control_slice=suffix_manager._control_slice, 
+                                 test_controls=new_adv, 
                                  return_ids=True,
                                  batch_size=512) # decrease this number if you run into OOM.
 
-        losses = target_loss(logits, ids, suffix_manager._target_slice)
+        losses = target_loss(
+            logits, 
+            ids, 
+            # suffix_manager._target_slice
+            )
 
-        best_new_adv_suffix_id = losses.argmin()
-        best_new_adv_suffix = new_adv_suffix[best_new_adv_suffix_id]
+        best_new_adv_id = losses.argmin()
+        best_new_adv = new_adv[best_new_adv_id]
 
-        current_loss = losses[best_new_adv_suffix_id]
+        current_loss = losses[best_new_adv_id]
 
         # Update the running adv_suffix with the best candidate
-        adv_suffix = best_new_adv_suffix
+        adv_suffix = best_new_adv
         is_success = check_for_attack_success(model, 
                                  tokenizer,
                                  suffix_manager.get_input_ids(adv_string=adv_suffix).to(device), 
@@ -139,7 +150,7 @@ for i in range(num_steps):
     # plotlosses.update({'Loss': current_loss.detach().cpu().numpy()})
     # plotlosses.send() 
     
-    print(f"\nPassed:{is_success}\nCurrent Suffix:{best_new_adv_suffix}", end='\r')
+    print(f"\nPassed:{is_success}\nCurrent Suffix:{best_new_adv}", end='\r')
     
     # Notice that for the purpose of demo we stop immediately if we pass the checker but you are free to
     # comment this to keep the optimization running for longer (to get a lower loss). 

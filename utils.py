@@ -386,30 +386,34 @@ def forward(*, model, input_ids, attention_mask, batch_size=512):
     
     return torch.cat(logits, dim=0)
 
-def get_logits(*, model, tokenizer, input_ids, control_slice, test_controls=None, return_ids=False, batch_size=512):
+def get_logits(*, model, tokenizer, input_ids, test_controls=None, return_ids=False, batch_size=512):
     
     if isinstance(test_controls[0], str):
-        max_len = control_slice.stop - control_slice.start
+        # max_len = control_slice.stop - control_slice.start
+        # max_len = 
         test_ids = [
-            torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:max_len], device=model.device)
+            # torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:max_len], device=model.device)
+            torch.tensor(tokenizer(control, add_special_tokens=False).input_ids, device=model.device)
             for control in test_controls
         ]
         pad_tok = 0
         while pad_tok in input_ids or any([pad_tok in ids for ids in test_ids]):
             pad_tok += 1
         nested_ids = torch.nested.nested_tensor(test_ids)
-        test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(test_ids), max_len))
+        test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(test_ids), len(input_ids)))
     else:
         raise ValueError(f"test_controls must be a list of strings, got {type(test_controls)}")
 
-    if not(test_ids[0].shape[0] == control_slice.stop - control_slice.start):
+    # if not(test_ids[0].shape[0] == control_slice.stop - control_slice.start):
+    if not(test_ids[0].shape[0] == len(input_ids)):
         raise ValueError((
             f"test_controls must have shape "
-            f"(n, {control_slice.stop - control_slice.start}), " 
+            f"(n, {len(input_ids)}), " 
             f"got {test_ids.shape}"
         ))
 
-    locs = torch.arange(control_slice.start, control_slice.stop).repeat(test_ids.shape[0], 1).to(model.device)
+    # locs = torch.arange(control_slice.start, control_slice.stop).repeat(test_ids.shape[0], 1).to(model.device)
+    locs = torch.arange(0, len(input_ids)).repeat(test_ids.shape[0], 1).to(model.device)
     ids = torch.scatter(
         input_ids.unsqueeze(0).repeat(test_ids.shape[0], 1).to(model.device),
         1,
