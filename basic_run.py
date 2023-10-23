@@ -76,6 +76,8 @@ adv_prompt = user_prompt
 
 for i in range(num_steps):
     print(i)
+    del coordinate_grad, input_ids ; gc.collect()
+    torch.cuda.empty_cache()
     
     # Step 1. Encode user prompt (behavior + adv suffix) as tokens and return token ids.
     input_ids = suffix_manager.get_input_ids(adv_string=adv_prompt)
