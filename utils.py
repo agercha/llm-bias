@@ -28,6 +28,15 @@ def load_model_and_tokenizer(model_path, tokenizer_path=None, device='cuda:0', *
     #         # trust_remote_code=True,
     #         **kwargs
     #     ).to(device).eval()
+
+
+    model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            torch_dtype=torch.float16,
+            trust_remote_code=True,
+            **kwargs
+        ).to(device).eval()
+    
     
     tokenizer_path = model_path if tokenizer_path is None else tokenizer_path
     
@@ -38,18 +47,24 @@ def load_model_and_tokenizer(model_path, tokenizer_path=None, device='cuda:0', *
     # )
 
 
-    tokenizer = BertTokenizer.from_pretrained(
-        model_path,
+    tokenizer = AutoTokenizer.from_pretrained(
+        tokenizer_path,
         trust_remote_code=True,
         use_fast=False
     )
-    model = BertModel.from_pretrained(
-            model_path,
-            torch_dtype=torch.float16,
-            is_decoder=True,
-            trust_remote_code=True,
-            **kwargs
-        ).to(device).eval()
+
+    # tokenizer = BertTokenizer.from_pretrained(
+    #     model_path,
+    #     trust_remote_code=True,
+    #     use_fast=False
+    # )
+    # model = BertModel.from_pretrained(
+    #         model_path,
+    #         torch_dtype=torch.float16,
+    #         is_decoder=True,
+    #         trust_remote_code=True,
+    #         **kwargs
+    #     ).to(device).eval()
     
     if 'oasst-sft-6-llama-30b' in tokenizer_path:
         tokenizer.bos_token_id = 1
