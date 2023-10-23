@@ -329,17 +329,22 @@ def sample_control(control_toks, grad, batch_size, topk=256, temp=1, not_allowed
     control_toks = control_toks.to(grad.device)
 
     original_control_toks = control_toks.repeat(batch_size, 1)
-    new_token_pos = torch.arange(
-        0, 
-        len(control_toks), 
-        len(control_toks) / batch_size,
-        device=grad.device
-    ).type(torch.int64)
-    new_token_val = torch.gather(
-        top_indices[new_token_pos], 1, 
-        torch.randint(0, topk, (batch_size, 1),
-        device=grad.device)
-    )
+    try:
+        new_token_pos = torch.arange(
+            0, 
+            len(control_toks), 
+            len(control_toks) / batch_size,
+            device=grad.device
+        ).type(torch.int64)
+        new_token_val = torch.gather(
+            top_indices[new_token_pos], 1, 
+            torch.randint(0, topk, (batch_size, 1),
+            device=grad.device)
+        )
+    except:
+        print(len(control_toks))
+        print(control_toks)
+        assert(False)
     new_control_toks = original_control_toks.scatter_(1, new_token_pos.unsqueeze(-1), new_token_val)
 
     return new_control_toks
