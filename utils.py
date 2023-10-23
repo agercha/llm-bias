@@ -337,7 +337,7 @@ def sample_control(control_toks, grad, batch_size, topk=256, temp=1, not_allowed
     #     # step=1,
     #     device=grad.device
     # ).type(torch.int64)
-    new_token_pos = torch([1]).type(torch.int64).to(grad.device)
+    new_token_pos = torch.Tensor([1]).type(torch.int64).to(grad.device)
     print(top_indices)
     new_token_val = torch.gather(
         top_indices[new_token_pos], 1, 
