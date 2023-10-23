@@ -118,7 +118,9 @@ for i in range(num_steps):
         new_adv = get_filtered_cands(tokenizer, 
                                             new_adv_toks, 
                                             filter_cand=True, 
-                                            curr_control=adv_suffix)
+                                            # curr_control=adv_suffix
+                                            curr_control=adv_prompt
+                                            )
         
         # Step 3.4 Compute loss on these candidates and take the argmin.
         logits, ids = get_logits(model=model, 
