@@ -333,7 +333,8 @@ def sample_control(control_toks, grad, batch_size, topk=256, temp=1, not_allowed
     new_token_pos = torch.arange(
         0, 
         len(control_toks), 
-        len(control_toks) / batch_size,
+        # len(control_toks) / batch_size,
+        step=1,
         device=grad.device
     ).type(torch.int64)
     print(top_indices)
