@@ -99,6 +99,9 @@ for i in range(num_steps):
     # Step 1. Encode user prompt (behavior + adv suffix) as tokens and return token ids.
     input_ids = suffix_manager.get_input_ids(adv_string=adv_prompt)
     input_ids = input_ids.to(device)
+
+    print(input_ids)
+    print(success_ids[0])
     
     # Step 2. Compute Coordinate Gradient
     # coordinate_grad = token_gradients(model, 
