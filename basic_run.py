@@ -114,18 +114,6 @@ for i in range(num_steps):
     with torch.no_grad():
         
         # Step 3.1 Slice the input to locate the adversarial suffix.
-        # adv_suffix_tokens = input_ids[suffix_manager._goal_slice].to(device)
-        # print(suffix_manager._goal_slice, suffix_manager._control_slice)
-        # print(input_ids, input_ids[suffix_manager._goal_slice])
-        # adv_suffix_tokens = input_ids
-        
-        # Step 3.2 Randomly sample a batch of replacements.
-        # new_adv_toks = sample_control(adv_suffix_tokens, 
-        #                coordinate_grad, 
-        #                batch_size, 
-        #                topk=topk, 
-        #                temp=1, 
-        #                not_allowed_tokens=not_allowed_tokens)
         new_adv_toks = sample_control(input_ids, 
                        coordinate_grad, 
                        batch_size, 
@@ -176,25 +164,8 @@ for i in range(num_steps):
         
         success = successful(res, target, test_prefixes)
 
-
-        # is_fail = check_for_attack_fail(model, 
-        #                          tokenizer,
-        #                          suffix_manager.get_input_ids(adv_string=adv_suffix).to(device), 
-        #                          suffix_manager._assistant_role_slice, 
-        #                          test_prefixes)
-        
-        # is_success = check_for_attack_success(model, 
-        #                          tokenizer,
-        #                          suffix_manager.get_input_ids(adv_string=adv_suffix).to(device), 
-        #                          suffix_manager._assistant_role_slice, 
-        #                          target)
-        
-
-    # Create a dynamic plot for the loss.
-    # plotlosses.update({'Loss': current_loss.detach().cpu().numpy()})
-    # plotlosses.send() 
     
-    print(f"\nPassed:{success}\nCurrent Suffix:{best_new_adv}")
+    print(f"\nPassed:{success}\n\n\n")
     
     # Notice that for the purpose of demo we stop immediately if we pass the checker but you are free to
     # comment this to keep the optimization running for longer (to get a lower loss). 
