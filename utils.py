@@ -405,7 +405,7 @@ def get_losses(model, tokenizer, input_ids, test_controls, success_strs, fail_st
         # pad_tok = 0
         # while pad_tok in input_ids or any([pad_tok in ids for ids in sucess_test_ids]):
         #     pad_tok += 1
-        # nested_ids = torch.nested.nested_tensor(sucess_test_ids)
+        nested_ids = torch.nested.nested_tensor(sucess_test_ids)
         sucess_test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(sucess_test_ids), len(sucess_test_ids)))
         # sucess_test_ids = torch.nested.to_tensor(sucess_test_ids)
         locs = torch.arange(0, len(input_ids)).repeat(sucess_test_ids.shape[0], 1).to(model.device)
