@@ -203,7 +203,7 @@ def token_gradients(model, input_ids, success_ids, fail_ids):
         # print(torch.cat((input_ids, s)))
         # print(torch.cat((input_ids, s)).shape)
         # print(logits.shape)
-        loss = nn.CrossEntropyLoss()(logits[0], s)
+        loss = nn.CrossEntropyLoss()(logits[0], torch.cat((input_ids, s)))
         
         loss.backward()
         
