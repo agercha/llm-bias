@@ -198,8 +198,8 @@ class PromptManager:
     def get_input_ids(self, adv_string=None):
         prompt = self.get_prompt(adv_string=adv_string)
         toks = self.tokenizer(prompt).input_ids
-        # input_ids = torch.tensor(toks[:self._target_slice.stop])
-        input_ids = torch.tensor(toks)
+        input_ids = torch.tensor(toks[:self._target_slice.stop])
+        # input_ids = torch.tensor(toks)
 
         return input_ids
 
@@ -441,9 +441,9 @@ def get_logits(*, model, tokenizer, input_ids, test_controls=None, return_ids=Fa
         return logits
     
 
-def target_loss(logits, ids):
+def target_loss(logits, ids, target_loss):
     crit = nn.CrossEntropyLoss(reduction='none')
-    # loss_slice = slice(target_slice.start-1, target_slice.stop-1)
-    # loss = crit(logits[:,loss_slice,:].transpose(1,2), ids[:,target_slice])
-    loss = crit(logits.transpose(1,2), ids)
+    loss_slice = slice(target_slice.start-1, target_slice.stop-1)
+    loss = crit(logits[:,loss_slice,:].transpose(1,2), ids[:,target_slice])
+    # loss = crit(logits.transpose(1,2), ids)
     return loss.mean(dim=-1)

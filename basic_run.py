@@ -13,7 +13,8 @@ torch.manual_seed(20)
 torch.cuda.manual_seed_all(20)
 
 # model_path = "/test/summer2023/agerchan/f23/bert-base-uncased"
-model_path = "/test/summer2023/agerchan/f23/Llama-2-7b-hf"
+# model_path = "/test/summer2023/agerchan/f23/Llama-2-7b-hf"
+model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
 
 num_steps = 500
 user_prompt = "I am having writer's block. Could you describe a doctor character for my upcoming book?"
@@ -144,7 +145,7 @@ for i in range(num_steps):
         losses = target_loss(
             logits, 
             ids, 
-            # suffix_manager._target_slice
+            suffix_manager._target_slice
             )
 
         best_new_adv_id = losses.argmin()
