@@ -89,6 +89,10 @@ def check_for_attack_success(model, tokenizer, input_ids, assistant_role_slice, 
 not_allowed_tokens = get_nonascii_toks(tokenizer) 
 adv_prompt = user_prompt
 
+
+gen_config = model.generation_config
+gen_config.max_new_tokens = 64
+
 for i in range(num_steps):
     print(i)
     torch.cuda.empty_cache()
