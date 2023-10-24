@@ -55,7 +55,8 @@ conv_template = load_conversation_template(template_name)
 
 suffix_manager = PromptManager(tokenizer=tokenizer, 
               conv_template=conv_template, 
-              target=target, 
+              success_targets=success_strs,
+              fail_targets=fail_strs, 
               adv_string=user_prompt)
 
 def generate(model, tokenizer, input_ids, assistant_role_slice, gen_config=None):
