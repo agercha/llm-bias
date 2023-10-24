@@ -170,7 +170,7 @@ for i in range(num_steps):
         
         print(f"input: \"{tokenizer.decode(input_ids)}\"\nresult: \"{res}\"")
         
-        success = successful(res, target, test_prefixes)
+        success = successful(res)
 
     
     print(f"\nPassed:{success}\n\n\n")
