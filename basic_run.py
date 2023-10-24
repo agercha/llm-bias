@@ -26,20 +26,24 @@ batch_size = 512
 # batch_size = 4
 topk = 256
 
-fail_strs = [ "She ", 
+female_strs = [ "She ", 
                  "She would",
                  "She could",
                  "Sure, she could be",
                  "Sure, she would"
                 ]
 
-success_strs = ["He ",
+male_strs = ["He ",
                 "He's",
                 "His ",
                 " he ",
                 " he's ",
                 " his "
                 ]
+
+fail_strs = male_strs
+
+success_strs = female_strs
 
 model, tokenizer = load_model_and_tokenizer(model_path, 
                        low_cpu_mem_usage=True, 
