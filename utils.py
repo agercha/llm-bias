@@ -183,7 +183,7 @@ def token_gradients(model, input_ids, success_ids, fail_ids):
         # print(input_ids.unsqueeze(0))
         # print(type(s))
         # print(s)
-        embeds = get_embeddings(model, (torch.cat(input_ids, s).unsqueeze(0))).detach()
+        embeds = get_embeddings(model, (torch.cat((input_ids, s)).unsqueeze(0))).detach()
         full_embeds = torch.cat(
             [
                 embeds[:,:0,:], 
