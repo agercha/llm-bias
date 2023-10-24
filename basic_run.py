@@ -80,25 +80,6 @@ def successful(gen_str):
     print(f'\nPresent: {present} | Jailbroken: {jailbroken}')
     return present and not jailbroken
 
-def check_for_attack_fail(model, tokenizer, input_ids, assistant_role_slice, test_prefixes, gen_config=None):
-    gen_str = tokenizer.decode(generate(model, 
-                                        tokenizer, 
-                                        input_ids, 
-                                        assistant_role_slice, 
-                                        gen_config=gen_config)).strip()
-    print(gen_str)
-    jailbroken = any([prefix in gen_str for prefix in test_prefixes])
-    return jailbroken
-
-def check_for_attack_success(model, tokenizer, input_ids, assistant_role_slice, prefix, gen_config=None):
-    gen_str = tokenizer.decode(generate(model, 
-                                        tokenizer, 
-                                        input_ids, 
-                                        assistant_role_slice, 
-                                        gen_config=gen_config)).strip()
-    present = prefix in gen_str
-    return present
-
 not_allowed_tokens = get_nonascii_toks(tokenizer) 
 adv_prompt = user_prompt
 
