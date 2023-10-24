@@ -127,7 +127,7 @@ for i in range(num_steps):
         
     
         
-        losses = get_losses(model, tokenizer, input_ids, new_adv, suffix_manager._target_slice, success_strs, fail_strs)
+        losses = get_losses(model, tokenizer, input_ids, new_adv, success_strs, fail_strs)
         
         # Step 3.4 Compute loss on these candidates and take the argmin.
         # logits, ids = get_logits(model=model, 
