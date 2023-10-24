@@ -180,6 +180,8 @@ def token_gradients(model, input_ids, success_ids, fail_ids):
     # now stitch it together with the rest of the embeddings
     overall_grad = None
     for s in success_ids:
+        print(input_ids)
+        print(s)
         embeds = get_embeddings(model, (input_ids + s).unsqueeze(0)).detach()
         full_embeds = torch.cat(
             [
