@@ -88,6 +88,9 @@ adv_prompt = user_prompt
 gen_config = model.generation_config
 gen_config.max_new_tokens = 64
 
+success_ids = suffix_manager.get_any_ids(success_strs)
+fail_ids = suffix_manager.get_any_ids(fail_strs)
+
 for i in range(num_steps):
     print(i)
     torch.cuda.empty_cache()
@@ -97,11 +100,15 @@ for i in range(num_steps):
     input_ids = input_ids.to(device)
     
     # Step 2. Compute Coordinate Gradient
+    # coordinate_grad = token_gradients(model, 
+    #                 input_ids, 
+    #                 suffix_manager._control_slice, 
+    #                 suffix_manager._target_slice, 
+    #                 suffix_manager._loss_slice)
     coordinate_grad = token_gradients(model, 
                     input_ids, 
-                    suffix_manager._control_slice, 
-                    suffix_manager._target_slice, 
-                    suffix_manager._loss_slice)
+                    success_ids,
+                    fail_ids)
     
     # Step 3. Sample a batch of new tokens based on the coordinate gradient.
     # Notice that we only need the one that minimizes the loss.

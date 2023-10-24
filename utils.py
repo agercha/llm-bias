@@ -20,16 +20,6 @@ def load_conversation_template(template_name):
     return conv_template
 
 def load_model_and_tokenizer(model_path, tokenizer_path=None, device='cuda:0', **kwargs):
-    # device='cpu'
-    # model = BertModel.from_pretrained(
-    #         model_path,
-    #         torch_dtype=torch.float16,
-    #         is_decoder=True,
-    #         # trust_remote_code=True,
-    #         **kwargs
-    #     ).to(device).eval()
-
-
     model = AutoModelForCausalLM.from_pretrained(
             model_path,
             torch_dtype=torch.float16,
@@ -37,15 +27,7 @@ def load_model_and_tokenizer(model_path, tokenizer_path=None, device='cuda:0', *
             **kwargs
         ).to(device).eval()
     
-    
     tokenizer_path = model_path if tokenizer_path is None else tokenizer_path
-    
-    # tokenizer = AutoTokenizer.from_pretrained(
-    #     tokenizer_path,
-    #     trust_remote_code=True,
-    #     use_fast=False
-    # )
-
 
     tokenizer = AutoTokenizer.from_pretrained(
         tokenizer_path,
@@ -53,43 +35,20 @@ def load_model_and_tokenizer(model_path, tokenizer_path=None, device='cuda:0', *
         use_fast=False
     )
 
-    # tokenizer = BertTokenizer.from_pretrained(
-    #     model_path,
-    #     trust_remote_code=True,
-    #     use_fast=False
-    # )
-    # model = BertModel.from_pretrained(
-    #         model_path,
-    #         torch_dtype=torch.float16,
-    #         is_decoder=True,
-    #         trust_remote_code=True,
-    #         **kwargs
-    #     ).to(device).eval()
-    
-    if 'oasst-sft-6-llama-30b' in tokenizer_path:
-        tokenizer.bos_token_id = 1
-        tokenizer.unk_token_id = 0
-    if 'guanaco' in tokenizer_path:
-        tokenizer.eos_token_id = 2
-        tokenizer.unk_token_id = 0
-    if 'llama-2' in tokenizer_path:
-        tokenizer.pad_token = tokenizer.unk_token
-        tokenizer.padding_side = 'left'
-    if 'falcon' in tokenizer_path:
-        tokenizer.padding_side = 'left'
-    if not tokenizer.pad_token:
-        tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.pad_token = tokenizer.unk_token
+    tokenizer.padding_side = 'left'
     
     return model, tokenizer
 
 
 class PromptManager:
-    def __init__(self, *, tokenizer, conv_template, target, adv_string):
+    def __init__(self, *, tokenizer, conv_template, success_targets, fail_targets, adv_string):
 
         self.tokenizer = tokenizer
         self.conv_template = conv_template
         # self.instruction = instruction
-        self.target = target
+        self.success_targets = success_targets
+        self.fail_targets = fail_targets
         self.adv_string = adv_string
     
     def get_prompt(self, adv_string=None):
@@ -101,33 +60,33 @@ class PromptManager:
         # self.conv_template.append_message(self.conv_template.roles[1], f"{self.target}")
         prompt = self.conv_template.get_prompt()
 
-        encoding = self.tokenizer(prompt)
-        toks = encoding.input_ids
+        # encoding = self.tokenizer(prompt)
+        # toks = encoding.input_ids
 
-        self.conv_template.messages = []
+        # self.conv_template.messages = []
 
-        self.conv_template.append_message(self.conv_template.roles[0], None)
-        toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
-        self._user_role_slice = slice(None, len(toks))
-
-        self.conv_template.update_last_message(f"{self.adv_string}")
-        toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
-        self._goal_slice = slice(self._user_role_slice.stop, max(self._user_role_slice.stop, len(toks)))
+        # self.conv_template.append_message(self.conv_template.roles[0], None)
+        # toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
+        # self._user_role_slice = slice(None, len(toks))
 
         # self.conv_template.update_last_message(f"{self.adv_string}")
         # toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
-        self._control_slice = slice(self._goal_slice.stop, len(toks))
+        # self._goal_slice = slice(self._user_role_slice.stop, max(self._user_role_slice.stop, len(toks)))
 
-        self.conv_template.append_message(self.conv_template.roles[1], None)
-        toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
-        self._assistant_role_slice = slice(self._control_slice.stop, len(toks))
+        # # self.conv_template.update_last_message(f"{self.adv_string}")
+        # # toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
+        # self._control_slice = slice(self._goal_slice.stop, len(toks))
 
-        self.conv_template.update_last_message(f"{self.target}")
-        toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
-        self._target_slice = slice(self._assistant_role_slice.stop, len(toks)-2)
-        self._loss_slice = slice(self._assistant_role_slice.stop-1, len(toks)-3)
+        # self.conv_template.append_message(self.conv_template.roles[1], None)
+        # toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
+        # self._assistant_role_slice = slice(self._control_slice.stop, len(toks))
 
-        self.conv_template.messages = []
+        # self.conv_template.update_last_message(f"{self.target}")
+        # toks = self.tokenizer(self.conv_template.get_prompt()).input_ids
+        # self._target_slice = slice(self._assistant_role_slice.stop, len(toks)-2)
+        # self._loss_slice = slice(self._assistant_role_slice.stop-1, len(toks)-3)
+
+        # self.conv_template.messages = []
 
         return prompt
     
@@ -138,6 +97,9 @@ class PromptManager:
         input_ids = torch.tensor(toks)
 
         return input_ids
+    
+    def get_any_ids(self, vals):
+        return  [torch.tensor(self.tokenizer(val).input_ids) for val in vals]
 
 
 def get_nonascii_toks(tokenizer, device='cpu'):
@@ -173,28 +135,10 @@ def get_embeddings(model, input_ids):
         raise ValueError(f"Unknown model type: {type(model)}")
     
 def get_embedding_matrix(model):
-    if isinstance(model, GPTJForCausalLM) or isinstance(model, GPT2LMHeadModel):
-        return model.transformer.wte.weight
-    elif isinstance(model, LlamaForCausalLM):
-        return model.model.embed_tokens.weight
-    elif isinstance(model, GPTNeoXForCausalLM):
-        return model.base_model.embed_in.weight
-    elif isinstance(model, BertModel):
-        return model.encoder.layer
-        # print(dir(model))
-        # print(model.init_weights)
-        # print(model.init_weights())
-        # print(model.encoder.layer)
-        # print(dir(model.encoder))
-        # print(model.named_parameters())
-        # print(dict(model.named_parameters())['bert.embeddings.LayerNorm.weight'])
-        # print(dir(model.base_model))
-        # print(dir(model.base_model.load_tf_weights()))
-        # assert(False)
-    else:
-        raise ValueError(f"Unknown model type: {type(model)}")
+    return model.model.embed_tokens.weight
 
-def token_gradients(model, input_ids, input_slice, target_slice, loss_slice):
+# def token_gradients(model, input_ids, input_slice, target_slice, loss_slice):
+def token_gradients(model, input_ids, success_ids, fail_ids):
 
     """
     Computes gradients of the loss with respect to the coordinates.
@@ -220,7 +164,6 @@ def token_gradients(model, input_ids, input_slice, target_slice, loss_slice):
 
     embed_weights = get_embedding_matrix(model)
     one_hot = torch.zeros(
-        # input_ids[input_slice].shape[0],
         input_ids.shape[0],
         embed_weights.shape[0],
         device=model.device,
@@ -228,7 +171,6 @@ def token_gradients(model, input_ids, input_slice, target_slice, loss_slice):
     )
     one_hot.scatter_(
         1, 
-        # input_ids[input_slice].unsqueeze(1),
         input_ids.unsqueeze(1),
         torch.ones(one_hot.shape[0], 1, device=model.device, dtype=embed_weights.dtype)
     )
@@ -236,24 +178,50 @@ def token_gradients(model, input_ids, input_slice, target_slice, loss_slice):
     input_embeds = (one_hot @ embed_weights).unsqueeze(0)
     
     # now stitch it together with the rest of the embeddings
-    embeds = get_embeddings(model, input_ids.unsqueeze(0)).detach()
-    full_embeds = torch.cat(
-        [
-            embeds[:,:0,:], 
-            input_embeds, 
-            embeds[:,len(input_ids):,:]
-        ], 
-        dim=1)
-    # full_embeds = input_embeds
-    
-    logits = model(inputs_embeds=full_embeds).logits
-    targets = input_ids[target_slice]
-    loss = nn.CrossEntropyLoss()(logits[0,loss_slice,:], targets)
-    
-    loss.backward()
-    
-    grad = one_hot.grad.clone()
-    grad = grad / grad.norm(dim=-1, keepdim=True)
+    overall_grad = None
+    for s in success_ids:
+        embeds = get_embeddings(model, (input_ids + s).unsqueeze(0)).detach()
+        full_embeds = torch.cat(
+            [
+                embeds[:,:0,:], 
+                input_embeds, 
+                embeds[:,len(input_ids):,:]
+            ], 
+            dim=1)
+        # full_embeds = input_embeds
+        
+        logits = model(inputs_embeds=full_embeds).logits
+        targets = input_ids
+        loss = nn.CrossEntropyLoss()(logits, targets)
+        
+        loss.backward()
+        
+        grad = one_hot.grad.clone()
+        if overall_grad == None:
+            overall_grad = grad / grad.norm(dim=-1, keepdim=True)
+        else:
+            overall_grad += grad / grad.norm(dim=-1, keepdim=True)
+
+
+    for f in fail_ids:
+        embeds = get_embeddings(model, (input_ids + f).unsqueeze(0)).detach()
+        full_embeds = torch.cat(
+            [
+                embeds[:,:0,:], 
+                input_embeds, 
+                embeds[:,len(input_ids):,:]
+            ], 
+            dim=1)
+        # full_embeds = input_embeds
+        
+        logits = model(inputs_embeds=full_embeds).logits
+        targets = input_ids
+        loss = nn.CrossEntropyLoss()(logits, targets)
+        
+        loss.backward()
+        
+        grad = one_hot.grad.clone()
+        overall_grad -= grad / grad.norm(dim=-1, keepdim=True)
     
     return grad
 
@@ -426,36 +394,35 @@ def get_losses(model, tokenizer, input_ids, test_controls, success_strs, fail_st
         if s_loss is None: s_loss = curr_loss
         else: s_loss += curr_loss
 
-    # for f in fail_strs:
-    #     fail_test_ids = [
-    #                 # torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:max_len], device=model.device)
-    #                 torch.tensor(tokenizer(control + f, add_special_tokens=False).input_ids, device=model.device)
-    #                 for control in test_controls
-    #             ]
-    #     pad_tok = 0
-    #     while pad_tok in input_ids or any([pad_tok in ids for ids in fail_test_ids]):
-    #         pad_tok += 1
-    #     nested_ids = torch.nested.nested_tensor(fail_test_ids)
-    #     fail_test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(fail_test_ids), len(fail_test_ids)))
-    #     locs = torch.arange(0, len(input_ids)).repeat(fail_test_ids.shape[0], 1).to(model.device)
-    #     ids = torch.scatter(
-    #         input_ids.unsqueeze(0).repeat(fail_test_ids.shape[0], 1).to(model.device),
-    #         1,
-    #         locs,
-    #         fail_test_ids
-    #     )
-    #     if pad_tok >= 0:
-    #         attn_mask = (ids != pad_tok).type(ids.dtype)
-    #     else:
-    #         attn_mask = None
+    for f in fail_strs:
+        fail_test_ids = [
+                    # torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:max_len], device=model.device)
+                    torch.tensor(tokenizer(control + f, add_special_tokens=False).input_ids, device=model.device)
+                    for control in test_controls
+                ]
+        pad_tok = 0
+        while pad_tok in input_ids or any([pad_tok in ids for ids in fail_test_ids]):
+            pad_tok += 1
+        nested_ids = torch.nested.nested_tensor(fail_test_ids)
+        fail_test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(fail_test_ids), len(fail_test_ids)))
+        locs = torch.arange(0, len(input_ids)).repeat(fail_test_ids.shape[0], 1).to(model.device)
+        ids = torch.scatter(
+            input_ids.unsqueeze(0).repeat(fail_test_ids.shape[0], 1).to(model.device),
+            1,
+            locs,
+            fail_test_ids
+        )
+        if pad_tok >= 0:
+            attn_mask = (ids != pad_tok).type(ids.dtype)
+        else:
+            attn_mask = None
 
-    #     logits, ids = forward(model=model, input_ids=ids, attention_mask=attn_mask, batch_size=36), ids
-    #     curr_loss = target_loss_old(logits, ids, slice(len(test_controls[0]), len(test_controls[0]) + len(f), None))
-    #     if f_loss is None: f_loss = curr_loss
-    #     else: f_loss += curr_loss
+        logits, ids = forward(model=model, input_ids=ids, attention_mask=attn_mask, batch_size=36), ids
+        curr_loss = target_loss_old(logits, ids, slice(len(test_controls[0]), len(test_controls[0]) + len(f), None))
+        if f_loss is None: f_loss = curr_loss
+        else: f_loss += curr_loss
 
-    # return s_loss - f_loss
+    return s_loss - f_loss
 
-    return s_loss
 
 
