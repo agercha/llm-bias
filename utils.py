@@ -441,7 +441,7 @@ def get_logits(*, model, tokenizer, input_ids, test_controls=None, return_ids=Fa
         return logits
     
 
-def target_loss(logits, ids, target_loss):
+def target_loss(logits, ids, target_slice):
     crit = nn.CrossEntropyLoss(reduction='none')
     loss_slice = slice(target_slice.start-1, target_slice.stop-1)
     loss = crit(logits[:,loss_slice,:].transpose(1,2), ids[:,target_slice])
