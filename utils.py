@@ -98,7 +98,7 @@ class PromptManager:
             self.adv_string = adv_string
 
         self.conv_template.append_message(self.conv_template.roles[0], f"{self.adv_string}")
-        self.conv_template.append_message(self.conv_template.roles[1], f"{self.target}")
+        # self.conv_template.append_message(self.conv_template.roles[1], f"{self.target}")
         prompt = self.conv_template.get_prompt()
 
         encoding = self.tokenizer(prompt)
