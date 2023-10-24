@@ -180,6 +180,19 @@ def token_gradients(model, input_ids, success_ids, fail_ids):
     # now stitch it together with the rest of the embeddings
     overall_grad = None
     for s in success_ids:
+        s_one_hot = torch.zeros(
+            s.shape[0],
+            embed_weights.shape[0],
+            device=model.device,
+            dtype=embed_weights.dtype
+        )
+        s_one_hot.scatter_(
+            1, 
+            s.unsqueeze(1),
+            torch.ones(s_one_hot.shape[0], 1, device=model.device, dtype=embed_weights.dtype)
+        )
+        s_one_hot.requires_grad_()
+        s_embeds = (s_one_hot @ embed_weights).unsqueeze(0)
         # print(input_ids.unsqueeze(0))
         # print(type(s))
         # print(s)
@@ -195,7 +208,7 @@ def token_gradients(model, input_ids, success_ids, fail_ids):
         # full_embeds = input_embeds
         
         logits = model(inputs_embeds=input_embeds).logits
-        targets = s
+        targets = s[:]
         print(logits, s)
         loss = nn.CrossEntropyLoss()(logits[0,:,:], targets)
         
