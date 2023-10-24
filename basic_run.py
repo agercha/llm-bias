@@ -133,7 +133,7 @@ for i in range(num_steps):
                                  test_controls=new_adv, 
                                  return_ids=True,
                                  batch_size=512) # decrease this number if you run into OOM.
-
+        
         # losses = target_loss(
         #     logits, 
         #     ids, 

@@ -389,3 +389,51 @@ def target_loss(logits, success_strs, fail_strs):
     positive_loss = crit(logits.transpose(1,2), success_strs)
     negative_loss = crit(logits.transpose(1,2), fail_strs)
     return positive_loss - negative_loss
+
+def get_losses(model, tokenizer, input_ids, test_controls, t_slice, success_strs, fail_strs):
+    crit = nn.CrossEntropyLoss(reduction='none')
+
+    s_loss = None
+    f_loss = None
+
+    for s in success_strs:
+        sucess_test_ids = [
+                    # torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:max_len], device=model.device)
+                    torch.tensor(tokenizer(control + s, add_special_tokens=False).input_ids, device=model.device)
+                    for control in test_controls
+                ]
+        pad_tok = 0
+        while pad_tok in input_ids or any([pad_tok in ids for ids in test_ids]):
+            pad_tok += 1
+        nested_ids = torch.nested.nested_tensor(test_ids)
+        test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(test_ids), len(input_ids)))
+        locs = torch.arange(0, len(input_ids)).repeat(test_ids.shape[0], 1).to(model.device)
+        ids = torch.scatter(
+            input_ids.unsqueeze(0).repeat(test_ids.shape[0], 1).to(model.device),
+            1,
+            locs,
+            test_ids
+        )
+        if pad_tok >= 0:
+            attn_mask = (ids != pad_tok).type(ids.dtype)
+        else:
+            attn_mask = None
+
+        logits, ids = forward(model=model, input_ids=ids, attention_mask=attn_mask, batch_size=36), ids
+        curr_loss = target_loss_old(logits, ids, t_slice)
+        if s_loss is None: s_loss = curr_loss
+        else: s_loss += curr_loss
+
+    for f in fail_strs:
+        fail_test_ids = [
+                    # torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:max_len], device=model.device)
+                    torch.tensor(tokenizer(control + f, add_special_tokens=False).input_ids, device=model.device)
+                    for control in test_controls
+                ]
+        pad_tok = 0
+        while pad_tok in input_ids or any([pad_tok in ids for ids in test_ids]):
+            pad_tok += 1
+        nested_ids = torch.nested.nested_tensor(test_ids)
+        test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(test_ids), len(input_ids)))
+
+
