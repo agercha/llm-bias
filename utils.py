@@ -386,6 +386,6 @@ def target_loss_old(logits, ids, target_slice):
 
 def target_loss(logits, success_strs, fail_strs):
     crit = nn.CrossEntropyLoss(reduction='none')
-    positive_loss = crit(logits, success_strs)
-    negative_loss = crit(logits, fail_strs)
+    positive_loss = crit(logits.transpose(1,2), success_strs)
+    negative_loss = crit(logits.transpose(1,2), fail_strs)
     return positive_loss - negative_loss
