@@ -162,6 +162,7 @@ def token_gradients(model, input_ids, success_ids, fail_ids):
         The gradients of each token in the input_slice with respect to the loss.
     """
 
+
     embed_weights = get_embedding_matrix(model)
     one_hot = torch.zeros(
         input_ids.shape[0],
@@ -175,24 +176,26 @@ def token_gradients(model, input_ids, success_ids, fail_ids):
         torch.ones(one_hot.shape[0], 1, device=model.device, dtype=embed_weights.dtype)
     )
     one_hot.requires_grad_()
-    input_embeds = (one_hot @ embed_weights).unsqueeze(0)
+    # input_embeds = (one_hot @ embed_weights).unsqueeze(0)
     
     # now stitch it together with the rest of the embeddings
     overall_grad = None
     for s in success_ids:
-        s_one_hot = torch.zeros(
-            s.shape[0],
-            embed_weights.shape[0],
-            device=model.device,
-            dtype=embed_weights.dtype
-        )
-        s_one_hot.scatter_(
-            1, 
-            s.unsqueeze(1),
-            torch.ones(s_one_hot.shape[0], 1, device=model.device, dtype=embed_weights.dtype)
-        )
-        s_one_hot.requires_grad_()
-        s_embeds = (s_one_hot @ embed_weights).unsqueeze(0)
+        full_in = torch.cat((input_ids, s))
+        embeds = get_embeddings(model, full_in.unsqueeze(0)).detach()
+        # s_one_hot = torch.zeros(
+        #     s.shape[0],
+        #     embed_weights.shape[0],
+        #     device=model.device,
+        #     dtype=embed_weights.dtype
+        # )
+        # s_one_hot.scatter_(
+        #     1, 
+        #     s.unsqueeze(1),
+        #     torch.ones(s_one_hot.shape[0], 1, device=model.device, dtype=embed_weights.dtype)
+        # )
+        # s_one_hot.requires_grad_()
+        # s_embeds = (s_one_hot @ embed_weights).unsqueeze(0)
         # print(input_ids.unsqueeze(0))
         # print(type(s))
         # print(s)
@@ -207,7 +210,7 @@ def token_gradients(model, input_ids, success_ids, fail_ids):
         #     dim=1)
         # full_embeds = input_embeds
         
-        logits = model(inputs_embeds=input_embeds).logits
+        logits = model(inputs_embeds=embeds).logits
         targets = s[:]
         print(logits, s)
         loss = nn.CrossEntropyLoss()(logits[0,:,:], targets)
