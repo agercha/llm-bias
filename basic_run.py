@@ -62,12 +62,18 @@ def generate(model, tokenizer, input_ids, assistant_role_slice, gen_config=None)
 
     return output_ids[assistant_role_slice.stop:]
 
+def successful(gen_str, target, checks):
+    jailbroken = any([prefix in gen_str for prefix in test_prefixes])
+    present = target in gen_str
+    return present and not jailbroken
+
 def check_for_attack_fail(model, tokenizer, input_ids, assistant_role_slice, test_prefixes, gen_config=None):
     gen_str = tokenizer.decode(generate(model, 
                                         tokenizer, 
                                         input_ids, 
                                         assistant_role_slice, 
                                         gen_config=gen_config)).strip()
+    print(gen_str)
     jailbroken = any([prefix in gen_str for prefix in test_prefixes])
     return jailbroken
 
@@ -155,28 +161,37 @@ for i in range(num_steps):
 
         # Update the running adv_suffix with the best candidate
         adv_suffix = best_new_adv
-        is_fail = check_for_attack_fail(model, 
-                                 tokenizer,
-                                 suffix_manager.get_input_ids(adv_string=adv_suffix).to(device), 
-                                 suffix_manager._assistant_role_slice, 
-                                 test_prefixes)
+
+        res = tokenizer.decode(generate(model, 
+                                        tokenizer, 
+                                        input_ids, 
+                                        suffix_manager._assistant_role_slice)).strip()
         
-        is_success = check_for_attack_fail(model, 
-                                 tokenizer,
-                                 suffix_manager.get_input_ids(adv_string=adv_suffix).to(device), 
-                                 suffix_manager._assistant_role_slice, 
-                                 [target])
+        success = successful(res, target, test_prefixes)
+
+
+        # is_fail = check_for_attack_fail(model, 
+        #                          tokenizer,
+        #                          suffix_manager.get_input_ids(adv_string=adv_suffix).to(device), 
+        #                          suffix_manager._assistant_role_slice, 
+        #                          test_prefixes)
+        
+        # is_success = check_for_attack_success(model, 
+        #                          tokenizer,
+        #                          suffix_manager.get_input_ids(adv_string=adv_suffix).to(device), 
+        #                          suffix_manager._assistant_role_slice, 
+        #                          target)
         
 
     # Create a dynamic plot for the loss.
     # plotlosses.update({'Loss': current_loss.detach().cpu().numpy()})
     # plotlosses.send() 
     
-    print(f"\nPassed:{is_success}\nCurrent Suffix:{best_new_adv}", end='\r')
+    print(f"\nPassed:{success}\nCurrent Suffix:{best_new_adv}", end='\r')
     
     # Notice that for the purpose of demo we stop immediately if we pass the checker but you are free to
     # comment this to keep the optimization running for longer (to get a lower loss). 
-    if is_success:
+    if success:
         break
     
     # (Optional) Clean up the cache.
@@ -186,8 +201,9 @@ for i in range(num_steps):
 input_ids = suffix_manager.get_input_ids(adv_string=adv_suffix).to(device)
 
 gen_config = model.generation_config
-gen_config.max_new_tokens = 256
+gen_config.max_new_tokens = 16
 
-completion = tokenizer.decode((generate(model, tokenizer, input_ids, suffix_manager._assistant_role_slice, gen_config=gen_config))).strip()
+# completion = tokenizer.decode((generate(model, tokenizer, input_ids, suffix_manager._assistant_role_slice, gen_config=gen_config))).strip()
+completion = res
 
 print(f"\nCompletion: {completion}")
