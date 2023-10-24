@@ -172,7 +172,7 @@ for i in range(num_steps):
                                         input_ids, 
                                         suffix_manager._assistant_role_slice)).strip()
         
-        print(f"input: \"{input_ids}\"\nresult: \"{res}\"")
+        print(f"input: \"{tokenizer.decode(input_ids)}\"\nresult: \"{res}\"")
         
         success = successful(res, target, test_prefixes)
 
