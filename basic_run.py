@@ -125,26 +125,32 @@ for i in range(num_steps):
                                             curr_control=adv_prompt
                                             )
         
-        # Step 3.4 Compute loss on these candidates and take the argmin.
-        logits, ids = get_logits(model=model, 
-                                 tokenizer=tokenizer,
-                                 input_ids=input_ids,
-                                #  control_slice=suffix_manager._control_slice, 
-                                 test_controls=new_adv, 
-                                 return_ids=True,
-                                 batch_size=512) # decrease this number if you run into OOM.
+    
         
+        losses = get_losses(model, tokenizer, input_ids, new_adv, suffix_manager._target_slice, success_strs, fail_strs)
+        
+        # Step 3.4 Compute loss on these candidates and take the argmin.
+        # logits, ids = get_logits(model=model, 
+        #                          tokenizer=tokenizer,
+        #                          input_ids=input_ids,
+        #                         #  control_slice=suffix_manager._control_slice, 
+        #                          test_controls=new_adv, 
+        #                          return_ids=True,
+        #                          batch_size=512) # decrease this number if you run into OOM.
+        
+        # print*suffix_manager._assistant_ro
+
         # losses = target_loss(
         #     logits, 
         #     ids, 
         #     suffix_manager._target_slice
         #     )
         
-        losses = target_loss(
-            logits,
-            success_strs,
-            fail_strs
-        )
+        # losses = target_loss(
+        #     logits,
+        #     success_strs,
+        #     fail_strs
+        # )
 
         best_new_adv_id = losses.argmin()
         best_new_adv = new_adv[best_new_adv_id]
