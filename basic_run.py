@@ -134,11 +134,17 @@ for i in range(num_steps):
                                  return_ids=True,
                                  batch_size=512) # decrease this number if you run into OOM.
 
+        # losses = target_loss(
+        #     logits, 
+        #     ids, 
+        #     suffix_manager._target_slice
+        #     )
+        
         losses = target_loss(
-            logits, 
-            ids, 
-            suffix_manager._target_slice
-            )
+            logits,
+            success_strs,
+            fail_strs
+        )
 
         best_new_adv_id = losses.argmin()
         best_new_adv = new_adv[best_new_adv_id]
