@@ -100,7 +100,7 @@ for i in range(num_steps):
     input_ids = suffix_manager.get_input_ids(adv_string=adv_prompt)
     input_ids = input_ids.to(device)
 
-    print(input_ids)
+    print(input_ids, adv_prompt)
     print(success_ids[0])
     
     # Step 2. Compute Coordinate Gradient
