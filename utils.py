@@ -213,6 +213,7 @@ def token_gradients(model, input_ids, success_ids, fail_ids):
         logits = model(inputs_embeds=embeds).logits
         targets = s[:]
         print(logits, s)
+        print(logits.shape)
         loss = nn.CrossEntropyLoss()(logits[0,:,:], targets)
         
         loss.backward()
