@@ -61,22 +61,29 @@ def generate(model, tokenizer, input_ids, assistant_role_slice, gen_config=None)
 
     return output_ids[assistant_role_slice.stop:]
 
-def check_for_attack_success(model, tokenizer, input_ids, assistant_role_slice, test_prefixes, gen_config=None):
+def check_for_attack_fail(model, tokenizer, input_ids, assistant_role_slice, test_prefixes, gen_config=None):
     gen_str = tokenizer.decode(generate(model, 
                                         tokenizer, 
                                         input_ids, 
                                         assistant_role_slice, 
                                         gen_config=gen_config)).strip()
-    jailbroken = not any([prefix in gen_str for prefix in test_prefixes])
+    jailbroken = any([prefix in gen_str for prefix in test_prefixes])
     return jailbroken
 
+def check_for_attack_success(model, tokenizer, input_ids, assistant_role_slice, prefix, gen_config=None):
+    gen_str = tokenizer.decode(generate(model, 
+                                        tokenizer, 
+                                        input_ids, 
+                                        assistant_role_slice, 
+                                        gen_config=gen_config)).strip()
+    present = prefix in gen_str
+    return present
 
 not_allowed_tokens = get_nonascii_toks(tokenizer) 
 adv_prompt = user_prompt
 
 for i in range(num_steps):
     print(i)
-    del coordinate_grad, input_ids ; gc.collect()
     torch.cuda.empty_cache()
     
     # Step 1. Encode user prompt (behavior + adv suffix) as tokens and return token ids.
@@ -147,11 +154,17 @@ for i in range(num_steps):
 
         # Update the running adv_suffix with the best candidate
         adv_suffix = best_new_adv
-        is_success = check_for_attack_success(model, 
+        is_fail = check_for_attack_fail(model, 
                                  tokenizer,
                                  suffix_manager.get_input_ids(adv_string=adv_suffix).to(device), 
                                  suffix_manager._assistant_role_slice, 
                                  test_prefixes)
+        
+        is_success = check_for_attack_fail(model, 
+                                 tokenizer,
+                                 suffix_manager.get_input_ids(adv_string=adv_suffix).to(device), 
+                                 suffix_manager._assistant_role_slice, 
+                                 [target])
         
 
     # Create a dynamic plot for the loss.
