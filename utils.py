@@ -391,12 +391,13 @@ def target_loss(logits, success_strs, fail_strs):
     return positive_loss - negative_loss
 
 def get_losses(model, tokenizer, input_ids, test_controls, success_strs, fail_strs):
-    crit = nn.CrossEntropyLoss(reduction='none')
 
     s_loss = None
     f_loss = None
 
     for s in success_strs:
+        for control in test_controls:
+            print(control + s)
         sucess_test_ids = [
                     # torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:max_len], device=model.device)
                     torch.tensor(tokenizer(control + s, add_special_tokens=False).input_ids, device=model.device)
