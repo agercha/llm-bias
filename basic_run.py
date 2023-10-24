@@ -22,15 +22,16 @@ target = "He "
 template_name = 'llama-2'
 # template_name = 'BERT'
 device = 'cuda:0'
-batch_size = 512
+batch_size = 8
 # batch_size = 4
 topk = 256
 
-female_strs = [ "She ", 
-                 "She would",
-                 "She could",
-                 "Sure, she could be",
-                 "Sure, she would"
+female_strs = ["She ",
+                "She's",
+                "her ",
+                " she ",
+                " she's ",
+                " her "
                 ]
 
 male_strs = ["He ",
