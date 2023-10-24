@@ -89,8 +89,8 @@ adv_prompt = user_prompt
 gen_config = model.generation_config
 gen_config.max_new_tokens = 64
 
-success_ids = suffix_manager.get_any_ids(success_strs)
-fail_ids = suffix_manager.get_any_ids(fail_strs)
+success_ids = suffix_manager.get_any_ids(success_strs).to(device)
+fail_ids = suffix_manager.get_any_ids(fail_strs).to(device)
 
 for i in range(num_steps):
     print(i)
