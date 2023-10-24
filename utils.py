@@ -396,8 +396,8 @@ def get_losses(model, tokenizer, input_ids, test_controls, success_strs, fail_st
     f_loss = None
 
     for s in success_strs:
-        for control in test_controls:
-            print(control + s)
+        # for control in test_controls:
+        #     print(control + s)
         sucess_test_ids = [
                     # torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:max_len], device=model.device)
                     torch.tensor(tokenizer(control + s, add_special_tokens=False).input_ids, device=model.device)
@@ -426,34 +426,36 @@ def get_losses(model, tokenizer, input_ids, test_controls, success_strs, fail_st
         if s_loss is None: s_loss = curr_loss
         else: s_loss += curr_loss
 
-    for f in fail_strs:
-        fail_test_ids = [
-                    # torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:max_len], device=model.device)
-                    torch.tensor(tokenizer(control + f, add_special_tokens=False).input_ids, device=model.device)
-                    for control in test_controls
-                ]
-        pad_tok = 0
-        while pad_tok in input_ids or any([pad_tok in ids for ids in fail_test_ids]):
-            pad_tok += 1
-        nested_ids = torch.nested.nested_tensor(fail_test_ids)
-        fail_test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(fail_test_ids), len(fail_test_ids)))
-        locs = torch.arange(0, len(input_ids)).repeat(fail_test_ids.shape[0], 1).to(model.device)
-        ids = torch.scatter(
-            input_ids.unsqueeze(0).repeat(fail_test_ids.shape[0], 1).to(model.device),
-            1,
-            locs,
-            fail_test_ids
-        )
-        if pad_tok >= 0:
-            attn_mask = (ids != pad_tok).type(ids.dtype)
-        else:
-            attn_mask = None
+    # for f in fail_strs:
+    #     fail_test_ids = [
+    #                 # torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:max_len], device=model.device)
+    #                 torch.tensor(tokenizer(control + f, add_special_tokens=False).input_ids, device=model.device)
+    #                 for control in test_controls
+    #             ]
+    #     pad_tok = 0
+    #     while pad_tok in input_ids or any([pad_tok in ids for ids in fail_test_ids]):
+    #         pad_tok += 1
+    #     nested_ids = torch.nested.nested_tensor(fail_test_ids)
+    #     fail_test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(fail_test_ids), len(fail_test_ids)))
+    #     locs = torch.arange(0, len(input_ids)).repeat(fail_test_ids.shape[0], 1).to(model.device)
+    #     ids = torch.scatter(
+    #         input_ids.unsqueeze(0).repeat(fail_test_ids.shape[0], 1).to(model.device),
+    #         1,
+    #         locs,
+    #         fail_test_ids
+    #     )
+    #     if pad_tok >= 0:
+    #         attn_mask = (ids != pad_tok).type(ids.dtype)
+    #     else:
+    #         attn_mask = None
 
-        logits, ids = forward(model=model, input_ids=ids, attention_mask=attn_mask, batch_size=36), ids
-        curr_loss = target_loss_old(logits, ids, slice(len(test_controls[0]), len(test_controls[0]) + len(f), None))
-        if f_loss is None: f_loss = curr_loss
-        else: f_loss += curr_loss
+    #     logits, ids = forward(model=model, input_ids=ids, attention_mask=attn_mask, batch_size=36), ids
+    #     curr_loss = target_loss_old(logits, ids, slice(len(test_controls[0]), len(test_controls[0]) + len(f), None))
+    #     if f_loss is None: f_loss = curr_loss
+    #     else: f_loss += curr_loss
 
-    return s_loss - f_loss
+    # return s_loss - f_loss
+
+    return s_loss
 
 
