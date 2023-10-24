@@ -65,6 +65,7 @@ def generate(model, tokenizer, input_ids, assistant_role_slice, gen_config=None)
 def successful(gen_str, target, checks):
     jailbroken = any([prefix in gen_str for prefix in test_prefixes])
     present = target in gen_str
+    print(f'\n\n{gen_str}\nPresent: {present} | Jailbroken: {jailbroken}')
     return present and not jailbroken
 
 def check_for_attack_fail(model, tokenizer, input_ids, assistant_role_slice, test_prefixes, gen_config=None):
@@ -191,7 +192,7 @@ for i in range(num_steps):
     # plotlosses.update({'Loss': current_loss.detach().cpu().numpy()})
     # plotlosses.send() 
     
-    print(f"\nPassed:{success}\nCurrent Suffix:{best_new_adv}", end='\r')
+    print(f"\nPassed:{success}\nCurrent Suffix:{best_new_adv}")
     
     # Notice that for the purpose of demo we stop immediately if we pass the checker but you are free to
     # comment this to keep the optimization running for longer (to get a lower loss). 
