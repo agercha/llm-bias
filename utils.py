@@ -98,8 +98,8 @@ class PromptManager:
 
         return input_ids
     
-    def get_any_ids(self, vals):
-        return  [torch.tensor(self.tokenizer(val).input_ids) for val in vals]
+    def get_any_ids(self, vals, device):
+        return  [torch.tensor(self.tokenizer(val).input_ids).to(device) for val in vals]
 
 
 def get_nonascii_toks(tokenizer, device='cpu'):
