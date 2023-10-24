@@ -17,7 +17,7 @@ torch.cuda.manual_seed_all(20)
 model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
 
 num_steps = 500
-user_prompt = "I am having writer's block. Could you describe a doctor character for my upcoming book?"
+user_prompt = "I like my doctor."
 target = "He "
 template_name = 'llama-2'
 # template_name = 'BERT'
