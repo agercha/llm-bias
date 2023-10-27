@@ -35,11 +35,26 @@ def get_ids(tokenizer, conv_template, vals, device = "cuda:0"):
         # return prompt
         return torch.tensor(tokenizer(prompt).input_ids).to(device)
 
+def get_ids_with_slices(tokenizer, conv_template, vals1, vals2, device = "cuda:0"):
+    conv_template.append_message(conv_template.roles[0], f"{vals1} {vals2}")
+    prompt = conv_template.get_prompt()
+    conv_template.messages = []
+
+
+    conv_template.append_message(f"{vals1}")
+    toks1 = tokenizer(conv_template.get_prompt()).input_ids
+    slice1 = slice(0, len(toks1))
+
+    conv_template.update_last_message(f"{vals2}")
+    toks2 = tokenizer(conv_template.get_prompt()).input_ids
+    slice2 = slice(len(toks1), len(toks2))
+
+    # return prompt
+    return torch.tensor(tokenizer(prompt).input_ids).to(device), slice1, slice2
+
 def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
     
-    all_ids = get_ids(tokenizer, conv_template, f"{base_strs}{end_strs}")
-    base_slice = slice(0, len(base_strs))
-    end_slice = slice(len(base_strs), len(all_ids))
+    all_ids, base_slice, end_slice = get_ids(tokenizer, conv_template, f"{base_strs}{end_strs}")
     base_ids = all_ids[base_slice]
     end_ids = all_ids[end_slice]
     # all_ids = torch.cat((base_ids, end_ids))
