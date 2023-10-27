@@ -61,10 +61,8 @@ current_prompt = init_prompt
 fail_ids = [get_ids(tokenizer, conv_template, f) for f in fail_strs]
 success_ids = [get_ids(tokenizer, conv_template, s) for s in success_strs]
 
-#TODO conv template
-
 for i in range(1):
-    # torch.cuda.empty_cache()
+    torch.cuda.empty_cache()
     prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
 
     success_grads = [get_gradients(model, tokenizer, conv_template, current_prompt, s) for s in success_strs]
