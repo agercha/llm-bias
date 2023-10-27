@@ -35,14 +35,14 @@ success_strs = female_strs
 
 # load model
 model = AutoModelForCausalLM.from_pretrained(
-            "llama-2",
+            model_path,
             torch_dtype=torch.float16,
             trust_remote_code=True,
         ).to("cuda:0").eval()
 
 # load tokenizer
 tokenizer = AutoTokenizer.from_pretrained(
-        'llama-2',
+        model_path,
         trust_remote_code=True,
         use_fast=False
     )
