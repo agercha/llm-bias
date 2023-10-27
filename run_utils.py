@@ -49,12 +49,14 @@ def get_ids_with_slices(tokenizer, conv_template, vals1, vals2, device = "cuda:0
     toks2 = tokenizer(conv_template.get_prompt()).input_ids
     slice2 = slice(len(toks1), len(toks2))
 
+    conv_template.messages = []
+
     # return prompt
     return torch.tensor(tokenizer(prompt).input_ids).to(device), slice1, slice2
 
 def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
     
-    all_ids, base_slice, end_slice = get_ids(tokenizer, conv_template, f"{base_strs}{end_strs}")
+    all_ids, base_slice, end_slice = get_ids_with_slices(tokenizer, conv_template, base_strs, end_strs)
     base_ids = all_ids[base_slice]
     end_ids = all_ids[end_slice]
     # all_ids = torch.cat((base_ids, end_ids))
