@@ -28,10 +28,10 @@ def successful(gen_str, success_strs, fail_strs):
     return present and not jailbroken
 
 def get_ids(tokenizer, vals, device = "cuda:0"):
-        return  [torch.tensor(tokenizer(val).input_ids).to(device) for val in vals]
+        return  torch.tensor(tokenizer(vals).input_ids).to(device)
 
 def get_gradients(model, base_ids, end_ids):
-    embed_weights = model.model.embed_tokens.weight()
+    embed_weights = model.model.embed_tokens.weight
 
     # all_ids = torch.cat((base_ids, end_ids))
     

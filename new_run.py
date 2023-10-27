@@ -58,16 +58,16 @@ not_allowed_tokens = get_nonascii_toks(tokenizer)
 
 current_prompt = init_prompt
 
-fail_ids = get_ids(tokenizer, fail_strs)
-success_ids = get_ids(tokenizer, success_strs)
+fail_ids = [get_ids(tokenizer, f) for f in fail_strs]
+success_ids = [get_ids(tokenizer, s) for s in success_strs]
 
 for i in range(1):
     torch.cuda.empty_cache()
     prompt_ids = get_ids(tokenizer, current_prompt)
 
-    success_grads = [get_gradients(model, current_prompt, s) for s in success_strs]
+    success_grads = [get_gradients(model, prompt_ids, s) for s in success_ids]
 
-    fail_grads = [get_gradients(model, current_prompt, f) for f in fail_strs]
+    fail_grads = [get_gradients(model, prompt_ids, f) for f in fail_ids]
 
     # grads = success_grads - fail_grads
     
