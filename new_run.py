@@ -67,9 +67,9 @@ for i in range(1):
     torch.cuda.empty_cache()
     prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
 
-    success_grads = [get_gradients(model, tokenizer, conv_template, prompt_ids, s) for s in success_ids]
+    success_grads = [get_gradients(model, prompt_ids, s) for s in success_ids]
 
-    fail_grads = [get_gradients(model, tokenizer, conv_template, prompt_ids, f) for f in fail_ids]
+    fail_grads = [get_gradients(model, prompt_ids, f) for f in fail_ids]
 
     # grads = success_grads - fail_grads
     
