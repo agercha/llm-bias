@@ -32,9 +32,16 @@ def get_ids(tokenizer, conv_template, vals, device = "cuda:0"):
         prompt = conv_template.get_prompt()
         conv_template.messages = []
 
-        return torch.tensor(tokenizer(vals).input_ids).to(device)
+        # return prompt
+        return torch.tensor(tokenizer(prompt).input_ids).to(device)
 
 def get_gradients(model, base_ids, end_ids):
+    
+    # all_ids = get_ids(tokenizer, conv_template, f"{base_strs}{end_strs}")
+    # base_ids = 
+    # end_ids = 
+    all_ids = torch.cat((base_ids, end_ids))
+
     embed_weights = model.model.embed_tokens.weight
 
     # all_ids = torch.cat((base_ids, end_ids))
@@ -53,7 +60,7 @@ def get_gradients(model, base_ids, end_ids):
     one_hot.requires_grad_()
     input_embeds = (one_hot @ embed_weights).unsqueeze(0)
     
-    end_embeds = model.model.embed_tokens(end_ids.unsqueeze(0)).detach()
+    end_embeds = model.model.embed_tokens(all_ids.unsqueeze(0)).detach()
     full_embeds = torch.cat(
         [
             input_embeds, 
