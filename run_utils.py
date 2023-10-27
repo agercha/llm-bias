@@ -41,7 +41,7 @@ def get_ids_with_slices(tokenizer, conv_template, vals1, vals2, device = "cuda:0
     conv_template.messages = []
 
 
-    conv_template.append_message(f"{vals1}")
+    conv_template.append_message(f"{vals1}", None)
     toks1 = tokenizer(conv_template.get_prompt()).input_ids
     slice1 = slice(0, len(toks1))
 
