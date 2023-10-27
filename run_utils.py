@@ -27,8 +27,12 @@ def successful(gen_str, success_strs, fail_strs):
     print(f'\nPresent: {present} | Jailbroken: {jailbroken}')
     return present and not jailbroken
 
-def get_ids(tokenizer, vals, device = "cuda:0"):
-        return  torch.tensor(tokenizer(vals).input_ids).to(device)
+def get_ids(tokenizer, conv_template, vals, device = "cuda:0"):
+        conv_template.append_message(conv_template.roles[0], vals)
+        prompt = conv_template.get_prompt()
+        conv_template.messages = []
+
+        return torch.tensor(tokenizer(vals).input_ids).to(device)
 
 def get_gradients(model, base_ids, end_ids):
     embed_weights = model.model.embed_tokens.weight
@@ -49,7 +53,7 @@ def get_gradients(model, base_ids, end_ids):
     one_hot.requires_grad_()
     input_embeds = (one_hot @ embed_weights).unsqueeze(0)
     
-    end_embeds = model.model.embed_tokens(end_ids.unsqueeze(0)).detach
+    end_embeds = model.model.embed_tokens(end_ids.unsqueeze(0)).detach()
     full_embeds = torch.cat(
         [
             input_embeds, 
