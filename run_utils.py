@@ -58,6 +58,7 @@ def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
     all_ids, base_slice, end_slice = get_ids_with_slices(tokenizer, conv_template, base_strs, end_strs)
     base_ids = all_ids[base_slice]
     end_ids = all_ids[end_slice]
+    loss_slice = slice(end_ids.start - 1, end_ids.stop - 1)
     # all_ids = torch.cat((base_ids, end_ids))
 
     embed_weights = model.model.embed_tokens.weight
@@ -87,7 +88,7 @@ def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
         dim=1)
     
     logits = model(inputs_embeds=full_embeds).logits
-    loss = torch.nn.CrossEntropyLoss()(logits[0,base_slice,:], end_ids)
+    loss = torch.nn.CrossEntropyLoss()(logits[0,loss_slice,:], end_ids)
     
     loss.backward()
     
