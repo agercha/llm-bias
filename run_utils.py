@@ -109,8 +109,10 @@ def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
     loss = torch.nn.CrossEntropyLoss()(logits[0,loss_slice,:], end_ids)
     
     loss.backward()
+
+    grad = one_hot.grad.clone()
     
-    return one_hot.grad.clone()
+    return grad / grad.norm(dim=-1, keepdim=True)
 
 def bad_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
     print("in bad control")
