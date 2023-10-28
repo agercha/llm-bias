@@ -74,9 +74,12 @@ for i in range(1):
     with torch.no_grad():
 
         # get replacements
-        new_adv_toks = sample_control(prompt_ids, 
+        new_adv_toks = bad_control(prompt_ids, 
                        grads, 
                        nonascii_toks=not_allowed_tokens)
+        # new_adv_toks = sample_control(prompt_ids, 
+        #                grads, 
+        #                nonascii_toks=not_allowed_tokens)
         
         # gets correct len
         new_adv_prompt = get_filtered_cands(tokenizer, 
