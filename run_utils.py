@@ -2,6 +2,7 @@ import torch
 import numpy as np
 import gc
 import torch.nn as nn
+import random
 
 def get_nonascii_toks(tokenizer, device='cpu'):
 
@@ -111,6 +112,24 @@ def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
     
     return one_hot.grad.clone()
 
+def bad_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
+    grad[:, nonascii_toks.to(grad.device)] = np.infty
+
+    top_indices = (-grad).topk(topk, dim=1).indices
+
+    original_toks = toks.repeat(batch_size, 1)
+
+    for i in range(batch_size):
+        replace_ind = random.randint(0, len(toks))
+
+        # new_val_ind = top_indices[random.randint(0, topk)]
+
+        original_toks[i][replace_ind] = top_indices[random.randint(0, topk)]
+
+    return original_toks
+
+
+
 def sample_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
     grad[:, nonascii_toks.to(grad.device)] = np.infty
     
@@ -131,9 +150,10 @@ def sample_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
 
     # torch_randint = selects indices of random top grads
     # new_token_val[i] = top_indices [ top_grads[i] ]
-    rand_inds = torch.randint(0, topk, (batch_size, 1), device=grad.device)
-    new_val_indices = top_indices[rand_inds]
-    print(new_val_indices)
+
+    # rand_inds = torch.randint(0, topk, (batch_size, 1), device=grad.device)
+    # new_val_indices = top_indices[rand_inds]
+    # print(new_val_indices)
 
     new_token_val = torch.gather(
         top_indices[new_token_pos], 1, 
