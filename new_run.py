@@ -75,10 +75,10 @@ for i in range(1):
 
         new_adv_toks = sample_control(prompt_ids, 
                        grads, 
-                       not_allowed_tokens=not_allowed_tokens)
+                       nonascii_toks=not_allowed_tokens)
         
-        # new_adv_prompt = get_filtered_cands(tokenizer, 
-        #                                     new_adv_suffix_toks, 
-        #                                     filter_cand=True, 
-        #                                     curr_control=adv_suffix)
+        new_adv_prompt = get_filtered_cands(tokenizer, 
+                                            new_adv_toks, 
+                                            filter_cand=True, 
+                                            curr_control=current_prompt)
         
