@@ -122,11 +122,13 @@ def bad_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
 
     for i in range(batch_size):
         print(i)
-        replace_ind = random.randint(0, len(toks))
+        replace_ind = random.randint(0, len(toks) - 1)
 
         # new_val_ind = top_indices[random.randint(0, topk)]
 
-        original_toks[i][replace_ind] = top_indices[random.randint(0, topk)]
+        print(original_toks.shape)
+        print(top_indices.shape)
+        original_toks[i][replace_ind] = top_indices[random.randint(0, topk - 1)]
 
     return original_toks
 
