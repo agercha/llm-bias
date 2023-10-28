@@ -1,5 +1,7 @@
 import torch
 import numpy as np
+import gc
+import torch.nn as nn
 
 def get_nonascii_toks(tokenizer, device='cpu'):
 
@@ -21,6 +23,23 @@ def get_nonascii_toks(tokenizer, device='cpu'):
         ascii_toks.append(tokenizer.unk_token_id)
     
     return torch.tensor(ascii_toks, device=device)
+
+def generate(model, tokenizer, input_ids, gen_config=None):
+    if gen_config is None:
+        gen_config = model.generation_config
+        gen_config.max_new_tokens = 32
+
+    # if gen_config.max_new_tokens > 50:
+    #     print('WARNING: max_new_tokens > 32 may cause testing to slow down.')
+        
+    input_ids = input_ids.to(model.device).unsqueeze(0)
+    attn_masks = torch.ones_like(input_ids).to(model.device)
+    output_ids = model.generate(input_ids, 
+                                attention_mask=attn_masks, 
+                                generation_config=gen_config,
+                                pad_token_id=tokenizer.pad_token_id)[0]
+
+    return output_ids
 
 def successful(gen_str, success_strs, fail_strs):
     jailbroken = any([prefix in gen_str for prefix in fail_strs])
@@ -92,7 +111,7 @@ def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
     
     return one_hot.grad.clone()
 
-def sample_control(toks, grad, nonascii_toks, batch_size=256, topk=256, temp=1):
+def sample_control(toks, grad, nonascii_toks, batch_size=512, topk=256, temp=1):
     grad[:, nonascii_toks.to(grad.device)] = np.infty
     
     top_indices = (-grad).topk(topk, dim=1).indices
@@ -130,3 +149,62 @@ def get_filtered_cands(tokenizer, control_cand, filter_cand=True, curr_control=N
     if filter_cand:
         cands = cands + [cands[-1]] * (len(control_cand) - len(cands))
     return cands
+
+def forward(*, model, input_ids, attention_mask, batch_size=512):
+
+    logits = []
+    for i in range(0, input_ids.shape[0], batch_size):
+        
+        batch_input_ids = input_ids[i:i+batch_size]
+        if attention_mask is not None:
+            batch_attention_mask = attention_mask[i:i+batch_size]
+        else:
+            batch_attention_mask = None
+
+        logits.append(model(input_ids=batch_input_ids, attention_mask=batch_attention_mask).logits)
+
+        gc.collect()
+
+    del batch_input_ids, batch_attention_mask
+    
+    return torch.cat(logits, dim=0)
+
+def get_loss(model, tokenizer, conv_template, base_strs, end_strs, test_controls, batch_size=512):
+    # control slice? the prompt slice
+    # test control = new_adv_prompt
+    # return ids TRUE
+
+    all_ids, base_slice, end_slice = get_ids_with_slices(tokenizer, conv_template, base_strs, end_strs)
+    base_ids = all_ids[base_slice]
+    end_ids = all_ids[end_slice]
+
+    max_len = base_slice.stop - base_slice.start
+    test_ids = [
+        torch.tensor(tokenizer(control, add_special_tokens=False).input_ids[:max_len], device=model.device)
+        for control in test_controls
+    ]
+    pad_tok = 0
+    while pad_tok in all_ids or any([pad_tok in ids for ids in test_ids]):
+        pad_tok += 1
+    nested_ids = torch.nested.nested_tensor(test_ids)
+    test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(test_ids), max_len))
+
+    locs = torch.arange(base_slice.start, base_slice.stop).repeat(test_ids.shape[0], 1).to(model.device)
+    ids = torch.scatter(
+        all_ids.unsqueeze(0).repeat(test_ids.shape[0], 1).to(model.device),
+        1,
+        locs,
+        test_ids
+    )
+    if pad_tok >= 0:
+        attn_mask = (ids != pad_tok).type(ids.dtype)
+    else:
+        attn_mask = None
+
+    del locs, test_ids ; gc.collect()
+    logits = forward(model=model, input_ids=ids, attention_mask=attn_mask, batch_size=batch_size), ids
+
+    crit = nn.CrossEntropyLoss(reduction='none')
+    loss_slice = slice(end_slice.start-1, end_slice.stop-1)
+    loss = crit(logits[:,loss_slice,:].transpose(1,2), ids[:,end_slice])
+    return loss.mean(dim=-1)

@@ -73,12 +73,44 @@ for i in range(1):
 
     with torch.no_grad():
 
+        # get replacements
         new_adv_toks = sample_control(prompt_ids, 
                        grads, 
                        nonascii_toks=not_allowed_tokens)
         
+        # gets correct len
         new_adv_prompt = get_filtered_cands(tokenizer, 
                                             new_adv_toks, 
                                             filter_cand=True, 
                                             curr_control=current_prompt)
         
+        success_losses = [get_loss() for s in success_ids]
+        fail_losses = [get_loss() for f in fail_ids]
+
+        losses = sum(success_losses) - sum(fail_losses) 
+
+        best_new_adv_prompt_id = losses.argmin()
+        best_new_adv_prompt = new_adv_prompt[best_new_adv_prompt_id]
+
+        current_prompt = best_new_adv_prompt
+
+        res = tokenizer.decode(generate(model, 
+                                        tokenizer, 
+                                        current_prompt, 
+                                        )).strip()
+        
+        is_success = successful(res)
+
+    print(f"\nPassed:{is_success}\nCurrent Suffix:{best_new_adv_prompt}", end='\r')
+
+    if is_success:
+        break
+
+final_prompt = get_ids(tokenizer, conv_template, current_prompt)
+
+gen_config = model.generation_config
+gen_config.max_new_tokens = 256
+
+completion = tokenizer.decode((generate(model, tokenizer, final_prompt, gen_config=gen_config))).strip()
+
+print(f"\nCompletion: {completion}")
