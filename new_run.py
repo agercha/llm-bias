@@ -87,8 +87,8 @@ for i in range(1):
                                             filter_cand=True, 
                                             curr_control=current_prompt)
         
-        success_losses = [get_loss() for s in success_ids]
-        fail_losses = [get_loss() for f in fail_ids]
+        success_losses = [get_loss (model, tokenizer, conv_template, success_strs, s, new_adv_prompt) for s in success_strs]
+        fail_losses = [get_loss (model, tokenizer, conv_template, success_strs, f, new_adv_prompt) for f in fail_strs]
 
         losses = sum(success_losses) - sum(fail_losses) 
 

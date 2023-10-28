@@ -115,7 +115,7 @@ def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
     return grad / grad.norm(dim=-1, keepdim=True)
 
 def bad_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
-    print("in bad control")
+    # print("in bad control")
     grad[:, nonascii_toks.to(grad.device)] = np.infty
 
     top_indices = (-grad).topk(topk, dim=1).indices
@@ -123,14 +123,14 @@ def bad_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
     original_toks = toks.repeat(batch_size, 1)
 
     for i in range(batch_size):
-        print(i)
-        replace_ind = random.randint(0, len(toks) - 1)
+        # print(i)
+        # replace_ind = random.randint(0, len(toks) - 1)
 
         # new_val_ind = top_indices[random.randint(0, topk)]
 
-        print(original_toks.shape)
-        print(top_indices.shape)
-        original_toks[i][replace_ind] = top_indices[random.randint(0, topk - 1)]
+        # print(original_toks.shape)
+        # print(top_indices.shape)
+        original_toks[i][random.randint(0, len(toks) - 1)] = top_indices[random.randint(0, top_indices.shape[0] - 1)][random.randint(0, topk - 1)]
 
     return original_toks
 
