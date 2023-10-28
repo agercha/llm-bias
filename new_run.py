@@ -69,5 +69,16 @@ for i in range(1):
 
     fail_grads = [get_gradients(model, tokenizer, conv_template, current_prompt, f) for f in fail_strs]
 
-    # grads = success_grads - fail_grads
-    
+    grads = sum(success_grads) - sum(fail_grads)
+
+    with torch.no_grad():
+
+        new_adv_toks = sample_control(prompt_ids, 
+                       grads, 
+                       not_allowed_tokens=not_allowed_tokens)
+        
+        # new_adv_prompt = get_filtered_cands(tokenizer, 
+        #                                     new_adv_suffix_toks, 
+        #                                     filter_cand=True, 
+        #                                     curr_control=adv_suffix)
+        

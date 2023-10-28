@@ -1,4 +1,5 @@
 import torch
+import numpy as np
 
 def get_nonascii_toks(tokenizer, device='cpu'):
 
@@ -90,3 +91,28 @@ def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
     loss.backward()
     
     return one_hot.grad.clone()
+
+def sample_control(toks, grad, nonascii_toks, batch_size=256, topk=256, temp=1):
+    grad[:, nonascii_toks.to(grad.device)] = np.infty
+    
+    top_indices = (-grad).topk(topk, dim=1).indices
+
+    toks = toks.to(grad.device)
+
+    original_toks = toks.repeat(batch_size, 1)
+    new_token_pos = torch.arange(
+        0, 
+        len(toks), 
+        len(toks) / batch_size,
+        device=grad.device
+    ).type(torch.int64)
+    new_token_val = torch.gather(
+        top_indices[new_token_pos], 1, 
+        torch.randint(0, topk, (batch_size, 1),
+        device=grad.device)
+    )
+    new_control_toks = original_toks.scatter_(1, new_token_pos.unsqueeze(-1), new_token_val)
+
+    return new_control_toks
+    
+# def get_filtered_cands():
