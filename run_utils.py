@@ -111,25 +111,37 @@ def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
     
     return one_hot.grad.clone()
 
-def sample_control(toks, grad, nonascii_toks, batch_size=512, topk=256, temp=1):
+def sample_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
     grad[:, nonascii_toks.to(grad.device)] = np.infty
     
     top_indices = (-grad).topk(topk, dim=1).indices
 
     toks = toks.to(grad.device)
 
+    # repeat prompt batch size times = [[toks], [toks], .... , [toks]]
     original_toks = toks.repeat(batch_size, 1)
+
+    # positions of [0, len(toks)/batch_size, 2*len(toks)/batch_size, ... , len(toks)]
     new_token_pos = torch.arange(
         0, 
         len(toks), 
         len(toks) / batch_size,
         device=grad.device
     ).type(torch.int64)
+
+    # torch_randint = selects indices of random top grads
+    # new_token_val[i] = top_indices [ top_grads[i] ]
+    rand_inds = torch.randint(0, topk, (batch_size, 1), device=grad.device)
+    new_val_indices = top_indices[rand_inds]
+    print(new_val_indices)
+
     new_token_val = torch.gather(
         top_indices[new_token_pos], 1, 
         torch.randint(0, topk, (batch_size, 1),
         device=grad.device)
     )
+
+    # replace values at new positions with new token vals
     new_control_toks = original_toks.scatter_(1, new_token_pos.unsqueeze(-1), new_token_val)
 
     return new_control_toks
