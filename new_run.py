@@ -61,7 +61,7 @@ current_prompt = init_prompt
 fail_ids = [get_ids(tokenizer, conv_template, f) for f in fail_strs]
 success_ids = [get_ids(tokenizer, conv_template, s) for s in success_strs]
 
-for i in range(1):
+for i in range(10):
     torch.cuda.empty_cache()
     prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
 
@@ -98,12 +98,11 @@ for i in range(1):
         current_prompt = best_new_adv_prompt
 
         res = tokenizer.decode(generate(model, 
-                                        tokenizer, 
-                                        conv_template, 
-                                        current_prompt, 
+                                        tokenizer,  
+                                        get_ids(tokenizer, conv_template, current_prompt), 
                                         )).strip()
         
-        is_success = successful(res)
+        is_success = successful(res, success_strs, fail_strs)
 
     print(f"\nPassed:{is_success}\nCurrent Suffix:{best_new_adv_prompt}", end='\r')
 
@@ -115,6 +114,6 @@ final_prompt = get_ids(tokenizer, conv_template, current_prompt)
 gen_config = model.generation_config
 gen_config.max_new_tokens = 256
 
-completion = tokenizer.decode((generate(model, tokenizer, conv_template, final_prompt, gen_config=gen_config))).strip()
+completion = tokenizer.decode((generate(model, tokenizer, final_prompt, gen_config=gen_config))).strip()
 
 print(f"\nCompletion: {completion}")

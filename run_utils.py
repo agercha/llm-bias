@@ -25,8 +25,8 @@ def get_nonascii_toks(tokenizer, device='cpu'):
     
     return torch.tensor(ascii_toks, device=device)
 
-def generate(model, tokenizer, conv_template, input_strs, gen_config=None):
-    input_ids = get_ids(tokenizer, conv_template, input_strs, device = "cuda:0")
+def generate(model, tokenizer, input_ids, gen_config=None):
+    # input_ids = get_ids(tokenizer, conv_template, input_strs, device = "cuda:0")
 
     if gen_config is None:
         gen_config = model.generation_config
