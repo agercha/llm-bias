@@ -119,13 +119,15 @@ def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
 
 def get_replacements(curr_prompt, batch_size=512):
     prompt_words = curr_prompt.split()
+    # perhaps use wup_similarity
     # original_toks = prompt_words.repeat(batch_size, 1)
     
     for _ in range(batch_size):
         replace_ind = random.randint(0, len(prompt_words) - 1)
         old_word = prompt_words[replace_ind]
         print(old_word)
-        arr = wordnet.synsets(old_word)
+        raw_arr = wordnet.synsets(old_word)
+        arr = [word.name() for word in raw_arr]
         print(arr)
 
     # return original_toks
