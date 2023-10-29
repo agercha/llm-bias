@@ -25,7 +25,9 @@ def get_nonascii_toks(tokenizer, device='cpu'):
     
     return torch.tensor(ascii_toks, device=device)
 
-def generate(model, tokenizer, input_ids, gen_config=None):
+def generate(model, tokenizer, conv_template, input_strs, gen_config=None):
+    input_ids = get_ids(tokenizer, conv_template, input_strs, device = "cuda:0")
+
     if gen_config is None:
         gen_config = model.generation_config
         gen_config.max_new_tokens = 32
@@ -49,12 +51,12 @@ def successful(gen_str, success_strs, fail_strs):
     return present and not jailbroken
 
 def get_ids(tokenizer, conv_template, vals, device = "cuda:0"):
-        conv_template.append_message(conv_template.roles[0], vals)
-        prompt = conv_template.get_prompt()
-        conv_template.messages = []
+    conv_template.append_message(conv_template.roles[0], vals)
+    prompt = conv_template.get_prompt()
+    conv_template.messages = []
 
-        # return prompt
-        return torch.tensor(tokenizer(prompt).input_ids).to(device)
+    # return prompt
+    return torch.tensor(tokenizer(prompt).input_ids).to(device)
 
 def get_ids_with_slices(tokenizer, conv_template, vals1, vals2, device = "cuda:0"):
     conv_template.append_message(conv_template.roles[0], f"{vals1} {vals2}")
@@ -115,7 +117,6 @@ def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
     return grad / grad.norm(dim=-1, keepdim=True)
 
 def bad_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
-    # print("in bad control")
     grad[:, nonascii_toks.to(grad.device)] = np.infty
 
     top_indices = (-grad).topk(topk, dim=1).indices
@@ -123,13 +124,7 @@ def bad_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
     original_toks = toks.repeat(batch_size, 1)
 
     for i in range(batch_size):
-        # print(i)
-        # replace_ind = random.randint(0, len(toks) - 1)
-
-        # new_val_ind = top_indices[random.randint(0, topk)]
-
-        # print(original_toks.shape)
-        # print(top_indices.shape)
+        # TODO FIX first index, no clue why it is this
         original_toks[i][random.randint(0, len(toks) - 1)] = top_indices[random.randint(0, top_indices.shape[0] - 1)][random.randint(0, topk - 1)]
 
     return original_toks
@@ -240,7 +235,7 @@ def get_loss(model, tokenizer, conv_template, base_strs, end_strs, test_controls
         attn_mask = None
 
     del locs, test_ids ; gc.collect()
-    logits = forward(model=model, input_ids=ids, attention_mask=attn_mask, batch_size=batch_size), ids
+    logits = forward(model=model, input_ids=ids, attention_mask=attn_mask, batch_size=batch_size)
 
     crit = nn.CrossEntropyLoss(reduction='none')
     loss_slice = slice(end_slice.start-1, end_slice.stop-1)

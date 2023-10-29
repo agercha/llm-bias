@@ -87,8 +87,8 @@ for i in range(1):
                                             filter_cand=True, 
                                             curr_control=current_prompt)
         
-        success_losses = [get_loss (model, tokenizer, conv_template, success_strs, s, new_adv_prompt) for s in success_strs]
-        fail_losses = [get_loss (model, tokenizer, conv_template, success_strs, f, new_adv_prompt) for f in fail_strs]
+        success_losses = [get_loss (model, tokenizer, conv_template, current_prompt, s, new_adv_prompt) for s in success_strs]
+        fail_losses = [get_loss (model, tokenizer, conv_template, current_prompt, f, new_adv_prompt) for f in fail_strs]
 
         losses = sum(success_losses) - sum(fail_losses) 
 
@@ -99,6 +99,7 @@ for i in range(1):
 
         res = tokenizer.decode(generate(model, 
                                         tokenizer, 
+                                        conv_template, 
                                         current_prompt, 
                                         )).strip()
         
@@ -114,6 +115,6 @@ final_prompt = get_ids(tokenizer, conv_template, current_prompt)
 gen_config = model.generation_config
 gen_config.max_new_tokens = 256
 
-completion = tokenizer.decode((generate(model, tokenizer, final_prompt, gen_config=gen_config))).strip()
+completion = tokenizer.decode((generate(model, tokenizer, conv_template, final_prompt, gen_config=gen_config))).strip()
 
 print(f"\nCompletion: {completion}")
