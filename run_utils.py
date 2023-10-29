@@ -3,6 +3,7 @@ import numpy as np
 import gc
 import torch.nn as nn
 import random
+from nltk.corpus import wordnet 
 
 def get_nonascii_toks(tokenizer, device='cpu'):
 
@@ -115,6 +116,19 @@ def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
     grad = one_hot.grad.clone()
     
     return grad / grad.norm(dim=-1, keepdim=True)
+
+def get_replacements(curr_prompt, batch_size=512):
+    prompt_words = curr_prompt.split()
+    # original_toks = prompt_words.repeat(batch_size, 1)
+    
+    for _ in range(batch_size):
+        replace_ind = random.randint(0, len(curr_prompt) - 1)
+        old_word = prompt_words[replace_ind]
+        print(old_word)
+        arr = wordnet.synsets(old_word)
+        print(arr)
+
+    # return original_toks
 
 def bad_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
     grad[:, nonascii_toks.to(grad.device)] = np.infty

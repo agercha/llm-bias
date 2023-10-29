@@ -72,6 +72,7 @@ for i in range(10):
     grads = sum(success_grads) - sum(fail_grads)
 
     with torch.no_grad():
+        get_replacements(current_prompt)
 
         # get replacements
         new_adv_toks = bad_control(prompt_ids, 
@@ -104,7 +105,7 @@ for i in range(10):
         
         is_success = successful(res, success_strs, fail_strs)
 
-    print(f"\nPassed:{is_success}\nCurrent Suffix:{best_new_adv_prompt}", end='\r')
+    print(f"\nPassed:{is_success}\nCurrent Prompt:{best_new_adv_prompt}")
 
     if is_success:
         break
