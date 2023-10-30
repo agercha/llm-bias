@@ -91,7 +91,7 @@ for i in range(10):
         # gets correct len
         new_adv_prompt = get_filtered_cands(tokenizer, 
                                             new_adv_toks, 
-                                            filter_cand=True, 
+                                            filter_cand=False, 
                                             curr_control=current_prompt)
         
         success_losses = [get_loss (model, tokenizer, conv_template, current_prompt, s, new_adv_prompt) for s in success_strs]
