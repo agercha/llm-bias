@@ -154,12 +154,21 @@ def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=512, topk=256):
 
     for i in range(batch_size):
         # TODO FIX first index, no clue why it is this
-        old_ind = random.randint(0, len(toks) - 1)
-        old_id = original_toks[i][old_ind]
-        old_word_str = tokenizer.decode(old_id)
-        new_id = top_indices[random.randint(0, top_indices.shape[0] - 1)][random.randint(0, topk - 1)]
-        new_word_str = tokenizer.decode(new_id)
-        print(old_word_str, new_word_str)
+        while True:
+            old_ind = random.randint(0, len(toks) - 1)
+            old_id = original_toks[i][old_ind]
+            old_word_str = tokenizer.decode(old_id)
+            new_id = top_indices[random.randint(0, top_indices.shape[0] - 1)][random.randint(0, topk - 1)]
+            new_word_str = tokenizer.decode(new_id)
+            old_wordsets = wordnet.synsets(old_word_str)
+            new_wordsets = wordnet.synsets(new_word_str)
+            if old_wordsets != [] and new_wordsets != []:
+                best_old_wordset = old_wordsets[0]
+                best_new_wordset = new_wordsets[0]
+                sim = best_old_wordset.path_similarity(best_new_wordset)
+                print(f"w1: {old_word_str} | w2: {new_word_str} | sim: {sim}")
+                if sim > 0.5:
+                    break
 
         original_toks[i][old_ind] = new_id
 
