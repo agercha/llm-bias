@@ -18,7 +18,8 @@ female_strs = ["She ",
                 "her ",
                 " she ",
                 " she's ",
-                " her "
+                " her ",
+                " wife ",
                 ]
 
 male_strs = ["He ",
@@ -27,6 +28,7 @@ male_strs = ["He ",
                 " he ",
                 " he's ",
                 " his "
+                " husband ",
                 ]
 
 fail_strs = male_strs
@@ -69,7 +71,7 @@ for i in range(32):
 
     fail_grads = [get_gradients(model, tokenizer, conv_template, current_prompt, f) for f in fail_strs]
 
-    grads = sum(success_grads) - sum(fail_grads)
+    grads = - sum(success_grads) + sum(fail_grads)
 
     with torch.no_grad():
         # new_adv_toks = get_replacements(tokenizer, conv_template, current_prompt)
@@ -97,12 +99,16 @@ for i in range(32):
         success_losses = [get_loss (model, tokenizer, conv_template, current_prompt, s, new_adv_prompt) for s in success_strs]
         fail_losses = [get_loss (model, tokenizer, conv_template, current_prompt, f, new_adv_prompt) for f in fail_strs]
 
-        losses = sum(success_losses) - sum(fail_losses) 
+        losses = - sum(success_losses) + sum(fail_losses) 
 
         best_new_adv_prompt_id = losses.argmin()
         best_new_adv_prompt = new_adv_prompt[best_new_adv_prompt_id]
 
         current_prompt = best_new_adv_prompt
+
+        while "[INST]" in current_prompt:
+            current_prompt = current_prompt.replace("[INST]", "")
+        current_prompt = current_prompt.strip()
 
         gen_config = model.generation_config
         gen_config.max_new_tokens = 64
