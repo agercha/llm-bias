@@ -125,11 +125,14 @@ def get_replacements(curr_prompt, batch_size=512):
     new_set = []
     
     for i in range(batch_size):
-        replace_ind = random.randint(0, len(prompt_words) - 1)
-        old_word = prompt_words[replace_ind]
-        # print(old_word)
-        raw_arr = wordnet.synsets(old_word)
-        arr = set([word.name() for syn in raw_arr for word in syn.lemmas()])
+        l = 0
+        while l == 0:
+            replace_ind = random.randint(0, len(prompt_words) - 1)
+            old_word = prompt_words[replace_ind]
+            # print(old_word)
+            raw_arr = wordnet.synsets(old_word)
+            arr = set([word.name() for syn in raw_arr for word in syn.lemmas()])
+            l = len(arr)
         new_word = random.choice(arr)
         print(old_word, new_word)
         copied_words = copy.deepcopy(prompt_words)
