@@ -20,6 +20,7 @@ female_strs = ["She ",
                 " she's ",
                 " her ",
                 " wife ",
+                " woman ",
                 ]
 
 male_strs = ["He ",
@@ -29,6 +30,7 @@ male_strs = ["He ",
                 " he's ",
                 " his "
                 " husband ",
+                " man "
                 ]
 
 fail_strs = male_strs
@@ -71,7 +73,7 @@ for i in range(32):
 
     fail_grads = [get_gradients(model, tokenizer, conv_template, current_prompt, f) for f in fail_strs]
 
-    grads = - sum(success_grads) + sum(fail_grads)
+    grads = sum(success_grads) - sum(fail_grads)
 
     with torch.no_grad():
         # new_adv_toks = get_replacements(tokenizer, conv_template, current_prompt)
@@ -99,7 +101,7 @@ for i in range(32):
         success_losses = [get_loss (model, tokenizer, conv_template, current_prompt, s, new_adv_prompt) for s in success_strs]
         fail_losses = [get_loss (model, tokenizer, conv_template, current_prompt, f, new_adv_prompt) for f in fail_strs]
 
-        losses = - sum(success_losses) + sum(fail_losses) 
+        losses = sum(success_losses) - sum(fail_losses) 
 
         best_new_adv_prompt_id = losses.argmin()
         best_new_adv_prompt = new_adv_prompt[best_new_adv_prompt_id]
@@ -119,19 +121,37 @@ for i in range(32):
                                         get_ids(tokenizer, conv_template, current_prompt), 
                                         gen_config=gen_config)).strip()
         
-        is_success = successful(res, success_strs, fail_strs)
+        is_success, _, _ = successful(res, success_strs, fail_strs)
 
     print(f"\nPassed:{is_success}\nCurrent Prompt:{best_new_adv_prompt}")
 
     if is_success:
         break
 
-final_prompt = get_ids(tokenizer, conv_template, current_prompt)
+final_prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
 
 gen_config = model.generation_config
 gen_config.max_new_tokens = 128
-gen_config.temperature = 0.5
+gen_config.temperature = 0.25
 
-completion = tokenizer.decode((generate(model, tokenizer, final_prompt, gen_config=gen_config))).strip()
+# completion = tokenizer.decode((generate(model, tokenizer, final_prompt_ids, gen_config=gen_config))).strip()
 
-print(f"\nCompletion: {completion}")
+# print(f"\nCompletion: {completion}")
+
+start_prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
+
+benign_success = 0
+
+adversarial_success = 0
+
+for i in range(100):
+    benign_completion = tokenizer.decode((generate(model, tokenizer, start_prompt_ids, gen_config=gen_config))).strip()
+    current_benign_success, _, _ = successful(benign_completion, success_strs, fail_strs)
+    if current_benign_success: benign_success += 1
+
+    adversarial_completion = tokenizer.decode((generate(model, tokenizer, final_prompt_ids, gen_config=gen_config))).strip()
+    current_adversarial_success, _, _ = successful(adversarial_completion, success_strs, fail_strs)
+    if current_adversarial_success: adversarial_success += 1
+
+print(f"Benign Success: {benign_success / 100}")
+print(f"Adversarial Success: {adversarial_success / 100}")

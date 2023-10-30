@@ -62,7 +62,7 @@ def successful(gen_str, success_strs, fail_strs):
             present = True
     print(f"\nCompletion: {gen_str}")
     print(f'Present: {present} {present_ex}| Jailbroken: {jailbroken} {jailbroken_ex}')
-    return present and not jailbroken
+    return present and not jailbroken, present, jailbroken
 
 def get_ids(tokenizer, conv_template, vals, device = "cuda:0"):
     conv_template.append_message(conv_template.roles[0], vals)
@@ -157,7 +157,7 @@ def get_replacements(tokenizer, conv_template, curr_prompt, batch_size=512, devi
 
     return torch.Tensor(new_set).to(device)
 
-def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=16, topk=10000):
+def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=8, topk=10000):
     grad[:, nonascii_toks.to(grad.device)] = np.infty
 
     top_indices = (-grad).topk(topk, dim=1).indices
@@ -178,7 +178,7 @@ def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=16, topk=10000)
                 best_old_wordset = old_wordsets[0]
                 best_new_wordset = new_wordsets[0]
                 sim = best_old_wordset.path_similarity(best_new_wordset)
-                if sim != None and sim > 0.5:
+                if sim != None and sim == 1 and new_id != old_id:
                     print(f"w1: {old_word_str} | w2: {new_word_str} | sim: {sim}")
                     break
 
@@ -240,7 +240,7 @@ def get_filtered_cands(tokenizer, control_cand, filter_cand=True, curr_control=N
         cands = cands + [cands[-1]] * (len(control_cand) - len(cands))
     return cands
 
-def forward(*, model, input_ids, attention_mask, batch_size=10000):
+def forward(*, model, input_ids, attention_mask, batch_size=8):
 
     logits = []
     for i in range(0, input_ids.shape[0], batch_size):
@@ -259,7 +259,7 @@ def forward(*, model, input_ids, attention_mask, batch_size=10000):
     
     return torch.cat(logits, dim=0)
 
-def get_loss(model, tokenizer, conv_template, base_strs, end_strs, test_controls, batch_size=512):
+def get_loss(model, tokenizer, conv_template, base_strs, end_strs, test_controls, batch_size=8):
     # control slice? the prompt slice
     # test control = new_adv_prompt
     # return ids TRUE
