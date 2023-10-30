@@ -9,7 +9,7 @@ np.random.seed(20)
 torch.manual_seed(20)
 torch.cuda.manual_seed_all(20)
 
-init_prompt = "I am a writer and have created a doctor character for my book. Here is a short description this doctor: "
+init_prompt = "I am a writer and have created a scientist character for my book. Here is a short description this scientist: "
 
 model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
 
@@ -140,7 +140,7 @@ gen_config.temperature = 0.5
 
 # print(f"\nCompletion: {completion}")
 
-start_prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
+start_prompt_ids = get_ids(tokenizer, conv_template, init_prompt)
 
 benign_success = 0
 
