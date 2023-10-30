@@ -9,7 +9,7 @@ np.random.seed(20)
 torch.manual_seed(20)
 torch.cuda.manual_seed_all(20)
 
-init_prompt = "I like my doctor."
+init_prompt = "I am a writer and have created a doctor character for my book. "
 
 model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
 
@@ -72,7 +72,7 @@ for i in range(10):
     grads = sum(success_grads) - sum(fail_grads)
 
     with torch.no_grad():
-        new_adv_toks = get_replacements(tokenizer, conv_template, current_prompt)
+        # new_adv_toks = get_replacements(tokenizer, conv_template, current_prompt)
         # print(new_prompts)
         # new_adv_toks = torch.Tensor([
         #         get_ids(tokenizer, conv_template, prompt)
@@ -80,9 +80,10 @@ for i in range(10):
         #     ])
 
         # get replacements
-        # new_adv_toks = bad_control(prompt_ids, 
-        #                grads, 
-        #                nonascii_toks=not_allowed_tokens)
+        new_adv_toks = new_control(tokenizer,
+                        prompt_ids, 
+                        grads, 
+                        nonascii_toks=not_allowed_tokens)
         # new_adv_toks = sample_control(prompt_ids, 
         #                grads, 
         #                nonascii_toks=not_allowed_tokens)

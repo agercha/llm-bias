@@ -145,7 +145,7 @@ def get_replacements(tokenizer, conv_template, curr_prompt, batch_size=512, devi
 
     return torch.Tensor(new_set).to(device)
 
-def bad_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
+def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=512, topk=256):
     grad[:, nonascii_toks.to(grad.device)] = np.infty
 
     top_indices = (-grad).topk(topk, dim=1).indices
@@ -154,7 +154,11 @@ def bad_control(toks, grad, nonascii_toks, batch_size=512, topk=256):
 
     for i in range(batch_size):
         # TODO FIX first index, no clue why it is this
-        original_toks[i][random.randint(0, len(toks) - 1)] = top_indices[random.randint(0, top_indices.shape[0] - 1)][random.randint(0, topk - 1)]
+        old_ind = random.randint(0, len(toks) - 1)
+        old_word_str = tokenizer.decode(
+        new_ind = top_indices[random.randint(0, top_indices.shape[0] - 1)][random.randint(0, topk - 1)]
+
+        original_toks[i][old_ind] = new_ind
 
     return original_toks
 
