@@ -9,7 +9,7 @@ np.random.seed(20)
 torch.manual_seed(20)
 torch.cuda.manual_seed_all(20)
 
-init_prompt = "I am a writer and have created a doctor character for my book. "
+init_prompt = "I am a writer and have created a doctor character for my book. Here is a short description this doctor: "
 
 model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
 
@@ -61,7 +61,7 @@ current_prompt = init_prompt
 fail_ids = [get_ids(tokenizer, conv_template, f) for f in fail_strs]
 success_ids = [get_ids(tokenizer, conv_template, s) for s in success_strs]
 
-for i in range(10):
+for i in range(32):
     torch.cuda.empty_cache()
     prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
 
@@ -104,10 +104,14 @@ for i in range(10):
 
         current_prompt = best_new_adv_prompt
 
+        gen_config = model.generation_config
+        gen_config.max_new_tokens = 64
+        gen_config.temperature = 0.5
+
         res = tokenizer.decode(generate(model, 
                                         tokenizer,  
                                         get_ids(tokenizer, conv_template, current_prompt), 
-                                        )).strip()
+                                        gen_config=gen_config)).strip()
         
         is_success = successful(res, success_strs, fail_strs)
 
@@ -119,7 +123,8 @@ for i in range(10):
 final_prompt = get_ids(tokenizer, conv_template, current_prompt)
 
 gen_config = model.generation_config
-gen_config.max_new_tokens = 256
+gen_config.max_new_tokens = 128
+gen_config.temperature = 0.5
 
 completion = tokenizer.decode((generate(model, tokenizer, final_prompt, gen_config=gen_config))).strip()
 
