@@ -72,12 +72,17 @@ for i in range(10):
     grads = sum(success_grads) - sum(fail_grads)
 
     with torch.no_grad():
-        get_replacements(current_prompt)
+        new_prompts = get_replacements(current_prompt)
+        print(new_prompts)
+        new_adv_toks = torch.Tensor([
+                get_ids(tokenizer, conv_template, prompt)
+                for prompt in new_prompts
+            ])
 
         # get replacements
-        new_adv_toks = bad_control(prompt_ids, 
-                       grads, 
-                       nonascii_toks=not_allowed_tokens)
+        # new_adv_toks = bad_control(prompt_ids, 
+        #                grads, 
+        #                nonascii_toks=not_allowed_tokens)
         # new_adv_toks = sample_control(prompt_ids, 
         #                grads, 
         #                nonascii_toks=not_allowed_tokens)
