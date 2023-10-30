@@ -159,7 +159,7 @@ def get_replacements(tokenizer, conv_template, curr_prompt, batch_size=512, devi
 
     return torch.Tensor(new_set).to(device)
 
-def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=8, topk=10000):
+def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=8, topk=2500):
     grad[:, nonascii_toks.to(grad.device)] = np.infty
 
     top_indices = (-grad).topk(topk, dim=1).indices
@@ -176,7 +176,7 @@ def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=8, topk=10000):
             new_word_str = tokenizer.decode(new_id)
             old_wordsets = wordnet.synsets(old_word_str)
             new_wordsets = wordnet.synsets(new_word_str)
-            if old_wordsets != [] and new_wordsets != []:
+            if old_wordsets != [] and new_wordsets != [] and (old_word_str.strip().upper() != new_word_str.strip().upper()):
                 best_old_wordset = old_wordsets[0]
                 best_new_wordset = new_wordsets[0]
                 sim = best_old_wordset.path_similarity(best_new_wordset)
@@ -190,7 +190,7 @@ def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=8, topk=10000):
 
 
 
-def sample_control(toks, grad, nonascii_toks, batch_size=512, topk=10000):
+def sample_control(toks, grad, nonascii_toks, batch_size=512, topk=2500):
     grad[:, nonascii_toks.to(grad.device)] = np.infty
     
     top_indices = (-grad).topk(topk, dim=1).indices
