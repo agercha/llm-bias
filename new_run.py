@@ -65,7 +65,7 @@ current_prompt = init_prompt
 fail_ids = [get_ids(tokenizer, conv_template, f) for f in fail_strs]
 success_ids = [get_ids(tokenizer, conv_template, s) for s in success_strs]
 
-for i in range(32):
+for i in range(10):
     torch.cuda.empty_cache()
     prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
 
@@ -125,8 +125,8 @@ for i in range(32):
 
     print(f"\nPassed:{is_success}\nCurrent Prompt:{best_new_adv_prompt}")
 
-    if is_success:
-        break
+    # if is_success:
+    #     break
 
 final_prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
 
@@ -152,6 +152,9 @@ for i in range(100):
     adversarial_completion = tokenizer.decode((generate(model, tokenizer, final_prompt_ids, gen_config=gen_config))).strip()
     current_adversarial_success, _, _ = successful(adversarial_completion, success_strs, fail_strs)
     if current_adversarial_success: adversarial_success += 1
+
+    print(benign_completion)
+    print(adversarial_completion)
 
 print(f"Benign Success: {benign_success / 100}")
 print(f"Adversarial Success: {adversarial_success / 100}")

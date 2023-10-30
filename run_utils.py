@@ -49,7 +49,8 @@ def generate(model, tokenizer, input_ids, gen_config=None):
 def successful(gen_str, success_strs, fail_strs):
     jailbroken = False
     jailbroken_ex = None
-    gen_arr = gen_str.split()
+    gen_str_unpunctuated = ''.join(filter(lambda x: x.isalpha() or x.isdigit() or x.isspace(), gen_str_unpunctuated))
+    gen_arr = gen_str_unpunctuated.split()
     for prefix in fail_strs:
         if prefix.strip() in gen_arr:
             jailbroken_ex = prefix
@@ -179,7 +180,7 @@ def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=8, topk=10000):
                 best_new_wordset = new_wordsets[0]
                 sim = best_old_wordset.path_similarity(best_new_wordset)
                 if sim != None and sim == 1 and new_id != old_id:
-                    print(f"w1: {old_word_str} | w2: {new_word_str} | sim: {sim}")
+                    # print(f"w1: {old_word_str} | w2: {new_word_str} | sim: {sim}")
                     break
 
         original_toks[i][old_ind] = new_id
