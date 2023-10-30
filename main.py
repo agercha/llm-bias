@@ -75,6 +75,7 @@ def do_run(init_prompt=None,
     current_prompt = init_prompt
 
     for i in range(iters):
+        print(f"On iteration {i}")
         torch.cuda.empty_cache()
         prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
 
@@ -138,6 +139,8 @@ def do_run(init_prompt=None,
 
     adversarial_success = 0
 
+    print("Testing final.")
+
     for _ in range(test_size):
         benign_completion = tokenizer.decode((generate(model, tokenizer, start_prompt_ids, gen_config=gen_config))).strip()
         current_benign_success, _, _ = successful(benign_completion, success_strs, fail_strs, show=False)
@@ -161,6 +164,8 @@ def do_run(init_prompt=None,
         f.write(f"Benign Success: {benign_success / 100}\n")
         f.write(f"Final Adversarial Prompt: {current_prompt}\n")
         f.write(f"Adversarial Success: {adversarial_success / 100}\n")
+
+    print("Done.")
 
 
 do_run(init_prompt=None, 
