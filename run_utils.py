@@ -155,12 +155,13 @@ def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=512, topk=256):
     for i in range(batch_size):
         # TODO FIX first index, no clue why it is this
         old_ind = random.randint(0, len(toks) - 1)
-        old_word_str = tokenizer.decode(old_ind)
-        new_ind = top_indices[random.randint(0, top_indices.shape[0] - 1)][random.randint(0, topk - 1)]
-        new_word_str = tokenizer.decode(old_ind)
+        old_id = original_toks[i][old_ind]
+        old_word_str = tokenizer.decode(original_toks[i][old_id])
+        new_id = top_indices[random.randint(0, top_indices.shape[0] - 1)][random.randint(0, topk - 1)]
+        new_word_str = tokenizer.decode(new_id)
         print(old_word_str, new_word_str)
 
-        original_toks[i][old_ind] = new_ind
+        original_toks[i][old_ind] = new_id
 
     return original_toks
 
