@@ -127,7 +127,7 @@ def get_replacements(curr_prompt, batch_size=512):
         old_word = prompt_words[replace_ind]
         print(old_word)
         raw_arr = wordnet.synsets(old_word)
-        arr = [word.name() for word in raw_arr]
+        arr = set([word.name() for syn in raw_arr for word in syn.lemmas()])
         print(arr)
 
     # return original_toks
