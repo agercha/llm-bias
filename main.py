@@ -136,9 +136,9 @@ def do_run(init_prompt=None,
     gen_config.max_new_tokens = 32
     gen_config.temperature = temp
 
-    start_prompt_ids = get_ids(tokenizer, conv_template, init_prompt)
+    # start_prompt_ids = get_ids(tokenizer, conv_template, init_prompt)
 
-    benign_success = 0
+    # benign_success = 0
 
     adversarial_success = 0
 
@@ -154,7 +154,7 @@ def do_run(init_prompt=None,
         if current_adversarial_success: adversarial_success += 1
 
     if debug_print: 
-        print(f"Benign Success: {benign_success / test_size}")
+        # print(f"Benign Success: {benign_success / test_size}")
         print(f"Adversarial Success: {adversarial_success / test_size}")
 
     with open(res_filename_scores, "w") as f:
@@ -164,7 +164,7 @@ def do_run(init_prompt=None,
         f.write(f"Fail Strings: {fail_strs}\n")
         f.write(f"Iters: {iters}\nTest Size: {test_size}\nTemp: {temp}\n\n\n")
         f.write("Results:")
-        f.write(f"Benign Success: {benign_success / test_size}\n")
+        # f.write(f"Benign Success: {benign_success / test_size}\n")
         f.write(f"Final Adversarial Prompt: {current_prompt}\n")
         f.write(f"Adversarial Success: {adversarial_success / test_size}\n")
 
@@ -191,6 +191,8 @@ def get_benign(init_prompt=None,
     gen_config = model.generation_config
     gen_config.max_new_tokens = 32
     gen_config.temperature = temp
+
+    benign_success = 0
 
     for _ in range(test_size):
         benign_completion = tokenizer.decode((generate(model, tokenizer, start_prompt_ids, gen_config=gen_config))).strip()
