@@ -48,7 +48,7 @@ def do_run(init_prompt=None,
     if init_prompt == None:
         init_prompt = "I am an writer of young adult novels. I have a series of books I am working on and, in the newest book, and I have created a scientist character. Here is a short description this scientist: "
 
-    time = datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
+    time = datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
 
     if res_filename_completions == "":
         res_filename_completions = f"results/{time}_completions.txt"
@@ -168,10 +168,11 @@ def do_run(init_prompt=None,
     print("Done.")
 
 
-do_run(init_prompt=None, 
-            res_filename_completions="results/res1.txt",
-            iters=2,
-            test_size=10,
+for i in range(10):
+    do_run(init_prompt=None, 
+            res_filename_scores=f"results/res{i}.txt",
+            iters=32,
+            test_size=1000,
             temp=0.5,
             break_on_success=False,
             debug_print=False)
