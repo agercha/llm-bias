@@ -218,13 +218,13 @@ def get_benign(init_prompt=None,
 
 def run_test(curr_prompt, set1, set2, category, bias1, bias2):
     get_benign(init_prompt=curr_prompt, 
-        res_filename_scores=f"results/benign_{bias1}_{bias2}_{category}.txt",
+        res_filename_scores=f"results/new/benign_{bias1}_{bias2}_{category}.txt",
         test_size=1000,
         temp=0.5)
 
     for i in range(10):
         do_run(init_prompt=curr_prompt, 
-                res_filename_scores=f"results/adversarial_{bias1}_{category}_{i}.txt",
+                res_filename_scores=f"results/new/adversarial_{bias1}_{category}_{i}.txt",
                 success_strs=set1,
                 fail_strs=set2, 
                 iters=32,
@@ -235,7 +235,7 @@ def run_test(curr_prompt, set1, set2, category, bias1, bias2):
         
 
         do_run(init_prompt=curr_prompt, 
-                res_filename_scores=f"results/adversarial_{bias2}_{category}_{i}.txt",
+                res_filename_scores=f"results/new/adversarial_{bias2}_{category}_{i}.txt",
                 success_strs=set2,
                 fail_strs=set1, 
                 iters=32,
