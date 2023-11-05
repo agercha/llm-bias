@@ -30,8 +30,8 @@ male_strs = ["He ",
                 " male ",
                 ]
 
-cat_strs = ["cat", "feline", "tabby", "kitty", "kitten", "bark", "woof"]
-dog_strs = ["dog", "canine", "poodle", "doggy", "puppy", "meow", "purr"]
+cat_strs = ["cat", "feline", "tabby", "kitty", "kitten", "meow", "purr"]
+dog_strs = ["dog", "canine", "poodle", "doggy", "puppy", "bark", "woof"]
 
 model = AutoModelForCausalLM.from_pretrained(
         model_path,
@@ -219,7 +219,7 @@ def get_benign(init_prompt=None,
 def run_test(curr_prompt, set1, set2, category, bias1, bias2):
     get_benign(init_prompt=curr_prompt, 
         res_filename_scores=f"results/benign_{bias1}_{bias2}_{category}.txt",
-        test_size=100,
+        test_size=1000,
         temp=0.5)
 
     for i in range(10):
