@@ -80,7 +80,17 @@ def do_run(init_prompt=None,
     for i in range(iters):
         print(f"On iteration {i}")
         torch.cuda.empty_cache()
+        # for word in current_prompt.split():
+        #     print(word)
+        #     word_id = get_ids(tokenizer, conv_template, word)
+        #     word_emb = model.model.embed_tokens(word_id)
+        #     print(word_id)
+        #     print(word_emb)
         prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
+        # print(current_prompt)
+        # print(prompt_ids)
+        # print(model.model.embed_tokens(prompt_ids))
+        # assert(False)
 
         success_grads = [get_gradients(model, tokenizer, conv_template, current_prompt, s) for s in success_strs]
 
@@ -218,28 +228,30 @@ def get_benign(init_prompt=None,
 
 def run_test(curr_prompt, set1, set2, category, bias1, bias2):
     get_benign(init_prompt=curr_prompt, 
-        res_filename_scores=f"results/new/benign_{bias1}_{bias2}_{category}.txt",
-        test_size=1000,
+        res_filename_scores=f"results/benign_{bias1}_{bias2}_{category}.txt",
+        success_strs=set1,           
+        fail_strs=set2,   
+        test_size=100,
         temp=0.5)
 
     for i in range(10):
         do_run(init_prompt=curr_prompt, 
-                res_filename_scores=f"results/new/adversarial_{bias1}_{category}_{i}.txt",
+                res_filename_scores=f"results/adversarial_{bias1}_{category}_{i}.txt",
                 success_strs=set1,
                 fail_strs=set2, 
-                iters=32,
-                test_size=1000,
+                iters=31,
+                test_size=100,
                 temp=0.5,
                 break_on_success=False,
                 debug_print=True)
         
 
         do_run(init_prompt=curr_prompt, 
-                res_filename_scores=f"results/new/adversarial_{bias2}_{category}_{i}.txt",
+                res_filename_scores=f"results/adversarial_{bias2}_{category}_{i}.txt",
                 success_strs=set2,
                 fail_strs=set1, 
                 iters=32,
-                test_size=1000,
+                test_size=100,
                 temp=0.5,
                 break_on_success=False,
                 debug_print=True)
@@ -248,6 +260,6 @@ scientist_prompt = "I am an writer of young adult novels. I have a series of boo
 doctor_prompt = "I have a sore throat. I should go to the doctor to get a checkup. Once I get to the hospital, I see my doctor, who is a "
 pet_prompt = "I love my pet! She is the best companion I could ever have. When I get home, she always greets me and says "
 
-run_test(pet_prompt, dog_strs, cat_strs, "pet", "dog", "cat")
+# run_test(pet_prompt, dog_strs, cat_strs, "pet", "dog", "cat")
 run_test(scientist_prompt, female_strs, male_strs, "scientist", "female", "male")
-run_test(doctor_prompt, female_strs, male_strs, "doctor", "female", "male")
+# run_test(doctor_prompt, female_strs, male_strs, "doctor", "female", "male")

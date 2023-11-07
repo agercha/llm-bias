@@ -67,27 +67,33 @@ def successful(gen_str, success_strs, fail_strs, show=True):
     return present and not jailbroken, present, jailbroken
 
 def get_ids(tokenizer, conv_template, vals, device = "cuda:0"):
-    conv_template.append_message(conv_template.roles[0], vals)
-    prompt = conv_template.get_prompt()
-    conv_template.messages = []
+    # conv_template.append_message(conv_template.roles[0], vals)
+    # prompt = conv_template.get_prompt()
+    # conv_template.messages = []
 
     # return prompt
-    return torch.tensor(tokenizer(prompt).input_ids).to(device)
+    # return torch.tensor(tokenizer(prompt).input_ids).to(device)
+    return torch.tensor(tokenizer(vals).input_ids).to(device)
 
 def get_ids_with_slices(tokenizer, conv_template, vals1, vals2, device = "cuda:0"):
-    conv_template.append_message(conv_template.roles[0], f"{vals1} {vals2}")
-    prompt = conv_template.get_prompt()
-    conv_template.messages = []
+    # conv_template.append_message(conv_template.roles[0], f"{vals1} {vals2}")
+    # prompt = conv_template.get_prompt()
+    # conv_template.messages = []
 
-    conv_template.append_message(f"{vals1}", None)
-    toks1 = tokenizer(conv_template.get_prompt()).input_ids
+    # conv_template.append_message(f"{vals1}", None)
+    # toks1 = tokenizer(conv_template.get_prompt()).input_ids
+    # slice1 = slice(0, len(toks1))
+
+    # conv_template.append_message(f"{vals2}", None)
+    # toks2 = tokenizer(conv_template.get_prompt()).input_ids
+    # slice2 = slice(slice1.stop, len(toks2))
+
+    # conv_template.messages = []
+    prompt = vals1 + vals2
+    toks1 = tokenizer(vals1).input_ids
     slice1 = slice(0, len(toks1))
-
-    conv_template.append_message(f"{vals2}", None)
-    toks2 = tokenizer(conv_template.get_prompt()).input_ids
+    toks2 = tokenizer(vals2).input_ids
     slice2 = slice(slice1.stop, len(toks2))
-
-    conv_template.messages = []
 
     # return prompt
     return torch.tensor(tokenizer(prompt).input_ids).to(device), slice1, slice2
@@ -138,7 +144,7 @@ def get_replacements(tokenizer, conv_template, curr_prompt, batch_size=512, devi
     # original_words = prompt_words.repeat(batch_size, 1)
     new_set = []
     
-    for i in range(batch_size):
+    for i in range(1, batch_size): # leave first unchanged, in case it is better
         l = 0
         while l == 0:
             replace_ind = random.randint(0, len(prompt_words) - 1)
