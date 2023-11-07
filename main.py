@@ -86,15 +86,15 @@ def do_run(init_prompt=None,
         #     word_emb = model.model.embed_tokens(word_id)
         #     print(word_id)
         #     print(word_emb)
-        prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
+        prompt_ids = get_ids(tokenizer, current_prompt)
         # print(current_prompt)
         # print(prompt_ids)
         # print(model.model.embed_tokens(prompt_ids))
         # assert(False)
 
-        success_grads = [get_gradients(model, tokenizer, conv_template, current_prompt, s) for s in success_strs]
+        success_grads = [get_gradients(model, tokenizer, current_prompt, s) for s in success_strs]
 
-        fail_grads = [get_gradients(model, tokenizer, conv_template, current_prompt, f) for f in fail_strs]
+        fail_grads = [get_gradients(model, tokenizer, current_prompt, f) for f in fail_strs]
 
         grads = sum(success_grads) - sum(fail_grads)
 
@@ -110,8 +110,8 @@ def do_run(init_prompt=None,
                                                 filter_cand=False, 
                                                 curr_control=current_prompt)
             
-            success_losses = [get_loss (model, tokenizer, conv_template, current_prompt, s, new_adv_prompt) for s in success_strs]
-            fail_losses = [get_loss (model, tokenizer, conv_template, current_prompt, f, new_adv_prompt) for f in fail_strs]
+            success_losses = [get_loss (model, tokenizer, current_prompt, s, new_adv_prompt) for s in success_strs]
+            fail_losses = [get_loss (model, tokenizer, current_prompt, f, new_adv_prompt) for f in fail_strs]
 
             losses = sum(success_losses) - sum(fail_losses) 
 
@@ -130,7 +130,7 @@ def do_run(init_prompt=None,
 
             res = tokenizer.decode(generate(model, 
                                             tokenizer,  
-                                            get_ids(tokenizer, conv_template, current_prompt), 
+                                            get_ids(tokenizer, current_prompt), 
                                             gen_config=gen_config)).strip()
             
             is_success, _, _ = successful(res, success_strs, fail_strs, show=debug_print)
@@ -140,7 +140,7 @@ def do_run(init_prompt=None,
         if is_success and break_on_success:
             break
 
-    final_prompt_ids = get_ids(tokenizer, conv_template, current_prompt)
+    final_prompt_ids = get_ids(tokenizer, current_prompt)
 
     gen_config = model.generation_config
     gen_config.max_new_tokens = 32
@@ -203,7 +203,7 @@ def get_benign(init_prompt=None,
     if res_filename_scores == "":
         res_filename_scores = f"results/{time}_scores.txt"
 
-    start_prompt_ids = get_ids(tokenizer, conv_template, init_prompt)
+    start_prompt_ids = get_ids(tokenizer, init_prompt)
 
     gen_config = model.generation_config
     gen_config.max_new_tokens = 32

@@ -66,7 +66,7 @@ def successful(gen_str, success_strs, fail_strs, show=True):
         print(f'Present: {present} {present_ex}| Jailbroken: {jailbroken} {jailbroken_ex}')
     return present and not jailbroken, present, jailbroken
 
-def get_ids(tokenizer, conv_template, vals, device = "cuda:0"):
+def get_ids(tokenizer, vals, device = "cuda:0"):
     # conv_template.append_message(conv_template.roles[0], vals)
     # prompt = conv_template.get_prompt()
     # conv_template.messages = []
@@ -75,7 +75,7 @@ def get_ids(tokenizer, conv_template, vals, device = "cuda:0"):
     # return torch.tensor(tokenizer(prompt).input_ids).to(device)
     return torch.tensor(tokenizer(vals).input_ids).to(device)
 
-def get_ids_with_slices(tokenizer, conv_template, vals1, vals2, device = "cuda:0"):
+def get_ids_with_slices(tokenizer, vals1, vals2, device = "cuda:0"):
     # conv_template.append_message(conv_template.roles[0], f"{vals1} {vals2}")
     # prompt = conv_template.get_prompt()
     # conv_template.messages = []
@@ -98,9 +98,9 @@ def get_ids_with_slices(tokenizer, conv_template, vals1, vals2, device = "cuda:0
     # return prompt
     return torch.tensor(tokenizer(prompt).input_ids).to(device), slice1, slice2
 
-def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
+def get_gradients(model, tokenizer, base_strs, end_strs):
     
-    all_ids, base_slice, end_slice = get_ids_with_slices(tokenizer, conv_template, base_strs, end_strs)
+    all_ids, base_slice, end_slice = get_ids_with_slices(tokenizer, base_strs, end_strs)
     loss_slice = slice(end_slice.start - 1, end_slice.stop - 1)
     base_ids = all_ids[base_slice]
     end_ids = all_ids[end_slice]
@@ -138,33 +138,6 @@ def get_gradients(model, tokenizer, conv_template, base_strs, end_strs):
     
     return grad / grad.norm(dim=-1, keepdim=True)
 
-def get_replacements(tokenizer, conv_template, curr_prompt, batch_size=512, device="cuda:0"):
-    prompt_words = curr_prompt.split()
-    # perhaps use wup_similarity
-    # original_words = prompt_words.repeat(batch_size, 1)
-    new_set = []
-    
-    for i in range(1, batch_size): # leave first unchanged, in case it is better
-        l = 0
-        while l == 0:
-            replace_ind = random.randint(0, len(prompt_words) - 1)
-            old_word = prompt_words[replace_ind]
-            # print(old_word)
-            raw_arr = wordnet.synsets(old_word)
-            arr = [word.name() for syn in raw_arr for word in syn.lemmas()]
-            l = len(arr)
-        new_word = random.choice(arr)
-        print(old_word, new_word)
-        copied_words = copy.deepcopy(prompt_words)
-        copied_words[replace_ind] = new_word
-        new_prompt = " ".join(copied_words)
-        new_ids = get_ids(tokenizer, conv_template, new_prompt)
-        # print(curr_prompt, new_prompt)
-        new_set.append(new_prompt)
-
-
-    return torch.Tensor(new_set).to(device)
-
 def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=8, topk=2500):
     grad[:, nonascii_toks.to(grad.device)] = np.infty
 
@@ -173,7 +146,6 @@ def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=8, topk=2500):
     original_toks = toks.repeat(batch_size, 1)
 
     for i in range(batch_size):
-        # TODO FIX first index, no clue why it is this
         while True:
             old_ind = random.randint(0, len(toks) - 1)
             old_id = original_toks[i][old_ind]
