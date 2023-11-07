@@ -37,17 +37,23 @@ def get_embs(ids):
     return model.model.embed_tokens(ids)
 
 for word in prompt.split():
-    word_id = get_ids(tokenizer, conv_template, word)
+    word_id = get_ids(word)
     word_emb = get_embs(word_id)
     wordset = wordnet.synsets(word)
     print(f"Word: {word}")
     print(f"ID: {word_id}")
     print(f"embedding: {word_emb}")
     if wordset != []:
+        print("Begin Synonims:")
         for syn in wordset:
-            print("Begin Synonims:")
             syn_str = syn.name()
-            syn_id = get_ids(tokenizer, conv_template, word)
+            syn_id = get_ids(syn_str)
             syn_emb = get_embs(syn_id)
-            print(f"syn: {word} | ID: {word_id} | embedding: {word_emb}")
+            print(f"syn: {syn_str} \nID: {syn_id} \nembedding: {syn_emb}")
     print("\n\n\n")
+
+all_id = get_ids(prompt)
+all_emb = get_embs(all_id)
+print(prompt)
+print(all_id)
+print(all_emb)
