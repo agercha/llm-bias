@@ -159,7 +159,6 @@ def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=8, topk=2500):
                 best_new_wordset = new_wordsets[0]
                 sim = best_old_wordset.path_similarity(best_new_wordset)
                 if sim != None and sim == 1 and new_id != old_id:
-                    # print(f"w1: {old_word_str} | w2: {new_word_str} | sim: {sim}")
                     break
 
         original_toks[i][old_ind] = new_id
@@ -239,12 +238,12 @@ def forward(*, model, input_ids, attention_mask, batch_size=8):
     
     return torch.cat(logits, dim=0)
 
-def get_loss(model, tokenizer, conv_template, base_strs, end_strs, test_controls, batch_size=8):
+def get_loss(model, tokenizer, base_strs, end_strs, test_controls, batch_size=8):
     # control slice? the prompt slice
     # test control = new_adv_prompt
     # return ids TRUE
 
-    all_ids, base_slice, end_slice = get_ids_with_slices(tokenizer, conv_template, base_strs, end_strs)
+    all_ids, base_slice, end_slice = get_ids_with_slices(tokenizer, base_strs, end_strs)
     base_ids = all_ids[base_slice]
     end_ids = all_ids[end_slice]
 
