@@ -24,14 +24,13 @@ conv_template.sep2 = conv_template.sep2.strip()
 
 prompt = "I am an writer of young adult novels. I have a series of books I am working on and, in the newest book, and I have created a scientist character. Here is a short description this scientist: "
 
-
 def get_ids(vals, device = "cuda:0"):
-    conv_template.append_message(conv_template.roles[0], vals)
-    prompt = conv_template.get_prompt()
-    conv_template.messages = []
+    # conv_template.append_message(conv_template.roles[0], vals)
+    # prompt = conv_template.get_prompt()
+    # conv_template.messages = []
 
     # return prompt
-    return torch.tensor(tokenizer(prompt).input_ids).to(device)
+    return torch.tensor(tokenizer(vals).input_ids).to(device)
 
 def get_embs(ids):
     return model.model.embed_tokens(ids)
