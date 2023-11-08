@@ -67,15 +67,20 @@ for word in prompt.split():
     if len(wordsets) > 1:
         syns = set(curr_syn.name() for curr_set in wordsets for curr_syn in curr_set.lemmas())
         print("Begin Synonyms:")
+        f = open("similarities/{word}.txt", "w")
         for syn_str in syns:
             syn_id = get_ids(syn_str)
             if len(syn_id) == len(word_id) and word != syn_str:
                 syn_emb = get_embs(syn_id)
                 # sim0 = cos0(syn_emb[1:],word_emb[1:])
-                sim1 = cos1(syn_emb[1:],word_emb[1:])
+                sim1 = cos1(syn_emb[1:],word_emb[1:])[0]
                 print(f"Syn: {syn_str} \t\t| Similarity: {sim1}")
+                print(f"Syn Emb: \t\t{syn_emb[1:]}")
+                print(f"Original Emb: \t\t{word_emb[1:]}")
+                f.write(f"{syn_str}\t{sim1}\n")
                 # print(f"syn: {syn_str} \nID: {syn_id}")
                 # print(f"embedding: {syn_emb}")
+        f.close()
     print("\n\n\n")
 
 print(prompt)
