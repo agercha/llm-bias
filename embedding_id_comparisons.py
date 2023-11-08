@@ -7,6 +7,7 @@ from fastchat.model import get_conversation_template
 from numpy.linalg import norm
 
 # https://www.geeksforgeeks.org/how-to-calculate-cosine-similarity-in-python/
+# https://pytorch.org/docs/stable/generated/torch.nn.CosineSimilarity.html 
 
 model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
 
@@ -38,6 +39,9 @@ def get_ids(vals, device = "cuda:0"):
 def get_embs(ids):
     return model.model.embed_tokens(ids)
 
+cos0 = nn.CosineSimilarity(dim=0)
+cos1 = nn.CosineSimilarity(dim=1)
+
 all_id = get_ids(prompt)
 all_emb = get_embs(all_id)
 print(prompt)
@@ -65,8 +69,9 @@ for word in prompt.split():
             syn_id = get_ids(syn_str)
             if len(syn_id) == len(word_id):
                 syn_emb = get_embs(syn_id)
-                sim = np.dot(syn_emb[1:],word_emb[1:])/(norm(syn_emb[1:])*norm(word_emb[1:]))
-                print(f"Syn: {syn_str} \t\t| Similarity: {sim}")
+                sim0 = cos0(syn_emb[1:],word_emb[1:])
+                sim1 = cos1(syn_emb[1:],word_emb[1:])
+                print(f"Syn: {syn_str} \t\t| Similarity: {sim0} {sim1}")
                 # print(f"syn: {syn_str} \nID: {syn_id}")
                 # print(f"embedding: {syn_emb}")
     print("\n\n\n")
