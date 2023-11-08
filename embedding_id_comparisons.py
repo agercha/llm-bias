@@ -4,6 +4,9 @@ from run_utils import *
 import gc
 from transformers import (AutoModelForCausalLM, AutoTokenizer)
 from fastchat.model import get_conversation_template
+from numpy.linalg import norm
+
+# https://www.geeksforgeeks.org/how-to-calculate-cosine-similarity-in-python/
 
 model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
 
@@ -48,23 +51,26 @@ ind = 1
 for word in prompt.split():
     word_id = get_ids(word)
     l = len(word_id) - 1
-    # word_emb = get_embs(word_id)
+    word_emb = get_embs(word_id)
     wordsets = wordnet.synsets(word)
     print(f"Word: {word}")
     print(f"ID: {word_id}")
     print(f"ID's reconstructed: {all_id[ind: ind+l]}")
-    # print(f"embedding: {word_emb}")
+    print(f"embedding: {word_emb}")
     ind += l
     if len(wordsets) > 1:
-        syns = set(curr_syn.name() for curr_set in wordsets for curr_syn in curr_set)
-        print("Begin Synonims:")
-        for syn in syns:
-            syn_str = syn.name()
+        syns = set(curr_syn.name() for curr_set in wordsets for curr_syn in curr_set.lemmas())
+        print("Begin Synonyms:")
+        for syn_str in syns:
             syn_id = get_ids(syn_str)
-            # syn_emb = get_embs(syn_id)
-            print(f"syn: {str(syn_str)} \nID: {syn_id}")
-            syn_id = get_ids(syn_str)
-            syn_emb = get_embs(syn_id)
-            print(f"syn: {syn_str} \nID: {syn_id}")
-            # print(f"embedding: {syn_emb}")
+            if len(syn_id) == len(word_id):
+                syn_emb = get_embs(syn_id)
+                sim = np.dot(syn_emb[1:],word_emb[1:])/(norm(syn_emb[1:])*norm(word_emb[1:]))
+                print(f"Syn: {syn_str} \t\t| Similarity: {sim}")
+                # print(f"syn: {syn_str} \nID: {syn_id}")
+                # print(f"embedding: {syn_emb}")
     print("\n\n\n")
+
+print(prompt)
+print(all_id)
+print(all_emb)
