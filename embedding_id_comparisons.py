@@ -35,13 +35,24 @@ def get_ids(vals, device = "cuda:0"):
 def get_embs(ids):
     return model.model.embed_tokens(ids)
 
+all_id = get_ids(prompt)
+all_emb = get_embs(all_id)
+print(prompt)
+print(all_id)
+print(all_emb)
+
+ind = 0
+
 for word in prompt.split():
     word_id = get_ids(word)
+    l = len(word_id) - 1
     word_emb = get_embs(word_id)
     wordset = wordnet.synsets(word)
     print(f"Word: {word}")
     print(f"ID: {word_id}")
+    print(f"ID's reconstructed: {all_id[ind: ind+l]}")
     print(f"embedding: {word_emb}")
+    ind += l
     if wordset != []:
         print("Begin Synonims:")
         for syn in wordset:
@@ -50,9 +61,3 @@ for word in prompt.split():
             syn_emb = get_embs(syn_id)
             print(f"syn: {syn_str} \nID: {syn_id} \nembedding: {syn_emb}")
     print("\n\n\n")
-
-all_id = get_ids(prompt)
-all_emb = get_embs(all_id)
-print(prompt)
-print(all_id)
-print(all_emb)
