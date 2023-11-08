@@ -41,23 +41,30 @@ print(prompt)
 print(all_id)
 print(all_emb)
 
-ind = 0
+ind = 1
+
+# https://www.geeksforgeeks.org/get-synonymsantonyms-nltk-wordnet-python/
 
 for word in prompt.split():
     word_id = get_ids(word)
     l = len(word_id) - 1
-    word_emb = get_embs(word_id)
-    wordset = wordnet.synsets(word)
+    # word_emb = get_embs(word_id)
+    wordsets = wordnet.synsets(word)
     print(f"Word: {word}")
     print(f"ID: {word_id}")
     print(f"ID's reconstructed: {all_id[ind: ind+l]}")
-    print(f"embedding: {word_emb}")
+    # print(f"embedding: {word_emb}")
     ind += l
-    if wordset != []:
+    if len(wordsets) > 1:
+        syns = set(curr_syn.name() for curr_set in wordsets for curr_syn in curr_set)
         print("Begin Synonims:")
-        for syn in wordset:
+        for syn in syns:
             syn_str = syn.name()
             syn_id = get_ids(syn_str)
+            # syn_emb = get_embs(syn_id)
+            print(f"syn: {str(syn_str)} \nID: {syn_id}")
+            syn_id = get_ids(syn_str)
             syn_emb = get_embs(syn_id)
-            print(f"syn: {syn_str} \nID: {syn_id} \nembedding: {syn_emb}")
+            print(f"syn: {syn_str} \nID: {syn_id}")
+            # print(f"embedding: {syn_emb}")
     print("\n\n\n")
