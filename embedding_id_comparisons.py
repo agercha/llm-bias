@@ -42,6 +42,8 @@ def get_embs(ids):
 cos0 = nn.CosineSimilarity(dim=0)
 cos1 = nn.CosineSimilarity(dim=1)
 
+# def cos_simm
+
 all_id = get_ids(prompt)
 all_emb = get_embs(all_id)
 print(prompt)
@@ -67,11 +69,11 @@ for word in prompt.split():
         print("Begin Synonyms:")
         for syn_str in syns:
             syn_id = get_ids(syn_str)
-            if len(syn_id) == len(word_id):
+            if len(syn_id) == len(word_id) and word != syn_str:
                 syn_emb = get_embs(syn_id)
-                sim0 = cos0(syn_emb[1:],word_emb[1:])
+                # sim0 = cos0(syn_emb[1:],word_emb[1:])
                 sim1 = cos1(syn_emb[1:],word_emb[1:])
-                print(f"Syn: {syn_str} \t\t| Similarity: {sim0} {sim1}")
+                print(f"Syn: {syn_str} \t\t| Similarity: {sim1}")
                 # print(f"syn: {syn_str} \nID: {syn_id}")
                 # print(f"embedding: {syn_emb}")
     print("\n\n\n")
