@@ -138,6 +138,25 @@ def get_gradients(model, tokenizer, base_strs, end_strs):
     
     return grad / grad.norm(dim=-1, keepdim=True)
 
+def get_replacements(tokenizer, prompt, ids, grad, nonascii_toks, topk=2500):
+    grad[:, nonascii_toks.to(grad.device)] = np.infty
+
+    top_indices = (-grad).topk(topk, dim=1).indices
+
+    prompt_words = prompt.split()
+
+    batch_size = len(prompt_words) + 1
+
+    original_toks = ids.repeat(batch_size, 1)
+
+    for i in range(1, batch_size):
+        curr_word = prompt_words[i - 1]
+        wordsets = wordnet.synsets(curr_word)
+        syns = set(curr_syn.name() for curr_set in wordsets for curr_syn in curr_set.lemmas())
+
+        for syn in syns:
+            print("hi!")
+
 def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=8, topk=2500):
     grad[:, nonascii_toks.to(grad.device)] = np.infty
 

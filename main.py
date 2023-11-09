@@ -104,6 +104,7 @@ def do_run(init_prompt=None,
                             prompt_ids, 
                             grads, 
                             nonascii_toks=not_allowed_tokens)
+            # new_adv_toks = get_replacements(tokenizer, current_prompt, prompt_ids, grads, nonascii_toks=not_allowed_tokens)
 
             new_adv_prompt = get_filtered_cands(tokenizer, 
                                                 new_adv_toks, 

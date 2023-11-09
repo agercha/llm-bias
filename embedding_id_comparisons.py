@@ -66,21 +66,41 @@ for word in prompt.split():
     ind += l
     if len(wordsets) > 1:
         syns = set(curr_syn.name() for curr_set in wordsets for curr_syn in curr_set.lemmas())
+
         print("Begin Synonyms:")
-        f = open("similarities/{word}.txt", "w")
+        f_syn_words = open("similarities/{word}_syn_words.txt", "w")
+        f_syn_sim = open("similarities/{word}_syn_sims.txt", "w")
         for syn_str in syns:
             syn_id = get_ids(syn_str)
             if len(syn_id) == len(word_id) and word != syn_str:
                 syn_emb = get_embs(syn_id)
-                # sim0 = cos0(syn_emb[1:],word_emb[1:])
                 sim1 = cos1(syn_emb[1:],word_emb[1:])[0]
                 print(f"Syn: {syn_str} \t\t| Similarity: {sim1}")
                 print(f"Syn Emb: \t\t{syn_emb[1:]}")
                 print(f"Original Emb: \t\t{word_emb[1:]}")
-                f.write(f"{syn_str}\t{sim1}\n")
-                # print(f"syn: {syn_str} \nID: {syn_id}")
-                # print(f"embedding: {syn_emb}")
-        f.close()
+                f_syn_words.write(f"{syn_str}\n")
+                f_syn_sim.write(f"{sim1}\n")
+        f_syn_words.close()
+        f_syn_sim.close()
+
+
+        ants = set(curr_ant.antonyms()[0].name() for curr_set in wordsets for curr_ant in curr_set.lemmas() if curr_ant.antonyms())
+        f_ant_sim = open("similarities/{word}_ant_sims.txt", "w")
+        f_ant_words = open("similarities/{word}_ant_words.txt", "w")
+        print("Begin Antonyms")
+        for ant_str in ants:
+            ant_id = get_ids(ant_str)
+            if len(ant_id) == len(word_id) and word != ant_str:
+                ant_emb = get_embs(ant_id)
+                sim1 = cos1(ant_emb[1:],word_emb[1:])[0]
+                print(f"Ant: {ant_str} \t\t| Similarity: {sim1}")
+                print(f"Syn Emb: \t\t{ant_emb[1:]}")
+                print(f"Original Emb: \t\t{word_emb[1:]}")
+                f_ant_words.write(f"{ant_str}\n")
+                f_ant_sim.write(f"{sim1}\n")
+        f_ant_words.close()
+        f_ant_sim.close()
+
     print("\n\n\n")
 
 print(prompt)
