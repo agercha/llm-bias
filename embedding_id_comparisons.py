@@ -56,12 +56,13 @@ ind = 1
 
 prompt_arr = prompt.split()
 
+prompt_ids = get_ids(prompt)
+prompt_emb = get_embs(prompt_ids)[1:]
+
 for i, word in enumerate(prompt_arr):
     word_id = get_ids(word)
-    prompt_id = get_ids(prompt)
     l = len(word_id) - 1
     word_emb = get_embs(word_id)
-    prompt_emb = get_embs(prompt_id)
     wordsets = wordnet.synsets(word)
     print(f"Word: {word}")
     print(f"ID: {word_id}")
@@ -85,6 +86,8 @@ for i, word in enumerate(prompt_arr):
                 syn_emb = get_embs(syn_id)
                 new_prompt_ids = get_ids(new_prompt)
                 new_prompt_emb = get_embs(new_prompt_ids)
+                print(prompt_ids, new_prompt_ids)
+                print(prompt_emb, new_prompt_emb)
                 sim1 = cos1(syn_emb[1:],word_emb[1:])[0]
                 sim2 = cos1(prompt_emb, new_prompt_emb)[0]
                 print(f"Syn: {syn_str} \t\t| Similarity: {sim1} {sim2}")
