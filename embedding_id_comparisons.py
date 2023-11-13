@@ -45,6 +45,9 @@ cos1 = nn.CosineSimilarity(dim=1)
 def cos_sim(a, b):
     return cos0(torch.flatten(a), torch.flatten(b))
 
+def cos_sim_mine(a, b):
+    torch.mm(a,b)/(torch.linalg.norm(a)*torch.linalg.norm(b))
+
 # def cos_simm
 
 all_id = get_ids(prompt)
@@ -92,8 +95,8 @@ for i, word in enumerate(prompt_arr):
                 new_prompt_emb = get_embs(new_prompt_ids)
                 # print(prompt_ids, new_prompt_ids)
                 # print(prompt_emb, new_prompt_emb)
-                sim1 = cos_sim(syn_emb[1:],word_emb[1:])
-                sim2 = cos_sim(prompt_emb, new_prompt_emb)
+                sim1 = cos_sim_mine(syn_emb[1:],word_emb[1:])
+                sim2 = cos_sim_mine(prompt_emb, new_prompt_emb)
                 print(f"Syn: {syn_str} \t\t| Similarity: {sim1} {sim2}")
                 print(f"New str: {new_prompt}")
                 # print(f"Syn Emb: \t\t{syn_emb[1:]}")
