@@ -54,10 +54,14 @@ ind = 1
 
 # https://www.geeksforgeeks.org/get-synonymsantonyms-nltk-wordnet-python/
 
-for word in prompt.split():
+prompt_arr = prompt.split()
+
+for i, word in enumerate(prompt_arr):
     word_id = get_ids(word)
+    prompt_id = get_ids(prompt)
     l = len(word_id) - 1
     word_emb = get_embs(word_id)
+    prompt_emb = get_embs(prompt_id)
     wordsets = wordnet.synsets(word)
     print(f"Word: {word}")
     print(f"ID: {word_id}")
@@ -65,26 +69,33 @@ for word in prompt.split():
     print(f"embedding: {word_emb}")
     ind += l
     if len(wordsets) > 1:
+        new_prompt_arr = copy.deepcopy(prompt_arr)
         syns = set(curr_syn.name() for curr_set in wordsets for curr_syn in curr_set.lemmas())
 
         print("Begin Synonyms:")
-        f_all_syns = open(f"similarities/{word}_syn_allwords.txt", "w")
-        # f_syn_words = open(f"similarities/{word}_syn_words.txt", "w")
-        # f_syn_sim = open(f"similarities/{word}_syn_sims.txt", "w")
+        # f_all_syns = open(f"similarities/{word}_syn_allwords.txt", "w")
+        f_syn_words = open(f"similarities/{word}_syn_words.txt", "w")
+        f_syn_sim = open(f"similarities/{word}_syn_sims.txt", "w")
         for syn_str in syns:
             syn_id = get_ids(syn_str)
-            # if len(syn_id) == len(word_id) and word != syn_str:
-            if word != syn_str:
-                # syn_emb = get_embs(syn_id)
-                # sim1 = cos1(syn_emb[1:],word_emb[1:])[0]
-                # print(f"Syn: {syn_str} \t\t| Similarity: {sim1}")
+            if len(syn_id) == len(word_id) and word != syn_str:
+            # if word != syn_str:
+                new_prompt_arr[i] = syn_str
+                new_prompt = " ".join(new_prompt_arr)
+                syn_emb = get_embs(syn_id)
+                new_prompt_ids = get_ids(new_prompt)
+                new_prompt_emb = get_embs(new_prompt_ids)
+                sim1 = cos1(syn_emb[1:],word_emb[1:])[0]
+                sim2 = cos1(prompt_emb, new_prompt_emb)[0]
+                print(f"Syn: {syn_str} \t\t| Similarity: {sim1} {sim2}")
+                print(f"New str: {new_prompt}")
                 # print(f"Syn Emb: \t\t{syn_emb[1:]}")
                 # print(f"Original Emb: \t\t{word_emb[1:]}")
-                f_all_syns.write(f"{syn_str}\n")
-                # f_syn_sim.write(f"{sim1}\n")
-        # f_syn_words.close()
-        # f_syn_sim.close()
-        f_all_syns.close()
+                f_syn_words.write(f"{syn_str}\n")
+                f_syn_sim.write(f"{sim2}\n")
+        f_syn_words.close()
+        f_syn_sim.close()
+        # f_all_syns.close()
 
 
         # ants = set(curr_ant.antonyms()[0].name() for curr_set in wordsets for curr_ant in curr_set.lemmas() if curr_ant.antonyms())
