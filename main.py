@@ -86,6 +86,9 @@ def do_run(init_prompt=None,
 
         with torch.no_grad():
             # get replacements
+            cand_count = get_cands(current_prompt, thesarus)
+            if cand_count == 0: break
+
             new_adv_prompt = get_replacements(current_prompt, thesarus)
             '''
             new_adv_toks = new_control(tokenizer,

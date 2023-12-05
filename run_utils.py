@@ -3,7 +3,7 @@ import numpy as np
 import gc
 import torch.nn as nn
 import random
-# from nltk.corpus import wordnet 
+from nltk.corpus import wordnet 
 import copy
 
 def get_nonascii_toks(tokenizer, device='cpu'):
@@ -113,6 +113,13 @@ def get_gradients(model, tokenizer, base_strs, end_strs):
     grad = one_hot.grad.clone()
     
     return grad / grad.norm(dim=-1, keepdim=True)
+
+def get_cands(prompt, thesarus):
+    prompt_words = prompt.split()
+    count = 0
+    for word in prompt_words:
+        if word in thesarus: count += 1
+    return count
 
 def get_replacements(prompt, thesarus):
     prompt_words = prompt.split()
