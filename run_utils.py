@@ -3,7 +3,7 @@ import numpy as np
 import gc
 import torch.nn as nn
 import random
-from nltk.corpus import wordnet 
+# from nltk.corpus import wordnet 
 import copy
 
 def get_nonascii_toks(tokenizer, device='cpu'):
