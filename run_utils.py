@@ -116,12 +116,13 @@ def get_gradients(model, tokenizer, base_strs, end_strs):
 
 def get_replacements(prompt, thesarus):
     prompt_words = prompt.split()
-    ind = random.randint(0, len(prompt_words))
+    ind = random.randint(0, len(prompt_words) - 1)
     while prompt_words[ind] not in thesarus:
-        ind = random.randint(0, len(prompt_words))
+        ind = random.randint(0, len(prompt_words) - 1)
     word = prompt_words[ind]
     syns = thesarus[word]
-    new_prompts = [' '.join(prompt_words[:ind] + word + prompt_words[ind+1:]) for syn in syns]
+    new_prompts = [' '.join(prompt_words[:ind]) + ' ' + syn + ' ' + ' '.join(prompt_words[ind+1:]) for syn in syns]
+    return new_prompts
 
 def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=8, topk=2500):
     grad[:, nonascii_toks.to(grad.device)] = np.infty

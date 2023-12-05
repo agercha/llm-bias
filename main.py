@@ -89,17 +89,18 @@ def do_run(init_prompt=None,
     for i in range(iters):
         print(f"On iteration {i}")
         torch.cuda.empty_cache()
-        prompt_ids = get_ids(tokenizer, current_prompt)
+        # prompt_ids = get_ids(tokenizer, current_prompt)
 
-        success_grads = [get_gradients(model, tokenizer, current_prompt, s) for s in success_strs]
+        # success_grads = [get_gradients(model, tokenizer, current_prompt, s) for s in success_strs]
 
-        fail_grads = [get_gradients(model, tokenizer, current_prompt, f) for f in fail_strs]
+        # fail_grads = [get_gradients(model, tokenizer, current_prompt, f) for f in fail_strs]
 
-        grads = sum(success_grads) - sum(fail_grads)
+        # grads = sum(success_grads) - sum(fail_grads)
 
         with torch.no_grad():
             # get replacements
-            _ = get_replacements(current_prompt, thesarus)
+            new_adv_prompt = get_replacements(current_prompt, thesarus)
+            '''
             new_adv_toks = new_control(tokenizer,
                             prompt_ids, 
                             grads, 
@@ -109,6 +110,7 @@ def do_run(init_prompt=None,
                                                 new_adv_toks, 
                                                 filter_cand=False, 
                                                 curr_control=current_prompt)
+            '''
             
             success_losses = [get_loss (model, tokenizer, current_prompt, s, new_adv_prompt) for s in success_strs]
             fail_losses = [get_loss (model, tokenizer, current_prompt, f, new_adv_prompt) for f in fail_strs]
