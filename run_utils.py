@@ -28,14 +28,10 @@ def get_nonascii_toks(tokenizer, device='cpu'):
     return torch.tensor(ascii_toks, device=device)
 
 def generate(model, tokenizer, input_ids, gen_config=None):
-    # input_ids = get_ids(tokenizer, conv_template, input_strs, device = "cuda:0")
 
     if gen_config is None:
         gen_config = model.generation_config
         gen_config.max_new_tokens = 32
-
-    # if gen_config.max_new_tokens > 50:
-    #     print('WARNING: max_new_tokens > 32 may cause testing to slow down.')
         
     input_ids = input_ids.to(model.device).unsqueeze(0)
     attn_masks = torch.ones_like(input_ids).to(model.device)
@@ -67,35 +63,15 @@ def successful(gen_str, success_strs, fail_strs, show=True):
     return present and not jailbroken, present, jailbroken
 
 def get_ids(tokenizer, vals, device = "cuda:0"):
-    # conv_template.append_message(conv_template.roles[0], vals)
-    # prompt = conv_template.get_prompt()
-    # conv_template.messages = []
-
-    # return prompt
-    # return torch.tensor(tokenizer(prompt).input_ids).to(device)
     return torch.tensor(tokenizer(vals).input_ids).to(device)
 
 def get_ids_with_slices(tokenizer, vals1, vals2, device = "cuda:0"):
-    # conv_template.append_message(conv_template.roles[0], f"{vals1} {vals2}")
-    # prompt = conv_template.get_prompt()
-    # conv_template.messages = []
-
-    # conv_template.append_message(f"{vals1}", None)
-    # toks1 = tokenizer(conv_template.get_prompt()).input_ids
-    # slice1 = slice(0, len(toks1))
-
-    # conv_template.append_message(f"{vals2}", None)
-    # toks2 = tokenizer(conv_template.get_prompt()).input_ids
-    # slice2 = slice(slice1.stop, len(toks2))
-
-    # conv_template.messages = []
     prompt = vals1 + vals2
     toks1 = tokenizer(vals1).input_ids
     slice1 = slice(0, len(toks1))
     toks2 = tokenizer(vals2).input_ids
     slice2 = slice(slice1.stop, len(toks2))
 
-    # return prompt
     return torch.tensor(tokenizer(prompt).input_ids).to(device), slice1, slice2
 
 def get_gradients(model, tokenizer, base_strs, end_strs):
@@ -204,13 +180,6 @@ def sample_control(toks, grad, nonascii_toks, batch_size=512, topk=2500):
         device=grad.device
     ).type(torch.int64)
 
-    # torch_randint = selects indices of random top grads
-    # new_token_val[i] = top_indices [ top_grads[i] ]
-
-    # rand_inds = torch.randint(0, topk, (batch_size, 1), device=grad.device)
-    # new_val_indices = top_indices[rand_inds]
-    # print(new_val_indices)
-
     new_token_val = torch.gather(
         top_indices[new_token_pos], 1, 
         torch.randint(0, topk, (batch_size, 1),
@@ -258,9 +227,6 @@ def forward(*, model, input_ids, attention_mask, batch_size=8):
     return torch.cat(logits, dim=0)
 
 def get_loss(model, tokenizer, base_strs, end_strs, test_controls, batch_size=8):
-    # control slice? the prompt slice
-    # test control = new_adv_prompt
-    # return ids TRUE
 
     all_ids, base_slice, end_slice = get_ids_with_slices(tokenizer, base_strs, end_strs)
     base_ids = all_ids[base_slice]

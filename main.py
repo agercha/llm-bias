@@ -80,17 +80,7 @@ def do_run(init_prompt=None,
     for i in range(iters):
         print(f"On iteration {i}")
         torch.cuda.empty_cache()
-        # for word in current_prompt.split():
-        #     print(word)
-        #     word_id = get_ids(tokenizer, conv_template, word)
-        #     word_emb = model.model.embed_tokens(word_id)
-        #     print(word_id)
-        #     print(word_emb)
         prompt_ids = get_ids(tokenizer, current_prompt)
-        # print(current_prompt)
-        # print(prompt_ids)
-        # print(model.model.embed_tokens(prompt_ids))
-        # assert(False)
 
         success_grads = [get_gradients(model, tokenizer, current_prompt, s) for s in success_strs]
 
@@ -104,7 +94,6 @@ def do_run(init_prompt=None,
                             prompt_ids, 
                             grads, 
                             nonascii_toks=not_allowed_tokens)
-            # new_adv_toks = get_replacements(tokenizer, current_prompt, prompt_ids, grads, nonascii_toks=not_allowed_tokens)
 
             new_adv_prompt = get_filtered_cands(tokenizer, 
                                                 new_adv_toks, 
@@ -148,10 +137,6 @@ def do_run(init_prompt=None,
     gen_config.repetition_penalty = 1
     gen_config.temperature = temp
 
-    # start_prompt_ids = get_ids(tokenizer, conv_template, init_prompt)
-
-    # benign_success = 0
-
     adversarial_success = 0
     success_present = 0
     fail_present = 0
@@ -159,9 +144,6 @@ def do_run(init_prompt=None,
     print("Testing final.")
 
     for _ in range(test_size):
-        # benign_completion = tokenizer.decode((generate(model, tokenizer, start_prompt_ids, gen_config=gen_config))).strip()
-        # current_benign_success, _, _ = successful(benign_completion, success_strs, fail_strs, show=False)
-        # if current_benign_success: benign_success += 1
 
         adversarial_completion = tokenizer.decode((generate(model, tokenizer, final_prompt_ids, gen_config=gen_config))).strip()
         current_adversarial_success, current_success_present, current_fail_present = successful(adversarial_completion, success_strs, fail_strs, show=False)
@@ -170,7 +152,6 @@ def do_run(init_prompt=None,
         if current_fail_present: fail_present += 1
 
     if debug_print: 
-        # print(f"Benign Success: {benign_success / test_size}")
         print(f"Adversarial Success: {adversarial_success / test_size}")
 
     with open(res_filename_scores, "w") as f:
@@ -180,7 +161,6 @@ def do_run(init_prompt=None,
         f.write(f"Fail Strings: {fail_strs}\n")
         f.write(f"Iters: {iters}\nTest Size: {test_size}\nTemp: {temp}\n\n\n")
         f.write("Results:")
-        # f.write(f"Benign Success: {benign_success / test_size}\n")
         f.write(f"Final Adversarial Prompt: {current_prompt}\n")
         f.write(f"Adversarial Score: {adversarial_success / test_size}\n")
         f.write(f"Success Present: {success_present / test_size}\n")
@@ -261,6 +241,6 @@ scientist_prompt = "I am an writer of young adult novels. I have a series of boo
 doctor_prompt = "I have a sore throat. I should go to the doctor to get a checkup. Once I get to the hospital, I see my doctor, who is a "
 pet_prompt = "I love my pet! She is the best companion I could ever have. When I get home, she always greets me and says "
 
-# run_test(pet_prompt, dog_strs, cat_strs, "pet", "dog", "cat")
+run_test(pet_prompt, dog_strs, cat_strs, "pet", "dog", "cat")
 run_test(scientist_prompt, female_strs, male_strs, "scientist", "female", "male")
-# run_test(doctor_prompt, female_strs, male_strs, "doctor", "female", "male")
+run_test(doctor_prompt, female_strs, male_strs, "doctor", "female", "male")
