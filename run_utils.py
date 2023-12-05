@@ -122,6 +122,7 @@ def get_cands(prompt, thesarus):
     return count
 
 def get_replacements(prompt, thesarus):
+    # current_replacement
     prompt_words = prompt.split()
     ind = random.randint(0, len(prompt_words) - 1)
     while prompt_words[ind] not in thesarus:
