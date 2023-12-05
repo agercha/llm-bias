@@ -45,6 +45,15 @@ tokenizer = AutoTokenizer.from_pretrained(
         use_fast=False
     )
 
+def get_word(l):
+    return l.split("\t")[0]
+
+def get_syns(l):
+    return set(l.split("\t")[1].strip().split())
+
+with open("synonyms.txt", "r") as f:
+    thesarus = {get_word(line):get_syns(line) for line in f.readlines()}
+
 conv_template = get_conversation_template('llama-2')
 conv_template.sep2 = conv_template.sep2.strip()
 
@@ -90,6 +99,7 @@ def do_run(init_prompt=None,
 
         with torch.no_grad():
             # get replacements
+            _ = get_replacements(current_prompt, thesarus)
             new_adv_toks = new_control(tokenizer,
                             prompt_ids, 
                             grads, 
