@@ -124,13 +124,12 @@ def get_cands(prompt, thesarus):
 def get_replacements(prompt, thesarus):
     # current_replacement
     prompt_words = prompt.split()
-    ind = random.randint(0, len(prompt_words) - 1)
-    while prompt_words[ind] not in thesarus:
-        ind = random.randint(0, len(prompt_words) - 1)
-    word = prompt_words[ind]
-    syns = thesarus[word]
-    new_prompts = [' '.join(prompt_words[:ind]) + ' ' + syn + ' ' + ' '.join(prompt_words[ind+1:]) for syn in syns]
-    return new_prompts
+    all_prompts = [prompt_words]
+    for ind, word in enumerate(prompt_words):
+        if word in thesarus:
+            syns = thesarus[word]
+            all_prompts = [curr_prompt[:ind] + [syn] + curr_prompt[ind+1:] for syn in syns for curr_prompt in all_prompts]
+    return [' '.join(curr_prompt) for curr_prompt in all_prompts]
 
 def new_control(tokenizer, toks, grad, nonascii_toks, batch_size=8, topk=2500):
     grad[:, nonascii_toks.to(grad.device)] = np.infty

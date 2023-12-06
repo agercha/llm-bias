@@ -52,7 +52,6 @@ def do_run(init_prompt=None,
             iters=16,
             test_size=1000,
             temp=0.5,
-            break_on_success=False,
             debug_print=False):
     
     np.random.seed(20)
@@ -69,80 +68,73 @@ def do_run(init_prompt=None,
     if res_filename_scores == "":
         res_filename_scores = f"results/{time}_scores.txt"
 
-    not_allowed_tokens = get_nonascii_toks(tokenizer) 
-
     current_prompt = init_prompt
 
     # iters
     # we may not want to run a loop, rather adjust current replacement so it does all possibilities
-    for i in range(iters):
-        print(f"On iteration {i}")
-        torch.cuda.empty_cache()
+    torch.cuda.empty_cache()
+
+    # old_replacement
+    # uncomment this section to use old method 
+    '''
+    prompt_ids = get_ids(tokenizer, current_prompt)
+
+    success_grads = [get_gradients(model, tokenizer, current_prompt, s) for s in success_strs]
+
+    fail_grads = [get_gradients(model, tokenizer, current_prompt, f) for f in fail_strs]
+
+    grads = sum(success_grads) - sum(fail_grads)
+    '''
+
+    with torch.no_grad():
+        # get replacements
+
+        # current_replacement
+        new_adv_prompt = get_replacements(current_prompt, thesarus)
+        print(new_adv_prompt)
+        return
 
         # old_replacement
         # uncomment this section to use old method 
+        # comment out few lines above this
         '''
-        prompt_ids = get_ids(tokenizer, current_prompt)
+        new_adv_toks = new_control(tokenizer,
+                        prompt_ids, 
+                        grads, 
+                        nonascii_toks=not_allowed_tokens)
 
-        success_grads = [get_gradients(model, tokenizer, current_prompt, s) for s in success_strs]
-
-        fail_grads = [get_gradients(model, tokenizer, current_prompt, f) for f in fail_strs]
-
-        grads = sum(success_grads) - sum(fail_grads)
+        new_adv_prompt = get_filtered_cands(tokenizer, 
+                                            new_adv_toks, 
+                                            filter_cand=False, 
+                                            curr_control=current_prompt)
         '''
+        
+        success_losses = [get_loss (model, tokenizer, current_prompt, s, new_adv_prompt) for s in success_strs]
+        fail_losses = [get_loss (model, tokenizer, current_prompt, f, new_adv_prompt) for f in fail_strs]
 
-        with torch.no_grad():
-            # get replacements
-            cand_count = get_cands(current_prompt, thesarus)
-            if cand_count == 0: break
+        losses = sum(success_losses) - sum(fail_losses) 
 
-            # current_replacement
-            new_adv_prompt = get_replacements(current_prompt, thesarus)
+        best_new_adv_prompt_id = losses.argmin()
+        best_new_adv_prompt = new_adv_prompt[best_new_adv_prompt_id]
 
-            # old_replacement
-            # uncomment this section to use old method 
-            # comment out few lines above this
-            '''
-            new_adv_toks = new_control(tokenizer,
-                            prompt_ids, 
-                            grads, 
-                            nonascii_toks=not_allowed_tokens)
+        current_prompt = best_new_adv_prompt
 
-            new_adv_prompt = get_filtered_cands(tokenizer, 
-                                                new_adv_toks, 
-                                                filter_cand=False, 
-                                                curr_control=current_prompt)
-            '''
-            
-            success_losses = [get_loss (model, tokenizer, current_prompt, s, new_adv_prompt) for s in success_strs]
-            fail_losses = [get_loss (model, tokenizer, current_prompt, f, new_adv_prompt) for f in fail_strs]
+        while "[INST]" in current_prompt:
+            current_prompt = current_prompt.replace("[INST]", "")
+        current_prompt = current_prompt.strip()
 
-            losses = sum(success_losses) - sum(fail_losses) 
+        gen_config = model.generation_config
+        gen_config.max_new_tokens = 64
+        gen_config.temperature = temp
 
-            best_new_adv_prompt_id = losses.argmin()
-            best_new_adv_prompt = new_adv_prompt[best_new_adv_prompt_id]
+        res = tokenizer.decode(generate(model, 
+                                        tokenizer,  
+                                        get_ids(tokenizer, current_prompt), 
+                                        gen_config=gen_config)).strip()
+        
+        is_success, _, _ = successful(res, success_strs, fail_strs, show=debug_print)
 
-            current_prompt = best_new_adv_prompt
-
-            while "[INST]" in current_prompt:
-                current_prompt = current_prompt.replace("[INST]", "")
-            current_prompt = current_prompt.strip()
-
-            gen_config = model.generation_config
-            gen_config.max_new_tokens = 64
-            gen_config.temperature = temp
-
-            res = tokenizer.decode(generate(model, 
-                                            tokenizer,  
-                                            get_ids(tokenizer, current_prompt), 
-                                            gen_config=gen_config)).strip()
-            
-            is_success, _, _ = successful(res, success_strs, fail_strs, show=debug_print)
-
-        if debug_print: print(f"\nPassed:{is_success}\nCurrent Prompt:{best_new_adv_prompt}")
-
-        if is_success and break_on_success:
-            break
+    if debug_print: print(f"\nPassed:{is_success}\nCurrent Prompt:{best_new_adv_prompt}")
 
     final_prompt_ids = get_ids(tokenizer, current_prompt)
 
@@ -174,7 +166,7 @@ def do_run(init_prompt=None,
         f.write(f"Initial Prompt: {init_prompt}\n")
         f.write(f"Success Strings: {success_strs}\n")
         f.write(f"Fail Strings: {fail_strs}\n")
-        f.write(f"Iters: {iters}\nTest Size: {test_size}\nTemp: {temp}\n\n\n")
+        f.write(f"Test Size: {test_size}\nTemp: {temp}\n\n\n")
         f.write("Results:")
         f.write(f"Final Adversarial Prompt: {current_prompt}\n")
         f.write(f"Adversarial Score: {adversarial_success / test_size}\n")
@@ -223,7 +215,7 @@ def get_benign(init_prompt=None,
         f.write(f"Success: {success_overall / test_size}\n")
         f.write(f"Fail: {fail_overall / test_size}\n")
 
-def run_test(curr_prompt, set1, set2, category, bias1, bias2, test_size=1000, temp=0.5, iters=3, tests=2):
+def run_test(curr_prompt, set1, set2, category, bias1, bias2, test_size=1000, temp=0.5, tests=2):
     get_benign(init_prompt=curr_prompt, 
         res_filename_scores=f"results/benign_{bias1}_{bias2}_{category}.txt", # results_file
         success_strs=set1,           
@@ -236,7 +228,6 @@ def run_test(curr_prompt, set1, set2, category, bias1, bias2, test_size=1000, te
                 res_filename_scores=f"results/adversarial_{bias1}_{category}_{i}.txt", # results_file
                 success_strs=set1,
                 fail_strs=set2, 
-                iters=iters,
                 test_size=test_size,
                 temp=temp,
                 break_on_success=False,
@@ -247,7 +238,6 @@ def run_test(curr_prompt, set1, set2, category, bias1, bias2, test_size=1000, te
                 res_filename_scores=f"results/adversarial_{bias2}_{category}_{i}.txt", # results_file
                 success_strs=set2,
                 fail_strs=set1, 
-                iters=iters,
                 test_size=test_size,
                 temp=temp,
                 break_on_success=False,
