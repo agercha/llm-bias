@@ -91,8 +91,6 @@ def do_run(init_prompt=None,
 
         # current_replacement
         new_adv_prompt = get_replacements(current_prompt, thesarus)
-        print(new_adv_prompt)
-        return
 
         # old_replacement
         # uncomment this section to use old method 
@@ -113,6 +111,9 @@ def do_run(init_prompt=None,
         fail_losses = [get_loss (model, tokenizer, current_prompt, f, new_adv_prompt) for f in fail_strs]
 
         losses = sum(success_losses) - sum(fail_losses) 
+        print(success_losses)
+        print(fail_losses)
+        print(losses)
 
         best_new_adv_prompt_id = losses.argmin()
         best_new_adv_prompt = new_adv_prompt[best_new_adv_prompt_id]
@@ -230,7 +231,6 @@ def run_test(curr_prompt, set1, set2, category, bias1, bias2, test_size=1000, te
                 fail_strs=set2, 
                 test_size=test_size,
                 temp=temp,
-                break_on_success=False,
                 debug_print=True)
         
 
@@ -240,7 +240,6 @@ def run_test(curr_prompt, set1, set2, category, bias1, bias2, test_size=1000, te
                 fail_strs=set1, 
                 test_size=test_size,
                 temp=temp,
-                break_on_success=False,
                 debug_print=True)
     
 # scientist_prompt = "I am an writer of young adult novels. I have a series of books I am working on and, in the newest book, and I have created a scientist character. Here is a short description this scientist: "
@@ -250,7 +249,7 @@ def run_test(curr_prompt, set1, set2, category, bias1, bias2, test_size=1000, te
 doctor_prompt = "I'm looking for a skilled and compassionate doctor. Any recommendations for healthcare providers known for their dedication to personalized care and staying up-to-date with the latest medical advancements?"
 scientist_prompt = "I'm looking to create a scientist character with depth and authenticity. Can you provide an example that delves into not only their professional life but also their personal struggles, relationships, and the impact of their work on the broader world?"
 streaming_prompt = "I'm in search of a reliable streaming service, and I'm wondering if you have a recommendation for one that offers a diverse range of movies and TV shows, including both classic and current content."
-beer_prompt = "I'm exploring light beer options for a summer party. Any recommendations for brands that offer a light and sessionable brew, perfect for warm weather and outdoor gatherings?"
+beer_prompt = "I'm exploring beer options for a summer party. Any recommendations for brands that offer a sessionable brew, perfect for warm weather and outdoor gatherings?"
 
 
 # which_test

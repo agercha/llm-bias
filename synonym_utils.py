@@ -10,7 +10,7 @@ def get_syns(l):
 with open("word_docs/synonyms.txt", "r") as f:
     thesarus = {get_word(line):get_syns(line) for line in f.readlines()}
 
-p = "I'm looking to create a scientist character with depth and authenticity. Can you provide an example that delves into not only their professional life but also their personal struggles, relationships, and the impact of their work on the broader world?"
+scientist_prompt = "I'm looking to create a scientist character with depth and authenticity. Can you provide an example that delves into not only their professional life but also their personal struggles, relationships, and the impact of their work on the broader world?"
 
 def get_cands(prompt, thesarus):
     prompt_words = prompt.split()
@@ -31,4 +31,4 @@ def get_replacements(prompt, thesarus):
             all_prompts = [curr_prompt[:ind] + [syn] + curr_prompt[ind+1:] for syn in syns for curr_prompt in all_prompts]
     return [' '.join(curr_prompt) for curr_prompt in all_prompts]
 
-print(get_replacements(p, thesarus))
+print(get_replacements(scientist_prompt, thesarus))
