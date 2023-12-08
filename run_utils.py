@@ -260,3 +260,10 @@ def get_loss(model, tokenizer, base_strs, end_strs, test_controls, batch_size=8)
     loss_slice = slice(end_slice.start-1, end_slice.stop-1)
     loss = crit(logits[:,loss_slice,:].transpose(1,2), ids[:,end_slice])
     return loss.mean(dim=-1)
+
+def get_loss2(model, tokenizer, base_str, end_str, test_controls):
+    base_ids = get_ids(tokenizer, base_str)
+    end_ids = get_ids(tokenizer, end_str)
+    logits = nn.Linear(base_ids.shape, end_ids.shape)(end_ids)
+    loss = nn.CrossEntropyLoss(logits, end_ids)
+    return loss

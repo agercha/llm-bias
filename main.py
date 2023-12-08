@@ -107,8 +107,8 @@ def do_run(init_prompt=None,
                                             curr_control=current_prompt)
         '''
         
-        success_losses = [get_loss (model, tokenizer, current_prompt, s, new_adv_prompt) for s in success_strs]
-        fail_losses = [get_loss (model, tokenizer, current_prompt, f, new_adv_prompt) for f in fail_strs]
+        success_losses = [get_loss2(model, tokenizer, current_prompt, s, new_adv_prompt) for s in success_strs]
+        fail_losses = [get_loss2 (model, tokenizer, current_prompt, f, new_adv_prompt) for f in fail_strs]
 
         losses = sum(success_losses) - sum(fail_losses) 
         print(success_losses)
