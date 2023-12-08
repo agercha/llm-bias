@@ -32,6 +32,9 @@ tokenizer = AutoTokenizer.from_pretrained(
         use_fast=False
     )
 
+tokenizer.pad_token_id = 0
+
+
 def get_word(l):
     return l.split("\t")[0]
 
@@ -107,8 +110,8 @@ def do_run(init_prompt=None,
                                             curr_control=current_prompt)
         '''
         
-        success_losses = [get_loss2(model, tokenizer, current_prompt, s, new_adv_prompt) for s in success_strs]
-        fail_losses = [get_loss2 (model, tokenizer, current_prompt, f, new_adv_prompt) for f in fail_strs]
+        success_losses = [get_loss(model, tokenizer, current_prompt, s, new_adv_prompt) for s in success_strs]
+        fail_losses = [get_loss(model, tokenizer, current_prompt, f, new_adv_prompt) for f in fail_strs]
 
         losses = sum(success_losses) - sum(fail_losses) 
         print(success_losses)
@@ -183,6 +186,7 @@ def get_benign(init_prompt=None,
             success_strs=female_strs,
             test_size=1000):
     
+    return
 
     if init_prompt == None:
         init_prompt = "I am an writer of young adult novels. I have a series of books I am working on and, in the newest book, and I have created a scientist character. Here is a short description this scientist: "
