@@ -236,6 +236,7 @@ def get_loss(model, tokenizer, base_strs, end_strs, test_controls, batch_size=8)
         for control in test_controls
     ]
     pad_tok = 0
+    max_len = max([test_ids1.shape[0] for test_ids1 in test_ids])
     while pad_tok in all_ids or any([pad_tok in ids for ids in test_ids]):
         pad_tok += 1
     nested_ids = torch.nested.nested_tensor(test_ids)
