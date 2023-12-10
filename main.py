@@ -81,7 +81,7 @@ def do_run(init_prompt=None,
         all_fail_filename = f"results/{time}_fail.txt"
 
     current_prompt = init_prompt
-    
+
     gen_config = model.generation_config
     gen_config.max_new_tokens = 32
     gen_config.repetition_penalty = 1
@@ -109,6 +109,10 @@ def do_run(init_prompt=None,
 
         # current_replacement
         new_adv_prompt = get_replacements(current_prompt, thesarus)
+        
+        adversarial_success = 0
+        success_present = 0
+        fail_present = 0
 
         for curr_adv_prompt_i in new_adv_prompt:
             for _ in range(test_size//10):
