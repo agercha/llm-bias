@@ -81,6 +81,12 @@ def do_run(init_prompt=None,
         all_fail_filename = f"results/{time}_fail.txt"
 
     current_prompt = init_prompt
+    
+    gen_config = model.generation_config
+    gen_config.max_new_tokens = 32
+    gen_config.repetition_penalty = 1
+    gen_config.temperature = temp
+
 
     # iters
     # we may not want to run a loop, rather adjust current replacement so it does all possibilities
