@@ -48,7 +48,9 @@ def get_word(l):
     return l.split("\t")[0]
 
 def get_syns(l):
-    return set(l.split("\t")[1].strip().split())
+    res = set(l.split("\t")[1].strip().split())
+    res.add(l.split("\t")[0])
+    return res
 
 with open("word_docs/synonyms.txt", "r") as f:
     thesarus = {get_word(line):get_syns(line) for line in f.readlines()}

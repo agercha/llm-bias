@@ -128,7 +128,7 @@ def get_replacements(prompt, thesarus):
     all_prompts = [prompt_words]
     for ind, word in enumerate(prompt_words):
         if word in thesarus:
-            syns = thesarus[word] + [word]
+            syns = thesarus[word]
             all_prompts = [curr_prompt[:ind] + [syn] + curr_prompt[ind+1:] for syn in syns for curr_prompt in all_prompts]
     return [' '.join(curr_prompt) for curr_prompt in all_prompts]
 
