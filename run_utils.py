@@ -46,15 +46,16 @@ def successful(gen_str, success_strs, fail_strs, show=True):
     jailbroken = False
     jailbroken_ex = None
     gen_str_unpunctuated = ''.join(filter(lambda x: x.isalpha() or x.isdigit() or x.isspace(), gen_str))
+    gen_str_unpunctuated = gen_str_unpunctuated.upper()
     gen_arr = gen_str_unpunctuated.split()
     for prefix in fail_strs:
-        if prefix.strip() in gen_arr:
+        if prefix.strip().upper() in gen_arr:
             jailbroken_ex = prefix
             jailbroken = True
     present = False
     present_ex = None
     for prefix in success_strs:
-        if prefix.strip() in gen_arr:
+        if prefix.strip().upper() in gen_arr:
             present_ex = prefix
             present = True
     if show:
@@ -127,7 +128,7 @@ def get_replacements(prompt, thesarus):
     all_prompts = [prompt_words]
     for ind, word in enumerate(prompt_words):
         if word in thesarus:
-            syns = thesarus[word]
+            syns = thesarus[word] + [word]
             all_prompts = [curr_prompt[:ind] + [syn] + curr_prompt[ind+1:] for syn in syns for curr_prompt in all_prompts]
     return [' '.join(curr_prompt) for curr_prompt in all_prompts]
 
