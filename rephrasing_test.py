@@ -115,7 +115,8 @@ def test_all(init_prompts_filename,
         success_present = 0
         fail_present = 0
 
-        for curr_adv_prompt_i in all_prompts:
+        for curr_adv_prompt in all_prompts:
+            curr_adv_prompt_i = curr_adv_prompt.strip()
             adversarial_success = 0
             success_present = 0
             fail_present = 0
