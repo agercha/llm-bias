@@ -163,7 +163,7 @@ maximum	maximal
 Chinese	Taiwanese Formosan
 domestic	domesticated
 humanitarian	humanist humanistic
-medical aesculapian
+medical     aesculapian
 likely	probable potential
 fiscal	financial
 fine	ok okay
@@ -326,7 +326,7 @@ forthcoming	extroverted outgoing approaching coming upcoming
 fantastic	antic fantastical grotesque grand howling marvelous marvellous rattling terrific tremendous wonderful wondrous wild fantastical
 diverse various
 Japanese	Nipponese
-classic	classical
+classic	    classical
 New	new fresh new novel raw new new unexampled new new newfangled new Modern new young new
 western	westerly
 ordinary	average
