@@ -42,8 +42,10 @@ def generate(model, tokenizer, input_ids, gen_config=None):
     return output_ids[0]
 
 def my_loss(model, tokenizer, input_str, end_strs):
-    input_ids = torch.tensor(tokenizer(input_str).input_ids)
-    # end_strs = torch.tensor(tokenizer(end_strs).input_ids)
+    input_ids = [
+        torch.tensor(tokenizer(f"{input_str} {control}").input_ids)
+        for control in end_strs
+    ]
 
     test_ids = [
         torch.tensor(tokenizer(control).input_ids)
