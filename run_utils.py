@@ -38,9 +38,12 @@ def generate(model, tokenizer, input_ids, gen_config=None):
     output_ids = model.generate(input_ids, 
                                 attention_mask=attn_masks, 
                                 generation_config=gen_config,
-                                pad_token_id=tokenizer.pad_token_id)[0]
+                                pad_token_id=tokenizer.pad_token_id)
+    
+    print(output_ids)
+    print(dir(output_ids))
 
-    return output_ids
+    return output_ids[0]
 
 def successful(gen_str, success_strs, fail_strs, show=True):
     jailbroken = False
@@ -225,6 +228,13 @@ def forward(*, model, input_ids, attention_mask, batch_size=8):
     
     return torch.cat(logits, dim=0)
 
+def try_loss(model, tokenizer, base_strs, end_strs, attention_mask, labels, decode_hidden_index = -1):
+    base_ids = get_ids(tokenizer, base_strs)
+    end_ids = get_ids(tokenizer, end_strs)
+    output = model(input_ids=base_ids, attention_mask=attention_mask, labels = labels, output_hidden_states = True)
+    loss, logits, hiddens = output['loss'], output['logits'], output['hidden_states']
+    return loss, logits, hiddens[decode_hidden_index]
+
 def get_loss(model, tokenizer, base_strs, end_strs, test_controls, batch_size=8):
 
     all_ids, base_slice, end_slice = get_ids_with_slices(tokenizer, base_strs, end_strs)
@@ -250,8 +260,6 @@ def get_loss(model, tokenizer, base_strs, end_strs, test_controls, batch_size=8)
         locs,
         test_ids
     )
-    print(locs)
-    print(ids)
     if pad_tok >= 0:
         attn_mask = (ids != pad_tok).type(ids.dtype)
     else:
@@ -259,13 +267,9 @@ def get_loss(model, tokenizer, base_strs, end_strs, test_controls, batch_size=8)
 
     del locs, test_ids ; gc.collect()
     logits = forward(model=model, input_ids=ids, attention_mask=attn_mask, batch_size=batch_size)
-    print(logits)
     crit = nn.CrossEntropyLoss(reduction='none')
-    print(crit)
     loss_slice = slice(end_slice.start-1, end_slice.stop-1)
     loss = crit(logits[:,loss_slice,:].transpose(1,2), ids[:,end_slice])
-    print(loss)
-    assert(False)
     return loss.mean(dim=-1)
 
 # def get_loss2(model, tokenizer, base_str, end_str, test_controls):
