@@ -53,11 +53,9 @@ def my_loss(model, tokenizer, input_str, end_strs):
     nested_ids = torch.nested.nested_tensor(input_ids)
     input_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(input_ids), max_len)).to("cuda:0")
 
-    print(input_ids)
 
     labels = input_ids.clone() 
     labels[:,:-1] = -100
-    print(labels)
 
     # test_ids = [
     #     torch.tensor(tokenizer(control).input_ids).to("cuda:0")
@@ -75,16 +73,14 @@ def my_loss(model, tokenizer, input_str, end_strs):
     # else:
     #     attn_mask = None
 
-    print(input_ids.shape)
-    # print(attn_mask.shape)
-    print(labels.shape)
 
     res = model.forward(input_ids=input_ids,
                         # attention_mask=attn_mask,
                         labels=labels,
                         return_dict=True)
 
-    print(res)
+    print(dir(res))
+    print(dir['loss'])
 
 tokenizer.pad_token_id = 0
 
@@ -93,4 +89,5 @@ tokenizer.pad_token_id = 0
 #                                 get_ids(tokenizer, "Hello how are you?")))
 
 
-my_loss(model, tokenizer, "Hello How are you?", ["Bad", "Ok", "Good"])
+my_loss(model, tokenizer, "Hello How are you?", ["Terrible", "Bad", "Awful"])
+my_loss(model, tokenizer, "Hello How are you?", ["Good", "Awesome", "Amazing"])
