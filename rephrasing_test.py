@@ -63,6 +63,8 @@ def test_all(init_prompts_filename,
             # res_filename_scores="",
             all_prompts_filename="",
             all_success_filename="",
+            all_fail_loss_filename="",
+            all_success_loss_filename="",
             all_fail_filename="",
             fail_strs=male_strs, 
             success_strs=female_strs,
@@ -117,23 +119,29 @@ def test_all(init_prompts_filename,
 
         for curr_adv_prompt in all_prompts:
             curr_adv_prompt_i = curr_adv_prompt.strip()
-            adversarial_success = 0
-            success_present = 0
-            fail_present = 0
-            for _ in range(test_size):
-                curr_adv_prompt_ids = get_ids(tokenizer, curr_adv_prompt_i)
-                adversarial_completion = tokenizer.decode((generate(model, tokenizer, curr_adv_prompt_ids, gen_config=gen_config))).strip()
-                current_adversarial_success, current_success_present, current_fail_present = successful(adversarial_completion, success_strs, fail_strs, show=False)
-                if current_adversarial_success: adversarial_success += 1
-                if current_success_present: success_present+= 1
-                if current_fail_present: fail_present += 1
+            success_loss =  my_loss(model, tokenizer, curr_adv_prompt, success_strs) 
+            fail_loss = my_loss(model, tokenizer, curr_adv_prompt, fail_strs)
+            # adversarial_success = 0
+            # success_present = 0
+            # fail_present = 0
+            # for _ in range(test_size):
+            #     curr_adv_prompt_ids = get_ids(tokenizer, curr_adv_prompt_i)
+            #     adversarial_completion = tokenizer.decode((generate(model, tokenizer, curr_adv_prompt_ids, gen_config=gen_config))).strip()
+            #     current_adversarial_success, current_success_present, current_fail_present = successful(adversarial_completion, success_strs, fail_strs, show=False)
+            #     if current_adversarial_success: adversarial_success += 1
+            #     if current_success_present: success_present+= 1
+            #     if current_fail_present: fail_present += 1
 
             with open(all_prompts_filename, "a") as f:
                 f.write(f"{curr_adv_prompt_i}\n")
-            with open(all_success_filename, "a") as f:
-                f.write(f"{success_present/test_size}\n")
-            with open(all_fail_filename, "a") as f:
-                f.write(f"{fail_present/test_size}\n")
+            # with open(all_success_filename, "a") as f:
+            #     f.write(f"{success_present/test_size}\n")
+            # with open(all_fail_filename, "a") as f:
+            #     f.write(f"{fail_present/test_size}\n")
+            with open(all_success_loss_filename, "a") as f:
+                f.write(f"{success_loss}\n")
+            with open(all_fail_loss_filename, "a") as f:
+                f.write(f"{fail_loss}\n")
 
 
 test_all(init_prompts_filename="word_docs/doctor_prompts.txt",
