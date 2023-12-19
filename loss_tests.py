@@ -53,28 +53,30 @@ def my_loss(model, tokenizer, input_str, end_strs):
     nested_ids = torch.nested.nested_tensor(input_ids)
     input_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(input_ids), max_len)).to("cuda:0")
 
-    test_ids = [
-        torch.tensor(tokenizer(control).input_ids).to("cuda:0")
-        for control in end_strs
-    ]
-    pad_tok = 0
-    max_len = max([test_ids1.shape[0] for test_ids1 in test_ids])
-    while any([pad_tok in ids for ids in test_ids]):
-        pad_tok += 1
-    nested_ids = torch.nested.nested_tensor(test_ids)
-    test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(test_ids), max_len)).to("cuda:0")
+    print(input_ids)
 
-    if pad_tok >= 0:
-        attn_mask = (test_ids != pad_tok).type(test_ids.dtype)
-    else:
-        attn_mask = None
+    # test_ids = [
+    #     torch.tensor(tokenizer(control).input_ids).to("cuda:0")
+    #     for control in end_strs
+    # ]
+    # pad_tok = 0
+    # max_len = max([test_ids1.shape[0] for test_ids1 in test_ids])
+    # while any([pad_tok in ids for ids in test_ids]):
+    #     pad_tok += 1
+    # nested_ids = torch.nested.nested_tensor(test_ids)
+    # test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(test_ids), max_len)).to("cuda:0")
+
+    # if pad_tok >= 0:
+    #     attn_mask = (test_ids != pad_tok).type(test_ids.dtype)
+    # else:
+    #     attn_mask = None
 
     print(input_ids.shape)
-    print(attn_mask.shape)
-    print(test_ids.shape)
+    # print(attn_mask.shape)
+    # print(test_ids.shape)
 
     res = model.forward(input_ids=input_ids,
-                        attention_mask=attn_mask,
+                        # attention_mask=attn_mask,
                         labels=test_ids,
                         return_dict=True)
 
