@@ -37,10 +37,27 @@ def generate(model, tokenizer, input_ids, gen_config=None):
     print(output_ids)
     print(dir(output_ids))
 
+    output = model(input_ids=input_ids, attention_mask=torch.ones_like(input_ids), labels = labels, output_hidden_states = True)
+
     return output_ids[0]
+
+def my_loss(model, tokenizer, input_strs, end_strs):
+    input_ids = torch.tensor(tokenizer(input_strs).input_ids)
+    end_strs = torch.tensor(tokenizer(end_strs).input_ids)
+
+    res = model.forward(input_ids=input_ids,
+                        attention_mask=torch.ones_like(input_ids),
+                        labels=torch.tensor([end_strs])
+                        return_dict=True)
+
+    print(res)
 
 tokenizer.pad_token_id = 0
 
-res = tokenizer.decode(generate(model, 
-                                tokenizer,  
-                                get_ids(tokenizer, "Hello how are you?")))
+# res = tokenizer.decode(generate(model, 
+#                                 tokenizer,  
+#                                 get_ids(tokenizer, "Hello how are you?")))
+
+
+my_loss(model, tokenizer, "Hello How are you?", "Bad")
+my_loss(model, tokenizer, "Hello How are you?", "Good")
