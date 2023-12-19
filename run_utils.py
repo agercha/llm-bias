@@ -278,3 +278,26 @@ def get_loss(model, tokenizer, base_strs, end_strs, test_controls, batch_size=8)
 #     logits = nn.Linear(base_ids.shape, end_ids.shape)(end_ids)
 #     loss = nn.CrossEntropyLoss(logits, end_ids)
 #     return loss
+
+def my_loss(model, tokenizer, input_str, end_strs):
+    input_ids = [
+        torch.tensor(tokenizer(f"{input_str} {control}").input_ids).to("cuda:0")
+        for control in end_strs
+    ]
+    l = torch.tensor(tokenizer(f"{input_str} ").input_ids).to("cuda:0").shape[0]
+    pad_tok = 0
+    max_len = max([test_ids1.shape[0] for test_ids1 in input_ids])
+    while any([pad_tok in ids for ids in input_ids]):
+        pad_tok += 1
+    nested_ids = torch.nested.nested_tensor(input_ids)
+    input_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(input_ids), max_len)).to("cuda:0")
+
+
+    labels = input_ids.clone() 
+    labels[:,:l] = -100
+
+    res = model.forward(input_ids=input_ids,
+                        labels=labels,
+                        return_dict=True)
+
+    return res.loss.item()
