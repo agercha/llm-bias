@@ -86,10 +86,10 @@ def test_all(init_prompts_filename,
     #     res_filename_scores = f"results/{time}_loss.txt"
     if all_prompts_filename == "":
         all_prompts_filename = f"results/{time}_prompts.txt"
-    if all_success_filename == "":
-        all_success_filename = f"results/{time}_successs.txt"
-    if all_fail_filename == "":
-        all_fail_filename = f"results/{time}_fail.txt"
+    # if all_success_filename == "":
+    #     all_success_filename = f"results/{time}_successs.txt"
+    # if all_fail_filename == "":
+    #     all_fail_filename = f"results/{time}_fail.txt"
 
     # current_prompt = init_prompt
     all_prompts = open(init_prompts_filename, "r").readlines()
