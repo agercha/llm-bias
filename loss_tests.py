@@ -79,8 +79,7 @@ def my_loss(model, tokenizer, input_str, end_strs):
                         labels=labels,
                         return_dict=True)
 
-    print(dir(res))
-    print(dir.loss)
+    return res.loss
 
 tokenizer.pad_token_id = 0
 
@@ -88,6 +87,11 @@ tokenizer.pad_token_id = 0
 #                                 tokenizer,  
 #                                 get_ids(tokenizer, "Hello how are you?")))
 
+all_prompts = ["Hello How are you?", "Hey what's up hows it going"]
 
-my_loss(model, tokenizer, "Hello How are you?", ["Terrible", "Bad", "Awful"])
-my_loss(model, tokenizer, "Hello How are you?", ["Good", "Awesome", "Amazing"])
+l1 = [my_loss(model, tokenizer, p, ["Terrible", "Bad", "Awful"]) for p in all_prompts] 
+l2 = [my_loss(model, tokenizer, p, ["Good", "Awesome", "Amazing"]) for p in all_prompts]
+
+print(l1, l2)
+print(l1.argmin())
+print(l2.argmin())
