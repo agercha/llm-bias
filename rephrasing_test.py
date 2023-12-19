@@ -62,10 +62,10 @@ def test_all(init_prompts_filename,
             # res_filename_completions="",
             # res_filename_scores="",
             all_prompts_filename="",
-            all_success_filename="",
+            # all_fail_filename="",
+            # all_success_filename="",
             all_fail_loss_filename="",
             all_success_loss_filename="",
-            all_fail_filename="",
             fail_strs=male_strs, 
             success_strs=female_strs,
             test_size=1000,
@@ -83,7 +83,7 @@ def test_all(init_prompts_filename,
     # if res_filename_completions == "":
     #     res_filename_completions = f"results/{time}_completions.txt"
     # if res_filename_scores == "":
-    #     res_filename_scores = f"results/{time}_scores.txt"
+    #     res_filename_scores = f"results/{time}_loss.txt"
     if all_prompts_filename == "":
         all_prompts_filename = f"results/{time}_prompts.txt"
     if all_success_filename == "":
@@ -145,9 +145,9 @@ def test_all(init_prompts_filename,
 
 
 test_all(init_prompts_filename="word_docs/doctor_prompts.txt",
-            all_prompts_filename="search_results/doctor.txt",
-            all_success_filename="search_results/doctor_female_scores.txt",
-            all_fail_filename="search_results/doctor_male_scores.txt",
+            all_prompts_filename="search_results1/doctor.txt",
+            all_success_loss_filename="search_results1/doctor_female_loss.txt",
+            all_fail_loss_filename="search_results1/doctor_male_loss.txt",
             fail_strs=male_strs, 
             success_strs=female_strs,
             test_size=1000,
@@ -155,9 +155,9 @@ test_all(init_prompts_filename="word_docs/doctor_prompts.txt",
 
 
 test_all(init_prompts_filename="word_docs/scientist_prompts.txt",
-            all_prompts_filename="search_results/scientist.txt",
-            all_success_filename="search_results/scientist_female_scores.txt",
-            all_fail_filename="search_results/scientist_male_scores.txt",
+            all_prompts_filename="search_results1/scientist.txt",
+            all_success_loss_filename="search_results1/scientist_female_loss.txt",
+            all_fail_loss_filename="search_results1/scientist_male_loss.txt",
             fail_strs=male_strs, 
             success_strs=female_strs,
             test_size=1000,
@@ -165,9 +165,9 @@ test_all(init_prompts_filename="word_docs/scientist_prompts.txt",
 
 
 test_all(init_prompts_filename="word_docs/burger_prompts.txt",
-            all_prompts_filename="search_results/burger.txt",
-            all_success_filename="search_results/burger_mcdonalds_scores.txt",
-            all_fail_filename="search_results/burger_burgerking_scores.txt",
+            all_prompts_filename="search_results1/burger.txt",
+            all_success_loss_filename="search_results1/burger_mcdonalds_loss.txt",
+            all_fail_loss_filename="search_results1/burger_burgerking_loss.txt",
             fail_strs=burgerking_strs, 
             success_strs=mcdonalds_strs,
             test_size=1000,
@@ -175,9 +175,9 @@ test_all(init_prompts_filename="word_docs/burger_prompts.txt",
 
 
 test_all(init_prompts_filename="word_docs/beers_prompts.txt",
-            all_prompts_filename="search_results/beers.txt",
-            all_success_filename="search_results/beers_coors_scores.txt",
-            all_fail_filename="search_results/beers_bud_scores.txt",
+            all_prompts_filename="search_results1/beers.txt",
+            all_success_loss_filename="search_results1/beers_coors_loss.txt",
+            all_fail_loss_filename="search_results1/beers_bud_loss.txt",
             fail_strs=bud_strs, 
             success_strs=coors_strs,
             test_size=1000,
@@ -185,9 +185,9 @@ test_all(init_prompts_filename="word_docs/beers_prompts.txt",
 
 
 test_all(init_prompts_filename="word_docs/streamingservice_prompts.txt",
-            all_prompts_filename="search_results/streamingservice.txt",
-            all_success_filename="search_results/streamingservice_netflix_scores.txt",
-            all_fail_filename="search_results/streamingservice_hulu_scores.txt",
+            all_prompts_filename="search_results1/streamingservice.txt",
+            all_success_loss_filename="search_results1/streamingservice_netflix_loss.txt",
+            all_fail_loss_filename="search_results1/streamingservice_hulu_loss.txt",
             fail_strs=hulu_strs, 
             success_strs=netflix_strs,
             test_size=1000,
