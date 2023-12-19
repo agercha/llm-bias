@@ -58,8 +58,13 @@ def my_loss(model, tokenizer, input_str, end_strs):
     nested_ids = torch.nested.nested_tensor(test_ids)
     test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(test_ids), max_len))
 
+    if pad_tok >= 0:
+        attn_mask = (test_ids != pad_tok).type(test_ids.dtype)
+    else:
+        attn_mask = None
+
     res = model.forward(input_ids=input_ids,
-                        attention_mask=torch.ones_like(input_ids),
+                        attention_mask=attn_mask,
                         labels=test_ids,
                         return_dict=True)
 
