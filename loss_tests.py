@@ -69,6 +69,10 @@ def my_loss(model, tokenizer, input_str, end_strs):
     else:
         attn_mask = None
 
+    print(input_ids.shape)
+    print(attn_mask.shape)
+    print(test_ids.shape)
+
     res = model.forward(input_ids=input_ids,
                         attention_mask=attn_mask,
                         labels=test_ids,
