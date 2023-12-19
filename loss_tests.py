@@ -46,6 +46,12 @@ def my_loss(model, tokenizer, input_str, end_strs):
         torch.tensor(tokenizer(f"{input_str} {control}").input_ids)
         for control in end_strs
     ]
+    pad_tok = 0
+    max_len = max([test_ids1.shape[0] for test_ids1 in input_ids])
+    while any([pad_tok in ids for ids in input_ids]):
+        pad_tok += 1
+    nested_ids = torch.nested.nested_tensor(input_ids)
+    input_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(input_ids), max_len))
 
     test_ids = [
         torch.tensor(tokenizer(control).input_ids)
@@ -53,7 +59,7 @@ def my_loss(model, tokenizer, input_str, end_strs):
     ]
     pad_tok = 0
     max_len = max([test_ids1.shape[0] for test_ids1 in test_ids])
-    while pad_tok in input_ids or any([pad_tok in ids for ids in test_ids]):
+    while any([pad_tok in ids for ids in test_ids]):
         pad_tok += 1
     nested_ids = torch.nested.nested_tensor(test_ids)
     test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(test_ids), max_len))
