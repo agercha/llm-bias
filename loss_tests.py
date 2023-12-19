@@ -46,7 +46,7 @@ def my_loss(model, tokenizer, input_str, end_strs):
         torch.tensor(tokenizer(f"{input_str} {control}").input_ids).to("cuda:0")
         for control in end_strs
     ]
-    print(torch.tensor(tokenizer(f"{input_str} ").input_ids).to("cuda:0").shape)
+    l = torch.tensor(tokenizer(f"{input_str} ").input_ids).to("cuda:0").shape[0]
     pad_tok = 0
     max_len = max([test_ids1.shape[0] for test_ids1 in input_ids])
     while any([pad_tok in ids for ids in input_ids]):
@@ -56,13 +56,13 @@ def my_loss(model, tokenizer, input_str, end_strs):
 
 
     labels = input_ids.clone() 
-    labels[:,:-1] = -100
+    labels[:,:l] = -100
 
     res = model.forward(input_ids=input_ids,
                         labels=labels,
                         return_dict=True)
 
-    return res.loss
+    return res.loss.item()
 
 tokenizer.pad_token_id = 0
 
