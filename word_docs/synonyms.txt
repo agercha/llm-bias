@@ -100,7 +100,7 @@ external	extraneous outside international outside
 comfortable	comfy easy prosperous
 total	entire full full
 ideal	idealistic
-latest      late recent later  previous
+latest	late recent later  previous
 perfect	arrant complete consummate everlasting gross pure sodding stark staring thoroughgoing utter unadulterated
 friendly	favorable
 independent	autonomous sovereign main
@@ -163,7 +163,7 @@ maximum	maximal
 Chinese	Taiwanese Formosan
 domestic	domesticated
 humanitarian	humanist humanistic
-medical     aesculapian
+medical	aesculapian
 likely	probable potential
 fiscal	financial
 fine	ok okay
@@ -212,7 +212,7 @@ unable	ineffective ineffectual
 substantial	significant substantive real material hearty satisfying solid square solid strong
 warm	affectionate fond lovesome tender strong quick ardent
 corporate	bodied corporal embodied incarnate collective incorporated
-reliable    dependable
+reliable	dependable
 biggest	large big big bad big big big large prominent big heavy boastful braggart bragging braggy big crowing big swelled vainglorious adult big grown grownup big big large magnanimous big bighearted bounteous bountiful freehanded handsome giving liberal openhanded big enceinte expectant gravid great large heavy
 acceptable	satisfactory
 rapid	speedy
@@ -324,7 +324,7 @@ live	unrecorded alive bouncy lively resilient springy hot alive
 satisfied	quenched slaked
 forthcoming	extroverted outgoing approaching coming upcoming
 fantastic	antic fantastical grotesque grand howling marvelous marvellous rattling terrific tremendous wonderful wondrous wild fantastical
-diverse various
+diverse	various
 Japanese	Nipponese
 classic	    classical
 New	new fresh new novel raw new new unexampled new new newfangled new Modern new young new
@@ -363,7 +363,7 @@ disabled	handicapped
 poorest	hapless miserable misfortunate pathetic piteous pitiable pitiful poor wretched poor poor poor inadequate poor short poor
 rare	rarefied rarified uncommon
 electric	electrical galvanic galvanizing galvanising
-unfair  unjust
+unfair	unjust
 Hungarian	Magyar
 conventional	established formal schematic ceremonious
 radical	extremist ultra revolutionary basal
@@ -440,7 +440,7 @@ logical	legitimate coherent consistent ordered coherent lucid
 superior	superscript ranking
 stunning	arresting sensational
 FALSE	mistaken delusive fake faux imitation simulated sour assumed fictitious fictive pretended sham untrue
-classical   classic
+classical	classic
 smooth	politic suave bland fluent fluid liquid legato placid quiet still tranquil unruffled
 bigger	larger large big big bad big big big large prominent big heavy boastful braggart bragging braggy big crowing big swelled vainglorious adult big grown grownup big big large magnanimous big bighearted bounteous bountiful freehanded handsome giving liberal openhanded big enceinte expectant gravid great large heavy
 insufficient	deficient
