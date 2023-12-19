@@ -160,8 +160,8 @@ def do_run(init_prompt=None,
                                             curr_control=current_prompt)
         '''
         
-        success_losses = torch.FloatTensor([sum([my_loss(model, tokenizer, curr_adv_prompt, s) for [s] in success_strs]) for curr_adv_prompt in new_adv_prompt])
-        fail_losses = torch.FloatTensor([sum([my_loss(model, tokenizer, curr_adv_prompt, f) for [f] in fail_strs]) for curr_adv_prompt in new_adv_prompt])
+        success_losses = torch.FloatTensor([my_loss(model, tokenizer, curr_adv_prompt, success_strs) for curr_adv_prompt in new_adv_prompt])
+        fail_losses = torch.FloatTensor([my_loss(model, tokenizer, curr_adv_prompt, fail_strs) for curr_adv_prompt in new_adv_prompt])
 
         losses = sum(success_losses) - sum(fail_losses) 
 

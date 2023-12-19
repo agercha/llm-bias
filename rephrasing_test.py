@@ -119,8 +119,8 @@ def test_all(init_prompts_filename,
 
         for curr_adv_prompt in all_prompts:
             curr_adv_prompt_i = curr_adv_prompt.strip()
-            success_loss =  sum([my_loss(model, tokenizer, curr_adv_prompt, s) for s in success_strs])
-            fail_loss = sum([my_loss(model, tokenizer, curr_adv_prompt, f) for f in fail_strs])
+            success_loss =  my_loss(model, tokenizer, curr_adv_prompt, success_strs)
+            fail_loss = my_loss(model, tokenizer, curr_adv_prompt, fail_strs)
             # adversarial_success = 0
             # success_present = 0
             # fail_present = 0
