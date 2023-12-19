@@ -72,8 +72,8 @@ tokenizer.pad_token_id = 0
 
 all_prompts = ["Hello How are you?", "Hey what's up hows it going"]
 
-l1 = [my_loss(model, tokenizer, p, ["Terrible", "Bad", "Awful"]) for p in all_prompts] 
-l2 = [my_loss(model, tokenizer, p, ["Good", "Awesome", "Amazing"]) for p in all_prompts]
+l1 = torch.FloatTensor([my_loss(model, tokenizer, p, ["Terrible", "Bad", "Awful"]) for p in all_prompts])
+l2 = torch.FloatTensor([my_loss(model, tokenizer, p, ["Good", "Awesome", "Amazing"]) for p in all_prompts])
 
 print(l1, l2)
 print(l1.argmin())
