@@ -80,7 +80,7 @@ def my_loss(model, tokenizer, input_str, end_strs):
                         return_dict=True)
 
     print(dir(res))
-    print(dir['loss'])
+    print(dir.loss)
 
 tokenizer.pad_token_id = 0
 
