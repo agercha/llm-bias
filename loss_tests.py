@@ -55,6 +55,10 @@ def my_loss(model, tokenizer, input_str, end_strs):
 
     print(input_ids)
 
+    labels = input_ids.clone() 
+    labels[:,:-1] = -100
+    print(labels)
+
     # test_ids = [
     #     torch.tensor(tokenizer(control).input_ids).to("cuda:0")
     #     for control in end_strs
@@ -73,11 +77,11 @@ def my_loss(model, tokenizer, input_str, end_strs):
 
     print(input_ids.shape)
     # print(attn_mask.shape)
-    # print(test_ids.shape)
+    print(labels.shape)
 
     res = model.forward(input_ids=input_ids,
                         # attention_mask=attn_mask,
-                        labels=test_ids,
+                        labels=labels,
                         return_dict=True)
 
     print(res)
