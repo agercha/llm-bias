@@ -41,13 +41,24 @@ def generate(model, tokenizer, input_ids, gen_config=None):
 
     return output_ids[0]
 
-def my_loss(model, tokenizer, input_strs, end_strs):
-    input_ids = torch.tensor(tokenizer(input_strs).input_ids)
-    end_strs = torch.tensor(tokenizer(end_strs).input_ids)
+def my_loss(model, tokenizer, input_str, end_strs):
+    input_ids = torch.tensor(tokenizer(input_str).input_ids)
+    # end_strs = torch.tensor(tokenizer(end_strs).input_ids)
+
+    test_ids = [
+        torch.tensor(tokenizer(control).input_ids)
+        for control in end_strs
+    ]
+    pad_tok = 0
+    max_len = max([test_ids1.shape[0] for test_ids1 in test_ids])
+    while pad_tok in input_ids or any([pad_tok in ids for ids in test_ids]):
+        pad_tok += 1
+    nested_ids = torch.nested.nested_tensor(test_ids)
+    test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(test_ids), max_len))
 
     res = model.forward(input_ids=input_ids,
                         attention_mask=torch.ones_like(input_ids),
-                        labels=torch.tensor([end_strs])
+                        labels=test_ids,
                         return_dict=True)
 
     print(res)
@@ -59,5 +70,4 @@ tokenizer.pad_token_id = 0
 #                                 get_ids(tokenizer, "Hello how are you?")))
 
 
-my_loss(model, tokenizer, "Hello How are you?", "Bad")
-my_loss(model, tokenizer, "Hello How are you?", "Good")
+my_loss(model, tokenizer, "Hello How are you?", ["Bad", "Ok", "Good"])
