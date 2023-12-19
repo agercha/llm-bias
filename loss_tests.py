@@ -43,7 +43,7 @@ def generate(model, tokenizer, input_ids, gen_config=None):
 
 def my_loss(model, tokenizer, input_str, end_strs):
     input_ids = [
-        torch.tensor(tokenizer(f"{input_str} {control}").input_ids)
+        torch.tensor(tokenizer(f"{input_str} {control}").input_ids).to("cuda:0")
         for control in end_strs
     ]
     pad_tok = 0
@@ -51,10 +51,10 @@ def my_loss(model, tokenizer, input_str, end_strs):
     while any([pad_tok in ids for ids in input_ids]):
         pad_tok += 1
     nested_ids = torch.nested.nested_tensor(input_ids)
-    input_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(input_ids), max_len))
+    input_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(input_ids), max_len)).to("cuda:0")
 
     test_ids = [
-        torch.tensor(tokenizer(control).input_ids)
+        torch.tensor(tokenizer(control).input_ids).to("cuda:0")
         for control in end_strs
     ]
     pad_tok = 0
@@ -62,7 +62,7 @@ def my_loss(model, tokenizer, input_str, end_strs):
     while any([pad_tok in ids for ids in test_ids]):
         pad_tok += 1
     nested_ids = torch.nested.nested_tensor(test_ids)
-    test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(test_ids), max_len))
+    test_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(test_ids), max_len)).to("cuda:0")
 
     if pad_tok >= 0:
         attn_mask = (test_ids != pad_tok).type(test_ids.dtype)
