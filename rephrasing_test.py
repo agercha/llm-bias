@@ -44,16 +44,16 @@ tokenizer = AutoTokenizer.from_pretrained(
 tokenizer.pad_token_id = 0
 
 
-def get_word(l):
-    return l.split("\t")[0]
+# def get_word(l):
+#     return l.split("\t")[0]
 
-def get_syns(l):
-    res = set(l.split("\t")[1].strip().split())
-    res.add(l.split("\t")[0])
-    return res
+# def get_syns(l):
+#     res = set(l.split("\t")[1].strip().split())
+#     res.add(l.split("\t")[0])
+#     return res
 
-with open("word_docs/synonyms.txt", "r") as f:
-    thesarus = {get_word(line):get_syns(line) for line in f.readlines()}
+# with open("word_docs/synonyms.txt", "r") as f:
+#     thesarus = {get_word(line):get_syns(line) for line in f.readlines()}
 
 conv_template = get_conversation_template('llama-2')
 conv_template.sep2 = conv_template.sep2.strip()
