@@ -250,6 +250,8 @@ def get_loss(model, tokenizer, base_strs, end_strs, test_controls, batch_size=8)
         locs,
         test_ids
     )
+    print(locs)
+    print(ids)
     if pad_tok >= 0:
         attn_mask = (ids != pad_tok).type(ids.dtype)
     else:
@@ -257,10 +259,13 @@ def get_loss(model, tokenizer, base_strs, end_strs, test_controls, batch_size=8)
 
     del locs, test_ids ; gc.collect()
     logits = forward(model=model, input_ids=ids, attention_mask=attn_mask, batch_size=batch_size)
-
+    print(logits)
     crit = nn.CrossEntropyLoss(reduction='none')
+    print(crit)
     loss_slice = slice(end_slice.start-1, end_slice.stop-1)
     loss = crit(logits[:,loss_slice,:].transpose(1,2), ids[:,end_slice])
+    print(loss)
+    assert(False)
     return loss.mean(dim=-1)
 
 # def get_loss2(model, tokenizer, base_str, end_str, test_controls):
