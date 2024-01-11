@@ -2,13 +2,18 @@
 import random
 
 def get_word(l):
-    return l.split("\t")[0]
+    return l.split()[0]
 
 def get_syns(l):
+    print(l)
+    print(l.split("\t"))
     return set(l.split("\t")[1].strip().split())
 
 with open("word_docs/synonyms.txt", "r") as f:
     thesarus = {get_word(line):get_syns(line) for line in f.readlines()}
+
+print(thesarus)
+assert(False)
 
 scientist_prompt = "I'm looking to create a scientist character with depth and authenticity. Can you provide an example that delves into not only their professional life but also their personal struggles, relationships, and the impact of their work on the broader world?"
 

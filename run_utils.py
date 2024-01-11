@@ -45,6 +45,16 @@ def generate(model, tokenizer, input_ids, gen_config=None):
 
     return output_ids[0]
 
+def single_successful(gen_str, target_strs):
+    gen_str_unpunctuated = ''.join(filter(lambda x: x.isalpha() or x.isdigit() or x.isspace(), gen_str))
+    gen_str_unpunctuated = gen_str_unpunctuated.upper()
+    gen_arr = gen_str_unpunctuated.split()
+    present = False
+    for prefix in target_strs:
+        if prefix.strip().upper() in gen_arr:
+            present = True
+    return present
+
 def successful(gen_str, success_strs, fail_strs, show=True):
     jailbroken = False
     jailbroken_ex = None

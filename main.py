@@ -48,7 +48,6 @@ def get_word(l):
     return l.split("\t")[0]
 
 def get_syns(l):
-    print(l)
     res = set(l.split("\t")[1].strip().split())
     res.add(l.split("\t")[0])
     return res
