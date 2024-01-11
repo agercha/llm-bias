@@ -8,7 +8,7 @@ model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
 
 model = AutoModelForCausalLM.from_pretrained(
         model_path,
-        torch_dtype=torch.float16,
+        torch_dcurr_type=torch.float16,
         trust_remote_code=True,
     ).to("cuda:0").eval()
 
@@ -32,9 +32,9 @@ def get_syns(l):
 with open("word_docs/synonyms.txt", "r") as f:
     thesarus = {get_word(line):get_syns(line) for line in f.readlines()}
 
-def do_run(type,
+def do_run(curr_type,
            categories,
-           test_size=5000,
+           test_size=1000,
            temp=0.5):
     
     np.random.seed(20)
@@ -48,9 +48,9 @@ def do_run(type,
 
     # categories_dict = dict()
     # for category in categories:
-    #     categories_dict[category] = (open(f"word_docs/{type}/{category}.txt", "r").readline()).split()
+    #     categories_dict[category] = (open(f"word_docs/{curr_type}/{category}.txt", "r").readline()).split()
 
-    prompts = open(f"word_docs/{type}_prompts.txt", "r").readlines()
+    prompts = open(f"word_docs/{curr_type}_prompts.txt", "r").readlines()
 
     success_dict = {category:0 for category in categories}
 
@@ -62,19 +62,20 @@ def do_run(type,
             completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
             
             for category in categories:
-                success_dict[category] += single_successful(completion, target_strs)
+                target_strs = (open(f"word_docs/{curr_type}/{category}.txt", "r").readline()).split()
+                if single_successful(completion, target_strs): success_dict[category] += 1
         
         for category in categories:
             # get loss
-            target_strs = (open(f"word_docs/{type}/{category}.txt", "r").readline()).split()
+            target_strs = (open(f"word_docs/{curr_type}/{category}.txt", "r").readline()).split()
             stripped_prompt = prompt.strip()
             loss =  my_loss(model, tokenizer, stripped_prompt, target_strs)
             # write loss
-            with open(f"brand_results/{type}_{category}_loss.txt", "a") as f:
+            with open(f"brand_results/{curr_type}_{category}_loss.txt", "a") as f:
                 f.write(f"{loss}\n")
 
             # write scores using tests
-            with open(f"brand_results/{type}_{category}_score.txt", "a") as f:
+            with open(f"brand_results/{curr_type}_{category}_score.txt", "a") as f:
                 f.write(f"{success_dict[category] // test_size}\n")
             success_dict[category] = 0
 
