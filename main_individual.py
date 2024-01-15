@@ -1,12 +1,17 @@
 import torch
 import numpy as np
-from transformers import (AutoModelForCausalLM, AutoTokenizer)
+from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM)
 from fastchat.model import get_conversation_template
 from run_utils import *
 
 model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
 
-model = AutoModelForCausalLM.from_pretrained(
+# model = AutoModelForCausalLM.from_pretrained(
+#         model_path,
+#         torch_dtype=torch.float16,
+#         trust_remote_code=True,
+#     ).to("cuda:0").eval()
+model = LlamaForCausalLM.from_pretrained(
         model_path,
         torch_dtype=torch.float16,
         trust_remote_code=True,
