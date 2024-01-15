@@ -63,7 +63,7 @@ def do_run(curr_type,
             print(completion)
             
             for category in categories:
-                target_strs = (open(f"word_docs/{curr_type}/{category}.txt", "r").readline()).split()
+                target_strs = [word.strip() for word in open(f"word_docs/streamingservice/{category}.txt", "r").readlines()]
                 print(target_strs)
                 if single_successful(completion, target_strs): 
                     print("yes!")
@@ -71,7 +71,7 @@ def do_run(curr_type,
         
         for category in categories:
             # get loss
-            target_strs = (open(f"word_docs/{curr_type}/{category}.txt", "r").readline()).split()
+            target_strs = [word.strip() for word in open(f"word_docs/streamingservice/{category}.txt", "r").readlines()]
             stripped_prompt = prompt.strip()
             loss =  my_loss(model, tokenizer, stripped_prompt, target_strs)
             # write loss
