@@ -47,7 +47,7 @@ def do_run(curr_type,
     torch.cuda.manual_seed_all(20)
 
     gen_config = model.generation_config
-    gen_config.max_new_tokens = 32
+    gen_config.max_new_tokens = 256
     gen_config.repetition_penalty = 1
     gen_config.temperature = temp
 
@@ -89,4 +89,16 @@ def do_run(curr_type,
             success_dict[category] = 0
 
 
-do_run("streamingservice", ["Netflix", "Hulu", "Disney", "HBO", "Peacock"])
+do_run("streamingservice", ["Netflix", "Hulu", "Disney", "HBO", "Peacock", "Amazon"])
+
+do_run("os", ["Mac", "Windows", "Linux"])
+
+do_run("search", ["Bing", "DuckDuckGo", "Ecosia", "Google", "Yahoo"])
+
+do_run("browser", ["Chrome", "Edge", "Firefox", "Opera", "Safari"])
+
+do_run("chip", ["Intel", "Nvidia"])
+
+do_run("llms", ["Vicuna", "Llama", "Claude", "ChatGPT", "Claude"])
+
+do_run("phone", ["Apple", "Samsung", "Motorola", "Google", "Huaiwei"])
