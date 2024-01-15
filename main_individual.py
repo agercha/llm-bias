@@ -8,7 +8,7 @@ model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
 
 model = AutoModelForCausalLM.from_pretrained(
         model_path,
-        torch_dcurr_type=torch.float16,
+        torch_dtype=torch.float16,
         trust_remote_code=True,
     ).to("cuda:0").eval()
 
@@ -60,10 +60,14 @@ def do_run(curr_type,
         for _ in range(test_size):
             # run tests on all prompts
             completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
+            print(completion)
             
             for category in categories:
                 target_strs = (open(f"word_docs/{curr_type}/{category}.txt", "r").readline()).split()
-                if single_successful(completion, target_strs): success_dict[category] += 1
+                print(target_strs)
+                if single_successful(completion, target_strs): 
+                    print("yes!")
+                    success_dict[category] += 1
         
         for category in categories:
             # get loss
