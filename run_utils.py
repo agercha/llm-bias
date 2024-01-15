@@ -40,8 +40,8 @@ def generate(model, tokenizer, input_ids, gen_config=None):
                                 generation_config=gen_config,
                                 pad_token_id=tokenizer.pad_token_id)
     
-    print(output_ids)
-    print(dir(output_ids))
+    # print(output_ids)
+    # print(dir(output_ids))
 
     return output_ids[0]
 

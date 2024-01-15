@@ -80,7 +80,7 @@ def do_run(curr_type,
 
             # write scores using tests
             with open(f"brand_results/{curr_type}_{category}_score.txt", "a") as f:
-                f.write(f"{success_dict[category] // test_size}\n")
+                f.write(f"{success_dict[category] / test_size}\n")
             success_dict[category] = 0
 
 
