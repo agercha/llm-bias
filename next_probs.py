@@ -2,8 +2,8 @@
 import torch
 from transformers import (AutoModelForCausalLM, AutoTokenizer)
 
-# model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
-model_path = "/Users/annagerchanovsky/Documents/Documents/research/Llama-2-7b-hf"
+model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
+# model_path = "/Users/annagerchanovsky/Documents/Documents/research/Llama-2-7b-hf"
 
 model = AutoModelForCausalLM.from_pretrained(
         model_path,
@@ -31,15 +31,17 @@ def to_tokens_and_logprobs(model, tokenizer, prompts, end):
     probs = probs[:, :-1, :]
     input_ids = input_ids[:, 1:]
     gen_probs = torch.gather(probs, 2, input_ids[:, :, None]).squeeze(-1)
+    print(end_len)
+    return(gen_probs)
 
-    batch = []
-    for input_sentence, input_probs in zip(input_ids, gen_probs):
-        text_sequence = []
-        for token, p in zip(input_sentence, input_probs):
-            if token not in tokenizer.all_special_ids:
-                text_sequence.append((tokenizer.decode(token), p.item()))
-        batch.append(text_sequence)
-    return batch
+    # batch = []
+    # for input_sentence, input_probs in zip(input_ids, gen_probs):
+    #     text_sequence = []
+    #     for token, p in zip(input_sentence, input_probs):
+    #         if token not in tokenizer.all_special_ids:
+    #             text_sequence.append((tokenizer.decode(token), p.item()))
+    #     batch.append(text_sequence)
+    # return batch
 
 
 # tokenizer = AutoTokenizer.from_pretrained("gpt2", padding_side="left")
@@ -66,3 +68,4 @@ for end in ends:
 
     for b in batch:
         print(b)
+        assert(False)
