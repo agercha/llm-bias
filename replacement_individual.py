@@ -90,7 +90,7 @@ model.config.pad_token_id = model.config.eos_token_id
 dataset = json.load(open('dataset.json'))
 thesarus = json.load(open('thesarus.json'))
 
-test_size = 10
+test_size = 100
 gen_config = model.generation_config
 gen_config.max_new_tokens = 32
 gen_config.repetition_penalty = 1
@@ -122,14 +122,11 @@ for category in dataset:
             for _ in range(test_size):
                 completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
                 for brand_ind, brand in enumerate(brands):
-                    score = 0
                     target_strs = brands[brand]
                     if single_successful(completion, target_strs): 
-                        score += 1
-                    
-                    scores[brand_ind][prompt_ind] = score/test_size
+                        scores[brand_ind][prompt_ind] += 1
 
-        print(scores)
+        scores = scores/test_size
         
         with open(f"loss_results/{category}_results.txt", "w") as f:
             f.write(f"brands: {brands}\n\n")
