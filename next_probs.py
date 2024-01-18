@@ -63,10 +63,12 @@ def do_run(category, ends):
     prompts = open(f"word_docs/{category}_prompts.txt", "r").readlines()
     for end in ends:
         # input_texts = [prompt + " " + end for prompt in prompts]
-        batch = to_tokens_and_logprobs(model, tokenizer, prompts, end)
+        target_strs = [word.strip() for word in open(f"word_docs/{category}/{end}.txt", "r").readlines()]
+        batch = [to_tokens_and_logprobs(model, tokenizer, prompts, target_str) for target_str in target_strs]
 
-        for b in batch:
-            print(b)
+        print(end)
+        print(target_strs)
+        print(batch)
 
 do_run("streamingservice", ["Netflix", "Hulu", "Disney", "HBO", "Peacock", "Amazon"])
 
