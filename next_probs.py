@@ -19,7 +19,10 @@ tokenizer = AutoTokenizer.from_pretrained(
     )
 
 
-def to_tokens_and_logprobs(model, tokenizer, input_texts):
+def to_tokens_and_logprobs(model, tokenizer, prompts, end):
+    end_len = tokenizer(input_texts, padding=True, return_tensors="pt").input_ids.to("cuda:0").shape[-1] - 1
+
+    input_texts = [prompt + " " + end for prompt in prompts]
     input_ids = tokenizer(input_texts, padding=True, return_tensors="pt").input_ids.to("cuda:0")
     outputs = model(input_ids)
     probs = torch.log_softmax(outputs.logits, dim=-1).detach()
@@ -58,8 +61,8 @@ model.config.pad_token_id = model.config.eos_token_id
 prompts = open(f"word_docs/browser_prompts.txt", "r").readlines()
 ends = ["Netflix", "Hulu", "Disney", "HBO", "Peacock", "Amazon"]
 for end in ends:
-    input_texts = [prompt + " " + end for prompt in prompts]
-    batch = to_tokens_and_logprobs(model, tokenizer, input_texts)
+    # input_texts = [prompt + " " + end for prompt in prompts]
+    batch = to_tokens_and_logprobs(model, tokenizer, prompts, end)
 
     for b in batch:
         print(b)
