@@ -20,7 +20,7 @@ tokenizer = AutoTokenizer.from_pretrained(
 
 
 def to_tokens_and_logprobs(model, tokenizer, prompts, end):
-    end_len = tokenizer(input_texts, padding=True, return_tensors="pt").input_ids.to("cuda:0").shape[-1] - 1
+    end_len = tokenizer(end, padding=True, return_tensors="pt").input_ids.to("cuda:0").shape[-1] - 1
 
     input_texts = [prompt + " " + end for prompt in prompts]
     input_ids = tokenizer(input_texts, padding=True, return_tensors="pt").input_ids.to("cuda:0")
@@ -31,17 +31,16 @@ def to_tokens_and_logprobs(model, tokenizer, prompts, end):
     probs = probs[:, :-1, :]
     input_ids = input_ids[:, 1:]
     gen_probs = torch.gather(probs, 2, input_ids[:, :, None]).squeeze(-1)
-    print(end_len)
-    return(gen_probs)
+    print(gen_probs)
 
-    # batch = []
-    # for input_sentence, input_probs in zip(input_ids, gen_probs):
-    #     text_sequence = []
-    #     for token, p in zip(input_sentence, input_probs):
-    #         if token not in tokenizer.all_special_ids:
-    #             text_sequence.append((tokenizer.decode(token), p.item()))
-    #     batch.append(text_sequence)
-    # return batch
+    batch = []
+    for input_sentence, input_probs in zip(input_ids, gen_probs):
+        text_sequence = []
+        for token, p in zip(input_sentence, input_probs):
+            if token not in tokenizer.all_special_ids:
+                text_sequence.append((tokenizer.decode(token), p.item()))
+        batch.append(text_sequence)
+    return batch
 
 
 # tokenizer = AutoTokenizer.from_pretrained("gpt2", padding_side="left")
@@ -61,7 +60,7 @@ model.config.pad_token_id = model.config.eos_token_id
 # input_texts = [input_text + " Nvidia" for input_text in prompts]
 
 prompts = open(f"word_docs/browser_prompts.txt", "r").readlines()
-ends = ["Netflix", "Hulu", "Disney", "HBO", "Peacock", "Amazon"]
+ends = ["Bing", "DuckDuckGo", "Ecosia", "Google", "Yahoo"]
 for end in ends:
     # input_texts = [prompt + " " + end for prompt in prompts]
     batch = to_tokens_and_logprobs(model, tokenizer, prompts, end)
