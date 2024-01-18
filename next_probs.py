@@ -38,7 +38,7 @@ def to_tokens_and_logprobs(model, tokenizer, prompts, end):
         for token, p in zip(input_sentence, input_probs):
             if token not in tokenizer.all_special_ids:
                 text_sequence.append(p.item())
-        batch.append(text_sequence[-end_len:])
+        batch.append(sum(text_sequence[-end_len:]))
 
     return batch
 
@@ -59,12 +59,26 @@ model.config.pad_token_id = model.config.eos_token_id
 
 # input_texts = [input_text + " Nvidia" for input_text in prompts]
 
-prompts = open(f"word_docs/browser_prompts.txt", "r").readlines()
-ends = ["Bing", "DuckDuckGo", "Ecosia", "Google", "Yahoo"]
-for end in ends:
-    # input_texts = [prompt + " " + end for prompt in prompts]
-    batch = to_tokens_and_logprobs(model, tokenizer, prompts, end)
+def do_run(category, ends):
+    prompts = open(f"word_docs/{category}_prompts.txt", "r").readlines()
+    for end in ends:
+        # input_texts = [prompt + " " + end for prompt in prompts]
+        batch = to_tokens_and_logprobs(model, tokenizer, prompts, end)
 
-    for b in batch:
-        print(b)
-        assert(False)
+        for b in batch:
+            print(b)
+
+do_run("streamingservice", ["Netflix", "Hulu", "Disney", "HBO", "Peacock", "Amazon"])
+
+do_run("os", ["Mac", "Windows", "Linux"])
+
+do_run("search", ["Bing", "DuckDuckGo", "Ecosia", "Google", "Yahoo"])
+
+do_run("browser", ["Chrome", "Edge", "Firefox", "Opera", "Safari"])
+
+do_run("chip", ["Intel", "Nvidia"])
+
+do_run("llms", ["Bard", "Vicuna", "Llama", "Claude", "ChatGPT", "Claude"])
+
+do_run("phone", ["Apple", "Samsung", "Motorola", "Google", "Huaiwei"])
+
