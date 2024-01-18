@@ -31,15 +31,15 @@ def to_tokens_and_logprobs(model, tokenizer, prompts, end):
     probs = probs[:, :-1, :]
     input_ids = input_ids[:, 1:]
     gen_probs = torch.gather(probs, 2, input_ids[:, :, None]).squeeze(-1)
-    print(gen_probs)
 
     batch = []
     for input_sentence, input_probs in zip(input_ids, gen_probs):
         text_sequence = []
         for token, p in zip(input_sentence, input_probs):
             if token not in tokenizer.all_special_ids:
-                text_sequence.append((tokenizer.decode(token), p.item()))
-        batch.append(text_sequence)
+                text_sequence.append(p.item())
+        batch.append(text_sequence[-end_len:])
+
     return batch
 
 
