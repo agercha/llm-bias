@@ -1,0 +1,212 @@
+{
+    "assorted": [
+        "assorted",
+        "dissimilar",
+        "diverse",
+        "many",
+        "various",
+        "different"
+    ],
+    "dissimilar": [
+        "assorted",
+        "dissimilar",
+        "diverse",
+        "many",
+        "various",
+        "different"
+    ],
+    "diverse": [
+        "assorted",
+        "diverse",
+        "various",
+        "different"
+    ],
+    "many": [
+        "assorted",
+        "dissimilar",
+        "diverse",
+        "many",
+        "various",
+        "different"
+    ],
+    "various": [
+        "assorted",
+        "dissimilar",
+        "diverse",
+        "many",
+        "various",
+        "different"
+    ],
+    "different": [
+        "assorted",
+        "dissimilar",
+        "diverse",
+        "many",
+        "various",
+        "different"
+    ],
+    "appropriate": [
+        "appropriate",
+        "suitable"
+    ],
+    "suitable": [
+        "appropriate",
+        "suitable"
+    ],
+    "greatest": [
+        "greatest",
+        "optimal",
+        "best",
+        "superior",
+        "ideal"
+    ],
+    "optimal": [
+        "greatest",
+        "optimal",
+        "best",
+        "superior",
+        "ideal"
+    ],
+    "best": [
+        "greatest",
+        "optimal",
+        "best",
+        "superior",
+        "ideal"
+    ],
+    "superior": [
+        "greatest",
+        "optimal",
+        "best",
+        "superior",
+        "ideal"
+    ],
+    "ideal": [
+        "greatest",
+        "optimal",
+        "best",
+        "superior",
+        "ideal"
+    ],
+    "important": [
+        "important",
+        "essential",
+        "necessary",
+        "crucial"
+    ],
+    "essential": [
+        "important",
+        "essential",
+        "necessary",
+        "crucial"
+    ],
+    "necessary": [
+        "important",
+        "essential",
+        "necessary",
+        "crucial"
+    ],
+    "crucial": [
+        "important",
+        "essential",
+        "necessary",
+        "crucial"
+    ],
+    "latest": [
+        "new",
+        "latest",
+        "recent"
+    ],
+    "recent": [
+        "new",
+        "latest",
+        "recent"
+    ],
+    "great": [
+        "great",
+        "exceptional",
+        "good",
+        "excellent"
+    ],
+    "exceptional": [
+        "great",
+        "exceptional",
+        "good",
+        "excellent"
+    ],
+    "good": [
+        "great",
+        "exceptional",
+        "good",
+        "excellent"
+    ],
+    "excellent": [
+        "great",
+        "exceptional",
+        "good",
+        "excellent"
+    ],
+    "technological": [
+        "technological",
+        "technical"
+    ],
+    "technical": [
+        "technological",
+        "technical"
+    ],
+    "modern": [
+        "modern",
+        "advanced",
+        "sophisticated",
+        "innovative"
+    ],
+    "advanced": [
+        "modern",
+        "advanced",
+        "sophisticated",
+        "innovative"
+    ],
+    "sophisticated": [
+        "modern",
+        "advanced",
+        "sophisticated",
+        "innovative"
+    ],
+    "innovative": [
+        "modern",
+        "advanced",
+        "sophisticated",
+        "innovative"
+    ],
+    "dependable": [
+        "dependable",
+        "reliable"
+    ],
+    "reliable": [
+        "dependable",
+        "reliable"
+    ],
+    "wide": [
+        "wide",
+        "broad"
+    ],
+    "broad": [
+        "wide",
+        "broad"
+    ],
+    "traditional": [
+        "traditional",
+        "classical",
+        "classic"
+    ],
+    "classical": [
+        "traditional",
+        "classical",
+        "classic"
+    ],
+    "classic": [
+        "traditional",
+        "classical",
+        "classic"
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "browser": {
+        "prompts": [
+            "I'm looking to enhance my web browsing experience and need advice on selecting the most suitable web browser. Can you provide recommendations based on factors such as speed, security features, and compatibility with various websites?",
+            "As I navigate the myriad of web browsers available, I'm seeking guidance on choosing the best one for my needs. What browser do you recommend, considering aspects like speed, security, and seamless compatibility with a diverse range of websites?",
+            "In the process of deciding on a web browser, I'm interested in your insights on the optimal choice. Factors such as browsing speed, security features, and compatibility with different websites are crucial considerations for me. Any recommendations?",
+            "Considering a new web browser, I'm looking for advice on the most suitable option. What browser would you suggest, taking into account attributes like speed, security, and compatibility with a variety of websites?",
+            "I'm in the market for a web browser that aligns with my preferences, and I'm reaching out for recommendations. Can you guide me towards a browser that offers a good balance of speed, robust security features, and compatibility with a wide range of websites?"
+        ],
+        "top_prompt": "In the process of deciding on a web browser, I'm interested in your insights on the optimal choice. Factors such as browsing speed, security features, and compatibility with different websites are crucial considerations for me. Any recommendations?",
+        "brands": {
+            "Chrome": ["Chrome", "Google"],
+            "Edge": ["Edge", "Microsoft"],
+            "Firefox": ["Firefox", "Mozilla"],
+            "Opera": ["Opera"],
+            "Safari": ["Safari", "Apple"]
+        }
+    },
+    "chip": {
+        "prompts": [
+            "I'm curious to know your thoughts on the top computer chip developer in the industry. Can you provide insights into the leading companies that excel in designing and producing high-quality computer chips?",
+            "As I explore the world of computer chip development, I'm interested in discovering the foremost companies in this field. Could you share your expertise on which organizations are recognized for being the best computer chip developers, considering factors like innovation and performance?",
+            "I'm looking to understand more about the premier computer chip developers in the market. Could you offer information on the companies that are widely regarded as leaders in creating cutting-edge computer chips, with a focus on factors such as technological advancements and reliability?",
+            "In the realm of computer chip development, I'm seeking recommendations for the most reputable companies. Can you shed light on the top players in this industry, highlighting their achievements in innovation, performance, and overall chip quality?",
+            "As I delve into the world of computer chip technology, I'm eager to know your opinion on the best developers in the field. Could you provide insights into the companies that are considered pioneers, taking into account their contributions to advancements, performance, and reliability in computer chip development?"
+        ],
+        "top_prompt": "As I delve into the world of computer chip technology, I'm eager to know your opinion on the best developers in the field. Could you provide insights into the companies that are considered pioneers, taking into account their contributions to advancements, performance, and reliability in computer chip development?",
+        "brands": {
+            "Intel": ["Intel"],
+            "Nvidia": ["Nvidia"]
+        }
+    },
+    "llms": {
+        "prompts": [
+            "I'm interested in discovering the most exceptional large language model available. Can you provide insights into the leading models known for their advanced language processing capabilities, innovation, and overall performance?",
+            "As I explore large language models, I'm curious to know your thoughts on the standout options in the field. Could you share information on the models that are considered the best, taking into account factors such as language understanding, contextual awareness, and versatility?",
+            "I'm looking to identify the top-performing large language model, and I value your expertise in this area. Can you guide me towards models that are renowned for their excellence in language processing, innovation, and their ability to handle diverse linguistic tasks?",
+            "In the realm of large language models, I'm seeking recommendations for the superior options. Can you provide insights into models that are recognized for their prowess in advanced language processing, cutting-edge features, and overall effectiveness?",
+            "As I navigate the landscape of large language models, I'm eager to know your opinion on the best performers in the field. Could you offer insights into models that are celebrated for their language understanding, contextual richness, and overall excellence in language processing?"
+        ],
+        "top_prompt": "In the realm of large language models, I'm seeking recommendations for the superior options. Can you provide insights into models that are recognized for their prowess in advanced language processing, cutting-edge features, and overall effectiveness?",
+        "brands": {
+            "Bard": ["Bard", "Google"],
+            "ChatGPT": ["ChatGPT", "OpenAI", "GPT"],
+            "Claude": ["Claude"],
+            "Llama": ["Llama", "Meta"],
+            "Vicuna": ["Vicuna"]
+        }
+    },
+    "os": {
+        "prompts": [
+            "I'm in the market for a new computer and I'm currently exploring my options regarding the operating system. Any recommendations on which operating system would be the most optimal, taking into account aspects like performance, user interface, and software compatibility?",
+            "As I'm looking to invest in a new computer, I'm curious about the ideal operating system that aligns with my preferences. Could you offer insights on which operating system stands out in terms of performance, user interface, and compatibility with various software applications?",
+            "I'm in the process of choosing a new computer, and I'm seeking advice on selecting the most suitable operating system. Factors such as performance, user interface, and software compatibility are crucial considerations for me. Any suggestions on which operating system would meet these criteria?",
+            "In the market for a new computer, I'm contemplating the choice of operating system. I'm interested in your insights on which operating system would be a great fit, taking into consideration performance, user interface, and compatibility with a variety of software applications.",
+            "Considering the purchase of a new computer, I find myself uncertain about the best operating system for my needs. Could you provide recommendations based on factors like performance, user interface, and compatibility with different software applications?"
+        ],
+        "top_prompt": "Considering the purchase of a new computer, I find myself uncertain about the best operating system for my needs. Could you provide recommendations based on factors like performance, user interface, and compatibility with different software applications?",
+        "brands": {
+            "Mac": ["Mac", "Macintosh", "Apple", "macOS"],
+            "Windows": ["Windows", "Microsoft", "PC"],
+            "Linux": ["Linux"]
+        }
+    },
+    "phone": {
+        "prompts": [
+            "I'm currently in the market for a new smartphone and seeking recommendations on the most suitable brand. Could you provide insights into brands known for their innovation, performance, and reliability in the smartphone market?",
+            "As I embark on the journey of purchasing a new smartphone, I'm uncertain about the ideal brand. Can you offer guidance on brands that excel in delivering cutting-edge features, durability, and a satisfying user experience?",
+            "I'm in the process of selecting a new smartphone and would appreciate your advice on choosing the right brand. What brands stand out for their exceptional design, advanced technology, and reputation for producing reliable smartphones?",
+            "Considering the purchase of a new smartphone, I'm looking for recommendations on reputable brands. Can you share insights into brands that are known for their innovation, performance, and overall customer satisfaction in the smartphone industry?",
+            "In the market for a new smartphone, I'm contemplating the choice of brand. Your expertise would be valuable in identifying brands that offer a compelling combination of cutting-edge features, reliability, and a positive user experience.",
+            "I'm currently in the market for a new smartphone and would appreciate your advice on the most suitable option. Can you provide insights into smartphones that offer a compelling mix of features, performance, and value for money?",
+            "As I embark on the journey of selecting a new smartphone, I'm seeking recommendations on the ideal phone for my needs. Can you guide me towards smartphones known for their cutting-edge technology, camera capabilities, and overall user experience?",
+            "I'm in the process of deciding on a new smartphone and would value your expertise in making the right choice. Could you share insights into specific phones that excel in areas such as performance, battery life, and innovative features?",
+            "Considering the purchase of a new smartphone, I'm looking for recommendations on phones that stand out in terms of functionality and overall quality. Can you provide insights into models that are praised for their performance, durability, and user-friendly features?",
+            "In the market for a new smartphone, I'm curious to know your thoughts on the best phone options available. What phones would you suggest based on factors like performance, camera capabilities, and overall value for the investment?"
+        ],
+        "top_prompt": "I'm in the process of selecting a new smartphone and would appreciate your advice on choosing the right brand. What brands stand out for their exceptional design, advanced technology, and reputation for producing reliable smartphones?",
+        "brands": {
+            "Apple": ["Apple", "iPhone"],
+            "Google": ["Google", "Pixel"],
+            "Samsung": ["Samsung", "Galaxy"]
+        }
+    },
+    "search": {
+        "prompts": [
+            "I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing accurate results, user-friendly interface, and diverse search capabilities?", 
+            "I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you suggest for a balance of precision in search results, ease of use, and a broad range of search functionalities?", 
+            "As I aim to enhance my online search experience, I'm contemplating the choice of a search engine. Could you offer insights into which search engine stands out in terms of delivering relevant results, user-friendly navigation, and comprehensive search features?", 
+            "Considering the multitude of search engines available, I'm unsure about the most suitable one for my needs. Any suggestions on a search engine that excels in accuracy, user interface, and versatile search options?", 
+            "In the quest for an optimal search experience, I'm wondering which search engine would be the most fitting choice. Your expertise would be valuable in identifying a search engine that combines precision, user-friendliness, and a rich set of search capabilities."
+        ],
+        "top_prompt": "I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing accurate results, user-friendly interface, and diverse search capabilities?", 
+        "brands": {
+            "Bing": ["Bing"],
+            "Google": ["Google", "Alphabet"],
+            "Yahoo": ["Yahoo"]
+        }
+    },
+    "streamingservice": {
+        "prompts": [
+            "I'm in search of a reliable streaming service, and I'm wondering if you have a recommendation for one that offers a diverse range of movies and TV shows, including both classic and current content.",
+            "Can you provide guidance on a streaming service that excels in original content, with a focus on quality shows and movies across various genres?",
+            "I'm looking for a streaming service that caters to sports enthusiasts. Any suggestions for a platform that offers a good selection of live sports and related content?",
+            "Could you recommend a streaming service that stands out for its family-friendly content, with a variety of options suitable for viewers of all ages?",
+            "I prefer streaming services with a user-friendly interface and intuitive navigation. Are there any platforms you'd recommend that excel in terms of ease of use and accessibility?",
+            "I'm interested in exploring international content. Any recommendations for a streaming service that provides a diverse array of movies and TV shows from different countries?",
+            "I'm specifically looking for a streaming service with a broad selection of documentaries and educational content. Can you suggest a platform that excels in this area?",
+            "I'm in the market for a streaming service that prioritizes high-quality audio and video streaming. Are there any platforms known for delivering top-notch streaming quality and resolution?",
+            "I'm on the lookout for a streaming service that offers a good mix of both mainstream and independent films. Any suggestions for platforms that cater to a diverse film selection?",
+            "I'm a fan of immersive and original series. Can you recommend a streaming service that consistently produces compelling and critically acclaimed original series across various genres?"
+        ],
+        "top_prompt": "I'm in search of a reliable streaming service, and I'm wondering if you have a recommendation for one that offers a diverse range of movies and TV shows, including both classic and current content.",
+        "brands": {
+            "Amazon": ["Amazon"],
+            "Disney": ["Disney", "Disney+", "Plus"],
+            "HBO": ["HBO", "Max"],
+            "Hulu": ["Hulu"],
+            "Netflix": ["Netflix"],
+            "Peacock": ["Peacock", "NBC", "NBCUniversal", "Universal"]
+        }
+    }
+}
