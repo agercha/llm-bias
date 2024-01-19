@@ -14,13 +14,12 @@ def get_replacements(prompt, thesarus):
             all_prompts = [curr_prompt[:ind] + [syn] + curr_prompt[ind+1:] for syn in syns for curr_prompt in all_prompts]
     return [' '.join(curr_prompt) for curr_prompt in all_prompts]
 
-def loss(model, tokenizer, prompts, end):
-    # end_len = tokenizer(end, padding=True, return_tensors="pt").input_ids.shape[-1] - 1
-    end_len = tokenizer(end, padding=True, return_tensors="pt").input_ids.to("cuda:0").shape[-1] - 1
+# https://discuss.huggingface.co/t/announcement-generation-get-probabilities-for-generated-output/30075/14
+def loss(model, tokenizer, prompts, target, device):
+    target_len = tokenizer(target, padding=True, return_tensors="pt").input_ids.to(device).shape[-1] - 1
 
-    input_texts = [prompt + " " + end for prompt in prompts]
-    # input_ids = tokenizer(input_texts, padding=True, return_tensors="pt").input_ids
-    input_ids = tokenizer(input_texts, padding=True, return_tensors="pt").input_ids.to("cuda:0")
+    input_texts = [prompt + target for prompt in prompts]
+    input_ids = tokenizer(input_texts, padding=True, return_tensors="pt").input_ids.to(device)
     outputs = model(input_ids)
     probs = torch.log_softmax(outputs.logits, dim=-1).detach()
 
@@ -35,12 +34,11 @@ def loss(model, tokenizer, prompts, end):
         for token, p in zip(input_sentence, input_probs):
             if token not in tokenizer.all_special_ids:
                 text_sequence.append(p.item())
-        batch.append(sum(text_sequence[-end_len:]))
+        batch.append(sum(text_sequence[-target_len:]))
 
     return torch.FloatTensor(batch)
 
-def get_ids(tokenizer, vals, device = "cuda:0"):
-    # return torch.tensor(tokenizer(vals).input_ids)
+def get_ids(tokenizer, vals, device):
     return torch.tensor(tokenizer(vals).input_ids).to(device)
 
 def generate(model, tokenizer, input_ids, gen_config=None):
@@ -68,78 +66,97 @@ def single_successful(gen_str, target_strs):
             present = True
     return present
 
-model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
-model = LlamaForCausalLM.from_pretrained(
-        model_path,
-        torch_dtype=torch.float16,
-        trust_remote_code=True,
-    ).to("cuda:0").eval()
 
-tokenizer = AutoTokenizer.from_pretrained(
-        model_path,
-        trust_remote_code=True,
-        use_fast=False
-    )
+def run(local):
+    if local:
+        tokenizer = AutoTokenizer.from_pretrained("gpt2", padding_side="left")
+        model = AutoModelForCausalLM.from_pretrained("gpt2")
+    else:
+        model_path  = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
+        model = LlamaForCausalLM.from_pretrained(
+                model_path,
+                torch_dtype=torch.float16,
+                trust_remote_code=True,
+            ).to("cuda:0").eval()
 
-# tokenizer = AutoTokenizer.from_pretrained("gpt2", padding_side="left")
-tokenizer.pad_token = tokenizer.eos_token
+        tokenizer = AutoTokenizer.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                use_fast=False
+            )
+        
+    if local: device = "cpu"
+    else: device = "cuda:0"
 
-# model = AutoModelForCausalLM.from_pretrained("gpt2")
-model.config.pad_token_id = model.config.eos_token_id
+    tokenizer.pad_token = tokenizer.eos_token
 
-dataset = json.load(open('dataset.json'))
-thesarus = json.load(open('thesarus.json'))
+    model.config.pad_token_id = model.config.eos_token_id
 
-test_size = 100
-gen_config = model.generation_config
-gen_config.max_new_tokens = 32
-gen_config.repetition_penalty = 1
-gen_config.temperature = 0.5
+    dataset = json.load(open('dataset.json'))
+    thesarus = json.load(open('thesarus.json'))
 
-for category in dataset:
-    if category in ["chip"]:
-        prompt = dataset[category]["top_prompt"]
-        brands = dataset[category]["brands"]
-        prompts = get_replacements(prompt, thesarus)
+    test_size = 100
+    gen_config = model.generation_config
+    gen_config.max_new_tokens = 32
+    gen_config.repetition_penalty = 1
+    gen_config.temperature = 0.5
 
-        losses = torch.zeros(len(brands), len(prompts))
-        scores = torch.zeros(len(brands), len(prompts))
+    for category in dataset:
+        if category not in ["browser", "chip", "llms", "os"]:
+            ends = [f" It is ", f" The best {category} is ", "\nA: ", " "]
 
-        for brand_ind, brand in enumerate(brands):
-            target_strs = brands[brand]
+            prompt = dataset[category]["top_prompt"]
+            brands = dataset[category]["brands"]
+            raw_prompts = get_replacements(prompt, thesarus)
 
-            temp_losses = torch.zeros(len(target_strs), len(prompts))
+            losses = torch.zeros(len(brands), len(raw_prompts))
+            scores = torch.zeros(len(brands), len(raw_prompts))
 
-            for target_ind, target_str in enumerate(target_strs):
-                temp_losses[target_ind] = loss(model, tokenizer, prompts, target_str)
-            losses[brand_ind] = torch.sum(temp_losses, 0) / len(target_strs)
-
-        print(brands)
-        print(losses)
-            
-        for prompt_ind, prompt in enumerate(prompts):
-            prompt_ids = get_ids(tokenizer, prompt)
-            for _ in range(test_size):
-                completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
+            for end in ends:
+                prompts = [prompt + end for prompt in raw_prompts]
                 for brand_ind, brand in enumerate(brands):
                     target_strs = brands[brand]
-                    if single_successful(completion, target_strs): 
-                        scores[brand_ind][prompt_ind] += 1
 
-        scores = scores/test_size
-        
-        with open(f"loss_results/{category}_results.txt", "w") as f:
-            f.write(f"brands: {brands}\n\n")
-            f.write(f"prompts: \n{prompts}\n\n")
-            f.write("\t")
-            for brand in brands:
-                f.write(f"{brand}\t")
-            f.write("\n")
+                    temp_losses = torch.zeros(len(target_strs), len(prompts))
+
+                    for target_ind, target_str in enumerate(target_strs):
+                        temp_losses[target_ind] = loss(model, tokenizer, prompts, target_str, device)
+
+                    print(end, brand)
+                    print(temp_losses)
+                    losses[brand_ind] += torch.sum(temp_losses, 0) / len(target_strs)
+
+            losses = losses / len(ends)
+
+            print(brands)
+            print(losses)
+                
+            # for prompt_ind, prompt in enumerate(prompts):
+            #     prompt_ids = get_ids(tokenizer, prompt, device)
+            #     for _ in range(test_size):
+            #         completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
+            #         for brand_ind, brand in enumerate(brands):
+            #             target_strs = brands[brand]
+            #             if single_successful(completion, target_strs): 
+            #                 scores[brand_ind][prompt_ind] += 1
+
+            # scores = scores/test_size
             
-            for prompt_ind, prompt in enumerate(prompts):
-                f.write(f"{prompt}\t")
-                for brand_ind, brand in enumerate(brands):
-                    f.write(f"{losses[brand_ind][prompt_ind]}\t{scores[brand_ind][prompt_ind]}\t")
+            with open(f"loss_results/{category}_results2.txt", "w") as f:
+                f.write(f"brands: {brands}\n\n")
+                f.write(f"prompts: \n{prompts}\n\n")
+                f.write("\t")
+                for brand in brands:
+                    f.write(f"{brand}\t")
                 f.write("\n")
+                
+                for prompt_ind, prompt in enumerate(prompts):
+                    f.write(f"{prompt}\t")
+                    for brand_ind, brand in enumerate(brands):
+                        f.write(f"{losses[brand_ind][prompt_ind]}\t{scores[brand_ind][prompt_ind]}\t")
+                    f.write("\n")
             
+            assert(False)
+                
 
+run(False)
