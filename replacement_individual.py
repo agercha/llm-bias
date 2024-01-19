@@ -95,15 +95,15 @@ def run(local):
     dataset = json.load(open('dataset.json'))
     thesarus = json.load(open('thesarus.json'))
 
-    test_size = 100
+    test_size = 1000
     gen_config = model.generation_config
-    gen_config.max_new_tokens = 32
+    gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
     gen_config.temperature = 0.5
 
     for category in dataset:
-        if category not in ["browser", "chip", "llms", "os"]:
-            ends = [f" It is ", f" The best {category} is ", "\nA: ", " "]
+        if category not in ["browser"]:
+            ends = [f" It is ", f" The best {category} is ", " A: ", " "]
 
             prompt = dataset[category]["top_prompt"]
             brands = dataset[category]["brands"]
@@ -115,39 +115,34 @@ def run(local):
             for end in ends:
                 prompts = [prompt + end for prompt in raw_prompts]
                 for brand_ind, brand in enumerate(brands):
-                    target_strs = brands[brand]
+                    target_strs = [brand]
 
                     temp_losses = torch.zeros(len(target_strs), len(prompts))
 
                     for target_ind, target_str in enumerate(target_strs):
                         temp_losses[target_ind] = loss(model, tokenizer, prompts, target_str, device)
 
-                    print(end, brand)
-                    print(temp_losses)
                     losses[brand_ind] += torch.sum(temp_losses, 0) / len(target_strs)
 
             losses = losses / len(ends)
-
-            print(brands)
-            print(losses)
                 
-            # for prompt_ind, prompt in enumerate(prompts):
-            #     prompt_ids = get_ids(tokenizer, prompt, device)
-            #     for _ in range(test_size):
-            #         completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
-            #         for brand_ind, brand in enumerate(brands):
-            #             target_strs = brands[brand]
-            #             if single_successful(completion, target_strs): 
-            #                 scores[brand_ind][prompt_ind] += 1
+            for prompt_ind, prompt in enumerate(prompts):
+                prompt_ids = get_ids(tokenizer, prompt, device)
+                for _ in range(test_size):
+                    completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
+                    for brand_ind, brand in enumerate(brands):
+                        target_strs = brands[brand]
+                        if single_successful(completion, target_strs): 
+                            scores[brand_ind][prompt_ind] += 1
 
-            # scores = scores/test_size
+            scores = scores/test_size
             
-            with open(f"loss_results/{category}_results2.txt", "w") as f:
+            with open(f"loss_results/{category}_results.txt", "w") as f:
                 f.write(f"brands: {brands}\n\n")
                 f.write(f"prompts: \n{prompts}\n\n")
                 f.write("\t")
                 for brand in brands:
-                    f.write(f"{brand}\t")
+                    f.write(f"{brand} loss\t{brand} score\t")
                 f.write("\n")
                 
                 for prompt_ind, prompt in enumerate(prompts):
@@ -156,7 +151,6 @@ def run(local):
                         f.write(f"{losses[brand_ind][prompt_ind]}\t{scores[brand_ind][prompt_ind]}\t")
                     f.write("\n")
             
-            assert(False)
                 
 
 run(False)
