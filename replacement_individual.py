@@ -131,12 +131,15 @@ def run(local):
             losses = losses / len(ends)
                 
             for brand_ind, brand in enumerate(brands):
+                print(f"brand\told loss\tnew loss\tloss improvment\told score\tnew score\tscore improvement")
+
                 best_prompt_ind = torch.argmax(losses[brand_ind])
                 best_prompt = raw_prompts[best_prompt_ind]
                 best_loss = losses[brand_ind][best_prompt_ind]
                 original_loss = losses[brand_ind][original_ind]
                 target_strs = brands[brand]
-                loss_improvement = (1 - best_loss/original_loss) * 100 # since losses are negative
+                if original_loss != 0: loss_improvement = (1 - best_loss/original_loss) * 100 # since losses are negative
+                else: loss_improvement = 0
 
                 original_score = 0
                 for _ in range(test_size):
@@ -153,9 +156,10 @@ def run(local):
                     if single_successful(completion, target_strs): 
                         best_score += 1
                 best_score /= test_size
-                score_improvement = (best_score / original_score - 1)*100
+                if original_score != 0: score_improvement = (best_score / original_score - 1)*100
+                else:  score_improvement = 100000
 
-                print(f"{brand}\t\t{loss_improvement:.2f}% \t\t {score_improvement}.")
+                print(f"{brand}\t{original_loss:.2f}\t{best_loss:.2f}\t{loss_improvement:.2f}\t{original_score:.2f}\t{best_score:.2f}\t{score_improvement:.2f}%")
 
             # for prompt_ind, prompt in enumerate(prompts):
             #     prompt_ids = get_ids(tokenizer, prompt, device)
