@@ -109,6 +109,10 @@ def run(local):
             brands = dataset[category]["brands"]
             raw_prompts = get_replacements(prompt, thesarus)
 
+            original_ind = None
+            for i, curr_prompt in enumerate(raw_prompts):
+                if curr_prompt == prompt: original_ind = i
+
             losses = torch.zeros(len(brands), len(raw_prompts))
             scores = torch.zeros(len(brands), len(raw_prompts))
 
@@ -126,6 +130,33 @@ def run(local):
 
             losses = losses / len(ends)
                 
+            for brand_ind, brand in enumerate(brands):
+                best_prompt_ind = torch.argmax(losses[brand_ind])
+                best_prompt = raw_prompts[best_prompt_ind]
+                best_loss = losses[brand_ind][best_prompt_ind]
+                original_loss = losses[brand_ind][original_ind]
+                target_strs = brands[brand]
+                loss_improvement = (1 - best_loss/original_loss) * 100 # since losses are negative
+
+                original_score = 0
+                for _ in range(test_size):
+                    prompt_ids = get_ids(tokenizer, prompt, device)
+                    completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
+                    if single_successful(completion, target_strs): 
+                        original_score += 1
+                original_score /= test_size
+
+                best_score = 0
+                for _ in range(test_size):
+                    prompt_ids = get_ids(tokenizer, best_prompt, device)
+                    completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
+                    if single_successful(completion, target_strs): 
+                        best_score += 1
+                best_score /= test_size
+                score_improvement = (best_score / original_score - 1)*100
+
+                print(f"{brand}\t\t{loss_improvement:.2f}% \t\t {score_improvement}.")
+
             # for prompt_ind, prompt in enumerate(prompts):
             #     prompt_ids = get_ids(tokenizer, prompt, device)
             #     for _ in range(test_size):
@@ -137,22 +168,22 @@ def run(local):
 
             # scores = scores/test_size
             
-            with open(f"loss_results/{category}_results.txt", "w") as f:
-                f.write(f"brands: {brands}\n\n")
-                f.write(f"prompts: \n{prompts}\n\n")
-                f.write("\t")
-                for brand in brands:
-                    f.write(f"{brand} loss\t{brand} score\t")
-                f.write("\n")
+            # with open(f"loss_list_results/{category}_results.txt", "w") as f:
+            #     f.write(f"brands: {brands}\n\n")
+            #     f.write(f"prompts: \n{prompts}\n\n")
+            #     f.write("\t")
+            #     for brand in brands:
+            #         f.write(f"{brand} loss\t{brand} score\t")
+            #     f.write("\n")
                 
-                for prompt_ind, prompt in enumerate(prompts):
-                    f.write(f"{prompt}\t")
-                    for brand_ind, brand in enumerate(brands):
-                        f.write(f"{losses[brand_ind][prompt_ind]}\t{scores[brand_ind][prompt_ind]}\t")
-                    f.write("\n")
+            #     for prompt_ind, prompt in enumerate(prompts):
+            #         f.write(f"{prompt}\t")
+            #         for brand_ind, brand in enumerate(brands):
+            #             f.write(f"{losses[brand_ind][prompt_ind]}\t{scores[brand_ind][prompt_ind]}\t")
+            #         f.write("\n")
         
-            assert(False)
+            # assert(False)
             
                 
 
-run(True)
+run(False)
