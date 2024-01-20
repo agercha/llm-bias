@@ -95,7 +95,7 @@ def run(local):
     dataset = json.load(open('dataset.json'))
     thesarus = json.load(open('thesarus.json'))
 
-    test_size = 1000
+    test_size = 100
     gen_config = model.generation_config
     gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
@@ -103,7 +103,7 @@ def run(local):
 
     for category in dataset:
         if category not in ["browser"]:
-            ends = [f" It is ", f" The best {category} is ", " A: ", " "]
+            ends = [f" It is ", f" The best {category} is ", " A: ", " ", "I've been using ", "I've heard good things about "]
 
             prompt = dataset[category]["top_prompt"]
             brands = dataset[category]["brands"]
@@ -126,16 +126,16 @@ def run(local):
 
             losses = losses / len(ends)
                 
-            for prompt_ind, prompt in enumerate(prompts):
-                prompt_ids = get_ids(tokenizer, prompt, device)
-                for _ in range(test_size):
-                    completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
-                    for brand_ind, brand in enumerate(brands):
-                        target_strs = brands[brand]
-                        if single_successful(completion, target_strs): 
-                            scores[brand_ind][prompt_ind] += 1
+            # for prompt_ind, prompt in enumerate(prompts):
+            #     prompt_ids = get_ids(tokenizer, prompt, device)
+            #     for _ in range(test_size):
+            #         completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
+            #         for brand_ind, brand in enumerate(brands):
+            #             target_strs = brands[brand]
+            #             if single_successful(completion, target_strs): 
+            #                 scores[brand_ind][prompt_ind] += 1
 
-            scores = scores/test_size
+            # scores = scores/test_size
             
             with open(f"loss_results/{category}_results.txt", "w") as f:
                 f.write(f"brands: {brands}\n\n")
@@ -150,7 +150,9 @@ def run(local):
                     for brand_ind, brand in enumerate(brands):
                         f.write(f"{losses[brand_ind][prompt_ind]}\t{scores[brand_ind][prompt_ind]}\t")
                     f.write("\n")
+        
+            assert(False)
             
                 
 
-run(False)
+run(True)
