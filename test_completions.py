@@ -71,9 +71,9 @@ def run(local):
     dataset = json.load(open('dataset.json'))
     thesarus = json.load(open('thesarus.json'))
 
-    test_size = 100
+    test_size = 25
     gen_config = model.generation_config
-    gen_config.max_new_tokens = 64
+    gen_config.max_new_tokens = 32
     gen_config.repetition_penalty = 1
     gen_config.temperature = 0.5
 
@@ -89,18 +89,22 @@ def run(local):
             f.write("\t")
             for brand in brands:
                 f.write(f"{brand}\t")
+
+            f.write("\n")
                 
             for prompt_ind, prompt in enumerate(prompts):
                 prompt_ids = get_ids(tokenizer, prompt, device)
                 for _ in range(test_size):
                     completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
-                    f.write(f"{completion}\t")
+                    completion = completion.replace("\n", "")
+                    f.write(f"{completion.replace}\t")
                     for brand_ind, brand in enumerate(brands):
                         target_strs = brands[brand]
                         if single_successful(completion, target_strs): 
                             f.write("1\t")
                         else:
                             f.write("0\t")
+                    f.write("\n")
 
             f.close()
             
