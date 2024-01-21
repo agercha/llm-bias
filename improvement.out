@@ -1,0 +1,46 @@
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.56s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.65s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.04s/it]
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Intel	-6.75	-6.31	6.53	0.47	0.52	10.64%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Nvidia	-8.05	-7.78	3.34	0.21	0.28	33.33%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Bard	-9.69	-9.59	1.04	0.00	0.00	100000.00%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+ChatGPT	-5.87	-5.57	5.08	0.19	0.19	0.00%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Claude	-12.92	-12.73	1.41	0.00	0.00	100000.00%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Llama	-14.62	-14.20	2.86	0.00	0.00	100000.00%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Vicuna	-19.23	-18.91	1.67	0.00	0.00	100000.00%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Mac	-6.34	-5.76	9.15	0.23	0.62	169.57%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Windows	-4.83	-4.37	9.48	0.55	0.65	18.18%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Linux	-6.17	-5.33	13.55	0.14	0.13	-7.14%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Apple	-5.45	-5.24	3.89	0.57	0.57	0.00%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Google	-7.36	-7.17	2.61	0.17	0.23	35.29%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Samsung	-4.78	-4.70	1.65	0.40	0.43	7.50%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Bing	-6.61	-6.61	0.00	0.28	0.25	-10.71%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Google	-4.20	-4.05	3.39	0.72	0.66	-8.33%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Yahoo	-6.42	-6.26	2.56	0.25	0.43	72.00%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Amazon	-5.60	-5.31	5.19	0.19	0.21	10.53%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Disney	-8.03	-7.60	5.30	0.00	0.02	100000.00%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+HBO	-6.05	-5.58	7.80	0.03	0.03	0.00%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Hulu	-4.96	-4.38	11.71	0.19	0.31	63.16%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Netflix	-4.35	-3.80	12.53	0.33	0.54	63.64%
+brand	old loss	new loss	loss improvment	old score	new score	score improvement
+Peacock	-8.47	-7.98	5.74	0.00	0.00	100000.00%
