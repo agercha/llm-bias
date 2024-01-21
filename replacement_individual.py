@@ -101,93 +101,99 @@ def run(local):
     gen_config.repetition_penalty = 1
     gen_config.temperature = 0.5
 
+    f_all = open("improvements.txt", "w")
+
+    f_all.write(f"brand\told prompt\tnew prompt\told loss\tnew loss\tloss improvment\told score\tnew score\tscore improvement\n")
+
     for category in dataset:
-        if category not in ["browser"]:
-            ends = [f" It is ", f" The best {category} is ", " A: ", " ", "I've been using ", "I've heard good things about "]
+        for prompt in dataset[category]["prompts"]:
+            if category not in ["browser"]:
+                ends = [f" It is ", f" The best {category} is ", " A: ", " ", "I've been using ", "I've heard good things about "]
 
-            prompt = dataset[category]["top_prompt"]
-            brands = dataset[category]["brands"]
-            raw_prompts = get_replacements(prompt, thesarus)
+                # prompt = dataset[category]["top_prompt"]
+                brands = dataset[category]["brands"]
+                raw_prompts = get_replacements(prompt, thesarus)
 
-            original_ind = None
-            for i, curr_prompt in enumerate(raw_prompts):
-                if curr_prompt == prompt: original_ind = i
+                original_ind = None
+                for i, curr_prompt in enumerate(raw_prompts):
+                    if curr_prompt == prompt: original_ind = i
 
-            losses = torch.zeros(len(brands), len(raw_prompts))
-            scores = torch.zeros(len(brands), len(raw_prompts))
+                losses = torch.zeros(len(brands), len(raw_prompts))
+                scores = torch.zeros(len(brands), len(raw_prompts))
 
-            for end in ends:
-                prompts = [prompt + end for prompt in raw_prompts]
+                for end in ends:
+                    prompts = [prompt + end for prompt in raw_prompts]
+                    for brand_ind, brand in enumerate(brands):
+                        target_strs = [brand]
+
+                        temp_losses = torch.zeros(len(target_strs), len(prompts))
+
+                        for target_ind, target_str in enumerate(target_strs):
+                            temp_losses[target_ind] = loss(model, tokenizer, prompts, target_str, device)
+
+                        losses[brand_ind] += torch.sum(temp_losses, 0) / len(target_strs)
+
+                losses = losses / len(ends)
+                    
                 for brand_ind, brand in enumerate(brands):
-                    target_strs = [brand]
+                    
 
-                    temp_losses = torch.zeros(len(target_strs), len(prompts))
+                    best_prompt_ind = torch.argmax(losses[brand_ind])
+                    best_prompt = raw_prompts[best_prompt_ind]
+                    best_loss = losses[brand_ind][best_prompt_ind]
+                    original_loss = losses[brand_ind][original_ind]
+                    target_strs = brands[brand]
+                    if original_loss != 0: loss_improvement = (1 - best_loss/original_loss) * 100 # since losses are negative
+                    else: loss_improvement = 0
 
-                    for target_ind, target_str in enumerate(target_strs):
-                        temp_losses[target_ind] = loss(model, tokenizer, prompts, target_str, device)
+                    original_score = 0
+                    for _ in range(test_size):
+                        prompt_ids = get_ids(tokenizer, prompt, device)
+                        completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
+                        if single_successful(completion, target_strs): 
+                            original_score += 1
+                    original_score /= test_size
 
-                    losses[brand_ind] += torch.sum(temp_losses, 0) / len(target_strs)
+                    best_score = 0
+                    for _ in range(test_size):
+                        prompt_ids = get_ids(tokenizer, best_prompt, device)
+                        completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
+                        if single_successful(completion, target_strs): 
+                            best_score += 1
+                    best_score /= test_size
+                    if original_score != 0: score_improvement = (best_score / original_score - 1)*100
+                    else:  score_improvement = 100000
 
-            losses = losses / len(ends)
+                    f_all.write(f"{brand}\t{prompt}\t{best_prompt}\t{original_loss:.2f}\t{best_loss:.2f}\t{loss_improvement:.2f}\t{original_score:.2f}\t{best_score:.2f}\t{score_improvement:.2f}%\n")
+
+                # for prompt_ind, prompt in enumerate(prompts):
+                #     prompt_ids = get_ids(tokenizer, prompt, device)
+                #     for _ in range(test_size):
+                #         completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
+                #         for brand_ind, brand in enumerate(brands):
+                #             target_strs = brands[brand]
+                #             if single_successful(completion, target_strs): 
+                #                 scores[brand_ind][prompt_ind] += 1
+
+                # scores = scores/test_size
                 
-            for brand_ind, brand in enumerate(brands):
-                print(f"brand\told loss\tnew loss\tloss improvment\told score\tnew score\tscore improvement")
-
-                best_prompt_ind = torch.argmax(losses[brand_ind])
-                best_prompt = raw_prompts[best_prompt_ind]
-                best_loss = losses[brand_ind][best_prompt_ind]
-                original_loss = losses[brand_ind][original_ind]
-                target_strs = brands[brand]
-                if original_loss != 0: loss_improvement = (1 - best_loss/original_loss) * 100 # since losses are negative
-                else: loss_improvement = 0
-
-                original_score = 0
-                for _ in range(test_size):
-                    prompt_ids = get_ids(tokenizer, prompt, device)
-                    completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
-                    if single_successful(completion, target_strs): 
-                        original_score += 1
-                original_score /= test_size
-
-                best_score = 0
-                for _ in range(test_size):
-                    prompt_ids = get_ids(tokenizer, best_prompt, device)
-                    completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
-                    if single_successful(completion, target_strs): 
-                        best_score += 1
-                best_score /= test_size
-                if original_score != 0: score_improvement = (best_score / original_score - 1)*100
-                else:  score_improvement = 100000
-
-                print(f"{brand}\t{original_loss:.2f}\t{best_loss:.2f}\t{loss_improvement:.2f}\t{original_score:.2f}\t{best_score:.2f}\t{score_improvement:.2f}%")
-
-            # for prompt_ind, prompt in enumerate(prompts):
-            #     prompt_ids = get_ids(tokenizer, prompt, device)
-            #     for _ in range(test_size):
-            #         completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
-            #         for brand_ind, brand in enumerate(brands):
-            #             target_strs = brands[brand]
-            #             if single_successful(completion, target_strs): 
-            #                 scores[brand_ind][prompt_ind] += 1
-
-            # scores = scores/test_size
+                # with open(f"loss_list_results/{category}_results.txt", "w") as f:
+                #     f.write(f"brands: {brands}\n\n")
+                #     f.write(f"prompts: \n{prompts}\n\n")
+                #     f.write("\t")
+                #     for brand in brands:
+                #         f.write(f"{brand} loss\t{brand} score\t")
+                #     f.write("\n")
+                    
+                #     for prompt_ind, prompt in enumerate(prompts):
+                #         f.write(f"{prompt}\t")
+                #         for brand_ind, brand in enumerate(brands):
+                #             f.write(f"{losses[brand_ind][prompt_ind]}\t{scores[brand_ind][prompt_ind]}\t")
+                #         f.write("\n")
             
-            # with open(f"loss_list_results/{category}_results.txt", "w") as f:
-            #     f.write(f"brands: {brands}\n\n")
-            #     f.write(f"prompts: \n{prompts}\n\n")
-            #     f.write("\t")
-            #     for brand in brands:
-            #         f.write(f"{brand} loss\t{brand} score\t")
-            #     f.write("\n")
-                
-            #     for prompt_ind, prompt in enumerate(prompts):
-            #         f.write(f"{prompt}\t")
-            #         for brand_ind, brand in enumerate(brands):
-            #             f.write(f"{losses[brand_ind][prompt_ind]}\t{scores[brand_ind][prompt_ind]}\t")
-            #         f.write("\n")
-        
-            # assert(False)
+                # assert(False)
             
+    f_all.close()
                 
 
 run(False)
