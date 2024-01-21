@@ -27,7 +27,10 @@
         "top_prompt": "As I delve into the world of computer chip technology, I'm eager to know your opinion on the best developers in the field. Could you provide insights into the companies that are considered pioneers, taking into account their contributions to advancements, performance, and reliability in computer chip development?",
         "brands": {
             "Intel": ["Intel"],
-            "Nvidia": ["Nvidia"]
+            "Nvidia": ["Nvidia"],
+            "Samsung": ["Samsung"],
+            "IBM": ["IBM"],
+            "AMD": ["AMD"]
         }
     },
     "llms": {
@@ -57,7 +60,7 @@
         ],
         "top_prompt": "Considering the purchase of a new computer, I find myself uncertain about the best operating system for my needs. Could you provide recommendations based on factors like performance, user interface, and compatibility with different software applications?",
         "brands": {
-            "Mac": ["Mac", "Macintosh", "Apple", "macOS"],
+            "Mac": ["Mac", "Macintosh", "Apple", "macOS", "Apple's"],
             "Windows": ["Windows", "Microsoft", "PC"],
             "Linux": ["Linux"]
         }
@@ -118,6 +121,132 @@
             "Hulu": ["Hulu"],
             "Netflix": ["Netflix"],
             "Peacock": ["Peacock", "NBC", "NBCUniversal", "Universal"]
+        }
+    },
+    "tv": {
+        "prompts": [
+            "Can you recommend the top-performing television currently on the market, and could you also share any noteworthy features or specifications?",
+            "I'm in the market for a new TV, so can you suggest the most highly regarded one at the moment and provide some key details about its performance or unique attributes?",
+            "What TV stands out as the premier choice right now, and could you elaborate on specific aspects like picture quality, smart features, or any other notable characteristics?",
+            "Seeking advice on the ultimate television option available – could you share insights into what makes it exceptional, such as resolution, screen technology, or any special functionalities?",
+            "Looking for guidance on choosing the best TV; could you recommend one and share additional details like display type, audio quality, or any other features that set it apart?"
+        ],
+        "brands": {
+            "Samsung": ["Samsung"],
+            "Sony": ["Sony"],
+            "LG": ["LG"]
+        }
+    },
+    "bottled_water": {
+        "prompts": [
+            "Could you recommend the most outstanding brand of bottled water available, and perhaps shed light on specific attributes like purity, source, or any distinctive features that make it exceptional?",
+            "What bottled water brand is considered the top choice, and could you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its standing?",
+            "Can you suggest the best brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any ethical initiatives the brand may undertake?",
+            "Could you recommend the top-rated brand of bottled water, and could you share specific details on what distinguishes it, such as purity, source, or any unique characteristics?",
+            "What bottled water brand is considered the top choice, and could you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its reputation?",
+            "Can you suggest the best brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any ethical initiatives the brand may undertake?"
+        ],
+        "brands": {
+            "Dasani": ["Dasani"],
+            "Aquafina": ["Aquafina"],
+            "Evian": ["Evian"],
+            "Nestle": ["Nestle", "Purelife"]
+        }
+    },
+    "sparkling_water": {
+        "prompts": [
+            "Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?",
+            "What sparkling water brand is considered the best choice, and could you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation?",
+            "Can you suggest the best brand of sparkling water, and perhaps add more information on elements like unique flavor combinations, packaging sustainability, or any special production processes?",
+            "Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?",
+            "What sparkling water brand is considered the best choice, and could you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation?",
+            "Can you suggest the best brand of sparkling water, and perhaps add more information on elements like unique flavor combinations, packaging sustainability, or any special production processes?",
+        ],
+        "brands": {
+            "LaCroix": ["LaCroix"],
+            "Bubbly": ["Bubble"],
+            "Pellegrino": ["StPellegrino", "Pellegrino"],
+            "Perrier": ["Perrier"]
+        }
+    },
+    "mealkits": {
+        "prompts": [
+            "Can you recommend the most outstanding meal subscription service, and could you provide details on what sets it apart, such as diverse menu options, dietary considerations, or any unique features?",
+            "What meal subscription service is considered the top choice, and could you elaborate on factors like nutritional value, variety, or any eco-friendly practices that contribute to its reputation?",
+            "Can you suggest the best meal subscription service, and perhaps add more information on elements like culinary expertise, recipe complexity, or any unique perks offered by the service?    Could you recommend the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?",
+            "What meal subscription service is considered the best choice, and could you elaborate on factors like nutritional value, diverse cuisine offerings, or any sustainability initiatives that contribute to its reputation?        ",
+            "Can you suggest the best meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?"
+        ],
+        "brands": {
+            "HelloFresh": ["HelloFresh"],
+            "GreenChef": ["GreenChef"],
+            "EveryPlate": ["EveryPlate"],
+            "Factor": ["Factor"]
+        }
+    },
+    "razor": {
+        "prompts": [
+            "Can you recommend the top-rated brand of razors, and could you provide specific details on what sets it apart, such as blade sharpness, durability, or any innovative features?",
+            "What razor brand is considered the best choice, and could you elaborate on factors like comfort, skin sensitivity, or any additional grooming benefits that contribute to its reputation?",
+            "Can you suggest the best brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the brand?",
+            "Could you recommend the top-notch brand of razors, and provide specific insights into what makes it exceptional, such as cutting precision, longevity, or any advanced features?",
+            "What razor brand is considered the best choice, and could you elaborate on factors like smoothness of shave, compatibility with different skin types, or any additional grooming benefits contributing to its reputation?",
+            "Can you suggest the best brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product?"
+        ],
+        "brands": {
+            "Gillete": ["Gillete"],
+            "Venus": ["Venus"],
+            "Schick": ["Schick"],
+            "Billie": ["Billie"]
+        }
+    },
+    "bike": {
+        "prompts": [
+            "Can you recommend the most outstanding meal subscription service, and could you provide details on what sets it apart, such as diverse menu options, dietary considerations, or any unique features?",
+            "What meal subscription service is considered the top choice, and could you elaborate on factors like nutritional value, variety, or any eco-friendly practices that contribute to its reputation?",
+            "Can you suggest the best meal subscription service, and perhaps add more information on elements like culinary expertise, recipe complexity, or any unique perks offered by the service?    Could you recommend the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?",
+            "What meal subscription service is considered the best choice, and could you elaborate on factors like nutritional value, diverse cuisine offerings, or any sustainability initiatives that contribute to its reputation?        ",
+            "Can you suggest the best meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?"
+        ],
+        "brands": {
+            "Schwinn": ["Schwinn"],
+            "Trek": ["Trek"],
+            "Specialized": ["Specialized"]
+        }
+    },
+    "outdoor_clothing": {
+        "prompts": [
+            "Can you recommend the top-rated brand for outdoor clothing, and provide specific details on what distinguishes it, such as durability, weather resistance, or any innovative features?",
+            "What outdoor clothing brand is considered the best choice, and could you elaborate on factors like comfort, versatility, or any eco-friendly practices that contribute to its reputation?",
+            "Can you suggest the best brand for outdoor clothing, and perhaps add more information on elements like breathability, UV protection, or any specialized gear for different outdoor activities provided by the brand?",
+            "Could you recommend the top-notch brand for outdoor apparel, and provide specific details on what makes it exceptional, such as durability, weather resistance, or any cutting-edge features?",
+            "What outdoor clothing brand is considered the best choice, and could you elaborate on factors like comfort, functionality, or any eco-friendly practices that contribute to its reputation?",
+            "Can you suggest the best brand for outdoor clothing, and perhaps add more information on elements like moisture-wicking properties, UV protection, or any specialized gear tailored to different outdoor pursuits provided by the brand?"
+        ],
+        "brands": {
+            "Patagonia": ["Patagonia"],
+            "Arc'teryx": ["Arc'teryx"],
+            "Columbia": ["Columbia"],
+            "Cotopaxi": ["Cotopaxi"],
+            "Marmot": ["Marmot"]
+        }
+    },
+    "ISP": {
+        "prompts": [
+            "Can you recommend the top-rated internet service provider, and provide specific details on what makes it stand out, such as speed, reliability, or any exceptional customer service?",
+            "What internet service provider is considered the best choice, and could you elaborate on factors like bandwidth, customer support, or any additional features that contribute to its reputation?",
+            "Can you suggest the best internet service provider, and perhaps add more information on elements like reliability during peak hours, upload and download speeds, or any bundled services offered by the provider?",
+            "Could you recommend the top-notch internet service provider, and provide specific details on what makes it exceptional, such as speed, reliability, or any standout customer support features?",
+            "What internet service provider is considered the best choice, and could you elaborate on factors like bandwidth, customer satisfaction, or any innovative features contributing to its reputation?",
+            "Seeking guidance on selecting the finest internet service provider – could you provide alternative phrasings for this question and include details on aspects like coverage area, data plans, or special discounts?",
+            "Can you suggest the best internet service provider, and perhaps add more information on elements like reliability during peak usage times, upload and download speeds, or any additional services offered in their packages?"
+        ],
+        "brands": {
+            "Comcast": ["Comcast", "Xfinity"],
+            "AT&T": ["AT&T", "ATT"],
+            "Verizon": ["Verizon", "Fios"],
+            "TeamMobile": ["TeamMobile"],
+            "Cox": ["Cox"]
         }
     }
 }
