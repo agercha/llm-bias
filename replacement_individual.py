@@ -171,7 +171,8 @@ def run(local):
                     
                 for brand_ind, brand in enumerate(brands):
 
-                    best_prompt_ind = torch.argmax(losses[brand_ind])
+                    # best_prompt_ind = torch.argmax(losses[brand_ind])
+                    best_prompt_ind = torch.argmin(losses[brand_ind])
                     best_prompt = raw_prompts[best_prompt_ind]
                     best_loss = losses[brand_ind][best_prompt_ind]
                     original_loss = losses[brand_ind][original_ind]
