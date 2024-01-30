@@ -38,18 +38,10 @@ def loss(model, tokenizer, prompts, target, device):
 
     return torch.FloatTensor(batch)
 
-def individual_loss(model, tokenizer, input_str, end_strs, device):
-    # input_ids (torch.LongTensor of shape (batch_size, sequence_length)) 
-    # attention_mask (torch.Tensor of shape (batch_size, sequence_length), optional), if not all ids in one of the sequences is padded
-    # position_ids (torch.LongTensor of shape (batch_size, sequence_length), optional) 
-        # — Indices of positions of each input sequence tokens in the position embeddings. Selected in the range [0, config.n_positions - 1].
-    # labels (torch.LongTensor of shape (batch_size, sequence_length), optional): 
-        # Labels for computing the masked language modeling loss. Indices should either be in [0, ..., config.vocab_size] or -100 (see input_ids docstring). 
-        # Tokens with indices set to -100 are ignored (masked), the loss is only computed for the tokens with labels in [0, ..., config.vocab_size].
+def my_loss(model, tokenizer, input_str, end_strs, device):
 
-
-    input_ids = [torch.tensor(tokenizer(f"{input_str}{end_str}").input_ids).to(device) for end_str in end_strs] # bc batch by default
-    l = torch.tensor(tokenizer(f"{input_str}").input_ids).to(device).shape[0]
+    input_ids = [torch.tensor(tokenizer(f"{input_str}{end_str}").input_ids).to(device) for end_str in end_strs] 
+    l = torch.tensor(tokenizer(f"{input_str}").input_ids).to(device).shape[0] - 1
     nested_ids = torch.nested.nested_tensor(input_ids)
 
 
@@ -61,40 +53,12 @@ def individual_loss(model, tokenizer, input_str, end_strs, device):
 
     attention_mask = torch.ones(input_ids.shape)
     attention_mask[input_ids == 0] = 0
-    # print(attention_mask)
-    # print(input_ids)
 
     labels = input_ids.clone() 
     labels[:, :l] = -100
 
     res = model.forward(input_ids=input_ids,
                         attention_mask=attention_mask,
-                        labels=labels,
-                        return_dict=True)
-
-    return res.loss.item()
-
-
-def my_loss(model, tokenizer, input_str, end_strs, device):
-    input_ids = [
-        torch.tensor(tokenizer(f"{input_str} {control}").input_ids).to(device)
-        for control in end_strs
-    ]
-    l = torch.tensor(tokenizer(f"{input_str} ").input_ids).to(device).shape[0]
-    pad_tok = 0
-    max_len = max([test_ids1.shape[0] for test_ids1 in input_ids])
-    while any([pad_tok in ids for ids in input_ids]):
-        pad_tok += 1
-    nested_ids = torch.nested.nested_tensor(input_ids)
-    input_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(input_ids), max_len)).to(device)
-
-    print(input_str, end_strs)
-
-
-    labels = input_ids.clone() 
-    labels[:,:l] = -100
-
-    res = model.forward(input_ids=input_ids,
                         labels=labels,
                         return_dict=True)
 
@@ -155,7 +119,7 @@ def run(local):
     model.config.pad_token_id = model.config.eos_token_id
 
     dataset = json.load(open('dataset.json'))
-    thesarus = json.load(open('thesarus.json'))
+    thesarus = json.load(open('thesaurus.json'))
 
     test_size = 100
     gen_config = model.generation_config
@@ -163,9 +127,9 @@ def run(local):
     gen_config.repetition_penalty = 1
     gen_config.temperature = 0.5
 
-    # f_all = open("improvements.txt", "w")
+    f_all = open("improvements2.txt", "w")
 
-    # f_all.write(f"brand\told prompt\tnew prompt\told loss\tnew loss\tloss improvment\told score\tnew score\tscore improvement\n")
+    f_all.write(f"brand\told prompt\tnew prompt\told loss\tnew loss\tloss improvment\told score\tnew score\tscore improvement\n")
 
     for category in dataset:
         for prompt in dataset[category]["prompts"]:
@@ -182,7 +146,8 @@ def run(local):
                     if curr_prompt == prompt: original_ind = i
 
                 losses = torch.zeros(len(brands), len(raw_prompts))
-                scores = torch.zeros(len(brands), len(raw_prompts))
+                # losses1 = torch.zeros(len(brands), len(raw_prompts))
+                # scores = torch.zeros(len(brands), len(raw_prompts))
 
                 for end in ends:
                     prompts = [prompt + end for prompt in raw_prompts]
@@ -190,25 +155,21 @@ def run(local):
                         # target_strs = [brand]
                         target_strs = dataset[category]["brands"][brand]
 
-                        # temp_losses = torch.zeros(len(prompts))
-
                         for prompt_ind, curr_prompt in enumerate(prompts):
-                            # temp_losses[prompt_ind] = individual_loss(model, tokenizer, curr_prompt, target_strs, device)
-                            losses[brand_ind][prompt_ind] = individual_loss(model, tokenizer, curr_prompt, target_strs, device)
-                        # print(temp_losses)
-                        # losses[brand_ind] += torch.sum(temp_losses, 0)
-                        print(losses)
-                        assert(False)
-                        # losses[brand_ind] += torch.sum(temp_losses, 0) / len(target_strs)
+                            losses[brand_ind][prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
 
-                        for target_ind, target_str in enumerate(target_strs):
-                            temp_losses[target_ind] = loss(model, tokenizer, prompts, target_str, device)
-                        losses[brand_ind] += torch.sum(temp_losses, 0) / len(target_strs)
+                        # temp_losses = torch.zeros(len(target_strs), len(prompts))
+                        # for target_ind, target_str in enumerate(target_strs):
+                        #     temp_losses[target_ind] = loss(model, tokenizer, prompts, target_str, device)
+                        # losses1[brand_ind] += torch.sum(temp_losses, 0) / len(target_strs)
 
                 losses = losses / len(ends)
+                # losses1 = losses1 / len(ends)
+                print(losses)
+                # print(losses1)
+                # assert(False)
                     
                 for brand_ind, brand in enumerate(brands):
-                    
 
                     best_prompt_ind = torch.argmax(losses[brand_ind])
                     best_prompt = raw_prompts[best_prompt_ind]
@@ -236,7 +197,7 @@ def run(local):
                     if original_score != 0: score_improvement = (best_score / original_score - 1)*100
                     else:  score_improvement = 100000
 
-                    # f_all.write(f"{brand}\t{prompt}\t{best_prompt}\t{original_loss:.2f}\t{best_loss:.2f}\t{loss_improvement:.2f}\t{original_score:.2f}\t{best_score:.2f}\t{score_improvement:.2f}%\n")
+                    f_all.write(f"{brand}\t{prompt}\t{best_prompt}\t{original_loss:.2f}\t{best_loss:.2f}\t{loss_improvement:.2f}\t{original_score:.2f}\t{best_score:.2f}\t{score_improvement:.2f}%\n")
 
                 # for prompt_ind, prompt in enumerate(prompts):
                 #     prompt_ids = get_ids(tokenizer, prompt, device)
