@@ -1,49 +1,51 @@
 {
     "assorted": [
         "assorted",
-        "dissimilar",
-        "diverse",
+        "different",
         "many",
-        "various",
-        "different"
-    ],
-    "dissimilar": [
-        "assorted",
+        "diverse",
         "dissimilar",
-        "diverse",
-        "many",
-        "various",
-        "different"
-    ],
-    "diverse": [
-        "assorted",
-        "diverse",
-        "various",
-        "different"
-    ],
-    "many": [
-        "assorted",
-        "dissimilar",
-        "diverse",
-        "many",
-        "various",
-        "different"
-    ],
-    "various": [
-        "assorted",
-        "dissimilar",
-        "diverse",
-        "many",
-        "various",
-        "different"
+        "various"
     ],
     "different": [
         "assorted",
-        "dissimilar",
-        "diverse",
+        "different",
         "many",
-        "various",
-        "different"
+        "diverse",
+        "dissimilar",
+        "various"
+    ],
+    "many": [
+        "assorted",
+        "different",
+        "many",
+        "diverse",
+        "dissimilar",
+        "various"
+    ],
+    "diverse": [
+        "assorted",
+        "different",
+        "many",
+        "diverse",
+        "dissimilar",
+        "various"
+    ],
+    "dissimilar": [
+        "assorted",
+        "different",
+        "many",
+        "diverse",
+        "dissimilar",
+        "various"
+    ],
+    "various": [
+        "assorted",
+        "different",
+        "many",
+        "diverse",
+        "dissimilar",
+        "various"
     ],
     "appropriate": [
         "appropriate",
@@ -53,40 +55,53 @@
         "appropriate",
         "suitable"
     ],
-    "greatest": [
-        "greatest",
-        "optimal",
-        "best",
-        "superior",
-        "ideal"
-    ],
     "optimal": [
-        "greatest",
         "optimal",
-        "best",
+        "greatest",
         "superior",
-        "ideal"
+        "ideal",
+        "premier",
+        "best"
     ],
-    "best": [
-        "greatest",
+    "greatest": [
         "optimal",
-        "best",
+        "greatest",
         "superior",
-        "ideal"
+        "ideal",
+        "premier",
+        "best"
     ],
     "superior": [
-        "greatest",
         "optimal",
-        "best",
+        "greatest",
         "superior",
-        "ideal"
+        "ideal",
+        "premier",
+        "best"
     ],
     "ideal": [
-        "greatest",
         "optimal",
-        "best",
+        "greatest",
         "superior",
-        "ideal"
+        "ideal",
+        "premier",
+        "best"
+    ],
+    "premier": [
+        "optimal",
+        "greatest",
+        "superior",
+        "ideal",
+        "premier",
+        "best"
+    ],
+    "best": [
+        "optimal",
+        "greatest",
+        "superior",
+        "ideal",
+        "premier",
+        "best"
     ],
     "important": [
         "important",
@@ -113,70 +128,75 @@
         "crucial"
     ],
     "latest": [
-        "new",
         "latest",
-        "recent"
+        "recnt",
+        "new"
     ],
-    "recent": [
-        "new",
+    "recnt": [
         "latest",
-        "recent"
+        "recnt",
+        "new"
     ],
-    "great": [
-        "great",
-        "exceptional",
-        "good",
-        "excellent"
-    ],
-    "exceptional": [
-        "great",
-        "exceptional",
-        "good",
-        "excellent"
-    ],
-    "good": [
-        "great",
-        "exceptional",
-        "good",
-        "excellent"
+    "new": [
+        "latest",
+        "recnt",
+        "new"
     ],
     "excellent": [
+        "excellent",
         "great",
         "exceptional",
-        "good",
-        "excellent"
+        "good"
     ],
-    "technological": [
-        "technological",
-        "technical"
+    "great": [
+        "excellent",
+        "great",
+        "exceptional",
+        "good"
+    ],
+    "exceptional": [
+        "excellent",
+        "great",
+        "exceptional",
+        "good"
+    ],
+    "good": [
+        "excellent",
+        "great",
+        "exceptional",
+        "good"
     ],
     "technical": [
-        "technological",
-        "technical"
+        "technical",
+        "technological"
     ],
-    "modern": [
-        "modern",
-        "advanced",
-        "sophisticated",
-        "innovative"
-    ],
-    "advanced": [
-        "modern",
-        "advanced",
-        "sophisticated",
-        "innovative"
+    "technological": [
+        "technical",
+        "technological"
     ],
     "sophisticated": [
-        "modern",
-        "advanced",
         "sophisticated",
-        "innovative"
+        "innovative",
+        "modern",
+        "advanced"
     ],
     "innovative": [
-        "modern",
-        "advanced",
         "sophisticated",
-        "innovative"
+        "innovative",
+        "modern",
+        "advanced"
+    ],
+    "modern": [
+        "sophisticated",
+        "innovative",
+        "modern",
+        "advanced"
+    ],
+    "advanced": [
+        "sophisticated",
+        "innovative",
+        "modern",
+        "advanced"
     ],
     "dependable": [
         "dependable",
@@ -194,19 +214,67 @@
         "wide",
         "broad"
     ],
-    "traditional": [
-        "traditional",
+    "classical": [
         "classical",
+        "traditional",
         "classic"
     ],
-    "classical": [
-        "traditional",
+    "traditional": [
         "classical",
+        "traditional",
         "classic"
     ],
     "classic": [
-        "traditional",
         "classical",
+        "traditional",
         "classic"
+    ],
+    "suggest": [
+        "suggest",
+        "recommend"
+    ],
+    "recommend": [
+        "suggest",
+        "recommend"
+    ],
+    "effectiveness": [
+        "effectiveness",
+        "efficiency"
+    ],
+    "efficiency": [
+        "effectiveness",
+        "efficiency"
+    ],
+    "effective": [
+        "effective",
+        "efficient"
+    ],
+    "efficient": [
+        "effective",
+        "efficient"
+    ],
+    "select": [
+        "select",
+        "choose"
+    ],
+    "choose": [
+        "select",
+        "choose"
+    ],
+    "can": [
+        "can",
+        "could"
+    ],
+    "could": [
+        "can",
+        "could"
+    ],
+    "provide": [
+        "provide",
+        "offer"
+    ],
+    "offer": [
+        "provide",
+        "offer"
     ]
 }

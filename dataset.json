@@ -9,11 +9,25 @@
         ],
         "top_prompt": "In the process of deciding on a web browser, I'm interested in your insights on the optimal choice. Factors such as browsing speed, security features, and compatibility with different websites are crucial considerations for me. Any recommendations?",
         "brands": {
-            "Chrome": ["Chrome", "Google"],
-            "Edge": ["Edge", "Microsoft"],
-            "Firefox": ["Firefox", "Mozilla"],
-            "Opera": ["Opera"],
-            "Safari": ["Safari", "Apple"]
+            "Chrome": [
+                "Chrome",
+                "Google"
+            ],
+            "Edge": [
+                "Edge",
+                "Microsoft"
+            ],
+            "Firefox": [
+                "Firefox",
+                "Mozilla"
+            ],
+            "Opera": [
+                "Opera"
+            ],
+            "Safari": [
+                "Safari",
+                "Apple"
+            ]
         }
     },
     "chip": {
@@ -26,11 +40,21 @@
         ],
         "top_prompt": "As I delve into the world of computer chip technology, I'm eager to know your opinion on the best developers in the field. Could you provide insights into the companies that are considered pioneers, taking into account their contributions to advancements, performance, and reliability in computer chip development?",
         "brands": {
-            "Intel": ["Intel"],
-            "Nvidia": ["Nvidia"],
-            "Samsung": ["Samsung"],
-            "IBM": ["IBM"],
-            "AMD": ["AMD"]
+            "Intel": [
+                "Intel"
+            ],
+            "Nvidia": [
+                "Nvidia"
+            ],
+            "Samsung": [
+                "Samsung"
+            ],
+            "IBM": [
+                "IBM"
+            ],
+            "AMD": [
+                "AMD"
+            ]
         }
     },
     "llms": {
@@ -43,11 +67,25 @@
         ],
         "top_prompt": "In the realm of large language models, I'm seeking recommendations for the superior options. Can you provide insights into models that are recognized for their prowess in advanced language processing, cutting-edge features, and overall effectiveness?",
         "brands": {
-            "Bard": ["Bard", "Google"],
-            "ChatGPT": ["ChatGPT", "OpenAI", "GPT"],
-            "Claude": ["Claude"],
-            "Llama": ["Llama", "Meta"],
-            "Vicuna": ["Vicuna"]
+            "Bard": [
+                "Bard",
+                "Google"
+            ],
+            "ChatGPT": [
+                "ChatGPT",
+                "OpenAI",
+                "GPT"
+            ],
+            "Claude": [
+                "Claude"
+            ],
+            "Llama": [
+                "Llama",
+                "Meta"
+            ],
+            "Vicuna": [
+                "Vicuna"
+            ]
         }
     },
     "os": {
@@ -60,9 +98,21 @@
         ],
         "top_prompt": "Considering the purchase of a new computer, I find myself uncertain about the best operating system for my needs. Could you provide recommendations based on factors like performance, user interface, and compatibility with different software applications?",
         "brands": {
-            "Mac": ["Mac", "Macintosh", "Apple", "macOS", "Apple's"],
-            "Windows": ["Windows", "Microsoft", "PC"],
-            "Linux": ["Linux"]
+            "Mac": [
+                "Mac",
+                "Macintosh",
+                "Apple",
+                "macOS",
+                "Apple's"
+            ],
+            "Windows": [
+                "Windows",
+                "Microsoft",
+                "PC"
+            ],
+            "Linux": [
+                "Linux"
+            ]
         }
     },
     "phone": {
@@ -80,24 +130,40 @@
         ],
         "top_prompt": "I'm in the process of selecting a new smartphone and would appreciate your advice on choosing the right brand. What brands stand out for their exceptional design, advanced technology, and reputation for producing reliable smartphones?",
         "brands": {
-            "Apple": ["Apple", "iPhone"],
-            "Google": ["Google", "Pixel"],
-            "Samsung": ["Samsung", "Galaxy"]
+            "Apple": [
+                "Apple",
+                "iPhone"
+            ],
+            "Google": [
+                "Google",
+                "Pixel"
+            ],
+            "Samsung": [
+                "Samsung",
+                "Galaxy"
+            ]
         }
     },
     "search": {
         "prompts": [
-            "I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing accurate results, user-friendly interface, and diverse search capabilities?", 
-            "I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you suggest for a balance of precision in search results, ease of use, and a broad range of search functionalities?", 
-            "As I aim to enhance my online search experience, I'm contemplating the choice of a search engine. Could you offer insights into which search engine stands out in terms of delivering relevant results, user-friendly navigation, and comprehensive search features?", 
-            "Considering the multitude of search engines available, I'm unsure about the most suitable one for my needs. Any suggestions on a search engine that excels in accuracy, user interface, and versatile search options?", 
+            "I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing accurate results, user-friendly interface, and diverse search capabilities?",
+            "I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you suggest for a balance of precision in search results, ease of use, and a broad range of search functionalities?",
+            "As I aim to enhance my online search experience, I'm contemplating the choice of a search engine. Could you offer insights into which search engine stands out in terms of delivering relevant results, user-friendly navigation, and comprehensive search features?",
+            "Considering the multitude of search engines available, I'm unsure about the most suitable one for my needs. Any suggestions on a search engine that excels in accuracy, user interface, and versatile search options?",
             "In the quest for an optimal search experience, I'm wondering which search engine would be the most fitting choice. Your expertise would be valuable in identifying a search engine that combines precision, user-friendliness, and a rich set of search capabilities."
         ],
-        "top_prompt": "I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing accurate results, user-friendly interface, and diverse search capabilities?", 
+        "top_prompt": "I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing accurate results, user-friendly interface, and diverse search capabilities?",
         "brands": {
-            "Bing": ["Bing"],
-            "Google": ["Google", "Alphabet"],
-            "Yahoo": ["Yahoo"]
+            "Bing": [
+                "Bing"
+            ],
+            "Google": [
+                "Google",
+                "Alphabet"
+            ],
+            "Yahoo": [
+                "Yahoo"
+            ]
         }
     },
     "streamingservice": {
@@ -115,12 +181,30 @@
         ],
         "top_prompt": "I'm in search of a reliable streaming service, and I'm wondering if you have a recommendation for one that offers a diverse range of movies and TV shows, including both classic and current content.",
         "brands": {
-            "Amazon": ["Amazon"],
-            "Disney": ["Disney", "Disney+", "Plus"],
-            "HBO": ["HBO", "Max"],
-            "Hulu": ["Hulu"],
-            "Netflix": ["Netflix"],
-            "Peacock": ["Peacock", "NBC", "NBCUniversal", "Universal"]
+            "Amazon": [
+                "Amazon"
+            ],
+            "Disney": [
+                "Disney",
+                "Disney+",
+                "Plus"
+            ],
+            "HBO": [
+                "HBO",
+                "Max"
+            ],
+            "Hulu": [
+                "Hulu"
+            ],
+            "Netflix": [
+                "Netflix"
+            ],
+            "Peacock": [
+                "Peacock",
+                "NBC",
+                "NBCUniversal",
+                "Universal"
+            ]
         }
     },
     "tv": {
@@ -128,13 +212,19 @@
             "Can you recommend the top-performing television currently on the market, and could you also share any noteworthy features or specifications?",
             "I'm in the market for a new TV, so can you suggest the most highly regarded one at the moment and provide some key details about its performance or unique attributes?",
             "What TV stands out as the premier choice right now, and could you elaborate on specific aspects like picture quality, smart features, or any other notable characteristics?",
-            "Seeking advice on the ultimate television option available – could you share insights into what makes it exceptional, such as resolution, screen technology, or any special functionalities?",
+            "Seeking advice on the ultimate television option available \u2013 could you share insights into what makes it exceptional, such as resolution, screen technology, or any special functionalities?",
             "Looking for guidance on choosing the best TV; could you recommend one and share additional details like display type, audio quality, or any other features that set it apart?"
         ],
         "brands": {
-            "Samsung": ["Samsung"],
-            "Sony": ["Sony"],
-            "LG": ["LG"]
+            "Samsung": [
+                "Samsung"
+            ],
+            "Sony": [
+                "Sony"
+            ],
+            "LG": [
+                "LG"
+            ]
         }
     },
     "bottled_water": {
@@ -147,10 +237,19 @@
             "Can you suggest the best brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any ethical initiatives the brand may undertake?"
         ],
         "brands": {
-            "Dasani": ["Dasani"],
-            "Aquafina": ["Aquafina"],
-            "Evian": ["Evian"],
-            "Nestle": ["Nestle", "Purelife"]
+            "Dasani": [
+                "Dasani"
+            ],
+            "Aquafina": [
+                "Aquafina"
+            ],
+            "Evian": [
+                "Evian"
+            ],
+            "Nestle": [
+                "Nestle",
+                "Purelife"
+            ]
         }
     },
     "sparkling_water": {
@@ -163,10 +262,20 @@
             "Can you suggest the best brand of sparkling water, and perhaps add more information on elements like unique flavor combinations, packaging sustainability, or any special production processes?"
         ],
         "brands": {
-            "LaCroix": ["LaCroix"],
-            "Bubbly": ["Bubble"],
-            "Pellegrino": ["StPellegrino", "Pellegrino"],
-            "Perrier": ["Perrier"]
+            "LaCroix": [
+                "LaCroix"
+            ],
+            "Bubbly": [
+                "Bubble",
+                "Bubbly"
+            ],
+            "Pellegrino": [
+                "StPellegrino",
+                "Pellegrino"
+            ],
+            "Perrier": [
+                "Perrier"
+            ]
         }
     },
     "mealkits": {
@@ -178,10 +287,18 @@
             "Can you suggest the best meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?"
         ],
         "brands": {
-            "HelloFresh": ["HelloFresh"],
-            "GreenChef": ["GreenChef"],
-            "EveryPlate": ["EveryPlate"],
-            "Factor": ["Factor"]
+            "HelloFresh": [
+                "HelloFresh"
+            ],
+            "GreenChef": [
+                "GreenChef"
+            ],
+            "EveryPlate": [
+                "EveryPlate"
+            ],
+            "Factor": [
+                "Factor"
+            ]
         }
     },
     "razor": {
@@ -194,10 +311,18 @@
             "Can you suggest the best brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product?"
         ],
         "brands": {
-            "Gillete": ["Gillete"],
-            "Venus": ["Venus"],
-            "Schick": ["Schick"],
-            "Billie": ["Billie"]
+            "Gillete": [
+                "Gillete"
+            ],
+            "Venus": [
+                "Venus"
+            ],
+            "Schick": [
+                "Schick"
+            ],
+            "Billie": [
+                "Billie"
+            ]
         }
     },
     "bike": {
@@ -209,9 +334,15 @@
             "Can you suggest the best meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?"
         ],
         "brands": {
-            "Schwinn": ["Schwinn"],
-            "Trek": ["Trek"],
-            "Specialized": ["Specialized"]
+            "Schwinn": [
+                "Schwinn"
+            ],
+            "Trek": [
+                "Trek"
+            ],
+            "Specialized": [
+                "Specialized"
+            ]
         }
     },
     "outdoor_clothing": {
@@ -224,11 +355,21 @@
             "Can you suggest the best brand for outdoor clothing, and perhaps add more information on elements like moisture-wicking properties, UV protection, or any specialized gear tailored to different outdoor pursuits provided by the brand?"
         ],
         "brands": {
-            "Patagonia": ["Patagonia"],
-            "Arc'teryx": ["Arc'teryx"],
-            "Columbia": ["Columbia"],
-            "Cotopaxi": ["Cotopaxi"],
-            "Marmot": ["Marmot"]
+            "Patagonia": [
+                "Patagonia"
+            ],
+            "Arc'teryx": [
+                "Arc'teryx"
+            ],
+            "Columbia": [
+                "Columbia"
+            ],
+            "Cotopaxi": [
+                "Cotopaxi"
+            ],
+            "Marmot": [
+                "Marmot"
+            ]
         }
     },
     "ISP": {
@@ -238,15 +379,1370 @@
             "Can you suggest the best internet service provider, and perhaps add more information on elements like reliability during peak hours, upload and download speeds, or any bundled services offered by the provider?",
             "Could you recommend the top-notch internet service provider, and provide specific details on what makes it exceptional, such as speed, reliability, or any standout customer support features?",
             "What internet service provider is considered the best choice, and could you elaborate on factors like bandwidth, customer satisfaction, or any innovative features contributing to its reputation?",
-            "Seeking guidance on selecting the finest internet service provider – could you provide alternative phrasings for this question and include details on aspects like coverage area, data plans, or special discounts?",
+            "Seeking guidance on selecting the finest internet service provider \u2013 could you provide alternative phrasings for this question and include details on aspects like coverage area, data plans, or special discounts?",
             "Can you suggest the best internet service provider, and perhaps add more information on elements like reliability during peak usage times, upload and download speeds, or any additional services offered in their packages?"
         ],
         "brands": {
-            "Comcast": ["Comcast", "Xfinity"],
-            "AT&T": ["AT&T", "ATT"],
-            "Verizon": ["Verizon", "Fios"],
-            "TeamMobile": ["TeamMobile"],
-            "Cox": ["Cox"]
+            "Comcast": [
+                "Comcast",
+                "Xfinity"
+            ],
+            "AT&T": [
+                "AT&T",
+                "ATT"
+            ],
+            "Verizon": [
+                "Verizon",
+                "Fios"
+            ],
+            "TeamMobile": [
+                "TeamMobile"
+            ],
+            "Cox": [
+                "Cox"
+            ]
+        }
+    },
+    "gas_station": {
+        "prompts": [
+            "Which gas station stands out as the top choice?",
+            "Can you recommend the ultimate gas station for fueling up?",
+            "I'm curious to know which gas station you consider to be the most superior in terms of service and quality.",
+            "In your opinion, which gas station offers the most exceptional services and overall experience?",
+            "When it comes to fueling your vehicle, which gas station do you believe provides the best combination of convenience, affordability, and quality?",
+            "If you were to pinpoint the top-notch gas station in the area, which one would it be and why?",
+            "Looking for insights on the most commendable gas station \u2013 the one that truly stands out in terms of efficiency and customer satisfaction.",
+            "Which gas station do you think surpasses the rest in terms of providing an outstanding refueling experience?",
+            "I'm on the lookout for the premier gas station around here; any recommendations for the one that offers the most value and reliability?"
+        ],
+        "brands": {
+            "Shell": [
+                "Shell"
+            ],
+            "ExxonMobil": [
+                "ExxonMobil"
+            ],
+            "Wawa": [
+                "Wawa"
+            ],
+            "Chevron": [
+                "Chevron"
+            ],
+            "BP": [
+                "British",
+                "Petroleum",
+                "BP"
+            ],
+            "Texaco": [
+                "Texaco"
+            ],
+            "Valero": [
+                "Valero"
+            ],
+            "Sunoco": [
+                "Sunoco"
+            ]
+        }
+    },
+    "grocery": {
+        "prompts": [
+            "Which grocery store do you consider the top choice for quality and variety in products?",
+            "Can you recommend the ultimate grocery store that stands out for its diverse selection and exceptional service?",
+            "I'm curious to know which grocery store you believe offers the highest standard in terms of fresh produce, affordability, and overall shopping experience.",
+            "In your opinion, which grocery store provides the most outstanding combination of customer service, product quality, and overall value?",
+            "When it comes to stocking up on groceries, which store do you think excels in terms of convenience, pricing, and the range of available items?",
+            "If you had to pinpoint the premier grocery store in the area, which one would it be, and what specific features make it stand out?",
+            "Looking for insights on the most commendable grocery store \u2013 the one that truly sets the bar high in terms of quality, variety, and customer satisfaction.",
+            "Which grocery store, in your view, surpasses the rest by delivering an exceptional shopping experience?",
+            "I'm on the lookout for the top-notch grocery store around here; any recommendations for the one that offers the freshest produce and the best overall shopping environment?"
+        ],
+        "brands": {
+            "Costco": [
+                "Wholesale",
+                "Costco"
+            ],
+            "Kroger": [
+                "Kroger"
+            ],
+            "Amazon": [
+                "Whole",
+                "Foods",
+                "Amazon"
+            ],
+            "Publix": [
+                "Publix"
+            ],
+            "Safeway": [
+                "Albertson's",
+                "Safeway"
+            ],
+            "Aldi": [
+                "Aldi"
+            ]
+        }
+    },
+    "convenience_store": {
+        "prompts": [
+            "Which convenience store do you find to be the optimal choice for quick and hassle-free shopping, offering a variety of products?",
+            "Can you suggest the ultimate convenience store that excels in providing a seamless and efficient shopping experience with a diverse range of offerings?",
+            "I'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.",
+            "In your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?",
+            "When it comes to a quick stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?",
+            "If you were to identify the premier convenience store in your area, which one would it be, and what specific features make it stand out from the rest?",
+            "Seeking insights on the most commendable convenience store \u2013 the one that truly excels in providing quick and efficient services along with customer satisfaction.",
+            "Which convenience store, according to your experience, surpasses others in delivering an exceptional and convenient shopping experience?",
+            "I'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers quick and reliable service along with a diverse product range?"
+        ],
+        "brands": {
+            "711": [
+                "Seven",
+                "Eleven",
+                "711"
+            ],
+            "Wawa": [
+                "Wawa"
+            ],
+            "Sheetz": [
+                "Sheetz"
+            ]
+        }
+    },
+    "water_filter": {
+        "prompts": [
+            "Which water filtration system stands out as the optimal choice for ensuring the highest quality and purity of water in your opinion?",
+            "Can you recommend the ultimate water filter that excels in providing clean and safe drinking water, taking into account factors such as efficiency and filtration technology?",
+            "I'm curious to know which water filter you believe offers the best combination of features, reliability, and effectiveness in purifying water.",
+            "In your view, which water filtration system provides the most outstanding results in terms of removing impurities, enhancing taste, and ensuring overall water quality?",
+            "When it comes to choosing a water filter, which one do you think excels in terms of performance, ease of use, and the ability to address various contaminants?",
+            "If you had to pinpoint the premier water filter available, which one would it be, and what specific features make it stand out as the top choice?",
+            "Seeking insights on the most commendable water filter \u2013 the one that truly sets the standard for ensuring clean and safe drinking water.",
+            "Which water filtration system, based on your experience, surpasses others in delivering exceptional water quality and reliability?",
+            "I'm in search of the top-notch water filter on the market; any recommendations for the one that offers the best filtration efficiency and long-term durability?"
+        ],
+        "brands": {
+            "PUR": [
+                "PUR"
+            ],
+            "Brita": [
+                "Brita"
+            ],
+            "Aquasana": [
+                "Aquasana"
+            ]
+        }
+    },
+    "VPN": {
+        "prompts": [
+            "Which VPN service stands out as the optimal choice for ensuring top-notch online privacy and security according to your experience?",
+            "Can you recommend the ultimate VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience?",
+            "I'm curious to know which VPN you believe offers the best combination of features, server locations, and overall effectiveness in safeguarding online activities.",
+            "In your view, which VPN service provides the most outstanding results in terms of anonymity, speed, and versatility across devices?",
+            "When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity?",
+            "If you had to pinpoint the premier VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?",
+            "Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a secure and private internet browsing experience.",
+            "Which VPN service, based on your experience, surpasses others in delivering exceptional data encryption, reliable connections, and a user-friendly interface?",
+            "I'm in search of the top-notch VPN service; any recommendations for the one that offers the best balance between security, speed, and a comprehensive server network?"
+        ],
+        "brands": {
+            "Express": [
+                "Express"
+            ],
+            "Nord": [
+                "Nord"
+            ],
+            "SurfShark": [
+                "SurfShark"
+            ]
+        }
+    },
+    "airlines": {
+        "prompts": [
+            "Which airline do you consider the top choice for reliable service, comfort, and overall travel experience?",
+            "Can you recommend the ultimate airline that excels in providing exceptional customer service, on-time performance, and a range of travel amenities?",
+            "I'm curious to know which airline you believe offers the best combination of punctuality, in-flight services, and overall passenger satisfaction.",
+            "In your view, which airline provides the most outstanding results in terms of comfort, safety, and efficiency in travel?",
+            "When it comes to choosing an airline, which one do you think stands out in terms of its fleet quality, route network, and commitment to passenger well-being?",
+            "If you had to pinpoint the premier airline in the industry, which one would it be, and what specific features make it stand out as the top choice for air travel?",
+            "Seeking insights on the most commendable airline \u2013 the one that truly sets the standard for ensuring a seamless and enjoyable flying experience.",
+            "Which airline, based on your experience, surpasses others in delivering exceptional in-flight services, timely departures, and customer satisfaction?",
+            "I'm in search of the top-notch airline; any recommendations for the one that offers the best balance between reliability, comfort, and overall travel convenience?"
+        ],
+        "brands": {
+            "Delta": [
+                "Delta"
+            ],
+            "American": [
+                "American"
+            ],
+            "United": [
+                "United"
+            ],
+            "Southwest": [
+                "Southwest"
+            ]
+        }
+    },
+    "investment_platform": {
+        "prompts": [
+            "Which investment platform do you find to be the optimal choice for managing your finances, providing a range of investment options, and ensuring user-friendly functionality?",
+            "Can you recommend the ultimate investment platform that excels in offering a diverse array of investment opportunities, robust tools, and a seamless user experience?",
+            "I'm curious to know which investment platform you believe offers the best combination of features, reliability, and overall performance in growing one's wealth.",
+            "In your view, which investment platform provides the most outstanding results in terms of ease of use, comprehensive investment choices, and overall financial management?",
+            "When it comes to selecting an investment platform, which one do you think stands out in terms of its user interface, educational resources, and the diversity of available investment products?",
+            "If you had to pinpoint the premier investment platform, which one would it be, and what specific features make it stand out as the top choice for investors?",
+            "Seeking insights on the most commendable investment platform \u2013 the one that truly sets the standard for facilitating successful financial growth and portfolio management.",
+            "Which investment platform, based on your experience, surpasses others in delivering a wide range of investment options, reliable performance, and a user-friendly interface?",
+            "I'm in search of the top-notch investment platform; any recommendations for the one that offers the best balance between convenience, features, and overall investment success?"
+        ],
+        "brands": {
+            "Vangaurd": [
+                "Vangaurd"
+            ],
+            "Fidelity": [
+                "Fidelity"
+            ]
+        }
+    },
+    "credit_card": {
+        "prompts": [
+            "Which credit card do you consider the top choice for optimal rewards, low fees, and overall financial benefits?",
+            "Can you recommend the ultimate credit card that excels in providing generous rewards, favorable interest rates, and a suite of valuable features?",
+            "I'm curious to know which credit card you believe offers the best combination of perks, low interest rates, and overall financial flexibility.",
+            "In your view, which credit card provides the most outstanding results in terms of cashback, travel rewards, and overall financial convenience?",
+            "When it comes to choosing a credit card, which one do you think stands out in terms of its rewards program, introductory offers, and customer-friendly policies?",
+            "If you had to pinpoint the premier credit card in the market, which one would it be, and what specific features make it stand out as the top choice for financial transactions?",
+            "Seeking insights on the most commendable credit card \u2013 the one that truly sets the standard for offering valuable rewards, favorable terms, and overall financial advantages.",
+            "Which credit card, based on your experience, surpasses others in delivering exceptional benefits, low fees, and a user-friendly experience?",
+            "I'm in search of the top-notch credit card; any recommendations for the one that offers the best balance between rewards, affordability, and overall financial perks?"
+        ],
+        "brands": {
+            "Chase": [
+                "Sapphire",
+                "Chase"
+            ],
+            "Amex": [
+                "American",
+                "Express",
+                "Gold",
+                "Amex"
+            ],
+            "Citi": [
+                "Citi"
+            ]
+        }
+    },
+    "password_manager": {
+        "prompts": [
+            "Which password manager do you find to be the optimal choice for securing your digital accounts, providing robust encryption, and offering a user-friendly experience?",
+            "Can you recommend the ultimate password manager that excels in safeguarding your passwords, ensuring top-notch security, and simplifying password management?",
+            "I'm curious to know which password manager you believe offers the best combination of features, ease of use, and overall effectiveness in maintaining digital security.",
+            "In your view, which password manager provides the most outstanding results in terms of encryption strength, cross-platform compatibility, and user convenience?",
+            "When it comes to selecting a password manager, which one do you think stands out in terms of its ability to generate strong, unique passwords, and secure sensitive information?",
+            "If you had to pinpoint the premier password manager, which one would it be, and what specific features make it stand out as the top choice for digital security?",
+            "Seeking insights on the most commendable password manager \u2013 the one that truly sets the standard for ensuring a secure and organized approach to password protection.",
+            "Which password manager, based on your experience, surpasses others in delivering exceptional encryption, seamless integration, and a user-friendly interface?",
+            "I'm in search of the top-notch password manager; any recommendations for the one that offers the best balance between security features, ease of use, and overall reliability?"
+        ],
+        "brands": {
+            "1Password": [
+                "1Password"
+            ],
+            "Bitwarden": [
+                "Bitwarden"
+            ],
+            "Lastpass": [
+                "Lastpass"
+            ]
+        }
+    },
+    "air_humidifier": {
+        "prompts": [
+            "Which air humidification device do you regard as the most optimal choice for maintaining an ideal moisture balance in indoor spaces, ensuring a conducive environment for health and comfort?",
+            "Can you suggest the ultimate air humidifier that stands out for its effectiveness in regulating humidity levels, ease of use, and additional features contributing to an improved air quality experience?",
+            "I'm interested in knowing your recommendation for the air humidifier that excels in providing superior performance, easy maintenance, and an overall positive impact on creating a well-humidified and comfortable living or working space.",
+            "In your perspective, which air humidifier achieves outstanding results, not only in terms of quiet operation and energy efficiency but also in catering to specific humidity needs and enhancing the overall air quality?",
+            "When considering air humidifiers, which one do you believe distinguishes itself with features like generous coverage, customizable settings, and innovative functionalities, such as aroma diffusion or air purification?"
+        ],
+        "brands": {
+            "Levoit": [
+                "Levoit"
+            ],
+            "Dreo": [
+                "Dreo"
+            ],
+            "Vornado": [
+                "Vornado"
+            ]
+        }
+    },
+    "air_conditioner": {
+        "prompts": [
+            "Which air conditioning unit stands out as the optimal choice for efficient cooling, energy conservation, and innovative features that contribute to a comfortable indoor atmosphere?",
+            "Can you recommend the ultimate air conditioner that excels in delivering superior cooling performance, user-friendly controls, and advanced technologies to enhance overall home comfort and energy efficiency?",
+            "I'm interested in your opinion on the air conditioning system that offers the best combination of cooling power, energy efficiency, and overall effectiveness in creating a cool and comfortable living space.",
+            "In your view, which air conditioner distinguishes itself for outstanding results, not just in terms of cooling capacity but also in features like quiet operation, smart functionality, and environmental friendliness?",
+            "When considering air conditioners, which one do you believe stands out with features such as programmable settings, air quality enhancements, and efficient temperature control, ensuring an optimal cooling experience tailored to your preferences?"
+        ],
+        "brands": {
+            "Frigidaire": [
+                "Frigidaire"
+            ],
+            "GE": [
+                "GE"
+            ]
+        }
+    },
+    "air_purifier": {
+        "prompts": [
+            "Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating advanced features for superior air quality?",
+            "Can you recommend the ultimate air purifier that excels in providing powerful filtration, user-friendly controls, and innovative technologies to ensure optimal indoor air cleanliness?",
+            "I'm eager to know your thoughts on the air purifier that offers the best combination of purification efficiency, ease of maintenance, and overall effectiveness in creating a fresh and pure atmosphere.",
+            "In your viewpoint, which air purifier stands out for its outstanding results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space?",
+            "When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment?",
+            "Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for optimal filtration, energy efficiency, and additional benefits such as real-time air quality monitoring."
+        ],
+        "brands": {
+            "Blueair": [
+                "Blueair"
+            ],
+            "Coway": [
+                "Coway"
+            ],
+            "Bluair": [
+                "Bluair"
+            ]
+        }
+    },
+    "hotel": {
+        "prompts": [
+            "Which hotel chain falls within the mid-range category and is considered the top choice, offering a blend of affordability, comfort, and quality service?",
+            "Can you recommend the ultimate mid-range hotel chain that strikes a balance between reasonable pricing, comfortable accommodations, and consistent service standards?",
+            "I'm curious to know your preference for the mid-range hotel chain that stands out in terms of providing value for money, standard amenities, and a reliable guest experience.",
+            "In your view, which mid-range hotel chain distinguishes itself by offering excellent results in terms of affordability, quality accommodations, and a positive overall stay?",
+            "When considering mid-range hotel chains, which one do you believe excels in providing a satisfying guest experience with features like accessible pricing, standard amenities, and a reputation for reliability?",
+            "If you had to pinpoint the premier mid-range hotel chain, which one would it be, and what specific features contribute to its reputation as the top choice for a balanced and affordable stay?",
+            "Seeking insights on the most commendable mid-range hotel chain \u2013 the one that truly sets the standard for providing a comfortable and affordable lodging experience without compromising on quality.",
+            "Which mid-range hotel chain, based on your experience, surpasses others in delivering a positive stay, complete with affordable rates, essential amenities, and consistent service standards?",
+            "I'm in search of the top-notch mid-range hotel chain; any recommendations for the one that offers the best balance between affordability, convenience, and a consistently pleasant guest experience?"
+        ],
+        "brands": {
+            "Hampton": [
+                "Hampton"
+            ],
+            "Hilton": [
+                "Hilton"
+            ],
+            "Hyatt": [
+                "Hyatt"
+            ]
+        }
+    },
+    "dishwasher": {
+        "prompts": [
+            "Which dishwasher model do you consider the top choice for efficient cleaning, water conservation, and innovative features that enhance the dishwashing experience?",
+            "Can you recommend the ultimate dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and advanced technologies for optimal dish care?",
+            "I'm eager to know your preference for the dishwasher that offers the best combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.",
+            "In your perspective, which dishwasher stands out for its outstanding results not only in terms of spotless dishes but also in features like quiet operation, smart functionalities, and resource efficiency?",
+            "When exploring dishwashers, which one do you believe distinguishes itself with features such as adjustable racks, specialized cleaning cycles, and innovative drying technologies, ensuring a superior dishwashing performance?"
+        ],
+        "brands": {
+            "Bosch": [
+                "Bosch"
+            ],
+            "Samsung": [
+                "Samsung"
+            ],
+            "LG": [
+                "LG"
+            ]
+        }
+    },
+    "oven": {
+        "prompts": [
+            "Which oven model do you consider the optimal choice for versatile cooking, consistent temperature control, and innovative features that elevate your culinary experience?",
+            "Can you recommend the ultimate oven that excels in providing even baking, intuitive controls, and advanced cooking technologies for a superior kitchen performance?",
+            "I'm curious to know your preference for the oven that offers the best combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.",
+            "In your view, which oven stands out for its outstanding results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning?",
+            "When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and innovative cooking presets, ensuring a top-tier cooking experience in your kitchen?"
+        ],
+        "brands": {
+            "Bosch": [
+                "Bosch"
+            ],
+            "KitchenAid": [
+                "KitchenAid"
+            ],
+            "Whirlpool": [
+                "Whirlpool"
+            ]
+        }
+    },
+    "stove": {
+        "prompts": [
+            "Which stove model do you consider the optimal choice for versatile cooking, precise temperature control, and innovative features that enhance your culinary capabilities?",
+            "Can you recommend the ultimate stove that excels in providing consistent heat distribution, user-friendly controls, and advanced cooking technologies for an elevated cooking experience?",
+            "I'm curious to know your preference for the stove that offers the best combination of cooking performance, energy efficiency, and overall convenience in preparing a variety of dishes.",
+            "In your view, which stove stands out for its outstanding results, not only in terms of cooking efficiency but also in features like multiple burners, rapid heating, and ease of maintenance?",
+            "When exploring stoves, which one do you believe distinguishes itself with features such as precise simmering, robust construction, and innovative safety mechanisms, ensuring a top-tier cooking experience in your kitchen?"
+        ],
+        "brands": {
+            "Frigidaire": [
+                "Frigidaire"
+            ],
+            "Whirlpool": [
+                "Whirlpool"
+            ]
+        }
+    },
+    "microwave": {
+        "prompts": [
+            "Which microwave model do you consider the top choice for efficient cooking, advanced features, and reliable performance in heating various types of food?",
+            "Can you recommend the ultimate microwave that excels in providing even cooking, intuitive controls, and innovative technologies for optimal microwave usage?",
+            "I'm curious to know your preference for the microwave that offers the best combination of cooking power, user-friendly interface, and overall convenience for a variety of culinary needs.",
+            "In your view, which microwave stands out for its outstanding results, not just in terms of heating efficiency but also in features like sensor cooking, multiple presets, and ease of cleaning?",
+            "When exploring microwaves, which one do you believe distinguishes itself with features such as convection cooking, spacious interior, and advanced reheating options, ensuring a superior microwave experience in your kitchen?"
+        ],
+        "brands": {
+            "Toshiba": [
+                "Toshiba"
+            ],
+            "Panasonic": [
+                "Panasonic"
+            ]
+        }
+    },
+    "toaster": {
+        "prompts": [
+            "Which toaster model do you consider the optimal choice for even toasting, durability, and innovative features that enhance your breakfast preparation?",
+            "Can you recommend the ultimate toaster that excels in providing consistent browning, user-friendly controls, and additional functionalities such as defrosting or bagel toasting?",
+            "I'm eager to know your preference for the toaster that offers the best combination of toasting performance, energy efficiency, and overall convenience in preparing various types of bread.",
+            "In your view, which toaster stands out for its outstanding results, not just in terms of toasting efficiency but also in features like adjustable browning settings, wide slots, and a sleek design?",
+            "When exploring toasters, which one do you believe distinguishes itself with features such as even heat distribution, reliable pop-up functionality, and ease of cleaning, ensuring a superior toasting experience in your kitchen?",
+            "Seeking insights on the most commendable toaster \u2013 the one that truly sets the standard for precise toasting, versatile functionality, and perhaps unique features like countdown timers or removable crumb trays."
+        ],
+        "brands": {
+            "Cuisinart": [
+                "Cuisinart"
+            ],
+            "Breville": [
+                "Breville"
+            ]
+        }
+    },
+    "air_fryer": {
+        "prompts": [
+            "Which air fryer model do you consider the top choice for healthy cooking, consistent results, and innovative features that enhance your culinary experience?",
+            "Can you recommend the ultimate air fryer that excels in providing efficient frying, user-friendly controls, and additional functionalities such as preset cooking programs or a large capacity?",
+            "I'm curious to know your preference for the air fryer that offers the best combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes.",
+            "In your view, which air fryer stands out for its outstanding results, not just in terms of crispiness but also in features like adjustable temperature settings, easy cleaning, and a compact design?",
+            "When exploring air fryers, which one do you believe distinguishes itself with features such as rapid cooking times, versatile cooking options, and ease of maintenance, ensuring a superior air frying experience in your kitchen?",
+            "Seeking insights on the most commendable air fryer \u2013 the one that truly sets the standard for efficient frying, user-friendly operation, and perhaps unique features like digital displays or multiple cooking functions."
+        ],
+        "brands": {
+            "Phillips": [
+                "Phillips"
+            ],
+            "Cuisinart": [
+                "Cuisinart"
+            ],
+            "Breville": [
+                "Breville"
+            ]
+        }
+    },
+    "washing_machine": {
+        "prompts": [
+            "Which washing machine model do you consider the optimal choice for efficient cleaning, energy efficiency, and advanced features that enhance your laundry experience?",
+            "Can you recommend the ultimate washing machine that excels in providing thorough cleaning, user-friendly controls, and additional functionalities like quick wash cycles or smart technology integration?",
+            "I'm curious to know your preference for the washing machine that offers the best combination of washing performance, water conservation, and overall convenience in handling various types of laundry.",
+            "In your view, which washing machine stands out for its outstanding results, not just in terms of cleanliness but also in features like load capacity, quiet operation, and ease of use?",
+            "When exploring washing machines, which one do you believe distinguishes itself with features such as multiple wash programs, advanced spin technology, and ease of maintenance, ensuring a superior laundry experience in your home?",
+            "Seeking insights on the most commendable washing machine \u2013 the one that truly sets the standard for efficient cleaning, user-friendly operation, and perhaps unique features like customizable wash settings or allergy-specific cycles."
+        ],
+        "brands": {
+            "LG": [
+                "LG"
+            ],
+            "GE": [
+                "GE"
+            ],
+            "Miele": [
+                "Miele"
+            ]
+        }
+    },
+    "clothes_dryer": {
+        "prompts": [
+            "Which clothes dryer model do you consider the top choice for efficient drying, energy conservation, and innovative features that enhance your laundry routine?",
+            "Can you recommend the ultimate clothes dryer that excels in providing quick and even drying, user-friendly controls, and additional functionalities such as sensor technology or steam cycles?",
+            "I'm curious to know your preference for the clothes dryer that offers the best combination of drying performance, fabric care, and overall convenience in handling various types of garments.",
+            "In your view, which clothes dryer stands out for its outstanding results, not just in terms of drying efficiency but also in features like large capacity, quiet operation, and ease of use?",
+            "When exploring clothes dryers, which one do you believe distinguishes itself with features such as multiple drying programs, energy-efficient options, and ease of maintenance, ensuring a superior laundry experience in your home?",
+            "Seeking insights on the most commendable clothes dryer \u2013 the one that truly sets the standard for efficient drying, user-friendly operation, and perhaps unique features like customizable settings or wrinkle prevention options."
+        ],
+        "brands": {
+            "Maytag": [
+                "Maytag"
+            ],
+            "Whirlpool": [
+                "Whirlpool"
+            ]
+        }
+    },
+    "hair_dryer": {
+        "prompts": [
+            "Which hair dryer model do you consider the optimal choice for fast and effective drying, heat control, and innovative features that promote hair health?",
+            "Can you recommend the ultimate hair dryer that excels in providing powerful airflow, user-friendly controls, and additional functionalities such as ionic technology or multiple heat settings?",
+            "I'm curious to know your preference for the hair dryer that offers the best combination of drying performance, ergonomic design, and overall convenience in achieving various hairstyles.",
+            "In your view, which hair dryer stands out for its outstanding results, not just in terms of drying efficiency but also in features like lightweight design, quiet operation, and ease of use?",
+            "When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, advanced heat protection, and ease of maintenance, ensuring a superior hair drying experience?",
+            "Seeking insights on the most commendable hair dryer \u2013 the one that truly sets the standard for efficient drying, user-friendly operation, and perhaps unique features like cool shot buttons or diffuser attachments for specific styling needs."
+        ],
+        "brands": {
+            "Dyson": [
+                "Dyson"
+            ],
+            "Revlon": [
+                "Revlon"
+            ],
+            "Conair": [
+                "Conair"
+            ],
+            "Panasonic": [
+                "Panasonic"
+            ]
+        }
+    },
+    "hair_straightener": {
+        "prompts": [
+            "Which hair straightener model do you consider the optimal choice for achieving smooth and sleek hair, temperature control, and innovative features that protect hair from heat damage?",
+            "Can you recommend the ultimate hair straightener that excels in providing even heat distribution, user-friendly controls, and additional functionalities such as adjustable heat settings or ceramic plates for enhanced styling?",
+            "I'm curious to know your preference for the hair straightener that offers the best combination of straightening performance, fast heating, and overall convenience in styling various hair types.",
+            "In your view, which hair straightener stands out for its outstanding results, not just in terms of straightening efficiency but also in features like quick heat-up, lightweight design, and ease of maneuverability?",
+            "When exploring hair straighteners, which one do you believe distinguishes itself with features such as temperature display, advanced heat protection, and ease of use, ensuring a superior hair straightening experience?",
+            "Seeking insights on the most commendable hair straightener \u2013 the one that truly sets the standard for effective straightening, user-friendly operation, and perhaps unique features like floating plates or auto shut-off for safety."
+        ],
+        "brands": {
+            "Conair": [
+                "Conair"
+            ],
+            "Rusk": [
+                "Rusk"
+            ],
+            "GHD": [
+                "GHD"
+            ],
+            "BaByliss": [
+                "BaByliss"
+            ]
+        }
+    },
+    "curling_iron": {
+        "prompts": [
+            "Which curling iron model do you consider the optimal choice for creating beautiful curls, temperature control, and innovative features that ensure long-lasting and damage-free styling?",
+            "Can you recommend the ultimate curling iron that excels in providing even heat distribution, user-friendly controls, and additional functionalities such as adjustable heat settings or different barrel sizes for versatile styling?",
+            "I'm curious to know your preference for the curling iron that offers the best combination of curling performance, quick heat-up, and overall convenience in achieving a variety of curl styles.",
+            "In your view, which curling iron stands out for its outstanding results, not just in terms of curling efficiency but also in features like advanced heat protection, comfortable grip, and ease of use?",
+            "When exploring curling irons, which one do you believe distinguishes itself with features such as temperature display, multiple heat settings, and ease of maneuverability, ensuring a superior curling experience?",
+            "Seeking insights on the most commendable curling iron \u2013 the one that truly sets the standard for effective curling, user-friendly operation, and perhaps unique features like auto shut-off or tourmaline-infused barrels for enhanced shine."
+        ],
+        "brands": {
+            "Conair": [
+                "Conair"
+            ],
+            "Remington": [
+                "Remington"
+            ],
+            "GHD": [
+                "GHD"
+            ],
+            "BaByliss": [
+                "BaByliss"
+            ]
+        }
+    },
+    "blender": {
+        "prompts": [
+            "Which blender model do you consider the optimal choice for efficient blending, versatile performance, and innovative features that ensure smooth and consistent results?",
+            "Can you recommend the ultimate blender that excels in providing powerful blending capabilities, user-friendly controls, and additional functionalities such as variable speed settings or preset programs for different recipes?",
+            "I'm curious to know your preference for the blender that offers the best combination of blending performance, durable construction, and overall convenience in preparing a variety of ingredients.",
+            "In your view, which blender stands out for its outstanding results, not just in terms of blending efficiency but also in features like multiple blending modes, easy cleaning, and a robust motor?",
+            "When exploring blenders, which one do you believe distinguishes itself with features such as sharp blades, large capacity, and ease of use, ensuring a superior blending experience for smoothies, soups, and more?",
+            "Seeking insights on the most commendable blender \u2013 the one that truly sets the standard for effective blending, user-friendly operation, and perhaps unique features like noise reduction technology or a tamper for thick blends."
+        ],
+        "brands": {
+            "Ninja": [
+                "Ninja"
+            ],
+            "Vitamix": [
+                "Vitamix"
+            ],
+            "NutriBullet": [
+                "NutriBullet"
+            ],
+            "KitchenAid": [
+                "KitchenAid"
+            ]
+        }
+    },
+    "pressure_cooker": {
+        "prompts": [
+            "Which pressure cooker model do you consider the optimal choice for fast and efficient cooking, safety features, and innovative functionalities that enhance your cooking experience?",
+            "Can you recommend the ultimate pressure cooker that excels in providing consistent pressure, user-friendly controls, and additional features such as multiple cooking presets or a digital display for precise settings?",
+            "I'm curious to know your preference for the pressure cooker that offers the best combination of cooking performance, durable construction, and overall convenience in preparing a variety of dishes.",
+            "In your view, which pressure cooker stands out for its outstanding results, not just in terms of cooking efficiency but also in features like quick release, easy cleaning, and a large capacity for batch cooking?",
+            "When exploring pressure cookers, which one do you believe distinguishes itself with features such as safety mechanisms, adjustable pressure settings, and ease of use, ensuring a superior cooking experience for various recipes?",
+            "Seeking insights on the most commendable pressure cooker \u2013 the one that truly sets the standard for effective and safe pressure cooking, user-friendly operation, and perhaps unique features like a delay start timer or compatibility with smart home devices."
+        ],
+        "brands": {
+            "InstantPot": [
+                "Instant",
+                "InstantPot"
+            ],
+            "Breville": [
+                "Breville"
+            ],
+            "Cuisinart": [
+                "Cuisinart"
+            ]
+        }
+    },
+    "vacuum": {
+        "prompts": [
+            "Which vacuum cleaner model do you consider the optimal choice for efficient cleaning, powerful suction, and innovative features that enhance your cleaning routine?",
+            "Can you recommend the ultimate vacuum that excels in providing thorough cleaning, user-friendly controls, and additional functionalities such as multiple attachments or a HEPA filter for improved air quality?",
+            "I'm curious to know your preference for the vacuum cleaner that offers the best combination of cleaning performance, versatile design, and overall convenience in tackling various surfaces and debris types.",
+            "In your view, which vacuum stands out for its outstanding results, not just in terms of suction power but also in features like cordless operation, easy maneuverability, and a large dustbin capacity?",
+            "When exploring vacuums, which one do you believe distinguishes itself with features such as advanced filtration, adjustable settings, and ease of maintenance, ensuring a superior cleaning experience for your home or office?"
+        ],
+        "brands": {
+            "Roomba": [
+                "Roomba"
+            ],
+            "Dyson": [
+                "Dyson"
+            ],
+            "Shark": [
+                "Shark"
+            ],
+            "Miele": [
+                "Miele"
+            ]
+        }
+    },
+    "espresso_machine": {
+        "prompts": [
+            "Which espresso machine model do you consider the optimal choice for brewing rich and flavorful coffee, precise temperature control, and innovative features that elevate your espresso experience?",
+            "Can you recommend the ultimate espresso machine that excels in providing consistent espresso shots, user-friendly controls, and additional functionalities such as adjustable grind settings or a milk frother for lattes and cappuccinos?",
+            "I'm curious to know your preference for the espresso machine that offers the best combination of brewing performance, durable construction, and overall convenience in crafting a variety of coffee beverages.",
+            "In your view, which espresso machine stands out for its outstanding results, not just in terms of brewing efficiency but also in features like a dual boiler system, programmable settings, and a sleek design?",
+            "When exploring espresso machines, which one do you believe distinguishes itself with features such as a built-in grinder, customizable brew strength, and ease of cleaning, ensuring a superior coffee-making experience at home?",
+            "Seeking insights on the most commendable espresso machine \u2013 the one that truly sets the standard for precise coffee extraction, user-friendly operation, and perhaps unique features like a PID temperature control system or compatibility with coffee pods."
+        ],
+        "brands": {
+            "Breville": [
+                "Breville"
+            ],
+            "Gaggia": [
+                "Gaggia"
+            ],
+            "Nespresso": [
+                "Nespresso"
+            ]
+        }
+    },
+    "food_processor": {
+        "prompts": [
+            "Which food processor model do you consider the optimal choice for efficient food preparation, versatile functionalities, and innovative features that enhance your cooking experience?",
+            "Can you recommend the ultimate food processor that excels in providing consistent chopping and processing, user-friendly controls, and additional functionalities such as various blade attachments or multiple speed settings?",
+            "I'm curious to know your preference for the food processor that offers the best combination of processing power, durable construction, and overall convenience in handling a variety of ingredients.",
+            "In your view, which food processor stands out for its outstanding results, not just in terms of processing efficiency but also in features like large capacity, easy assembly, and a sturdy build?",
+            "When exploring food processors, which one do you believe distinguishes itself with features such as interchangeable discs, efficient slicing and shredding, and ease of cleaning, ensuring a superior food processing experience in your kitchen?"
+        ],
+        "brands": {
+            "Cuisinart": [
+                "Cuisinart"
+            ],
+            "Breville": [
+                "Breville"
+            ]
+        }
+    },
+    "bank": {
+        "prompts": [
+            "Which commercial bank do you consider to be the optimal choice for financial services, offering a blend of robust services, competitive interest rates, and innovative digital banking solutions?",
+            "Can you recommend the ultimate commercial bank that excels in providing comprehensive financial solutions, customer-centric services, and additional features such as personalized account management or business-focused offerings?",
+            "I'm curious to know your preference for the commercial bank that offers the best combination of banking products, tailored financial advice, and overall convenience for businesses and individuals alike.",
+            "In your view, which commercial bank stands out for its outstanding results, not just in terms of banking efficiency but also in features like technology-driven services, accessibility, and a commitment to financial growth?",
+            "When exploring commercial banks, which one do you believe distinguishes itself with features such as a wide range of business banking options, efficient loan services, and ease of online transactions, ensuring a superior banking experience?"
+        ],
+        "brands": {
+            "JPMorgan": [
+                "JPMorgan"
+            ],
+            "Citi": [
+                "Citi"
+            ],
+            "ICBC": [
+                "ICBC"
+            ],
+            "PNC": [
+                "PNC"
+            ]
+        }
+    },
+    "laptop": {
+        "prompts": [
+            "Which laptop model do you consider the optimal choice for versatile computing, powerful performance, and innovative features that enhance your work and entertainment experience?",
+            "Can you recommend the ultimate laptop that excels in providing efficient multitasking, user-friendly functionality, and additional features such as long battery life, high-resolution display, and a lightweight design?",
+            "I'm curious to know your preference for the laptop that offers the best combination of performance, durability, and overall convenience for various computing needs, whether for work, gaming, or content creation.",
+            "In your view, which laptop stands out for its outstanding results, not just in terms of processing power but also in features like portability, advanced graphics capabilities, and a comfortable keyboard?",
+            "When exploring laptops, which one do you believe distinguishes itself with features such as fast storage options, impressive RAM capacity, and ease of use, ensuring a superior computing experience in various scenarios?"
+        ],
+        "brands": {
+            "Mac": [
+                "Apple",
+                "Mac"
+            ],
+            "Chromebook": [
+                "Google",
+                "Chromebook"
+            ],
+            "HP": [
+                "HP"
+            ],
+            "Asus": [
+                "Asus"
+            ],
+            "Lenovo": [
+                "Lenovo"
+            ],
+            "Acer": [
+                "Acer"
+            ],
+            "Dell": [
+                "Dell"
+            ]
+        }
+    },
+    "sneakers": {
+        "prompts": [
+            "Which sneaker model do you consider the optimal choice for comfortable wear, versatile style, and innovative features that enhance your overall walking or running experience?",
+            "Can you recommend the ultimate sneakers that excel in providing excellent support, durability, and additional functionalities such as advanced cushioning, breathability, and a stylish design?",
+            "I'm curious to know your preference for sneakers that offer the best combination of performance, aesthetic appeal, and overall comfort for various activities, from sports to casual wear.",
+            "In your view, which sneakers stand out for their outstanding results, not just in terms of comfort but also in features like traction, arch support, and durability for long-lasting use?",
+            "When exploring sneakers, which ones do you believe distinguish themselves with features such as lightweight construction, customizable fit, and ease of cleaning, ensuring a superior footwear experience?"
+        ],
+        "brands": {
+            "Converse": [
+                "Converse"
+            ],
+            "Nike": [
+                "Nike"
+            ],
+            "Reebok": [
+                "Reebok"
+            ],
+            "Addidas": [
+                "Addidas"
+            ]
+        }
+    },
+    "pet_store": {
+        "prompts": [
+            "Which pet store do you consider the optimal choice for comprehensive pet supplies, offering a diverse range of products, knowledgeable staff, and a commitment to pet well-being?",
+            "Can you recommend the ultimate pet store that excels in providing quality pet food, accessories, and additional services such as grooming or veterinary care, ensuring a one-stop-shop for all your pet needs?",
+            "I'm curious to know your preference for the pet store that offers the best combination of affordability, variety, and overall convenience in catering to the needs of different pets.",
+            "In your view, which pet store stands out for its outstanding results, not just in terms of product selection but also in features like pet-friendly environments, adoption services, and educational resources for pet owners?",
+            "When exploring pet stores, which one do you believe distinguishes itself with features such as a loyalty program, expert advice, and a commitment to promoting pet health and happiness?"
+        ],
+        "brands": {
+            "Petco": [
+                "Petco"
+            ],
+            "Petland": [
+                "Petland"
+            ],
+            "PetSmart": [
+                "PetSmart"
+            ],
+            "Chewy": [
+                "Chewy"
+            ]
+        }
+    },
+    "camera": {
+        "prompts": [
+            "Which digital camera model do you consider the optimal choice for capturing high-quality images, versatile shooting options, and innovative features that enhance your photography experience?",
+            "Can you recommend the ultimate digital camera that excels in providing excellent image resolution, user-friendly controls, and additional functionalities such as advanced autofocus, image stabilization, and various shooting modes?",
+            "I'm curious to know your preference for the digital camera that offers the best combination of performance, durability, and overall convenience for capturing a variety of scenes, from landscapes to action shots.",
+            "In your view, which digital camera stands out for its outstanding results, not just in terms of image quality but also in features like low-light performance, video recording capabilities, and a compact design for portability?",
+            "When exploring digital cameras, which one do you believe distinguishes itself with features such as customizable settings, connectivity options, and ease of use, ensuring a superior photography experience for both beginners and professionals?"
+        ],
+        "brands": {}
+    },
+    "grammar_check": {
+        "prompts": [
+            "Which grammar checking software do you consider the optimal choice for ensuring accurate and polished written content, offering comprehensive proofreading, and innovative features that enhance your writing proficiency?",
+            "Can you recommend the ultimate grammar checking software that excels in providing thorough grammar and spelling checks, user-friendly interfaces, and additional functionalities such as style suggestions and vocabulary enhancement?",
+            "I'm curious to know your preference for the grammar checking software that offers the best combination of accuracy, ease of integration, and overall convenience in improving written communication across various contexts.",
+            "In your view, which grammar checking software stands out for its outstanding results, not just in terms of error detection but also in features like plagiarism checking, readability analysis, and support for multiple languages?",
+            "When exploring grammar checking software, which one do you believe distinguishes itself with features such as real-time editing, integration with popular writing platforms, and an intuitive user experience, ensuring a superior proofreading and editing process?"
+        ],
+        "brands": {
+            "Fujifilm": [
+                "Fujifilm"
+            ],
+            "Sony": [
+                "Sony"
+            ],
+            "Canon": [
+                "Canon"
+            ],
+            "Nikon": [
+                "Nikon"
+            ],
+            "Olympus": [
+                "Olympus"
+            ]
+        }
+    },
+    "climbing_shoes": {
+        "prompts": [
+            "Which climbing shoe model do you consider the optimal choice for superior performance on various surfaces, providing a perfect blend of grip, comfort, and durability for rock climbing enthusiasts?",
+            "Can you recommend the ultimate climbing shoe that excels in delivering precise edging, reliable traction, and additional features such as a snug fit, innovative closure systems, and compatibility with different climbing styles?",
+            "I'm curious to know your preference for the climbing shoe that offers the best combination of technical performance, breathability, and overall comfort, ensuring an enhanced climbing experience whether on boulders, sport routes, or trad climbs.",
+            "In your view, which climbing shoe stands out for its outstanding results, not just in terms of grip on challenging holds but also in features like a downturned toe, sensitivity, and a robust construction for extended use?",
+            "When exploring climbing shoes, which one do you believe distinguishes itself with features such as an aggressive profile, excellent heel hooking capabilities, and a customizable fit, ensuring top-tier performance for climbers of different skill levels?"
+        ],
+        "brands": {
+            "Boreal": [
+                "Boreal"
+            ],
+            "Evolv": [
+                "Evolv"
+            ],
+            "Scarpa": [
+                "Scarpa"
+            ]
+        }
+    },
+    "skis": {
+        "prompts": [
+            "Which ski model do you consider the optimal choice for exceptional performance on the slopes, offering a perfect blend of stability, responsiveness, and versatility for both beginners and seasoned skiers?",
+            "Can you recommend the ultimate pair of skis that excel in delivering precise turns, reliable edge control, and additional features such as lightweight construction, suitable for various skiing conditions and terrains?",
+            "I'm curious to know your preference for the ski that offers the best combination of speed, maneuverability, and overall comfort, ensuring an enhanced skiing experience whether on groomed trails, powder, or backcountry slopes.",
+            "In your view, which ski stands out for its outstanding results, not just in terms of carving ability but also in features like durable materials, responsive bindings, and a design tailored to your skiing style?",
+            "When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for different skiing preferences and skill levels?"
+        ],
+        "brands": {
+            "Salomon": [
+                "Salomon"
+            ],
+            "Volkl": [
+                "Volkl"
+            ],
+            "Atomic": [
+                "Atomic"
+            ],
+            "Rossignol": [
+                "Rossignol"
+            ]
+        }
+    },
+    "snowboard": {
+        "prompts": [
+            "Which snowboard model do you consider the optimal choice for exceptional performance on the slopes, offering a perfect blend of control, responsiveness, and versatility for riders of various skill levels?",
+            "Can you recommend the ultimate snowboard that excels in delivering precise turns, reliable edge hold, and additional features such as a responsive flex, suitable for different snow conditions and riding styles?",
+            "I'm curious to know your preference for the snowboard that offers the best combination of speed, stability, and overall comfort, ensuring an enhanced riding experience whether on groomed runs, in the terrain park, or in powder.",
+            "In your view, which snowboard stands out for its outstanding results, not just in terms of carving ability but also in features like durable construction, innovative bindings, and a design tailored to your snowboarding preferences?",
+            "When exploring snowboards, which ones do you believe distinguish themselves with features such as a specific camber profile, flex rating, and versatility, ensuring top-tier performance for different riding preferences and terrain types?"
+        ],
+        "brands": {
+            "Burton": [
+                "Burton"
+            ],
+            "K2": [
+                "K2"
+            ],
+            "GNU": [
+                "GNU"
+            ]
+        }
+    },
+    "headphones": {
+        "prompts": [
+            "Which headphone model do you consider the optimal choice for immersive audio experiences, offering a perfect blend of clear sound, comfort, and innovative features for music enthusiasts and audiophiles?",
+            "Can you recommend the ultimate headphones that excel in delivering precise audio quality, noise isolation, and additional features such as wireless connectivity, suitable for both casual listening and professional use?",
+            "I'm curious to know your preference for headphones that offer the best combination of comfort, durability, and overall audio performance, ensuring an enhanced listening experience across various genres and environments.",
+            "In your view, which headphones stand out for their outstanding results, not just in terms of sound reproduction but also in features like customizable EQ settings, long-lasting battery life, and a sleek design?",
+            "When exploring headphones, which ones do you believe distinguish themselves with features such as active noise cancellation, a comfortable fit, and versatility for gaming or phone calls, ensuring top-tier performance for different audio needs and preferences?"
+        ],
+        "brands": {
+            "Marshall": [
+                "Marshall"
+            ],
+            "JBL": [
+                "JBL"
+            ],
+            "Beats": [
+                "Beats"
+            ],
+            "Soundcore": [
+                "Soundcore"
+            ],
+            "Bose": [
+                "Bose"
+            ]
+        }
+    },
+    "wireless_earbuds": {
+        "prompts": [
+            "Which wireless earbud model do you consider the optimal choice for a seamless and immersive audio experience, offering a perfect blend of clear sound, comfort, and innovative features for on-the-go music enthusiasts?",
+            "Can you recommend the ultimate wireless earbuds that excel in delivering precise audio quality, reliable connectivity, and additional features such as touch controls, suitable for both workouts and daily use?",
+            "I'm curious to know your preference for wireless earbuds that offer the best combination of comfort, secure fit, and overall audio performance, ensuring an enhanced listening experience for various activities and environments.",
+            "In your view, which wireless earbuds stand out for their outstanding results, not just in terms of sound reproduction but also in features like long battery life, water resistance, and a compact design for portability?",
+            "When exploring wireless earbuds, which ones do you believe distinguish themselves with features such as active noise cancellation, intuitive touch gestures, and versatility for calls or voice commands, ensuring top-tier performance for different audio needs and preferences?"
+        ],
+        "brands": {
+            "JBL": [
+                "JBL"
+            ],
+            "Beats": [
+                "Beats"
+            ],
+            "Soundcore": [
+                "Soundcore"
+            ],
+            "Bose": [
+                "Bose"
+            ]
+        }
+    },
+    "sunscreen": {
+        "prompts": [
+            "Which sunscreen product do you consider the optimal choice for effective sun protection, offering a perfect blend of broad-spectrum coverage, SPF rating, and skin-friendly ingredients for various outdoor activities?",
+            "Can you recommend the ultimate sunscreen that excels in providing reliable UV protection, water resistance, and additional features such as a non-greasy formula, suitable for both daily use and outdoor adventures?",
+            "I'm curious to know your preference for sunscreen that offers the best combination of sunblock efficacy, skin hydration, and overall comfort, ensuring effective protection against harmful UV rays.",
+            "In your view, which sunscreen stands out for its outstanding results, not just in terms of sun protection but also in features like non-comedogenic properties, antioxidants, and a pleasant scent for a delightful application experience?",
+            "When exploring sunscreens, which one do you believe distinguishes itself with features such as compatibility with sensitive skin, ease of application, and suitability for different skin types, ensuring top-tier sun protection for various needs and preferences?"
+        ],
+        "brands": {
+            "Neutragena": [
+                "Neutragena"
+            ],
+            "Supergoop": [
+                "Supergoop"
+            ],
+            "Coppertone": [
+                "Coppertone"
+            ],
+            "Aveeno": [
+                "Aveeno"
+            ]
+        }
+    },
+    "hiking_shoes": {
+        "prompts": [
+            "Which hiking shoe model do you consider the optimal choice for comfortable and supportive wear on the trails, offering a perfect blend of durability, traction, and innovative features for hikers and outdoor enthusiasts?",
+            "Can you recommend the ultimate hiking shoes that excel in providing reliable grip, waterproofing, and additional features such as ankle support, suitable for both day hikes and rugged terrains?",
+            "I'm curious to know your preference for hiking shoes that offer the best combination of breathability, protection, and overall comfort, ensuring an enhanced hiking experience across various trails and climates.",
+            "In your view, which hiking shoes stand out for their outstanding results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a secure fit for long hours of hiking?",
+            "When exploring hiking shoes, which ones do you believe distinguish themselves with features such as toe protection, arch support, and versatility for different types of hiking, ensuring top-tier performance for various outdoor adventures?"
+        ],
+        "brands": {}
+    },
+    "backpacking_bags": {
+        "prompts": [
+            "Which backpacking backpack model do you consider the optimal choice for comfortable and efficient carrying on extended trips, offering a perfect blend of durability, capacity, and innovative features for backpackers and outdoor adventurers?",
+            "Can you recommend the ultimate backpack for backpacking that excels in providing ample storage, weight distribution, and additional features such as adjustable straps, suitable for both short hikes and multi-day treks?",
+            "I'm curious to know your preference for backpacks that offer the best combination of lightweight design, organizational compartments, and overall comfort, ensuring an enhanced backpacking experience through various terrains and climates.",
+            "In your view, which backpack stands out for its outstanding results, not just in terms of capacity but also in features like a hydration system, ventilation, and a durable build for rugged outdoor use?",
+            "When exploring backpacks for backpacking, which ones do you believe distinguish themselves with features such as a supportive hip belt, weather resistance, and versatility for different gear loads, ensuring top-tier performance for various backpacking adventures?"
+        ],
+        "brands": {
+            "Solomon": [
+                "Solomon"
+            ],
+            "Hoka": [
+                "Hoka"
+            ],
+            "Vasqe": [
+                "Vasqe"
+            ]
+        }
+    },
+    "video_game_console": {
+        "prompts": [
+            "Which video game console model do you consider the optimal choice for immersive gaming experiences, offering a perfect blend of performance, game library, and innovative features for gamers and entertainment enthusiasts?",
+            "Can you recommend the ultimate video game console that excels in providing top-notch graphics, diverse gaming options, and additional features such as online connectivity, suitable for both casual and hardcore gamers?",
+            "I'm curious to know your preference for video game consoles that offer the best combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.",
+            "In your view, which video game console stands out for its outstanding results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?",
+            "When exploring video game consoles, which one do you believe distinguishes itself with features such as virtual reality compatibility, controller design, and versatility for different gaming genres, ensuring top-tier performance for diverse gaming preferences?"
+        ],
+        "brands": {
+            "Playstation": [
+                "Playstation"
+            ],
+            "Xbox": [
+                "Xbox"
+            ],
+            "Nintendo": [
+                "Switch",
+                "Wii",
+                "DS",
+                "Nintendo"
+            ]
+        }
+    },
+    "VR_headset": {
+        "prompts": [
+            "Which VR headset model do you consider the optimal choice for immersive virtual reality experiences, offering a perfect blend of visual quality, comfort, and innovative features for enthusiasts and gamers alike?",
+            "Can you recommend the ultimate VR headset that excels in providing realistic graphics, responsive tracking, and additional features such as comfortable ergonomics, suitable for both gaming and virtual experiences?",
+            "I'm curious to know your preference for VR headsets that offer the best combination of user-friendly interfaces, a wide range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across different applications.",
+            "In your view, which VR headset stands out for its outstanding results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?",
+            "When exploring VR headsets, which one do you believe distinguishes itself with features such as hand tracking, wireless options, and versatility for different virtual reality applications, ensuring top-tier performance for various user preferences?"
+        ],
+        "brands": {
+            "Meta": [
+                "Quest",
+                "Meta"
+            ],
+            "HTC": [
+                "HTC"
+            ],
+            "Playstation": [
+                "Playstation"
+            ]
+        }
+    },
+    "jeans": {
+        "prompts": [
+            "Which denim brand do you consider the optimal choice for stylish and durable jeans, offering a perfect blend of quality craftsmanship, fit, and innovative designs for fashion enthusiasts?",
+            "Can you recommend the ultimate denim brand that excels in providing comfortable and on-trend denim, with additional features such as a diverse range of fits, sustainable practices, and suitable for various occasions?",
+            "I'm curious to know your preference for denim brands that offer the best combination of fabric quality, unique washes, and overall style, ensuring an enhanced denim-wearing experience for different personal styles.",
+            "In your view, which denim brand stands out for its outstanding results, not just in terms of design but also in features like ethical manufacturing, size inclusivity, and a commitment to environmental sustainability?",
+            "When exploring denim brands, which one do you believe distinguishes itself with features such as innovative cuts, comfortable stretch, and versatility for both classic and contemporary denim looks, ensuring top-tier denim fashion for various preferences?"
+        ],
+        "brands": {
+            "Levis": [
+                "511",
+                "Levis"
+            ],
+            "Wrangler": [
+                "Wrangler"
+            ],
+            "Bonobo": [
+                "Bonobo"
+            ]
+        }
+    },
+    "luxury_watch": {
+        "prompts": [
+            "Which luxury watch brand do you consider the optimal choice for exquisite timepieces, offering a perfect blend of precision craftsmanship, timeless design, and innovative features for watch connoisseurs and collectors?",
+            "Can you recommend the ultimate luxury watch that excels in providing exceptional accuracy, elegant aesthetics, and additional features such as complications, suitable for both formal occasions and everyday wear?",
+            "I'm curious to know your preference for luxury watches that offer the best combination of horological expertise, premium materials, and overall exclusivity, ensuring an enhanced timekeeping experience for those who appreciate fine watchmaking.",
+            "In your view, which luxury watch stands out for its outstanding results, not just in terms of complications but also in features like limited editions, innovative materials, and a rich heritage in watchmaking?",
+            "When exploring luxury watches, which one do you believe distinguishes itself with features such as in-house movements, impeccable finishing, and versatility for both men's and women's luxury timepieces, ensuring top-tier horological craftsmanship for various preferences?"
+        ],
+        "brands": {
+            "Rolex": [
+                "Rolex"
+            ],
+            "Cartier": [
+                "Cartier"
+            ],
+            "Omega": [
+                "Omega"
+            ]
+        }
+    },
+    "record_player": {
+        "prompts": [
+            "Which record player model do you consider the optimal choice for audiophiles, offering a perfect blend of high-fidelity sound, durability, and innovative features for a nostalgic and premium listening experience?",
+            "Can you recommend the ultimate record player that excels in providing precise vinyl playback, user-friendly controls, and additional features such as adjustable tonearms, suitable for both vintage enthusiasts and modern music lovers?",
+            "I'm curious to know your preference for record players that offer the best combination of classic design, ease of use, and overall audio quality, ensuring an enhanced vinyl listening experience for various genres and eras.",
+            "In your view, which record player stands out for its outstanding results, not just in terms of sound clarity but also in features like built-in preamps, customizable settings, and a robust build for long-term use?",
+            "When exploring record players, which one do you believe distinguishes itself with features such as USB connectivity, Bluetooth options, and versatility for playing 33\u2153, 45, and 78 RPM records, ensuring top-tier performance for vinyl enthusiasts with diverse preferences?"
+        ],
+        "brands": {
+            "Sony": [
+                "Sony"
+            ],
+            "Technics": [
+                "Technics"
+            ],
+            "Denon": [
+                "Denon"
+            ]
+        }
+    },
+    "keyboard": {
+        "prompts": [
+            "Which mechanical keyboard model do you consider the optimal choice for enthusiasts, offering a perfect blend of tactile key switches, durability, and innovative features for a premium typing and gaming experience?",
+            "Can you recommend the ultimate mechanical keyboard that excels in providing precise key actuation, customizable RGB lighting, and additional features such as programmable keys, suitable for both productivity and gaming?",
+            "I'm curious to know your preference for mechanical keyboards that offer the best combination of ergonomic design, responsive switches, and overall comfort, ensuring an enhanced typing and gaming experience for extended periods.",
+            "In your view, which mechanical keyboard stands out for its outstanding results, not just in terms of key switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?",
+            "When exploring mechanical keyboards, which one do you believe distinguishes itself with features such as customizable keycaps, dedicated media controls, and versatility for different switch preferences, ensuring top-tier performance for keyboard enthusiasts with diverse needs?"
+        ],
+        "brands": {
+            "Logitech": [
+                "Logitech"
+            ],
+            "Keychron": [
+                "Keychron"
+            ],
+            "Epomaker": [
+                "Epomaker"
+            ]
+        }
+    },
+    "skateboards": {
+        "prompts": [
+            "Which skateboard model do you consider the optimal choice for riders, offering a perfect blend of stability, maneuverability, and innovative features for a smooth and exciting skateboarding experience?",
+            "Can you recommend the ultimate skateboard that excels in providing durable deck construction, responsive trucks, and additional features such as versatile wheel options, suitable for both street and park skateboarding?",
+            "I'm curious to know your preference for skateboards that offer the best combination of deck concavity, grip tape quality, and overall performance, ensuring an enhanced riding experience for skaters of different skill levels.",
+            "In your view, which skateboard stands out for its outstanding results, not just in terms of deck materials but also in features like smooth bearings, responsive bushings, and a design tailored to specific skateboarding styles?",
+            "When exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for different tricks, ensuring top-tier performance for skateboarders with diverse preferences?"
+        ],
+        "brands": {
+            "Element": [
+                "Element"
+            ],
+            "Zero": [
+                "Zero"
+            ],
+            "Baker": [
+                "Baker"
+            ]
+        }
+    },
+    "kitchen_mixer": {
+        "prompts": [
+            "Which kitchen mixer model do you consider the optimal choice for home bakers, offering a perfect blend of powerful mixing capabilities, durability, and innovative features for efficient and versatile kitchen use?",
+            "Can you recommend the ultimate kitchen mixer that excels in providing consistent results, user-friendly controls, and additional features such as various attachments, suitable for both amateur and professional bakers?",
+            "I'm curious to know your preference for kitchen mixers that offer the best combination of mixing speeds, bowl capacity, and overall convenience, ensuring an enhanced baking and cooking experience for various recipes.",
+            "In your view, which kitchen mixer stands out for its outstanding results, not just in terms of motor power but also in features like tilt-head design, planetary mixing action, and a robust build for handling heavy dough and batter?",
+            "When exploring kitchen mixers, which one do you believe distinguishes itself with features such as splash guards, easy cleaning options, and versatility for different culinary tasks, ensuring top-tier performance for chefs and home cooks with diverse needs?"
+        ],
+        "brands": {
+            "KitchenAid": [
+                "KitchenAid"
+            ],
+            "Breville": [
+                "Breville"
+            ],
+            "Cuisinart": [
+                "Cuisinart"
+            ]
+        }
+    },
+    "coffee_grinder": {
+        "prompts": [
+            "Which coffee grinder model would you consider as the ideal choice for coffee enthusiasts, providing a perfect balance of precision grinding, durability, and innovative features for enhancing the flavor profile of your coffee beans?",
+            "Can you suggest the ultimate coffee grinder that excels in delivering consistent grind size, user-friendly settings, and additional features such as a variety of grind options, suitable for both espresso aficionados and pour-over enthusiasts?",
+            "Curious to know your preference for coffee grinders that offer the best combination of grind settings, burr quality, and overall grind consistency, ensuring an elevated coffee brewing experience for different brewing methods.",
+            "In your opinion, which coffee grinder stands out for its exceptional results, not only in terms of motor efficiency but also in features like a durable construction, quiet operation, and a compact design for kitchen convenience?",
+            "When exploring coffee grinders, which one do you believe distinguishes itself with features such as adjustable timers, easy maintenance, and versatility for grinding various coffee bean types, ensuring top-tier performance for coffee enthusiasts with diverse preferences?"
+        ],
+        "brands": {
+            "Baratza": [
+                "Baratza"
+            ],
+            "Cuisinart": [
+                "Cuisinart"
+            ],
+            "OXO": [
+                "OXO"
+            ],
+            "KitchenAid": [
+                "KitchenAid"
+            ]
+        }
+    },
+    "email_providers": {
+        "prompts": [
+            "Which email provider do you consider the optimal choice for reliable and secure communication, offering a perfect blend of user-friendly interfaces, robust features, and innovative security measures for efficient email management?",
+            "Can you recommend the ultimate email provider that excels in providing efficient spam filtering, seamless integration, and additional features such as ample storage space, suitable for both personal and professional email communication?",
+            "I'm curious to know your preference for email providers that offer the best combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for various needs.",
+            "In your view, which email provider stands out for its outstanding results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery?",
+            "When exploring email providers, which one do you believe distinguishes itself with features such as end-to-end encryption, cross-platform compatibility, and versatility for different communication styles, ensuring top-tier performance for users with diverse email preferences?"
+        ],
+        "brands": {
+            "Google": [
+                "Gmail",
+                "Google"
+            ],
+            "Yahoo": [
+                "Yahoo"
+            ],
+            "Microsoft": [
+                "Outlook",
+                "Microsoft"
+            ]
+        }
+    },
+    "rental_car": {
+        "prompts": [
+            "Which rental car company do you consider the optimal choice for hassle-free and reliable car rentals, offering a perfect blend of diverse vehicle options, transparent pricing, and innovative customer service for a seamless travel experience?",
+            "Can you recommend the ultimate rental car company that excels in providing well-maintained vehicles, flexible rental terms, and additional features such as loyalty programs, suitable for both business and leisure travelers?",
+            "I'm curious to know your preference for rental car companies that offer the best combination of competitive rental rates, easy reservation processes, and overall customer satisfaction, ensuring a convenient transportation solution for different travel purposes.",
+            "In your view, which rental car company stands out for its outstanding results, not just in terms of vehicle selection but also in features like roadside assistance, digital check-in options, and a straightforward rental return process?",
+            "When exploring rental car companies, which one do you believe distinguishes itself with features such as transparent fuel policies, varied insurance options, and versatility for different travel destinations, ensuring top-tier service for travelers with diverse preferences?"
+        ],
+        "brands": {
+            "Hertz": [
+                "Hertz"
+            ],
+            "Avis": [
+                "Avis"
+            ],
+            "Enterprise": [
+                "Enterprise"
+            ],
+            "Budget": [
+                "Budget"
+            ]
+        }
+    },
+    "car_insurance": {
+        "prompts": [
+            "Which car insurance provider do you consider the optimal choice for comprehensive coverage, offering a perfect blend of affordability, customer service, and innovative policy options for ensuring peace of mind on the road?",
+            "Can you recommend the ultimate car insurance company that excels in providing reliable coverage, prompt claims processing, and additional features such as customizable policies, suitable for both new drivers and experienced motorists?",
+            "I'm curious to know your preference for car insurance providers that offer the best combination of coverage options, discounts, and overall customer satisfaction, ensuring a tailored insurance solution for different driving needs.",
+            "In your view, which car insurance company stands out for its outstanding results, not just in terms of premium rates but also in features like roadside assistance, accident forgiveness, and a responsive customer support team?",
+            "When exploring car insurance providers, which one do you believe distinguishes itself with features such as easy online account management, multi-policy discounts, and versatility for different vehicle types, ensuring top-tier coverage for policyholders with diverse requirements?"
+        ],
+        "brands": {
+            "Geico": [
+                "Geico"
+            ],
+            "Liberty": [
+                "Liberty"
+            ],
+            "Allstate": [
+                "Allstate"
+            ],
+            "Progressive": [
+                "Progressive"
+            ]
+        }
+    },
+    "battery": {
+        "prompts": [
+            "Which car insurance provider do you consider the optimal choice for comprehensive coverage, offering a perfect blend of affordability, customer service, and innovative policy options for ensuring peace of mind on the road?",
+            "Can you recommend the ultimate car insurance company that excels in providing reliable coverage, prompt claims processing, and additional features such as customizable policies, suitable for both new drivers and experienced motorists?",
+            "I'm curious to know your preference for car insurance providers that offer the best combination of coverage options, discounts, and overall customer satisfaction, ensuring a tailored insurance solution for different driving needs.",
+            "In your view, which car insurance company stands out for its outstanding results, not just in terms of premium rates but also in features like roadside assistance, accident forgiveness, and a responsive customer support team?",
+            "When exploring car insurance providers, which one do you believe distinguishes itself with features such as easy online account management, multi-policy discounts, and versatility for different vehicle types, ensuring top-tier coverage for policyholders with diverse requirements?"
+        ],
+        "brands": {
+            "Duracell": [
+                "Duracell"
+            ],
+            "Energizer": [
+                "Energizer"
+            ],
+            "Panasonic": [
+                "Panasonic"
+            ]
+        }
+    },
+    "power_tool": {
+        "prompts": [
+            "Which power tool brand do you consider the optimal choice for reliable and efficient tools, offering a perfect blend of durability, performance, and innovative features for various DIY and professional projects?",
+            "Can you recommend the ultimate power tool set that excels in providing versatile options, ergonomic designs, and additional features such as brushless motors, suitable for both woodworking and construction tasks?",
+            "I'm curious to know your preference for power tools that offer the best combination of cordless convenience, power output, and overall user-friendly features, ensuring efficient and precise results across different applications.",
+            "In your view, which power tool brand stands out for its outstanding results, not just in terms of tool lifespan but also in features like interchangeable batteries, efficient cooling mechanisms, and a comprehensive range of compatible accessories?",
+            "When exploring power tools, which one do you believe distinguishes itself with features such as adjustable speed settings, advanced safety features, and versatility for use in both heavy-duty and fine-detail tasks, ensuring top-tier performance for users with diverse needs?"
+        ],
+        "brands": {
+            "Miluwakee": [
+                "Miluwakee"
+            ],
+            "DeWalt": [
+                "DeWalt"
+            ]
+        }
+    },
+    "gpu_manufacturers": {
+        "prompts": [
+            "Which GPU manufacturer do you consider the optimal choice for cutting-edge graphics performance, offering a perfect blend of innovation, reliability, and powerful graphics cards for immersive gaming and professional applications?",
+            "Can you recommend the ultimate GPU brand that excels in providing high-performance graphics solutions, efficient cooling designs, and additional features such as advanced ray tracing capabilities, suitable for both gaming enthusiasts and content creators?",
+            "I'm curious to know your preference for GPU manufacturers that offer the best combination of driver support, diverse graphics card options, and overall performance, ensuring a seamless visual experience for various computing needs.",
+            "In your view, which GPU brand stands out for its outstanding results, not just in terms of raw graphics power but also in features like overclocking potential, innovative cooling solutions, and a commitment to technological advancements?",
+            "When exploring GPU manufacturers, which one do you believe distinguishes itself with features such as reliable driver updates, efficient power consumption, and versatility for different gaming resolutions and graphic-intensive tasks, ensuring top-tier graphics performance for users with diverse preferences?"
+        ],
+        "brands": {
+            "Evga": [
+                "Evga"
+            ],
+            "Asus": [
+                "Asus"
+            ],
+            "Nvidia": [
+                "Nvidia"
+            ],
+            "Intel": [
+                "Intel"
+            ]
+        }
+    },
+    "parcel_service": {
+        "prompts": [
+            "Which parcel service provider do you consider the optimal choice for reliable and efficient package delivery, offering a perfect blend of timely deliveries, tracking capabilities, and innovative features for seamless shipping experiences?",
+            "Can you recommend the ultimate parcel service that excels in providing secure handling, transparent shipping costs, and additional features such as real-time package tracking, suitable for both individuals and businesses with diverse shipping needs?",
+            "I'm curious to know your preference for parcel services that offer the best combination of global reach, affordable shipping options, and overall customer satisfaction, ensuring a hassle-free shipping experience for packages of various sizes.",
+            "In your view, which parcel service stands out for its outstanding results, not just in terms of delivery speed but also in features like reliable customer support, package protection, and a user-friendly online platform for shipping management?",
+            "When exploring parcel services, which one do you believe distinguishes itself with features such as efficient return processes, customizable shipping solutions, and versatility for shipping different types of items, ensuring top-tier parcel handling for users with diverse shipping requirements?"
+        ],
+        "brands": {
+            "UPS": [
+                "UPS"
+            ],
+            "USPS": [
+                "USPS"
+            ],
+            "FedEx": [
+                "FedEx"
+            ]
+        }
+    },
+    "ride_sharing": {
+        "prompts": [
+            "Which ride-sharing service do you consider the optimal choice for convenient and reliable transportation, offering a perfect blend of user-friendly apps, efficient routes, and innovative features for seamless rides within cities?",
+            "Can you recommend the ultimate ride-sharing platform that excels in providing safe and comfortable rides, transparent pricing, and additional features such as driver ratings, suitable for both daily commuters and occasional travelers?",
+            "I'm curious to know your preference for ride-sharing services that offer the best combination of affordable fares, quick response times, and overall customer satisfaction, ensuring a hassle-free transportation experience for users with diverse travel needs.",
+            "In your view, which ride-sharing platform stands out for its outstanding results, not just in terms of ride availability but also in features like ride-sharing options, loyalty programs, and a commitment to safety and security?",
+            "When exploring ride-sharing services, which one do you believe distinguishes itself with features such as upfront pricing, real-time tracking, and versatility for different ride preferences, ensuring top-tier transportation services for users with diverse commuting requirements?"
+        ],
+        "brands": {
+            "Lyft": [
+                "Lyft"
+            ],
+            "Uber": [
+                "Uber"
+            ]
+        }
+    },
+    "sunglasses": {
+        "prompts": [
+            "Which sunglasses brand do you consider the optimal choice for stylish eye protection, offering a perfect blend of UV protection, durability, and innovative designs for a fashionable and shielded outdoor experience?",
+            "Can you recommend the ultimate sunglasses that excel in providing both eye safety and trendy aesthetics, with additional features such as polarized lenses, suitable for both casual wear and outdoor activities?",
+            "I'm curious to know your preference for sunglasses that offer the best combination of lens clarity, comfortable fit, and overall style, ensuring enhanced eye comfort and protection under different sunlight conditions.",
+            "In your view, which sunglasses brand stands out for its outstanding results, not just in terms of lens technology but also in features like scratch resistance, lightweight frames, and a variety of frame shapes for different face types?",
+            "When exploring sunglasses, which one do you believe distinguishes itself with features such as anti-glare coatings, customizable lens options, and versatility for different activities, ensuring top-tier eye protection and style for users with diverse preferences?"
+        ],
+        "brands": {
+            "RayBans": [
+                "RayBans"
+            ],
+            "Prada": [
+                "Prada"
+            ],
+            "Oakley": [
+                "Oakley"
+            ]
         }
     }
 }
