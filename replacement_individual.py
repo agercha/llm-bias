@@ -127,11 +127,11 @@ def run(local):
     gen_config.repetition_penalty = 1
     gen_config.temperature = 0.5
 
-    f_all = open("improvements2.txt", "w")
-
-    f_all.write(f"brand\told prompt\tnew prompt\told loss\tnew loss\tloss improvment\told score\tnew score\tscore improvement\n")
-
     for category in dataset:
+        f_all = open(f"improvments/{category}.txt", "w")
+
+        f_all.write(f"brand\told prompt\tnew prompt\told loss\tnew loss\tloss improvment\told score\tnew score\tscore improvement\n")
+
         for prompt in dataset[category]["prompts"]:
             if category not in []:
                 # ends = [f" It is ", f" The best {category} is ", " A: ", " ", "I've been using ", "I've heard good things about "]
@@ -227,6 +227,8 @@ def run(local):
             
                 # assert(False)
             
+        f_all.close()
+        
     # f_all.close()
                 
 
