@@ -282,7 +282,8 @@
         "prompts": [
             "Can you recommend the most outstanding meal subscription service, and could you provide details on what sets it apart, such as diverse menu options, dietary considerations, or any unique features?",
             "What meal subscription service is considered the top choice, and could you elaborate on factors like nutritional value, variety, or any eco-friendly practices that contribute to its reputation?",
-            "Can you suggest the best meal subscription service, and perhaps add more information on elements like culinary expertise, recipe complexity, or any unique perks offered by the service?    Could you recommend the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?",
+            "Can you suggest the best meal subscription service, and perhaps add more information on elements like culinary expertise, recipe complexity, or any unique perks offered by the service?",
+            "Could you recommend the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?",
             "What meal subscription service is considered the best choice, and could you elaborate on factors like nutritional value, diverse cuisine offerings, or any sustainability initiatives that contribute to its reputation?        ",
             "Can you suggest the best meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?"
         ],
@@ -329,7 +330,8 @@
         "prompts": [
             "Can you recommend the most outstanding meal subscription service, and could you provide details on what sets it apart, such as diverse menu options, dietary considerations, or any unique features?",
             "What meal subscription service is considered the top choice, and could you elaborate on factors like nutritional value, variety, or any eco-friendly practices that contribute to its reputation?",
-            "Can you suggest the best meal subscription service, and perhaps add more information on elements like culinary expertise, recipe complexity, or any unique perks offered by the service?    Could you recommend the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?",
+            "Can you suggest the best meal subscription service, and perhaps add more information on elements like culinary expertise, recipe complexity, or any unique perks offered by the service?",
+            "Could you recommend the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?",
             "What meal subscription service is considered the best choice, and could you elaborate on factors like nutritional value, diverse cuisine offerings, or any sustainability initiatives that contribute to its reputation?        ",
             "Can you suggest the best meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?"
         ],
@@ -1179,16 +1181,6 @@
             "In your view, which digital camera stands out for its outstanding results, not just in terms of image quality but also in features like low-light performance, video recording capabilities, and a compact design for portability?",
             "When exploring digital cameras, which one do you believe distinguishes itself with features such as customizable settings, connectivity options, and ease of use, ensuring a superior photography experience for both beginners and professionals?"
         ],
-        "brands": {}
-    },
-    "grammar_check": {
-        "prompts": [
-            "Which grammar checking software do you consider the optimal choice for ensuring accurate and polished written content, offering comprehensive proofreading, and innovative features that enhance your writing proficiency?",
-            "Can you recommend the ultimate grammar checking software that excels in providing thorough grammar and spelling checks, user-friendly interfaces, and additional functionalities such as style suggestions and vocabulary enhancement?",
-            "I'm curious to know your preference for the grammar checking software that offers the best combination of accuracy, ease of integration, and overall convenience in improving written communication across various contexts.",
-            "In your view, which grammar checking software stands out for its outstanding results, not just in terms of error detection but also in features like plagiarism checking, readability analysis, and support for multiple languages?",
-            "When exploring grammar checking software, which one do you believe distinguishes itself with features such as real-time editing, integration with popular writing platforms, and an intuitive user experience, ensuring a superior proofreading and editing process?"
-        ],
         "brands": {
             "Fujifilm": [
                 "Fujifilm"
@@ -1204,6 +1196,20 @@
             ],
             "Olympus": [
                 "Olympus"
+            ]
+        }
+    },
+    "grammar_check": {
+        "prompts": [
+            "Which grammar checking software do you consider the optimal choice for ensuring accurate and polished written content, offering comprehensive proofreading, and innovative features that enhance your writing proficiency?",
+            "Can you recommend the ultimate grammar checking software that excels in providing thorough grammar and spelling checks, user-friendly interfaces, and additional functionalities such as style suggestions and vocabulary enhancement?",
+            "I'm curious to know your preference for the grammar checking software that offers the best combination of accuracy, ease of integration, and overall convenience in improving written communication across various contexts.",
+            "In your view, which grammar checking software stands out for its outstanding results, not just in terms of error detection but also in features like plagiarism checking, readability analysis, and support for multiple languages?",
+            "When exploring grammar checking software, which one do you believe distinguishes itself with features such as real-time editing, integration with popular writing platforms, and an intuitive user experience, ensuring a superior proofreading and editing process?"
+        ],
+        "brands": {
+            "Grammarly": [
+                "Grammarly"
             ]
         }
     },
@@ -1350,7 +1356,17 @@
             "In your view, which hiking shoes stand out for their outstanding results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a secure fit for long hours of hiking?",
             "When exploring hiking shoes, which ones do you believe distinguish themselves with features such as toe protection, arch support, and versatility for different types of hiking, ensuring top-tier performance for various outdoor adventures?"
         ],
-        "brands": {}
+        "brands": {
+            "Solomon": [
+                "Solomon"
+            ],
+            "Hoka": [
+                "Hoka"
+            ],
+            "Vasqe": [
+                "Vasqe"
+            ]
+        }
     },
     "backpacking_bags": {
         "prompts": [
@@ -1361,14 +1377,11 @@
             "When exploring backpacks for backpacking, which ones do you believe distinguish themselves with features such as a supportive hip belt, weather resistance, and versatility for different gear loads, ensuring top-tier performance for various backpacking adventures?"
         ],
         "brands": {
-            "Solomon": [
-                "Solomon"
+            "Cotopaxi": [
+                "Cotopaxi"
             ],
-            "Hoka": [
-                "Hoka"
-            ],
-            "Vasqe": [
-                "Vasqe"
+            "Teton": [
+                "Teton"
             ]
         }
     },

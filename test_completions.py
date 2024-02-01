@@ -4,6 +4,7 @@ from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM)
 from fastchat.model import get_conversation_template
 # from run_utils import *
 import json
+import random
 
 def get_replacements(prompt, thesarus):
     prompt_words = prompt.split()
@@ -42,6 +43,31 @@ def single_successful(gen_str, target_strs):
             present = True
     return present
 
+def my_loss(model, tokenizer, input_str, end_strs, device):
+
+    input_ids = [torch.tensor(tokenizer(f"{input_str}{end_str}").input_ids).to(device) for end_str in end_strs] 
+    l = torch.tensor(tokenizer(f"{input_str}").input_ids).to(device).shape[0] - 1
+    nested_ids = torch.nested.nested_tensor(input_ids)
+
+
+    pad_tok = 0
+    max_len = max([test_ids1.shape[0] for test_ids1 in input_ids])
+    while any([pad_tok in ids for ids in input_ids]):
+        pad_tok += 1
+    input_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(input_ids), max_len)).to(device)
+
+    attention_mask = torch.ones(input_ids.shape)
+    attention_mask[input_ids == 0] = 0
+
+    labels = input_ids.clone() 
+    labels[:, :l] = -100
+
+    res = model.forward(input_ids=input_ids,
+                        attention_mask=attention_mask,
+                        labels=labels,
+                        return_dict=True)
+
+    return res.loss.item()
 
 def run(local):
     if local:
@@ -69,45 +95,68 @@ def run(local):
     model.config.pad_token_id = model.config.eos_token_id
 
     dataset = json.load(open('dataset.json'))
-    thesarus = json.load(open('thesarus.json'))
+    thesarus = json.load(open('thesaurus.json'))
 
-    test_size = 25
+    completions_json_file = json.load(open('completions.json'))
+
+    test_size = 10
     gen_config = model.generation_config
-    gen_config.max_new_tokens = 32
+    gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
     gen_config.temperature = 0.5
 
-    for category in dataset:
-        if category not in ["browser"]:
+    while True:
+        category = random.choice(list(dataset.keys()))
+        brand = random.choice(list(dataset[category]["brands"].keys()))
+        base_prompt_ind = random.randint(0, len(dataset[category]['prompts']) - 1)
+        base_prompt = dataset[category]['prompts'][base_prompt_ind]
+        base_prompt_ids = get_ids(tokenizer, base_prompt, device)
+        perturbed_prompts = get_replacements(base_prompt, thesarus)
+        if f"{category}__{brand}__{base_prompt_ind}" not in completions_json_file and len(perturbed_prompts) > 1:
 
-            prompt = dataset[category]["top_prompt"]
-            brands = dataset[category]["brands"]
-            prompts = get_replacements(prompt, thesarus)
 
-            f = open(f"completion_results/{category}.txt", )
+            base_prompt_ind = perturbed_prompts.index(base_prompt.strip())
 
-            f.write("\t")
-            for brand in brands:
-                f.write(f"{brand}\t")
+            losses = torch.zeros(len(perturbed_prompts))
 
-            f.write("\n")
-                
-            for prompt_ind, prompt in enumerate(prompts):
-                prompt_ids = get_ids(tokenizer, prompt, device)
+            target_strs = dataset[category]["brands"][brand]
+
+            for prompt_ind, curr_prompt in enumerate(perturbed_prompts):
+                losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
+
+            perturbed_prompt_ind = torch.argmin(losses).item()
+            perturbed_prompt = perturbed_prompts[perturbed_prompt_ind]
+            perturbed_prompt_ids = get_ids(tokenizer, perturbed_prompt, device)
+
+            base_completions = []
+            perturbed_completions = []
+
+            if base_prompt_ind != perturbed_prompt_ind:
+
                 for _ in range(test_size):
-                    completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
-                    completion = completion.replace("\n", "")
-                    f.write(f"{completion.replace}\t")
-                    for brand_ind, brand in enumerate(brands):
-                        target_strs = brands[brand]
-                        if single_successful(completion, target_strs): 
-                            f.write("1\t")
-                        else:
-                            f.write("0\t")
-                    f.write("\n")
+                    base_completion = tokenizer.decode((generate(model, tokenizer, base_prompt_ids, gen_config=gen_config))).strip()
+                    base_completion = base_completion.replace("\n", "")
+                    base_completions.append(base_completion)
 
-            f.close()
-            
+                    perturbed_completion = tokenizer.decode((generate(model, tokenizer, perturbed_prompt_ids, gen_config=gen_config))).strip()
+                    perturbed_completion = perturbed_completion.replace("\n", "")
+                    perturbed_completions.append(perturbed_completion)
+
+                res = {
+                    "category": category,
+                    "brand": brand,
+                    "base_prompt": base_prompt,
+                    "base_prompt_completions": base_completions,
+                    "base_prompt_loss": losses[base_prompt_ind].item(),
+                    "perturbed_prompt": perturbed_prompt,
+                    "perturbed_prompt_completions": perturbed_completions,
+                    "perturbed_prompt_loss": torch.min(losses).item()
+                }
+
+                completions_json_file[f"{category}__{brand}__{base_prompt_ind}"] = res
+
+                (open('completions.json', 'w')).write(json.dumps(completions_json_file, indent=4))
                 
-
+                assert(False)   
+                
 run(False)

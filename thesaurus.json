@@ -1,168 +1,211 @@
 {
-    "assorted": [
-        "assorted",
-        "different",
-        "many",
+    "diverse": [
         "diverse",
+        "assorted",
+        "many",
+        "various",
         "dissimilar",
-        "various"
+        "different"
     ],
     "different": [
-        "assorted",
-        "different",
-        "many",
         "diverse",
-        "dissimilar",
-        "various"
-    ],
-    "many": [
         "assorted",
-        "different",
         "many",
-        "diverse",
+        "various",
         "dissimilar",
-        "various"
-    ],
-    "diverse": [
-        "assorted",
-        "different",
-        "many",
-        "diverse",
-        "dissimilar",
-        "various"
-    ],
-    "dissimilar": [
-        "assorted",
-        "different",
-        "many",
-        "diverse",
-        "dissimilar",
-        "various"
+        "different"
     ],
     "various": [
-        "assorted",
-        "different",
-        "many",
         "diverse",
+        "assorted",
+        "many",
+        "various",
         "dissimilar",
-        "various"
+        "different"
     ],
-    "appropriate": [
-        "appropriate",
-        "suitable"
+    "many": [
+        "diverse",
+        "assorted",
+        "many",
+        "various",
+        "dissimilar",
+        "different"
+    ],
+    "assorted": [
+        "diverse",
+        "assorted",
+        "many",
+        "various",
+        "dissimilar",
+        "different"
+    ],
+    "dissimilar": [
+        "diverse",
+        "assorted",
+        "many",
+        "various",
+        "dissimilar",
+        "different"
     ],
     "suitable": [
         "appropriate",
         "suitable"
     ],
-    "optimal": [
-        "optimal",
-        "greatest",
-        "superior",
-        "ideal",
-        "premier",
-        "best"
-    ],
-    "greatest": [
-        "optimal",
-        "greatest",
-        "superior",
-        "ideal",
-        "premier",
-        "best"
+    "appropriate": [
+        "appropriate",
+        "suitable"
     ],
     "superior": [
-        "optimal",
-        "greatest",
+        "ultimate",
         "superior",
+        "best",
+        "greatest",
         "ideal",
         "premier",
-        "best"
-    ],
-    "ideal": [
         "optimal",
-        "greatest",
-        "superior",
-        "ideal",
-        "premier",
-        "best"
+        "perfect"
     ],
     "premier": [
-        "optimal",
-        "greatest",
+        "ultimate",
         "superior",
+        "best",
+        "greatest",
         "ideal",
         "premier",
-        "best"
+        "optimal",
+        "perfect"
+    ],
+    "perfect": [
+        "ultimate",
+        "superior",
+        "best",
+        "greatest",
+        "ideal",
+        "premier",
+        "optimal",
+        "perfect"
+    ],
+    "ideal": [
+        "ultimate",
+        "superior",
+        "best",
+        "greatest",
+        "ideal",
+        "premier",
+        "optimal",
+        "perfect"
+    ],
+    "greatest": [
+        "ultimate",
+        "superior",
+        "best",
+        "greatest",
+        "ideal",
+        "premier",
+        "optimal",
+        "perfect"
     ],
     "best": [
-        "optimal",
-        "greatest",
+        "ultimate",
         "superior",
+        "best",
+        "greatest",
         "ideal",
         "premier",
-        "best"
+        "optimal",
+        "perfect"
     ],
-    "important": [
-        "important",
-        "essential",
-        "necessary",
-        "crucial"
+    "optimal": [
+        "ultimate",
+        "superior",
+        "best",
+        "greatest",
+        "ideal",
+        "premier",
+        "optimal",
+        "perfect"
     ],
-    "essential": [
-        "important",
-        "essential",
-        "necessary",
-        "crucial"
-    ],
-    "necessary": [
-        "important",
-        "essential",
-        "necessary",
-        "crucial"
+    "ultimate": [
+        "ultimate",
+        "superior",
+        "best",
+        "greatest",
+        "ideal",
+        "premier",
+        "optimal",
+        "perfect"
     ],
     "crucial": [
-        "important",
-        "essential",
+        "crucial",
         "necessary",
-        "crucial"
+        "important",
+        "essential"
+    ],
+    "important": [
+        "crucial",
+        "necessary",
+        "important",
+        "essential"
+    ],
+    "essential": [
+        "crucial",
+        "necessary",
+        "important",
+        "essential"
+    ],
+    "necessary": [
+        "crucial",
+        "necessary",
+        "important",
+        "essential"
+    ],
+    "new": [
+        "recent",
+        "latest",
+        "new"
     ],
     "latest": [
-        "latest",
         "recent",
+        "latest",
         "new"
     ],
     "recent": [
-        "latest",
         "recent",
+        "latest",
         "new"
     ],
-    "new": [
-        "latest",
-        "recent",
-        "new"
+    "good": [
+        "excellent",
+        "great",
+        "outstanding",
+        "exceptional",
+        "good"
+    ],
+    "outstanding": [
+        "excellent",
+        "great",
+        "outstanding",
+        "exceptional",
+        "good"
     ],
     "excellent": [
         "excellent",
         "great",
-        "exceptional",
-        "good"
-    ],
-    "great": [
-        "excellent",
-        "great",
+        "outstanding",
         "exceptional",
         "good"
     ],
     "exceptional": [
         "excellent",
         "great",
+        "outstanding",
         "exceptional",
         "good"
     ],
-    "good": [
+    "great": [
         "excellent",
         "great",
+        "outstanding",
         "exceptional",
         "good"
     ],
@@ -174,29 +217,29 @@
         "technical",
         "technological"
     ],
-    "sophisticated": [
-        "sophisticated",
-        "innovative",
+    "advanced": [
+        "advanced",
         "modern",
-        "advanced"
-    ],
-    "innovative": [
         "sophisticated",
-        "innovative",
-        "modern",
-        "advanced"
+        "innovative"
     ],
     "modern": [
-        "sophisticated",
-        "innovative",
+        "advanced",
         "modern",
-        "advanced"
+        "sophisticated",
+        "innovative"
     ],
-    "advanced": [
-        "sophisticated",
-        "innovative",
+    "sophisticated": [
+        "advanced",
         "modern",
-        "advanced"
+        "sophisticated",
+        "innovative"
+    ],
+    "innovative": [
+        "advanced",
+        "modern",
+        "sophisticated",
+        "innovative"
     ],
     "dependable": [
         "dependable",
@@ -230,12 +273,12 @@
         "classic"
     ],
     "suggest": [
-        "suggest",
-        "recommend"
+        "recommend",
+        "suggest"
     ],
     "recommend": [
-        "suggest",
-        "recommend"
+        "recommend",
+        "suggest"
     ],
     "effectiveness": [
         "effectiveness",
@@ -245,13 +288,13 @@
         "effectiveness",
         "efficiency"
     ],
-    "effective": [
-        "effective",
-        "efficient"
-    ],
     "efficient": [
-        "effective",
-        "efficient"
+        "efficient",
+        "effective"
+    ],
+    "effective": [
+        "efficient",
+        "effective"
     ],
     "select": [
         "select",
@@ -261,20 +304,193 @@
         "select",
         "choose"
     ],
-    "can": [
-        "can",
-        "could"
-    ],
     "could": [
-        "can",
-        "could"
+        "could",
+        "can"
     ],
-    "provide": [
-        "provide",
-        "offer"
+    "can": [
+        "could",
+        "can"
     ],
     "offer": [
-        "provide",
-        "offer"
+        "offer",
+        "provide"
+    ],
+    "provide": [
+        "offer",
+        "provide"
+    ],
+    "specialised": [
+        "specialized",
+        "specialised"
+    ],
+    "specialized": [
+        "specialized",
+        "specialised"
+    ],
+    "fundamental": [
+        "fundamental",
+        "key"
+    ],
+    "key": [
+        "fundamental",
+        "key"
+    ],
+    "standardized": [
+        "standard",
+        "standardized"
+    ],
+    "standard": [
+        "standard",
+        "standardized"
+    ],
+    "safe": [
+        "secure",
+        "safe"
+    ],
+    "secure": [
+        "secure",
+        "safe"
+    ],
+    "simple": [
+        "simple",
+        "easy"
+    ],
+    "easy": [
+        "simple",
+        "easy"
+    ],
+    "unequaled": [
+        "unequaled",
+        "unequalled",
+        "unique"
+    ],
+    "unequalled": [
+        "unequaled",
+        "unequalled",
+        "unique"
+    ],
+    "unique": [
+        "unequaled",
+        "unequalled",
+        "unique"
+    ],
+    "fast": [
+        "quick",
+        "speedy",
+        "fast"
+    ],
+    "speedy": [
+        "quick",
+        "speedy",
+        "fast"
+    ],
+    "quick": [
+        "quick",
+        "speedy",
+        "fast"
+    ],
+    "extra": [
+        "additional",
+        "extra"
+    ],
+    "additional": [
+        "additional",
+        "extra"
+    ],
+    "lengthy": [
+        "long",
+        "lengthy"
+    ],
+    "long": [
+        "long",
+        "lengthy"
+    ],
+    "exact": [
+        "exact",
+        "accurate",
+        "precise"
+    ],
+    "accurate": [
+        "exact",
+        "accurate",
+        "precise"
+    ],
+    "precise": [
+        "exact",
+        "accurate",
+        "precise"
+    ],
+    "clear": [
+        "clear",
+        "transparent"
+    ],
+    "transparent": [
+        "clear",
+        "transparent"
+    ],
+    "everyday": [
+        "everyday",
+        "daily"
+    ],
+    "daily": [
+        "everyday",
+        "daily"
+    ],
+    "presently": [
+        "presently",
+        "currently"
+    ],
+    "currently": [
+        "presently",
+        "currently"
+    ],
+    "special": [
+        "special",
+        "noteworthy"
+    ],
+    "noteworthy": [
+        "special",
+        "noteworthy"
+    ],
+    "outside": [
+        "outside",
+        "outdoor"
+    ],
+    "outdoor": [
+        "outside",
+        "outdoor"
+    ],
+    "fiscal": [
+        "fiscal",
+        "financial"
+    ],
+    "financial": [
+        "fiscal",
+        "financial"
+    ],
+    "fashionable": [
+        "fashionable",
+        "stylish"
+    ],
+    "stylish": [
+        "fashionable",
+        "stylish"
+    ],
+    "moral": [
+        "moral",
+        "ethical"
+    ],
+    "ethical": [
+        "moral",
+        "ethical"
+    ],
+    "worthful": [
+        "worthful",
+        "valuable"
+    ],
+    "valuable": [
+        "worthful",
+        "valuable"
     ]
 }
