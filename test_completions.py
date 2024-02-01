@@ -99,7 +99,7 @@ def run(local):
 
     completions_json_file = json.load(open('completions.json'))
 
-    test_size = 10
+    test_size = 1500
     gen_config = model.generation_config
     gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
@@ -108,11 +108,11 @@ def run(local):
     while True:
         category = random.choice(list(dataset.keys()))
         brand = random.choice(list(dataset[category]["brands"].keys()))
-        base_prompt_ind = random.randint(0, len(dataset[category]['prompts']) - 1)
-        base_prompt = dataset[category]['prompts'][base_prompt_ind]
+        base_prompt_ind_in_all = random.randint(0, len(dataset[category]['prompts']) - 1)
+        base_prompt = dataset[category]['prompts'][base_prompt_ind_in_all]
         base_prompt_ids = get_ids(tokenizer, base_prompt, device)
         perturbed_prompts = get_replacements(base_prompt, thesarus)
-        if f"{category}__{brand}__{base_prompt_ind}" not in completions_json_file and len(perturbed_prompts) > 1:
+        if f"{category}__{brand}__{base_prompt_ind_in_all}" not in completions_json_file and len(perturbed_prompts) > 1:
 
 
             base_prompt_ind = perturbed_prompts.index(base_prompt.strip())
@@ -153,7 +153,7 @@ def run(local):
                     "perturbed_prompt_loss": torch.min(losses).item()
                 }
 
-                completions_json_file[f"{category}__{brand}__{base_prompt_ind}"] = res
+                completions_json_file[f"{category}__{brand}__{base_prompt_ind_in_all}"] = res
 
                 (open('completions.json', 'w')).write(json.dumps(completions_json_file, indent=4))
                 
