@@ -97,7 +97,7 @@ def run(local):
     dataset = json.load(open('dataset.json'))
     thesarus = json.load(open('thesaurus.json'))
 
-    completions_json_file = json.load(open('completions.json'))
+    completions_json_file = json.load(open('completions_temp_0_7.json'))
 
     test_size = 1500
     gen_config = model.generation_config
