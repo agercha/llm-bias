@@ -138,9 +138,13 @@ def run(local):
                     base_completion = base_completion.replace("\n", "")
                     base_completions.append(base_completion)
 
+                    print(base_completion)
+
                     perturbed_completion = tokenizer.decode((generate(model, tokenizer, perturbed_prompt_ids, gen_config=gen_config))).strip()
                     perturbed_completion = perturbed_completion.replace("\n", "")
                     perturbed_completions.append(perturbed_completion)
+
+                    print(perturbed_completion)
 
                 res = {
                     "category": category,
