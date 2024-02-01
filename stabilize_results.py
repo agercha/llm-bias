@@ -1,6 +1,8 @@
 import json
 import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib.ticker as mtick
+from matplotlib.ticker import PercentFormatter
 
 def single_successful(gen_str, target_strs):
     gen_str_unpunctuated = ''.join(filter(lambda x: x.isalpha() or x.isdigit() or x.isspace(), gen_str))
@@ -16,7 +18,7 @@ dataset = json.load(open('dataset.json'))
 
 completions = json.load(open('completions.json'))
 
-for title in reversed(completions.keys()):
+for title in list(reversed(completions.keys())):
     if title != "category_brand_promptindex":
 
         category = completions[title]["category"]
@@ -37,9 +39,9 @@ for title in reversed(completions.keys()):
 
         # all_brands = [brand]
 
-        plt.figure(figsize=(14,6))
+        fig = plt.figure(figsize=(14,6))
         max_y = 0
-        colors = ["tab:olive", "orangered", "gold", "cadetblue", "yellowgreen", "plum", "slategrey", "maroon", "dodgerblue"]
+        colors = ["orangered", "gold", "cadetblue", "orchid", "yellowgreen", "plum", "slategrey", "maroon", "dodgerblue"]
 
         for brand_ind, curr_brand in enumerate(all_brands):
             curr_target_strs = dataset[category]["brands"][curr_brand]
@@ -63,7 +65,8 @@ for title in reversed(completions.keys()):
             plt.plot(x, base_arr_dict[curr_brand], label=f"base {curr_brand}", linestyle='dashed', color=colors[brand_ind])
             plt.plot(x, perturbed_arr_dict[curr_brand], label=f"perturbed {curr_brand}", color=colors[brand_ind])
 
-
+        # ax.yaxis.set_major_formatter(mtick.PercentFormatter())
+        plt.gca().yaxis.set_major_formatter(PercentFormatter(1))
         filtered_category = category.replace("_", " ")
         plt.suptitle(f"Success for {filtered_category} prompt perturbed in the direction of {brand}", fontsize=12)
         plt.title(completions[title]["base_prompt"]+ "\n\n" + completions[title]["perturbed_prompt"], fontsize=6, wrap=True)
@@ -72,4 +75,5 @@ for title in reversed(completions.keys()):
         plt.ylim(-0.01, max(0.1, max_y))
         
         plt.legend()
-        plt.show()  
+        # plt.show()  
+        plt.savefig(f'graphs/{title}.png')
