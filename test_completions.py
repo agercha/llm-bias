@@ -103,7 +103,7 @@ def run(local):
     gen_config = model.generation_config
     gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
-    gen_config.temperature = 0.5
+    gen_config.temperature = 0.7
 
     while True:
         category = random.choice(list(dataset.keys()))
