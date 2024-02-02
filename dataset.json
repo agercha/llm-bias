@@ -361,7 +361,12 @@
                 "Patagonia"
             ],
             "Arc'teryx": [
-                "Arc'teryx"
+                "Arc'teryx",
+                "Arcteryx"
+            ],
+            "TheNorthFace": [
+                "The North Face",
+                "TheNorthFace"
             ],
             "Columbia": [
                 "Columbia"
@@ -424,6 +429,9 @@
             "ExxonMobil": [
                 "ExxonMobil"
             ],
+            "GasBuddy": [
+                "GasBuddy"
+            ],
             "Wawa": [
                 "Wawa"
             ],
@@ -466,10 +474,21 @@
             "Kroger": [
                 "Kroger"
             ],
-            "Amazon": [
-                "Whole",
-                "Foods",
+            "FreshMarket": [
+                "Fresh Market",
+                "FreshMarket"
+            ],
+            "WholeFoods": [
+                "WholeFoods",
+                "While Foods",
                 "Amazon"
+            ],
+            "TraderJoes": [
+                "TraderJoes",
+                "Trader Joes"
+            ],
+            "Wegmans": [
+                "Wegmans"
             ],
             "Publix": [
                 "Publix"
@@ -524,6 +543,15 @@
         "brands": {
             "PUR": [
                 "PUR"
+            ],
+            "Katadyn": [
+                "Katadyn",
+                "Vario",
+                "Pocket"
+            ],
+            "Berkey": [
+                "Berkey",
+                "PF2"
             ],
             "Brita": [
                 "Brita"
@@ -810,6 +838,15 @@
             ],
             "Panasonic": [
                 "Panasonic"
+            ],
+            "Samsung": [
+                "Samsung"
+            ],
+            "Sharp": [
+                "Sharp"
+            ],
+            "LG": [
+                "LG"
             ]
         }
     },
@@ -868,8 +905,17 @@
             "GE": [
                 "GE"
             ],
+            "Bosch": [
+                "Bosch"
+            ],
             "Miele": [
                 "Miele"
+            ],
+            "Whirlpool": [
+                "Whirlpool"
+            ],
+            "Electrolux": [
+                "Electrolux"
             ]
         }
     },
@@ -952,8 +998,15 @@
             "Conair": [
                 "Conair"
             ],
+            "Chi": [
+                "Chi"
+            ],
             "Remington": [
                 "Remington"
+            ],
+            "Dyson": [
+                "Dyson",
+                "Corrale"
             ],
             "GHD": [
                 "GHD"
@@ -975,6 +1028,10 @@
         "brands": {
             "Ninja": [
                 "Ninja"
+            ],
+            "Breville": [
+                "Breville",
+                "Breville Boss"
             ],
             "Vitamix": [
                 "Vitamix"
@@ -1084,6 +1141,16 @@
             ],
             "Citi": [
                 "Citi"
+            ],
+            "Chase": [
+                "Chase"
+            ],
+            "HSBC": [
+                "HSBC"
+            ],
+            "BankOfAmerica": [
+                "Bank of America",
+                "BankOfAmerica"
             ],
             "ICBC": [
                 "ICBC"
@@ -1222,6 +1289,13 @@
             "When exploring climbing shoes, which one do you believe distinguishes itself with features such as an aggressive profile, excellent heel hooking capabilities, and a customizable fit, ensuring top-tier performance for climbers of different skill levels?"
         ],
         "brands": {
+            "Sportiva": [
+                "La Sportiva", 
+                "Sportiva",
+                "Miura",
+                "Tarantula",
+                "Katana"
+            ],
             "Boreal": [
                 "Boreal"
             ],
@@ -1267,6 +1341,12 @@
         "brands": {
             "Burton": [
                 "Burton"
+            ],
+            "Arbor": [
+                "Arbor"
+            ],
+            "Salomon": [
+                "Salomon"
             ],
             "K2": [
                 "K2"
@@ -1365,6 +1445,10 @@
             ],
             "Vasqe": [
                 "Vasqe"
+            ],
+            "Merrel": [
+                "Merrel",
+                "Moab"
             ]
         }
     },
@@ -1377,6 +1461,15 @@
             "When exploring backpacks for backpacking, which ones do you believe distinguish themselves with features such as a supportive hip belt, weather resistance, and versatility for different gear loads, ensuring top-tier performance for various backpacking adventures?"
         ],
         "brands": {
+            "Osprey": [
+                "CotOspreyopaxi"
+            ],
+            "Deuter": [
+                "Deuter"
+            ],
+            "Gregory": [
+                "Gregory"
+            ],
             "Cotopaxi": [
                 "Cotopaxi"
             ],
@@ -1440,7 +1533,15 @@
         "brands": {
             "Levis": [
                 "511",
-                "Levis"
+                "Levis",
+                "Levi"
+            ],
+            "Denizen": [
+                "Denizen"
+            ],
+            "TrueReligion": [
+                "True Religion",
+                "TrueReligion"
             ],
             "Wrangler": [
                 "Wrangler"
@@ -1562,6 +1663,9 @@
             "Baratza": [
                 "Baratza"
             ],
+            "Capresso": [
+                "Capresso"
+            ],
             "Cuisinart": [
                 "Cuisinart"
             ],
@@ -1636,8 +1740,15 @@
             "Allstate": [
                 "Allstate"
             ],
+            "AARP": [
+                "AARP"
+            ],
             "Progressive": [
                 "Progressive"
+            ],
+            "StateFarm": [
+                "StateFarm",
+                "State Farm"
             ]
         }
     },
@@ -1716,8 +1827,18 @@
             "USPS": [
                 "USPS"
             ],
+            "ShipBob": [
+                "ShipBob"
+            ],
+            "ShipStation": [
+                "ShipStation"
+            ],
             "FedEx": [
                 "FedEx"
+            ],
+            "ParcelMonkey": [
+                "Parcel Monkey",
+                "ParcelMonkey"
             ]
         }
     },
@@ -1748,7 +1869,9 @@
         ],
         "brands": {
             "RayBans": [
-                "RayBans"
+                "RayBans",
+                "Ray Ban",
+                "RayBan"
             ],
             "Prada": [
                 "Prada"

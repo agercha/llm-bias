@@ -36,10 +36,10 @@ def generate(model, tokenizer, input_ids, gen_config=None):
 def single_successful(gen_str, target_strs):
     gen_str_unpunctuated = ''.join(filter(lambda x: x.isalpha() or x.isdigit() or x.isspace(), gen_str))
     gen_str_unpunctuated = gen_str_unpunctuated.upper()
-    gen_arr = gen_str_unpunctuated.split()
+    # gen_arr = gen_str_unpunctuated.split()
     present = False
     for prefix in target_strs:
-        if prefix.strip().upper() in gen_arr:
+        if prefix.strip().upper() in gen_str_unpunctuated:
             present = True
     return present
 
@@ -97,21 +97,30 @@ def run(local):
     dataset = json.load(open('dataset.json'))
     thesarus = json.load(open('thesaurus.json'))
 
-    completions_json_file = json.load(open('completions_temp_0_7.json'))
+    completions_json_file = json.load(open('completions_temp_0_5.json'))
 
-    test_size = 1500
+    test_size = 1000
     gen_config = model.generation_config
     gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
-    gen_config.temperature = 0.7
+    gen_config.temperature = 0.5
 
     while True:
         category = random.choice(list(dataset.keys()))
         brand = random.choice(list(dataset[category]["brands"].keys()))
+
         base_prompt_ind_in_all = random.randint(0, len(dataset[category]['prompts']) - 1)
         base_prompt = dataset[category]['prompts'][base_prompt_ind_in_all]
         base_prompt_ids = get_ids(tokenizer, base_prompt, device)
+
+        rephrased_prompt_ind = random.randint(0, len(dataset[category]['prompts']) - 1)
+        while rephrased_prompt_ind == base_prompt_ind_in_all: # make sure it is uniuqe
+            rephrased_prompt_ind = random.randint(0, len(dataset[category]['prompts']) - 1)
+        rephrased_prompt = dataset[category]['prompts'][rephrased_prompt_ind]
+        rephrased_prompt_ids = get_ids(tokenizer, rephrased_prompt, device)
+
         perturbed_prompts = get_replacements(base_prompt, thesarus)
+
         if f"{category}__{brand}__{base_prompt_ind_in_all}" not in completions_json_file and len(perturbed_prompts) > 1:
 
 
@@ -129,6 +138,7 @@ def run(local):
             perturbed_prompt_ids = get_ids(tokenizer, perturbed_prompt, device)
 
             base_completions = []
+            rephrased_completions = []
             perturbed_completions = []
 
             if base_prompt_ind != perturbed_prompt_ind:
@@ -137,6 +147,12 @@ def run(local):
                     base_completion = tokenizer.decode((generate(model, tokenizer, base_prompt_ids, gen_config=gen_config))).strip()
                     base_completion = base_completion.replace("\n", "")
                     base_completions.append(base_completion)
+
+                    print(base_completion)
+
+                    rephrased_completion = tokenizer.decode((generate(model, tokenizer, rephrased_prompt_ids, gen_config=gen_config))).strip()
+                    rephrased_completion = rephrased_completion.replace("\n", "")
+                    rephrased_completions.append(rephrased_completion)
 
                     print(base_completion)
 
@@ -152,6 +168,9 @@ def run(local):
                     "base_prompt": base_prompt,
                     "base_prompt_completions": base_completions,
                     "base_prompt_loss": losses[base_prompt_ind].item(),
+                    "rephrased_prompt": rephrased_prompt,
+                    "rephrased_prompt_completions": rephrased_completions,
+                    "rephrased_prompt_loss": losses[rephrased_prompt_ind].item(),
                     "perturbed_prompt": perturbed_prompt,
                     "perturbed_prompt_completions": perturbed_completions,
                     "perturbed_prompt_loss": torch.min(losses).item()
@@ -159,8 +178,8 @@ def run(local):
 
                 completions_json_file[f"{category}__{brand}__{base_prompt_ind_in_all}"] = res
 
-                (open('completions_temp_0_7.json', 'w')).write(json.dumps(completions_json_file, indent=4))
+                (open('completions_temp_0_5.json', 'w')).write(json.dumps(completions_json_file, indent=4))
                 
-                assert(False)   
+                # assert(False)   
                 
 run(False)
