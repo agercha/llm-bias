@@ -159,7 +159,7 @@ def run(local):
 
                 completions_json_file[f"{category}__{brand}__{base_prompt_ind_in_all}"] = res
 
-                (open('completions.json', 'w')).write(json.dumps(completions_json_file, indent=4))
+                (open('completions_temp_0_7.json', 'w')).write(json.dumps(completions_json_file, indent=4))
                 
                 assert(False)   
                 
