@@ -121,7 +121,7 @@ def run(local):
 
         perturbed_prompts = get_replacements(base_prompt, thesarus)
 
-        if f"{category}__{brand}__{base_prompt_ind_in_all}" not in completions_json_file and len(perturbed_prompts) > 1:
+        if f"{category}__{brand}" not in completions_json_file and len(perturbed_prompts) > 1:
 
 
             base_prompt_ind = perturbed_prompts.index(base_prompt.strip())
@@ -176,7 +176,7 @@ def run(local):
                     "perturbed_prompt_loss": torch.min(losses).item()
                 }
 
-                completions_json_file[f"{category}__{brand}__{base_prompt_ind_in_all}"] = res
+                completions_json_file[f"{category}__{brand}"] = res
 
                 (open('completions_temp_0_5.json', 'w')).write(json.dumps(completions_json_file, indent=4))
                 

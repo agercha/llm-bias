@@ -1,5 +1,5 @@
 {
-    "category_brand_promptindex": {
+    "category_brand": {
         "category": "category_name",
         "brand": "brand_name",
         "base_prompt": "base_prompt_str",
