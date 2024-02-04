@@ -2,7 +2,6 @@ import torch
 import numpy as np
 from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM)
 from fastchat.model import get_conversation_template
-# from run_utils import *
 import json
 
 def get_replacements(prompt, thesarus):
@@ -13,30 +12,6 @@ def get_replacements(prompt, thesarus):
             syns = thesarus[word]
             all_prompts = [curr_prompt[:ind] + [syn] + curr_prompt[ind+1:] for syn in syns for curr_prompt in all_prompts]
     return [' '.join(curr_prompt) for curr_prompt in all_prompts]
-
-# https://discuss.huggingface.co/t/announcement-generation-get-probabilities-for-generated-output/30075/14
-def loss(model, tokenizer, prompts, target, device):
-    target_len = tokenizer(target, padding=True, return_tensors="pt").input_ids.to(device).shape[-1] - 1
-
-    input_texts = [prompt + target for prompt in prompts]
-    input_ids = tokenizer(input_texts, padding=True, return_tensors="pt").input_ids.to(device)
-    outputs = model(input_ids)
-    probs = torch.log_softmax(outputs.logits, dim=-1).detach()
-
-    # collect the probability of the generated token -- probability at index 0 corresponds to the token at index 1
-    probs = probs[:, :-1, :]
-    input_ids = input_ids[:, 1:]
-    gen_probs = torch.gather(probs, 2, input_ids[:, :, None]).squeeze(-1)
-
-    batch = []
-    for input_sentence, input_probs in zip(input_ids, gen_probs):
-        text_sequence = []
-        for token, p in zip(input_sentence, input_probs):
-            if token not in tokenizer.all_special_ids:
-                text_sequence.append(p.item())
-        batch.append(sum(text_sequence[-target_len:]))
-
-    return torch.FloatTensor(batch)
 
 def my_loss(model, tokenizer, input_str, end_strs, device):
 
@@ -128,7 +103,7 @@ def run(local):
     gen_config.temperature = 0.5
 
     for category in dataset:
-        f_all = open(f"improvments/{category}.txt", "w")
+        f_all = open(f"improvements/{category}.txt", "w")
 
         f_all.write(f"brand\told prompt\tnew prompt\told loss\tnew loss\tloss improvment\told score\tnew score\tscore improvement\n")
 

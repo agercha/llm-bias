@@ -2,7 +2,6 @@ import torch
 import numpy as np
 from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM)
 from fastchat.model import get_conversation_template
-# from run_utils import *
 import json
 import random
 
