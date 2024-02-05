@@ -84,11 +84,16 @@ def run(local):
         # get additional base completions
         add_completions(curr_val["base_prompt"], curr_val["base_prompt_completions"], model, tokenizer, device, gen_config)
         (open('stabilized_completions.json', 'w')).write(json.dumps(completions, indent=4))
+        print(f"Completed base completions for {title}")
 
         # get additional rephrased completions
         add_completions(curr_val["rephrased_prompt"], curr_val["rephrased_prompt_completions"], model, tokenizer, device, gen_config)
         (open('stabilized_completions.json', 'w')).write(json.dumps(completions, indent=4))
+        print(f"Completed rephrased completions for {title}")
 
         # get additional perturbed completions
         add_completions(curr_val["perturbed_prompt"], curr_val["perturbed_prompt_completions"], model, tokenizer, device, gen_config)
         (open('stabilized_completions.json', 'w')).write(json.dumps(completions, indent=4))
+        print(f"Completed perturbed completions for {title}")
+
+run(False)
