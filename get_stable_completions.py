@@ -22,6 +22,8 @@ def generate(model, tokenizer, input_ids, gen_config=None):
 
 def add_completions(prompt, completions, model, tokenizer, device, config):
     ids = get_ids(tokenizer, prompt, device)
+    # print(len(completions))
+    # return
     while len(completions) < 2000:
         completion = tokenizer.decode((generate(model, tokenizer, ids, gen_config=config))).strip()
         completion = completion.replace("\n", "")
@@ -78,18 +80,20 @@ def run(local):
     gen_config.temperature = 0.5
 
 
-    for title in completions:
+    # for title in completions:
+    for title in ["grammar_check__Grammarly"]:
         curr_val = completions[title]
+        print(title)
 
         # get additional base completions
-        add_completions(curr_val["base_prompt"], curr_val["base_prompt_completions"], model, tokenizer, device, gen_config)
-        (open('stabilized_completions.json', 'w')).write(json.dumps(completions, indent=4))
-        print(f"Completed base completions for {title}")
+        # add_completions(curr_val["base_prompt"], curr_val["base_prompt_completions"], model, tokenizer, device, gen_config)
+        # (open('stabilized_completions.json', 'w')).write(json.dumps(completions, indent=4))
+        # print(f"Completed base completions for {title}")
 
         # get additional rephrased completions
-        add_completions(curr_val["rephrased_prompt"], curr_val["rephrased_prompt_completions"], model, tokenizer, device, gen_config)
-        (open('stabilized_completions.json', 'w')).write(json.dumps(completions, indent=4))
-        print(f"Completed rephrased completions for {title}")
+        # add_completions(curr_val["rephrased_prompt"], curr_val["rephrased_prompt_completions"], model, tokenizer, device, gen_config)
+        # (open('stabilized_completions.json', 'w')).write(json.dumps(completions, indent=4))
+        # print(f"Completed rephrased completions for {title}")
 
         # get additional perturbed completions
         add_completions(curr_val["perturbed_prompt"], curr_val["perturbed_prompt_completions"], model, tokenizer, device, gen_config)
