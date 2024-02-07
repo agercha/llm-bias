@@ -96,13 +96,13 @@ def run(local):
     dataset = json.load(open('dataset.json'))
     thesarus = json.load(open('thesaurus.json'))
 
-    completions_json_file = json.load(open('completions_temp_0_5.json'))
+    completions_json_file = json.load(open('completions_temp_1_0.json'))
 
     test_size = 1000
     gen_config = model.generation_config
     gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
-    gen_config.temperature = 0.5
+    gen_config.temperature = 1
 
     while True:
         category = random.choice(list(dataset.keys()))
@@ -121,7 +121,6 @@ def run(local):
         perturbed_prompts = get_replacements(base_prompt, thesarus)
 
         if f"{category}__{brand}" not in completions_json_file and len(perturbed_prompts) > 1:
-
 
             base_prompt_ind = perturbed_prompts.index(base_prompt.strip())
 
@@ -177,7 +176,7 @@ def run(local):
 
                 completions_json_file[f"{category}__{brand}"] = res
 
-                (open('completions_temp_0_5.json', 'w')).write(json.dumps(completions_json_file, indent=4))
+                (open('completions_temp_1_0.json', 'w')).write(json.dumps(completions_json_file, indent=4))
                 
                 # assert(False)   
                 
