@@ -1,0 +1,29 @@
+{
+    "category": {
+        "prompt_num_1": {
+            "base_prompt": "base_prompt_str",
+            "base_prompt_completions": [],
+            "perturbed_vals": {
+                "brand_1": {
+                    "perturbed_prompt": "perturbed_prompt_str",
+                    "perturbed_prompt_completions": [],
+                    "perturbed_prompt_loss": 0,
+                    "base_prompt_loss": 0
+                }
+            }
+        },
+        "prompt_num_2": {
+            "base_prompt": "base_prompt_str",
+            "base_prompt_completions": [],
+            "base_prompt_loss": 0,
+            "perturbed_vals": {
+                "brand_1": {
+                    "perturbed_prompt": "perturbed_prompt_str",
+                    "perturbed_prompt_completions": [],
+                    "perturbed_prompt_loss": 0,
+                    "base_prompt_loss": 0
+                }
+            }
+        }
+    }
+}
