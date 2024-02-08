@@ -111,7 +111,7 @@ def run(local):
 
         curr_category_val = completions_json_file[category] 
 
-        for prompt_ind, prompt in enumerate(curr_category_val["prompts"]):
+        for prompt_ind, prompt in enumerate(dataset["prompts"]):
             prompt_ids = get_ids(tokenizer, prompt, device)
 
             if prompt_ind not in curr_category_val:
@@ -136,4 +136,4 @@ def run(local):
             print(f"Completed and wrote {category}_{prompt_ind}.")
 
 
-run(True)
+run(False)
