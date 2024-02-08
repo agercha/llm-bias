@@ -111,7 +111,7 @@ def run(local):
 
         curr_category_val = completions_json_file[category] 
 
-        for prompt_ind, prompt in enumerate(dataset["prompts"]):
+        for prompt_ind, prompt in enumerate(dataset[category]["prompts"]):
             prompt_ids = get_ids(tokenizer, prompt, device)
 
             if prompt_ind not in curr_category_val:
