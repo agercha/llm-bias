@@ -98,11 +98,11 @@ def run(local):
 
     completions_json_file = json.load(open('completions_temp_1_0.json'))
 
-    test_size = 1000
+    test_size = 2000
     gen_config = model.generation_config
     gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
-    gen_config.temperature = 1
+    gen_config.temperature = 1.25
 
     while True:
         category = random.choice(list(dataset.keys()))

@@ -1766,11 +1766,11 @@
     },
     "battery": {
         "prompts": [
-            "Which car insurance provider do you consider the optimal choice for comprehensive coverage, offering a perfect blend of affordability, customer service, and innovative policy options for ensuring peace of mind on the road?",
-            "Can you recommend the ultimate car insurance company that excels in providing reliable coverage, prompt claims processing, and additional features such as customizable policies, suitable for both new drivers and experienced motorists?",
-            "I'm curious to know your preference for car insurance providers that offer the best combination of coverage options, discounts, and overall customer satisfaction, ensuring a tailored insurance solution for different driving needs.",
-            "In your view, which car insurance company stands out for its outstanding results, not just in terms of premium rates but also in features like roadside assistance, accident forgiveness, and a responsive customer support team?",
-            "When exploring car insurance providers, which one do you believe distinguishes itself with features such as easy online account management, multi-policy discounts, and versatility for different vehicle types, ensuring top-tier coverage for policyholders with diverse requirements?"
+            "Which battery stands out as the most superior option in terms of performance, longevity, and overall reliability?",
+            "When it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?",
+            "In the realm of batteries, which one emerges as the top choice, offering optimal performance, an extended lifespan, and unwavering reliability?",
+            "What characteristics should one look for in the quest to find the ultimate battery, considering aspects like efficiency, durability, and consistent performance?",
+            "When seeking the ideal battery, which one surpasses the rest in terms of efficiency, durability, and its ability to consistently deliver outstanding performance?"
         ],
         "brands": {
             "Duracell": [
