@@ -1,0 +1,12 @@
+{
+    "category_brand_promptindex": {
+        "category": "category_name",
+        "brand": "brand_name",
+        "base_prompt": "base_prompt_str",
+        "base_prompt_completions": [],
+        "base_prompt_loss": 0,
+        "perturbed_prompt": "base_prompt_str",
+        "perturbed_prompt_completions": [],
+        "perturbed_prompt_loss": 0
+    }
+}
