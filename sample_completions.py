@@ -156,11 +156,11 @@ def run(local):
     
     for category, brand, base_prompt_ind_in_all in sample_arr:
         old_completions_json_file[category]
-        base_completions = old_completions_json_file[category][str(base_prompt_ind_in_all)]
+        base_completions = old_completions_json_file[category][str(base_prompt_ind_in_all)]["base_prompt_completions"]
         base_prompt = dataset[category]["prompts"][base_prompt_ind_in_all]
         rephrased_prompt_ind = int(random.choice(list(old_completions_json_file[category].keys())))
         rephrased_prompt = dataset[category]["prompts"][rephrased_prompt_ind]
-        perturbed_completions = old_completions_json_file[category][str(rephrased_prompt_ind)]
+        perturbed_completions = old_completions_json_file[category][str(rephrased_prompt_ind)]["base_prompt_completions"]
 
 
         category = random.choice(list(dataset.keys()))
