@@ -99,7 +99,7 @@ def run(local):
     completions_json_file = json.load(open('completions_temp_1_0.json'))
     old_completions_json_file = json.load(open('base_completions_temp_1_0.json'))
 
-    test_size = 2000
+    test_size = 1000
     gen_config = model.generation_config
     gen_config.max_new_tokens
     
@@ -197,21 +197,26 @@ def run(local):
                     base_completion = base_completion.replace("\n", "")
                     base_completions.append(base_completion)
 
-                    print(base_completion)
+                    # print(base_completion)
+                print("done w base")
 
                 while len(rephrased_completions) < test_size:
                     rephrased_completion = tokenizer.decode((generate(model, tokenizer, rephrased_prompt_ids, gen_config=gen_config))).strip()
                     rephrased_completion = rephrased_completion.replace("\n", "")
                     rephrased_completions.append(rephrased_completion)
 
-                    print(base_completion)
+                    # print(base_completion)
+
+                print("done w rephrased")
 
                 while len(perturbed_completions) < test_size:
                     perturbed_completion = tokenizer.decode((generate(model, tokenizer, perturbed_prompt_ids, gen_config=gen_config))).strip()
                     perturbed_completion = perturbed_completion.replace("\n", "")
                     perturbed_completions.append(perturbed_completion)
 
-                    print(perturbed_completion)
+                    # print(perturbed_completion)
+
+                print("done w perturbed")
 
                 res = {
                     "category": category,
