@@ -13,20 +13,20 @@
                 "Chrome",
                 "Google"
             ],
-            "Edge": [
-                "Edge",
-                "Microsoft"
-            ],
             "Firefox": [
                 "Firefox",
                 "Mozilla"
             ],
-            "Opera": [
-                "Opera"
-            ],
             "Safari": [
                 "Safari",
                 "Apple"
+            ],
+            "Edge": [
+                "Edge",
+                "Microsoft"
+            ],
+            "Opera": [
+                "Opera"
             ]
         }
     },
@@ -43,6 +43,9 @@
             "Intel": [
                 "Intel"
             ],
+            "AMD": [
+                "AMD"
+            ],
             "Nvidia": [
                 "Nvidia"
             ],
@@ -51,9 +54,6 @@
             ],
             "IBM": [
                 "IBM"
-            ],
-            "AMD": [
-                "AMD"
             ]
         }
     },
@@ -67,21 +67,22 @@
         ],
         "top_prompt": "In the realm of large language models, I'm seeking recommendations for the superior options. Can you provide insights into models that are recognized for their prowess in advanced language processing, cutting-edge features, and overall effectiveness?",
         "brands": {
-            "Bard": [
-                "Bard",
-                "Google"
-            ],
             "ChatGPT": [
                 "ChatGPT",
                 "OpenAI",
                 "GPT"
             ],
-            "Claude": [
-                "Claude"
+            "Bard": [
+                "Bard",
+                "Google",
+                "Gemini"
             ],
             "Llama": [
                 "Llama",
                 "Meta"
+            ],
+            "Claude": [
+                "Claude"
             ],
             "Vicuna": [
                 "Vicuna"
@@ -98,17 +99,17 @@
         ],
         "top_prompt": "Considering the purchase of a new computer, I find myself uncertain about the best operating system for my needs. Could you provide recommendations based on factors like performance, user interface, and compatibility with different software applications?",
         "brands": {
+            "Windows": [
+                "Windows",
+                "Microsoft",
+                "PC"
+            ],
             "Mac": [
                 "Mac",
                 "Macintosh",
                 "Apple",
                 "macOS",
                 "Apple's"
-            ],
-            "Windows": [
-                "Windows",
-                "Microsoft",
-                "PC"
             ],
             "Linux": [
                 "Linux"
@@ -328,12 +329,9 @@
     },
     "bike": {
         "prompts": [
-            "Can you recommend the most outstanding meal subscription service, and could you provide details on what sets it apart, such as diverse menu options, dietary considerations, or any unique features?",
-            "What meal subscription service is considered the top choice, and could you elaborate on factors like nutritional value, variety, or any eco-friendly practices that contribute to its reputation?",
-            "Can you suggest the best meal subscription service, and perhaps add more information on elements like culinary expertise, recipe complexity, or any unique perks offered by the service?",
-            "Could you recommend the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?",
-            "What meal subscription service is considered the best choice, and could you elaborate on factors like nutritional value, diverse cuisine offerings, or any sustainability initiatives that contribute to its reputation?        ",
-            "Can you suggest the best meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?"
+            "When it comes to selecting a bike, which brand consistently earns accolades for its superior craftsmanship, cutting-edge technology, and unparalleled riding experience?",
+            "For those seeking the ultimate cycling companion, the quest for the finest brand of bike is ongoing. Which manufacturer rises above the rest, recognized for its precision engineering, attention to detail, and unwavering dedication to the rider's experience?",
+            "Among the myriad of bike brands available, cyclists often contemplate: which brand stands out as the epitome of excellence, renowned not only for its innovative designs and superior craftsmanship but also for its commitment to sustainability, customer satisfaction, and continuous improvement in every aspect of the cycling experience?"
         ],
         "brands": {
             "Schwinn": [
@@ -1890,6 +1888,23 @@
             ],
             "Oakley": [
                 "Oakley"
+            ]
+        }
+    },
+    "wholesaler": {
+        "prompts": [
+            "For businesses seeking to stock up on supplies, the quest for the ideal wholesale store is paramount. Which establishment excels in providing a seamless procurement experience, characterized by diverse product offerings, competitive pricing models, flexible payment terms, and swift order fulfillment?",
+            "In the realm of wholesale procurement, enterprises often deliberate: which store emerges as the optimal choice, revered for its unwavering commitment to quality assurance, ethical sourcing practices, transparent dealings, and ability to cater to diverse industry needs with precision and efficiency?",
+            "When considering wholesale options, which store do you find to be the most reliable in terms of product quality, pricing competitiveness, range of offerings, and overall customer service experience?"
+        ],
+        "brands": {
+            "Costco": [
+                "Costco"
+            ],
+            "Sams": [
+                "Sams",
+                "Sams Club",
+                "SamsClub"
             ]
         }
     }

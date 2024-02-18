@@ -105,12 +105,15 @@ def run(local):
     gen_config.temperature = 1.25
 
     while True:
+
         category = random.choice(list(dataset.keys()))
+
         brand = random.choice(list(dataset[category]["brands"].keys()))
 
         base_prompt_ind_in_all = random.randint(0, len(dataset[category]['prompts']) - 1)
         base_prompt = dataset[category]['prompts'][base_prompt_ind_in_all]
         base_prompt_ids = get_ids(tokenizer, base_prompt, device)
+
 
         rephrased_prompt_ind = random.randint(0, len(dataset[category]['prompts']) - 1)
         while rephrased_prompt_ind == base_prompt_ind_in_all: # make sure it is uniuqe

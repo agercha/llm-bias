@@ -173,7 +173,12 @@ def run(local):
 
         perturbed_prompts = get_replacements(base_prompt, thesarus)
 
+        # print("GOT IT!")
+
         if f"{category}__{brand}" not in completions_json_file and len(perturbed_prompts) > 1:
+        # if False:
+            # print("GOT IT")
+            # break
 
             base_prompt_ind = perturbed_prompts.index(base_prompt.strip())
 
@@ -190,52 +195,52 @@ def run(local):
 
             rephrased_completions = []
 
-            if base_prompt_ind != perturbed_prompt_ind:
+            # if base_prompt_ind != perturbed_prompt_ind:
 
-                while len(base_completions) < test_size:
-                    base_completion = tokenizer.decode((generate(model, tokenizer, base_prompt_ids, gen_config=gen_config))).strip()
-                    base_completion = base_completion.replace("\n", "")
-                    base_completions.append(base_completion)
+            while len(base_completions) < test_size:
+                base_completion = tokenizer.decode((generate(model, tokenizer, base_prompt_ids, gen_config=gen_config))).strip()
+                base_completion = base_completion.replace("\n", "")
+                base_completions.append(base_completion)
 
-                    # print(base_completion)
-                print("done w base")
+                # print(base_completion)
+            print("done w base")
 
-                while len(rephrased_completions) < test_size:
-                    rephrased_completion = tokenizer.decode((generate(model, tokenizer, rephrased_prompt_ids, gen_config=gen_config))).strip()
-                    rephrased_completion = rephrased_completion.replace("\n", "")
-                    rephrased_completions.append(rephrased_completion)
+            while len(rephrased_completions) < test_size:
+                rephrased_completion = tokenizer.decode((generate(model, tokenizer, rephrased_prompt_ids, gen_config=gen_config))).strip()
+                rephrased_completion = rephrased_completion.replace("\n", "")
+                rephrased_completions.append(rephrased_completion)
 
-                    # print(base_completion)
+                # print(base_completion)
 
-                print("done w rephrased")
+            print("done w rephrased")
 
-                while len(perturbed_completions) < test_size:
-                    perturbed_completion = tokenizer.decode((generate(model, tokenizer, perturbed_prompt_ids, gen_config=gen_config))).strip()
-                    perturbed_completion = perturbed_completion.replace("\n", "")
-                    perturbed_completions.append(perturbed_completion)
+            while len(perturbed_completions) < test_size:
+                perturbed_completion = tokenizer.decode((generate(model, tokenizer, perturbed_prompt_ids, gen_config=gen_config))).strip()
+                perturbed_completion = perturbed_completion.replace("\n", "")
+                perturbed_completions.append(perturbed_completion)
 
-                    # print(perturbed_completion)
+                # print(perturbed_completion)
 
-                print("done w perturbed")
+            print("done w perturbed")
 
-                res = {
-                    "category": category,
-                    "brand": brand,
-                    "base_prompt": base_prompt,
-                    "base_prompt_completions": base_completions,
-                    "base_prompt_loss": losses[base_prompt_ind].item(),
-                    "rephrased_prompt": rephrased_prompt,
-                    "rephrased_prompt_completions": rephrased_completions,
-                    "rephrased_prompt_loss": losses[rephrased_prompt_ind].item(),
-                    "perturbed_prompt": perturbed_prompt,
-                    "perturbed_prompt_completions": perturbed_completions,
-                    "perturbed_prompt_loss": torch.min(losses).item()
-                }
+            res = {
+                "category": category,
+                "brand": brand,
+                "base_prompt": base_prompt,
+                "base_prompt_completions": base_completions,
+                "base_prompt_loss": losses[base_prompt_ind].item(),
+                "rephrased_prompt": rephrased_prompt,
+                "rephrased_prompt_completions": rephrased_completions,
+                "rephrased_prompt_loss": losses[rephrased_prompt_ind].item(),
+                "perturbed_prompt": perturbed_prompt,
+                "perturbed_prompt_completions": perturbed_completions,
+                "perturbed_prompt_loss": torch.min(losses).item()
+            }
 
-                completions_json_file[f"{category}__{brand}"] = res
+            completions_json_file[f"{category}__{brand}"] = res
 
-                (open('completions_temp_1_0.json', 'w')).write(json.dumps(completions_json_file, indent=4))
+            (open('completions_temp_1_0.json', 'w')).write(json.dumps(completions_json_file, indent=4))
+            
+            # assert(False)   
                 
-                # assert(False)   
-                
-run(False)
+run(True)
