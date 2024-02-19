@@ -114,13 +114,13 @@ def run(local):
         for prompt_ind, prompt in enumerate(dataset[category]["prompts"]):
             prompt_ids = get_ids(tokenizer, prompt, device)
 
-            if prompt_ind not in curr_category_val:
-                curr_category_val[prompt_ind] = {
+            if str(prompt_ind) not in curr_category_val:
+                curr_category_val[str(prompt_ind)] = {
                         "base_prompt": prompt,
                         "base_prompt_completions": []
                     }
                 
-            curr_prompt_val = curr_category_val[prompt_ind]
+            curr_prompt_val = curr_category_val[str(prompt_ind)]
             curr_prompt_completions = curr_prompt_val["base_prompt_completions"]
 
             print(f"Doing {category}_{prompt_ind}.")
@@ -131,6 +131,7 @@ def run(local):
                 curr_prompt_completions.append(curr_completion)
                 if len(curr_prompt_completions)%100 == 0:
                     print(len(curr_prompt_completions))
+            completions_json_file[category][str(prompt_ind)]["base_prompt_completions"] = curr_prompt_completions
 
             (open('base_completions_temp_1_0.json', 'w')).write(json.dumps(completions_json_file, indent=4))
             print(f"Completed and wrote {category}_{prompt_ind}.")
