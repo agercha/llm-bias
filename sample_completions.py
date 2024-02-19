@@ -4,6 +4,7 @@ from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM)
 from fastchat.model import get_conversation_template
 import json
 import random
+import copy
 
 def get_replacements(prompt, thesarus):
     prompt_words = prompt.split()
@@ -158,11 +159,11 @@ def run(local):
     
     for category, brand, base_prompt_ind_in_all in sample_arr:
         old_completions_json_file[category]
-        base_completions = old_completions_json_file[category][str(base_prompt_ind_in_all)]["base_prompt_completions"]
+        base_completions = copy.deepcopy(old_completions_json_file[category][str(base_prompt_ind_in_all)]["base_prompt_completions"])
         base_prompt = dataset[category]["prompts"][base_prompt_ind_in_all]
         rephrased_prompt_ind = int(random.choice(list(old_completions_json_file[category].keys())))
         rephrased_prompt = dataset[category]["prompts"][rephrased_prompt_ind]
-        perturbed_completions = old_completions_json_file[category][str(rephrased_prompt_ind)]["base_prompt_completions"]
+        rephrased_completions = copy.deepcopy(old_completions_json_file[category][str(rephrased_prompt_ind)]["base_prompt_completions"])
 
 
         category = random.choice(list(dataset.keys()))
@@ -195,7 +196,7 @@ def run(local):
             perturbed_prompt = perturbed_prompts[perturbed_prompt_ind]
             perturbed_prompt_ids = get_ids(tokenizer, perturbed_prompt, device)
 
-            rephrased_completions = []
+            perturbed_completions = []
 
             # if base_prompt_ind != perturbed_prompt_ind:
 
@@ -241,7 +242,7 @@ def run(local):
 
             completions_json_file[f"{category}__{brand}"] = res
 
-            (open('completions_temp_1_0.json', 'w')).write(json.dumps(completions_json_file, indent=4))
+            (open('completions_temp_1_0_pt2.json', 'w')).write(json.dumps(completions_json_file, indent=4))
             
             # assert(False)   
                 
