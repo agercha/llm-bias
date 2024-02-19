@@ -101,7 +101,9 @@ def run(local):
 
     test_size = 1000
     gen_config = model.generation_config
-    gen_config.max_new_tokens
+    gen_config.max_new_tokens = 64
+    gen_config.repetition_penalty = 1
+    gen_config.temperature = 1.00
     
 
     # seen: 
