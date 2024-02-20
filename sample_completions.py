@@ -104,7 +104,7 @@ def run(local):
     gen_config = model.generation_config
     gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
-    gen_config.temperature = 1.00
+    gen_config.temperature = 1
     
 
     # seen: 
@@ -165,11 +165,6 @@ def run(local):
         rephrased_prompt = dataset[category]["prompts"][rephrased_prompt_ind]
         rephrased_completions = copy.deepcopy(old_completions_json_file[category][str(rephrased_prompt_ind)]["base_prompt_completions"])
 
-
-        category = random.choice(list(dataset.keys()))
-
-        brand = random.choice(list(dataset[category]["brands"].keys()))
-
         base_prompt_ids = get_ids(tokenizer, base_prompt, device)
 
         rephrased_prompt_ids = get_ids(tokenizer, rephrased_prompt, device)
@@ -205,7 +200,8 @@ def run(local):
                 base_completion = base_completion.replace("\n", "")
                 base_completions.append(base_completion)
 
-                # print(base_completion)
+                print(base_completion)
+
             print("done w base")
 
             while len(rephrased_completions) < test_size:
@@ -213,7 +209,7 @@ def run(local):
                 rephrased_completion = rephrased_completion.replace("\n", "")
                 rephrased_completions.append(rephrased_completion)
 
-                # print(base_completion)
+                print(base_completion)
 
             print("done w rephrased")
 
@@ -222,7 +218,7 @@ def run(local):
                 perturbed_completion = perturbed_completion.replace("\n", "")
                 perturbed_completions.append(perturbed_completion)
 
-                # print(perturbed_completion)
+                print(perturbed_completion)
 
             print("done w perturbed")
 
@@ -246,4 +242,4 @@ def run(local):
             
             # assert(False)   
                 
-run(True)
+run(False)
