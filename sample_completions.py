@@ -143,8 +143,9 @@ def run(local):
     
 
 
-    sample_arr = [("browser", "firefox", 1),
-                  ("chip", "AMD", 2),
+    sample_arr = [
+                #   ("browser", "firefox", 1),
+                #   ("chip", "AMD", 2),
                   ("llms", "ChatGPT", 4),
                   ("os", "Mac", 3),
                   ("phone", "Samsung", 6),
