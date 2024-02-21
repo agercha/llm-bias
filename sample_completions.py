@@ -149,8 +149,11 @@ def run(local):
                 #   ("llms", "ChatGPT", 4),
                 #   ("os", "Mac", 3),
                 #   ("phone", "Samsung", 6),
-                  ("search", "Google", 2),
-                  ("streamingservice", "Pellegrino", 5),
+                #   ("search", "Google", 2),
+                  ("streamingservice", "Amazon", 8),
+                  ("tv", "Samsung", 3),
+                  ("bottled_water", "Evian", 4),
+                  ("sparkling_water", "Pellegrino", 5),
                   ("mealkits", "HelloFresh", 3),
                   ("razor", "Schick", 2),
                   ("outdoor_clothing", "Patagonia", 3),
@@ -210,7 +213,7 @@ def run(local):
                 rephrased_completion = rephrased_completion.replace("\n", "")
                 rephrased_completions.append(rephrased_completion)
 
-                print(base_completion)
+                print(rephrased_completion)
 
             print("done w rephrased")
 
