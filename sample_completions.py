@@ -146,9 +146,9 @@ def run(local):
     sample_arr = [
                 #   ("browser", "firefox", 1),
                 #   ("chip", "AMD", 2),
-                  ("llms", "ChatGPT", 4),
-                  ("os", "Mac", 3),
-                  ("phone", "Samsung", 6),
+                #   ("llms", "ChatGPT", 4),
+                #   ("os", "Mac", 3),
+                #   ("phone", "Samsung", 6),
                   ("search", "Google", 2),
                   ("streamingservice", "Pellegrino", 5),
                   ("mealkits", "HelloFresh", 3),
@@ -231,7 +231,7 @@ def run(local):
                 "base_prompt_loss": losses[base_prompt_ind].item(),
                 "rephrased_prompt": rephrased_prompt,
                 "rephrased_prompt_completions": rephrased_completions,
-                "rephrased_prompt_loss": losses[rephrased_prompt_ind].item(),
+                # "rephrased_prompt_loss": losses[rephrased_prompt_ind].item(),
                 "perturbed_prompt": perturbed_prompt,
                 "perturbed_prompt_completions": perturbed_completions,
                 "perturbed_prompt_loss": torch.min(losses).item()
