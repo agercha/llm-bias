@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM)
+from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM, GemmaForCausalLM, GemmaTokenizer)
 from fastchat.model import get_conversation_template
 import json
 import random
@@ -68,11 +68,11 @@ def my_loss(model, tokenizer, input_str, end_strs, device):
 
     return res.loss.item()
 
-def run(local):
-    if local:
+def run(modelname):
+    if modelname == "gpt":
         tokenizer = AutoTokenizer.from_pretrained("gpt2", padding_side="left")
         model = AutoModelForCausalLM.from_pretrained("gpt2")
-    else:
+    elif modelname == "llama":
         model_path  = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
         model = LlamaForCausalLM.from_pretrained(
                 model_path,
@@ -85,8 +85,34 @@ def run(local):
                 trust_remote_code=True,
                 use_fast=False
             )
+    elif modelname == "gemma2b":
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-2b"
+        model = GemmaForCausalLM.from_pretrained(
+                model_path,
+                torch_dtype=torch.float16,
+                trust_remote_code=True,
+            ).to("cuda:0").eval()
+
+        tokenizer = GemmaTokenizer.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                use_fast=False
+            )
+    elif modelname == "gemma7b":
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b"
+        model = GemmaForCausalLM.from_pretrained(
+                model_path,
+                torch_dtype=torch.float16,
+                trust_remote_code=True,
+            ).to("cuda:0").eval()
+
+        tokenizer = GemmaTokenizer.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                use_fast=False
+            )
         
-    if local: device = "cpu"
+    if modelname == "gpt": device = "cpu"
     else: device = "cuda:0"
 
     tokenizer.pad_token = tokenizer.eos_token
@@ -96,7 +122,7 @@ def run(local):
     dataset = json.load(open('dataset.json'))
     thesarus = json.load(open('thesaurus.json'))
 
-    completions_json_file = json.load(open('base_completions_temp_1_0.json'))
+    # completions_json_file = json.load(open('base_completions_temp_1_0.json'))
 
     test_size = 500
     gen_config = model.generation_config
@@ -105,11 +131,12 @@ def run(local):
     gen_config.temperature = 1.00
 
     for category in dataset:
-        if category not in completions_json_file:
-            completions_json_file[category] = {
-            }
+        # if category not in completions_json_file:
+        #     completions_json_file[category] = {
+        #     }
 
-        curr_category_val = completions_json_file[category] 
+        # curr_category_val = completions_json_file[category] 
+        curr_category_val = { }
 
         for prompt_ind, prompt in enumerate(dataset[category]["prompts"]):
             prompt_ids = get_ids(tokenizer, prompt, device)
@@ -131,10 +158,14 @@ def run(local):
                 curr_prompt_completions.append(curr_completion)
                 if len(curr_prompt_completions)%100 == 0:
                     print(len(curr_prompt_completions))
-            completions_json_file[category][str(prompt_ind)]["base_prompt_completions"] = curr_prompt_completions
 
-            (open('base_completions_temp_1_0_pt2.json', 'w')).write(json.dumps(completions_json_file, indent=4))
+            # completions_json_file[category][str(prompt_ind)]["base_prompt_completions"] = curr_prompt_completions
+
+            (open(f'base_completions_{modelname}_temp1/{category}.json', 'w')).write(json.dumps(curr_prompt_completions, indent=4))
             print(f"Completed and wrote {category}_{prompt_ind}.")
 
 
-run(False)
+# run("gpt")
+# run("llama")
+# run("gemma2b")
+run("gemma7b")
