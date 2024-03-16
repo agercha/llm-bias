@@ -111,6 +111,19 @@ def run(modelname):
                 trust_remote_code=True,
                 use_fast=False
             )
+    elif modelname == "gemma7bit":
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b"
+        model = GemmaForCausalLM.from_pretrained(
+                model_path,
+                torch_dtype=torch.float16,
+                trust_remote_code=True,
+            ).to("cuda:0").eval()
+
+        tokenizer = GemmaTokenizer.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                use_fast=False
+            )
         
     if modelname == "gpt": device = "cpu"
     else: device = "cuda:0"
@@ -129,6 +142,9 @@ def run(modelname):
     gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
     gen_config.temperature = 1.00
+
+    if "llama" not in modelname:   
+        gen_config.temperature = 0.7 
 
     for category in dataset:
         # if category not in completions_json_file:
@@ -168,4 +184,5 @@ def run(modelname):
 # run("gpt")
 # run("llama")
 # run("gemma2b")
-run("gemma7b")
+# run("gemma7b")
+run("gemma7bit")
