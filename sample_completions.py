@@ -97,14 +97,14 @@ def run(local):
     dataset = json.load(open('dataset.json'))
     thesarus = json.load(open('thesaurus.json'))
 
-    completions_json_file = json.load(open('completions_temp_1_0.json'))
-    old_completions_json_file = json.load(open('base_completions_temp_1_0.json'))
+    # completions_json_file = json.load(open('completions_temp_1_0.json'))
+    # old_completions_json_file = json.load(open('base_completions_temp_1_0.json'))
 
     test_size = 1000
     gen_config = model.generation_config
     gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
-    gen_config.temperature = 1
+    gen_config.temperature = 1.00
     
 
     # seen: 
@@ -150,34 +150,45 @@ def run(local):
                 #   ("os", "Mac", 3),
                 #   ("phone", "Samsung", 6),
                 #   ("search", "Google", 2),
-                  ("streamingservice", "Amazon", 8),
-                  ("tv", "Samsung", 3),
-                  ("bottled_water", "Evian", 4),
-                  ("sparkling_water", "Pellegrino", 5),
-                  ("mealkits", "HelloFresh", 3),
-                  ("razor", "Schick", 2),
-                  ("outdoor_clothing", "Patagonia", 3),
-                  ("ISP", "Comcast", 4),
+                #   ("streamingservice", "Amazon", 8),
+                #   ("tv", "Samsung", 3),
+                #   ("bottled_water", "Evian", 4),
+                #   ("sparkling_water", "Pellegrino", 5),
+                #   ("mealkits", "HelloFresh", 3),
+                #   ("razor", "Schick", 2),
+                #   ("outdoor_clothing", "Patagonia", 3),
+                #   ("ISP", "Comcast", 4),
                   ("gas_station", "Shell", 2)
                   ]
     
-    for category, brand, base_prompt_ind_in_all in sample_arr:
-        old_completions_json_file[category]
-        base_completions = copy.deepcopy(old_completions_json_file[category][str(base_prompt_ind_in_all)]["base_prompt_completions"])
-        base_prompt = dataset[category]["prompts"][base_prompt_ind_in_all]
-        rephrased_prompt_ind = int(random.choice(list(old_completions_json_file[category].keys())))
-        rephrased_prompt = dataset[category]["prompts"][rephrased_prompt_ind]
-        rephrased_completions = copy.deepcopy(old_completions_json_file[category][str(rephrased_prompt_ind)]["base_prompt_completions"])
-
+    while True:
+        category = random.choice(dataset.keys())
+        brand = random.choice(dataset[category]["brands"].keys())
+        base_prompt = random.choice(dataset[category]["prompts"])
         base_prompt_ids = get_ids(tokenizer, base_prompt, device)
+        base_prompt_original_ind = dataset[category]["prompts"].index(base_prompt)
 
-        rephrased_prompt_ids = get_ids(tokenizer, rephrased_prompt, device)
+        original_json = json.load(open(f'base_completions_llama_temp1/{category}.json'))
+        base_completions = original_json[base_prompt_original_ind]["base_prompt_completions"]
+    
+    # for category, brand, base_prompt_ind_in_all in sample_arr:
+    #     old_completions_json_file[category]
+    #     base_completions = copy.deepcopy(old_completions_json_file[category][str(base_prompt_ind_in_all)]["base_prompt_completions"])
+    #     base_prompt = dataset[category]["prompts"][base_prompt_ind_in_all]
+    #     rephrased_prompt_ind = int(random.choice(list(old_completions_json_file[category].keys())))
+    #     rephrased_prompt = dataset[category]["prompts"][rephrased_prompt_ind]
+    #     rephrased_completions = copy.deepcopy(old_completions_json_file[category][str(rephrased_prompt_ind)]["base_prompt_completions"])
+
+    #     base_prompt_ids = get_ids(tokenizer, base_prompt, device)
+
+    #     rephrased_prompt_ids = get_ids(tokenizer, rephrased_prompt, device)
 
         perturbed_prompts = get_replacements(base_prompt, thesarus)
 
         # print("GOT IT!")
 
-        if f"{category}__{brand}" not in completions_json_file and len(perturbed_prompts) > 1:
+        if True:
+        # if f"{category}__{brand}" not in completions_json_file and len(perturbed_prompts) > 1:
         # if False:
             # print("GOT IT")
             # break
@@ -208,15 +219,6 @@ def run(local):
 
             print("done w base")
 
-            while len(rephrased_completions) < test_size:
-                rephrased_completion = tokenizer.decode((generate(model, tokenizer, rephrased_prompt_ids, gen_config=gen_config))).strip()
-                rephrased_completion = rephrased_completion.replace("\n", "")
-                rephrased_completions.append(rephrased_completion)
-
-                print(rephrased_completion)
-
-            print("done w rephrased")
-
             while len(perturbed_completions) < test_size:
                 perturbed_completion = tokenizer.decode((generate(model, tokenizer, perturbed_prompt_ids, gen_config=gen_config))).strip()
                 perturbed_completion = perturbed_completion.replace("\n", "")
@@ -232,17 +234,13 @@ def run(local):
                 "base_prompt": base_prompt,
                 "base_prompt_completions": base_completions,
                 "base_prompt_loss": losses[base_prompt_ind].item(),
-                "rephrased_prompt": rephrased_prompt,
-                "rephrased_prompt_completions": rephrased_completions,
                 # "rephrased_prompt_loss": losses[rephrased_prompt_ind].item(),
                 "perturbed_prompt": perturbed_prompt,
                 "perturbed_prompt_completions": perturbed_completions,
                 "perturbed_prompt_loss": torch.min(losses).item()
             }
 
-            completions_json_file[f"{category}__{brand}"] = res
-
-            (open('completions_temp_1_0_pt2.json', 'w')).write(json.dumps(completions_json_file, indent=4))
+            (open(f'adversarial_completions_llama_temp1/{category}_{base_prompt_original_ind}.json', 'w')).write(json.dumps(res, indent=4))
             
             # assert(False)   
                 
