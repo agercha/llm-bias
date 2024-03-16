@@ -162,9 +162,9 @@ def run(local):
                   ]
     
     while True:
-        category = random.choice(dataset.keys())
-        brand = random.choice(dataset[category]["brands"].keys())
-        base_prompt = random.choice(dataset[category]["prompts"])
+        category = random.choice(list(dataset.keys()))
+        brand = random.choice(list(dataset[category]["brands"].keys()))
+        base_prompt = random.choice(list(dataset[category]["prompts"]))
         base_prompt_ids = get_ids(tokenizer, base_prompt, device)
         base_prompt_original_ind = dataset[category]["prompts"].index(base_prompt)
 
