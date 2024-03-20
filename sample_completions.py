@@ -1,10 +1,11 @@
 import torch
 import numpy as np
-from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM)
+from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM, GemmaForCausalLM, GemmaTokenizer)
 from fastchat.model import get_conversation_template
 import json
 import random
 import copy
+import os
 
 def get_replacements(prompt, thesarus):
     prompt_words = prompt.split()
@@ -56,10 +57,10 @@ def my_loss(model, tokenizer, input_str, end_strs, device):
         pad_tok += 1
     input_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(input_ids), max_len)).to(device)
 
-    attention_mask = torch.ones(input_ids.shape)
+    attention_mask = torch.ones(input_ids.shape).to(device)
     attention_mask[input_ids == 0] = 0
 
-    labels = input_ids.clone() 
+    labels = input_ids.clone().to(device)
     labels[:, :l] = -100
 
     res = model.forward(input_ids=input_ids,
@@ -69,11 +70,11 @@ def my_loss(model, tokenizer, input_str, end_strs, device):
 
     return res.loss.item()
 
-def run(local):
-    if local:
+def run(modelname):
+    if modelname == "gpt":
         tokenizer = AutoTokenizer.from_pretrained("gpt2", padding_side="left")
         model = AutoModelForCausalLM.from_pretrained("gpt2")
-    else:
+    elif modelname == "llama":
         model_path  = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
         model = LlamaForCausalLM.from_pretrained(
                 model_path,
@@ -86,8 +87,47 @@ def run(local):
                 trust_remote_code=True,
                 use_fast=False
             )
+    elif modelname == "gemma2b":
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-2b"
+        model = GemmaForCausalLM.from_pretrained(
+                model_path,
+                torch_dtype=torch.float16,
+                trust_remote_code=True,
+            ).to("cuda:0").eval()
+
+        tokenizer = GemmaTokenizer.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                use_fast=False
+            )
+    elif modelname == "gemma7b":
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b"
+        model = GemmaForCausalLM.from_pretrained(
+                model_path,
+                torch_dtype=torch.float16,
+                trust_remote_code=True,
+            ).to("cuda:0").eval()
+
+        tokenizer = GemmaTokenizer.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                use_fast=False
+            )
+    elif modelname == "gemma7bit":
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b"
+        model = GemmaForCausalLM.from_pretrained(
+                model_path,
+                torch_dtype=torch.float16,
+                trust_remote_code=True,
+            ).to("cuda:0").eval()
+
+        tokenizer = GemmaTokenizer.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                use_fast=False
+            )
         
-    if local: device = "cpu"
+    if modelname == "gpt": device = "cpu"
     else: device = "cuda:0"
 
     tokenizer.pad_token = tokenizer.eos_token
@@ -106,60 +146,8 @@ def run(local):
     gen_config.repetition_penalty = 1
     gen_config.temperature = 1.00
     
-
-    # seen: 
-        # vacuum shark, 
-        # coffee grinder cuisinart, 
-        # sneakers nike, 
-        # sneakers reebok, 
-        # pressure cooker breville, 
-        # password manager 1password, 
-        # espresso machine gaggia,
-        # ride sharing lyft,
-        # battery panasonic,
-        # credit card chase,
-        # skiis rossignol,
-        # jeans wrangler,
-        # air conditioner GE,
-        # backpacking gregory,
-        # convenience store wawa
-    
-    # to add
-        # browser - firefox 1
-        # chip - amd 2
-        # llm - chatgpt 4
-        # os - mac 3
-        # phone - samsung 6
-        # search - google 2
-        # streamingservice - amazon 8
-        # tv - samsung 3
-        # bottled water - evian 4
-        # sparkling water - pellegrino 5
-        # mealkits - hellofresh 3
-        # razor - schick 2
-        # outdoor clothing - patagonia 3
-        # isp - comcast 4
-        # gas station - shell 2
-    
-
-
-    sample_arr = [
-                #   ("browser", "firefox", 1),
-                #   ("chip", "AMD", 2),
-                #   ("llms", "ChatGPT", 4),
-                #   ("os", "Mac", 3),
-                #   ("phone", "Samsung", 6),
-                #   ("search", "Google", 2),
-                #   ("streamingservice", "Amazon", 8),
-                #   ("tv", "Samsung", 3),
-                #   ("bottled_water", "Evian", 4),
-                #   ("sparkling_water", "Pellegrino", 5),
-                #   ("mealkits", "HelloFresh", 3),
-                #   ("razor", "Schick", 2),
-                #   ("outdoor_clothing", "Patagonia", 3),
-                #   ("ISP", "Comcast", 4),
-                  ("gas_station", "Shell", 2)
-                  ]
+    if "llama" not in modelname:   
+        gen_config.temperature = 0.7 
     
     while True:
         category = random.choice(list(dataset.keys()))
@@ -168,80 +156,68 @@ def run(local):
         base_prompt_ids = get_ids(tokenizer, base_prompt, device)
         base_prompt_original_ind = dataset[category]["prompts"].index(base_prompt)
 
-        original_json = json.load(open(f'base_completions_llama_temp1/{category}.json'))
-        base_completions = original_json[base_prompt_original_ind]["base_prompt_completions"]
-    
-    # for category, brand, base_prompt_ind_in_all in sample_arr:
-    #     old_completions_json_file[category]
-    #     base_completions = copy.deepcopy(old_completions_json_file[category][str(base_prompt_ind_in_all)]["base_prompt_completions"])
-    #     base_prompt = dataset[category]["prompts"][base_prompt_ind_in_all]
-    #     rephrased_prompt_ind = int(random.choice(list(old_completions_json_file[category].keys())))
-    #     rephrased_prompt = dataset[category]["prompts"][rephrased_prompt_ind]
-    #     rephrased_completions = copy.deepcopy(old_completions_json_file[category][str(rephrased_prompt_ind)]["base_prompt_completions"])
+        completed_files = os.listdir("adversarial_completions_llama_temp1")
 
-    #     base_prompt_ids = get_ids(tokenizer, base_prompt, device)
+        if f"{category}_{base_prompt_original_ind}.json" not in completed_files:
 
-    #     rephrased_prompt_ids = get_ids(tokenizer, rephrased_prompt, device)
-
-        perturbed_prompts = get_replacements(base_prompt, thesarus)
-
-        # print("GOT IT!")
-
-        if True:
-        # if f"{category}__{brand}" not in completions_json_file and len(perturbed_prompts) > 1:
-        # if False:
-            # print("GOT IT")
-            # break
-
-            base_prompt_ind = perturbed_prompts.index(base_prompt.strip())
-
-            losses = torch.zeros(len(perturbed_prompts))
+            original_json = json.load(open(f'base_completions_llama_temp1/{category}.json'))
+            base_completions = original_json[base_prompt_original_ind]["base_prompt_completions"]
 
             target_strs = dataset[category]["brands"][brand]
 
-            for prompt_ind, curr_prompt in enumerate(perturbed_prompts):
-                losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
+            base_completions_success = 0
 
-            perturbed_prompt_ind = torch.argmin(losses).item()
-            perturbed_prompt = perturbed_prompts[perturbed_prompt_ind]
-            perturbed_prompt_ids = get_ids(tokenizer, perturbed_prompt, device)
+            for base_completion in base_completions:
+                if single_successful(base_completion, target_strs):
+                    base_completions_success += 1
 
-            perturbed_completions = []
+            if base_completions_success / len(base_completions) > 0.1:
 
-            # if base_prompt_ind != perturbed_prompt_ind:
+                perturbed_prompts = get_replacements(base_prompt, thesarus)
 
-            while len(base_completions) < test_size:
-                base_completion = tokenizer.decode((generate(model, tokenizer, base_prompt_ids, gen_config=gen_config))).strip()
-                base_completion = base_completion.replace("\n", "")
-                base_completions.append(base_completion)
+                base_prompt_ind = perturbed_prompts.index(base_prompt.strip())
 
-                print(base_completion)
+                losses = torch.zeros(len(perturbed_prompts))
 
-            print("done w base")
+                for prompt_ind, curr_prompt in enumerate(perturbed_prompts):
+                    losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
 
-            while len(perturbed_completions) < test_size:
-                perturbed_completion = tokenizer.decode((generate(model, tokenizer, perturbed_prompt_ids, gen_config=gen_config))).strip()
-                perturbed_completion = perturbed_completion.replace("\n", "")
-                perturbed_completions.append(perturbed_completion)
+                perturbed_prompt_ind = torch.argmin(losses).item()
+                perturbed_prompt = perturbed_prompts[perturbed_prompt_ind]
+                perturbed_prompt_ids = get_ids(tokenizer, perturbed_prompt, device)
 
-                print(perturbed_completion)
+                perturbed_completions = []
 
-            print("done w perturbed")
+                while len(base_completions) < test_size:
+                    base_completion = tokenizer.decode((generate(model, tokenizer, base_prompt_ids, gen_config=gen_config))).strip()
+                    base_completion = base_completion.replace("\n", "")
+                    base_completions.append(base_completion)
 
-            res = {
-                "category": category,
-                "brand": brand,
-                "base_prompt": base_prompt,
-                "base_prompt_completions": base_completions,
-                "base_prompt_loss": losses[base_prompt_ind].item(),
-                # "rephrased_prompt_loss": losses[rephrased_prompt_ind].item(),
-                "perturbed_prompt": perturbed_prompt,
-                "perturbed_prompt_completions": perturbed_completions,
-                "perturbed_prompt_loss": torch.min(losses).item()
-            }
+                    print(base_completion)
 
-            (open(f'adversarial_completions_llama_temp1/{category}_{base_prompt_original_ind}.json', 'w')).write(json.dumps(res, indent=4))
+                print("done w base")
+
+                while len(perturbed_completions) < test_size:
+                    perturbed_completion = tokenizer.decode((generate(model, tokenizer, perturbed_prompt_ids, gen_config=gen_config))).strip()
+                    perturbed_completion = perturbed_completion.replace("\n", "")
+                    perturbed_completions.append(perturbed_completion)
+
+                    print(perturbed_completion)
+
+                print("done w perturbed")
+
+                res = {
+                    "category": category,
+                    "brand": brand,
+                    "base_prompt": base_prompt,
+                    "base_prompt_completions": base_completions,
+                    "base_prompt_loss": losses[base_prompt_ind].item(),
+                    "perturbed_prompt": perturbed_prompt,
+                    "perturbed_prompt_completions": perturbed_completions,
+                    "perturbed_prompt_loss": torch.min(losses).item()
+                }
+
+                (open(f'adversarial_completions_llama_temp1/{category}_{base_prompt_original_ind}.json', 'w')).write(json.dumps(res, indent=4))
             
-            # assert(False)   
                 
-run(False)
+run("llama")
