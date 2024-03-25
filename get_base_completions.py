@@ -17,20 +17,37 @@ def get_replacements(prompt, thesarus):
 def get_ids(tokenizer, vals, device):
     return torch.tensor(tokenizer(vals).input_ids).to(device)
 
-def generate(model, tokenizer, input_ids, gen_config=None):
+def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_config=None):
 
-    if gen_config is None:
-        gen_config = model.generation_config
-        gen_config.max_new_tokens = 32
-        
-    input_ids = input_ids.to(model.device).unsqueeze(0)
-    attn_masks = torch.ones_like(input_ids).to(model.device)
-    output_ids = model.generate(input_ids, 
-                                attention_mask=attn_masks, 
-                                generation_config=gen_config,
-                                pad_token_id=tokenizer.pad_token_id)
+    if "gemma" in modelname:
+        messages = [
+            {"role": "user", "content":prompt},
+        ]
+        formatted_prompt = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+        outputs = pipeline(
+            formatted_prompt,
+            max_new_tokens=64,
+            do_sample=True,
+            temperature=0.7,
+            top_k=50,
+            top_p=0.95
+        )
+        outputs[0]["generated_text"]
 
-    return output_ids[0]
+    else:
+
+        if gen_config is None:
+            gen_config = model.generation_config
+            gen_config.max_new_tokens = 64
+            
+        input_ids = input_ids.to(model.device).unsqueeze(0)
+        attn_masks = torch.ones_like(input_ids).to(model.device)
+        output_ids = model.generate(input_ids, 
+                                    attention_mask=attn_masks, 
+                                    generation_config=gen_config,
+                                    pad_token_id=tokenizer.pad_token_id)
+
+        return output_ids[0]
 
 def single_successful(gen_str, target_strs):
     gen_str_unpunctuated = ''.join(filter(lambda x: x.isalpha() or x.isdigit() or x.isspace(), gen_str))
@@ -69,9 +86,14 @@ def my_loss(model, tokenizer, input_str, end_strs, device):
     return res.loss.item()
 
 def run(modelname):
+
+    if modelname == "gpt": device = "cpu"
+    else: device = "cuda:0"
+
     if modelname == "gpt":
         tokenizer = AutoTokenizer.from_pretrained("gpt2", padding_side="left")
         model = AutoModelForCausalLM.from_pretrained("gpt2")
+        pipeline = None
     elif modelname == "llama":
         model_path  = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
         model = LlamaForCausalLM.from_pretrained(
@@ -85,6 +107,7 @@ def run(modelname):
                 trust_remote_code=True,
                 use_fast=False
             )
+        pipeline = None
     elif modelname == "gemma2b":
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-2b"
         model = GemmaForCausalLM.from_pretrained(
@@ -98,6 +121,12 @@ def run(modelname):
                 trust_remote_code=True,
                 use_fast=False
             )
+        pipeline = pipeline(
+            "text-generation",
+            model=model,
+            model_kwargs={"torch_dtype": torch.bfloat16},
+            device=device,
+        )
     elif modelname == "gemma7b":
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b"
         model = GemmaForCausalLM.from_pretrained(
@@ -111,6 +140,12 @@ def run(modelname):
                 trust_remote_code=True,
                 use_fast=False
             )
+        pipeline = pipeline(
+            "text-generation",
+            model=model,
+            model_kwargs={"torch_dtype": torch.bfloat16},
+            device=device,
+        )
     elif modelname == "gemma7bit":
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b"
         model = GemmaForCausalLM.from_pretrained(
@@ -124,9 +159,13 @@ def run(modelname):
                 trust_remote_code=True,
                 use_fast=False
             )
+        pipeline = pipeline(
+            "text-generation",
+            model=model,
+            model_kwargs={"torch_dtype": torch.bfloat16},
+            device=device,
+        )
         
-    if modelname == "gpt": device = "cpu"
-    else: device = "cuda:0"
 
     tokenizer.pad_token = tokenizer.eos_token
 
@@ -169,7 +208,8 @@ def run(modelname):
             print(f"Doing {category}_{prompt_ind}.")
 
             while len(curr_prompt_completions) < test_size:
-                curr_completion = tokenizer.decode((generate(model, tokenizer, prompt_ids, gen_config=gen_config))).strip()
+                curr_completion = tokenizer.decode((generate(model, modelname, tokenizer, prompt, prompt_ids, pipeline, gen_config=gen_config))).strip()
+                print(curr_completion)
                 curr_completion = curr_completion.replace("\n", "")
                 curr_prompt_completions.append(curr_completion)
                 if len(curr_prompt_completions)%100 == 0:
