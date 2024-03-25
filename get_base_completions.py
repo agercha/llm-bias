@@ -35,6 +35,8 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         )
         outputs[0]["generated_text"]
 
+        return outputs
+
     else:
 
         if gen_config is None:
@@ -47,8 +49,10 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
                                     attention_mask=attn_masks, 
                                     generation_config=gen_config,
                                     pad_token_id=tokenizer.pad_token_id)
+        
+        output = tokenizer.decode(output_ids[0]).strip()
 
-        return output_ids[0]
+        return output
 
 def single_successful(gen_str, target_strs):
     gen_str_unpunctuated = ''.join(filter(lambda x: x.isalpha() or x.isdigit() or x.isspace(), gen_str))
@@ -212,7 +216,7 @@ def run(modelname):
             print(f"Doing {category}_{prompt_ind}.")
 
             while len(curr_prompt_completions) < test_size:
-                curr_completion = tokenizer.decode((generate(model, modelname, tokenizer, prompt, prompt_ids, pipeline, gen_config=gen_config))).strip()
+                curr_completion = (generate(model, modelname, tokenizer, prompt, prompt_ids, pipeline, gen_config=gen_config))
                 print(curr_completion)
                 curr_completion = curr_completion.replace("\n", "")
                 curr_prompt_completions.append(curr_completion)
