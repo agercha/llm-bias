@@ -1,6 +1,7 @@
 import torch
 import numpy as np
 from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM, GemmaForCausalLM, GemmaTokenizer)
+from transformers import pipeline as transformer_pipeline
 from fastchat.model import get_conversation_template
 import json
 import random
@@ -121,7 +122,7 @@ def run(modelname):
                 trust_remote_code=True,
                 use_fast=False
             )
-        pipeline = pipeline(
+        pipeline = transformer_pipeline(
             "text-generation",
             model=model,
             model_kwargs={"torch_dtype": torch.bfloat16},
@@ -140,7 +141,7 @@ def run(modelname):
                 trust_remote_code=True,
                 use_fast=False
             )
-        pipeline = pipeline(
+        pipeline = transformer_pipeline(
             "text-generation",
             model=model,
             model_kwargs={"torch_dtype": torch.bfloat16},
@@ -159,7 +160,7 @@ def run(modelname):
                 trust_remote_code=True,
                 use_fast=False
             )
-        pipeline = pipeline(
+        pipeline = transformer_pipeline(
             "text-generation",
             model=model,
             model_kwargs={"torch_dtype": torch.bfloat16},
