@@ -124,6 +124,7 @@ def run(modelname):
             )
         pipeline = transformer_pipeline(
             "text-generation",
+            tokenizer=tokenizer,
             model=model,
             model_kwargs={"torch_dtype": torch.bfloat16},
             device=device,
@@ -143,6 +144,7 @@ def run(modelname):
             )
         pipeline = transformer_pipeline(
             "text-generation",
+            tokenizer=tokenizer,
             model=model,
             model_kwargs={"torch_dtype": torch.bfloat16},
             device=device,
@@ -162,6 +164,7 @@ def run(modelname):
             )
         pipeline = transformer_pipeline(
             "text-generation",
+            tokenizer=tokenizer,
             model=model,
             model_kwargs={"torch_dtype": torch.bfloat16},
             device=device,
