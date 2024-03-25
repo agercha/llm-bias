@@ -153,7 +153,7 @@ def run(modelname):
             device=device,
         )
     elif modelname == "gemma7bit":
-        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b"
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b-it"
         model = GemmaForCausalLM.from_pretrained(
                 model_path,
                 torch_dtype=torch.float16,
@@ -224,7 +224,7 @@ def run(modelname):
 
             # completions_json_file[category][str(prompt_ind)]["base_prompt_completions"] = curr_prompt_completions
 
-            (open(f'base_completions_{modelname}_temp1/{category}.json', 'w')).write(json.dumps(curr_prompt_completions, indent=4))
+            (open(f'base_completions_{modelname}_temp1/{category}.json', 'w')).write(json.dumps(curr_category_val, indent=4))
             print(f"Completed and wrote {category}_{prompt_ind}.")
 
 
