@@ -27,7 +27,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         formatted_prompt = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
         outputs = pipeline(
             formatted_prompt,
-            max_new_tokens=64,
+            max_new_tokens=256,
             do_sample=True,
             temperature=0.7,
             top_k=50,
@@ -128,7 +128,7 @@ def run(modelname):
         pipeline = transformer_pipeline(
             "text-generation",
             tokenizer=tokenizer,
-            model=model,
+            model=model_path,
             model_kwargs={"torch_dtype": torch.bfloat16},
             device=device,
         )
@@ -148,7 +148,7 @@ def run(modelname):
         pipeline = transformer_pipeline(
             "text-generation",
             tokenizer=tokenizer,
-            model=model,
+            model=model_path,
             model_kwargs={"torch_dtype": torch.bfloat16},
             device=device,
         )
@@ -168,7 +168,7 @@ def run(modelname):
         pipeline = transformer_pipeline(
             "text-generation",
             tokenizer=tokenizer,
-            model=model,
+            model=model_path,
             model_kwargs={"torch_dtype": torch.bfloat16},
             device=device,
         )
