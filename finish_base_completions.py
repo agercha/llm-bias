@@ -138,7 +138,7 @@ def run(modelname):
 
     # completions_json_file = json.load(open('base_completions_temp_1_0.json'))
 
-    test_size = 500
+    test_size = 1000
     gen_config = model.generation_config
     gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
@@ -184,7 +184,7 @@ def run(modelname):
 
             # completions_json_file[category][str(prompt_ind)]["base_prompt_completions"] = curr_prompt_completions
 
-            (open(f'base_completions_{modelname}_temp1/{category}.json', 'w')).write(json.dumps(curr_prompt_completions, indent=4))
+            (open(f'base_completions_{modelname}_temp1/{category}.json', 'w')).write(json.dumps(curr_category_val, indent=4))
             print(f"Completed and wrote {category}_{prompt_ind}.")
 
 
