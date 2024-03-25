@@ -119,12 +119,12 @@ def run(modelname):
                 torch_dtype=torch.float16,
                 trust_remote_code=True,
             ).to("cuda:0").eval()
-
-        tokenizer = GemmaTokenizer.from_pretrained(
-                model_path,
-                trust_remote_code=True,
-                use_fast=False
-            )
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        # tokenizer = GemmaTokenizer.from_pretrained(
+        #         model_path,
+        #         trust_remote_code=True,
+        #         use_fast=False
+        #     )
         pipeline = transformer_pipeline(
             "text-generation",
             tokenizer=tokenizer,
@@ -139,12 +139,12 @@ def run(modelname):
                 torch_dtype=torch.float16,
                 trust_remote_code=True,
             ).to("cuda:0").eval()
-
-        tokenizer = GemmaTokenizer.from_pretrained(
-                model_path,
-                trust_remote_code=True,
-                use_fast=False
-            )
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        # tokenizer = GemmaTokenizer.from_pretrained(
+        #         model_path,
+        #         trust_remote_code=True,
+        #         use_fast=False
+        #     )
         pipeline = transformer_pipeline(
             "text-generation",
             tokenizer=tokenizer,
@@ -159,12 +159,12 @@ def run(modelname):
                 torch_dtype=torch.float16,
                 trust_remote_code=True,
             ).to("cuda:0").eval()
-
-        tokenizer = GemmaTokenizer.from_pretrained(
-                model_path,
-                trust_remote_code=True,
-                use_fast=False
-            )
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        # tokenizer = GemmaTokenizer.from_pretrained(
+        #         model_path,
+        #         trust_remote_code=True,
+        #         use_fast=False
+        #     )
         pipeline = transformer_pipeline(
             "text-generation",
             tokenizer=tokenizer,
