@@ -33,9 +33,8 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
             top_k=50,
             top_p=0.95
         )
-        outputs[0]["generated_text"]
-
-        return outputs
+        
+        return outputs[0]["generated_text"]
 
     else:
 
