@@ -158,9 +158,10 @@ def run(modelname):
 
         completed_files = os.listdir("adversarial_completions_llama_temp1")
 
-        if f"{category}_{base_prompt_original_ind}.json" not in completed_files:
+        original_json = json.load(open(f'base_completions_llama_temp1/{category}.json'))
 
-            original_json = json.load(open(f'base_completions_llama_temp1/{category}.json'))
+        if f"{category}_{base_prompt_original_ind}.json" not in completed_files and base_prompt_original_ind in original_json:
+
             base_completions = original_json[base_prompt_original_ind]["base_prompt_completions"]
 
             target_strs = dataset[category]["brands"][brand]
