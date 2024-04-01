@@ -206,16 +206,18 @@ def run(modelname, category):
 
         completed_files = os.listdir(f"adversarial_completions_{modelname}")
 
-        original_json = json.load(open(f'base_completions_{modelname}_temp1/{category}.json'))
+        # original_json = json.load(open(f'base_completions_{modelname}_temp1/{category}.json'))
 
-        print(f"{category}_{base_prompt_original_ind}.json", completed_files)
-        print(f"{category}_{base_prompt_original_ind}.json" in completed_files)
-        print(base_prompt_original_ind)
-        print(base_prompt_original_ind in original_json)
+        # print(f"{category}_{base_prompt_original_ind}.json", completed_files)
+        # print(f"{category}_{base_prompt_original_ind}.json" in completed_files)
+        # print(base_prompt_original_ind)
+        # print(base_prompt_original_ind in original_json)
 
-        if f"{category}_{base_prompt_original_ind}.json" not in completed_files and base_prompt_original_ind in original_json:
+        # if f"{category}_{base_prompt_original_ind}.json" not in completed_files and base_prompt_original_ind in original_json:
+        if f"{category}_{base_prompt_original_ind}.json" not in completed_files:
 
-            base_completions = original_json[base_prompt_original_ind]["base_prompt_completions"]
+            # base_completions = original_json[base_prompt_original_ind]["base_prompt_completions"]
+            base_completions = []
 
             target_strs = dataset[category]["brands"][brand]
 
