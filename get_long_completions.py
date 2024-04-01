@@ -6,6 +6,7 @@ from fastchat.model import get_conversation_template
 import json
 import random
 import sys
+import os
 
 def get_replacements(prompt, thesarus):
     prompt_words = prompt.split()
@@ -184,7 +185,7 @@ def run(modelname):
 
     # completions_json_file = json.load(open('base_completions_temp_1_0.json'))
 
-    test_size = 100
+    test_size = 50
     gen_config = model.generation_config
     # gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
@@ -193,13 +194,18 @@ def run(modelname):
     if "llama" not in modelname:   
         gen_config.temperature = 0.7 
 
+    completed_files = os.listdir(f"long_completions_{modelname}_temp1/")
+
     for category in dataset:
         # if category not in completions_json_file:
         #     completions_json_file[category] = {
         #     }
 
         # curr_category_val = completions_json_file[category] 
-        curr_category_val = { }
+        if f"{category}.json" in completed_files:
+            curr_category_val  = json.load(f"long_completions_{modelname}_temp1/{category}.json")
+        else:
+            curr_category_val = { }
 
         for prompt_ind, prompt in enumerate(dataset[category]["prompts"]):
             prompt_ids = get_ids(tokenizer, prompt, device)
