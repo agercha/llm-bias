@@ -194,8 +194,10 @@ def run(modelname, category):
     
     if "llama" not in modelname:   
         gen_config.temperature = 0.7 
+
+    print(list(dataset[category]["prompts"]))
     
-    for base_prompt, base_prompt_original_ind in dataset[category]["prompts"]:
+    for base_prompt_original_ind, base_prompt in enumerate(list(dataset[category]["prompts"])):
         # category = random.choice(list(dataset.keys()))
         brand = random.choice(list(dataset[category]["brands"].keys()))
         # base_prompt = random.choice(list(dataset[category]["prompts"]))
@@ -204,7 +206,12 @@ def run(modelname, category):
 
         completed_files = os.listdir(f"adversarial_completions_{modelname}")
 
-        original_json = json.load(open(f'base_completions_{modelname}/{category}.json'))
+        original_json = json.load(open(f'base_completions_{modelname}_temp1/{category}.json'))
+
+        print(f"{category}_{base_prompt_original_ind}.json", completed_files)
+        print(f"{category}_{base_prompt_original_ind}.json" in completed_files)
+        print(base_prompt_original_ind)
+        print(base_prompt_original_ind in original_json)
 
         if f"{category}_{base_prompt_original_ind}.json" not in completed_files and base_prompt_original_ind in original_json:
 
@@ -217,6 +224,8 @@ def run(modelname, category):
             for base_completion in base_completions:
                 if single_successful(base_completion, target_strs):
                     base_completions_success += 1
+
+            print(base_completions_success / len(base_completions))
 
             if base_completions_success / len(base_completions) > 0.1:
 
