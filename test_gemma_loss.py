@@ -2,6 +2,7 @@ import torch
 import numpy as np
 from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM, GemmaForCausalLM, GemmaTokenizer)
 from fastchat.model import get_conversation_template
+from transformers import pipeline as transformer_pipeline
 import json
 import random
 
@@ -21,10 +22,10 @@ def my_loss(model, tokenizer, input_str, end_strs, device):
         pad_tok += 1
     input_ids = torch.nested.to_padded_tensor(nested_ids, pad_tok, (len(input_ids), max_len)).to(device)
 
-    attention_mask = torch.ones(input_ids.shape)
+    attention_mask = torch.ones(input_ids.shape).to(device)
     attention_mask[input_ids == 0] = 0
 
-    labels = input_ids.clone() 
+    labels = input_ids.clone().to(device)
     labels[:, :l] = -100
 
     res = model.forward(input_ids=input_ids,
@@ -34,20 +35,41 @@ def my_loss(model, tokenizer, input_str, end_strs, device):
 
     return res.loss.item()
 
-model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b"
+# model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b"
+# model = GemmaForCausalLM.from_pretrained(
+#         model_path,
+#         torch_dtype=torch.float16,
+#         trust_remote_code=True,
+#     ).to("cuda:0").eval()
+
+# tokenizer = GemmaTokenizer.from_pretrained(
+#         model_path,
+#         trust_remote_code=True,
+#         use_fast=False
+#     )
+
+device = "cuda:0"
+
+model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-2b"
 model = GemmaForCausalLM.from_pretrained(
         model_path,
         torch_dtype=torch.float16,
         trust_remote_code=True,
     ).to("cuda:0").eval()
+tokenizer = AutoTokenizer.from_pretrained(model_path)
+# tokenizer = GemmaTokenizer.from_pretrained(
+#         model_path,
+#         trust_remote_code=True,
+#         use_fast=False
+#     )
+pipeline = transformer_pipeline(
+    "text-generation",
+    tokenizer=tokenizer,
+    model=model_path,
+    model_kwargs={"torch_dtype": torch.bfloat16},
+    device=device,
+)
 
-tokenizer = GemmaTokenizer.from_pretrained(
-        model_path,
-        trust_remote_code=True,
-        use_fast=False
-    )
-
-device = "cuda:0"
 
 gen_config = model.generation_config
 gen_config.max_new_tokens = 64
