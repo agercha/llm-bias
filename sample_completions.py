@@ -2,9 +2,11 @@ import torch
 import numpy as np
 from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM, GemmaForCausalLM, GemmaTokenizer)
 from fastchat.model import get_conversation_template
+from transformers import pipeline as transformer_pipeline
 import json
 import random
 import copy
+import sys
 import os
 
 def get_replacements(prompt, thesarus):
@@ -19,20 +21,40 @@ def get_replacements(prompt, thesarus):
 def get_ids(tokenizer, vals, device):
     return torch.tensor(tokenizer(vals).input_ids).to(device)
 
-def generate(model, tokenizer, input_ids, gen_config=None):
+def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_config=None):
 
-    if gen_config is None:
-        gen_config = model.generation_config
-        gen_config.max_new_tokens = 32
+    if "gemma" in modelname:
+        messages = [
+            {"role": "user", "content":prompt},
+        ]
+        formatted_prompt = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+        outputs = pipeline(
+            formatted_prompt,
+            max_new_tokens=10000,
+            do_sample=True,
+            temperature=0.7,
+            top_k=50,
+            top_p=0.95
+        )
         
-    input_ids = input_ids.to(model.device).unsqueeze(0)
-    attn_masks = torch.ones_like(input_ids).to(model.device)
-    output_ids = model.generate(input_ids, 
-                                attention_mask=attn_masks, 
-                                generation_config=gen_config,
-                                pad_token_id=tokenizer.pad_token_id)
+        return outputs[0]["generated_text"]
 
-    return output_ids[0]
+    else:
+
+        if gen_config is None:
+            gen_config = model.generation_config
+            gen_config.max_new_tokens = 64
+            
+        input_ids = input_ids.to(model.device).unsqueeze(0)
+        attn_masks = torch.ones_like(input_ids).to(model.device)
+        output_ids = model.generate(input_ids, 
+                                    attention_mask=attn_masks, 
+                                    generation_config=gen_config,
+                                    pad_token_id=tokenizer.pad_token_id)
+        
+        output = tokenizer.decode(output_ids[0]).strip()
+
+        return output
 
 def single_successful(gen_str, target_strs):
     gen_str_unpunctuated = ''.join(filter(lambda x: x.isalpha() or x.isdigit() or x.isspace(), gen_str))
@@ -70,10 +92,14 @@ def my_loss(model, tokenizer, input_str, end_strs, device):
 
     return res.loss.item()
 
-def run(modelname):
+def run(modelname, category):
+    if modelname == "gpt": device = "cpu"
+    else: device = "cuda:0"
+
     if modelname == "gpt":
         tokenizer = AutoTokenizer.from_pretrained("gpt2", padding_side="left")
         model = AutoModelForCausalLM.from_pretrained("gpt2")
+        pipeline = None
     elif modelname == "llama":
         model_path  = "/data/anna_gerchanovsky/anna_gerchanovsky/Llama-2-7b-hf"
         model = LlamaForCausalLM.from_pretrained(
@@ -87,6 +113,7 @@ def run(modelname):
                 trust_remote_code=True,
                 use_fast=False
             )
+        pipeline = None
     elif modelname == "gemma2b":
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-2b"
         model = GemmaForCausalLM.from_pretrained(
@@ -94,12 +121,19 @@ def run(modelname):
                 torch_dtype=torch.float16,
                 trust_remote_code=True,
             ).to("cuda:0").eval()
-
-        tokenizer = GemmaTokenizer.from_pretrained(
-                model_path,
-                trust_remote_code=True,
-                use_fast=False
-            )
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        # tokenizer = GemmaTokenizer.from_pretrained(
+        #         model_path,
+        #         trust_remote_code=True,
+        #         use_fast=False
+        #     )
+        pipeline = transformer_pipeline(
+            "text-generation",
+            tokenizer=tokenizer,
+            model=model_path,
+            model_kwargs={"torch_dtype": torch.bfloat16},
+            device=device,
+        )
     elif modelname == "gemma7b":
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b"
         model = GemmaForCausalLM.from_pretrained(
@@ -107,28 +141,40 @@ def run(modelname):
                 torch_dtype=torch.float16,
                 trust_remote_code=True,
             ).to("cuda:0").eval()
-
-        tokenizer = GemmaTokenizer.from_pretrained(
-                model_path,
-                trust_remote_code=True,
-                use_fast=False
-            )
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        # tokenizer = GemmaTokenizer.from_pretrained(
+        #         model_path,
+        #         trust_remote_code=True,
+        #         use_fast=False
+        #     )
+        pipeline = transformer_pipeline(
+            "text-generation",
+            tokenizer=tokenizer,
+            model=model_path,
+            model_kwargs={"torch_dtype": torch.bfloat16},
+            device=device,
+        )
     elif modelname == "gemma7bit":
-        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b"
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b-it"
         model = GemmaForCausalLM.from_pretrained(
                 model_path,
                 torch_dtype=torch.float16,
                 trust_remote_code=True,
             ).to("cuda:0").eval()
-
-        tokenizer = GemmaTokenizer.from_pretrained(
-                model_path,
-                trust_remote_code=True,
-                use_fast=False
-            )
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        # tokenizer = GemmaTokenizer.from_pretrained(
+        #         model_path,
+        #         trust_remote_code=True,
+        #         use_fast=False
+        #     )
+        pipeline = transformer_pipeline(
+            "text-generation",
+            tokenizer=tokenizer,
+            model=model_path,
+            model_kwargs={"torch_dtype": torch.bfloat16},
+            device=device,
+        )
         
-    if modelname == "gpt": device = "cpu"
-    else: device = "cuda:0"
 
     tokenizer.pad_token = tokenizer.eos_token
 
@@ -149,16 +195,16 @@ def run(modelname):
     if "llama" not in modelname:   
         gen_config.temperature = 0.7 
     
-    while True:
-        category = random.choice(list(dataset.keys()))
+    for base_prompt, base_prompt_original_ind in dataset[category]["prompts"]:
+        # category = random.choice(list(dataset.keys()))
         brand = random.choice(list(dataset[category]["brands"].keys()))
-        base_prompt = random.choice(list(dataset[category]["prompts"]))
+        # base_prompt = random.choice(list(dataset[category]["prompts"]))
         base_prompt_ids = get_ids(tokenizer, base_prompt, device)
-        base_prompt_original_ind = dataset[category]["prompts"].index(base_prompt)
+        # base_prompt_original_ind = dataset[category]["prompts"].index(base_prompt)
 
-        completed_files = os.listdir("adversarial_completions_llama_temp1")
+        completed_files = os.listdir(f"adversarial_completions_{modelname}")
 
-        original_json = json.load(open(f'base_completions_llama_temp1/{category}.json'))
+        original_json = json.load(open(f'base_completions_{modelname}/{category}.json'))
 
         if f"{category}_{base_prompt_original_ind}.json" not in completed_files and base_prompt_original_ind in original_json:
 
@@ -190,7 +236,7 @@ def run(modelname):
                 perturbed_completions = []
 
                 while len(base_completions) < test_size:
-                    base_completion = tokenizer.decode((generate(model, tokenizer, base_prompt_ids, gen_config=gen_config))).strip()
+                    base_completion = generate(model, modelname, tokenizer, base_prompt, base_prompt_ids, pipeline, gen_config=gen_config)
                     base_completion = base_completion.replace("\n", "")
                     base_completions.append(base_completion)
 
@@ -199,7 +245,7 @@ def run(modelname):
                 print("done w base")
 
                 while len(perturbed_completions) < test_size:
-                    perturbed_completion = tokenizer.decode((generate(model, tokenizer, perturbed_prompt_ids, gen_config=gen_config))).strip()
+                    perturbed_completion = generate(model, modelname, tokenizer, perturbed_prompt, perturbed_prompt_ids, pipeline, gen_config=gen_config)
                     perturbed_completion = perturbed_completion.replace("\n", "")
                     perturbed_completions.append(perturbed_completion)
 
@@ -218,7 +264,9 @@ def run(modelname):
                     "perturbed_prompt_loss": torch.min(losses).item()
                 }
 
-                (open(f'adversarial_completions_llama_temp1/{category}_{base_prompt_original_ind}.json', 'w')).write(json.dumps(res, indent=4))
+                (open(f'adversarial_completions_{modelname}/{category}_{base_prompt_original_ind}.json', 'w')).write(json.dumps(res, indent=4))
             
                 
-run("llama")
+# run("llama")
+
+run(sys.argv[1], sys.argv[2])
