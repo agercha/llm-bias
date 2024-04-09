@@ -205,6 +205,7 @@ def run(modelname, category):
         # base_prompt_original_ind = dataset[category]["prompts"].index(base_prompt)
 
         completed_files = os.listdir(f"adversarial_completions_{modelname}")
+        old_completed_files = os.listdir(f"adversarial_completions_{modelname}_old")
 
         # original_json = json.load(open(f'base_completions_{modelname}_temp1/{category}.json'))
 
@@ -214,10 +215,10 @@ def run(modelname, category):
         # print(base_prompt_original_ind in original_json)
 
         # if f"{category}_{base_prompt_original_ind}.json" not in completed_files and base_prompt_original_ind in original_json:
-        if f"{category}_{base_prompt_original_ind}.json" not in completed_files:
+        if f"{category}_{base_prompt_original_ind}.json" not in completed_files and f"{category}_{base_prompt_original_ind}.json" in old_completed_files:
 
             # base_completions = original_json[base_prompt_original_ind]["base_prompt_completions"]
-            base_completions = []
+            base_completions = json.load(open(f"adversarial_completions_{modelname}_old/{category}_{base_prompt_original_ind}.json"))["base_prompt_completions"]
 
             target_strs = dataset[category]["brands"][brand]
 
@@ -227,9 +228,10 @@ def run(modelname, category):
                 if single_successful(base_completion, target_strs):
                     base_completions_success += 1
 
-            print(base_completions_success / len(base_completions))
+            # print(base_completions_success / len(base_completions))
 
             if base_completions_success / len(base_completions) > 0.1:
+            # if True:
 
                 perturbed_prompts = get_replacements(base_prompt, thesarus)
 
@@ -238,6 +240,12 @@ def run(modelname, category):
                 losses = torch.zeros(len(perturbed_prompts))
 
                 for prompt_ind, curr_prompt in enumerate(perturbed_prompts):
+                    if "gemma" in modelname:
+                        messages = [
+                            {"role": "user", "content":curr_prompt},
+                        ]
+                        curr_prompt = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+                        
                     losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
 
                 perturbed_prompt_ind = torch.argmin(losses).item()
