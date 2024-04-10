@@ -21,6 +21,63 @@ def get_replacements(prompt, thesarus):
 def get_ids(tokenizer, vals, device):
     return torch.tensor(tokenizer(vals).input_ids).to(device)
 
+def generate_raw(prompt, pipeline):
+    outputs = pipeline(
+        prompt,
+        max_new_tokens=16,
+        do_sample=True,
+        temperature=0.7,
+        top_k=50,
+        top_p=0.95
+    )
+    
+    return outputs[0]["generated_text"]
+
+def advanced_loss(model, tokenizer, input_str, end_strs, device, pipeline, completions_batch_size=16):
+    # first, get some completions
+    messages = [
+        {"role": "user", "content":input_str},
+    ]
+    formatted_prompt = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+
+    base_ids = torch.tensor(tokenizer(f"{formatted_prompt}").input_ids, dtype=torch.long).to(device)
+    original_tok_len = base_ids.shape[0] - 1
+
+    completions = [generate_raw(formatted_prompt, pipeline) for _ in range(completions_batch_size)]
+    input_ids = [torch.tensor(tokenizer(completion).input_ids, dtype=torch.long).to(device) for completion in completions] 
+
+    ids_batch = []
+    labels_batch = []
+
+    # compile batch w end strs and partial completions
+    for end_str in end_strs:
+        end_ids = torch.tensor(tokenizer(end_str).input_ids, dtype=torch.long).to(device)
+        end_tok_len = end_ids.shape[0] - 1
+        for input_id_set in input_ids:
+            for i in range(original_tok_len, input_id_set.shape[0] - end_tok_len):
+                ids_val = input_id_set.clone().to(device)
+                ids_val[i:] = 0
+                ids_val[i:i+end_tok_len] = end_ids[1:]
+                ids_batch.append(ids_val)
+
+                labels_val = torch.ones(ids_val.shape, dtype=torch.long).to(device)
+                labels_val[:] = -100
+                labels_val[i:i+end_tok_len] = end_ids[1:]
+                labels_batch.append(labels_val)
+
+    input_ids = torch.nested.to_padded_tensor(torch.nested.nested_tensor(ids_batch, dtype=torch.long), 0).to(device)
+    labels = torch.nested.to_padded_tensor(torch.nested.nested_tensor(labels_batch, dtype=torch.long), 0).to(device)
+
+    attention_mask = torch.ones(input_ids.shape, dtype=torch.long).to(device)
+    attention_mask[input_ids == 0] = 0
+
+    res = model.forward(input_ids=input_ids,
+                        attention_mask=attention_mask,
+                        labels=labels,
+                        return_dict=True)
+
+    return res.loss.item()
+
 def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_config=None):
 
     if "gemma" in modelname:
@@ -204,7 +261,7 @@ def run(modelname, category):
         base_prompt_ids = get_ids(tokenizer, base_prompt, device)
         # base_prompt_original_ind = dataset[category]["prompts"].index(base_prompt)
 
-        completed_files = os.listdir(f"adversarial_completions_{modelname}")
+        completed_files = os.listdir(f"adversarial_completions_{modelname}_adv")
         old_completed_files = os.listdir(f"adversarial_completions_{modelname}_old")
 
         # original_json = json.load(open(f'base_completions_{modelname}_temp1/{category}.json'))
@@ -245,8 +302,9 @@ def run(modelname, category):
                             {"role": "user", "content":curr_prompt},
                         ]
                         curr_prompt = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-                        
-                    losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
+
+                    # losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
+                    losses[prompt_ind] = advanced_loss(model, tokenizer, curr_prompt, target_strs, device)
 
                 perturbed_prompt_ind = torch.argmin(losses).item()
                 perturbed_prompt = perturbed_prompts[perturbed_prompt_ind]
@@ -283,7 +341,7 @@ def run(modelname, category):
                     "perturbed_prompt_loss": torch.min(losses).item()
                 }
 
-                (open(f'adversarial_completions_{modelname}/{category}_{base_prompt_original_ind}.json', 'w')).write(json.dumps(res, indent=4))
+                (open(f'adversarial_completions_{modelname}_adv/{category}_{base_prompt_original_ind}.json', 'w')).write(json.dumps(res, indent=4))
             
                 
 # run("llama")
