@@ -221,7 +221,9 @@ def run(modelname):
             curr_prompt_val = curr_category_val[str(prompt_ind)]
             curr_prompt_completions = curr_prompt_val["base_prompt_completions"]
 
-            print(f"Doing {category}_{prompt_ind} at time {time.time()} given {len(curr_prompt_completions)} completions.")
+            start_time = time.time()
+            start_len = len(curr_prompt_completions)
+            print(f"Doing {category}_{prompt_ind} at time {start_time} given {start_len} completions.")
 
             while len(curr_prompt_completions) < test_size:
                 curr_completion = (generate(model, modelname, tokenizer, prompt, prompt_ids, pipeline, gen_config=gen_config))
@@ -233,8 +235,10 @@ def run(modelname):
 
             # completions_json_file[category][str(prompt_ind)]["base_prompt_completions"] = curr_prompt_completions
 
+            end_time = time.time()
+            end_len = len(curr_prompt_completions)
             (open(f'long_completions_{modelname}_temp1/{category}.json', 'w')).write(json.dumps(curr_category_val, indent=4))
-            print(f"Completed and wrote {category}_{prompt_ind} at time {time.time()} given {len(curr_prompt_completions)} completions.")
+            print(f"Completed and wrote {category}_{prompt_ind} at time {end_time} given {end_len} completions.")
 
 
 # run("gpt")
