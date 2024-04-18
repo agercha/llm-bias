@@ -31,6 +31,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         outputs = pipeline(
             formatted_prompt,
             # max_new_tokens=256,
+            max_new_tokens=10000,
             do_sample=True,
             temperature=0.7,
             top_k=50,
