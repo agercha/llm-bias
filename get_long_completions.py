@@ -187,7 +187,7 @@ def run(modelname):
 
     # completions_json_file = json.load(open('base_completions_temp_1_0.json'))
 
-    test_size = 500
+    test_size = 1000
     gen_config = model.generation_config
     # gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
