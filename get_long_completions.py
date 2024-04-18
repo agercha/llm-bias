@@ -7,6 +7,7 @@ import json
 import random
 import sys
 import os
+import time
 
 def get_replacements(prompt, thesarus):
     prompt_words = prompt.split()
@@ -185,7 +186,7 @@ def run(modelname):
 
     # completions_json_file = json.load(open('base_completions_temp_1_0.json'))
 
-    test_size = 50
+    test_size = 500
     gen_config = model.generation_config
     # gen_config.max_new_tokens = 64
     gen_config.repetition_penalty = 1
@@ -219,20 +220,20 @@ def run(modelname):
             curr_prompt_val = curr_category_val[str(prompt_ind)]
             curr_prompt_completions = curr_prompt_val["base_prompt_completions"]
 
-            print(f"Doing {category}_{prompt_ind}.")
+            print(f"Doing {category}_{prompt_ind} at time {time.time()} given {len(curr_prompt_completions)} completions.")
 
             while len(curr_prompt_completions) < test_size:
                 curr_completion = (generate(model, modelname, tokenizer, prompt, prompt_ids, pipeline, gen_config=gen_config))
-                print(curr_completion)
+                # print(curr_completion)
                 curr_completion = curr_completion.replace("\n", "")
                 curr_prompt_completions.append(curr_completion)
-                if len(curr_prompt_completions)%100 == 0:
-                    print(len(curr_prompt_completions))
+                # if len(curr_prompt_completions)%100 == 0:
+                    # print(len(curr_prompt_completions))
 
             # completions_json_file[category][str(prompt_ind)]["base_prompt_completions"] = curr_prompt_completions
 
             (open(f'long_completions_{modelname}_temp1/{category}.json', 'w')).write(json.dumps(curr_category_val, indent=4))
-            print(f"Completed and wrote {category}_{prompt_ind}.")
+            print(f"Completed and wrote {category}_{prompt_ind} at time {time.time()} given {len(curr_prompt_completions)} completions.")
 
 
 # run("gpt")
