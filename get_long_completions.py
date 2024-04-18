@@ -204,7 +204,7 @@ def run(modelname):
 
         # curr_category_val = completions_json_file[category] 
         if f"{category}.json" in completed_files:
-            curr_category_val  = json.load(f"long_completions_{modelname}_temp1/{category}.json")
+            curr_category_val  = json.load(open(f"long_completions_{modelname}_temp1/{category}.json"))
         else:
             curr_category_val = { }
 
