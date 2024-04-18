@@ -237,6 +237,12 @@ def run(modelname):
 
             end_time = time.time()
             end_len = len(curr_prompt_completions)
+
+            curr_prompt_val["start_time"] = start_time
+            curr_prompt_val["start_len"] = start_len
+            curr_prompt_val["end_time"] = end_time
+            curr_prompt_val["end_len"] = end_len
+
             (open(f'long_completions_{modelname}_temp1/{category}.json', 'w')).write(json.dumps(curr_category_val, indent=4))
             print(f"Completed and wrote {category}_{prompt_ind} at time {end_time} given {end_len} completions.")
 
