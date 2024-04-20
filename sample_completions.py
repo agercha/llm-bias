@@ -267,7 +267,7 @@ def run(modelname, category):
         base_prompt_ids = get_ids(tokenizer, base_prompt, device)
         # base_prompt_original_ind = dataset[category]["prompts"].index(base_prompt)
 
-        completed_files = os.listdir(f"adversarial_completions_{modelname}_adv")
+        completed_files = os.listdir(f"adversarial_completions_{modelname}")
         # old_completed_files = os.listdir(f"adversarial_completions_{modelname}_old")
 
         # original_json = json.load(open(f'base_completions_{modelname}_temp1/{category}.json'))
@@ -348,7 +348,7 @@ def run(modelname, category):
                     "perturbed_prompt_loss": torch.min(losses).item()
                 }
 
-                (open(f'adversarial_completions_{modelname}_adv/{category}_{base_prompt_original_ind}.json', 'w')).write(json.dumps(res, indent=4))
+                (open(f'adversarial_completions_{modelname}/{category}_{base_prompt_original_ind}.json', 'w')).write(json.dumps(res, indent=4))
             
                 
 # run("llama")
