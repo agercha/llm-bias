@@ -310,8 +310,8 @@ def run(modelname, category):
                         ]
                         curr_prompt = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
 
-                    # losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
-                    losses[prompt_ind] = advanced_loss(model, tokenizer, curr_prompt, target_strs, device, pipeline)
+                    losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
+                    # losses[prompt_ind] = advanced_loss(model, tokenizer, curr_prompt, target_strs, device, pipeline)
 
                 perturbed_prompt_ind = torch.argmin(losses).item()
                 perturbed_prompt = perturbed_prompts[perturbed_prompt_ind]
