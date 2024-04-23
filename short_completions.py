@@ -311,7 +311,7 @@ def run(modelname, category):
 
                     losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
 
-                res["base_prompt_loss"] = losses[base_prompt_ind].item()
+                # res["base_prompt_loss"] = losses[base_prompt_ind].item()
 
                 perturbed_prompt_ind = torch.argmin(losses).item()
                 perturbed_prompt = perturbed_prompts[perturbed_prompt_ind]
@@ -329,6 +329,7 @@ def run(modelname, category):
                 res["all_perturbed_results"][brand] = {
                     "perturbed_prompt": perturbed_prompt,
                     "perturbed_prompt_completions": perturbed_completions,
+                    "base_prompt_loss": losses[base_prompt_ind].item(),
                     "perturbed_prompt_loss": torch.min(losses).item()
                 }
 
