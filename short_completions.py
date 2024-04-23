@@ -284,7 +284,7 @@ def run(modelname, category):
                 # "brand": brand,
                 "base_prompt": base_prompt,
                 "base_prompt_completions": base_completions,
-                "base_prompt_loss": losses[base_prompt_ind].item(),
+                # "base_prompt_loss": losses[base_prompt_ind].item(),
                 "all_perturbed_results": {}
                 # "perturbed_prompt": perturbed_prompt,
                 # "perturbed_prompt_completions": perturbed_completions,
@@ -310,6 +310,8 @@ def run(modelname, category):
                         curr_prompt = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
 
                     losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
+
+                res["base_prompt_loss"] = losses[base_prompt_ind].item()
 
                 perturbed_prompt_ind = torch.argmin(losses).item()
                 perturbed_prompt = perturbed_prompts[perturbed_prompt_ind]
