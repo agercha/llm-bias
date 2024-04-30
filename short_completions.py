@@ -291,7 +291,13 @@ def run(modelname, category):
                 # "perturbed_prompt_loss": torch.min(losses).item()
             }
 
-            for brand in list(dataset[category]["brands"].keys()):
+        else:
+            res = json.load(open(f'adversarial_completions_{modelname}_short/{category}_{base_prompt_original_ind}.json'))
+
+
+        for brand in list(dataset[category]["brands"].keys()):
+            
+            if brand not in res["all_perturbed_results"]:
 
                 target_strs = dataset[category]["brands"][brand]
                 
