@@ -86,7 +86,7 @@ base_completions = completed_file["base_prompt_completions"]
 base_prompt = completed_file["base_prompt"]
 base_prompt_ids = get_ids(tokenizer, base_prompt, device)
 
-while base_completions < 1000:
+while len(base_completions) < 1000:
     base_completion = generate(model, modelname, tokenizer, base_prompt, base_prompt_ids, pipeline, gen_config=gen_config)
     base_completion = base_completion.replace("\n", "")
     base_completions.append(base_completion)
@@ -97,7 +97,7 @@ perturbed_completions = []
 perturbed_prompt = completed_file["perturbed_prompt"]
 perturbed_prompt_ids = get_ids(tokenizer, perturbed_prompt, device)
 
-while perturbed_completions < 1000:
+while len(perturbed_completions) < 1000:
     perturbed_completion = generate(model, modelname, tokenizer, perturbed_prompt, perturbed_prompt_ids, pipeline, gen_config=gen_config)
     perturbed_completion = perturbed_completion.replace("\n", "")
     perturbed_completions.append(perturbed_completion)
