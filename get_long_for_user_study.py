@@ -18,7 +18,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
 
         outputs = pipeline(
             formatted_prompt,
-            max_new_tokens=64,
+            max_new_tokens=10000,
             do_sample=True,
             temperature=0.7,
             top_k=50,
@@ -90,6 +90,10 @@ while len(base_completions) < 1000:
     base_completion = generate(model, modelname, tokenizer, base_prompt, base_prompt_ids, pipeline, gen_config=gen_config)
     base_completion = base_completion.replace("\n", "")
     base_completions.append(base_completion)
+    if len(base_completions)%10 == 0:
+        print(len(base_completions))
+        completed_file["base_prompt_completions"] = base_completions
+        (open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json', 'w')).write(json.dumps(completed_file, indent=4))
 
 completed_file["base_prompt_completions"] = base_completions
 
@@ -101,11 +105,17 @@ while len(perturbed_completions) < 1000:
     perturbed_completion = generate(model, modelname, tokenizer, perturbed_prompt, perturbed_prompt_ids, pipeline, gen_config=gen_config)
     perturbed_completion = perturbed_completion.replace("\n", "")
     perturbed_completions.append(perturbed_completion)
+    if len(perturbed_completions)%10 == 0:
+        print(len(perturbed_completions))
+        completed_file["perturbed_prompt_completions"] = perturbed_completions
+        (open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json', 'w')).write(json.dumps(completed_file, indent=4))
 
 completed_file["perturbed_prompt_completions"] = perturbed_completions
 
 (open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json', 'w')).write(json.dumps(completed_file, indent=4))
 
+
+# modelname = sys.argv[1]
 # if modelname == "gemma7bit":
 #     todos = [("Samsung", "tv", 4),
 #             ("Dyson", "vacuum", 4),
