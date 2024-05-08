@@ -54,6 +54,7 @@ def get_ids(tokenizer, vals, device):
 modelname = sys.argv[1]
 brand = sys.argv[2]
 if brand == "ATT": brand = "AT&T"
+if brand == "Arcteryx": brand = "Arc'teryx"
 category = sys.argv[3]
 index = sys.argv[4]
 
@@ -95,7 +96,7 @@ elif modelname == "gemma7bit":
     )
     
 gen_config = model.generation_config
-# gen_config.max_new_tokens = 64
+# gen_config.max_new_token s = 64
 gen_config.repetition_penalty = 1
 gen_config.temperature = 1.00
 
@@ -142,9 +143,17 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 # modelname = sys.argv[1]
 # if modelname == "gemma7bit":
 #     todos = [
-#             ("UPS", "parcel_service", 1)
+#             ("Arc'teryx", "outdoor_clothing", 5),
+#             ("Geico", "car_insurance", 1),
+#             ("Sharp", "microwave", 1),
+#             ("Samsung", "tv", 3),
+#             ("Rossignol", "skis", 4),
+#             ("Arc'teryx", "outdoor_clothing", 2),
+#             ("Lyft", "ride_sharing", 4),
+#             ("Dyson", "hair_dryer", 3),
+#             ("UPS", "parcel_service", 3),
+#             # ("UPS", "parcel_service", 1)
 #             # ("Dyson", "vacuum", 4),
-#             # ("USPS", "parcel_service", 1),
 #             # ("Shell", "gas_station", 1),
 #             # ("Mac", "laptop", 1),
 #             # ("Avis", "rental_car", 1),
@@ -260,7 +269,6 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 # modelname = sys.argv[1]
 
 # entries = os.listdir(f"long_completions_for_user_study/{modelname}")
-# entries.remove("AT&T__ISP__4.json")
 # entries.remove("gemma7bit_long_userstudy.json")
 # dataset = json.load(open('dataset.json'))
 
