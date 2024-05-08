@@ -27,6 +27,23 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         )
         
         return outputs[0]["generated_text"]
+    
+    else:
+
+        if gen_config is None:
+            gen_config = model.generation_config
+            gen_config.max_new_tokens = 64
+            
+        input_ids = input_ids.to(model.device).unsqueeze(0)
+        attn_masks = torch.ones_like(input_ids).to(model.device)
+        output_ids = model.generate(input_ids, 
+                                    attention_mask=attn_masks, 
+                                    generation_config=gen_config,
+                                    pad_token_id=tokenizer.pad_token_id)
+        
+        output = tokenizer.decode(output_ids[0]).strip()
+
+        return output
 
 def get_ids(tokenizer, vals, device):
     return torch.tensor(tokenizer(vals).input_ids).to(device)
