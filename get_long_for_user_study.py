@@ -6,6 +6,9 @@ from transformers import pipeline as transformer_pipeline
 import torch
 import random
 
+
+# # get those completions
+
 def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_config=None):
 
     if "gemma" in modelname:
@@ -32,7 +35,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
 
         if gen_config is None:
             gen_config = model.generation_config
-            gen_config.max_new_tokens = 64
+            # gen_config.max_new_tokens = 64
             
         input_ids = input_ids.to(model.device).unsqueeze(0)
         attn_masks = torch.ones_like(input_ids).to(model.device)
@@ -92,7 +95,7 @@ elif modelname == "gemma7bit":
     )
     
 gen_config = model.generation_config
-gen_config.max_new_tokens = 64
+# gen_config.max_new_tokens = 64
 gen_config.repetition_penalty = 1
 gen_config.temperature = 1.00
 
@@ -134,17 +137,20 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 (open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json', 'w')).write(json.dumps(completed_file, indent=4))
 
 
+# # init json files
+
 # modelname = sys.argv[1]
 # if modelname == "gemma7bit":
 #     todos = [
-#             ("Dyson", "vacuum", 4),
-#             ("USPS", "parcel_service", 1),
-#             ("Shell", "gas_station", 1),
-#             ("Mac", "laptop", 1),
-#             ("Avis", "rental_car", 1),
-#             ("Chrome", "browser", 2),
-#             ("Bose", "headphones", 4),
-#             ("AT&T", "ISP", 4)
+#             ("UPS", "parcel_service", 1)
+#             # ("Dyson", "vacuum", 4),
+#             # ("USPS", "parcel_service", 1),
+#             # ("Shell", "gas_station", 1),
+#             # ("Mac", "laptop", 1),
+#             # ("Avis", "rental_car", 1),
+#             # ("Chrome", "browser", 2),
+#             # ("Bose", "headphones", 4),
+#             # ("AT&T", "ISP", 4)
 #         ]
 # else:
 #     todos = [
@@ -179,12 +185,17 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 #     (open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{ind}.json', 'w')).write(json.dumps(res, indent=4))
 
 
+
+# # format for user study
+
 # modelname = sys.argv[1]
 
 # entries = os.listdir(f"long_completions_for_user_study/{modelname}")
+# entries.remove("AT&T__ISP__4.json")
+# entries.remove("gemma7bit_long_userstudy.json")
 # dataset = json.load(open('dataset.json'))
 
-# res = {}
+# res = dict()
 
 # for entry in entries:
 #     completions = json.load(open(f"long_completions_for_user_study/{modelname}/{entry}"))
@@ -224,6 +235,7 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 #             successful_responses.add(successful_response)
 #         # tries += 1
     
+#     successful_responses = list(successful_responses)
 
 #     res[key] = {
 #         "category": category,
@@ -234,6 +246,77 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 #         "perturbed_prompt": perturbed_prompt,
 #         "perturbed_prompt_loss": completions["perturbed_prompt_loss"],
 #         "successful_attack_responses": successful_responses
-#     }                           
+#     }        
+
+#     print(entry)                   
 
 # (open(f'long_completions_for_user_study/{modelname}/{modelname}_long_userstudy.json', 'w')).write(json.dumps(res, indent=4))
+
+
+
+# go through the file
+# compare success rate in long_completions_for_user_study/{modelname} vs adversarial_completions_{modelname}_short 
+
+# modelname = sys.argv[1]
+
+# entries = os.listdir(f"long_completions_for_user_study/{modelname}")
+# entries.remove("AT&T__ISP__4.json")
+# entries.remove("gemma7bit_long_userstudy.json")
+# dataset = json.load(open('dataset.json'))
+
+# res = dict()
+
+# for entry in entries:
+#     long_completions = json.load(open(f"long_completions_for_user_study/{modelname}/{entry}"))
+    
+#     brand = entry.split("__")[0]
+#     category = entry.split("__")[1]
+#     index = entry.split("__")[2].split(".")[0]
+#     base_prompt = long_completions["base_prompt"]
+#     perturbed_prompt = long_completions["perturbed_prompt"]
+
+#     target_strs = dataset[category]["brands"][brand]
+
+#     short_completions = json.load(open(f"adversarial_completions_{modelname}_short/{category}_{index}.json"))
+
+
+#     base_long_success = 0
+
+#     for base_long_completion in long_completions["base_prompt_completions"]:
+#         if "gemma" in modelname: base_long_completion = base_long_completion[57+len(base_prompt):]
+#         else: base_long_completion = base_long_completion[len(base_prompt):]
+#         if any([target in base_long_completion for target in target_strs]): base_long_success += 1
+
+#     base_long_success /= len(long_completions["base_prompt_completions"])
+    
+
+#     perturbed_long_success = 0
+
+#     for perturbed_long_completion in long_completions["perturbed_prompt_completions"]:
+#         if "gemma" in modelname: perturbed_long_completion = perturbed_long_completion[57+len(perturbed_prompt):]
+#         else: perturbed_long_completion = perturbed_long_completion[len(perturbed_prompt):]
+#         if any([target in perturbed_long_completion for target in target_strs]): perturbed_long_success += 1
+
+#     perturbed_long_success /= len(long_completions["perturbed_prompt_completions"])
+
+
+#     base_short_success = 0
+
+#     for base_short_completion in short_completions["base_prompt_completions"]:
+#         if "gemma" in modelname: base_short_completion = base_short_completion[57+len(base_prompt):]
+#         else: base_short_completion = base_short_completion[len(base_prompt):]
+#         if any([target in base_short_completion for target in target_strs]): base_short_success += 1
+
+#     base_short_success /= len(short_completions["base_prompt_completions"])
+    
+
+#     perturbed_short_success = 0
+
+#     for perturbed_short_completion in short_completions["all_perturbed_results"][brand]["perturbed_prompt_completions"]:
+#         if "gemma" in modelname: perturbed_short_completion = perturbed_short_completion[57+len(perturbed_prompt):]
+#         else: perturbed_short_completion = perturbed_short_completion[len(perturbed_prompt):]
+#         if any([target in perturbed_short_completion for target in target_strs]): perturbed_short_success += 1
+
+#     perturbed_short_success /= len(short_completions["all_perturbed_results"][brand]["perturbed_prompt_completions"])
+
+#     print(base_long_success - perturbed_long_success, base_short_success - perturbed_short_success, base_long_success, perturbed_long_success, base_short_success, perturbed_short_success, entry)
