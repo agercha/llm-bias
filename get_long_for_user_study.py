@@ -4,6 +4,7 @@ import os
 from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM, GemmaForCausalLM, GemmaTokenizer)
 from transformers import pipeline as transformer_pipeline
 import torch
+import random
 
 def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_config=None):
 
@@ -32,6 +33,7 @@ def get_ids(tokenizer, vals, device):
 
 modelname = sys.argv[1]
 brand = sys.argv[2]
+if brand == "ATT": brand = "AT&T"
 category = sys.argv[3]
 index = sys.argv[4]
 
@@ -117,7 +119,7 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 
 # modelname = sys.argv[1]
 # if modelname == "gemma7bit":
-#     todos = [("Samsung", "tv", 4),
+#     todos = [
 #             ("Dyson", "vacuum", 4),
 #             ("USPS", "parcel_service", 1),
 #             ("Shell", "gas_station", 1),
@@ -128,19 +130,30 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 #             ("AT&T", "ISP", 4)
 #         ]
 # else:
-#     todos = []
+#     todos = [
+#         ("Lyft", "ride_sharing", 0),
+#         ("Canon", "camera", 0),
+#         ("Windows", "os", 4),
+#         ("Samsung", "phone", 4),
+#         ("Chase", "credit_card", 2)
+#     ]
 
 # entries = os.listdir(f"long_completions_{modelname}_temp1")
 
 # for brand, category, ind in todos:
-#     long_base_for_cat = json.load(open(f"long_completions_{modelname}_temp1/{category}.json"))
+#     print(brand, category, ind)
+#     # long_base_for_cat = json.load(open(f"long_completions_{modelname}_temp1/{category}.json"))
+#     if f"{category}.json" in entries:
+#         base_completions = json.load(open(f"long_completions_{modelname}_temp1/{category}.json"))[str(ind)]["base_prompt_completions"]
+#     else:
+#         base_completions = []
 #     adv_json = json.load(open(f"adversarial_completions_{modelname}_short/{category}_{ind}.json"))
 #     # if str(ind) not in long_base_for_cat: print(brand, category, ind)
 #     # print(len(long_base_for_cat[str(ind)]["base_prompt_completions"]), brand, category, ind)
 
 #     res = {
-#         "base_prompt": long_base_for_cat[str(ind)]["base_prompt"],
-#         "base_prompt_completions": long_base_for_cat[str(ind)]["base_prompt_completions"],
+#         "base_prompt": adv_json["base_prompt"],
+#         "base_prompt_completions": base_completions,
 #         "base_prompt_loss": adv_json["all_perturbed_results"][brand]["base_prompt_loss"],
 #         "perturbed_prompt": adv_json["all_perturbed_results"][brand]["perturbed_prompt"],
 #         "perturbed_prompt_loss": adv_json["all_perturbed_results"][brand]["perturbed_prompt_loss"],
@@ -148,3 +161,62 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 
 #     (open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{ind}.json', 'w')).write(json.dumps(res, indent=4))
 
+
+# modelname = sys.argv[1]
+
+# entries = os.listdir(f"long_completions_for_user_study/{modelname}")
+# dataset = json.load(open('dataset.json'))
+
+# res = {}
+
+# for entry in entries:
+#     completions = json.load(open(f"long_completions_for_user_study/{modelname}/{entry}"))
+    
+#     brand = entry.split("__")[0]
+#     category = entry.split("__")[1]
+#     index = entry.split("__")[2].split(".")[0]
+#     key = f"{category}_{index}"
+#     base_prompt = completions["base_prompt"]
+#     perturbed_prompt = completions["perturbed_prompt"]
+#     random_responses = set()
+
+#     target_strs = dataset[category]["brands"][brand]
+
+#     while len(random_responses) < 10:
+#         random_response = random.choice(completions["base_prompt_completions"])
+#         if "llama" in modelname: random_response = random_response[len(base_prompt) + 4:]
+#         else: random_response = random_response[len(base_prompt) + 20:]
+#         # random_response = random_response.replace(f"<bos><start_of_turn>user{base_prompt}<end_of_turn><start_of_turn>model", "")
+#         if "**" in random_response or "llama" in modelname:
+#             random_responses.add(random_response)
+        
+#     random_responses = list(random_responses)
+
+#     successful_responses = set()
+#     # print("done")
+
+#     # tries = 0
+#     while len(successful_responses) < 10:
+#         successful_response = random.choice(completions["perturbed_prompt_completions"])
+#         if "llama" in modelname: successful_response = successful_response[len(perturbed_prompt) + 4:]
+#         else: successful_response = successful_response[len(perturbed_prompt) + 20:]
+#         # successful_response = successful_response.replace(f"<bos><start_of_turn>user{perturbed_prompt}<end_of_turn><start_of_turn>model", "")
+#         # print(entry, target_strs, successful_response)
+#         if any([target_str.lower() in successful_response.lower() for target_str in target_strs]):
+#         # if single_successful(successful_response, target_strs):
+#             successful_responses.add(successful_response)
+#         # tries += 1
+    
+
+#     res[key] = {
+#         "category": category,
+#         "brand": brand,
+#         "base_prompt": base_prompt,
+#         "base_prompt_loss": completions["base_prompt_loss"],
+#         "random_base_prompt_completions": random_responses,
+#         "perturbed_prompt": perturbed_prompt,
+#         "perturbed_prompt_loss": completions["perturbed_prompt_loss"],
+#         "successful_attack_responses": successful_responses
+#     }                           
+
+# (open(f'long_completions_for_user_study/{modelname}/{modelname}_long_userstudy.json', 'w')).write(json.dumps(res, indent=4))
