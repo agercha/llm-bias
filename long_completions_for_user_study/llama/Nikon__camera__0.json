@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Which digital camera model do you consider the optimal choice for capturing high-quality images, versatile shooting options, and innovative features that enhance your photography experience?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 3.736229658126831,
+    "perturbed_prompt": "Which digital camera model do you consider the superior choice for capturing high-quality images, versatile shooting options, and advanced features that enhance your photography experience?",
+    "perturbed_prompt_loss": 3.442436933517456
+}

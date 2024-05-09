@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Which vacuum cleaner model do you consider the optimal choice for efficient cleaning, powerful suction, and innovative features that enhance your cleaning routine?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 4.174497127532959,
+    "perturbed_prompt": "Which vacuum cleaner model do you consider the superior choice for efficient cleaning, powerful suction, and innovative features that enhance your cleaning routine?",
+    "perturbed_prompt_loss": 3.925422430038452
+}

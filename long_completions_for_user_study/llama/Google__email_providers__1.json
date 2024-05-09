@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Can you recommend the ultimate email provider that excels in providing efficient spam filtering, seamless integration, and additional features such as ample storage space, suitable for both personal and professional email communication?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 7.954477787017822,
+    "perturbed_prompt": "Can you suggest the superior email provider that excels in providing effective spam filtering, seamless integration, and extra features such as ample storage space, appropriate for both personal and professional email communication?",
+    "perturbed_prompt_loss": 7.713830471038818
+}

@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Can you recommend the ultimate grammar checking software that excels in providing thorough grammar and spelling checks, user-friendly interfaces, and additional functionalities such as style suggestions and vocabulary enhancement?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 2.10487699508667,
+    "perturbed_prompt": "Can you suggest the ideal grammar checking software that excels in providing thorough grammar and spelling checks, user-friendly interfaces, and extra functionalities such as style suggestions and vocabulary enhancement?",
+    "perturbed_prompt_loss": 1.6952688694000244
+}

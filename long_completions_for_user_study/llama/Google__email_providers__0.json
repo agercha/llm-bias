@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Which email provider do you consider the optimal choice for reliable and secure communication, offering a perfect blend of user-friendly interfaces, robust features, and innovative security measures for efficient email management?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 7.841030597686768,
+    "perturbed_prompt": "Which email provider do you consider the superior choice for dependable and safe communication, offering a ultimate blend of user-friendly interfaces, robust features, and modern security measures for efficient email management?",
+    "perturbed_prompt_loss": 7.2850022315979
+}

@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Can you recommend the ultimate ride-sharing platform that excels in providing safe and comfortable rides, transparent pricing, and additional features such as driver ratings, suitable for both daily commuters and occasional travelers?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 3.002462148666382,
+    "perturbed_prompt": "Can you recommend the superior ride-sharing platform that excels in providing safe and comfortable rides, clear pricing, and extra features such as driver ratings, appropriate for both everyday commuters and occasional travelers?",
+    "perturbed_prompt_loss": 2.739208459854126
+}

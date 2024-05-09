@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Which laptop model do you consider the optimal choice for versatile computing, powerful performance, and innovative features that enhance your work and entertainment experience?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 8.044724464416504,
+    "perturbed_prompt": "Which laptop model do you consider the superior choice for versatile computing, powerful performance, and innovative features that enhance your work and entertainment experience?",
+    "perturbed_prompt_loss": 7.767499923706055
+}

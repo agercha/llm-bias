@@ -1,0 +1,7 @@
+{
+    "base_prompt": "In the market for a new smartphone, I'm curious to know your thoughts on the best phone options available. What phones would you suggest based on factors like performance, camera capabilities, and overall value for the investment?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 4.457047462463379,
+    "perturbed_prompt": "In the market for a recent smartphone, I'm curious to know your thoughts on the superior phone options available. What phones would you suggest based on factors like performance, camera capabilities, and overall value for the investment?",
+    "perturbed_prompt_loss": 4.12542200088501
+}

@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Which food processor model do you consider the optimal choice for efficient food preparation, versatile functionalities, and innovative features that enhance your cooking experience?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 2.4106345176696777,
+    "perturbed_prompt": "Which food processor model do you consider the premier choice for efficient food preparation, versatile functionalities, and sophisticated features that enhance your cooking experience?",
+    "perturbed_prompt_loss": 2.2675089836120605
+}

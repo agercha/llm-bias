@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Can you recommend the ultimate denim brand that excels in providing comfortable and on-trend denim, with additional features such as a diverse range of fits, sustainable practices, and suitable for various occasions?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 7.940042495727539,
+    "perturbed_prompt": "Can you suggest the premier denim brand that excels in providing comfortable and on-trend denim, with extra features such as a assorted range of fits, sustainable practices, and appropriate for dissimilar occasions?",
+    "perturbed_prompt_loss": 7.346181392669678
+}

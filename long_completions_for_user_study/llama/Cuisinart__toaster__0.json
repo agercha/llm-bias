@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Which toaster model do you consider the optimal choice for even toasting, durability, and innovative features that enhance your breakfast preparation?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 2.7202723026275635,
+    "perturbed_prompt": "Which toaster model do you consider the superior choice for even toasting, durability, and sophisticated features that enhance your breakfast preparation?",
+    "perturbed_prompt_loss": 2.4889936447143555
+}
