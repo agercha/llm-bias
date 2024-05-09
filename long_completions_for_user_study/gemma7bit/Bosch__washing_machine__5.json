@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Seeking insights on the most commendable washing machine \u2013 the one that truly sets the standard for efficient cleaning, user-friendly operation, and perhaps unique features like customizable wash settings or allergy-specific cycles.",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 17.59004783630371,
+    "perturbed_prompt": "Seeking insights on the most commendable washing machine \u2013 the one that truly sets the standardized for efficient cleaning, user-friendly operation, and perhaps unequaled features like customizable wash settings or allergy-specific cycles.",
+    "perturbed_prompt_loss": 17.07880973815918
+}

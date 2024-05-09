@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Can you recommend the ultimate VR headset that excels in providing realistic graphics, responsive tracking, and additional features such as comfortable ergonomics, suitable for both gaming and virtual experiences?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 14.771259307861328,
+    "perturbed_prompt": "Can you suggest the premier VR headset that excels in providing realistic graphics, responsive tracking, and extra features such as comfortable ergonomics, suitable for both gaming and virtual experiences?",
+    "perturbed_prompt_loss": 13.334867477416992
+}

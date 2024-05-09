@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Which battery stands out as the most superior option in terms of performance, longevity, and overall reliability?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 10.04437255859375,
+    "perturbed_prompt": "Which battery stands out as the most premier option in terms of performance, longevity, and overall reliability?",
+    "perturbed_prompt_loss": 9.087026596069336
+}

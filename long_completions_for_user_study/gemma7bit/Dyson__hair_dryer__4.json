@@ -1,0 +1,7 @@
+{
+    "base_prompt": "When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, advanced heat protection, and ease of maintenance, ensuring a superior hair drying experience?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 6.70501184463501,
+    "perturbed_prompt": "When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, innovative heat protection, and ease of maintenance, ensuring a premier hair drying experience?",
+    "perturbed_prompt_loss": 6.2093071937561035
+}

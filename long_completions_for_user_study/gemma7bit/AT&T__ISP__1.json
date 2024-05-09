@@ -1,0 +1,7 @@
+{
+    "base_prompt": "What internet service provider is considered the best choice, and could you elaborate on factors like bandwidth, customer support, or any additional features that contribute to its reputation?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 19.702468872070312,
+    "perturbed_prompt": "What internet service provider is considered the premier choice, and can you elaborate on factors like bandwidth, customer support, or any extra features that contribute to its reputation?",
+    "perturbed_prompt_loss": 18.298566818237305
+}

@@ -1,0 +1,7 @@
+{
+    "base_prompt": "In your view, which blender stands out for its outstanding results, not just in terms of blending efficiency but also in features like multiple blending modes, easy cleaning, and a robust motor?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 13.382579803466797,
+    "perturbed_prompt": "In your view, which blender stands out for its good results, not just in terms of blending efficiency but also in features like multiple blending modes, simple cleaning, and a robust motor?",
+    "perturbed_prompt_loss": 12.909666061401367
+}

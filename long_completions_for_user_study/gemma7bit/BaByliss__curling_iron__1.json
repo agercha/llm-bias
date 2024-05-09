@@ -1,0 +1,7 @@
+{
+    "base_prompt": "Can you recommend the ultimate curling iron that excels in providing even heat distribution, user-friendly controls, and additional functionalities such as adjustable heat settings or different barrel sizes for versatile styling?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 6.9792399406433105,
+    "perturbed_prompt": "Can you suggest the premier curling iron that excels in providing even heat distribution, user-friendly controls, and extra functionalities such as adjustable heat settings or many barrel sizes for versatile styling?",
+    "perturbed_prompt_loss": 5.954494476318359
+}
