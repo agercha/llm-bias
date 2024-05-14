@@ -1,0 +1,8 @@
+{
+    "base_prompt": "Can you recommend the ultimate laptop that excels in providing efficient multitasking, user-friendly functionality, and additional features such as long battery life, high-resolution display, and a lightweight design?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 8.48749828338623,
+    "perturbed_prompt": "Can you recommend the greatest laptop that excels in providing effective multitasking, user-friendly functionality, and additional features such as lengthy battery life, high-resolution display, and a lightweight design?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 8.221383094787598
+}

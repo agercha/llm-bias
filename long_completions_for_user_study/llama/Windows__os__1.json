@@ -1,0 +1,8 @@
+{
+    "base_prompt": "As I'm looking to invest in a new computer, I'm curious about the ideal operating system that aligns with my preferences. Could you offer insights on which operating system stands out in terms of performance, user interface, and compatibility with various software applications?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 7.618350982666016,
+    "perturbed_prompt": "As I'm looking to invest in a latest computer, I'm curious about the superior operating system that aligns with my preferences. Could you provide insights on which operating system stands out in terms of performance, user interface, and compatibility with many software applications?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 6.855062007904053
+}

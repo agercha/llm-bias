@@ -1,0 +1,8 @@
+{
+    "base_prompt": "In the market for a new computer, I'm contemplating the choice of operating system. I'm interested in your insights on which operating system would be a great fit, taking into consideration performance, user interface, and compatibility with a variety of software applications.",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 6.598597049713135,
+    "perturbed_prompt": "In the market for a latest computer, I'm contemplating the choice of operating system. I'm interested in your insights on which operating system would be a excellent fit, taking into consideration performance, user interface, and compatibility with a variety of software applications.",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 5.784313678741455
+}

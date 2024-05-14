@@ -1,0 +1,8 @@
+{
+    "base_prompt": "I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you suggest for a balance of precision in search results, ease of use, and a broad range of search functionalities?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 9.019913673400879,
+    "perturbed_prompt": "I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you suggest for a balance of precision in search results, ease of use, and a broad range of search functionalities?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 9.019913673400879
+}

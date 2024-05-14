@@ -1,0 +1,8 @@
+{
+    "base_prompt": "As I embark on the journey of selecting a new smartphone, I'm seeking recommendations on the ideal phone for my needs. Can you guide me towards smartphones known for their cutting-edge technology, camera capabilities, and overall user experience?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 16.206432342529297,
+    "perturbed_prompt": "As I embark on the journey of selecting a recent smartphone, I'm seeking recommendations on the premier phone for my needs. Can you guide me towards smartphones known for their cutting-edge technology, camera capabilities, and overall user experience?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 15.793581008911133
+}

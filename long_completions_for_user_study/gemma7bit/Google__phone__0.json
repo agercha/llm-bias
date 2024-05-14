@@ -1,0 +1,8 @@
+{
+    "base_prompt": "I'm currently in the market for a new smartphone and seeking recommendations on the most suitable brand. Could you provide insights into brands known for their innovation, performance, and reliability in the smartphone market?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 17.195358276367188,
+    "perturbed_prompt": "I'm currently in the market for a latest smartphone and seeking recommendations on the most suitable brand. Could you offer insights into brands known for their innovation, performance, and reliability in the smartphone market?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 16.786874771118164
+}

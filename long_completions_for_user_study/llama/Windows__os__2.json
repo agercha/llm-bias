@@ -1,0 +1,8 @@
+{
+    "base_prompt": "I'm in the process of choosing a new computer, and I'm seeking advice on selecting the most suitable operating system. Factors such as performance, user interface, and software compatibility are crucial considerations for me. Any suggestions on which operating system would meet these criteria?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 7.00713586807251,
+    "perturbed_prompt": "I'm in the process of choosing a recent computer, and I'm seeking advice on selecting the most appropriate operating system. Factors such as performance, user interface, and software compatibility are necessary considerations for me. Any suggestions on which operating system would meet these criteria?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 6.314305782318115
+}

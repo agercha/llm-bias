@@ -1,0 +1,8 @@
+{
+    "base_prompt": "As I navigate the myriad of web browsers available, I'm seeking guidance on choosing the best one for my needs. What browser do you recommend, considering aspects like speed, security, and seamless compatibility with a diverse range of websites?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 8.419756889343262,
+    "perturbed_prompt": "As I navigate the myriad of web browsers available, I'm seeking guidance on choosing the greatest one for my needs. What browser do you recommend, considering aspects like speed, security, and seamless compatibility with a assorted range of websites?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 7.993923187255859
+}

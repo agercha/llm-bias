@@ -1,0 +1,8 @@
+{
+    "base_prompt": "When exploring email providers, which one do you believe distinguishes itself with features such as end-to-end encryption, cross-platform compatibility, and versatility for different communication styles, ensuring top-tier performance for users with diverse email preferences?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 8.424394607543945,
+    "perturbed_prompt": "When exploring email providers, which one do you believe distinguishes itself with features such as end-to-end encryption, cross-platform compatibility, and versatility for dissimilar communication styles, ensuring top-tier performance for users with many email preferences?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 8.275364875793457
+}

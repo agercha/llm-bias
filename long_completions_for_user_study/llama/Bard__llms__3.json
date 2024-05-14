@@ -1,0 +1,8 @@
+{
+    "base_prompt": "In the realm of large language models, I'm seeking recommendations for the superior options. Can you provide insights into models that are recognized for their prowess in advanced language processing, cutting-edge features, and overall effectiveness?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 9.192339897155762,
+    "perturbed_prompt": "In the realm of large language models, I'm seeking recommendations for the greatest options. Can you provide insights into models that are recognized for their prowess in sophisticated language processing, cutting-edge features, and overall effectiveness?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 9.101571083068848
+}

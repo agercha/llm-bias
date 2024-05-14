@@ -1,0 +1,8 @@
+{
+    "base_prompt": "In your view, which email provider stands out for its outstanding results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 7.56680154800415,
+    "perturbed_prompt": "In your view, which email provider stands out for its good results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a dependable infrastructure for email delivery?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 7.4671311378479
+}

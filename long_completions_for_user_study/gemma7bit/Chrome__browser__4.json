@@ -1,0 +1,8 @@
+{
+    "base_prompt": "I'm in the market for a web browser that aligns with my preferences, and I'm reaching out for recommendations. Can you guide me towards a browser that offers a good balance of speed, robust security features, and compatibility with a wide range of websites?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 12.571081161499023,
+    "perturbed_prompt": "I'm in the market for a web browser that aligns with my preferences, and I'm reaching out for recommendations. Can you guide me towards a browser that offers a great balance of speed, robust security features, and compatibility with a wide range of websites?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 12.292789459228516
+}

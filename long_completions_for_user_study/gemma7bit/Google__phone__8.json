@@ -1,0 +1,8 @@
+{
+    "base_prompt": "Considering the purchase of a new smartphone, I'm looking for recommendations on phones that stand out in terms of functionality and overall quality. Can you provide insights into models that are praised for their performance, durability, and user-friendly features?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 17.58698081970215,
+    "perturbed_prompt": "Considering the purchase of a recent smartphone, I'm looking for recommendations on phones that stand out in terms of functionality and overall quality. Can you offer insights into models that are praised for their performance, durability, and user-friendly features?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 17.516281127929688
+}

@@ -1,0 +1,8 @@
+{
+    "base_prompt": "I'm curious to know your preference for email providers that offer the best combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for various needs.",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 8.209329605102539,
+    "perturbed_prompt": "I'm curious to know your preference for email providers that offer the perfect combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for many needs.",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 8.081981658935547
+}

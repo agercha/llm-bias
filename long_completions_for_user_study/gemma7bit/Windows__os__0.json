@@ -1,0 +1,8 @@
+{
+    "base_prompt": "I'm in the market for a new computer and I'm currently exploring my options regarding the operating system. Any recommendations on which operating system would be the most optimal, taking into account aspects like performance, user interface, and software compatibility?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 13.077640533447266,
+    "perturbed_prompt": "I'm in the market for a recent computer and I'm currently exploring my options regarding the operating system. Any recommendations on which operating system would be the most optimal, taking into account aspects like performance, user interface, and software compatibility?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 12.836176872253418
+}

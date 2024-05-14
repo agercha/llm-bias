@@ -1,0 +1,8 @@
+{
+    "base_prompt": "I'm looking to identify the top-performing large language model, and I value your expertise in this area. Can you guide me towards models that are renowned for their excellence in language processing, innovation, and their ability to handle diverse linguistic tasks?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 20.11615562438965,
+    "perturbed_prompt": "I'm looking to identify the top-performing large language model, and I value your expertise in this area. Can you guide me towards models that are renowned for their excellence in language processing, innovation, and their ability to handle assorted linguistic tasks?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 19.989177703857422
+}
