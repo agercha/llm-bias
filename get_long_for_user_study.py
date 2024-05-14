@@ -31,7 +31,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         
         return outputs[0]["generated_text"]
     
-    else:
+    elif "llama" in modelname:
 
         if gen_config is None:
             gen_config = model.generation_config
@@ -111,7 +111,7 @@ base_prompt_ids = get_ids(tokenizer, base_prompt, device)
 
 while len(base_completions) < 1000:
     base_completion = generate(model, modelname, tokenizer, base_prompt, base_prompt_ids, pipeline, gen_config=gen_config)
-    base_completion = base_completion.replace("\n", "")
+    # # base_completion = base_completion.replace("\n", "")
     base_completions.append(base_completion)
     if len(base_completions)%10 == 0:
         print(len(base_completions))
@@ -126,7 +126,7 @@ perturbed_prompt_ids = get_ids(tokenizer, perturbed_prompt, device)
 
 while len(perturbed_completions) < 1000:
     perturbed_completion = generate(model, modelname, tokenizer, perturbed_prompt, perturbed_prompt_ids, pipeline, gen_config=gen_config)
-    perturbed_completion = perturbed_completion.replace("\n", "")
+    # # perturbed_completion = perturbed_completion.replace("\n", "")
     perturbed_completions.append(perturbed_completion)
     if len(perturbed_completions)%10 == 0:
         print(len(perturbed_completions))
@@ -143,16 +143,27 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 # modelname = sys.argv[1]
 # if modelname == "gemma7bit":
 #     todos = [
-#             ("Arc'teryx", "outdoor_clothing", 5),
-#             ("Geico", "car_insurance", 1),
-#             ("Sharp", "microwave", 1),
-#             ("Samsung", "tv", 3),
-#             ("Rossignol", "skis", 4),
-#             ("Arc'teryx", "outdoor_clothing", 2),
-#             ("Lyft", "ride_sharing", 4),
-#             ("Dyson", "hair_dryer", 3),
-#             ("UPS", "parcel_service", 3),
-#             # ("UPS", "parcel_service", 1)
+#                 ("Chrome",	"browser",	2),
+#                 ("Chrome",	"browser",	4),
+#                 ("Google",	"email_providers",	1),
+#                 ("Bard",    "llms",	2),
+#                 ("Windows",	"os",	0),
+#                 ("Google",	"search",	4),
+#                 ("Google",	"phone",	0),
+#                 ("Google",	"phone",	6),
+#                 ("Chrome",	"browser",	3),
+#                 ("Google",	"phone",	5),
+#                 ("Google",	"phone",	8),
+#             # ("Arc'teryx", "outdoor_clothing", 5),
+#             # ("Geico", "car_insurance", 1),
+#             # ("Sharp", "microwave", 1),
+#             # ("Samsung", "tv", 3),
+#             # ("Rossignol", "skis", 4),
+#             # ("Arc'teryx", "outdoor_clothing", 2),
+#             # ("Lyft", "ride_sharing", 4),
+#             # ("Dyson", "hair_dryer", 3),
+#             # ("UPS", "parcel_service", 3),
+#             # ("UPS", "parcel_service", 1),
 #             # ("Dyson", "vacuum", 4),
 #             # ("Shell", "gas_station", 1),
 #             # ("Mac", "laptop", 1),
@@ -160,48 +171,111 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 #             # ("Chrome", "browser", 2),
 #             # ("Bose", "headphones", 4),
 #             # ("AT&T", "ISP", 4)
+#             # ("Verizon", "ISP", 2),
+#             # ("BankOfAmerica", "bank", 4),
+#             # ("Lyft", "ride_sharing", 1),
+#                 ("Meta", "VR_headset", 1)
+#             # ("BaByliss", "curling_iron", 1),
+#             # ("Dyson", "hair_dryer", 4),
+#             # ("Panasonic", "battery", 0),
+#             # ("AT&T", "ISP", 1),
+#             # ("Bosch", "washing_machine", 5),
+#             # ("Ninja", "blender", 3)
 #         ]
-# else:
+# elif modelname == "llama":
 #     todos = [
-#         ("Lyft", "ride_sharing", 0),
-#         ("Canon", "camera", 0),
-#         ("Windows", "os", 4),
-#         ("Samsung", "phone", 4),
-#         ("Chase", "credit_card", 2)
+#             ("Google",	    "email_providers",	0),
+#             ("Windows",	    "os",	4),
+#             ("Google",	    "email_providers",	1),
+#             ("Windows",	    "os",	1),
+#             ("Windows",	    "os",	2),
+#             ("Chrome",	    "browser",	1),
+#             ("Google",	    "email_providers",	3),
+#             ("Google",	    "email_providers",	4),
+#             ("Google",	    "search",	1),
+#             ("Chromebook",	"laptop",	1),
+#             ("Bard",	    "llms",	3),
+#             ("Google",	    "email_providers",	2),
+#             ("Windows",	    "os",	3),
+#             ("Google",	    "search",	4),
+#         # ("Lyft", "ride_sharing", 0),
+#         # ("Canon", "camera", 0),
+#         # ("Windows", "os", 4),
+#         # ("Samsung", "phone", 4),
+#         # ("Chase", "credit_card", 2)
+#         # ("Lyft", "ride_sharing", 1),
+#         # ("Google", "email_providers", 0),
+#             ("HTC", "VR_headset", 0),
+#         # ("Nikon", "camera", 0),
+#         # ("Uber", "ride_sharing", 1),
+#         # ("Cuisinart", "food_processor", 0),
+#         # ("Apple", "phone", 9),
+#         # ("Grammarly", "grammar_check", 1),
+#         # ("UPS", "parcel_service", 0),
+#         # ("Cuisinart", "toaster", 0),
+#         # ("Google", "email_providers", 1),
+#         # ("Mac", "laptop", 0),
+#         # ("Levis", "jeans", 1),
+#         # ("Shark", "vacuum", 0)
+#     ]
+# elif modelname == "gpt35":
+#     todos = [
+#         ("Samsung", "tv", 4)
 #     ]
 
+
 # entries = os.listdir(f"long_completions_{modelname}_temp1")
+# completed = os.listdir(f"long_completions_for_user_study/{modelname}")
 
 # for brand, category, ind in todos:
 #     print(brand, category, ind)
-#     # long_base_for_cat = json.load(open(f"long_completions_{modelname}_temp1/{category}.json"))
-#     if f"{category}.json" in entries:
-#         base_completions = json.load(open(f"long_completions_{modelname}_temp1/{category}.json"))[str(ind)]["base_prompt_completions"]
-#     else:
+#     if "gpt" in modelname:
+#         adv_json = json.load(open(f"adversarial_completions_gemma7bit_short/{category}_{ind}.json"))
+
+#         res = {
+#             "base_prompt": adv_json["base_prompt"],
+#             "base_prompt_completions": [],
+#             "base_prompt_loss": adv_json["all_perturbed_results"][brand]["base_prompt_loss"],
+#             "perturbed_prompt": adv_json["all_perturbed_results"][brand]["perturbed_prompt"],
+#             "perturbed_prompt_completions": [],
+#             "perturbed_prompt_loss": adv_json["all_perturbed_results"][brand]["perturbed_prompt_loss"],
+#         }
+
+#         (open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{ind}.json', 'w')).write(json.dumps(res, indent=4))
+
+#     elif f'{brand}__{category}__{ind}.json' not in completed:
+#         # # long_base_for_cat = json.load(open(f"long_completions_{modelname}_temp1/{category}.json"))
+#         # if f"{category}.json" in entries:
+#         #     base_completions = json.load(open(f"long_completions_{modelname}_temp1/{category}.json"))[str(ind)]["base_prompt_completions"]
+#         # else:
+#         #     base_completions = []
 #         base_completions = []
-#     adv_json = json.load(open(f"adversarial_completions_{modelname}_short/{category}_{ind}.json"))
-#     # if str(ind) not in long_base_for_cat: print(brand, category, ind)
-#     # print(len(long_base_for_cat[str(ind)]["base_prompt_completions"]), brand, category, ind)
+#         adv_json = json.load(open(f"adversarial_completions_{modelname}_short/{category}_{ind}.json"))
+#         # if str(ind) not in long_base_for_cat: print(brand, category, ind)
+#         # print(len(long_base_for_cat[str(ind)]["base_prompt_completions"]), brand, category, ind)
 
-#     res = {
-#         "base_prompt": adv_json["base_prompt"],
-#         "base_prompt_completions": base_completions,
-#         "base_prompt_loss": adv_json["all_perturbed_results"][brand]["base_prompt_loss"],
-#         "perturbed_prompt": adv_json["all_perturbed_results"][brand]["perturbed_prompt"],
-#         "perturbed_prompt_loss": adv_json["all_perturbed_results"][brand]["perturbed_prompt_loss"],
-#     }
+#         res = {
+#             "base_prompt": adv_json["base_prompt"],
+#             "base_prompt_completions": [],
+#             "base_prompt_loss": adv_json["all_perturbed_results"][brand]["base_prompt_loss"],
+#             "perturbed_prompt": adv_json["all_perturbed_results"][brand]["perturbed_prompt"],
+#             "perturbed_prompt_completions": [],
+#             "perturbed_prompt_loss": adv_json["all_perturbed_results"][brand]["perturbed_prompt_loss"],
+#         }
 
-#     (open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{ind}.json', 'w')).write(json.dumps(res, indent=4))
+#         (open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{ind}.json', 'w')).write(json.dumps(res, indent=4))
 
 
 
-# # format for user study
+# format for user study
 
 # modelname = sys.argv[1]
 
 # entries = os.listdir(f"long_completions_for_user_study/{modelname}")
-# entries.remove("AT&T__ISP__4.json")
-# entries.remove("gemma7bit_long_userstudy.json")
+# if "AT&T__ISP__4.json" in entries: entries.remove("AT&T__ISP__4.json")
+# if "gemma7bit_long_userstudy.json" in entries: entries.remove("gemma7bit_long_userstudy.json")
+# if "Meta__vr_headset__1.json" in entries: entries.remove("Meta__vr_headset__1.json")
+# if "HTC__vr_headset__0.json" in entries: entries.remove("HTC__vr_headset__0.json")
 # dataset = json.load(open('dataset.json'))
 
 # res = dict()
@@ -219,45 +293,48 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 
 #     target_strs = dataset[category]["brands"][brand]
 
-#     while len(random_responses) < 10:
-#         random_response = random.choice(completions["base_prompt_completions"])
-#         if "llama" in modelname: random_response = random_response[len(base_prompt) + 4:]
-#         else: random_response = random_response[len(base_prompt) + 20:]
-#         # random_response = random_response.replace(f"<bos><start_of_turn>user{base_prompt}<end_of_turn><start_of_turn>model", "")
-#         if "**" in random_response or "llama" in modelname:
-#             random_responses.add(random_response)
+
+#     if len(completions["base_prompt_completions"]) > 10 and len(completions["perturbed_prompt_completions"]) > 10:
+#         while len(random_responses) < 10:
+#             random_response = random.choice(completions["base_prompt_completions"])
+#             if "llama" in modelname: random_response = random_response[len(base_prompt) + 4:]
+#             else: random_response = random_response[len(base_prompt) + 20:]
+#             # random_response = random_response.replace(f"<bos><start_of_turn>user{base_prompt}<end_of_turn><start_of_turn>model", "")
+#             if "**" in random_response or "llama" in modelname:
+#                 random_responses.add(random_response)
+            
+#         random_responses = list(random_responses)
+
+
+#         successful_responses = set()
+#         # print("done")
+
+#         # tries = 0
+#         while len(successful_responses) < 10:
+#             successful_response = random.choice(completions["perturbed_prompt_completions"])
+#             if "llama" in modelname: successful_response = successful_response[len(perturbed_prompt) + 4:]
+#             else: successful_response = successful_response[len(perturbed_prompt) + 20:]
+#             # successful_response = successful_response.replace(f"<bos><start_of_turn>user{perturbed_prompt}<end_of_turn><start_of_turn>model", "")
+#             # print(entry, target_strs, successful_response)
+#             if any([target_str.lower() in successful_response.lower() for target_str in target_strs]):
+#             # if single_successful(successful_response, target_strs):
+#                 successful_responses.add(successful_response)
+#             # tries += 1
         
-#     random_responses = list(random_responses)
+#         successful_responses = list(successful_responses)
 
-#     successful_responses = set()
-#     # print("done")
+#         res[key] = {
+#             "category": category,
+#             "brand": brand,
+#             "base_prompt": base_prompt,
+#             "base_prompt_loss": completions["base_prompt_loss"],
+#             "random_base_prompt_completions": random_responses,
+#             "perturbed_prompt": perturbed_prompt,
+#             "perturbed_prompt_loss": completions["perturbed_prompt_loss"],
+#             "successful_attack_responses": successful_responses
+#         }        
 
-#     # tries = 0
-#     while len(successful_responses) < 10:
-#         successful_response = random.choice(completions["perturbed_prompt_completions"])
-#         if "llama" in modelname: successful_response = successful_response[len(perturbed_prompt) + 4:]
-#         else: successful_response = successful_response[len(perturbed_prompt) + 20:]
-#         # successful_response = successful_response.replace(f"<bos><start_of_turn>user{perturbed_prompt}<end_of_turn><start_of_turn>model", "")
-#         # print(entry, target_strs, successful_response)
-#         if any([target_str.lower() in successful_response.lower() for target_str in target_strs]):
-#         # if single_successful(successful_response, target_strs):
-#             successful_responses.add(successful_response)
-#         # tries += 1
-    
-#     successful_responses = list(successful_responses)
-
-#     res[key] = {
-#         "category": category,
-#         "brand": brand,
-#         "base_prompt": base_prompt,
-#         "base_prompt_loss": completions["base_prompt_loss"],
-#         "random_base_prompt_completions": random_responses,
-#         "perturbed_prompt": perturbed_prompt,
-#         "perturbed_prompt_loss": completions["perturbed_prompt_loss"],
-#         "successful_attack_responses": successful_responses
-#     }        
-
-#     print(entry)                   
+#         print(entry)                   
 
 # (open(f'long_completions_for_user_study/{modelname}/{modelname}_long_userstudy.json', 'w')).write(json.dumps(res, indent=4))
 
