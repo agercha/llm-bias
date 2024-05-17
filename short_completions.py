@@ -272,7 +272,7 @@ def run(modelname, category):
 
             while len(base_completions) < test_size:
                 base_completion = generate(model, modelname, tokenizer, base_prompt, base_prompt_ids, pipeline, gen_config=gen_config)
-                base_completion = base_completion.replace("\n", "")
+                # base_completion = base_completion.replace("\n", "")
                 base_completions.append(base_completion)
 
                 print(base_completion)
@@ -295,52 +295,70 @@ def run(modelname, category):
             res = json.load(open(f'adversarial_completions_{modelname}_short/{category}_{base_prompt_original_ind}.json'))
 
         for brand in list(dataset[category]["brands"].keys()):
+
+            target_strs = dataset[category]["brands"][brand]
             
+            perturbed_prompts = get_replacements(base_prompt, thesarus)
+
+            base_prompt_ind = perturbed_prompts.index(base_prompt.strip())
+
+            losses = torch.zeros(len(perturbed_prompts))
+
+            for prompt_ind, curr_prompt in enumerate(perturbed_prompts):
+
+                if "gemma7bit" in modelname:
+                    messages = [
+                        {"role": "user", "content":curr_prompt},
+                    ]
+                    curr_prompt = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+
+                losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
+
+            # res["base_prompt_loss"] = losses[base_prompt_ind].item()
+
+            perturbed_prompt_ind = torch.argmin(losses).item()
+            perturbed_prompt = perturbed_prompts[perturbed_prompt_ind]
+            perturbed_prompt_ids = get_ids(tokenizer, perturbed_prompt, device)
+
+
             if brand not in res["all_perturbed_results"]:
-
-                target_strs = dataset[category]["brands"][brand]
-                
-                perturbed_prompts = get_replacements(base_prompt, thesarus)
-
-                base_prompt_ind = perturbed_prompts.index(base_prompt.strip())
-
-                losses = torch.zeros(len(perturbed_prompts))
-
-                for prompt_ind, curr_prompt in enumerate(perturbed_prompts):
-
-                    if "gemma7bit" in modelname:
-                        messages = [
-                            {"role": "user", "content":curr_prompt},
-                        ]
-                        curr_prompt = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-
-                    losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
-
-                # res["base_prompt_loss"] = losses[base_prompt_ind].item()
-
-                perturbed_prompt_ind = torch.argmin(losses).item()
-                perturbed_prompt = perturbed_prompts[perturbed_prompt_ind]
-                perturbed_prompt_ids = get_ids(tokenizer, perturbed_prompt, device)
-
                 perturbed_completions = []
+            else:
+                perturbed_completions = res["all_perturbed_results"][brand]["perturbed_prompt_completions"]
 
-                while len(perturbed_completions) < test_size:
-                    perturbed_completion = generate(model, modelname, tokenizer, perturbed_prompt, perturbed_prompt_ids, pipeline, gen_config=gen_config)
-                    perturbed_completion = perturbed_completion.replace("\n", "")
-                    perturbed_completions.append(perturbed_completion)
+            while len(perturbed_completions) < test_size:
+                perturbed_completion = generate(model, modelname, tokenizer, perturbed_prompt, perturbed_prompt_ids, pipeline, gen_config=gen_config)
+                # perturbed_completion = perturbed_completion.replace("\n", "")
+                perturbed_completions.append(perturbed_completion)
 
-                    print(perturbed_completion)
+                print(perturbed_completion)
 
-                res["all_perturbed_results"][brand] = {
-                    "perturbed_prompt": perturbed_prompt,
-                    "perturbed_prompt_completions": perturbed_completions,
-                    "base_prompt_loss": losses[base_prompt_ind].item(),
-                    "perturbed_prompt_loss": torch.min(losses).item()
-                }
+            reversed_perturbed_completions = []
 
-                print("done w perturbed")
+            reversed_perturbed_prompt_ind = torch.argmax(losses).item()
+            reversed_perturbed_prompt = perturbed_prompts[reversed_perturbed_prompt_ind]
+            reversed_perturbed_prompt_ids = get_ids(tokenizer, reversed_perturbed_prompt, device)
 
-                (open(f'adversarial_completions_{modelname}_short/{category}_{base_prompt_original_ind}.json', 'w')).write(json.dumps(res, indent=4))
+            while len(reversed_perturbed_completions) < test_size:
+                reversed_perturbed_completion = generate(model, modelname, tokenizer, reversed_perturbed_prompt, reversed_perturbed_prompt_ids, pipeline, gen_config=gen_config)
+                # perturbed_completion = perturbed_completion.replace("\n", "")
+                reversed_perturbed_completions.append(reversed_perturbed_completion)
+
+                print(reversed_perturbed_completion)
+
+            res["all_perturbed_results"][brand] = {
+                "perturbed_prompt": perturbed_prompt,
+                "perturbed_prompt_completions": perturbed_completions,
+                "base_prompt_loss": losses[base_prompt_ind].item(),
+                "perturbed_prompt_loss": torch.min(losses).item(),
+                "reversed_perturbed_prompt": reversed_perturbed_prompt,
+                "reversed_perturbed_prompt_completions": reversed_perturbed_completions,
+                "reversed_perturbed_prompt_loss": torch.max(losses).item()
+            }
+
+            print("done w perturbed")
+
+            (open(f'adversarial_completions_{modelname}_short/{category}_{base_prompt_original_ind}.json', 'w')).write(json.dumps(res, indent=4))
             
                 
 
