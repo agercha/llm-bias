@@ -321,7 +321,7 @@ def run(modelname, category):
 
                 while len(base_completions) < test_size:
                     base_completion = generate(model, modelname, tokenizer, base_prompt, base_prompt_ids, pipeline, gen_config=gen_config)
-                    base_completion = base_completion.replace("\n", "")
+                    # base_completion = base_completion.replace("\n", "")
                     base_completions.append(base_completion)
 
                     print(base_completion)
@@ -330,7 +330,7 @@ def run(modelname, category):
 
                 while len(perturbed_completions) < test_size:
                     perturbed_completion = generate(model, modelname, tokenizer, perturbed_prompt, perturbed_prompt_ids, pipeline, gen_config=gen_config)
-                    perturbed_completion = perturbed_completion.replace("\n", "")
+                    # perturbed_completion = perturbed_completion.replace("\n", "")
                     perturbed_completions.append(perturbed_completion)
 
                     print(perturbed_completion)
