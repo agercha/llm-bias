@@ -337,8 +337,13 @@ def run(modelname, category):
 
             if brand not in res["all_perturbed_results"]:
                 perturbed_completions = []
+                reversed_perturbed_completions = []
             else:
                 perturbed_completions = res["all_perturbed_results"][brand]["perturbed_prompt_completions"]
+                if "reversed_perturbed_prompt_completions" in res["all_perturbed_results"][brand]:
+                    reversed_perturbed_completions = res["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]
+                else: 
+                    reversed_perturbed_completions = []
 
             while len(perturbed_completions) < test_size:
                 perturbed_completion = generate(model, modelname, tokenizer, perturbed_prompt, perturbed_prompt_ids, pipeline, gen_config=gen_config)
@@ -346,11 +351,6 @@ def run(modelname, category):
                 perturbed_completions.append(perturbed_completion)
 
                 print(perturbed_completion)
-
-            if "reversed_perturbed_prompt_completions" in res["all_perturbed_results"][brand]:
-                reversed_perturbed_completions = res["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]
-            else: 
-                reversed_perturbed_completions = []
 
             reversed_perturbed_prompt_ind = torch.argmax(losses).item()
             reversed_perturbed_prompt = perturbed_prompts[reversed_perturbed_prompt_ind]
