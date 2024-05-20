@@ -1,0 +1,8 @@
+{
+    "base_prompt": "Which VR headset model do you consider the optimal choice for immersive virtual reality experiences, offering a perfect blend of visual quality, comfort, and innovative features for enthusiasts and gamers alike?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 4.314306259155273,
+    "perturbed_prompt": "Which VR headset model do you consider the superior choice for immersive virtual reality experiences, offering a ideal blend of visual quality, comfort, and sophisticated features for enthusiasts and gamers alike?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 3.5108745098114014
+}
