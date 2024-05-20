@@ -179,6 +179,18 @@ def run(modelname, category):
         pipeline = None
     elif modelname == "llama3":
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B"
+        model = LlamaForCausalLM.from_pretrained(
+                model_path,
+                torch_dtype=torch.float16,
+                trust_remote_code=True,
+            ).to("cuda:0").eval()
+
+        tokenizer = AutoTokenizer.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                use_fast=False
+            )
+        pipeline = None
     elif modelname == "gemma2b":
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-2b"
         model = GemmaForCausalLM.from_pretrained(
