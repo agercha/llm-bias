@@ -79,6 +79,20 @@ elif modelname == "llama":
             use_fast=False
         )
     pipeline = None
+elif modelname == "llama3":
+    model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B"
+    model = LlamaForCausalLM.from_pretrained(
+            model_path,
+            torch_dtype=torch.float16,
+            trust_remote_code=True,
+        ).to("cuda:0").eval()
+
+    tokenizer = AutoTokenizer.from_pretrained(
+            model_path,
+            trust_remote_code=True,
+            use_fast=False
+        )
+    pipeline = None
 elif modelname == "gemma7bit":
     model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b-it"
     model = GemmaForCausalLM.from_pretrained(
@@ -105,7 +119,8 @@ if "llama" not in modelname:
 
 completed_file = json.load(open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json'))
 
-base_completions = completed_file["base_prompt_completions"]
+# base_completions = completed_file["base_prompt_completions"]
+base_completions = []
 base_prompt = completed_file["base_prompt"]
 base_prompt_ids = get_ids(tokenizer, base_prompt, device)
 
@@ -222,6 +237,11 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 #     todos = [
 #         ("Samsung", "tv", 4)
 #     ]
+# elif modelname == "llama3":
+#     todos = [
+#         ("HTC", "VR_headset", 0),
+#         ("Nikon", "camera", 0)
+#     ]
 
 
 # entries = os.listdir(f"long_completions_{modelname}_temp1")
@@ -271,14 +291,34 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 
 # modelname = sys.argv[1]
 
-# entries = os.listdir(f"long_completions_for_user_study/{modelname}")
+# # if sys.argv[2] == "True": sampled = True
+# # else: sampled = False
+
+# # entries = os.listdir(f"long_completions_for_user_study/{modelname}")
+# if modelname == "gemma7bit":
+#     entries = [
+#         "Samsung__tv__4.json",
+#         "Verizon__ISP__2.json",
+#         # "Mac__laptop__1.json",
+#         "UPS__parcel_service__1.json",
+#         # "BankOfAmerica__bank__4.json",
+#         # "Dyson__vacuum__4.json"
+#         ]
+# else:
+#     entries = [
+#         "Samsung__phone__4.json",
+#         "Mac__laptop__0.json",
+#         "UPS__parcel_service__0.json" 
+#         ]
 # if "AT&T__ISP__4.json" in entries: entries.remove("AT&T__ISP__4.json")
 # if "gemma7bit_long_userstudy.json" in entries: entries.remove("gemma7bit_long_userstudy.json")
+# if "llama_long_userstudy.json" in entries: entries.remove("llama_long_userstudy.json")
 # if "Meta__vr_headset__1.json" in entries: entries.remove("Meta__vr_headset__1.json")
 # if "HTC__vr_headset__0.json" in entries: entries.remove("HTC__vr_headset__0.json")
 # dataset = json.load(open('dataset.json'))
 
 # res = dict()
+# sampled_res = dict()
 
 # for entry in entries:
 #     completions = json.load(open(f"long_completions_for_user_study/{modelname}/{entry}"))
@@ -293,50 +333,100 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 
 #     target_strs = dataset[category]["brands"][brand]
 
+#     if "gemma" in modelname: 
+#         base_completions = [completion[completion.index("<start_of_turn>model") + 20:].strip() for completion in completions["base_prompt_completions"]]
+#         pertubed_completions = [completion[completion.index("<start_of_turn>model") + 20:].strip() for completion in completions["perturbed_prompt_completions"]]
+#     else:
+#         base_completions = [completion[len(base_prompt):] for completion in completions["base_prompt_completions"]]
+#         pertubed_completions = [completion[len(perturbed_prompt):] for completion in completions["perturbed_prompt_completions"]]
 
-#     if len(completions["base_prompt_completions"]) > 10 and len(completions["perturbed_prompt_completions"]) > 10:
-#         while len(random_responses) < 10:
-#             random_response = random.choice(completions["base_prompt_completions"])
-#             if "llama" in modelname: random_response = random_response[len(base_prompt) + 4:]
-#             else: random_response = random_response[len(base_prompt) + 20:]
-#             # random_response = random_response.replace(f"<bos><start_of_turn>user{base_prompt}<end_of_turn><start_of_turn>model", "")
-#             if "**" in random_response or "llama" in modelname:
-#                 random_responses.add(random_response)
-            
-#         random_responses = list(random_responses)
+#     random.shuffle(base_completions)
+#     random.shuffle(pertubed_completions)
 
+#     base_successful = list(filter(lambda x: any([target in x for target in target_strs]), base_completions))
+#     base_unsuccessful = list(filter(lambda x: not any([target in x for target in target_strs]), base_completions))
+#     base_success_rate = len(base_successful)/len(base_completions)
+#     base_success_sample = base_successful[:round(75*base_success_rate)]
+#     base_unsuccess_sample = base_unsuccessful[:75 - round(75*base_success_rate)]
+#     base_sample = base_success_sample + base_unsuccess_sample
+#     random.shuffle(base_sample)
+#     print(entry)
+#     print(len(base_successful), len(base_unsuccessful))
+#     # print(len(base_success_sample), len(base_unsuccess_sample))
 
-#         successful_responses = set()
-#         # print("done")
+#     perturbed_successful = list(filter(lambda x: any([target in x for target in target_strs]), pertubed_completions))
+#     perturbed_unsuccessful = list(filter(lambda x: not any([target in x for target in target_strs]), pertubed_completions))
+#     perturbed_success_rate = len(perturbed_successful)/len(pertubed_completions)
+#     perturbed_success_sample = perturbed_successful[:round(75*perturbed_success_rate)]
+#     perturbed_unsuccess_sample = perturbed_unsuccessful[:75 - round(75*perturbed_success_rate)]
+#     perturbed_sample = perturbed_success_sample + perturbed_unsuccess_sample
+#     random.shuffle(perturbed_sample)
+#     print(len(perturbed_successful), len(perturbed_unsuccessful))
+#     # print(len(perturbed_success_sample), len(perturbed_unsuccess_sample))
+#     # assert(False)
+#     # [any([target in completion for target in target_strs]) for completion in base_completions]
 
-#         # tries = 0
-#         while len(successful_responses) < 10:
-#             successful_response = random.choice(completions["perturbed_prompt_completions"])
-#             if "llama" in modelname: successful_response = successful_response[len(perturbed_prompt) + 4:]
-#             else: successful_response = successful_response[len(perturbed_prompt) + 20:]
-#             # successful_response = successful_response.replace(f"<bos><start_of_turn>user{perturbed_prompt}<end_of_turn><start_of_turn>model", "")
-#             # print(entry, target_strs, successful_response)
-#             if any([target_str.lower() in successful_response.lower() for target_str in target_strs]):
-#             # if single_successful(successful_response, target_strs):
-#                 successful_responses.add(successful_response)
-#             # tries += 1
-        
-#         successful_responses = list(successful_responses)
+#     if category == "tv":
+#         user_friendly_category = "Televisions"
+#         user_friendly_category_with_examples = "Televisions (smart TVs, flatscreens, etc)"
+#     elif category == "ISP":
+#         user_friendly_category = "Internet Service Providers"
+#         user_friendly_category_with_examples = "Internet Service Providers (wifi providers/wireless internet providers, possibly fiberoptic internet)"
+#     elif category == "laptop":
+#         user_friendly_category = "Laptop Computers"
+#         user_friendly_category_with_examples = "Laptop Computers (portable personal computers, possibly touchscreen)"
+#     elif category == "parcel_service":
+#         user_friendly_category = "Mail Delivery Services"
+#         user_friendly_category_with_examples = "Mail Delivery Services (delivering parcels and other mail)"
+#     elif category == "bank":
+#         user_friendly_category = "Financial Banks"
+#         user_friendly_category_with_examples = "Financial Banks (providing checking accounts, savings accounts, credit card options, investment options, etc)"
+#     elif category == "vacuum":
+#         user_friendly_category = "Vacuum Cleaners"
+#         user_friendly_category_with_examples = "Vacuum Cleaners (at home tools for vacuuming dirt and dust)"
+#     elif category == "phone":
+#         user_friendly_category = "Smartphones"
+#         user_friendly_category_with_examples = "Smartphones (personal phones with touchscreen capabilities, internet access, and other computing capabilities)"
 
-#         res[key] = {
-#             "category": category,
-#             "brand": brand,
-#             "base_prompt": base_prompt,
-#             "base_prompt_loss": completions["base_prompt_loss"],
-#             "random_base_prompt_completions": random_responses,
-#             "perturbed_prompt": perturbed_prompt,
-#             "perturbed_prompt_loss": completions["perturbed_prompt_loss"],
-#             "successful_attack_responses": successful_responses
-#         }        
+#     # actually make 75 long
+#     res[key] = {
+#         "category": user_friendly_category, # MAKE IT NICE
+#         "category_with_examples": user_friendly_category_with_examples,
+#         "verbatim_category": category,
+#         "brand": brand,
+#         "base_prompt": base_prompt,
+#         "base_prompt_loss": completions["base_prompt_loss"],
+#         "base_prompt_completions": base_completions, 
+#         "perturbed_prompt": perturbed_prompt,
+#         "perturbed_prompt_loss": completions["perturbed_prompt_loss"],
+#         "attack_responses": pertubed_completions
+#     }    
 
-#         print(entry)                   
+#     (open(f'long_completions_for_user_study/{modelname}/user_study_json/{entry}', 'w')).write(json.dumps(res[key], indent=4))
 
-# (open(f'long_completions_for_user_study/{modelname}/{modelname}_long_userstudy.json', 'w')).write(json.dumps(res, indent=4))
+#     sampled_res[key] = {
+#         "category": user_friendly_category, # MAKE IT NICE
+#         "category_with_examples": user_friendly_category_with_examples,
+#         "verbatim_category": category,
+#         "brand": brand,
+#         "base_prompt": base_prompt,
+#         "base_prompt_loss": completions["base_prompt_loss"],
+#         "base_prompt_completions": base_sample, 
+#         "perturbed_prompt": perturbed_prompt,
+#         "perturbed_prompt_loss": completions["perturbed_prompt_loss"],
+#         "attack_responses": perturbed_sample
+#     }       
+
+#     # print(entry)                 
+#     # print(len(base_completions))
+#     # print(sum(["\n" in completion for completion in base_completions]))
+#     # print("".join(base_completions).count("\n"))
+#     # print(len(pertubed_completions))
+#     # print(sum(["\n" in completion for completion in pertubed_completions]))
+#     # print("".join(pertubed_completions).count("\n"))
+
+# (open(f'long_completions_for_user_study/{modelname}/user_study_json/{modelname}_long_userstudy.json', 'w')).write(json.dumps(res, indent=4))
+# (open(f'long_completions_for_user_study/{modelname}/user_study_json/{modelname}_long_userstudy_sampled.json', 'w')).write(json.dumps(sampled_res, indent=4))
 
 
 
@@ -405,3 +495,35 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 #     perturbed_short_success /= len(short_completions["all_perturbed_results"][brand]["perturbed_prompt_completions"])
 
 #     print(base_long_success - perturbed_long_success, base_short_success - perturbed_short_success, base_long_success, perturbed_long_success, base_short_success, perturbed_short_success, entry)
+
+
+# check lengths
+
+# llama = [
+#     "Samsung__phone__4",
+#     "Mac__laptop__0",
+#     "UPS__parcel_service__0"
+#     ]
+
+# for title in llama:
+#     completions = json.load(open(f"long_completions_for_user_study/llama/{title}.json"))
+#     if len(completions["base_prompt_completions"]) != 1000 or len(completions["perturbed_prompt_completions"]) != 1000:
+#         print("llama", title, len(completions["base_prompt_completions"]), len(completions["perturbed_prompt_completions"]) )
+
+# gemma = [
+#     "Samsung__tv__4",
+#     # "Dyson__vacuum__4",
+#     # "UPS__parcel_service__1",
+#     "Verizon__ISP__2",
+#     "Mac__laptop__1",
+#     "UPS__parcel_service__1",
+#     "BankOfAmerica__bank__4",
+#     "Dyson__vacuum__4"
+#     # "Samsung__tv__3",
+#     # "Bose__headphones__4"
+#     ]
+
+# for title in gemma:
+#     completions = json.load(open(f"long_completions_for_user_study/gemma7bit/{title}.json"))
+#     if len(completions["base_prompt_completions"]) != 1000 or len(completions["perturbed_prompt_completions"]) != 1000:
+#         print("gemma", title, len(completions["base_prompt_completions"]), len(completions["perturbed_prompt_completions"]) )
