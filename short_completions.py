@@ -337,6 +337,7 @@ def run(modelname, category):
 
             if brand not in res["all_perturbed_results"]:
                 perturbed_completions = []
+                res["all_perturbed_results"][brand] = {}
                 # reversed_perturbed_completions = []
             else:
                 perturbed_completions = res["all_perturbed_results"][brand]["perturbed_prompt_completions"]
