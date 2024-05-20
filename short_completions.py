@@ -179,18 +179,6 @@ def run(modelname, category):
         pipeline = None
     elif modelname == "llama3":
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B"
-        model = LlamaForCausalLM.from_pretrained(
-                model_path,
-                torch_dtype=torch.float16,
-                trust_remote_code=True,
-            ).to("cuda:0").eval()
-
-        tokenizer = AutoTokenizer.from_pretrained(
-                model_path,
-                trust_remote_code=True,
-                use_fast=False
-            )
-        pipeline = None
     elif modelname == "gemma2b":
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-2b"
         model = GemmaForCausalLM.from_pretrained(
@@ -347,7 +335,10 @@ def run(modelname, category):
 
                 print(perturbed_completion)
 
-            reversed_perturbed_completions = []
+            if "reversed_perturbed_prompt_completions" in res["all_perturbed_results"][brand]:
+                reversed_perturbed_completions = res["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]
+            else: 
+                reversed_perturbed_completions = []
 
             reversed_perturbed_prompt_ind = torch.argmax(losses).item()
             reversed_perturbed_prompt = perturbed_prompts[reversed_perturbed_prompt_ind]
