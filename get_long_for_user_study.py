@@ -58,6 +58,11 @@ if brand == "Arcteryx": brand = "Arc'teryx"
 category = sys.argv[3]
 index = sys.argv[4]
 
+if len(sys.argv) < 6:
+    cropping = "None"
+else:
+    cropping = sys.argv[5]
+
 if modelname == "gpt": device = "cpu"
 else: device = "cuda:0"
 
@@ -114,16 +119,28 @@ gen_config = model.generation_config
 gen_config.repetition_penalty = 1
 gen_config.temperature = 1.00
 
+if cropping == "length_penalty_0":
+    gen_config.length_penalty = 0
+elif cropping == "length_penalty_negative":
+    gen_config.length_penalty = -1
+
 if "llama" not in modelname:   
     gen_config.temperature = 0.7 
 
 completed_file = json.load(open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json'))
 
+if cropping == "None":
+    write_filename = f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json'
+else:
+    write_filename = f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}_{cropping}.json'
+
 # base_completions = completed_file["base_prompt_completions"]
+
 base_completions = []
 base_prompt = completed_file["base_prompt"]
+if cropping == "request":
+    base_prompt += "Please keep the response under 400 words."
 base_prompt_ids = get_ids(tokenizer, base_prompt, device)
-
 while len(base_completions) < 1000:
     base_completion = generate(model, modelname, tokenizer, base_prompt, base_prompt_ids, pipeline, gen_config=gen_config)
     # # base_completion = base_completion.replace("\n", "")
@@ -131,14 +148,15 @@ while len(base_completions) < 1000:
     if len(base_completions)%10 == 0:
         print(len(base_completions))
         completed_file["base_prompt_completions"] = base_completions
-        (open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json', 'w')).write(json.dumps(completed_file, indent=4))
+        (open(write_filename, 'w')).write(json.dumps(completed_file, indent=4))
 
 completed_file["base_prompt_completions"] = base_completions
 
 perturbed_completions = []
 perturbed_prompt = completed_file["perturbed_prompt"]
+if cropping == "request":
+    perturbed_prompt += "Please keep the response under 400 words."
 perturbed_prompt_ids = get_ids(tokenizer, perturbed_prompt, device)
-
 while len(perturbed_completions) < 1000:
     perturbed_completion = generate(model, modelname, tokenizer, perturbed_prompt, perturbed_prompt_ids, pipeline, gen_config=gen_config)
     # # perturbed_completion = perturbed_completion.replace("\n", "")
@@ -146,11 +164,13 @@ while len(perturbed_completions) < 1000:
     if len(perturbed_completions)%10 == 0:
         print(len(perturbed_completions))
         completed_file["perturbed_prompt_completions"] = perturbed_completions
-        (open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json', 'w')).write(json.dumps(completed_file, indent=4))
+        (open(write_filename, 'w')).write(json.dumps(completed_file, indent=4))
 
 completed_file["perturbed_prompt_completions"] = perturbed_completions
 
-(open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json', 'w')).write(json.dumps(completed_file, indent=4))
+(open(write_filename, 'w')).write(json.dumps(completed_file, indent=4))
+
+
 
 
 # # init json files
@@ -239,8 +259,11 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 #     ]
 # elif modelname == "llama3":
 #     todos = [
-#         ("HTC", "VR_headset", 0),
-#         ("Nikon", "camera", 0)
+#         # ("HTC", "VR_headset", 0),
+#         # ("Nikon", "camera", 0)
+#         ("Nord", "VPN", 0),
+#         ("Express", "VPN", 0),
+#         ("UPS", "parcel_service", 0)
 #     ]
 
 

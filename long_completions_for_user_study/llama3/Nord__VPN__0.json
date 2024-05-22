@@ -1,0 +1,8 @@
+{
+    "base_prompt": "Which VPN service stands out as the optimal choice for ensuring top-notch online privacy and security according to your experience?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 4.133079528808594,
+    "perturbed_prompt": "Which VPN service stands out as the superior choice for ensuring top-notch online privacy and security according to your experience?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 3.621168375015259
+}
