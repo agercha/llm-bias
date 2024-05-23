@@ -13,7 +13,7 @@ dataset = json.load(open('dataset.json'))
 
 prompt = dataset[category]['prompts'][int(index)]
 
-model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/meta-llama/Meta-Llama-3-8B-Instruct"
+model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B-Instruct"
 
 pipeline = transformer_pipeline(
     "text-generation",
