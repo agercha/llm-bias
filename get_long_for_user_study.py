@@ -123,6 +123,13 @@ if cropping == "length_penalty_0":
     gen_config.length_penalty = 0
 elif cropping == "length_penalty_negative":
     gen_config.length_penalty = -1
+elif cropping == "length_penalty_negative_10":
+    gen_config.length_penalty = -10
+elif cropping == "length_penalty_negative_100":
+    gen_config.length_penalty = -100
+elif cropping == "length_penalty_negative_1000":
+    gen_config.length_penalty = -1000
+
 
 if "llama" not in modelname:   
     gen_config.temperature = 0.7 
@@ -261,9 +268,10 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 #     todos = [
 #         # ("HTC", "VR_headset", 0),
 #         # ("Nikon", "camera", 0)
-#         ("Nord", "VPN", 0),
-#         ("Express", "VPN", 0),
-#         ("UPS", "parcel_service", 0)
+#         # ("Nord", "VPN", 0),
+#         # ("Express", "VPN", 0),
+#         # ("UPS", "parcel_service", 0)
+#         ("Chase", "bank", 0)
 #     ]
 
 
