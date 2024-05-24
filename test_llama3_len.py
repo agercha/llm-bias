@@ -46,7 +46,7 @@ responses = []
 for i in range(1000):
     outputs = pipeline(
         prompt,
-        max_new_tokens=1000,
+        max_new_tokens=100000,
         eos_token_id=terminators,
         do_sample=True,
         # temperature=0.6,

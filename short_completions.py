@@ -111,7 +111,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         ]
         outputs = pipeline(
             prompt,
-            max_new_tokens=1000,
+            max_new_tokens=64,
             eos_token_id=terminators,
             do_sample=True,
             # temperature=0.6,
