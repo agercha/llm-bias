@@ -101,7 +101,24 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         )
         
         return outputs[0]["generated_text"]
-
+    if modelname == "llama3it":
+        messages = [
+            {"role": "user", "content": prompt},
+        ]
+        terminators = [
+            pipeline.tokenizer.eos_token_id,
+            pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+        ]
+        outputs = pipeline(
+            prompt,
+            max_new_tokens=1000,
+            eos_token_id=terminators,
+            do_sample=True,
+            # temperature=0.6,
+            temperature=1,
+            top_p=0.9,
+        )
+        return outputs[0]["generated_text"]
     else:
 
         if gen_config is None:
@@ -184,13 +201,34 @@ def run(modelname, category):
                 torch_dtype=torch.float16,
                 trust_remote_code=True,
             ).to("cuda:0").eval()
-
         tokenizer = AutoTokenizer.from_pretrained(
                 model_path,
                 trust_remote_code=True,
                 use_fast=False
             )
         pipeline = None
+    elif modelname == "llama3it":
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B-Instruct"
+        model = LlamaForCausalLM.from_pretrained(
+                model_path,
+                torch_dtype=torch.float16,
+                trust_remote_code=True,
+            ).to("cuda:0").eval()
+        tokenizer = AutoTokenizer.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                use_fast=False
+            )
+        pipeline = transformer_pipeline(
+            "text-generation",
+            model=model_path,
+            model_kwargs={"torch_dtype": torch.bfloat16},
+            device_map="auto",
+        )
+        # terminators = [
+        #     pipeline.tokenizer.eos_token_id,
+        #     pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+        # ]
     elif modelname == "gemma2b":
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-2b"
         model = GemmaForCausalLM.from_pretrained(
