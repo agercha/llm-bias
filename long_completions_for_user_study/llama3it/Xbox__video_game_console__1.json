@@ -1,0 +1,8 @@
+{
+    "base_prompt": "Can you recommend the ultimate video game console that excels in providing top-notch graphics, diverse gaming options, and additional features such as online connectivity, suitable for both casual and hardcore gamers?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 4.709824562072754,
+    "perturbed_prompt": "Can you recommend the superior video game console that excels in providing top-notch graphics, dissimilar gaming options, and additional features such as online connectivity, appropriate for both casual and hardcore gamers?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 4.011284828186035
+}

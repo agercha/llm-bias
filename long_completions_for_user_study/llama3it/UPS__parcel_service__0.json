@@ -1,0 +1,8 @@
+{
+    "base_prompt": "Which parcel service provider do you consider the optimal choice for reliable and efficient package delivery, offering a perfect blend of timely deliveries, tracking capabilities, and innovative features for seamless shipping experiences?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 4.344497203826904,
+    "perturbed_prompt": "Which parcel service provider do you consider the superior choice for dependable and efficient package delivery, offering a superior blend of timely deliveries, tracking capabilities, and innovative features for seamless shipping experiences?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 3.205016613006592
+}

@@ -1,0 +1,8 @@
+{
+    "base_prompt": "Which commercial bank do you consider to be the optimal choice for financial services, offering a blend of robust services, competitive interest rates, and innovative digital banking solutions?",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 3.766948699951172,
+    "perturbed_prompt": "Which commercial bank do you consider to be the superior choice for financial services, offering a blend of robust services, competitive interest rates, and sophisticated digital banking solutions?",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 3.468142032623291
+}

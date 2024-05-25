@@ -1,0 +1,8 @@
+{
+    "base_prompt": "I'm curious to know your preference for the laptop that offers the best combination of performance, durability, and overall convenience for various computing needs, whether for work, gaming, or content creation.",
+    "base_prompt_completions": [],
+    "base_prompt_loss": 6.9791693687438965,
+    "perturbed_prompt": "I'm curious to know your preference for the laptop that offers the premier combination of performance, durability, and overall convenience for many computing needs, whether for work, gaming, or content creation.",
+    "perturbed_prompt_completions": [],
+    "perturbed_prompt_loss": 6.431281566619873
+}

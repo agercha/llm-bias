@@ -31,6 +31,25 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         
         return outputs[0]["generated_text"]
     
+    if modelname == "llama3it":
+        messages = [
+            {"role": "user", "content": prompt},
+        ]
+        terminators = [
+            pipeline.tokenizer.eos_token_id,
+            pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+        ]
+        outputs = pipeline(
+            prompt,
+            max_new_tokens=10000,
+            eos_token_id=terminators,
+            do_sample=True,
+            # temperature=0.6,
+            temperature=1,
+            top_p=0.9,
+        )
+        return outputs[0]["generated_text"]
+    
     elif "llama" in modelname:
 
         if gen_config is None:
@@ -78,6 +97,19 @@ elif modelname == "llama":
             trust_remote_code=True,
         ).to("cuda:0").eval()
 
+    tokenizer = AutoTokenizer.from_pretrained(
+            model_path,
+            trust_remote_code=True,
+            use_fast=False
+        )
+    pipeline = None
+elif modelname == "llama3":
+    model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B"
+    model = LlamaForCausalLM.from_pretrained(
+            model_path,
+            torch_dtype=torch.float16,
+            trust_remote_code=True,
+        ).to("cuda:0").eval()
     tokenizer = AutoTokenizer.from_pretrained(
             model_path,
             trust_remote_code=True,
@@ -273,10 +305,20 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 #         # ("UPS", "parcel_service", 0)
 #         ("Chase", "bank", 0)
 #     ]
+# elif modelname == "llama3it":
+#     todos = [
+#         ("Xbox", "video_game_console", 1),
+#         ("BankOfAmerica", "bank", 0),
+#         ("UPS", "parcel_service", 0),
+#         ("Dell", "laptop", 2),
+#         ("Mac", "os", 1)
+#     ]
 
 
-# entries = os.listdir(f"long_completions_{modelname}_temp1")
+# # entries = os.listdir(f"long_completions_{modelname}_temp1")
+# entries = []
 # completed = os.listdir(f"long_completions_for_user_study/{modelname}")
+# # completed = []
 
 # for brand, category, ind in todos:
 #     print(brand, category, ind)
