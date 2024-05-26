@@ -31,7 +31,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         
         return outputs[0]["generated_text"]
     
-    if modelname == "llama3it":
+    elif modelname == "llama3it":
         messages = [
             {"role": "user", "content": prompt},
         ]
@@ -103,8 +103,8 @@ elif modelname == "llama":
             use_fast=False
         )
     pipeline = None
-elif modelname == "llama3":
-    model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B"
+elif modelname == "llama3it":
+    model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B-Instruct"
     model = LlamaForCausalLM.from_pretrained(
             model_path,
             torch_dtype=torch.float16,
@@ -115,7 +115,12 @@ elif modelname == "llama3":
             trust_remote_code=True,
             use_fast=False
         )
-    pipeline = None
+    pipeline = transformer_pipeline(
+        "text-generation",
+        model=model_path,
+        model_kwargs={"torch_dtype": torch.bfloat16},
+        device_map="auto",
+    )
 elif modelname == "llama3":
     model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B"
     model = LlamaForCausalLM.from_pretrained(
