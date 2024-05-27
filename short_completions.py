@@ -105,6 +105,11 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         messages = [
             {"role": "user", "content": prompt},
         ]
+        prompt = pipeline.tokenizer.apply_chat_template(
+                messages, 
+                tokenize=False, 
+                add_generation_prompt=True
+        )
         terminators = [
             pipeline.tokenizer.eos_token_id,
             pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
