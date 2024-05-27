@@ -351,6 +351,13 @@ def run(modelname, category):
         else:
             res = json.load(open(f'adversarial_completions_{modelname}_short/{category}_{base_prompt_original_ind}.json'))
 
+        if modelname == "llama3it":
+            base_completions_templated = []
+            while len(base_completions_templated) < test_size:
+                base_completion = generate(model, modelname, tokenizer, base_prompt, base_prompt_ids, pipeline, gen_config=gen_config)
+                base_completions.append(base_completion)
+            res['base_prompt_completions_templated'] = base_completions_templated
+
         for brand in list(dataset[category]["brands"].keys()):
 
             target_strs = dataset[category]["brands"][brand]
@@ -368,6 +375,15 @@ def run(modelname, category):
                         {"role": "user", "content":curr_prompt},
                     ]
                     curr_prompt = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+                elif modelname == "llama3it":
+                    messages = [
+                        {"role": "user", "content": curr_prompt},
+                    ]
+                    curr_prompt = pipeline.tokenizer.apply_chat_template(
+                            messages, 
+                            tokenize=False, 
+                            add_generation_prompt=True
+                    )
 
                 losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
 
@@ -377,6 +393,7 @@ def run(modelname, category):
             perturbed_prompt = perturbed_prompts[perturbed_prompt_ind]
             perturbed_prompt_ids = get_ids(tokenizer, perturbed_prompt, device)
 
+            perturbed_completions_templated = []
 
             if brand not in res["all_perturbed_results"]:
                 perturbed_completions = []
@@ -395,6 +412,14 @@ def run(modelname, category):
                 perturbed_completions.append(perturbed_completion)
 
                 print(perturbed_completion)
+
+            if modelname == "llama3it":
+                while len(perturbed_completions_templated) < test_size:
+                    perturbed_completion = generate(model, modelname, tokenizer, perturbed_prompt, perturbed_prompt_ids, pipeline, gen_config=gen_config)
+                    perturbed_completions_templated.append(perturbed_completion)
+
+                    print(perturbed_completion)
+
 
             # reversed_perturbed_prompt_ind = torch.argmax(losses).item()
             # reversed_perturbed_prompt = perturbed_prompts[reversed_perturbed_prompt_ind]
@@ -420,6 +445,7 @@ def run(modelname, category):
             res["all_perturbed_results"][brand]["perturbed_prompt"] = perturbed_prompt
             res["all_perturbed_results"][brand]["perturbed_prompt"] = perturbed_prompt
             res["all_perturbed_results"][brand]["perturbed_prompt_completions"] = perturbed_completions
+            res["all_perturbed_results"][brand]["perturbed_prompt_completions_templated"] = perturbed_completions_templated
             res["all_perturbed_results"][brand]["base_prompt_loss"] = losses[base_prompt_ind].item()
             res["all_perturbed_results"][brand]["perturbed_prompt_loss"] = torch.min(losses).item()
             # res["all_perturbed_results"][brand]["reversed_perturbed_prompt"] = reversed_perturbed_prompt
