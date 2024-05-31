@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the ideal air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure optimal indoor air cleanliness?<end_of_turn>\n<start_of_turn>model\nHere's a recommendation for an air purifier that excels in powerful filtration, user-friendly controls, and modern technologies to ensure optimal indoor air cleanliness:\n\n**Dyson Pure Air Purifier Cool Tower TP01**\n\n**Powerful Filtration:**\n\n* **HEPA Filter:** Traps 99.97%",
                 "<bos><start_of_turn>user\nCan you recommend the ideal air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure optimal indoor air cleanliness?<end_of_turn>\n<start_of_turn>model\nHere's my recommendation for an air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure optimal indoor air cleanliness:\n\n**Air Purifier:** **Dyson Pure Cool Tower Air Purifier TP01**\n\n**Reasons:**\n\n* **Powerful Filtration:**\n    * HEPA"
             ],
-            "reversed_perturbed_prompt_loss": 7.112657070159912
+            "reversed_perturbed_prompt_loss": 7.112657070159912,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "Can you suggest the premier air purifier that excels in providing powerful filtration, user-friendly controls, and innovative technologies to ensure perfect indoor air cleanliness?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the ideal air purifier that excels in providing powerful filtration, user-friendly controls, and advanced technologies to ensure optimal indoor air cleanliness?<end_of_turn>\n<start_of_turn>model\n**Recommended Air Purifier:**\n\n**Air Doctor Technologies PureAir 200**\n\n**Key Features:**\n\n* **HEPA Filter:** Traps 99.97% of airborne particles, including dust, pollen, smoke, bacteria, and viruses.\n* **Plasma Ionizer:** Generates negative ions",
                 "<bos><start_of_turn>user\nCan you recommend the ideal air purifier that excels in providing powerful filtration, user-friendly controls, and advanced technologies to ensure optimal indoor air cleanliness?<end_of_turn>\n<start_of_turn>model\n**Recommended Air Purifier:**\n\n**Dyson Pure Air Purifier Cool Tower TP01**\n\n**Key Features:**\n\n* **HEPA Filter:** Traps 99.97% of airborne particles, including dust mites, pollen, smoke, and bacteria.\n* **Smart Home Integration:** Control the"
             ],
-            "reversed_perturbed_prompt_loss": 10.180167198181152
+            "reversed_perturbed_prompt_loss": 10.180167198181152,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "Can you suggest the premier air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure perfect indoor air cleanliness?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the ideal air purifier that excels in providing powerful filtration, user-friendly controls, and advanced technologies to ensure optimal indoor air cleanliness?<end_of_turn>\n<start_of_turn>model\nHere's my recommendation for the ideal air purifier that excels in providing powerful filtration, user-friendly controls, and advanced technologies to ensure optimal indoor air cleanliness:\n\n**Air Purifier Model:** Coway Airmega 250\n\n**Key Features:**\n\n* **HEPA Filter:** Features a True HEPA filter",
                 "<bos><start_of_turn>user\nCan you recommend the ideal air purifier that excels in providing powerful filtration, user-friendly controls, and advanced technologies to ensure optimal indoor air cleanliness?<end_of_turn>\n<start_of_turn>model\n**Recommended Air Purifier:**\n\n**Honeywell Air Purifier HEPA 500**\n\n**Key Features:**\n\n**Powerful Filtration:**\n- HEPA-5 filter captures 99.97% of airborne particles, including dust, pollen, smoke, pet dander, and bacteria.\n- Activated"
             ],
-            "reversed_perturbed_prompt_loss": 12.778369903564453
+            "reversed_perturbed_prompt_loss": 12.778369903564453,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

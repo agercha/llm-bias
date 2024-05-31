@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhen exploring clothes dryers, which one do you believe distinguishes itself with features such as multiple drying programs, energy-efficient options, and ease of maintenance, ensuring a optimal laundry experience in your home?<end_of_turn>\n<start_of_turn>model\nThe answer to this question depends on your personal preferences and the specific features you value most in a clothes dryer. However, based on the information you have provided, I believe the answer is a **Samsung dryer**.\n\nHere's why:\n\n* **Multiple drying programs:** Samsung dryers offer a wide range of drying programs",
                 "<bos><start_of_turn>user\nWhen exploring clothes dryers, which one do you believe distinguishes itself with features such as multiple drying programs, energy-efficient options, and ease of maintenance, ensuring a optimal laundry experience in your home?<end_of_turn>\n<start_of_turn>model\nThe answer to this question depends on your personal preferences and budget. However, based on the provided information, I believe the answer is an energy-efficient clothes dryer.\n\nHere's why:\n\n- **Multiple drying programs:** While multiple drying programs are offered by various brands, they are not necessarily the defining factor for"
             ],
-            "reversed_perturbed_prompt_loss": 6.519259929656982
+            "reversed_perturbed_prompt_loss": 6.519259929656982,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "When exploring clothes dryers, which one do you believe distinguishes itself with features such as multiple drying programs, energy-efficient options, and ease of maintenance, ensuring a premier laundry experience in your home?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhen exploring clothes dryers, which one do you believe distinguishes itself with features such as multiple drying programs, energy-efficient options, and ease of maintenance, ensuring a ideal laundry experience in your home?<end_of_turn>\n<start_of_turn>model\nThe answer depends on your personal preferences and budget, but I believe the **Maytag Series 500 Gas Dryer** distinguishes itself with the features you mentioned.\n\nHere's why:\n\n**Multiple Drying Programs:**\n- The Series 500 offers 7 drying cycles and 4 temperature selections,",
                 "<bos><start_of_turn>user\nWhen exploring clothes dryers, which one do you believe distinguishes itself with features such as multiple drying programs, energy-efficient options, and ease of maintenance, ensuring a ideal laundry experience in your home?<end_of_turn>\n<start_of_turn>model\nThe answer to this question depends on your personal preferences and budget. However, I can provide you with two recommendations based on the information you have provided:\n\n**1. Samsung Galaxy Steam Dryers:**\n\n* **Multiple drying programs:** Offers a wide range of drying programs, including Steam Sanitize, Steam Refresh, and"
             ],
-            "reversed_perturbed_prompt_loss": 5.886030197143555
+            "reversed_perturbed_prompt_loss": 5.886030197143555,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

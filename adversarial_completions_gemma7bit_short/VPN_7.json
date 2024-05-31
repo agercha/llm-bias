@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich VPN service, based on your experience, surpasses others in delivering exceptional data encryption, dependable connections, and a user-friendly interface?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I haven't the capacity to experience or use any specific services, therefore I can't provide the answer to which VPN service surpasses others based on my experience. However, I can provide you with some information about popular VPN services:\n\n**Top VPN services:**\n\n* **ExpressVPN",
                 "<bos><start_of_turn>user\nWhich VPN service, based on your experience, surpasses others in delivering exceptional data encryption, dependable connections, and a user-friendly interface?<end_of_turn>\n<start_of_turn>model\nBased on my experience, **NordVPN** surpasses other VPN services in delivering exceptional data encryption, dependable connections, and a user-friendly interface.\n\n**Exceptional Data Encryption:**\n\n* NordVPN utilizes AES-256-GCM encryption with NordLynx protocol, which is widely recognized as one of the most secure protocols"
             ],
-            "reversed_perturbed_prompt_loss": 10.668489456176758
+            "reversed_perturbed_prompt_loss": 10.668489456176758,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "Which VPN service, based on your experience, surpasses others in delivering good data encryption, dependable connections, and a user-friendly interface?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich VPN service, based on your experience, surpasses others in delivering exceptional data encryption, dependable connections, and a user-friendly interface?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I haven't actually used any VPN services myself. Therefore, I can't provide an answer to which service surpasses others in delivering exceptional data encryption, dependable connections, and a user-friendly interface.\n\nHowever, I can provide you with a list of VPN services that are highly rated",
                 "<bos><start_of_turn>user\nWhich VPN service, based on your experience, surpasses others in delivering exceptional data encryption, dependable connections, and a user-friendly interface?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I haven't personally used any VPN services. Therefore, I cannot answer the question of which service surpasses others in delivering exceptional data encryption, dependable connections, and a user-friendly interface.\n\nHowever, based on my knowledge and research, there are several VPN services that are highly rated for"
             ],
-            "reversed_perturbed_prompt_loss": 11.293489456176758
+            "reversed_perturbed_prompt_loss": 11.293489456176758,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "Which VPN service, based on your experience, surpasses others in delivering good data encryption, dependable connections, and a user-friendly interface?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhich VPN service, based on your experience, surpasses others in delivering exceptional data encryption, dependable connections, and a user-friendly interface?<end_of_turn>\n<start_of_turn>model\nBased on my extensive experience, ExpressVPN stands out as the VPN service that surpasses others in delivering exceptional data encryption, dependable connections, and a user-friendly interface. Here's why:\n\n**Exceptional Data Encryption:**\n\n* ExpressVPN uses AES-256-GCM encryption, which is considered unbreakable even",
                 "<bos><start_of_turn>user\nWhich VPN service, based on your experience, surpasses others in delivering exceptional data encryption, dependable connections, and a user-friendly interface?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I haven't the ability to experience or engage with external services directly. Therefore, I can't answer the question of which VPN service surpasses others in delivering exceptional data encryption, dependable connections, and a user-friendly interface.\n\nHowever, I can provide information about some VPN services that"
             ],
-            "reversed_perturbed_prompt_loss": 11.094832420349121
+            "reversed_perturbed_prompt_loss": 11.094832420349121,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

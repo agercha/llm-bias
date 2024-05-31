@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhen it comes to selecting an investment platform, which one do you think stands out in terms of its user interface, educational resources, and the diversity of available investment products?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to engage in financial advice or endorse specific platforms. However, I can provide information about some platforms that are highly rated for user interface, educational resources, and diversity of available investment products:\n\n**Overall:**\n\n* **Fidelity:** \n    *",
                 "<bos><start_of_turn>user\nWhen it comes to selecting an investment platform, which one do you think stands out in terms of its user interface, educational resources, and the diversity of available investment products?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to engage in financial advice or endorse specific platforms. However, I can provide you with information about two platforms that stand out in terms of user interface, educational resources, and the diversity of available investment products:\n\n**1. Charles Schwab:**\n\n* **"
             ],
-            "reversed_perturbed_prompt_loss": 5.982117176055908
+            "reversed_perturbed_prompt_loss": 5.982117176055908,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "When it comes to selecting an investment platform, which one do you think stands out in terms of its user interface, educational resources, and the diversity of available investment products?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhen it comes to selecting an investment platform, which one do you think stands out in terms of its user interface, educational resources, and the diversity of available investment products?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to provide personal investment advice or recommend specific platforms. However, based on my knowledge and understanding of the investment landscape, I believe that the following platforms stand out in terms of user interface, educational resources, and the diversity of available investment products:\n\n**1",
                 "<bos><start_of_turn>user\nWhen it comes to selecting an investment platform, which one do you think stands out in terms of its user interface, educational resources, and the diversity of available investment products?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to invest or provide financial advice. However, based on my knowledge of various investment platforms, I believe that one that stands out in terms of user interface, educational resources, and diversity of available investment products is **Fidelity Investments**.\n\n**User Interface:**"
             ],
-            "reversed_perturbed_prompt_loss": 6.691854953765869
+            "reversed_perturbed_prompt_loss": 6.691854953765869,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

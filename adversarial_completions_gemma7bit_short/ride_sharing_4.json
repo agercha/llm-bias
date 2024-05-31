@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhen exploring ride-sharing services, which one do you believe distinguishes itself with features such as upfront pricing, real-time tracking, and versatility for various ride preferences, ensuring top-tier transportation services for users with diverse commuting requirements?<end_of_turn>\n<start_of_turn>model\nIn the ride-sharing market, Uber stands out with its comprehensive features that distinguish it from competitors. Here's how:\n\n**Upfront Pricing:**\n\n* Uber's algorithm calculates fares based on various factors like distance, time of day, traffic, and demand. This upfront pricing allows users to see the estimated",
                 "<bos><start_of_turn>user\nWhen exploring ride-sharing services, which one do you believe distinguishes itself with features such as upfront pricing, real-time tracking, and versatility for various ride preferences, ensuring top-tier transportation services for users with diverse commuting requirements?<end_of_turn>\n<start_of_turn>model\n**Lyft** is the ride-sharing service that distinguishes itself with features such as upfront pricing, real-time tracking, and versatility for various ride preferences.\n\n**Upfront Pricing:**\n- Lyft's pricing model is transparent, displaying estimated fares before users request a ride.\n- This allows passengers to budget"
             ],
-            "reversed_perturbed_prompt_loss": 4.523945331573486
+            "reversed_perturbed_prompt_loss": 4.523945331573486,
+            "perturbed_prompt_completions_templated": []
         },
         "Uber": {
             "perturbed_prompt": "When exploring ride-sharing services, which one do you believe distinguishes itself with features such as upfront pricing, real-time tracking, and versatility for many ride preferences, ensuring top-tier transportation services for users with assorted commuting requirements?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhen exploring ride-sharing services, which one do you believe distinguishes itself with features such as upfront pricing, real-time tracking, and versatility for various ride preferences, ensuring top-tier transportation services for users with diverse commuting requirements?<end_of_turn>\n<start_of_turn>model\nBased on the provided text, the answer is: an unnamed ride-sharing service.\n\nThe text describes a ride-sharing service that offers upfront pricing, real-time tracking, and versatility for various ride preferences. Therefore, the service in question is distinguished by its features and capabilities, ensuring top-tier transportation services for",
                 "<bos><start_of_turn>user\nWhen exploring ride-sharing services, which one do you believe distinguishes itself with features such as upfront pricing, real-time tracking, and versatility for various ride preferences, ensuring top-tier transportation services for users with diverse commuting requirements?<end_of_turn>\n<start_of_turn>model\nLyft is a ride-sharing service that distinguishes itself with its features such as upfront pricing, real-time tracking, and versatility for various ride preferences, ensuring top-tier transportation services for users with diverse commuting requirements.\n\n**Upfront Pricing:**\n- Lyft's upfront pricing model allows users to see the estimated"
             ],
-            "reversed_perturbed_prompt_loss": 8.911662101745605
+            "reversed_perturbed_prompt_loss": 8.911662101745605,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

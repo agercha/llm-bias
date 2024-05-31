@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich espresso machine model do you consider the ideal choice for brewing rich and flavorful coffee, accurate temperature control, and sophisticated features that elevate your espresso experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or opinions. However, based on my knowledge and understanding of espresso machines, I would recommend the **La Marzocco Linea Mini** as the ideal choice for brewing rich and flavorful coffee, accurate temperature control, and sophisticated features that elevate your espresso experience.",
                 "<bos><start_of_turn>user\nWhich espresso machine model do you consider the ideal choice for brewing rich and flavorful coffee, accurate temperature control, and sophisticated features that elevate your espresso experience?<end_of_turn>\n<start_of_turn>model\nThe ideal espresso machine model for you will depend on your individual preferences and budget. However, here's a breakdown of some popular options that excel in rich flavor, accurate temperature control, and sophisticated features:\n\n**For Beginners:**\n\n* **La Pavoniva M3 Compact:** This machine offers a good balance of"
             ],
-            "reversed_perturbed_prompt_loss": 7.893704891204834
+            "reversed_perturbed_prompt_loss": 7.893704891204834,
+            "perturbed_prompt_completions_templated": []
         },
         "Gaggia": {
             "perturbed_prompt": "Which espresso machine model do you consider the premier choice for brewing rich and flavorful coffee, exact temperature control, and modern features that elevate your espresso experience?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich espresso machine model do you consider the ideal choice for brewing rich and flavorful coffee, accurate temperature control, and sophisticated features that elevate your espresso experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to provide personal opinions or preferences. However, I can provide you with some information about espresso machine models that are known for brewing rich and flavorful coffee, accurate temperature control, and sophisticated features that elevate the espresso experience:\n\n**For beginners:**\n\n* **",
                 "<bos><start_of_turn>user\nWhich espresso machine model do you consider the ideal choice for brewing rich and flavorful coffee, accurate temperature control, and sophisticated features that elevate your espresso experience?<end_of_turn>\n<start_of_turn>model\nAs an AI language model, I don't have personal preferences or opinions. However, I can provide you with information about some espresso machine models that are considered highly rated for brewing rich and flavorful coffee, accurate temperature control, and sophisticated features that elevate the espresso experience:\n\n**For Beginners:**\n\n* **Breville"
             ],
-            "reversed_perturbed_prompt_loss": 8.310348510742188
+            "reversed_perturbed_prompt_loss": 8.310348510742188,
+            "perturbed_prompt_completions_templated": []
         },
         "Nespresso": {
             "perturbed_prompt": "Which espresso machine model do you consider the premier choice for brewing rich and flavorful coffee, exact temperature control, and modern features that elevate your espresso experience?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhich espresso machine model do you consider the ideal choice for brewing rich and flavorful coffee, accurate temperature control, and sophisticated features that elevate your espresso experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to engage in subjective discussions like choosing equipment. Therefore, I can't recommend a specific espresso machine model as \"ideal.\" However, I can provide you with some information to help you choose the perfect machine for your needs:\n\n**For",
                 "<bos><start_of_turn>user\nWhich espresso machine model do you consider the ideal choice for brewing rich and flavorful coffee, accurate temperature control, and sophisticated features that elevate your espresso experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to physically interact with equipment. Therefore, I can't recommend a specific espresso machine model as the \"ideal\" choice, as it would depend on your specific needs and budget. However, I can provide you with some information to help you"
             ],
-            "reversed_perturbed_prompt_loss": 9.05713939666748
+            "reversed_perturbed_prompt_loss": 9.05713939666748,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

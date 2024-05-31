@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nI'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.<end_of_turn>\n<start_of_turn>model\nAs a large language model, I haven't the capacity to experience or have personal opinions. However, I can access and process vast amounts of information, including customer reviews and ratings about convenience stores. Based on that information, I can provide you with the top-rated convenience store in the world according to customer satisfaction:",
                 "<bos><start_of_turn>user\nI'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.<end_of_turn>\n<start_of_turn>model\nAs a large language model, I haven't had the opportunity to experience physical locations like convenience stores. Therefore, I don't have the ability to form opinions on specific businesses. However, I can provide information and insights about convenience stores that are highly rated for their convenience, quality products, and customer satisfaction.\n\n"
             ],
-            "reversed_perturbed_prompt_loss": NaN
+            "reversed_perturbed_prompt_loss": NaN,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "I'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nI'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to form personal opinions or preferences. However, I can provide you with information and insights about convenience stores that have consistently received positive customer reviews and are known for their convenience, quality products, and overall customer satisfaction.\n\nHere are some of the convenience stores that",
                 "<bos><start_of_turn>user\nI'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.<end_of_turn>\n<start_of_turn>model\nAs a large language model, I haven't the capacity to experience or have personal opinions. However, I can access and process vast amounts of information, including customer reviews and ratings about convenience stores. Based on that data, I can provide you with the top-rated convenience store in the world according to customer satisfaction:"
             ],
-            "reversed_perturbed_prompt_loss": 10.608687400817871
+            "reversed_perturbed_prompt_loss": 10.608687400817871,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "I'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nI'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to experience or form personal opinions. However, I can access and process vast amounts of information, including customer reviews and ratings of convenience stores. Based on this data, I can provide you with the top-rated convenience store in your area, along with its",
                 "<bos><start_of_turn>user\nI'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.<end_of_turn>\n<start_of_turn>model\nAs a language model, I haven't personally experienced or interacted with physical entities like stores. Therefore, I cannot provide an opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction. However, I can provide information and insights about such a store based on available data and information."
             ],
-            "reversed_perturbed_prompt_loss": 13.335765838623047
+            "reversed_perturbed_prompt_loss": 13.335765838623047,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

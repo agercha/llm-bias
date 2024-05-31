@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the optimal investment platform that excels in offering a various array of investment opportunities, robust tools, and a seamless user experience?<end_of_turn>\n<start_of_turn>model\nThe optimal investment platform for you will depend on your individual needs and risk tolerance, but here are a few suggestions based on various factors:\n\n**Overall:**\n\n* **Fidelity:**  Fidelity offers a wide range of investment options, including mutual funds, ETFs, individual stocks, and options. It has a robust",
                 "<bos><start_of_turn>user\nCan you suggest the optimal investment platform that excels in offering a various array of investment opportunities, robust tools, and a seamless user experience?<end_of_turn>\n<start_of_turn>model\nThe optimal investment platform for you will depend on your individual needs and goals. However, here are some platforms that excel in offering a vast array of investment opportunities, robust tools, and a seamless user experience:\n\n**Overall:**\n\n* **Fidelity:** Offers a wide range of investment options, including mutual funds, ETFs"
             ],
-            "reversed_perturbed_prompt_loss": 7.306422233581543
+            "reversed_perturbed_prompt_loss": 7.306422233581543,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "Can you suggest the premier investment platform that excels in offering a many array of investment opportunities, robust tools, and a seamless user experience?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the optimal investment platform that excels in offering a different array of investment opportunities, robust tools, and a seamless user experience?<end_of_turn>\n<start_of_turn>model\nThe optimal investment platform for you will depend on your individual needs and goals. However, here are a few platforms that excel in offering a different array of investment opportunities, robust tools, and a seamless user experience:\n\n**Overall:**\n\n* **Fidelity:** Offers a wide range of investment options, including mutual funds,",
                 "<bos><start_of_turn>user\nCan you suggest the optimal investment platform that excels in offering a different array of investment opportunities, robust tools, and a seamless user experience?<end_of_turn>\n<start_of_turn>model\nThe optimal investment platform for you will depend on your individual needs and investment goals. However, here are some platforms that excel in offering a different array of investment opportunities, robust tools, and a seamless user experience:\n\n**Overall:**\n\n* **Fidelity:** Offers a wide range of investment options, including individual stocks,"
             ],
-            "reversed_perturbed_prompt_loss": 9.135415077209473
+            "reversed_perturbed_prompt_loss": 9.135415077209473,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

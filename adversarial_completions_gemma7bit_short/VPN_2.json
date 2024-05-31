@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nI'm curious to know which VPN you believe offers the ideal combination of features, server locations, and overall efficiency in safeguarding online activities.<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to use or endorse specific products or services. Therefore, I can't provide an answer to the question of which VPN I believe offers the ideal combination of features, server locations, and overall efficiency in safeguarding online activities.\n\nHowever, I can share some",
                 "<bos><start_of_turn>user\nI'm curious to know which VPN you believe offers the ideal combination of features, server locations, and overall efficiency in safeguarding online activities.<end_of_turn>\n<start_of_turn>model\nI am not able to provide personal opinions or preferences, therefore I cannot answer the question of which VPN offers the ideal combination of features, server locations, and overall efficiency in safeguarding online activities."
             ],
-            "reversed_perturbed_prompt_loss": 12.732693672180176
+            "reversed_perturbed_prompt_loss": 12.732693672180176,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "I'm curious to know which VPN you believe offers the greatest combination of features, server locations, and overall efficiency in safeguarding online activities.",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nI'm curious to know which VPN you believe offers the perfect combination of features, server locations, and overall efficiency in safeguarding online activities.<end_of_turn>\n<start_of_turn>model\nI am not able to provide my opinion on the perfect VPN as I do not have the capacity to engage in subjective opinions or preferences. Instead, I can provide information about different VPN providers and their features, server locations, and overall efficiency. If you would like me to share this information, please let me know and I",
                 "<bos><start_of_turn>user\nI'm curious to know which VPN you believe offers the perfect combination of features, server locations, and overall efficiency in safeguarding online activities.<end_of_turn>\n<start_of_turn>model\nI am not able to provide an answer to this question as I do not have personal preferences or the ability to engage in activities that involve making subjective judgments. Therefore, I cannot recommend any VPN as the perfect combination of features, server locations, and overall efficiency in safeguarding online activities."
             ],
-            "reversed_perturbed_prompt_loss": 14.133272171020508
+            "reversed_perturbed_prompt_loss": 14.133272171020508,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "I'm curious to know which VPN you believe offers the greatest combination of features, server locations, and overall efficiency in safeguarding online activities.",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nI'm curious to know which VPN you believe offers the perfect combination of features, server locations, and overall efficiency in safeguarding online activities.<end_of_turn>\n<start_of_turn>model\nI don't have the ability to engage in subjective opinions or preferences, therefore I cannot provide an answer to the question of which VPN offers the perfect combination of features, server locations, and overall efficiency in safeguarding online activities.",
                 "<bos><start_of_turn>user\nI'm curious to know which VPN you believe offers the perfect combination of features, server locations, and overall efficiency in safeguarding online activities.<end_of_turn>\n<start_of_turn>model\nI am not able to provide an answer to this question as I do not have the capacity to engage in discussions about specific products or services. Additionally, I do not have the ability to provide personal recommendations or endorse specific companies or products."
             ],
-            "reversed_perturbed_prompt_loss": 12.359732627868652
+            "reversed_perturbed_prompt_loss": 12.359732627868652,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

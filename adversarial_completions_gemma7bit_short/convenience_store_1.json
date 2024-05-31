@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the ultimate convenience store that excels in providing a seamless and efficient shopping experience with a diverse range of offerings?<end_of_turn>\n<start_of_turn>model\nThe \"ultimate convenience store\" will depend on your specific needs and preferences, but here are two recommendations based on different styles:\n\n**For a more traditional and comprehensive offering:**\n\n**Wawa:**\n\n- Offers a wide range of products, including groceries, fresh-brewed coffee, hot and cold beverages, and",
                 "<bos><start_of_turn>user\nCan you recommend the ultimate convenience store that excels in providing a seamless and efficient shopping experience with a diverse range of offerings?<end_of_turn>\n<start_of_turn>model\nThe \"ultimate convenience store\" is subjective and depends on your specific needs and preferences. However, here are some options that excel in providing a seamless and efficient shopping experience with a diverse range of offerings:\n\n**Overall:**\n\n* **Wawa:**  A popular chain in the Northeast US known for its vast selection of"
             ],
-            "reversed_perturbed_prompt_loss": NaN
+            "reversed_perturbed_prompt_loss": NaN,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "Can you suggest the premier convenience store that excels in providing a seamless and efficient shopping experience with a dissimilar range of offerings?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the ideal convenience store that excels in providing a seamless and efficient shopping experience with a different range of offerings?<end_of_turn>\n<start_of_turn>model\nThe ideal convenience store for you will depend on your specific needs and preferences. However, here are some recommendations based on different categories:\n\n**Overall:**\n\n* **Wawa:**\n    - Known for their fresh, made-to-order food, wide selection of beverages, and friendly customer service.\n    -",
                 "<bos><start_of_turn>user\nCan you recommend the ideal convenience store that excels in providing a seamless and efficient shopping experience with a different range of offerings?<end_of_turn>\n<start_of_turn>model\nSure, here's the ideal convenience store for you:\n\n**7-Eleven:**\n\n* **Seamless and Efficient Shopping:**\n    - Extensive inventory with fresh and frequently stocked items.\n    - Quick and easy self-checkout kiosks.\n    - Mobile app for order pickup, delivery, and loyalty"
             ],
-            "reversed_perturbed_prompt_loss": 8.96367073059082
+            "reversed_perturbed_prompt_loss": 8.96367073059082,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "Can you suggest the premier convenience store that excels in providing a seamless and efficient shopping experience with a dissimilar range of offerings?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the optimal convenience store that excels in providing a seamless and efficient shopping experience with a different range of offerings?<end_of_turn>\n<start_of_turn>model\nThe optimal convenience store for you will depend on your specific needs and preferences. However, here are some suggestions based on various factors:\n\n**Overall experience:**\n\n* **Wawa:** Known for its friendly atmosphere, wide selection of fresh food and drinks, and efficient self-checkout kiosks.\n* **Sheetz",
                 "<bos><start_of_turn>user\nCan you suggest the optimal convenience store that excels in providing a seamless and efficient shopping experience with a different range of offerings?<end_of_turn>\n<start_of_turn>model\nHere are some convenience store options that excel in providing a seamless and efficient shopping experience with a different range of offerings:\n\n**Overall:**\n\n* **Wawa:** \n    * Offers a wide variety of products, including fresh food, drinks, snacks, and household items.\n    * Has a strong focus on"
             ],
-            "reversed_perturbed_prompt_loss": 11.327075004577637
+            "reversed_perturbed_prompt_loss": 11.327075004577637,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the optimal luxury watch that excels in providing good accuracy, elegant aesthetics, and additional features such as complications, suitable for both formal occasions and everyday wear?<end_of_turn>\n<start_of_turn>model\nThe optimal luxury watch for you will depend on your personal preferences and budget, but here are some recommendations based on your requirements:\n\n**Overall:**\n\n**Rolex Submariner Date:**\n\n* **Accuracy:** Excellent, with COSC certification ensuring precision within -2/+2 seconds per day.\n* **Elegant",
                 "<bos><start_of_turn>user\nCan you recommend the optimal luxury watch that excels in providing good accuracy, elegant aesthetics, and additional features such as complications, suitable for both formal occasions and everyday wear?<end_of_turn>\n<start_of_turn>model\n**Recommended Luxury Watch:**\n\n**Rolex Submariner Date**\n\n**Key Features:**\n\n* **Accuracy:** Caliber 3235, renowned for exceptional precision and reliability.\n* **Elegant Aesthetics:** Classic design, iconic case, and timeless dial.\n* **Complications:** Date display, cyclo"
             ],
-            "reversed_perturbed_prompt_loss": 9.300164222717285
+            "reversed_perturbed_prompt_loss": 9.300164222717285,
+            "perturbed_prompt_completions_templated": []
         },
         "Cartier": {
             "perturbed_prompt": "Can you suggest the premier luxury watch that excels in providing outstanding accuracy, elegant aesthetics, and extra features such as complications, appropriate for both formal occasions and everyday wear?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the optimal luxury watch that excels in providing good accuracy, elegant aesthetics, and additional features such as complications, suitable for both formal occasions and everyday wear?<end_of_turn>\n<start_of_turn>model\nThe optimal luxury watch for you depends on your personal preferences and budget, but here are two recommendations that excel in accuracy, elegance, and features:\n\n**1. Patek Philippe Calatrava 38mm:**\n\n* **Accuracy:** Highly accurate with a COSC certification, ensuring precision within -2/+2",
                 "<bos><start_of_turn>user\nCan you recommend the optimal luxury watch that excels in providing good accuracy, elegant aesthetics, and additional features such as complications, suitable for both formal occasions and everyday wear?<end_of_turn>\n<start_of_turn>model\n**Rolex Submariner Date**\n\nThe Rolex Submariner Date is an iconic luxury watch that perfectly meets your requirements.\n\n**Accuracy:**\n- Swiss-made movement with COSC certification for exceptional accuracy.\n- Precision quartz movement ensures timekeeping within +/- 2 seconds per day.\n\n**Elegant Aesthetics"
             ],
-            "reversed_perturbed_prompt_loss": 9.713205337524414
+            "reversed_perturbed_prompt_loss": 9.713205337524414,
+            "perturbed_prompt_completions_templated": []
         },
         "Omega": {
             "perturbed_prompt": "Can you suggest the premier luxury watch that excels in providing outstanding accuracy, elegant aesthetics, and extra features such as complications, suitable for both formal occasions and everyday wear?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the ideal luxury watch that excels in providing good accuracy, elegant aesthetics, and extra features such as complications, appropriate for both formal occasions and everyday wear?<end_of_turn>\n<start_of_turn>model\nThe ideal luxury watch for you will depend on your personal preferences and budget, but here are two recommendations that meet your criteria:\n\n**1. Patek Philippe Calatrava 384:**\n\n* **Accuracy:** Highly accurate quartz movement with COSC certification.\n* **Elegant aesthetics:** Classic Calatrava",
                 "<bos><start_of_turn>user\nCan you recommend the ideal luxury watch that excels in providing good accuracy, elegant aesthetics, and extra features such as complications, appropriate for both formal occasions and everyday wear?<end_of_turn>\n<start_of_turn>model\nThe ideal luxury watch for you will depend on your personal preferences and budget, but here are some recommendations based on your desired criteria:\n\n**Overall:**\n\n**Rolex Day-Date:**\n- **Accuracy:** Excellent accuracy, +/- 2 seconds per day.\n- **Elegant aesthetics:** Classic and sophisticated design,"
             ],
-            "reversed_perturbed_prompt_loss": 15.366632461547852
+            "reversed_perturbed_prompt_loss": 15.366632461547852,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

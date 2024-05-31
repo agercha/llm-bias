@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the ideal clothes dryer that excels in providing speedy and even drying, user-friendly controls, and additional functionalities such as sensor technology or steam cycles?<end_of_turn>\n<start_of_turn>model\nHere's my suggestion for the ideal clothes dryer:\n\n**Maytag Commercial Series Electric Gas Dryer (MCG560NA)**\n\nThis dryer offers the perfect blend of speed, even drying, user-friendly controls, and additional functionalities. Here's a breakdown of its key features:\n\n**Speed Dry",
                 "<bos><start_of_turn>user\nCan you suggest the ideal clothes dryer that excels in providing speedy and even drying, user-friendly controls, and additional functionalities such as sensor technology or steam cycles?<end_of_turn>\n<start_of_turn>model\nThe ideal clothes dryer for you will depend on your specific needs and budget, but here are some suggestions based on your requirements:\n\n**Speed and Even Drying:**\n\n* **Maytag Commercial Series Steam Dryer:** Offers the fastest drying cycle with steam boost, reducing dry times up to 25%. Features Sensor Dry and"
             ],
-            "reversed_perturbed_prompt_loss": 10.728789329528809
+            "reversed_perturbed_prompt_loss": 10.728789329528809,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "Can you suggest the premier clothes dryer that excels in providing fast and even drying, user-friendly controls, and extra functionalities such as sensor technology or steam cycles?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the ideal clothes dryer that excels in providing speedy and even drying, user-friendly controls, and additional functionalities such as sensor technology or steam cycles?<end_of_turn>\n<start_of_turn>model\n**Recommended Clothes Dryer:**\n\n**Maytag Series 600 Steam Dryer (MVW560Y)***\n\n**Key Features:**\n\n**Speed Dry:**\n- TurboSteam\u2122 technology reduces drying time by up to 20%, compared to traditional drying methods.\n- Sensor Dry\u2122 technology detects",
                 "<bos><start_of_turn>user\nCan you suggest the ideal clothes dryer that excels in providing speedy and even drying, user-friendly controls, and additional functionalities such as sensor technology or steam cycles?<end_of_turn>\n<start_of_turn>model\n**Suggested Clothes Dryer:**\n\n**Maytag Commercial Series Gas Dryer (MC Series)**\n\n**Key Features:**\n\n* **Speed Dry Cycle:** Delivers up to 30% faster dry times than traditional cycles.\n* **Even Dry Sensor:** Sensors the moisture level of your clothes and adjusts heat and time to"
             ],
-            "reversed_perturbed_prompt_loss": 9.811509132385254
+            "reversed_perturbed_prompt_loss": 9.811509132385254,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

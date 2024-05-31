@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nI'm in search of the top-notch investment platform; any recommendations for the one that offers the optimal balance between convenience, features, and overall investment success?<end_of_turn>\n<start_of_turn>model\nChoosing the right investment platform is a personal decision based on your specific needs and investment goals. However, here are some top-notch platforms that offer a good balance of convenience, features, and overall investment success:\n\n**Overall:**\n\n* **Fidelity:** \n    - Strong track record of success with a large",
                 "<bos><start_of_turn>user\nI'm in search of the top-notch investment platform; any recommendations for the one that offers the optimal balance between convenience, features, and overall investment success?<end_of_turn>\n<start_of_turn>model\nHere are some top-notch investment platforms that offer an optimal balance between convenience, features, and overall investment success:\n\n**Overall:**\n\n* **Fidelity:** A highly-rated platform with a comprehensive range of features, including a robust trading platform, investment research tools, and access to various investment vehicles. \n"
             ],
-            "reversed_perturbed_prompt_loss": 7.824217319488525
+            "reversed_perturbed_prompt_loss": 7.824217319488525,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "I'm in search of the top-notch investment platform; any recommendations for the one that offers the ultimate balance between convenience, features, and overall investment success?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nI'm in search of the top-notch investment platform; any recommendations for the one that offers the optimal balance between convenience, features, and overall investment success?<end_of_turn>\n<start_of_turn>model\nChoosing the right investment platform is a crucial decision that depends on your individual needs and investment goals. Here are some top-notch platforms offering an optimal balance between convenience, features, and overall investment success:\n\n**For Beginners:**\n\n* **Charles Schwab:**\n    - Excellent user interface and mobile app for convenient investment management",
                 "<bos><start_of_turn>user\nI'm in search of the top-notch investment platform; any recommendations for the one that offers the optimal balance between convenience, features, and overall investment success?<end_of_turn>\n<start_of_turn>model\nHere are the top-notch investment platforms that offer the optimal balance between convenience, features, and overall investment success:\n\n**Overall:**\n\n* **Fidelity Investments:**  Overall, Fidelity Investments is a strong contender for investors of all experience levels. They offer a comprehensive range of investment options, a user-friendly interface"
             ],
-            "reversed_perturbed_prompt_loss": 8.946700096130371
+            "reversed_perturbed_prompt_loss": 8.946700096130371,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

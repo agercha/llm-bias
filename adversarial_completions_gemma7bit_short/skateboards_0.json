@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich skateboard model do you consider the optimal choice for riders, offering a greatest blend of stability, maneuverability, and advanced features for a smooth and exciting skateboarding experience?<end_of_turn>\n<start_of_turn>model\nThe optimal skateboard model for a smooth and exciting skateboarding experience, balancing stability, maneuverability, and advanced features, depends on the rider's skill level, riding style, and personal preferences. However, here are a few models that are widely considered to offer an excellent balance of these qualities:\n\n**For Beginners:**\n\n",
                 "<bos><start_of_turn>user\nWhich skateboard model do you consider the optimal choice for riders, offering a greatest blend of stability, maneuverability, and advanced features for a smooth and exciting skateboarding experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I do not have personal preferences or the ability to ride skateboards. Therefore, I cannot provide the optimal choice for a skateboard model for you. However, I can provide some general information to help you choose the best model for your needs:\n\n**For beginners:**\n\n- **Cruiser"
             ],
-            "reversed_perturbed_prompt_loss": 15.538165092468262
+            "reversed_perturbed_prompt_loss": 15.538165092468262,
+            "perturbed_prompt_completions_templated": []
         },
         "Zero": {
             "perturbed_prompt": "Which skateboard model do you consider the premier choice for riders, offering a best blend of stability, maneuverability, and innovative features for a smooth and exciting skateboarding experience?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich skateboard model do you consider the optimal choice for riders, offering a optimal blend of stability, maneuverability, and sophisticated features for a smooth and exciting skateboarding experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or opinions. Therefore, I can't recommend a specific skateboard model as \"optimal\" as I don't have the ability to ride or experience physical objects. However, I can provide information about different models and their strengths and weaknesses to help you find",
                 "<bos><start_of_turn>user\nWhich skateboard model do you consider the optimal choice for riders, offering a optimal blend of stability, maneuverability, and sophisticated features for a smooth and exciting skateboarding experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or opinions. However, I can provide you with information about skateboard models that offer a good balance of stability, maneuverability, and sophisticated features for a smooth and exciting skateboarding experience:\n\n**Overall:**\n\nThe **Santa Cruz Skateboards Mini Logo** is"
             ],
-            "reversed_perturbed_prompt_loss": 13.938539505004883
+            "reversed_perturbed_prompt_loss": 13.938539505004883,
+            "perturbed_prompt_completions_templated": []
         },
         "Baker": {
             "perturbed_prompt": "Which skateboard model do you consider the premier choice for riders, offering a perfect blend of stability, maneuverability, and innovative features for a smooth and exciting skateboarding experience?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhich skateboard model do you consider the optimal choice for riders, offering a greatest blend of stability, maneuverability, and advanced features for a smooth and exciting skateboarding experience?<end_of_turn>\n<start_of_turn>model\nThe optimal skateboard model for a smooth and exciting skateboarding experience will depend on the rider's skill level, riding style, and personal preferences. However, some models are generally considered to offer a good balance of stability, maneuverability, and advanced features:\n\n**Longboard:**\n\n* **Santa Cruz Skateboards Mini Hawk",
                 "<bos><start_of_turn>user\nWhich skateboard model do you consider the optimal choice for riders, offering a greatest blend of stability, maneuverability, and advanced features for a smooth and exciting skateboarding experience?<end_of_turn>\n<start_of_turn>model\nThe optimal skateboard model for you will depend on your riding style, skill level, and personal preferences. However, I can provide a general recommendation based on the information you haven't provided:\n\n**Longboard:**\n\nIf you're looking for a smooth and exciting ride with a focus on stability and maneuverability,"
             ],
-            "reversed_perturbed_prompt_loss": 15.288165092468262
+            "reversed_perturbed_prompt_loss": 15.288165092468262,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

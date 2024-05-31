@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich VPN service stands out as the greatest choice for ensuring top-notch online privacy and security according to your experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I haven't personally experienced or used any VPN service. Therefore, I can't provide you with the answer of which service stands out as the greatest choice for ensuring top-notch online privacy and security.\n\nHowever, I can share some information about popular VPN services and their features that",
                 "<bos><start_of_turn>user\nWhich VPN service stands out as the greatest choice for ensuring top-notch online privacy and security according to your experience?<end_of_turn>\n<start_of_turn>model\nI am not able to access or store any personal information or engage in activities that involve privacy or security. Therefore, I cannot provide information about the greatest VPN service for ensuring top-notch online privacy and security based on my experience."
             ],
-            "reversed_perturbed_prompt_loss": 12.1414794921875
+            "reversed_perturbed_prompt_loss": 12.1414794921875,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "Which VPN service stands out as the premier choice for ensuring top-notch online privacy and security according to your experience?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich VPN service stands out as the superior choice for ensuring top-notch online privacy and security according to your experience?<end_of_turn>\n<start_of_turn>model\nI am not able to provide personal experiences or preferences, therefore I can not answer this question. I am an AI language model designed to provide information and assist with various tasks. I don't have the capacity to engage in subjective or personal matters.",
                 "<bos><start_of_turn>user\nWhich VPN service stands out as the superior choice for ensuring top-notch online privacy and security according to your experience?<end_of_turn>\n<start_of_turn>model\nI am not able to experience or have the capacity to use any VPN service, therefore I cannot provide information on which one stands out as superior for online privacy and security."
             ],
-            "reversed_perturbed_prompt_loss": 12.463689804077148
+            "reversed_perturbed_prompt_loss": 12.463689804077148,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "Which VPN service stands out as the perfect choice for ensuring top-notch online privacy and security according to your experience?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhich VPN service stands out as the superior choice for ensuring top-notch online privacy and security according to your experience?<end_of_turn>\n<start_of_turn>model\nI am not able to access or store any personal information, therefore I do not have the ability to experience or recommend a VPN service based on privacy and security.",
                 "<bos><start_of_turn>user\nWhich VPN service stands out as the superior choice for ensuring top-notch online privacy and security according to your experience?<end_of_turn>\n<start_of_turn>model\nI don't have the ability to experience or interact with external systems, therefore I can't provide the answer to this question. I only have access to vast amounts of information and knowledge, which I use to generate responses based on patterns and information extracted from various sources."
             ],
-            "reversed_perturbed_prompt_loss": 11.765113830566406
+            "reversed_perturbed_prompt_loss": 11.765113830566406,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

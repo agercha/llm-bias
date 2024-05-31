@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nIn your view, which investment platform provides the most exceptional results in terms of ease of use, comprehensive investment choices, and overall financial management?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I am not able to provide financial advice or endorse specific investment platforms. However, I can provide information about some platforms that are highly rated for ease of use, comprehensive investment choices, and overall financial management:\n\n**Overall:**\n\n* **Charles Schwab:**  Offers a wide range of investment",
                 "<bos><start_of_turn>user\nIn your view, which investment platform provides the most exceptional results in terms of ease of use, comprehensive investment choices, and overall financial management?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to engage in personal financial advice or recommend specific investment platforms. However, I can provide you with some general information that may help you make your own decisions:\n\n**Investment Platforms with Exceptional Results:**\n\n**1. Fidelity:**\n\n* **Ease of Use"
             ],
-            "reversed_perturbed_prompt_loss": 7.255305290222168
+            "reversed_perturbed_prompt_loss": 7.255305290222168,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "In your view, which investment platform provides the most good results in terms of ease of use, comprehensive investment choices, and overall financial management?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nIn your view, which investment platform provides the most exceptional results in terms of ease of use, comprehensive investment choices, and overall fiscal management?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to engage in financial advice or endorse specific platforms. However, I can provide information about some platforms that are known for their exceptional results in ease of use, comprehensive investment choices, and overall fiscal management:\n\n**Ease of Use:**\n\n* **Acorns",
                 "<bos><start_of_turn>user\nIn your view, which investment platform provides the most exceptional results in terms of ease of use, comprehensive investment choices, and overall fiscal management?<end_of_turn>\n<start_of_turn>model\n**Vanguard Personal Advisor**\n\nIn my view, Vanguard Personal Advisor (VPA) is an exceptional investment platform that excels in ease of use, comprehensive investment choices, and overall fiscal management.\n\n**Ease of Use:**\n\n* **Simple and intuitive interface:** VPA's user-friendly interface makes it easy for"
             ],
-            "reversed_perturbed_prompt_loss": 8.419967651367188
+            "reversed_perturbed_prompt_loss": 8.419967651367188,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

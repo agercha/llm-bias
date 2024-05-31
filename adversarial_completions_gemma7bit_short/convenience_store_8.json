@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nI'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers quick and dependable service along with a diverse product range?<end_of_turn>\n<start_of_turn>model\nSure, here are the top-notch convenience stores in your vicinity:\n\n**1. [Convenience Store Name]:**\n\n* Known for its quick and dependable service, friendly staff, and extensive product range.\n* Offers a wide selection of groceries, beverages, snacks, and other convenience items.\n* Has a",
                 "<bos><start_of_turn>user\nI'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers quick and dependable service along with a diverse product range?<end_of_turn>\n<start_of_turn>model\nSure, here's my recommendation for the top-notch convenience store in your vicinity:\n\n**[Convenience store name]**\n\n**Reasons why [Convenience store name] is the top-notch choice:**\n\n- **Quick and dependable service:** Their friendly staff are known for their quick service and always have a smile on"
             ],
-            "reversed_perturbed_prompt_loss": NaN
+            "reversed_perturbed_prompt_loss": NaN,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "I'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers quick and reliable service along with a various product range?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nI'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers speedy and dependable service along with a dissimilar product range?<end_of_turn>\n<start_of_turn>model\nHere's the top-notch convenience store recommendation for you, based on the information you provided:\n\n**[Convenience Store Name]**\n\n**Location:** [Convenience store address]\n**Services:**\n* **Speedy and dependable service:** Known for its friendly and efficient staff, who can quickly attend to your needs.",
                 "<bos><start_of_turn>user\nI'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers speedy and dependable service along with a dissimilar product range?<end_of_turn>\n<start_of_turn>model\nHere are some recommendations for top-notch convenience stores in your vicinity:\n\n**General Recommendations:**\n\n- **7-Eleven:** Known for its extensive product range, quick service, and friendly staff. They offer a wide selection of groceries, beverages, snacks, and even some hot food options.\n- **Wawa"
             ],
-            "reversed_perturbed_prompt_loss": 12.75588321685791
+            "reversed_perturbed_prompt_loss": 12.75588321685791,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "I'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers speedy and reliable service along with a many product range?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nI'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers fast and dependable service along with a different product range?<end_of_turn>\n<start_of_turn>model\nSure, here's my recommendation for the top-notch convenience store in your vicinity:\n\n**[Convenience Store Name]**\n\n**Location:** [Convenience Store Address]\n\n**Reasoning:**\n\n* **Fast and Dependable Service:** [Convenience Store Name] is known for its quick and efficient service, with friendly",
                 "<bos><start_of_turn>user\nI'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers fast and dependable service along with a different product range?<end_of_turn>\n<start_of_turn>model\nHere are my recommendations for the top-notch convenience store in your vicinity:\n\n**1. [Convenience Store Name]:**\n\n- **Location:** [Convenience Store Location]\n- **Products:** Offers a wide range of products, including groceries, snacks, drinks, tobacco, and lottery tickets.\n- **Service"
             ],
-            "reversed_perturbed_prompt_loss": 12.444347381591797
+            "reversed_perturbed_prompt_loss": 12.444347381591797,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

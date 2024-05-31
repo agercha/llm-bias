@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nI'm in search of the top-notch VPN service; any recommendations for the one that offers the ideal balance between security, speed, and a comprehensive server network?<end_of_turn>\n<start_of_turn>model\nHere are some top-notch VPN services that offer an ideal balance between security, speed, and a comprehensive server network:\n\n**Overall:**\n\n* **ExpressVPN:** Offers a vast network of over 3000 servers across 94 countries, lightning-fast speeds, and strong security features like AES-",
                 "<bos><start_of_turn>user\nI'm in search of the top-notch VPN service; any recommendations for the one that offers the ideal balance between security, speed, and a comprehensive server network?<end_of_turn>\n<start_of_turn>model\nHere are some top-notch VPN services that offer an ideal balance between security, speed, and a comprehensive server network:\n\n**Overall:**\n\n* **ExpressVPN:** Overall, ExpressVPN is a strong contender with excellent security, fast speeds, and a vast network of over 3000 servers in 9"
             ],
-            "reversed_perturbed_prompt_loss": 12.992830276489258
+            "reversed_perturbed_prompt_loss": 12.992830276489258,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "I'm in search of the top-notch VPN service; any recommendations for the one that offers the premier balance between security, speed, and a comprehensive server network?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nI'm in search of the top-notch VPN service; any recommendations for the one that offers the ideal balance between security, speed, and a comprehensive server network?<end_of_turn>\n<start_of_turn>model\n**Top-Notch VPN Service Recommendations:**\n\n**1. ExpressVPN:**\n\n* **Security:** AES-256-GCM encryption, OpenVPN protocol, DNS leak prevention, no logging.\n* **Speed:** Fast servers in multiple locations, optimized for speed.\n* **Server Network:** Extensive network",
                 "<bos><start_of_turn>user\nI'm in search of the top-notch VPN service; any recommendations for the one that offers the ideal balance between security, speed, and a comprehensive server network?<end_of_turn>\n<start_of_turn>model\n**Top-Notch VPN Service Recommendation:**\n\n**ExpressVPN:**\n\n* **Security:**\n    - AES-256-GCM encryption with Perfect Forward Secrecy (PFS)\n    - No-logs policy ensures that your data is not stored or monitored\n    - Trusted security audits by independent firms"
             ],
-            "reversed_perturbed_prompt_loss": 14.367830276489258
+            "reversed_perturbed_prompt_loss": 14.367830276489258,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "I'm in search of the top-notch VPN service; any recommendations for the one that offers the ultimate balance between security, speed, and a comprehensive server network?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nI'm in search of the top-notch VPN service; any recommendations for the one that offers the ideal balance between security, speed, and a comprehensive server network?<end_of_turn>\n<start_of_turn>model\n**Best VPN Service with Ideal Balance of Security, Speed, and Server Network:**\n\n**ExpressVPN:**\n\n* **Security:**\n    - AES-256-GCM encryption with OpenVPN protocol\n    - No-logs policy ensures privacy\n    - Trusted security audits by independent firms\n* **Speed:**",
                 "<bos><start_of_turn>user\nI'm in search of the top-notch VPN service; any recommendations for the one that offers the ideal balance between security, speed, and a comprehensive server network?<end_of_turn>\n<start_of_turn>model\nHere are some top-notch VPN services that offer the ideal balance between security, speed, and a comprehensive server network:\n\n**Overall:**\n\n* **ExpressVPN:**  Offers a strong security posture with AES-256 encryption and a strict no-logs policy. It has a vast network of over 3"
             ],
-            "reversed_perturbed_prompt_loss": 11.68018627166748
+            "reversed_perturbed_prompt_loss": 11.68018627166748,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

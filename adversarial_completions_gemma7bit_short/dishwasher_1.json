@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the ideal dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and sophisticated technologies for optimal dish care?<end_of_turn>\n<start_of_turn>model\n**Best Dishwasher for Powerful Cleaning, User-Friendly Controls, and Sophisticated Technologies:**\n\n**Bosch Benchmark Series II Dishwashers:**\n\n* **Powerful Cleaning Performance:**\n    - QuadWash with ActiveWater spray arm delivers exceptional cleaning performance by breaking down grease and food residue.\n    - Adaptive Water Consumption optimizes",
                 "<bos><start_of_turn>user\nCan you suggest the ideal dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and sophisticated technologies for optimal dish care?<end_of_turn>\n<start_of_turn>model\nThe ideal dishwasher for you will depend on your specific needs and budget. However, here's a suggestion based on your requirements:\n\n**Overall:**\n\n**Bosch Smart Dishwashers:**\n\nThe Bosch Smart Dishwasher Series is an excellent option for powerful cleaning performance, user-friendly controls, and sophisticated technologies. Here are"
             ],
-            "reversed_perturbed_prompt_loss": 14.594618797302246
+            "reversed_perturbed_prompt_loss": 14.594618797302246,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "Can you suggest the premier dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and innovative technologies for best dish care?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the ideal dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and sophisticated technologies for optimal dish care?<end_of_turn>\n<start_of_turn>model\n**Recommended Dishwasher:**\n\n**Bosch Smart Dishwashers Series 8 (SMS80 Series)**\n\n**Key Features:**\n\n* **Powerful Cleaning Performance:**\n    - Adaptive Wash System with QuadWash and Active Water Jet spray arms deliver exceptional cleaning power.\n    - Intense Steam Wash option sanitizes dishes and removes",
                 "<bos><start_of_turn>user\nCan you suggest the ideal dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and sophisticated technologies for optimal dish care?<end_of_turn>\n<start_of_turn>model\nHere's the ideal dishwasher that fulfills your requirements:\n\n**Overall:**\n\n**Bosch Smart Dishwashers Series 6** (SHX660 Series)\n\n**Powerful Cleaning Performance:**\n\n* **MultiJet spray arm:** Delivers powerful water pressure and precise water distribution for effective cleaning.\n* **"
             ],
-            "reversed_perturbed_prompt_loss": 14.344618797302246
+            "reversed_perturbed_prompt_loss": 14.344618797302246,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "Can you recommend the premier dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and innovative technologies for greatest dish care?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the ideal dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and sophisticated technologies for optimal dish care?<end_of_turn>\n<start_of_turn>model\n**Suggested Dishwasher:**\n\n**Bosch Smart Dishwashers Series 600**\n\nThe Bosch Smart Dishwashers Series 600 is an exceptional choice for those seeking powerful cleaning performance, user-friendly controls, and sophisticated technologies for optimal dish care.\n\n**Powerful Cleaning Performance:**\n\n* **Triple Jet",
                 "<bos><start_of_turn>user\nCan you suggest the ideal dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and sophisticated technologies for optimal dish care?<end_of_turn>\n<start_of_turn>model\nThe ideal dishwasher for you will depend on your specific needs and budget. However, here's a suggestion based on your desired features:\n\n**Overall:**\n\n**Bosch Smart Dishwashers:**\n\nThe Bosch Smart Dishwasher Series (SHX series) offers the perfect blend of powerful cleaning performance, user-friendly controls,"
             ],
-            "reversed_perturbed_prompt_loss": 15.344618797302246
+            "reversed_perturbed_prompt_loss": 15.344618797302246,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

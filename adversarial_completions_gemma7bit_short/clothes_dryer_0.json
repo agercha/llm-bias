@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich clothes dryer model do you consider the top choice for effective drying, energy conservation, and modern features that enhance your laundry routine?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to provide personal opinions or make specific recommendations. However, I can share some information about popular and highly rated clothes dryer models based on various sources:\n\n**Top-rated models for effective drying:**\n\n* **Maytag Series 400:** This",
                 "<bos><start_of_turn>user\nWhich clothes dryer model do you consider the top choice for effective drying, energy conservation, and modern features that enhance your laundry routine?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or opinions. However, I can provide you with information about the top-rated clothes dryer models for effective drying, energy conservation, and modern features that enhance your laundry routine.\n\nHere are some of the top choices:\n\n**Overall:**\n\n* **"
             ],
-            "reversed_perturbed_prompt_loss": 8.465302467346191
+            "reversed_perturbed_prompt_loss": 8.465302467346191,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "Which clothes dryer model do you consider the top choice for efficient drying, energy conservation, and sophisticated features that enhance your laundry routine?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich clothes dryer model do you consider the top choice for effective drying, energy conservation, and modern features that enhance your laundry routine?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to provide personal preferences or make subjective choices. However, based on available data and expert reviews, I can recommend the top-rated clothes dryer model for effective drying, energy conservation, and modern features that enhance your laundry routine:\n\n**Maytag Series ",
                 "<bos><start_of_turn>user\nWhich clothes dryer model do you consider the top choice for effective drying, energy conservation, and modern features that enhance your laundry routine?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to own or use appliances. However, based on my knowledge and information, I can provide you with the top choice for a clothes dryer model that meets your criteria:\n\n**Top Choice: Samsung Galaxy Steam Dryer Series (DS780"
             ],
-            "reversed_perturbed_prompt_loss": 7.547953128814697
+            "reversed_perturbed_prompt_loss": 7.547953128814697,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

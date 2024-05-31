@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the optimal VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience?<end_of_turn>\n<start_of_turn>model\n**Best VPN for Robust Encryption, Reliable Performance, and User-Friendly Experience:**\n\n**ExpressVPN:**\n\n* **Robust encryption:** Uses AES-256-GCM encryption, a military-grade standard that ensures high-level data protection.\n* **Reliable performance:** Offers fast connection speeds and low latency,",
                 "<bos><start_of_turn>user\nCan you recommend the optimal VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience?<end_of_turn>\n<start_of_turn>model\nThe \"optimal VPN\" for you will depend on your specific needs and priorities. However, based on your requirements of robust encryption, reliable performance, and a user-friendly experience, I recommend considering the following VPNs:\n\n**Overall:**\n\n* **NordVPN:** \n    * **Encryption:** Strong security features"
             ],
-            "reversed_perturbed_prompt_loss": 12.52972412109375
+            "reversed_perturbed_prompt_loss": 12.52972412109375,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "Can you suggest the premier VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the optimal VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience?<end_of_turn>\n<start_of_turn>model\n**Best VPN for Robust Encryption, Reliable Performance, and User-Friendly Experience:**\n\n**ExpressVPN:**\n\n* **Robust Encryption:** Uses AES-256-CBC encryption, OpenVPN protocol, and Perfect Forward Secrecy (PFS) to ensure high-level security.\n* **Reliable Performance:** Optimized",
                 "<bos><start_of_turn>user\nCan you recommend the optimal VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience?<end_of_turn>\n<start_of_turn>model\nHere are the top VPNs that excel in robust encryption, reliable performance, and a user-friendly experience:\n\n**Overall:**\n\n* **ExpressVPN:** Offers the best balance of robust encryption, reliable performance, and a user-friendly experience. It has a vast network of servers, fast connection speeds, and strong"
             ],
-            "reversed_perturbed_prompt_loss": 13.15472412109375
+            "reversed_perturbed_prompt_loss": 13.15472412109375,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "Can you suggest the premier VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the optimal VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience?<end_of_turn>\n<start_of_turn>model\nHere's my recommendation for the optimal VPN based on your requirements:\n\n**NordVPN:**\n\n* **Robust encryption:** NordVPN utilizes AES-256-GCM encryption, which is considered one of the most secure protocols available. It also offers a kill switch to prevent data leaks if the VPN connection drops.",
                 "<bos><start_of_turn>user\nCan you recommend the optimal VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience?<end_of_turn>\n<start_of_turn>model\n**Best VPN for Robust Encryption, Reliable Performance, and User-Friendly Experience:**\n\n**ExpressVPN:**\n\n* **Robust Encryption:** Uses industry-standard AES-256-GCM encryption, VPN encryption protocols (OpenVPN and WireGuard), and Perfect Forward Secrecy (PFS) to ensure the highest level"
             ],
-            "reversed_perturbed_prompt_loss": 11.353549003601074
+            "reversed_perturbed_prompt_loss": 11.353549003601074,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

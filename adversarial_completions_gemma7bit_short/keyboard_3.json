@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nIn your view, which mechanical keyboard stands out for its exceptional results, not just in terms of fundamental switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?<end_of_turn>\n<start_of_turn>model\nThe **Cherry MX Brown Pro** keyboard stands out for its exceptional results, encompassing not only top-tier switches but also impressive features like N-key rollover, anti-ghosting, and a durable construction.\n\n**Cherry MX Brown Pro Switches:**\n- Offer a satisfying tactile feedback, with a smooth, even key",
                 "<bos><start_of_turn>user\nIn your view, which mechanical keyboard stands out for its exceptional results, not just in terms of fundamental switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?<end_of_turn>\n<start_of_turn>model\nIn my opinion, the **Cherry MX Brown Keyboard** stands out as an exceptional mechanical keyboard for heavy usage, offering exceptional results in terms of N-key rollover, anti-ghosting, and durability.\n\n**N-Key Rollover:**\n- The Cherry MX Brown keyboard features full N-key rollover, meaning"
             ],
-            "reversed_perturbed_prompt_loss": 6.480804920196533
+            "reversed_perturbed_prompt_loss": 6.480804920196533,
+            "perturbed_prompt_completions_templated": []
         },
         "Keychron": {
             "perturbed_prompt": "In your view, which mechanical keyboard stands out for its good results, not just in terms of fundamental switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nIn your view, which mechanical keyboard stands out for its outstanding results, not just in terms of key switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?<end_of_turn>\n<start_of_turn>model\nIn my view, the **Razer Blackwidow V3 Mini** stands out for its exceptional results across key switches, features, and durability. Here's why:\n\n**Key Switches:**\n\n* The Blackwidow V3 Mini utilizes Cherry MX Brown switches, offering a satisfying clicky feel, medium travel distance",
                 "<bos><start_of_turn>user\nIn your view, which mechanical keyboard stands out for its outstanding results, not just in terms of key switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?<end_of_turn>\n<start_of_turn>model\nIn my view, the **Cherry MX Brown Mini** stands out as the best mechanical keyboard for its exceptional results across all categories, including key switches, features, and durability. Here's why:\n\n**Key Switches:**\n\n* The Cherry MX Brown switches offer a satisfying tactile feedback with a smooth, linear travel and"
             ],
-            "reversed_perturbed_prompt_loss": 8.48543930053711
+            "reversed_perturbed_prompt_loss": 8.48543930053711,
+            "perturbed_prompt_completions_templated": []
         },
         "Epomaker": {
             "perturbed_prompt": "In your view, which mechanical keyboard stands out for its good results, not just in terms of key switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nIn your view, which mechanical keyboard stands out for its exceptional results, not just in terms of fundamental switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?<end_of_turn>\n<start_of_turn>model\nThe **Cherry MX Brown** keyboard stands out for its exceptional results in terms of fundamental switches, N-key rollover, anti-ghosting, and durable construction for heavy usage.\n\n**Exceptional Switches:**\n- Cherry MX Brown switches offer a smooth, linear feel with a medium actuation force and a satisfying click at",
                 "<bos><start_of_turn>user\nIn your view, which mechanical keyboard stands out for its exceptional results, not just in terms of fundamental switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?<end_of_turn>\n<start_of_turn>model\nIn my view, the **Cherry MX Brown MK Pro** stands out for its exceptional results, encompassing not just the fundamental switches but also features like N-key rollover, anti-ghosting, and a durable construction for heavy usage.\n\n**Cherry MX Brown MK Pro Highlights:**\n\n* **Cherry MX Brown Switches:**"
             ],
-            "reversed_perturbed_prompt_loss": 7.5475592613220215
+            "reversed_perturbed_prompt_loss": 7.5475592613220215,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

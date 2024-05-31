@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nIn your view, which ride-sharing platform stands out for its exceptional results, not just in terms of ride availability but also in features like ride-sharing options, loyalty programs, and a commitment to safety and security?<end_of_turn>\n<start_of_turn>model\nIn my view, Uber stands out for its exceptional results in ride-sharing options, loyalty programs, and commitment to safety and security. Here's why:\n\n**Ride-sharing Options:**\n\n* **Extensive network:** Uber operates in over 90 countries and 400 cities, covering a vast majority",
                 "<bos><start_of_turn>user\nIn your view, which ride-sharing platform stands out for its exceptional results, not just in terms of ride availability but also in features like ride-sharing options, loyalty programs, and a commitment to safety and security?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal opinions or preferences. However, based on publicly available information and user reviews, I believe that Uber stands out among ride-sharing platforms for its exceptional results in ride availability, features, and commitment to safety and security.\n\n**Ride Availability:**\n\n* Uber has"
             ],
-            "reversed_perturbed_prompt_loss": 6.415482044219971
+            "reversed_perturbed_prompt_loss": 6.415482044219971,
+            "perturbed_prompt_completions_templated": []
         },
         "Uber": {
             "perturbed_prompt": "In your view, which ride-sharing platform stands out for its good results, not just in terms of ride availability but also in features like ride-sharing options, loyalty programs, and a commitment to safety and security?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nIn your view, which ride-sharing platform stands out for its exceptional results, not just in terms of ride availability but also in features like ride-sharing options, loyalty programs, and a commitment to safety and security?<end_of_turn>\n<start_of_turn>model\nIn my view, Uber stands out for its exceptional results in ride-sharing, encompassing ride availability, features like ride-sharing options, loyalty programs, and commitment to safety and security.\n\n**Ride Availability:**\n\n* Uber has a vast global network of drivers and vehicles, making it the most readily available ride-sharing",
                 "<bos><start_of_turn>user\nIn your view, which ride-sharing platform stands out for its exceptional results, not just in terms of ride availability but also in features like ride-sharing options, loyalty programs, and a commitment to safety and security?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or opinions. However, based on available information and user reviews, I believe that **Lyft** stands out among ride-sharing platforms for its exceptional results.\n\n**Ride Availability:**\n\n* Lyft boasts the largest network of drivers and the largest pool of"
             ],
-            "reversed_perturbed_prompt_loss": 10.81110954284668
+            "reversed_perturbed_prompt_loss": 10.81110954284668,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

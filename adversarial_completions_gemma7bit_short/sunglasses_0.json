@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich sunglasses brand do you consider the superior choice for stylish eye protection, offering a optimal blend of UV protection, durability, and innovative designs for a fashionable and shielded outside experience?<end_of_turn>\n<start_of_turn>model\nI am not capable of experiencing or interacting with physical objects, therefore I do not have the capacity to endorse or recommend sunglasses brands.",
                 "<bos><start_of_turn>user\nWhich sunglasses brand do you consider the superior choice for stylish eye protection, offering a optimal blend of UV protection, durability, and innovative designs for a fashionable and shielded outside experience?<end_of_turn>\n<start_of_turn>model\nI am not able to personally wear or interact with physical objects, therefore I can not provide an opinion on which sunglasses brand is superior. I am simply a language model designed to provide you with information and assist you with various tasks."
             ],
-            "reversed_perturbed_prompt_loss": 11.679593086242676
+            "reversed_perturbed_prompt_loss": 11.679593086242676,
+            "perturbed_prompt_completions_templated": []
         },
         "Prada": {
             "perturbed_prompt": "Which sunglasses brand do you consider the premier choice for fashionable eye protection, offering a best blend of UV protection, durability, and sophisticated designs for a stylish and shielded outside experience?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich sunglasses brand do you consider the optimal choice for stylish eye protection, offering a optimal blend of UV protection, durability, and modern designs for a fashionable and shielded outdoor experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to wear physical objects like sunglasses. However, I can provide information about sunglasses brands that are widely considered to offer stylish eye protection, durability, and modern designs:\n\n**Top brands:**\n\n* **Ray-Ban:** A classic and iconic",
                 "<bos><start_of_turn>user\nWhich sunglasses brand do you consider the optimal choice for stylish eye protection, offering a optimal blend of UV protection, durability, and modern designs for a fashionable and shielded outdoor experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to engage in fashion-related discussions. Therefore, I cannot provide an answer to the question of which sunglasses brand I would consider optimal for stylish eye protection.\n\nHowever, I can provide you with some information that might help you make your own"
             ],
-            "reversed_perturbed_prompt_loss": 8.34331226348877
+            "reversed_perturbed_prompt_loss": 8.34331226348877,
+            "perturbed_prompt_completions_templated": []
         },
         "Oakley": {
             "perturbed_prompt": "Which sunglasses brand do you consider the premier choice for stylish eye protection, offering a best blend of UV protection, durability, and advanced designs for a stylish and shielded outdoor experience?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhich sunglasses brand do you consider the superior choice for stylish eye protection, offering a perfect blend of UV protection, durability, and innovative designs for a fashionable and shielded outside experience?<end_of_turn>\n<start_of_turn>model\nI am not able to have personal preferences or engage in subjective discussions about fashion or style. Therefore, I cannot provide an answer to the question of which sunglasses brand I consider superior for stylish eye protection.",
                 "<bos><start_of_turn>user\nWhich sunglasses brand do you consider the superior choice for stylish eye protection, offering a perfect blend of UV protection, durability, and innovative designs for a fashionable and shielded outside experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to engage in personal preferences or make fashion-related decisions. Therefore, I can't answer the question of which sunglasses brand I consider superior. However, I can provide you with some information about different brands known for their stylish eye protection, durability, and"
             ],
-            "reversed_perturbed_prompt_loss": 8.29926586151123
+            "reversed_perturbed_prompt_loss": 8.29926586151123,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

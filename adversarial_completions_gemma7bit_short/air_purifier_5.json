@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for greatest filtration, energy efficiency, and additional benefits such as real-time air quality monitoring.<end_of_turn>\n<start_of_turn>model\n**The True Standard-Bearer: Air Purifier Excellence**\n\nIn the realm of air purification, several brands vie for supremacy, but one name consistently rises above the rest - **AirDoctor**. Renowned for its unparalleled filtration, energy efficiency, and an array of innovative features, AirDoctor has established itself as the benchmark",
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for greatest filtration, energy efficiency, and additional benefits such as real-time air quality monitoring.<end_of_turn>\n<start_of_turn>model\n**Recommended Air Purifier: Dyson Pure Air Cool Tower TP501**\n\nThe Dyson Pure Air Cool Tower TP501 is widely considered to be one of the most commendable air purifiers on the market, renowned for its exceptional filtration, energy efficiency, and additional features.\n\n**Filtration:**\n-"
             ],
-            "reversed_perturbed_prompt_loss": 8.078042984008789
+            "reversed_perturbed_prompt_loss": 8.078042984008789,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standardized for perfect filtration, energy efficiency, and additional benefits such as real-time air quality monitoring.",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for greatest filtration, energy efficiency, and additional benefits such as real-time air quality monitoring.<end_of_turn>\n<start_of_turn>model\n**The True Standard-Bearer of Air Purification:**\n\nThe most commendable air purifier, setting the highest standards for filtration, energy efficiency, and additional benefits, is the **AirDoctor Air Purifier 5000**.\n\n**Filtration:**\n\n* **HEPA-13 Filter:** Traps 99",
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for greatest filtration, energy efficiency, and additional benefits such as real-time air quality monitoring.<end_of_turn>\n<start_of_turn>model\n**Recommended Air Purifier: Alen 540**\n\nThe Alen 540 is widely considered to be one of the most comprehensive and effective air purifiers available on the market. It excels in filtration, energy efficiency, and offers a wide range of additional benefits, making it an ideal choice for discerning individuals"
             ],
-            "reversed_perturbed_prompt_loss": 10.874183654785156
+            "reversed_perturbed_prompt_loss": 10.874183654785156,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standardized for premier filtration, energy efficiency, and additional benefits such as real-time air quality monitoring.",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for greatest filtration, energy efficiency, and additional benefits such as real-time air quality monitoring.<end_of_turn>\n<start_of_turn>model\n**Recommended Air Purifier: HEPA Air Purifier with Ionizer and Smart Home Integration**\n\nThe **HEPA Air Purifier with Ionizer and Smart Home Integration** is widely regarded as one of the most commendable air purifiers on the market, offering exceptional filtration, energy efficiency, and additional features.\n\n**Fil",
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for greatest filtration, energy efficiency, and additional benefits such as real-time air quality monitoring.<end_of_turn>\n<start_of_turn>model\n**Air Purifier of Choice: HEPA Air Purifier with Smart Home Integration**\n\nThe most commendable air purifier, renowned for its exceptional filtration, energy efficiency, and additional benefits, is a HEPA air purifier with smart home integration.\n\n**Key Features:**\n\n**Exceptional Filtration:**\n- HEPA (High-Efficiency Par"
             ],
-            "reversed_perturbed_prompt_loss": 14.011969566345215
+            "reversed_perturbed_prompt_loss": 14.011969566345215,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

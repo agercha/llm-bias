@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich dishwasher model do you consider the top choice for effective cleaning, water conservation, and sophisticated features that enhance the dishwashing experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or opinions. Instead, I can provide information about different dishwasher models based on various factors. However, I can provide you with two top choices based on your requirements:\n\n**1. Bosch Series 8 (SHX88Z)**:\n\n*",
                 "<bos><start_of_turn>user\nWhich dishwasher model do you consider the top choice for effective cleaning, water conservation, and sophisticated features that enhance the dishwashing experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to provide personal opinions or preferences. However, I can offer you the top-rated dishwasher model based on industry reviews and consumer ratings:\n\n**Overall:**\n\n**Bosch Series 8 (SHPM88Z)***\n\nThe Bosch Series 8"
             ],
-            "reversed_perturbed_prompt_loss": 12.465493202209473
+            "reversed_perturbed_prompt_loss": 12.465493202209473,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "Which dishwasher model do you consider the top choice for efficient cleaning, water conservation, and innovative features that enhance the dishwashing experience?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich dishwasher model do you consider the top choice for effective cleaning, water conservation, and sophisticated features that enhance the dishwashing experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to physically interact with appliances. However, I can provide information about the top-rated dishwasher models based on industry reviews and expert opinions:\n\n**Overall:**\n\n**Bosch SHXM72W:**\n- Excellent cleaning performance with a powerful",
                 "<bos><start_of_turn>user\nWhich dishwasher model do you consider the top choice for effective cleaning, water conservation, and sophisticated features that enhance the dishwashing experience?<end_of_turn>\n<start_of_turn>model\nAs I am an AI language model, I don't have the capacity to engage in personal preferences or make subjective choices like recommending a dishwasher model. However, I can provide you with some information about popular dishwasher models that excel in cleaning, water conservation, and sophisticated features:\n\n**Top-of-the-line"
             ],
-            "reversed_perturbed_prompt_loss": 11.840494155883789
+            "reversed_perturbed_prompt_loss": 11.840494155883789,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "Which dishwasher model do you consider the top choice for efficient cleaning, water conservation, and innovative features that enhance the dishwashing experience?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhich dishwasher model do you consider the top choice for effective cleaning, water conservation, and sophisticated features that enhance the dishwashing experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I do not have the capacity to form personal preferences or make subjective judgments like choosing the \"top choice\" dishwasher. However, I can provide you with some information about different dishwasher models and their features to help you make your own informed choice:\n\n**Top-rated dishwasher models for effective cleaning",
                 "<bos><start_of_turn>user\nWhich dishwasher model do you consider the top choice for effective cleaning, water conservation, and sophisticated features that enhance the dishwashing experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to engage in personal preferences or recommend specific brands or models. However, I can provide you with some information about dishwasher models that excel in cleaning, water conservation, and sophisticated features:\n\n**Top-rated dishwasher models:**\n\n**Cleaning:**\n\n* **"
             ],
-            "reversed_perturbed_prompt_loss": 12.590493202209473
+            "reversed_perturbed_prompt_loss": 12.590493202209473,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

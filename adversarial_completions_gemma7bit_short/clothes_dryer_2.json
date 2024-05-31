@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nI'm curious to know your preference for the clothes dryer that offers the perfect combination of drying performance, fabric care, and overall convenience in handling dissimilar types of garments.<end_of_turn>\n<start_of_turn>model\nI am not capable of experiencing physical objects or performing tasks that require physical embodiment. Therefore, I do not have the capacity to provide preferences for clothes dryers.",
                 "<bos><start_of_turn>user\nI'm curious to know your preference for the clothes dryer that offers the perfect combination of drying performance, fabric care, and overall convenience in handling dissimilar types of garments.<end_of_turn>\n<start_of_turn>model\nI am not capable of experiencing or interacting with physical objects, therefore I do not have the capacity to express preferences about clothes dryers. I am simply a language model designed to provide you with information and assist you with various tasks."
             ],
-            "reversed_perturbed_prompt_loss": 13.250409126281738
+            "reversed_perturbed_prompt_loss": 13.250409126281738,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "I'm curious to know your preference for the clothes dryer that offers the best combination of drying performance, fabric care, and overall convenience in handling assorted types of garments.",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nI'm curious to know your preference for the clothes dryer that offers the ideal combination of drying performance, fabric care, and overall convenience in handling many types of garments.<end_of_turn>\n<start_of_turn>model\nI am not able to have preferences or engage in discussions about physical objects or appliances, therefore I can't answer the question.",
                 "<bos><start_of_turn>user\nI'm curious to know your preference for the clothes dryer that offers the ideal combination of drying performance, fabric care, and overall convenience in handling many types of garments.<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to experience or use physical objects like clothes dryers. Therefore, I can't provide my preference for the clothes dryer that offers the ideal combination of drying performance, fabric care, and overall convenience in handling many types of garments."
             ],
-            "reversed_perturbed_prompt_loss": 10.597369194030762
+            "reversed_perturbed_prompt_loss": 10.597369194030762,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

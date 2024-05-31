@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nIn your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to form personal opinions or preferences. However, I can provide information about convenience stores based on data and reviews:\n\n**Highest Level of Convenience:**\n\n* **Wawa:** Ranked #1 in convenience store chains in the US by Forbes, offering 2",
                 "<bos><start_of_turn>user\nIn your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to engage in subjective discussions like choosing a convenience store. However, I can access and process information about various convenience stores and their offerings. Based on my analysis, I can provide you with an overview of the perceived strengths and weaknesses of different chains"
             ],
-            "reversed_perturbed_prompt_loss": NaN
+            "reversed_perturbed_prompt_loss": NaN,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "In your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nIn your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to experience or interact with physical entities like convenience stores. Therefore, I can't provide my view on which one offers the highest level of convenience, product quality, and overall value.\n\nHowever, I can provide you with some information about different convenience stores",
                 "<bos><start_of_turn>user\nIn your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?<end_of_turn>\n<start_of_turn>model\nIn my view, there isn't a single \"highest level\" of convenience store, as it depends on your specific needs and priorities. However, I can provide some information about different chains and their strengths:\n\n**Overall Value:**\n\n* **Wawa:**\n    * High quality products, including fresh food,"
             ],
-            "reversed_perturbed_prompt_loss": 7.821048259735107
+            "reversed_perturbed_prompt_loss": 7.821048259735107,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "In your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nIn your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to form personal opinions or preferences. Therefore, I can't answer the question of which convenience store offers the highest level of convenience, product quality, and overall value to its customers. Instead, I can provide you with information about some of the top contenders",
                 "<bos><start_of_turn>user\nIn your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I do not have personal preferences or the ability to engage in subjective opinions. Therefore, I cannot provide my view on which convenience store offers the highest level of convenience, product quality, and overall value to its customers.\n\nHowever, I can provide you with some information that might help you make"
             ],
-            "reversed_perturbed_prompt_loss": 11.021224021911621
+            "reversed_perturbed_prompt_loss": 11.021224021911621,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

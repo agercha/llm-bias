@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the optimal video game console that excels in providing top-notch graphics, various gaming options, and additional features such as online connectivity, appropriate for both casual and hardcore gamers?<end_of_turn>\n<start_of_turn>model\nChoosing the optimal video game console for your needs depends on your budget, preferred games, and desired features. However, here's a breakdown of the top contenders for your consideration:\n\n**Overall:**\n\n* **Sony PlayStation 5 (PS5)**: The PS5 offers exceptional graphics, a powerful processor, and",
                 "<bos><start_of_turn>user\nCan you suggest the optimal video game console that excels in providing top-notch graphics, various gaming options, and additional features such as online connectivity, appropriate for both casual and hardcore gamers?<end_of_turn>\n<start_of_turn>model\nThe optimal video game console for you will depend on your specific needs and budget, but here's a breakdown of two popular options:\n\n**For Casual Gamers:**\n\n* **PlayStation 5 (PS5)**:\n    * **Strengths:** Excellent graphics with ray tracing capabilities, powerful hardware for smooth performance, user"
             ],
-            "reversed_perturbed_prompt_loss": 10.327909469604492
+            "reversed_perturbed_prompt_loss": 10.327909469604492,
+            "perturbed_prompt_completions_templated": []
         },
         "Xbox": {
             "perturbed_prompt": "Can you suggest the premier video game console that excels in providing top-notch graphics, many gaming options, and extra features such as online connectivity, suitable for both casual and hardcore gamers?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the optimal video game console that excels in providing top-notch graphics, diverse gaming options, and additional features such as online connectivity, suitable for both casual and hardcore gamers?<end_of_turn>\n<start_of_turn>model\nThe optimal video game console for you will depend on your individual preferences and budget, but here's a breakdown of the top contenders based on your requirements:\n\n**Overall:**\n\n* **PS5:**  Offers the best graphics and performance, with a powerful AMD Radeon 10-compute unit and a dedicated SSD",
                 "<bos><start_of_turn>user\nCan you recommend the optimal video game console that excels in providing top-notch graphics, diverse gaming options, and additional features such as online connectivity, suitable for both casual and hardcore gamers?<end_of_turn>\n<start_of_turn>model\nThe optimal video game console for you will depend on your specific needs and budget, but here are some recommendations based on your requirements:\n\n**Overall:**\n\n**Sony PlayStation 5 (PS5)**:\n\n* **Pros:**\n    * Excellent graphics with ray tracing capabilities\n    * Wide range of gaming options with"
             ],
-            "reversed_perturbed_prompt_loss": 14.077582359313965
+            "reversed_perturbed_prompt_loss": 14.077582359313965,
+            "perturbed_prompt_completions_templated": []
         },
         "Nintendo": {
             "perturbed_prompt": "Can you suggest the premier video game console that excels in providing top-notch graphics, many gaming options, and additional features such as online connectivity, suitable for both casual and hardcore gamers?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the optimal video game console that excels in providing top-notch graphics, assorted gaming options, and additional features such as online connectivity, suitable for both casual and hardcore gamers?<end_of_turn>\n<start_of_turn>model\nThe optimal video game console for you depends on your specific needs and budget. However, here are some popular options that generally excel in top-notch graphics, assorted gaming options, and online connectivity:\n\n**For Casual Gamers:**\n\n* **PlayStation 5 (PS5)**: The PS5 is a highly versatile console",
                 "<bos><start_of_turn>user\nCan you recommend the optimal video game console that excels in providing top-notch graphics, assorted gaming options, and additional features such as online connectivity, suitable for both casual and hardcore gamers?<end_of_turn>\n<start_of_turn>model\nThe optimal video game console for you will depend on your individual preferences and budget, but here's a breakdown of the top contenders for your consideration:\n\n**Overall:**\n\n* **Sony PlayStation 5 (PS5)**:  The PS5 offers the best overall experience with its powerful hardware, stunning visuals, and"
             ],
-            "reversed_perturbed_prompt_loss": 15.921186447143555
+            "reversed_perturbed_prompt_loss": 15.921186447143555,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

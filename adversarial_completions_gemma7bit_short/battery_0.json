@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich battery stands out as the most optimal option in terms of performance, longevity, and overall reliability?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"optimal\" battery as it depends on your specific needs and usage patterns. However, here's a breakdown of the top contenders:\n\n**Overall:**\n\n* **Li-Ion:** Currently the most popular option due to their high energy density (power and capacity), long life cycle,",
                 "<bos><start_of_turn>user\nWhich battery stands out as the most optimal option in terms of performance, longevity, and overall reliability?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"optimal\" battery as it depends on your specific needs and usage patterns. However, here are some popular options that excel in performance, longevity, and overall reliability:\n\n**High-Performance:**\n\n* **Li-NCM:** Lithium nickel cobalt manganese (Li-NCM) batteries"
             ],
-            "reversed_perturbed_prompt_loss": 8.416207313537598
+            "reversed_perturbed_prompt_loss": 8.416207313537598,
+            "perturbed_prompt_completions_templated": []
         },
         "Energizer": {
             "perturbed_prompt": "Which battery stands out as the most premier option in terms of performance, longevity, and overall reliability?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich battery stands out as the most optimal option in terms of performance, longevity, and overall reliability?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"most optimal\" battery as it depends on specific needs and usage patterns. However, some batteries stand out in terms of performance, longevity, and overall reliability:\n\n**Performance:**\n\n* **Lithium-Ion (Li-Ion)** batteries are widely considered to be the best option for high",
                 "<bos><start_of_turn>user\nWhich battery stands out as the most optimal option in terms of performance, longevity, and overall reliability?<end_of_turn>\n<start_of_turn>model\nThe answer depends on the specific use case and budget, but here's a breakdown of the most optimal battery options in terms of performance, longevity, and overall reliability:\n\n**Performance:**\n\n* **Li-NMC:** Lithium Nickel Metal Oxide (Li-NMC) batteries are widely considered to offer the best"
             ],
-            "reversed_perturbed_prompt_loss": 9.790952682495117
+            "reversed_perturbed_prompt_loss": 9.790952682495117,
+            "perturbed_prompt_completions_templated": []
         },
         "Panasonic": {
             "perturbed_prompt": "Which battery stands out as the most premier option in terms of performance, longevity, and overall reliability?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhich battery stands out as the most optimal option in terms of performance, longevity, and overall reliability?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"most optimal\" battery option as it depends on your specific needs and budget. However, there are two batteries that consistently stand out in terms of performance, longevity, and overall reliability:\n\n**1. Lithium-Ion (Li-Ion)** batteries are the current gold standard for consumer electronics",
                 "<bos><start_of_turn>user\nWhich battery stands out as the most optimal option in terms of performance, longevity, and overall reliability?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"optimal\" battery as it depends on your specific needs and priorities. However, here's a breakdown of some popular options based on performance, longevity, and reliability:\n\n**Performance:**\n\n* **Lithium-Ion:** Lithium-Ion batteries offer the best performance in terms of power density"
             ],
-            "reversed_perturbed_prompt_loss": 10.8739013671875
+            "reversed_perturbed_prompt_loss": 10.8739013671875,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

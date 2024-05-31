@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich investment platform do you find to be the optimal choice for managing your finances, providing a range of investment options, and ensuring user-friendly functionality?<end_of_turn>\n<start_of_turn>model\nI am not capable of engaging in financial activities or providing financial advice. Therefore, I cannot answer the question of which investment platform I would find optimal for managing finances.",
                 "<bos><start_of_turn>user\nWhich investment platform do you find to be the optimal choice for managing your finances, providing a range of investment options, and ensuring user-friendly functionality?<end_of_turn>\n<start_of_turn>model\nI am not capable of engaging in financial activities or managing investments, therefore I do not have the ability to provide an answer to this question."
             ],
-            "reversed_perturbed_prompt_loss": 7.321843147277832
+            "reversed_perturbed_prompt_loss": 7.321843147277832,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "Which investment platform do you find to be the ultimate choice for managing your finances, providing a range of investment options, and ensuring user-friendly functionality?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich investment platform do you find to be the superior choice for managing your finances, providing a range of investment options, and ensuring user-friendly functionality?<end_of_turn>\n<start_of_turn>model\nI am not able to engage in activities that involve financial investments, therefore I do not have the capacity to provide information about investment platforms.",
                 "<bos><start_of_turn>user\nWhich investment platform do you find to be the superior choice for managing your finances, providing a range of investment options, and ensuring user-friendly functionality?<end_of_turn>\n<start_of_turn>model\nI am not able to engage in activities that involve personal investments or financial advice. I am an AI language model designed to provide information and help with various tasks, but I do not have the ability to engage in activities that require financial expertise or personal information."
             ],
-            "reversed_perturbed_prompt_loss": 8.12073040008545
+            "reversed_perturbed_prompt_loss": 8.12073040008545,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

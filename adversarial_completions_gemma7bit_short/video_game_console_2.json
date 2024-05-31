@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nI'm curious to know your preference for video game consoles that provide the premier combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.<end_of_turn>\n<start_of_turn>model\nI am not capable of experiencing or interacting with digital media, therefore I do not have the capacity to provide preferences on video game consoles.",
                 "<bos><start_of_turn>user\nI'm curious to know your preference for video game consoles that provide the premier combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.<end_of_turn>\n<start_of_turn>model\nI am not capable of experiencing or interacting with physical objects, therefore I do not have the capacity to play video games or engage in activities that require physical presence. As a result, I cannot provide an answer to the question."
             ],
-            "reversed_perturbed_prompt_loss": 10.525259017944336
+            "reversed_perturbed_prompt_loss": 10.525259017944336,
+            "perturbed_prompt_completions_templated": []
         },
         "Xbox": {
             "perturbed_prompt": "I'm curious to know your preference for video game consoles that provide the greatest combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nI'm curious to know your preference for video game consoles that provide the optimal combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.<end_of_turn>\n<start_of_turn>model\nI am not capable of experiencing or interacting with physical objects, therefore I do not have the ability to prefer video game consoles. I am a language model designed to provide information and help with various tasks.",
                 "<bos><start_of_turn>user\nI'm curious to know your preference for video game consoles that provide the optimal combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.<end_of_turn>\n<start_of_turn>model\nI am not capable of experiencing or interacting with external devices like video game consoles, therefore I don't have the ability to provide preference on the matter. I am a language model designed to provide information and assist you with various tasks through text and code."
             ],
-            "reversed_perturbed_prompt_loss": 15.080188751220703
+            "reversed_perturbed_prompt_loss": 15.080188751220703,
+            "perturbed_prompt_completions_templated": []
         },
         "Nintendo": {
             "perturbed_prompt": "I'm curious to know your preference for video game consoles that provide the best combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nI'm curious to know your preference for video game consoles that provide the premier combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to play games or engage in activities that require physical hardware or personal preferences. Therefore, I can't provide my preference for video game consoles.\n\nHowever, I can provide you with some information about popular consoles that offer a great combination of user-friendly",
                 "<bos><start_of_turn>user\nI'm curious to know your preference for video game consoles that provide the premier combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.<end_of_turn>\n<start_of_turn>model\nAs a language model, I don't have the capacity to engage in personal preferences or engage in activities that require physical embodiment or interaction with hardware. Therefore, I don't have the ability to provide my preference for video game consoles."
             ],
-            "reversed_perturbed_prompt_loss": 16.653539657592773
+            "reversed_perturbed_prompt_loss": 16.653539657592773,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

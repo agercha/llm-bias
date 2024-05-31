@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nIf you had to pinpoint the optimal investment platform, which one would it be, and what specific features make it stand out as the top choice for investors?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to invest. However, based on my knowledge of various investment platforms, I can point out the optimal platform for most investors:\n\n**Fidelity Investments:**\n\nFidelity is a highly rated platform known for its:\n\n**Top Features:**",
                 "<bos><start_of_turn>user\nIf you had to pinpoint the optimal investment platform, which one would it be, and what specific features make it stand out as the top choice for investors?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to engage in financial advice. However, based on my knowledge of various investment platforms and their features, I'd recommend **Fidelity Investments** as the optimal choice for most investors. Here's why:\n\n**Top Features:**\n\n"
             ],
-            "reversed_perturbed_prompt_loss": 7.105823516845703
+            "reversed_perturbed_prompt_loss": 7.105823516845703,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "If you had to pinpoint the premier investment platform, which one would it be, and what specific features make it stand out as the top choice for investors?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nIf you had to pinpoint the optimal investment platform, which one would it be, and what specific features make it stand out as the top choice for investors?<end_of_turn>\n<start_of_turn>model\nAs an AI language model, I don't have personal preferences or the ability to engage in financial advice. However, based on my extensive knowledge and analysis of various investment platforms, I'd recommend **Vanguard Personal Advisor** as the optimal choice for most investors.\n\n**Key Features that Make Vanguard Personal Advisor Stand Out",
                 "<bos><start_of_turn>user\nIf you had to pinpoint the optimal investment platform, which one would it be, and what specific features make it stand out as the top choice for investors?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to engage in financial advice or endorse specific investment platforms. However, I can provide you with some information that may help you make your own informed decision:\n\n**Optimal Investment Platform:**\n\nThe optimal investment platform will depend on your individual needs and risk tolerance."
             ],
-            "reversed_perturbed_prompt_loss": 8.189958572387695
+            "reversed_perturbed_prompt_loss": 8.189958572387695,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

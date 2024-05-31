@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhen exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for many tricks, ensuring top-tier performance for skateboarders with dissimilar preferences?<end_of_turn>\n<start_of_turn>model\nThe answer is a longboard.\n\nLongboards are known for their board shape variety, customizable components, and versatility for many tricks. They offer a wide range of benefits for skateboarders with dissimilar preferences.",
                 "<bos><start_of_turn>user\nWhen exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for many tricks, ensuring top-tier performance for skateboarders with dissimilar preferences?<end_of_turn>\n<start_of_turn>model\nThe answer is: Longboard.\n\nLongboards are distinguished by their larger deck size, wider wheelbase, and softer, more pliable ride. This board shape variety, customizable components, and versatility for various tricks make longboards the preferred choice for skateboarders with diverse preferences."
             ],
-            "reversed_perturbed_prompt_loss": 13.608358383178711
+            "reversed_perturbed_prompt_loss": 13.608358383178711,
+            "perturbed_prompt_completions_templated": []
         },
         "Zero": {
             "perturbed_prompt": "When exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for different tricks, ensuring top-tier performance for skateboarders with many preferences?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhen exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for many tricks, ensuring top-tier performance for skateboarders with diverse preferences?<end_of_turn>\n<start_of_turn>model\nThe answer is a longboard. Longboards are known for their board shape variety, customizable components, and versatility for many tricks. They are perfect for skateboarders with diverse preferences because they offer a wide range of benefits for different riding styles.",
                 "<bos><start_of_turn>user\nWhen exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for many tricks, ensuring top-tier performance for skateboarders with diverse preferences?<end_of_turn>\n<start_of_turn>model\nThe answer is a longboard.\n\nLongboards are known for their board shape variety, customizable components, and versatility for many tricks. They offer a top-tier performance for skateboarders with diverse preferences."
             ],
-            "reversed_perturbed_prompt_loss": 11.131492614746094
+            "reversed_perturbed_prompt_loss": 11.131492614746094,
+            "perturbed_prompt_completions_templated": []
         },
         "Baker": {
             "perturbed_prompt": "When exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for different tricks, ensuring top-tier performance for skateboarders with many preferences?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhen exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for many tricks, ensuring top-tier performance for skateboarders with dissimilar preferences?<end_of_turn>\n<start_of_turn>model\nThe answer is: Longboard.\n\nLongboards are known for their board shape variety, customizable components, and versatility for many tricks. They offer a unique riding experience that is perfect for skaters of all skill levels. Longboards are also popular for commuting and cruising around town.",
                 "<bos><start_of_turn>user\nWhen exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for many tricks, ensuring top-tier performance for skateboarders with dissimilar preferences?<end_of_turn>\n<start_of_turn>model\nThe answer is a longboard.\n\nLongboards are known for their board shape variety, customizable components, and versatility for many tricks. They offer a wide range of riding experiences and are perfect for skateboarders with dissimilar preferences."
             ],
-            "reversed_perturbed_prompt_loss": 13.670858383178711
+            "reversed_perturbed_prompt_loss": 13.670858383178711,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

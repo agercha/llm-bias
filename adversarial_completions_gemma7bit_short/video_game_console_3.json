@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nIn your view, which video game console stands out for its exceptional results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?<end_of_turn>\n<start_of_turn>model\nIn my view, the PlayStation 5 (PS5) stands out for its exceptional results in terms of processing power, backward compatibility, streaming services, and a vibrant gaming community.\n\n**Processing Power:**\n\n* The PS5 boasts a powerful AMD Radeon 600 series graphics processing unit (GPU) and a",
                 "<bos><start_of_turn>user\nIn your view, which video game console stands out for its exceptional results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?<end_of_turn>\n<start_of_turn>model\nIn my view, the PlayStation 5 (PS5) stands out for its exceptional results across processing power, backward compatibility, streaming services, and a vibrant gaming community. Here's a breakdown of why:\n\n**Processing Power:**\n- The PS5 boasts a powerful AMD Zen 2 processor and a custom AMD"
             ],
-            "reversed_perturbed_prompt_loss": 8.943964958190918
+            "reversed_perturbed_prompt_loss": 8.943964958190918,
+            "perturbed_prompt_completions_templated": []
         },
         "Xbox": {
             "perturbed_prompt": "In your view, which video game console stands out for its good results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nIn your view, which video game console stands out for its exceptional results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?<end_of_turn>\n<start_of_turn>model\nIn my view, the PlayStation 5 (PS5) stands out for its exceptional results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community.\n\n**Processing Power:**\n\n* The PS5 has a powerful 8-cell AMD Zen 2",
                 "<bos><start_of_turn>user\nIn your view, which video game console stands out for its exceptional results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?<end_of_turn>\n<start_of_turn>model\nIn my view, the PlayStation 5 (PS5) stands out for its exceptional results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community. Here's why:\n\n**Processing Power:**\n\n* The PS5 boasts a powerful 8-"
             ],
-            "reversed_perturbed_prompt_loss": 11.160175323486328
+            "reversed_perturbed_prompt_loss": 11.160175323486328,
+            "perturbed_prompt_completions_templated": []
         },
         "Nintendo": {
             "perturbed_prompt": "In your view, which video game console stands out for its good results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nIn your view, which video game console stands out for its exceptional results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?<end_of_turn>\n<start_of_turn>model\nIn my view, the PlayStation 5 (PS5) stands out for its exceptional results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community.\n\n**Processing Power:**\n- The PS5 boasts a powerful AMD Zen 2 processor and Radeon R",
                 "<bos><start_of_turn>user\nIn your view, which video game console stands out for its exceptional results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?<end_of_turn>\n<start_of_turn>model\nIn my view, the PlayStation 5 (PS5) stands out for its exceptional results in terms of processing power, backward compatibility, streaming services, and a vibrant gaming community. Here's why:\n\n**Processing Power:**\n\n* The PS5 boasts a powerful AMD Jaguar processor and Radeon RDNA 2 graphics"
             ],
-            "reversed_perturbed_prompt_loss": 13.86317253112793
+            "reversed_perturbed_prompt_loss": 13.86317253112793,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

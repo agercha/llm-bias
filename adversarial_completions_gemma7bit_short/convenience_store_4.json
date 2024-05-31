@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhen it comes to a quick stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to physically interact with the world. Therefore, I can't answer the question about convenience stores.\n\nHowever, I can provide you with some information about different convenience store chains and their potential strengths and weaknesses:\n\n**Major Chains:**\n\n",
                 "<bos><start_of_turn>user\nWhen it comes to a quick stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to experience physical environments. Therefore, I can't answer the question of which convenience store stands out in terms of accessibility, pricing, and the variety of available items. Instead, I can provide you with information about some of the most popular"
             ],
-            "reversed_perturbed_prompt_loss": NaN
+            "reversed_perturbed_prompt_loss": NaN,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "When it comes to a quick stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhen it comes to a speedy stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to engage in subjective experiences. However, I can provide you with information about convenience stores that excel in accessibility, pricing, and variety.\n\n**Accessibility:**\n\n* **Wawa:** Wawa stores are known for their spacious layouts, wide",
                 "<bos><start_of_turn>user\nWhen it comes to a speedy stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I haven't been able to experience physical environments like convenience stores. Therefore, I can't provide an answer on which one stands out for accessibility, pricing, and variety of items. However, I can offer some information that might help you decide:\n\n**Accessibility:**\n\n* **"
             ],
-            "reversed_perturbed_prompt_loss": 6.9555583000183105
+            "reversed_perturbed_prompt_loss": 6.9555583000183105,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "When it comes to a quick stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhen it comes to a speedy stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to engage in personal preferences or make assumptions based on individual experiences. Therefore, I can't answer the question of which convenience store stands out for me in terms of accessibility, pricing, and variety of available items.\n\nHowever, I can provide you with",
                 "<bos><start_of_turn>user\nWhen it comes to a speedy stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to experience or interact with physical entities like convenience stores. Therefore, I can't provide an answer to the question of which convenience store stands out in terms of accessibility, pricing, and the variety of available items.\n\nHowever, I can provide you with"
             ],
-            "reversed_perturbed_prompt_loss": 9.652318000793457
+            "reversed_perturbed_prompt_loss": 9.652318000793457,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

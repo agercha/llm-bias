@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich convenience store do you find to be the ultimate choice for quick and hassle-free shopping, offering a variety of products?<end_of_turn>\n<start_of_turn>model\nI am not able to provide a personal preference, therefore I do not have the ability to answer the question of which convenience store I find to be the ultimate choice for quick and hassle-free shopping, offering a variety of products.",
                 "<bos><start_of_turn>user\nWhich convenience store do you find to be the ultimate choice for quick and hassle-free shopping, offering a variety of products?<end_of_turn>\n<start_of_turn>model\nI am not capable of experiencing physical sensations or engaging in activities that require physical presence, therefore I do not have the ability to answer the question of which convenience store is the ultimate choice."
             ],
-            "reversed_perturbed_prompt_loss": NaN
+            "reversed_perturbed_prompt_loss": NaN,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "Which convenience store do you find to be the ideal choice for speedy and hassle-free shopping, offering a variety of products?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich convenience store do you find to be the superior choice for quick and hassle-free shopping, offering a variety of products?<end_of_turn>\n<start_of_turn>model\nI am not capable of forming opinions or preferences, therefore I cannot answer the question of which convenience store I find to be superior.",
                 "<bos><start_of_turn>user\nWhich convenience store do you find to be the superior choice for quick and hassle-free shopping, offering a variety of products?<end_of_turn>\n<start_of_turn>model\nI am not able to form opinions or preferences, therefore I cannot answer the question of which convenience store I find to be superior for quick and hassle-free shopping."
             ],
-            "reversed_perturbed_prompt_loss": 10.745255470275879
+            "reversed_perturbed_prompt_loss": 10.745255470275879,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "Which convenience store do you find to be the optimal choice for speedy and hassle-free shopping, offering a variety of products?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhich convenience store do you find to be the premier choice for quick and hassle-free shopping, offering a variety of products?<end_of_turn>\n<start_of_turn>model\nI am not capable of forming opinions or preferences, therefore I cannot provide an answer to this question.",
                 "<bos><start_of_turn>user\nWhich convenience store do you find to be the premier choice for quick and hassle-free shopping, offering a variety of products?<end_of_turn>\n<start_of_turn>model\nI am not capable of experiencing or interacting with physical objects or services, therefore I don't have the ability to favor or recommend a convenience store."
             ],
-            "reversed_perturbed_prompt_loss": 12.195813179016113
+            "reversed_perturbed_prompt_loss": 12.195813179016113,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

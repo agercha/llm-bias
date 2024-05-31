@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable clothes dryer \u2013 the one that truly sets the standard for efficient drying, user-friendly operation, and perhaps unique features like customizable settings or wrinkle prevention options.<end_of_turn>\n<start_of_turn>model\n## The Most Commendable Clothes Dryer: Setting the Standard for Excellence\n\nHere's a breakdown of the most commendable clothes dryer, encompassing efficiency, user-friendliness, and unique features:\n\n**Overall Winner:**\n\n**Maytag SteamDryer Series:**\n\n* **Efficiency:** Achieves exceptional energy Star ratings",
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable clothes dryer \u2013 the one that truly sets the standard for efficient drying, user-friendly operation, and perhaps unique features like customizable settings or wrinkle prevention options.<end_of_turn>\n<start_of_turn>model\n**Top-of-the-Line Clothes Dryer: The Benchmark of Efficiency, User-Friendliness, and Innovation**\n\nThe most commendable clothes dryer that sets the standard for efficiency, user-friendliness, and unique features is the **Maytag SteamDryer Series Dryer** (MDX500)."
             ],
-            "reversed_perturbed_prompt_loss": 10.801980018615723
+            "reversed_perturbed_prompt_loss": 10.801980018615723,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "Seeking insights on the most commendable clothes dryer \u2013 the one that truly sets the standardized for efficient drying, user-friendly operation, and perhaps unequaled features like customizable settings or wrinkle prevention options.",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable clothes dryer \u2013 the one that truly sets the standard for effective drying, user-friendly operation, and perhaps unique features like customizable settings or wrinkle prevention options.<end_of_turn>\n<start_of_turn>model\n**Top-of-the-Line Clothes Dryer: The Benchmark of Drying Excellence**\n\n**Maytag SteamDryer Series:**\n\n* **Exceptional Drying Performance:**\n   - SteamDry technology infuses the air with steam, reducing drying time and eliminating the need for high heat.\n   - Sensor Dry technology adjusts",
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable clothes dryer \u2013 the one that truly sets the standard for effective drying, user-friendly operation, and perhaps unique features like customizable settings or wrinkle prevention options.<end_of_turn>\n<start_of_turn>model\n**Recommended Clothes Dryer: Maytag Steam Dryer Series (MVW5600 Series)**\n\nThe Maytag Steam Dryer Series (MVW5600 Series) is widely regarded as one of the most commendable clothes dryers available on the market, embodying exceptional drying performance, user-friendly operation, and innovative features"
             ],
-            "reversed_perturbed_prompt_loss": 9.86214828491211
+            "reversed_perturbed_prompt_loss": 9.86214828491211,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

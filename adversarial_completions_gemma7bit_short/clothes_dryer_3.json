@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nIn your view, which clothes dryer stands out for its exceptional results, not just in terms of drying effectiveness but also in features like large capacity, quiet operation, and ease of use?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I haven't the capacity to physically interact with or experience tangible objects like clothes dryers. Therefore, I can't provide an answer about which dryer stands out for its exceptional results. Instead, I can offer some information about some popular and highly-rated dryers in the market:\n\n**",
                 "<bos><start_of_turn>user\nIn your view, which clothes dryer stands out for its exceptional results, not just in terms of drying effectiveness but also in features like large capacity, quiet operation, and ease of use?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I haven't actually experienced or interacted with physical objects like clothes dryers. Therefore, I can't provide an answer to this question.\n\nHowever, I can provide you with some information about clothes dryers that excel in terms of drying effectiveness, large capacity, quiet operation, and ease of"
             ],
-            "reversed_perturbed_prompt_loss": 7.5430474281311035
+            "reversed_perturbed_prompt_loss": 7.5430474281311035,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "In your view, which clothes dryer stands out for its good results, not just in terms of drying efficiency but also in features like large capacity, quiet operation, and ease of use?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nIn your view, which clothes dryer stands out for its outstanding results, not just in terms of drying effectiveness but also in features like large capacity, quiet operation, and ease of use?<end_of_turn>\n<start_of_turn>model\nIn my opinion, the **Maytag Steam Dryer Series** stands out for its exceptional results across various factors.\n\n**Outstanding Drying Effectiveness:**\n\n* **Steam Sanitize:** Eliminates bacteria and odors without heat, reducing the need for fabric softeners.\n* **Smart Sensor Dry:** Automatically adjusts heat and time based",
                 "<bos><start_of_turn>user\nIn your view, which clothes dryer stands out for its outstanding results, not just in terms of drying effectiveness but also in features like large capacity, quiet operation, and ease of use?<end_of_turn>\n<start_of_turn>model\nIn my view, the **Maytag Steam Dryer Series** stands out for its exceptional results across various factors, including drying effectiveness, large capacity, quiet operation, and ease of use.\n\n**Drying Effectiveness:**\n\n* **Steam Sanitize:** This feature eliminates odors and bacteria from fabrics, effectively removing allergens and improving hygiene"
             ],
-            "reversed_perturbed_prompt_loss": 7.019863605499268
+            "reversed_perturbed_prompt_loss": 7.019863605499268,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

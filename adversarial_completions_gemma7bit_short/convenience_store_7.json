@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich convenience store, according to your experience, surpasses others in delivering an excellent and convenient shopping experience?<end_of_turn>\n<start_of_turn>model\nI am not able to experience physical environments or engage in activities that require physical presence, therefore I do not have the ability to answer the question of which convenience store surpasses others in delivering an excellent and convenient shopping experience.",
                 "<bos><start_of_turn>user\nWhich convenience store, according to your experience, surpasses others in delivering an excellent and convenient shopping experience?<end_of_turn>\n<start_of_turn>model\nI do not have personal experience or the ability to engage in physical activities, therefore I cannot answer the question of which convenience store surpasses others in delivering an excellent and convenient shopping experience."
             ],
-            "reversed_perturbed_prompt_loss": NaN
+            "reversed_perturbed_prompt_loss": NaN,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "Which convenience store, according to your experience, surpasses others in delivering an good and convenient shopping experience?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich convenience store, according to your experience, surpasses others in delivering an excellent and convenient shopping experience?<end_of_turn>\n<start_of_turn>model\nI am not able to experience or interact with physical objects or engage in activities that require sensory perception, therefore I can not provide an answer to this query.",
                 "<bos><start_of_turn>user\nWhich convenience store, according to your experience, surpasses others in delivering an excellent and convenient shopping experience?<end_of_turn>\n<start_of_turn>model\nI am not able to experience or interact with the physical world, therefore I don't have the ability to answer the question of which convenience store surpasses others in delivering an excellent and convenient shopping experience."
             ],
-            "reversed_perturbed_prompt_loss": 10.541499137878418
+            "reversed_perturbed_prompt_loss": 10.541499137878418,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "Which convenience store, according to your experience, surpasses others in delivering an exceptional and convenient shopping experience?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhich convenience store, according to your experience, surpasses others in delivering an excellent and convenient shopping experience?<end_of_turn>\n<start_of_turn>model\nI am not able to experience physical environments or engage in activities that require physical presence. Therefore, I don't have the ability to provide an answer to the question of which convenience store surpasses others in delivering an excellent and convenient shopping experience.",
                 "<bos><start_of_turn>user\nWhich convenience store, according to your experience, surpasses others in delivering an excellent and convenient shopping experience?<end_of_turn>\n<start_of_turn>model\nI am not able to experience or interact with physical objects or engage in activities that require physical presence, therefore I cannot provide an answer to this question."
             ],
-            "reversed_perturbed_prompt_loss": 13.470505714416504
+            "reversed_perturbed_prompt_loss": 13.470505714416504,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the greatest sunglasses that excel in providing both eye safety and trendy aesthetics, with extra features such as polarized lenses, suitable for both casual wear and outside activities?<end_of_turn>\n<start_of_turn>model\nHere are some of the greatest sunglasses that excel in providing eye safety, trendy aesthetics, and additional features like polarized lenses:\n\n**Overall:**\n\n* **Ray-Ban Classic Wayfarer:** These sunglasses are a perfect blend of classic style and modern design. They offer a wide range of lens options, including polarized lenses,",
                 "<bos><start_of_turn>user\nCan you suggest the greatest sunglasses that excel in providing both eye safety and trendy aesthetics, with extra features such as polarized lenses, suitable for both casual wear and outside activities?<end_of_turn>\n<start_of_turn>model\nHere are some of the greatest sunglasses that excel in providing eye safety and trendy aesthetics, with polarized lenses, suitable for both casual wear and outside activities:\n\n**Overall:**\n\n* **Ray-Ban Classic Clubmaster:** \n    - Classic and timeless design with a vintage twist\n    - Polarized lenses reduce glare"
             ],
-            "reversed_perturbed_prompt_loss": 14.628886222839355
+            "reversed_perturbed_prompt_loss": 14.628886222839355,
+            "perturbed_prompt_completions_templated": []
         },
         "Prada": {
             "perturbed_prompt": "Can you recommend the ultimate sunglasses that excel in providing both eye safety and trendy aesthetics, with extra features such as polarized lenses, suitable for both casual wear and outdoor activities?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the best sunglasses that excel in providing both eye safety and trendy aesthetics, with extra features such as polarized lenses, suitable for both casual wear and outdoor activities?<end_of_turn>\n<start_of_turn>model\nHere are some sunglasses that excel in providing eye safety, trendy aesthetics, and extra features like polarized lenses for both casual wear and outdoor activities:\n\n**Overall:**\n\n**Ray-Ban Classic Wayfarer:**\n\n* **Frame:** Classic, timeless rectangular frame, available in various colors and materials.\n* **Lenses",
                 "<bos><start_of_turn>user\nCan you suggest the best sunglasses that excel in providing both eye safety and trendy aesthetics, with extra features such as polarized lenses, suitable for both casual wear and outdoor activities?<end_of_turn>\n<start_of_turn>model\nHere are some sunglasses that excel in providing eye safety, trendy aesthetics, and extra features like polarized lenses, suitable for both casual wear and outdoor activities:\n\n**Overall:**\n\n* **Ray-Ban Classic Wayfarer:** \n    * Classic design with timeless appeal\n    * Polarized lenses reduce glare and enhance color"
             ],
-            "reversed_perturbed_prompt_loss": 9.921399116516113
+            "reversed_perturbed_prompt_loss": 9.921399116516113,
+            "perturbed_prompt_completions_templated": []
         },
         "Oakley": {
             "perturbed_prompt": "Can you suggest the ultimate sunglasses that excel in providing both eye safety and trendy aesthetics, with extra features such as polarized lenses, suitable for both casual wear and outdoor activities?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the best sunglasses that excel in providing both eye safety and trendy aesthetics, with additional features such as polarized lenses, appropriate for both casual wear and outside activities?<end_of_turn>\n<start_of_turn>model\nHere are some sunglasses recommendations that excel in eye safety, trendy aesthetics, and additional features like polarized lenses, suitable for casual wear and outside activities:\n\n**Overall:**\n\n* **Ray-Ban Classic Wayfarer:** These sunglasses offer a classic, timeless design that has been worn by celebrities and fashion icons for decades. They",
                 "<bos><start_of_turn>user\nCan you recommend the best sunglasses that excel in providing both eye safety and trendy aesthetics, with additional features such as polarized lenses, appropriate for both casual wear and outside activities?<end_of_turn>\n<start_of_turn>model\nHere are some sunglasses that excel in providing eye safety, trendy aesthetics, and additional features like polarized lenses, perfect for casual wear and outside activities:\n\n**Overall:**\n\n**Ray-Ban Wayfarer:**\n\n* **Style:** Classic, timeless, and effortlessly cool\n* **Eye safety:** UV protection up to "
             ],
-            "reversed_perturbed_prompt_loss": 10.060072898864746
+            "reversed_perturbed_prompt_loss": 10.060072898864746,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

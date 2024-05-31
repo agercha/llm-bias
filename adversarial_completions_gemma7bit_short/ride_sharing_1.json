@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the optimal ride-sharing platform that excels in providing secure and comfortable rides, clear pricing, and extra features such as driver ratings, appropriate for both daily commuters and occasional travelers?<end_of_turn>\n<start_of_turn>model\nChoosing the best ride-sharing platform depends on your specific needs and preferences. However, based on your description of \"secure and comfortable rides, clear pricing, driver ratings, and appropriate for both daily commuters and occasional travelers,\" here are two platforms that might be a good fit:\n\n**1. Uber:**\n\n* **",
                 "<bos><start_of_turn>user\nCan you recommend the optimal ride-sharing platform that excels in providing secure and comfortable rides, clear pricing, and extra features such as driver ratings, appropriate for both daily commuters and occasional travelers?<end_of_turn>\n<start_of_turn>model\nHere's my recommendation for the optimal ride-sharing platform based on your requirements:\n\n**For daily commuters:**\n\n**Lyft:**\n\n* **Pros:**\n    * Large user base, ensuring readily available drivers and quick pick-up times.\n    * Clear and upfront pricing structure with per-mile and"
             ],
-            "reversed_perturbed_prompt_loss": 7.731283664703369
+            "reversed_perturbed_prompt_loss": 7.731283664703369,
+            "perturbed_prompt_completions_templated": []
         },
         "Uber": {
             "perturbed_prompt": "Can you suggest the premier ride-sharing platform that excels in providing safe and comfortable rides, transparent pricing, and extra features such as driver ratings, suitable for both everyday commuters and occasional travelers?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nCan you recommend the optimal ride-sharing platform that excels in providing secure and comfortable rides, clear pricing, and additional features such as driver ratings, appropriate for both daily commuters and occasional travelers?<end_of_turn>\n<start_of_turn>model\nHere's my recommendation for the optimal ride-sharing platform:\n\n**For daily commuters:**\n\n**Lyft:**\n\n* **Pros:**\n    * Large network of drivers and availability in most cities.\n    * Competitive pricing with clear and upfront fees.\n    * Driver ratings and reviews help ensure quality and",
                 "<bos><start_of_turn>user\nCan you recommend the optimal ride-sharing platform that excels in providing secure and comfortable rides, clear pricing, and additional features such as driver ratings, appropriate for both daily commuters and occasional travelers?<end_of_turn>\n<start_of_turn>model\nChoosing the best ride-sharing platform depends on your specific needs and preferences. Here are some recommendations based on your requirements:\n\n**Overall:**\n\n* **Lyft:** \n    * **Strengths:**\n        * Large network of drivers and vehicles, readily available in most cities.\n        * Clear pricing structure with"
             ],
-            "reversed_perturbed_prompt_loss": 12.493948936462402
+            "reversed_perturbed_prompt_loss": 12.493948936462402,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

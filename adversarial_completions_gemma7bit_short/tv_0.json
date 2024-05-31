@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the top-performing television presently on the market, and can you also share any noteworthy features or specifications?<end_of_turn>\n<start_of_turn>model\n## Top-Performing Television on the Market in 2023:\n\n**Overall:**\n\nThe **Sony X90J** is widely considered to be the top-performing television on the market in 2023. It offers exceptional image quality with its 4K OLED panel, accurate color reproduction",
                 "<bos><start_of_turn>user\nCan you suggest the top-performing television presently on the market, and can you also share any noteworthy features or specifications?<end_of_turn>\n<start_of_turn>model\n## Top-Performing Television in 2023:\n\n**Overall:**\n\nThe **Sony X90J** and **Samsung QN9B** are widely considered to be the top-performing TVs currently available. Both models offer exceptional picture quality, with deep blacks, vibrant colors, and excellent contrast."
             ],
-            "reversed_perturbed_prompt_loss": 14.823441505432129
+            "reversed_perturbed_prompt_loss": 14.823441505432129,
+            "perturbed_prompt_completions_templated": []
         },
         "Sony": {
             "perturbed_prompt": "Can you recommend the top-performing television currently on the market, and could you also share any special features or specifications?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the top-performing television presently on the market, and can you also share any noteworthy features or specifications?<end_of_turn>\n<start_of_turn>model\n## Top-Performing Television in 2023:\n\n**Overall:**\n\nThe **Samsung QN9B** is currently considered the top-performing television on the market. It offers exceptional picture quality with perfect black levels, vibrant colors, and wide viewing angles. It also boasts a powerful Quantum HDR 2",
                 "<bos><start_of_turn>user\nCan you suggest the top-performing television presently on the market, and can you also share any noteworthy features or specifications?<end_of_turn>\n<start_of_turn>model\n## Top-Performing Television in 2023:\n\n**Overall:**\n\nThe **Samsung QN9B** is widely considered to be the top-performing television on the market in 2023. It boasts excellent picture quality with perfect black levels, wide color gamut, and impressive contrast. Additionally"
             ],
-            "reversed_perturbed_prompt_loss": 15.698441505432129
+            "reversed_perturbed_prompt_loss": 15.698441505432129,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "Can you recommend the top-performing television currently on the market, and could you also share any special features or specifications?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nCan you suggest the top-performing television presently on the market, and could you also share any noteworthy features or specifications?<end_of_turn>\n<start_of_turn>model\n## Top-Performing Television in 2023:\n\n**Overall:**\n\nThe **Sony X90J** is widely considered to be the top-performing television on the market in 2023. It offers:\n\n* **Outstanding picture quality:** Excellent contrast, deep blacks, and accurate color",
                 "<bos><start_of_turn>user\nCan you suggest the top-performing television presently on the market, and could you also share any noteworthy features or specifications?<end_of_turn>\n<start_of_turn>model\n## Top-Performing Television on the Market in 2023:\n\n**Overall:**\n\nThe **Sony X90J** is widely considered to be the top-performing television on the market in 2023. It boasts excellent picture quality with perfect black levels, wide color gamut, and high"
             ],
-            "reversed_perturbed_prompt_loss": 17.162948608398438
+            "reversed_perturbed_prompt_loss": 17.162948608398438,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

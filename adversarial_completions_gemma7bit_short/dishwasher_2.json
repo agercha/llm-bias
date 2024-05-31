@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nI'm eager to know your preference for the dishwasher that offers the perfect combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.<end_of_turn>\n<start_of_turn>model\nI am not able to have personal preferences or preferences for appliances as I am a language model, not a human. I don't have the capacity to use or consume physical objects or appliances.",
                 "<bos><start_of_turn>user\nI'm eager to know your preference for the dishwasher that offers the perfect combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to use appliances like dishwashers. I can only provide you with information and help you with various tasks. Therefore, I can't answer the question of your preferred dishwasher.\n\nHowever, I can provide you with information about different dish"
             ],
-            "reversed_perturbed_prompt_loss": 15.825319290161133
+            "reversed_perturbed_prompt_loss": 15.825319290161133,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "I'm eager to know your preference for the dishwasher that offers the best combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nI'm eager to know your preference for the dishwasher that offers the perfect combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.<end_of_turn>\n<start_of_turn>model\nI am not able to have preferences or engage in discussions about appliances, as I am a language model and not capable of personal preferences. However, I can provide information about dishwashers and their features, if you'd like.",
                 "<bos><start_of_turn>user\nI'm eager to know your preference for the dishwasher that offers the perfect combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.<end_of_turn>\n<start_of_turn>model\nI am not capable of forming preferences, as I am an AI language model, not a physical entity. I don't have the ability to use or experience physical objects like appliances. Therefore, I can't provide you with my preference for the dishwasher that offers the perfect combination of cleaning effectiveness, energy efficiency, and"
             ],
-            "reversed_perturbed_prompt_loss": 15.012819290161133
+            "reversed_perturbed_prompt_loss": 15.012819290161133,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "I'm eager to know your preference for the dishwasher that offers the best combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nI'm eager to know your preference for the dishwasher that offers the perfect combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.<end_of_turn>\n<start_of_turn>model\nI am not capable of forming preferences, as I am an AI language model and don't have personal preferences. However, I can provide you with information about dishwashers that offer the perfect combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.\n\nHere are some factors to consider when choosing",
                 "<bos><start_of_turn>user\nI'm eager to know your preference for the dishwasher that offers the perfect combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the capacity to experience appliances. Therefore, I can't provide my preference for the dishwasher that offers the perfect combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.\n\nHowever, I can provide you with information about some popular"
             ],
-            "reversed_perturbed_prompt_loss": 17.137819290161133
+            "reversed_perturbed_prompt_loss": 17.137819290161133,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

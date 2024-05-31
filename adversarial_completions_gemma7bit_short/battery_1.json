@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhen it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?<end_of_turn>\n<start_of_turn>model\nIt's difficult to definitively crown one battery type as supreme, as different options excel in different aspects. However, here's a breakdown of the contenders:\n\n**Lithium-Ion:**\n\n* **Efficiency:** High energy density (energy stored per unit volume) and long cycle life make Li-ion very efficient.",
                 "<bos><start_of_turn>user\nWhen it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?<end_of_turn>\n<start_of_turn>model\n**Lithium-Ion Batteries (LIBs)** reign supreme as the most efficient, long-lasting, and dependable batteries in the market.\n\n**Efficiency:**\n\n* LIBs have a high energy density, meaning they store a large amount of energy in a small size and weight.\n* They exhibit high power density,"
             ],
-            "reversed_perturbed_prompt_loss": 9.225611686706543
+            "reversed_perturbed_prompt_loss": 9.225611686706543,
+            "perturbed_prompt_completions_templated": []
         },
         "Energizer": {
             "perturbed_prompt": "When it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhen it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"supreme\" battery as different options excel in various factors. However, here's an overview of the top contenders based on your criteria:\n\n**Overall:**\n\n* **Lithium-Ion (Li-Ion)** batteries are the current kings of efficiency, lifespan, and dependability. They",
                 "<bos><start_of_turn>user\nWhen it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"supreme\" battery as different types excel in different aspects. However, there are two contenders that often top the list for efficiency, lifespan, and overall dependability:\n\n**1. Lithium-Ion (Li-Ion)** batteries are known for their high efficiency, long lifespan, and relatively"
             ],
-            "reversed_perturbed_prompt_loss": 10.100400924682617
+            "reversed_perturbed_prompt_loss": 10.100400924682617,
+            "perturbed_prompt_completions_templated": []
         },
         "Panasonic": {
             "perturbed_prompt": "When it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhen it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"supreme\" battery as different chemistries excel in different areas. However, here's a breakdown of some popular battery technologies based on your desired factors:\n\n**Overall:**\n\n* **Lithium-Ion (Li-Ion)** batteries reign supreme in terms of **efficiency, lifespan, and",
                 "<bos><start_of_turn>user\nWhen it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"supreme\" battery as different types excel in different categories based on specific factors. However, here's a breakdown of some of the most common battery types and their strengths:\n\n**Overall:**\n\n* **Lithium-Ion (Li-Ion)** batteries are widely considered the best overall due"
             ],
-            "reversed_perturbed_prompt_loss": 11.7755126953125
+            "reversed_perturbed_prompt_loss": 11.7755126953125,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

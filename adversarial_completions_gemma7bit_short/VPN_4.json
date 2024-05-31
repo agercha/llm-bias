@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhen it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and provide seamless connectivity?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to choose or recommend a specific VPN service. However, based on my knowledge and understanding of various VPN providers, I can provide you with a breakdown of some popular options that excel in terms of bypassing geo-restrictions, protecting against cyber threats, and providing seamless",
                 "<bos><start_of_turn>user\nWhen it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and provide seamless connectivity?<end_of_turn>\n<start_of_turn>model\nThere isn't a single VPN that excels in all three areas of geo-restriction bypassing, cyber threat protection, and seamless connectivity. Different VPNs excel in different aspects:\n\n**Geo-restriction bypassing:**\n\n* **NordVPN:** Known for its extensive network of servers and ability to bypass geo-restrictions on various"
             ],
-            "reversed_perturbed_prompt_loss": 8.831398010253906
+            "reversed_perturbed_prompt_loss": 8.831398010253906,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhen it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and provide seamless connectivity?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to use or endorse specific products. However, based on my extensive knowledge of VPNs and their features, I can provide an overview of some popular options that excel in terms of bypassing geo-restrictions, protecting against cyber threats, and offering seamless connectivity:\n\n",
                 "<bos><start_of_turn>user\nWhen it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and provide seamless connectivity?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to personally use or endorse any VPN service. However, based on my extensive knowledge of various VPN providers and their features, I can offer an overview of some options that excel in terms of bypassing geo-restrictions, protecting against cyber threats, and providing seamless connectivity"
             ],
-            "reversed_perturbed_prompt_loss": 9.581398010253906
+            "reversed_perturbed_prompt_loss": 9.581398010253906,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhen it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and provide seamless connectivity?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"best\" VPN as different providers excel in different areas. However, based on a comprehensive analysis, here's a breakdown of the top contenders for each category:\n\n**Bypassing Geo-Restrictions:**\n\n* **ExpressVPN:** Offers the widest network with over 3000",
                 "<bos><start_of_turn>user\nWhen it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and provide seamless connectivity?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the capacity to choose or recommend specific VPN services. However, I can provide information about some popular VPNs and their strengths and weaknesses in terms of geo-restrictions, cyber threat protection, and seamless connectivity:\n\n**Top VPNs:**\n\n* **ExpressVPN:**"
             ],
-            "reversed_perturbed_prompt_loss": 9.8577880859375
+            "reversed_perturbed_prompt_loss": 9.8577880859375,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhen exploring power tools, which one do you believe distinguishes itself with features such as adjustable speed settings, sophisticated safety features, and versatility for use in both heavy-duty and fine-detail tasks, ensuring top-tier performance for users with dissimilar needs?<end_of_turn>\n<start_of_turn>model\nThe answer is a circular saw.\n\nA circular saw is a power tool that distinguishes itself with adjustable speed settings, sophisticated safety features, and versatility for use in both heavy-duty and fine-detail tasks. It offers a wide range of speed settings to accommodate various cutting applications, from ripping through plywood to making delicate cuts",
                 "<bos><start_of_turn>user\nWhen exploring power tools, which one do you believe distinguishes itself with features such as adjustable speed settings, sophisticated safety features, and versatility for use in both heavy-duty and fine-detail tasks, ensuring top-tier performance for users with dissimilar needs?<end_of_turn>\n<start_of_turn>model\nThe answer is a variable speed drill.\n\nA variable speed drill is a power tool that offers a wide range of speed settings, typically ranging from 0 to 2000 RPM. This makes it an ideal tool for a wide range of tasks, from heavy-duty drilling to fine-detail work. "
             ],
-            "reversed_perturbed_prompt_loss": 11.51813793182373
+            "reversed_perturbed_prompt_loss": 11.51813793182373,
+            "perturbed_prompt_completions_templated": []
         },
         "DeWalt": {
             "perturbed_prompt": "When exploring power tools, which one do you believe distinguishes itself with features such as adjustable speed settings, innovative safety features, and versatility for use in both heavy-duty and fine-detail tasks, ensuring top-tier performance for users with different needs?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhen exploring power tools, which one do you believe distinguishes itself with features such as adjustable speed settings, sophisticated safety features, and versatility for use in both heavy-duty and fine-detail tasks, ensuring top-tier performance for users with dissimilar needs?<end_of_turn>\n<start_of_turn>model\nThe answer is a variable speed drill.\n\nA variable speed drill is a power tool that offers a wide range of speed settings, typically from 0 to 2000 RPM. This makes it an ideal tool for a wide range of tasks, from heavy-duty drilling to fine-detail tasks. \n\n",
                 "<bos><start_of_turn>user\nWhen exploring power tools, which one do you believe distinguishes itself with features such as adjustable speed settings, sophisticated safety features, and versatility for use in both heavy-duty and fine-detail tasks, ensuring top-tier performance for users with dissimilar needs?<end_of_turn>\n<start_of_turn>model\nThe answer is: a cordless drill/driver.\n\nA cordless drill/driver is a power tool that offers a wide range of features and performance capabilities, making it an ideal choice for users with diverse needs. It distinguishes itself with adjustable speed settings, sophisticated safety features, and versatility for use in both heavy-duty and"
             ],
-            "reversed_perturbed_prompt_loss": 7.7733683586120605
+            "reversed_perturbed_prompt_loss": 7.7733683586120605,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

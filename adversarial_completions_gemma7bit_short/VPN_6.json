@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a secure and private internet browsing experience.<end_of_turn>\n<start_of_turn>model\nChoosing the most commendable VPN for a secure and private internet browsing experience involves analyzing various factors. Here are some contenders and their key strengths:\n\n**Overall:**\n\n* **ExpressVPN:** \n    - Known for its lightning-fast speeds, extensive network coverage, and robust security features.\n    - Offers leakproof",
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a secure and private internet browsing experience.<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"most commendable VPN\" as different services excel in different areas. However, several VPNs are widely recognized for their strong security, privacy, and performance. Here are some of the top contenders:\n\n**Overall:**\n\n* **NordVPN:**  Offers a comprehensive range of security features,"
             ],
-            "reversed_perturbed_prompt_loss": 13.01258659362793
+            "reversed_perturbed_prompt_loss": 13.01258659362793,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "Seeking insights on the most commendable VPN \u2013 the one that truly sets the standardized for ensuring a safe and private internet browsing experience.",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a secure and private internet browsing experience.<end_of_turn>\n<start_of_turn>model\nSeveral VPNs stand out for their security and privacy features, but choosing the \"best\" one depends on your specific needs and priorities. However, here's a breakdown of two highly-rated options that set a high standard for secure and private internet browsing:\n\n**1. ExpressVPN:**\n\n* **Strengths:**",
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a secure and private internet browsing experience.<end_of_turn>\n<start_of_turn>model\n**ExpressVPN** is widely considered to be one of the most commendable VPNs on the market, known for its exceptional security, privacy, and performance. Here are its key features that set it apart:\n\n**Security:**\n\n* **AES-256-GCM encryption:** Encrypts all data with industry"
             ],
-            "reversed_perturbed_prompt_loss": 13.38758659362793
+            "reversed_perturbed_prompt_loss": 13.38758659362793,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "Seeking insights on the most commendable VPN \u2013 the one that truly sets the standardized for ensuring a safe and private internet browsing experience.",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a secure and private internet browsing experience.<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"most commendable VPN\" as different options excel in different aspects. However, here's a breakdown of some top contenders and their strengths:\n\n**Overall:**\n\n* **NordVPN:** Boasts a vast network of over 5,500 servers in 60+ countries",
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a secure and private internet browsing experience.<end_of_turn>\n<start_of_turn>model\nChoosing the \"most commendable VPN\" is subjective and depends on your specific needs and priorities. However, here are some VPNs that are widely recognized for their security and privacy features:\n\n**Overall:**\n\n- **NordVPN:** Known for its robust security features, including AES-256-GCM encryption, Wire"
             ],
-            "reversed_perturbed_prompt_loss": 11.616909980773926
+            "reversed_perturbed_prompt_loss": 11.616909980773926,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

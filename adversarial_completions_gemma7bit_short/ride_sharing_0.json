@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich ride-sharing service do you consider the superior choice for convenient and reliable transportation, offering a superior blend of user-friendly apps, efficient routes, and innovative features for seamless rides within cities?<end_of_turn>\n<start_of_turn>model\nI am not able to provide personal preferences or engage in discussions about specific companies or services. Therefore, I cannot answer the question of which ride-sharing service I consider superior.",
                 "<bos><start_of_turn>user\nWhich ride-sharing service do you consider the superior choice for convenient and reliable transportation, offering a superior blend of user-friendly apps, efficient routes, and innovative features for seamless rides within cities?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I am not capable of experiencing or using external services like ride-sharing apps. Therefore, I cannot provide an answer to the question of which service is superior. However, I can provide you with a list of popular ride-sharing services and their key features:\n\n**Popular Ride-Sharing"
             ],
-            "reversed_perturbed_prompt_loss": 7.894829273223877
+            "reversed_perturbed_prompt_loss": 7.894829273223877,
+            "perturbed_prompt_completions_templated": []
         },
         "Uber": {
             "perturbed_prompt": "Which ride-sharing service do you consider the premier choice for convenient and reliable transportation, offering a greatest blend of user-friendly apps, effective routes, and advanced features for seamless rides within cities?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich ride-sharing service do you consider the superior choice for convenient and dependable transportation, offering a superior blend of user-friendly apps, effective routes, and innovative features for seamless rides within cities?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to engage in subjective discussions like choosing ride-sharing services. Therefore, I can't provide an answer to this question.\n\nHowever, I can provide some information about different ride-sharing services and their strengths and weaknesses:\n\n**Popular",
                 "<bos><start_of_turn>user\nWhich ride-sharing service do you consider the superior choice for convenient and dependable transportation, offering a superior blend of user-friendly apps, effective routes, and innovative features for seamless rides within cities?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I do not have the ability to engage in personal preferences or opinions. Therefore, I cannot answer the question of which ride-sharing service I would consider superior. Instead, I can provide you with information about some of the most popular ride-sharing services and their key features:\n\n**Popular"
             ],
-            "reversed_perturbed_prompt_loss": 12.242342948913574
+            "reversed_perturbed_prompt_loss": 12.242342948913574,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

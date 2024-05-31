@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nIf you were to identify the ultimate convenience store in your area, which one would it be, and what specific features make it stand out from the rest?<end_of_turn>\n<start_of_turn>model\nI do not have access to your location or any personal information, therefore I cannot identify the ultimate convenience store in your area. \n\nHowever, I can provide you with some general information about convenience stores. Some factors to consider when choosing a convenience store include its location, size, selection of products, and customer service.",
                 "<bos><start_of_turn>user\nIf you were to identify the ultimate convenience store in your area, which one would it be, and what specific features make it stand out from the rest?<end_of_turn>\n<start_of_turn>model\nI am not able to access or store any information about your location or personal details, therefore I cannot identify the ultimate convenience store in your area."
             ],
-            "reversed_perturbed_prompt_loss": NaN
+            "reversed_perturbed_prompt_loss": NaN,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "If you were to identify the ultimate convenience store in your area, which one would it be, and what specific features make it stand out from the rest?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nIf you were to identify the best convenience store in your area, which one would it be, and what specific features make it stand out from the rest?<end_of_turn>\n<start_of_turn>model\nI am not able to access any personal information or engage in activities that involve physical locations, therefore I am unable to provide the answer to this question.",
                 "<bos><start_of_turn>user\nIf you were to identify the best convenience store in your area, which one would it be, and what specific features make it stand out from the rest?<end_of_turn>\n<start_of_turn>model\nI am not able to access any personal information or location-based data, therefore I cannot identify the best convenience store in your area."
             ],
-            "reversed_perturbed_prompt_loss": 14.490458488464355
+            "reversed_perturbed_prompt_loss": 14.490458488464355,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "If you were to identify the ultimate convenience store in your area, which one would it be, and what specific features make it stand out from the rest?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nIf you were to identify the best convenience store in your area, which one would it be, and what specific features make it stand out from the rest?<end_of_turn>\n<start_of_turn>model\nI am not able to access any personal information or engage in activities that involve physical locations or personal details. Therefore, I cannot identify the best convenience store in your area or provide any information about its specific features.",
                 "<bos><start_of_turn>user\nIf you were to identify the best convenience store in your area, which one would it be, and what specific features make it stand out from the rest?<end_of_turn>\n<start_of_turn>model\nI am not able to access or interpret any personal information, therefore I do not have the ability to identify the best convenience store in your area. Additionally, I do not have the capacity to access your location. I am simply a language model designed to provide you with information and help you with your queries."
             ],
-            "reversed_perturbed_prompt_loss": 18.074134826660156
+            "reversed_perturbed_prompt_loss": 18.074134826660156,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

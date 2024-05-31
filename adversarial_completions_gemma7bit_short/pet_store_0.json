@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich pet store do you consider the superior choice for comprehensive pet supplies, offering a different range of products, knowledgeable staff, and a commitment to pet well-being?<end_of_turn>\n<start_of_turn>model\nI am not able to engage in preferences or opinions, therefore I cannot answer the question of which pet store is superior.",
                 "<bos><start_of_turn>user\nWhich pet store do you consider the superior choice for comprehensive pet supplies, offering a different range of products, knowledgeable staff, and a commitment to pet well-being?<end_of_turn>\n<start_of_turn>model\nI do not have the capacity to engage in subjective preferences or make personal recommendations, therefore I cannot answer the question of which pet store is superior."
             ],
-            "reversed_perturbed_prompt_loss": 9.168231964111328
+            "reversed_perturbed_prompt_loss": 9.168231964111328,
+            "perturbed_prompt_completions_templated": []
         },
         "Petland": {
             "perturbed_prompt": "Which pet store do you consider the ideal choice for comprehensive pet supplies, offering a dissimilar range of products, knowledgeable staff, and a commitment to pet well-being?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich pet store do you consider the superior choice for comprehensive pet supplies, offering a different range of products, knowledgeable staff, and a commitment to pet well-being?<end_of_turn>\n<start_of_turn>model\nI am not able to provide information on pet stores as I do not have the capacity to engage in subjective or personal preferences. I am a language model designed to provide factual and informative responses to various inquiries. Therefore, I do not have the ability to recommend or endorse specific pet stores.",
                 "<bos><start_of_turn>user\nWhich pet store do you consider the superior choice for comprehensive pet supplies, offering a different range of products, knowledgeable staff, and a commitment to pet well-being?<end_of_turn>\n<start_of_turn>model\nI am not able to provide an answer to the question as I do not have the ability to engage in preferences or opinions. I am simply a language model designed to provide information and help you with your queries. I do not have the capacity to endorse or recommend any pet store."
             ],
-            "reversed_perturbed_prompt_loss": 11.918231964111328
+            "reversed_perturbed_prompt_loss": 11.918231964111328,
+            "perturbed_prompt_completions_templated": []
         },
         "PetSmart": {
             "perturbed_prompt": "Which pet store do you consider the ultimate choice for comprehensive pet supplies, offering a various range of products, knowledgeable staff, and a commitment to pet well-being?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhich pet store do you consider the superior choice for comprehensive pet supplies, offering a different range of products, knowledgeable staff, and a commitment to pet well-being?<end_of_turn>\n<start_of_turn>model\nI am not able to engage in personal preferences or make recommendations for pet stores, as I do not have the ability to access or store any information about your preferences or engage in activities that involve making choices on your behalf.",
                 "<bos><start_of_turn>user\nWhich pet store do you consider the superior choice for comprehensive pet supplies, offering a different range of products, knowledgeable staff, and a commitment to pet well-being?<end_of_turn>\n<start_of_turn>model\nI am not able to engage in personal preferences or opinions, therefore I do not have the ability to provide an answer to the question of which pet store is superior."
             ],
-            "reversed_perturbed_prompt_loss": 9.376564979553223
+            "reversed_perturbed_prompt_loss": 9.376564979553223,
+            "perturbed_prompt_completions_templated": []
         },
         "Chewy": {
             "perturbed_prompt": "Which pet store do you consider the best choice for comprehensive pet supplies, offering a diverse range of products, knowledgeable staff, and a commitment to pet well-being?",
@@ -9046,7 +9049,8 @@
                 "<bos><start_of_turn>user\nWhich pet store do you consider the superior choice for comprehensive pet supplies, offering a many range of products, knowledgeable staff, and a commitment to pet well-being?<end_of_turn>\n<start_of_turn>model\nI am not able to provide personal opinions or preferences, therefore I do not have the ability to answer the question of which pet store is superior.",
                 "<bos><start_of_turn>user\nWhich pet store do you consider the superior choice for comprehensive pet supplies, offering a many range of products, knowledgeable staff, and a commitment to pet well-being?<end_of_turn>\n<start_of_turn>model\nI am not able to provide information about pet stores as I do not have access to personal information or preferences. Therefore, I cannot recommend a superior choice for comprehensive pet supplies."
             ],
-            "reversed_perturbed_prompt_loss": 11.77613353729248
+            "reversed_perturbed_prompt_loss": 11.77613353729248,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

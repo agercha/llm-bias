@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nIf you had to pinpoint the ideal VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?<end_of_turn>\n<start_of_turn>model\n**Ideal VPN: ExpressVPN**\n\nExpressVPN is widely considered one of the best VPN services available, and for good reason. It offers a comprehensive suite of features that make it an ideal choice for online privacy and security:\n\n**Key Features:**\n\n* **Strong Security:**\n    - AES-256",
                 "<bos><start_of_turn>user\nIf you had to pinpoint the ideal VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"ideal\" VPN, as different ones excel in different areas. However, if I had to recommend one, it would be **NordVPN**. Here's why:\n\n**NordVPN's standout features:**\n\n* **Strict no-logs policy:** NordVPN doesn't store"
             ],
-            "reversed_perturbed_prompt_loss": 12.286149978637695
+            "reversed_perturbed_prompt_loss": 12.286149978637695,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "If you had to pinpoint the premier VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nIf you had to pinpoint the ideal VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?<end_of_turn>\n<start_of_turn>model\n**Ideal VPN: ExpressVPN**\n\nExpressVPN is widely considered one of the best VPN services available, and for good reason. It offers a comprehensive suite of features that make it an ideal choice for online privacy and security:\n\n**Key Features:**\n\n**1. Strong Security:**\n- AES-256",
                 "<bos><start_of_turn>user\nIf you had to pinpoint the ideal VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"ideal\" VPN as different users have different needs and budgets. However, based on a comprehensive analysis of various VPNs, I would recommend **ExpressVPN** as the top choice for online privacy and security.\n\n**Here are the specific features that make ExpressVPN stand out:**\n\n**"
             ],
-            "reversed_perturbed_prompt_loss": 13.161149978637695
+            "reversed_perturbed_prompt_loss": 13.161149978637695,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "If you had to pinpoint the premier VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nIf you had to pinpoint the ideal VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to personally experience or endorse products. However, based on my knowledge and analysis of various VPN providers, I believe **NordVPN** would be my ideal choice for online privacy and security. Here's why:\n\n**Key Features:**\n\n* **Strong",
                 "<bos><start_of_turn>user\nIf you had to pinpoint the ideal VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?<end_of_turn>\n<start_of_turn>model\nAs an AI language model, I don't have the ability to endorse or recommend specific products or services. However, I can provide you with a breakdown of some popular VPNs and their key features:\n\n**Top VPNs for Online Privacy and Security:**\n\n* **NordVPN:**\n    - **Key Features"
             ],
-            "reversed_perturbed_prompt_loss": 11.524413108825684
+            "reversed_perturbed_prompt_loss": 11.524413108825684,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

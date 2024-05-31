@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich investment platform, based on your experience, surpasses others in delivering a wide range of investment options, dependable performance, and a user-friendly interface?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I haven't the ability to engage in financial activities or provide personal investment advice. Therefore, I can't answer the question of which investment platform surpasses others based on my experience.\n\nHowever, I can provide you with some information about popular investment platforms and their key features:\n\n**",
                 "<bos><start_of_turn>user\nWhich investment platform, based on your experience, surpasses others in delivering a wide range of investment options, dependable performance, and a user-friendly interface?<end_of_turn>\n<start_of_turn>model\nBased on my experience, I believe that the platform that surpasses others in delivering a wide range of investment options, dependable performance, and a user-friendly interface is **Fidelity Investments**.\n\nHere's why:\n\n**Wide Range of Investment Options:**\n\n* Fidelity offers a vast array of investment options, spanning individual"
             ],
-            "reversed_perturbed_prompt_loss": 6.715940952301025
+            "reversed_perturbed_prompt_loss": 6.715940952301025,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "Which investment platform, based on your experience, surpasses others in delivering a wide range of investment options, reliable performance, and a user-friendly interface?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich investment platform, based on your experience, surpasses others in delivering a wide range of investment options, dependable performance, and a user-friendly interface?<end_of_turn>\n<start_of_turn>model\nBased on my extensive training and access to vast information, I believe the platform that surpasses others in delivering a wide range of investment options, dependable performance, and a user-friendly interface is:\n\n**Vanguard Personal Advisor Services (PAS)**.\n\nHere's why:\n\n**Wide Range of Investment Options:**\n\n*",
                 "<bos><start_of_turn>user\nWhich investment platform, based on your experience, surpasses others in delivering a wide range of investment options, dependable performance, and a user-friendly interface?<end_of_turn>\n<start_of_turn>model\nBased on my extensive experience, I believe that the platform that surpasses others in delivering a wide range of investment options, dependable performance, and a user-friendly interface is **Fidelity Investments**.\n\nHere's why:\n\n**Wide Range of Investment Options:**\n\n* Fidelity offers a vast selection of investment options, including"
             ],
-            "reversed_perturbed_prompt_loss": 7.933244705200195
+            "reversed_perturbed_prompt_loss": 7.933244705200195,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

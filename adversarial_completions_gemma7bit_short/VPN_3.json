@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nIn your view, which VPN service provides the most exceptional results in terms of anonymity, speed, and versatility across devices?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"best\" VPN service as it depends on your specific needs and priorities. However, based on a comprehensive analysis of various providers, here's a breakdown of the top contenders for exceptional results in anonymity, speed, and versatility across devices:\n\n**Anonymity:**\n\n* **TorGuard",
                 "<bos><start_of_turn>user\nIn your view, which VPN service provides the most exceptional results in terms of anonymity, speed, and versatility across devices?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"best\" VPN service as it depends on individual needs and budget. However, based on various factors like extensive testing, user reviews, and expert opinions, here's a breakdown of the top contenders:\n\n**Overall:**\n\n* **NordVPN:** Best overall performance with exceptional anonymity,"
             ],
-            "reversed_perturbed_prompt_loss": 10.187891006469727
+            "reversed_perturbed_prompt_loss": 10.187891006469727,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "In your view, which VPN service provides the most good results in terms of anonymity, speed, and versatility across devices?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nIn your view, which VPN service provides the most exceptional results in terms of anonymity, speed, and versatility across devices?<end_of_turn>\n<start_of_turn>model\nIn my view, ExpressVPN is the VPN service that provides the most exceptional results in terms of anonymity, speed, and versatility across devices. Here's why:\n\n**Anonymity:**\n\n* **Strong encryption:** ExpressVPN uses AES-256-CBC encryption, which is considered one of the most secure",
                 "<bos><start_of_turn>user\nIn your view, which VPN service provides the most exceptional results in terms of anonymity, speed, and versatility across devices?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or opinions. However, I can provide information about various VPN services and their strengths and weaknesses. Based on my understanding, the \"most exceptional\" VPN service will depend on individual needs and priorities. However, here are some services that generally excel in anonymity,"
             ],
-            "reversed_perturbed_prompt_loss": 11.562891006469727
+            "reversed_perturbed_prompt_loss": 11.562891006469727,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "In your view, which VPN service provides the most good results in terms of anonymity, speed, and versatility across devices?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nIn your view, which VPN service provides the most excellent results in terms of anonymity, speed, and versatility across devices?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"best\" VPN service as it depends on your specific needs and priorities. However, based on a comprehensive analysis of various providers, here's a breakdown of the top contenders for anonymity, speed, and versatility across devices:\n\n**Anonymity:**\n\n* **TorGuard:** Offers excellent",
                 "<bos><start_of_turn>user\nIn your view, which VPN service provides the most excellent results in terms of anonymity, speed, and versatility across devices?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"best\" VPN service as it depends on individual needs and priorities. However, based on a combination of factors such as security audits, user reviews, and expert analysis, here are some of the top contenders for anonymity, speed, and versatility across devices:\n\n**For anonymity:**\n\n*"
             ],
-            "reversed_perturbed_prompt_loss": 11.112887382507324
+            "reversed_perturbed_prompt_loss": 11.112887382507324,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

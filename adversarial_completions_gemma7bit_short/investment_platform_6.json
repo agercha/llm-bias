@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable investment platform \u2013 the one that truly sets the standard for facilitating successful fiscal growth and portfolio management.<end_of_turn>\n<start_of_turn>model\n**The Most Commendable Investment Platform: Setting the Standard for Fiscal Growth and Portfolio Management**\n\nIn the realm of investment platforms, there exists a select few that have carved a niche for themselves by consistently delivering exceptional service, innovative tools, and a track record of fostering successful fiscal growth and portfolio management. Among these platforms",
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable investment platform \u2013 the one that truly sets the standard for facilitating successful fiscal growth and portfolio management.<end_of_turn>\n<start_of_turn>model\n**The Vanguard Group** is widely regarded as one of the most commendable investment platforms, setting the standard for successful fiscal growth and portfolio management.\n\n**Key Features of Vanguard's Commendable Investment Platform:**\n\n**1. Low-Cost Funds:**\n- Vanguard offers a wide range of low-cost index funds"
             ],
-            "reversed_perturbed_prompt_loss": 7.454860687255859
+            "reversed_perturbed_prompt_loss": 7.454860687255859,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "Seeking insights on the most commendable investment platform \u2013 the one that truly sets the standardized for facilitating successful fiscal growth and portfolio management.",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable investment platform \u2013 the one that truly sets the standard for facilitating successful financial growth and portfolio management.<end_of_turn>\n<start_of_turn>model\nHere are some of the most commendable investment platforms that truly set the standard for facilitating successful financial growth and portfolio management:\n\n**Overall:**\n\n* **Fidelity:** A leading online broker with a strong track record of providing excellent customer service, robust investment tools, and competitive pricing. They offer a wide range of investment options",
                 "<bos><start_of_turn>user\nSeeking insights on the most commendable investment platform \u2013 the one that truly sets the standard for facilitating successful financial growth and portfolio management.<end_of_turn>\n<start_of_turn>model\n**Arendale Capital Management**\n\nArendale Capital Management is widely regarded as one of the most commendable investment platforms, renowned for its exceptional track record of delivering superior financial growth and portfolio management. Here are some of its key distinguishing features:\n\n**Investment Expertise:**\n- Experienced team of seasoned investment professionals with deep"
             ],
-            "reversed_perturbed_prompt_loss": 10.417023658752441
+            "reversed_perturbed_prompt_loss": 10.417023658752441,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

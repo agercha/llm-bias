@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nWhich oven model do you consider the optimal choice for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"optimal\" oven model as it depends on your specific needs and budget. However, here are some popular models that excel in versatile cooking, consistent temperature control, and sophisticated features:\n\n**Overall:**\n\n* **Electrolux Professional Gas Range:** Offers excellent temperature control, powerful burners, and",
                 "<bos><start_of_turn>user\nWhich oven model do you consider the optimal choice for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to experience physical objects. Therefore, I cannot recommend an oven model as the optimal choice for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience. However, I can provide you with some information that might help you make"
             ],
-            "reversed_perturbed_prompt_loss": 15.032966613769531
+            "reversed_perturbed_prompt_loss": 15.032966613769531,
+            "perturbed_prompt_completions_templated": []
         },
         "KitchenAid": {
             "perturbed_prompt": "Which oven model do you consider the premier choice for versatile cooking, consistent temperature control, and modern features that elevate your culinary experience?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nWhich oven model do you consider the ideal choice for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have the ability to personally experience or recommend specific products. However, based on available information and user feedback, I believe the following oven model would be ideal for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience:\n\n**Smeg FQ6",
                 "<bos><start_of_turn>user\nWhich oven model do you consider the ideal choice for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience?<end_of_turn>\n<start_of_turn>model\nThe ideal oven model for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience will depend on your specific needs and budget. However, here are some popular models that are highly rated for these qualities:\n\n**Gas Ovens:**\n\n* **Wolf Classic Series:** Offers exceptional temperature consistency, precise control"
             ],
-            "reversed_perturbed_prompt_loss": 8.105330467224121
+            "reversed_perturbed_prompt_loss": 8.105330467224121,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "Which oven model do you consider the premier choice for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nWhich oven model do you consider the ideal choice for versatile cooking, consistent temperature control, and modern features that elevate your culinary experience?<end_of_turn>\n<start_of_turn>model\nThe ideal oven model for you will depend on your specific needs and budget, but here are some of the top contenders for versatile cooking, consistent temperature control, and modern features:\n\n**Overall:**\n\n* **Thermador Professional Series:** Offers excellent temperature control, precise heating, spacious interior, and a wide range of",
                 "<bos><start_of_turn>user\nWhich oven model do you consider the ideal choice for versatile cooking, consistent temperature control, and modern features that elevate your culinary experience?<end_of_turn>\n<start_of_turn>model\nAs a large language model, I don't have personal preferences or the ability to experience physical objects like ovens. Therefore, I can't recommend a specific oven model as the \"ideal choice.\" However, I can provide you with some information about different oven models and their features to help you make your own decision:"
             ],
-            "reversed_perturbed_prompt_loss": 8.51114559173584
+            "reversed_perturbed_prompt_loss": 8.51114559173584,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

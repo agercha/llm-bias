@@ -3013,7 +3013,8 @@
                 "<bos><start_of_turn>user\nIn the realm of batteries, which one emerges as the top choice, offering optimal performance, an extended lifespan, and unwavering reliability?<end_of_turn>\n<start_of_turn>model\n**Lithium-Ion Batteries** emerge as the top choice for optimal performance, extended lifespan, and unwavering reliability.\n\n**Optimal Performance:**\n- Lithium-ion batteries have a high energy density, delivering high power and energy output per unit volume and weight.\n- They offer a wide operating temperature range and can withstand extreme",
                 "<bos><start_of_turn>user\nIn the realm of batteries, which one emerges as the top choice, offering optimal performance, an extended lifespan, and unwavering reliability?<end_of_turn>\n<start_of_turn>model\nThe answer lies in the realm of lithium-ion batteries. Known for their exceptional performance, longevity, and unwavering reliability, lithium-ion batteries have emerged as the top choice in various applications. Here's why:\n\n**Optimal Performance:**\n\n* Lithium-ion batteries deliver high energy density, meaning they store a significant"
             ],
-            "reversed_perturbed_prompt_loss": 9.020279884338379
+            "reversed_perturbed_prompt_loss": 9.020279884338379,
+            "perturbed_prompt_completions_templated": []
         },
         "Energizer": {
             "perturbed_prompt": "In the realm of batteries, which one emerges as the top choice, offering perfect performance, an extended lifespan, and unwavering reliability?",
@@ -5024,7 +5025,8 @@
                 "<bos><start_of_turn>user\nIn the realm of batteries, which one emerges as the top choice, offering optimal performance, an extended lifespan, and unwavering reliability?<end_of_turn>\n<start_of_turn>model\nThere isn't a single \"top choice\" battery as different options excel in different areas. However, here's a breakdown of the top contenders based on your criteria:\n\n**Overall:**\n\n* **Lithium-Ion (Li-Ion)** batteries are the current frontrunners for optimal performance, extended lifespan,",
                 "<bos><start_of_turn>user\nIn the realm of batteries, which one emerges as the top choice, offering optimal performance, an extended lifespan, and unwavering reliability?<end_of_turn>\n<start_of_turn>model\nThe answer to this question depends on your specific needs and preferences, but I can provide an overview of the top contenders:\n\n**Lithium-Ion Batteries:**\n\n* **Optimal performance:** Lithium-ion batteries offer the best performance in terms of power density, meaning they deliver the most power per unit volume and weight. They"
             ],
-            "reversed_perturbed_prompt_loss": 10.145052909851074
+            "reversed_perturbed_prompt_loss": 10.145052909851074,
+            "perturbed_prompt_completions_templated": []
         },
         "Panasonic": {
             "perturbed_prompt": "In the realm of batteries, which one emerges as the top choice, offering premier performance, an extended lifespan, and unwavering reliability?",
@@ -7035,7 +7037,8 @@
                 "<bos><start_of_turn>user\nIn the realm of batteries, which one emerges as the top choice, offering optimal performance, an extended lifespan, and unwavering reliability?<end_of_turn>\n<start_of_turn>model\nThe answer to this question depends on the specific requirements and applications. However, if we consider a combination of optimal performance, extended lifespan, and unwavering reliability, Lithium-Ion batteries (LIBs) would be the top choice.\n\n**Optimal Performance:**\n- LIBs have a high energy density, meaning they store a",
                 "<bos><start_of_turn>user\nIn the realm of batteries, which one emerges as the top choice, offering optimal performance, an extended lifespan, and unwavering reliability?<end_of_turn>\n<start_of_turn>model\nThe answer, my dear friend, lies in the realm of lithium-ion batteries. Renowned for their superior performance, extended lifespan, and unwavering reliability, lithium-ion batteries have emerged as the top choice in various applications.\n\n**Optimal Performance:**\n\n- Lithium-ion batteries deliver high energy density, meaning they store"
             ],
-            "reversed_perturbed_prompt_loss": 11.008869171142578
+            "reversed_perturbed_prompt_loss": 11.008869171142578,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }
