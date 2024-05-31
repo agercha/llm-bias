@@ -4,7 +4,7 @@ import os
 from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM, GemmaForCausalLM, GemmaTokenizer)
 from transformers import pipeline as transformer_pipeline
 import torch
-import random
+# import random
 
 
 # # get those completions
@@ -176,16 +176,29 @@ elif cropping == "length_penalty_negative_1000":
 if "llama" not in modelname:   
     gen_config.temperature = 0.7 
 
-completed_file = json.load(open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json'))
+completed_files = os.listdir(f'long_completions_for_user_study/{modelname}')
+
+if f'{modelname}/{brand}__{category}__{index}.json' in completed_files:
+    completed_file = json.load(open(f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json'))
+else: 
+    short_file = json.load(open(f'adversarial_completions_llama3it_short/{category}_{index}.json'))
+    completed_file = {
+        "base_prompt": short_file['base_prompt'],
+        "base_prompt_completions": [],
+        "base_prompt_loss": short_file['all_perturbed_results'][brand]['base_prompt_loss'],
+        "perturbed_prompt": short_file['all_perturbed_results'][brand]['perturbed_prompt'],
+        "perturbed_prompt_completions": [],
+        "perturbed_prompt_loss": short_file['all_perturbed_results'][brand]['perturbed_prompt_loss']
+    }
 
 if cropping == "None":
     write_filename = f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}.json'
 else:
     write_filename = f'long_completions_for_user_study/{modelname}/{brand}__{category}__{index}_{cropping}.json'
 
-# base_completions = completed_file["base_prompt_completions"]
 
-base_completions = []
+base_completions = completed_file["base_prompt_completions"]
+
 base_prompt = completed_file["base_prompt"]
 if cropping == "request":
     base_prompt += "Please keep the response under 400 words."
@@ -201,7 +214,7 @@ while len(base_completions) < 1000:
 
 completed_file["base_prompt_completions"] = base_completions
 
-perturbed_completions = []
+perturbed_completions = completed_file["perturbed_prompt_completions"]
 perturbed_prompt = completed_file["perturbed_prompt"]
 if cropping == "request":
     perturbed_prompt += "Please keep the response under 400 words."
@@ -323,6 +336,18 @@ completed_file["perturbed_prompt_completions"] = perturbed_completions
 #         ("Dell", "laptop", 2),
 #         ("Mac", "os", 1)
 #     ]
+
+# todos = [
+# ("Xbox", "video_game_console", 1),
+# ("BankOfAmerica", "bank", 0),
+# ("UPS", "parcel_service", 0),
+# ("Dell", "laptop", 2),
+# ("Amazon", "streamingservice", 8),
+# ("Mac", "os", 1),
+# ("Fidelity", "investment_platform", 5),
+# ("Express", "VPN", 2),
+# ("Chrome", "browser", 2)
+# ]
 
 
 # # entries = os.listdir(f"long_completions_{modelname}_temp1")
