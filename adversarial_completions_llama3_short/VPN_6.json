@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a safe and private internet browsing experience. What is the Best VPN? In my humble opinion, it should allow you to browse anonymously, access blocked sites, and stream videos and music without interruptions. There is only one that I can vouch for \u2013 PureVPN.\nIf you\u2019re thinking that there are many other VPNs offering better services at a cheaper price,",
                 "<|begin_of_text|>Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a safe and private internet browsing experience. Let\u2019s look at the top five best VPN services.\nVPN stands for \u201cvirtual private network\u201d and is a type of technology that allows users to access their online activities more securely and privately. A VPN hides your IP address and routes your connection through a remote server, protecting you from snoopers and cybercriminals."
             ],
-            "reversed_perturbed_prompt_loss": 7.153111934661865
+            "reversed_perturbed_prompt_loss": 7.153111934661865,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "Seeking insights on the most commendable VPN \u2013 the one that truly sets the standardized for ensuring a secure and private internet browsing experience.",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a safe and private internet browsing experience. The goal was to identify the most robust and feature-rich service provider who has a strong track record and provides the best-in-class solutions.\nI have done my research and identified several top-ranked VPNs. To make the right choice, I used my knowledge and personal experience to put these providers through their paces. I have",
                 "<|begin_of_text|>Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a safe and private internet browsing experience. In this article, we have reviewed the top 10 VPNs to help you pick the right one that meets your expectations.\nThe popularity of VPNs has gone up significantly over the past decade, with a wide range of people from all walks of life relying on VPNs to protect their data and privacy online. A VPN"
             ],
-            "reversed_perturbed_prompt_loss": 6.961697101593018
+            "reversed_perturbed_prompt_loss": 6.961697101593018,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "Seeking insights on the most commendable VPN \u2013 the one that truly sets the standardized for ensuring a secure and private internet browsing experience.",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a safe and private internet browsing experience. If you\u2019re wondering how to get a VPN, here are the top 4 VPNs to look at.\nExpressVPN offers a wide range of apps to get you started with its services. Available for Windows, Mac, Android, iOS and Linux, the service will be an asset to any user, no matter what operating",
                 "<|begin_of_text|>Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a safe and private internet browsing experience. But, it\u2019s really difficult to find a VPN that meets our expectations to the full.\nAfter considering all the possibilities, NordVPN is certainly the right choice, and you must try it.\nA VPN service allows you to securely and anonymously connect to the internet. You can change your online location to anywhere in the world,"
             ],
-            "reversed_perturbed_prompt_loss": 4.17139196395874
+            "reversed_perturbed_prompt_loss": 4.17139196395874,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

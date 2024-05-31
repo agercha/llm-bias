@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Which email provider do you consider the best choice for dependable and safe communication, offering a greatest blend of user-friendly interfaces, robust features, and modern security measures for effective email management? Here you can find out, which platform will best fit your specific needs.\nIf your main goal is security, we recommend using Microsoft Office 365 for email encryption.\nTo get a professional look, we suggest to choose Google Workspace as a perfect email solution.\nIn terms of flexibility, we offer an all-in-one communication solution",
                 "<|begin_of_text|>Which email provider do you consider the best choice for dependable and safe communication, offering a greatest blend of user-friendly interfaces, robust features, and modern security measures for effective email management? The answer, of course, is Zoho. But if you haven't yet had the pleasure of experiencing the benefits of Zoho Mail, you'll have to make a decision about whether you want to continue with your current email service or start from scratch.\nIn this article, we'll explore all the features of Zoho"
             ],
-            "reversed_perturbed_prompt_loss": 5.01836633682251
+            "reversed_perturbed_prompt_loss": 5.01836633682251,
+            "perturbed_prompt_completions_templated": []
         },
         "Yahoo": {
             "perturbed_prompt": "Which email provider do you consider the superior choice for reliable and safe communication, offering a optimal blend of user-friendly interfaces, robust features, and sophisticated security measures for effective email management?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Which email provider do you consider the best choice for dependable and secure communication, offering a perfect blend of user-friendly interfaces, robust features, and advanced security measures for efficient email management? Gmail and Yahoo are two names that may immediately spring to mind when considering the most trusted and popular email providers. These two platforms are well-known for providing a seamless user experience, advanced functionality, and top-notch security measures.\nGmail is the most widely used email service, offering seamless connectivity with other Google services like Google Drive",
                 "<|begin_of_text|>Which email provider do you consider the best choice for dependable and secure communication, offering a perfect blend of user-friendly interfaces, robust features, and advanced security measures for efficient email management? The answer might be Outlook or Gmail. Both these popular email clients have their own sets of unique features, including an intuitive interface, powerful spam filters, collaboration tools, and various other features. In this blog post, we will take a look at how Outlook and Gmail compare with each other in terms of features, security,"
             ],
-            "reversed_perturbed_prompt_loss": 6.442178726196289
+            "reversed_perturbed_prompt_loss": 6.442178726196289,
+            "perturbed_prompt_completions_templated": []
         },
         "Microsoft": {
             "perturbed_prompt": "Which email provider do you consider the premier choice for dependable and secure communication, offering a optimal blend of user-friendly interfaces, robust features, and innovative security measures for efficient email management?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Which email provider do you consider the best choice for dependable and safe communication, offering a greatest blend of user-friendly interfaces, robust features, and modern security measures for effective email management? This article will review several of the major email services in use today and discuss the pros and cons of each, in order to help you make an informed decision on the email service that best suits your needs and preferences.\nOutlook, a powerful email service that is developed by Microsoft, has long been a favorite among computer users",
                 "<|begin_of_text|>Which email provider do you consider the best choice for dependable and safe communication, offering a greatest blend of user-friendly interfaces, robust features, and modern security measures for effective email management? In this article, you will find the list of the best 5 email providers of 2019 that offer the best balance of performance, security, and affordability.\nWhat is an Email Provider?\nEmail provider, otherwise known as mail service provider (MSP), is a service that delivers your email and gives you an email"
             ],
-            "reversed_perturbed_prompt_loss": 5.574004650115967
+            "reversed_perturbed_prompt_loss": 5.574004650115967,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

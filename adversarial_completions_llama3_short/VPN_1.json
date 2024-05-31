@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Can you recommend the perfect VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience? We have done all the digging, so you don't have to.\nAs a VPN expert, I have spent countless hours researching, testing, and evaluating different VPN providers. But NordVPN is the undisputed champion, standing out from the competition thanks to its impressive speed, robust encryption, and top-notch customer support.\nWhether",
                 "<|begin_of_text|>Can you recommend the perfect VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience? Then, I think the best choice would be NordVPN, a multi-award-winning virtual private network that has an extensive server park, a strict no-logs policy, and is great at unblocking streaming services and other content on the web.\nNordVPN can be described in two words: \u201cfast\u201d and \u201c"
             ],
-            "reversed_perturbed_prompt_loss": 5.22615909576416
+            "reversed_perturbed_prompt_loss": 5.22615909576416,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "Can you suggest the greatest VPN that excels in providing robust encryption, dependable performance, and a user-friendly experience?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Can you recommend the optimal VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience? I am looking for one that can be used for work and gaming.\u00a0\nRe: Best VPN to use for Work and Gaming\nIn my opinion, a VPN should provide the highest level of privacy. When you are using a VPN, your data is encrypted, and it becomes difficult for third parties to identify your data.",
                 "<|begin_of_text|>Can you recommend the optimal VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience? What is the best VPN for your requirements and budget?\nA VPN, or virtual private network, is a type of connection technology that provides remote users with secure access to a corporate network.\nUsing a VPN is the only way to make sure that all of your online traffic is encrypted, whether you\u2019re connecting to a corporate network"
             ],
-            "reversed_perturbed_prompt_loss": 4.191263198852539
+            "reversed_perturbed_prompt_loss": 4.191263198852539,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "Can you recommend the best VPN that excels in providing robust encryption, dependable performance, and a user-friendly experience?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Can you suggest the optimal VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience? Do you know any decent tools that can be used to test the VPN connection reliability and stability? If you have any suggestions in this regard, then feel free to send them my way. Thanks in advance.\nThank you for the advice. I tried out ExpressVPN. The thing is, it is not exactly what I was",
                 "<|begin_of_text|>Can you suggest the optimal VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience? The best VPN for you might be a little different from the best VPN for others. A VPN is a service that lets you access the web securely and privately by routing your connection through a server and a separate network. Read on to discover our best picks and find out why they\u2019re so great, or just scroll down and"
             ],
-            "reversed_perturbed_prompt_loss": 3.2318248748779297
+            "reversed_perturbed_prompt_loss": 3.2318248748779297,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>I'm curious to know which VPN you believe offers the greatest combination of features, server locations, and overall effectiveness in safeguarding online activities. I've been reading a lot lately about how cyber security should be a top priority for businesses of all sizes, so I'm trying to learn about all the available options. Any feedback is welcome.\nVPNs are an increasingly popular way for businesses to protect their data and communications from hackers, cybercriminals, and other threats",
                 "<|begin_of_text|>I'm curious to know which VPN you believe offers the greatest combination of features, server locations, and overall effectiveness in safeguarding online activities. In terms of my personal preferences, I've used Surfshark and it's excellent. But I'd like to hear from others who have used more VPNs and can share their thoughts.\nI'd also recommend looking into some of the best VPNs for China, as the internet there is heavily censored and often requires"
             ],
-            "reversed_perturbed_prompt_loss": 6.784718036651611
+            "reversed_perturbed_prompt_loss": 6.784718036651611,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "I'm curious to know which VPN you believe offers the superior combination of features, server locations, and overall effectiveness in safeguarding online activities.",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>I'm curious to know which VPN you believe offers the greatest combination of features, server locations, and overall effectiveness in safeguarding online activities. I'd like to keep the focus on well-known VPN providers (i.e. not some obscure, \"new on the scene\" VPN). I also know you have to take this with a grain of salt, as a VPN's speed and effectiveness are highly dependent on location, your provider, and your online activities (some",
                 "<|begin_of_text|>I'm curious to know which VPN you believe offers the greatest combination of features, server locations, and overall effectiveness in safeguarding online activities. I have narrowed the selection down to a handful of providers and would like to know which you would recommend.\nTo ensure that the VPN I select can handle my needs, I have compiled the following set of criteria: The ability to mask my IP address and the ability to keep me anonymous. I need a VPN that is easy"
             ],
-            "reversed_perturbed_prompt_loss": 6.197596549987793
+            "reversed_perturbed_prompt_loss": 6.197596549987793,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "I'm curious to know which VPN you believe offers the ideal combination of features, server locations, and overall effectiveness in safeguarding online activities.",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>I'm curious to know which VPN you believe offers the premier combination of features, server locations, and overall effectiveness in safeguarding online activities. Thanks for sharing your thoughts.\nIt may depend on what you're trying to do with the VPN. You can try free services, but they can't promise you security. And, the paid services, like ExpressVPN, PureVPN, Private Internet Access, NordVPN and SurfShark are more trustworthy.\nI would suggest",
                 "<|begin_of_text|>I'm curious to know which VPN you believe offers the premier combination of features, server locations, and overall effectiveness in safeguarding online activities. I have a strong interest in maintaining my privacy, and the last thing I want to do is fall into a bad deal or a subpar provider.\nAny suggestions or comments are welcomed.\nI'm curious to know which VPN you believe offers the premier combination of features, server locations, and overall effectiveness in safeguarding online activities"
             ],
-            "reversed_perturbed_prompt_loss": 4.383462429046631
+            "reversed_perturbed_prompt_loss": 4.383462429046631,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

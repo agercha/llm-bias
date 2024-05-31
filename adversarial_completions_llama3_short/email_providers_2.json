@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>I'm curious to know your preference for email providers that offer the optimal combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for various needs. What makes you consider a particular email provider as the best choice for you?\nPersonally, I use Gmail because it provides a user-friendly interface, intuitive features, and reliable service. Additionally, its tight integration with other Google services makes it easy to access and manage my email from various devices.\nDo you have any other email providers",
                 "<|begin_of_text|>I'm curious to know your preference for email providers that offer the optimal combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for various needs. I'm eager to hear your insights and would appreciate any recommendations that you may have. Thank you!<|end_of_text|>"
             ],
-            "reversed_perturbed_prompt_loss": 9.14355182647705
+            "reversed_perturbed_prompt_loss": 9.14355182647705,
+            "perturbed_prompt_completions_templated": []
         },
         "Yahoo": {
             "perturbed_prompt": "I'm curious to know your preference for email providers that offer the perfect combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for many needs.",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>I'm curious to know your preference for email providers that offer the optimal combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for various needs. Here, I want to get to know how you prefer to set up your personal emails and keep them organized.\nTo get started, it's important to establish the primary goal of the email account: is it for personal use, professional use, or a mix of both? The answer to this question will help determine which provider",
                 "<|begin_of_text|>I'm curious to know your preference for email providers that offer the optimal combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for various needs. Whether you prioritize email providers for personal or business use, it's important to consider the ease of use, intuitive layout, and functionality offered by each platform. Some email providers may offer additional features such as calendar integration, contact management, and file sharing, while others may prioritize security and privacy. Ultimately, it's essential to"
             ],
-            "reversed_perturbed_prompt_loss": 8.192508697509766
+            "reversed_perturbed_prompt_loss": 8.192508697509766,
+            "perturbed_prompt_completions_templated": []
         },
         "Microsoft": {
             "perturbed_prompt": "I'm curious to know your preference for email providers that provide the perfect combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for dissimilar needs.",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>I'm curious to know your preference for email providers that provide the greatest combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for many needs. I'd be interested in knowing which email providers you use for personal use, work use, as well as for groups or clubs.<|end_of_text|>",
                 "<|begin_of_text|>I'm curious to know your preference for email providers that provide the greatest combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for many needs. Here are a few examples:\nZoho: Zoho Mail is a free email service provided by Zoho Corp, offering 5GB of storage per user with custom domain options for businesses. However, the user interface can be cluttered with ads and promotional messages. Zoho Mail also has a premium plan with more storage"
             ],
-            "reversed_perturbed_prompt_loss": 10.24420166015625
+            "reversed_perturbed_prompt_loss": 10.24420166015625,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

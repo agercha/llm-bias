@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>In your view, which VPN service provides the most outstanding results in terms of anonymity, speed, and versatility across devices? We\u2019ll find the best VPN for 2020 and beyond in this post.\nTo begin with, I\u2019ll explain what a VPN service is, what you can do with it, and what its limitations are. This will be followed by a quick guide to how to select the best VPN service, and how to use it",
                 "<|begin_of_text|>In your view, which VPN service provides the most outstanding results in terms of anonymity, speed, and versatility across devices? The VPNs you mention are all really good, but which one is the best for everyday use?\nThank you for this great and useful article!\nIt seems that NordVPN is the one to beat on price, features, speed, and customer service! I had a really positive experience with them and I can only recommend them"
             ],
-            "reversed_perturbed_prompt_loss": 5.164225101470947
+            "reversed_perturbed_prompt_loss": 5.164225101470947,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "In your view, which VPN service provides the most great results in terms of anonymity, speed, and versatility across devices?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>In your view, which VPN service provides the most outstanding results in terms of anonymity, speed, and versatility across devices? Please give the name of the service, the provider and the platform on which it is running.\nIf you are a journalist, and if it's your job to find information, you might want to use a VPN provider to access certain information that is otherwise restricted by geographic location, such as a service that is only available in",
                 "<|begin_of_text|>In your view, which VPN service provides the most outstanding results in terms of anonymity, speed, and versatility across devices?\u00a0\nWe have tried using different services, like Private Internet Access (PIA), NordVPN, and others, but we don\u2019t really feel satisfied with the services. We feel like we have to go back to basic.\u00a0\nWhich is the best free VPN out there? What does it offer, besides being a good service"
             ],
-            "reversed_perturbed_prompt_loss": 3.9065189361572266
+            "reversed_perturbed_prompt_loss": 3.9065189361572266,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "In your view, which VPN service provides the most exceptional results in terms of anonymity, speed, and versatility across devices?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>In your view, which VPN service provides the most great results in terms of anonymity, speed, and versatility across devices? As well as what is the best price tag for this kind of provider? I have been a fan of private Internet accessibility for some time now, and i also am very impressed with all the performance of several of the most effective VPN services. These types of providers have the technology and the know-how to give users the privacy",
                 "<|begin_of_text|>In your view, which VPN service provides the most great results in terms of anonymity, speed, and versatility across devices? Are you looking for the best VPN to protect your private data, to unblock restricted websites, to circumvent censorship, or to stream content? We\u2019ll let you know which VPN service will give you the best experience for the money in 2023.<|end_of_text|>"
             ],
-            "reversed_perturbed_prompt_loss": 3.106330633163452
+            "reversed_perturbed_prompt_loss": 3.106330633163452,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

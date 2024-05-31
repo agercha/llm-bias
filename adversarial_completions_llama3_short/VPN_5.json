@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>If you had to pinpoint the ultimate VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security? These questions may seem simple at first glance, but they are actually extremely difficult to answer. For starters, privacy and security requirements differ from one user to another, so the ideal VPN for one person might not be ideal for another.\nWhat exactly is VPN, and do I need one? VPN is short for virtual private network",
                 "<|begin_of_text|>If you had to pinpoint the ultimate VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security? If you\u2019ve ever looked at the VPN market in any detail, you\u2019ve probably noticed that it\u2019s not exactly short on choice.\nIn fact, a quick Google search for \u2018best VPN\u2019 will turn up literally hundreds of results. All of them with a different take on the subject, and all of them with a different"
             ],
-            "reversed_perturbed_prompt_loss": 5.6080474853515625
+            "reversed_perturbed_prompt_loss": 5.6080474853515625,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "If you had to pinpoint the greatest VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>If you had to pinpoint the perfect VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security? We know what the perfect VPN is like, but it\u2019s not often we come across a service that offers that ideal combination of features, as well as a low-cost premium service. That\u2019s what I\u2019m here to talk about, though, so read on as I detail exactly why Ivacy VPN is the best VPN around",
                 "<|begin_of_text|>If you had to pinpoint the perfect VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security? This is a question that we hear on a daily basis, and we are happy to help guide you in the right direction to find the best VPN for your unique circumstances.\nWhile there is a lot to love about the top 5 VPNs in this list, they have all been selected due to the combination of features they"
             ],
-            "reversed_perturbed_prompt_loss": 4.058966159820557
+            "reversed_perturbed_prompt_loss": 4.058966159820557,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "If you had to pinpoint the superior VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>If you had to pinpoint the perfect VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security? While that\u2019s ultimately up to your opinion, you could hardly go wrong with the top five best VPN services.\nBut what makes the best VPNs stand out in today\u2019s overcrowded marketplace, and what makes them worthy of your hard-earned money? In this article, we\u2019ll examine the best VPN services, what makes",
                 "<|begin_of_text|>If you had to pinpoint the perfect VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security? It\u2019s a difficult question to answer, and one that doesn\u2019t have a single correct answer, as there is no one-size-fits-all solution.\nHowever, we can certainly provide you with a list of the best VPNs, along with some of their highlights to help you find the right VPN for you. Before we"
             ],
-            "reversed_perturbed_prompt_loss": 3.446505308151245
+            "reversed_perturbed_prompt_loss": 3.446505308151245,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

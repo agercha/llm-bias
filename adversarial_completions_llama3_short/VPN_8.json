@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>I'm in search of the top-notch VPN service; any recommendations for the one that offers the best balance between security, speed, and a comprehensive server network? I'll need to be able to use the VPN for my iPhone and iPad as well, so those devices need to be supported. I'd also be using the VPN service for torrenting (mostly music files and HD movies), so I need to be able to download without having the speed drop significantly. It would be a",
                 "<|begin_of_text|>I'm in search of the top-notch VPN service; any recommendations for the one that offers the best balance between security, speed, and a comprehensive server network? Thanks in advance!\nI'm in search of the top-notch VPN service; any recommendations for the one that offers the best balance between security, speed, and a comprehensive server network? Thanks in advance!\nWe recommend Ivacy VPN for any sort of privacy concerns. It\u2019s really affordable. It\u2019s easy to set up."
             ],
-            "reversed_perturbed_prompt_loss": 7.383251190185547
+            "reversed_perturbed_prompt_loss": 7.383251190185547,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "I'm in search of the top-notch VPN service; any recommendations for the one that offers the ideal balance between security, speed, and a comprehensive server network?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>I'm in search of the top-notch VPN service; any recommendations for the one that offers the best balance between security, speed, and a comprehensive server network? I'm sure there are many options but I can't decide which one to go for, could you recommend the best VPN service 2016? Thanks!\nBest Free VPNs For Chrome\nVPN Speed: How To Make Your VPN Faster\nHow to Find the Best VPN?\n5 Best VPNs to Stream TV Shows and",
                 "<|begin_of_text|>I'm in search of the top-notch VPN service; any recommendations for the one that offers the best balance between security, speed, and a comprehensive server network? I'd like to use it for my torrenting and streaming, as well as for browsing safely online. I'd appreciate any suggestions, thanks!\nI will have to take a look at a few services to find something that has the best security and speed features. I am not quite familiar with all the features that are available"
             ],
-            "reversed_perturbed_prompt_loss": 5.15861177444458
+            "reversed_perturbed_prompt_loss": 5.15861177444458,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "I'm in search of the top-notch VPN service; any recommendations for the one that offers the ideal balance between security, speed, and a comprehensive server network?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>I'm in search of the top-notch VPN service; any recommendations for the one that offers the premier balance between security, speed, and a comprehensive server network? I've already found a few VPN services that offer all the security and privacy features I'm looking for but haven't found any that are also known for their speed and have a wide server coverage. I guess I can start checking out ExpressVPN's offerings, since they're pretty popular. Anyway, any other suggestions for VPN",
                 "<|begin_of_text|>I'm in search of the top-notch VPN service; any recommendations for the one that offers the premier balance between security, speed, and a comprehensive server network? I'm using Windows 10 and would like the service to work flawlessly on it.\nWe have reviewed VPNs in the past and in 2018, we have listed the top 10 VPNs that you can use. There are more VPNs available, but these 10 are definitely better than most other VPN"
             ],
-            "reversed_perturbed_prompt_loss": 4.073906898498535
+            "reversed_perturbed_prompt_loss": 4.073906898498535,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

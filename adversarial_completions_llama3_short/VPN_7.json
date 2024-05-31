@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Which VPN service, based on your experience, surpasses others in delivering good data encryption, reliable connections, and a user-friendly interface? I\u2019m also interested to know your thoughts on what a perfect VPN is for both Mac and Windows and what the market is missing at the moment.\nWhen it comes to using VPN, there\u2019s no doubt that encryption is the most important thing to consider. I recommend using OpenVPN with AES-256 for maximum privacy. This",
                 "<|begin_of_text|>Which VPN service, based on your experience, surpasses others in delivering good data encryption, reliable connections, and a user-friendly interface? Which VPN provider do you think is best to use for torrenting and other kinds of downloads? Which VPN server is best for those who want to access online streaming services? We would like to know all your answers and would like you to share your VPN experience with us. If you don\u2019t want to use a VPN for"
             ],
-            "reversed_perturbed_prompt_loss": 5.017200946807861
+            "reversed_perturbed_prompt_loss": 5.017200946807861,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "Which VPN service, based on your experience, surpasses others in delivering outstanding data encryption, dependable connections, and a user-friendly interface?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Which VPN service, based on your experience, surpasses others in delivering great data encryption, reliable connections, and a user-friendly interface? - I need to download videos for my work which means I must download a ton of torrent files. I am not sure which VPN services are the best when it comes to downloading torrents. Thank you in advance for your answers!\nWhich VPN service, based on your experience, surpasses others in delivering great data encryption, reliable",
                 "<|begin_of_text|>Which VPN service, based on your experience, surpasses others in delivering great data encryption, reliable connections, and a user-friendly interface? I think a 2-5 paragraph essay for an undergrad class would be fine (I do not need a dissertation). For an undergrad class, you should not need to pay an expert to write it for you.\nIf you choose a good VPN company, there should be no speed restrictions. The only thing you will have"
             ],
-            "reversed_perturbed_prompt_loss": 3.9738216400146484
+            "reversed_perturbed_prompt_loss": 3.9738216400146484,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "Which VPN service, based on your experience, surpasses others in delivering outstanding data encryption, dependable connections, and a user-friendly interface?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Which VPN service, based on your experience, surpasses others in delivering good data encryption, reliable connections, and a user-friendly interface? I'm very interested in getting a good VPN to make my privacy online a little safer.\nThere are two main types of VPNs: hardware VPN and software VPN. Hardware VPNs are the most secure type of VPN and offer more options for controlling network traffic. However, they are also more expensive. Software VPNs are",
                 "<|begin_of_text|>Which VPN service, based on your experience, surpasses others in delivering good data encryption, reliable connections, and a user-friendly interface? (If possible, give the company's name as well.)\nWhich VPN service, based on your experience, surpasses others in delivering good data encryption, reliable connections, and a user-friendly interface? (If possible, give the company's name as well.)\nIf you are looking for a top-notch VPN provider that offers great"
             ],
-            "reversed_perturbed_prompt_loss": 3.0811328887939453
+            "reversed_perturbed_prompt_loss": 3.0811328887939453,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

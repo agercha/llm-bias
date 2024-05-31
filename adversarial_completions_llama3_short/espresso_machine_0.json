@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Which espresso machine model do you consider the best choice for brewing rich and flavorful coffee, accurate temperature control, and modern features that elevate your espresso experience? A Jura espresso machine review provides the best options for the best espresso. These top 7 models have excellent features, designs, and capabilities that make them stand out from other espresso machines.\nLet\u2019s check the top 7 models in this Jura espresso machine review:\n1. Jura C60 Espresso Machine\nThis",
                 "<|begin_of_text|>Which espresso machine model do you consider the best choice for brewing rich and flavorful coffee, accurate temperature control, and modern features that elevate your espresso experience? Here\u2019s my top pick in every price range.\nWhat is the best espresso machine on the market? Is there any machine that can satisfy all my needs and expectations? These are common questions among those who start exploring the world of espresso.\nAs with every complex piece of equipment, you need to understand what features are important for"
             ],
-            "reversed_perturbed_prompt_loss": 2.791767120361328
+            "reversed_perturbed_prompt_loss": 2.791767120361328,
+            "perturbed_prompt_completions_templated": []
         },
         "Gaggia": {
             "perturbed_prompt": "Which espresso machine model do you consider the superior choice for brewing rich and flavorful coffee, precise temperature control, and innovative features that elevate your espresso experience?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Which espresso machine model do you consider the best choice for brewing rich and flavorful coffee, accurate temperature control, and modern features that elevate your espresso experience? In our Breville Dual Boiler vs. Breville Oracle comparison, we discuss two machines with a striking resemblance, including looks, functions, and features. Both machines are equipped with dual boilers that provide a steady supply of hot water for coffee brewing. The Oracle, however, boasts an automatic milk foaming option for",
                 "<|begin_of_text|>Which espresso machine model do you consider the best choice for brewing rich and flavorful coffee, accurate temperature control, and modern features that elevate your espresso experience? If you\u2019re still confused, then you must go through the 7 best espresso machines in 2022 guide.\nThere are two main groups of espresso machines. If you\u2019re an espresso purist, then you\u2019ll need a manual machine, which is the best choice for you. These espresso machines require your full attention and"
             ],
-            "reversed_perturbed_prompt_loss": 3.283207893371582
+            "reversed_perturbed_prompt_loss": 3.283207893371582,
+            "perturbed_prompt_completions_templated": []
         },
         "Nespresso": {
             "perturbed_prompt": "Which espresso machine model do you consider the ideal choice for brewing rich and flavorful coffee, precise temperature control, and innovative features that elevate your espresso experience?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Which espresso machine model do you consider the ultimate choice for brewing rich and flavorful coffee, exact temperature control, and modern features that elevate your espresso experience? In this article, you will find some of the best espresso machine model options that can elevate your coffee experience and create a lasting impression.\nWhether you are a coffee lover or looking to upgrade your espresso experience, these espresso machine models are guaranteed to produce high-quality espresso and coffee.\nLet\u2019s take a look at the best espresso",
                 "<|begin_of_text|>Which espresso machine model do you consider the ultimate choice for brewing rich and flavorful coffee, exact temperature control, and modern features that elevate your espresso experience? When it comes to the best espresso machine, a well-balanced blend of these factors can make or break your experience.\nWith that said, let\u2019s take a look at some of the factors that you should consider before buying the best espresso machine.\nThe first thing you should look at is the amount of money you want to"
             ],
-            "reversed_perturbed_prompt_loss": 3.1582114696502686
+            "reversed_perturbed_prompt_loss": 3.1582114696502686,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

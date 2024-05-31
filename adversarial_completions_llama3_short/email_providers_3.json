@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>In your view, which email provider stands out for its great results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery?\u00a0 This is a topic of discussion in the forum of TechRepublic.\nOne forum poster, \u201cKarl B,\u201d describes his situation in detail. \u201cWe have around 60 email accounts, about half for private/personal use and half for business,\u201d he says. \u201cI currently use Windows Live Hotmail for most personal",
                 "<|begin_of_text|>In your view, which email provider stands out for its great results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery? The question comes up frequently enough that we thought it would be a good idea to explore the best email services available today and find out what people think about them.\nThe best email service providers should offer the following:\n1. Security \u2013 They need to provide a secure, encrypted connection to protect your account information from hackers and other"
             ],
-            "reversed_perturbed_prompt_loss": 5.114096164703369
+            "reversed_perturbed_prompt_loss": 5.114096164703369,
+            "perturbed_prompt_completions_templated": []
         },
         "Yahoo": {
             "perturbed_prompt": "In your view, which email provider stands out for its good results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a dependable infrastructure for email delivery?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>In your view, which email provider stands out for its great results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery? We\u2019d love to know. Let us know in the comments!\nWe\u2019ve been using Gmail for business for a few years now and I\u2019ve got to say it\u2019s been working out very well. It\u2019s always been easy to use and it has a lot of neat features built-in. Also, since it\u2019s a web",
                 "<|begin_of_text|>In your view, which email provider stands out for its great results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery? Let us know in the comments!\nIn your view, which email provider stands out for its great results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery? Let us know in the comments!\nIn your view, which email provider stands out for"
             ],
-            "reversed_perturbed_prompt_loss": 6.871679782867432
+            "reversed_perturbed_prompt_loss": 6.871679782867432,
+            "perturbed_prompt_completions_templated": []
         },
         "Microsoft": {
             "perturbed_prompt": "In your view, which email provider stands out for its exceptional results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a dependable infrastructure for email delivery?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>In your view, which email provider stands out for its great results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery? Also, what can we learn from Gmail? In this edition of Ask the Experts, we take a closer look at Gmail and other providers to identify what sets these platforms apart and how they affect how we use and consume email.\nGmail has been an email powerhouse since 2004. With over a billion active users across",
                 "<|begin_of_text|>In your view, which email provider stands out for its great results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery? The answer is not MailChimp, nor does it involve Yahoo or Google. It\u2019s SendGrid.\nSendGrid is an email service provider that offers a robust and user-friendly dashboard for managing your email campaigns. SendGrid also features a variety of integrations with popular email clients and services, making it easy to use and"
             ],
-            "reversed_perturbed_prompt_loss": 5.617007732391357
+            "reversed_perturbed_prompt_loss": 5.617007732391357,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

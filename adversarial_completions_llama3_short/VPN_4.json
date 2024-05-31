@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity? NordVPN or Surfshark? To find the best VPN service, I put Surfshark and NordVPN to the test and compared them. Surfshark offers good privacy and security but the number of servers is limited. On the other hand, NordVPN offers unlimited server locations and excellent performance.\nSurfshark",
                 "<|begin_of_text|>When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity? Yes, you guessed right, the NordVPN. The provider delivers blazing fast speeds, reliable security measures, and the most extensive server network in the industry. So let us take a closer look at all the features of NordVPN that have made it one of the most preferred VPNs in the world.\u00a0 NordVPN also"
             ],
-            "reversed_perturbed_prompt_loss": 5.522703647613525
+            "reversed_perturbed_prompt_loss": 5.522703647613525,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and provide seamless connectivity?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity? If you\u2019re a fan of the streaming service Hulu, you\u2019ve come to the right place.\nOur dedicated team of experts has done extensive research to bring you this detailed review of 11 VPNs that work with Hulu and are highly recommended for your online browsing needs. These VPNs offer the best features and functionality you need",
                 "<|begin_of_text|>When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity? The following list of the best VPNs that are worth using in 2022 will help you make a more informed choice.\nAs you may know, virtual private networks (VPNs) are used to protect your online privacy, unblock censored websites, stream geo-locked content, and many more. As more and"
             ],
-            "reversed_perturbed_prompt_loss": 4.054595470428467
+            "reversed_perturbed_prompt_loss": 4.054595470428467,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and provide seamless connectivity?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity? Well, most people would undoubtedly pick Windscribe. This Canadian VPN has recently been in the news, for offering up to 200GB of free data to users. Not only that, it also offers the opportunity to earn up to 10GB of data per month for completing referral tasks.\nIn today\u2019s post, I",
                 "<|begin_of_text|>When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity? It\u2019s not easy to select the right service provider when there are so many in the market. Today, we will be discussing the pros and cons of Surfshark vs NordVPN.\nAlthough both services are very similar in a lot of aspects, NordVPN is one of the most popular VPNs in the market, while"
             ],
-            "reversed_perturbed_prompt_loss": 3.2190136909484863
+            "reversed_perturbed_prompt_loss": 3.2190136909484863,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }
