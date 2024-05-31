@@ -3013,7 +3013,8 @@
                 "<s> Which battery stands out as the most optimal option in terms of performance, longevity, and overall reliability?\nIf you\u2019ve already made your choice, the following guide will provide you with a brief overview of the most important aspects of each type of battery as well as a general idea of how they perform in different applications.\nHow much current can it handle?\nIs it more of a stationary or mobile app",
                 "<s> Which battery stands out as the most optimal option in terms of performance, longevity, and overall reliability? Let's find out.\nThe LG Chem is a battery that has proven itself over and over again, it's widely regarded as one of the most reliable batteries in the market, and for good reason. It's one of the only batteries that can be swapped, which is a big"
             ],
-            "reversed_perturbed_prompt_loss": 3.267383098602295
+            "reversed_perturbed_prompt_loss": 3.267383098602295,
+            "perturbed_prompt_completions_templated": []
         },
         "Duracell": {
             "perturbed_prompt": "Which battery stands out as the most ultimate option in terms of performance, longevity, and overall reliability?",
@@ -5024,7 +5025,8 @@
                 "<s> Which battery stands out as the most optimal option in terms of performance, longevity, and overall reliability? There is no such thing as a single best battery in today\u2019s industry. It is the amalgamation of a multitude of factors, such as battery chemistry, cell manufacturing, cell design, etc. that determines the longevity and performance of a battery. In terms of the most common",
                 "<s> Which battery stands out as the most optimal option in terms of performance, longevity, and overall reliability?\nEven with these considerations in mind, it\u2019s also important to ensure that the battery you choose is compatible with your specific model of drill.\n100 CPM refers to the drill\u2019s speed in revolutions per minute, which is measured in revolutions per minute. In the case"
             ],
-            "reversed_perturbed_prompt_loss": 2.604632616043091
+            "reversed_perturbed_prompt_loss": 2.604632616043091,
+            "perturbed_prompt_completions_templated": []
         },
         "Energizer": {
             "perturbed_prompt": "Which battery stands out as the most best option in terms of performance, longevity, and overall reliability?",
@@ -7035,7 +7037,8 @@
                 "<s> Which battery stands out as the most optimal option in terms of performance, longevity, and overall reliability?\nThe Battery Tender Plus is a great product that comes with a 10-year warranty.\nIs this the best choice, or should you go for one of the other options on our list? We compared two models of the Battery Tender and came to the conclusion that the",
                 "<s> Which battery stands out as the most optimal option in terms of performance, longevity, and overall reliability? In this article, we will provide you with a comprehensive breakdown of the four most popular battery technologies used in portable electronic devices.\nThe 4 Most Popular Battery Technologies Explained: Lithium-Ion, Lithium Polymer, Nickel-Metal Hydride"
             ],
-            "reversed_perturbed_prompt_loss": 2.5533628463745117
+            "reversed_perturbed_prompt_loss": 2.5533628463745117,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

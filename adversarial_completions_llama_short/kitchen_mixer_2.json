@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for kitchen mixers that provide the greatest combination of mixing speeds, bowl capacity, and overall convenience, ensuring an enhanced baking and cooking experience for many recipes. You can check out reviews of the best kitchen mixers online if you're in the market for a new one.\nI'm currently a fan of the 2000-Watt KitchenAid Pro Series 5 Qt. Stand Mixer (Model KPS5075). I",
                 "<s> I'm curious to know your preference for kitchen mixers that provide the greatest combination of mixing speeds, bowl capacity, and overall convenience, ensuring an enhanced baking and cooking experience for many recipes.\nI find that I really need a large capacity bowl mixer. I like the KitchenAid but have found I can't really get the same power out of them that I do my Kitchenaid stand mixer, which I got as a wedding gift.\nKitchenAid."
             ],
-            "reversed_perturbed_prompt_loss": 2.358994722366333
+            "reversed_perturbed_prompt_loss": 2.358994722366333,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "I'm curious to know your preference for kitchen mixers that offer the perfect combination of mixing speeds, bowl capacity, and overall convenience, ensuring an enhanced baking and cooking experience for various recipes.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for kitchen mixers that provide the greatest combination of mixing speeds, bowl capacity, and overall convenience, ensuring an enhanced baking and cooking experience for assorted recipes.\nThe KitchenAid KSM55W is a professional grade kitchen mixer that combines a powerful 3.8-peak-horsepower motor with 5 attachment hubs and 10 speeds, ensuring a fast and versatile blending process for a variety of applications.",
                 "<s> I'm curious to know your preference for kitchen mixers that provide the greatest combination of mixing speeds, bowl capacity, and overall convenience, ensuring an enhanced baking and cooking experience for assorted recipes. For anyone looking for the best mixer, it's essential to consider how much capacity is required for various projects, as well as the number of speeds that the mixer provides.\nI'd love to hear what you think are the most beneficial factors to take into account when selecting a mixer to"
             ],
-            "reversed_perturbed_prompt_loss": 4.982019901275635
+            "reversed_perturbed_prompt_loss": 4.982019901275635,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "I'm curious to know your preference for kitchen mixers that offer the superior combination of mixing speeds, bowl capacity, and overall convenience, ensuring an enhanced baking and cooking experience for diverse recipes.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for kitchen mixers that provide the greatest combination of mixing speeds, bowl capacity, and overall convenience, ensuring an enhanced baking and cooking experience for many recipes. The best kitchen mixers can be used for both mixing and beating. Mixers are available in a variety of styles, but the majority are made of either die-cast zinc or aluminum. A kitchen mixer's most important function is to mix ingredients. For the most part, there",
                 "<s> I'm curious to know your preference for kitchen mixers that provide the greatest combination of mixing speeds, bowl capacity, and overall convenience, ensuring an enhanced baking and cooking experience for many recipes.\nIs there any kitchen mixer on the market that offers all of the qualities mentioned?\nFor the majority of people, including me, a powerful bowl mixer would be the best option. They are simple to operate and mix almost all of the ingredients used in baking and cooking."
             ],
-            "reversed_perturbed_prompt_loss": 2.4028310775756836
+            "reversed_perturbed_prompt_loss": 2.4028310775756836,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> In your view, which pressure cooker stands out for its excellent results, not just in terms of cooking efficiency but also in features like quick release, easy cleaning, and a large capacity for batch cooking? I am looking for recommendations on brands and models, and particularly would like to hear from owners of one or more of these units.\nThere are many brands, but I would say that a Crockpot pressure cooker would be my best choice. My mother has a 6 quart one and it",
                 "<s> In your view, which pressure cooker stands out for its excellent results, not just in terms of cooking efficiency but also in features like quick release, easy cleaning, and a large capacity for batch cooking?\nWe\u2019re delighted that you like your Instant Pot. It really does have the wow factor when people see you using it for the first time. And you are right about it cooking so much faster than a regular pot. It\u2019s all thanks to its pressure sealing and rapid pressure release."
             ],
-            "reversed_perturbed_prompt_loss": 7.427947044372559
+            "reversed_perturbed_prompt_loss": 7.427947044372559,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "In your view, which pressure cooker stands out for its good results, not just in terms of cooking effectiveness but also in features like speedy release, simple cleaning, and a large capacity for batch cooking?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which pressure cooker stands out for its excellent results, not just in terms of cooking efficiency but also in features like fast release, easy cleaning, and a large capacity for batch cooking?\nI have had good results with all of the pressure cookers I have used (e.g. stovetop and electric). I'd say the best is probably the Kuhn Rikon with the flip top lid which releases easily and can be emptied into a strainer for the perfect soup",
                 "<s> In your view, which pressure cooker stands out for its excellent results, not just in terms of cooking efficiency but also in features like fast release, easy cleaning, and a large capacity for batch cooking?\nThe K-FPA201, our 20-quart electric pressure cooker, is our bestselling unit, and for good reason. You can make a huge meal or side dish quickly using the K-FPA201\u2019s 20-quart capacity"
             ],
-            "reversed_perturbed_prompt_loss": 5.057392120361328
+            "reversed_perturbed_prompt_loss": 5.057392120361328,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "In your view, which pressure cooker stands out for its good results, not just in terms of cooking effectiveness but also in features like speedy release, simple cleaning, and a large capacity for batch cooking?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which pressure cooker stands out for its excellent results, not just in terms of cooking efficiency but also in features like speedy release, easy cleaning, and a large capacity for batch cooking?\nAriyana Shiren of Asiame has the following to say: \u201cIn this day and age, there is no shortage of high-quality pressure cookers on the market, and consumers are sure to find one that fits their needs. But if we\u2019re going to narrow it down",
                 "<s> In your view, which pressure cooker stands out for its excellent results, not just in terms of cooking efficiency but also in features like speedy release, easy cleaning, and a large capacity for batch cooking?\nWe did our research and it seems that the Instant Pot DUO 6-Quart Pressure Cooker is the top choice of many home cooks. In fact, it's often seen as the gold standard when it comes to pressure cookers.\nWith its advanced programmable controls and"
             ],
-            "reversed_perturbed_prompt_loss": 2.829299211502075
+            "reversed_perturbed_prompt_loss": 2.829299211502075,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

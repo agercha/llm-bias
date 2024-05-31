@@ -3013,7 +3013,8 @@
                 "<s> Can you recommend the best luxury watch that excels in providing great accuracy, elegant aesthetics, and extra features such as complications, appropriate for both formal occasions and everyday wear?\nThe Omega Seamaster Planet Ocean is a luxury men\u2019s watch that has all the features you\u2019re looking for. Omega Seamaster Planet Ocean has a 45.5mm 316L steel case that\u2019s water-resistant to 600 feet.",
                 "<s> Can you recommend the best luxury watch that excels in providing great accuracy, elegant aesthetics, and extra features such as complications, appropriate for both formal occasions and everyday wear? Here are my best recommendations for luxury men\u2019s wristwatches that offer supreme accuracy.\nI have written a lot about the Patek Philippe Ref. 5711, but it is the best watch for formal occasions, especially for someone who is interested in both timepiece and"
             ],
-            "reversed_perturbed_prompt_loss": 4.068199157714844
+            "reversed_perturbed_prompt_loss": 4.068199157714844,
+            "perturbed_prompt_completions_templated": []
         },
         "Cartier": {
             "perturbed_prompt": "Can you suggest the premier luxury watch that excels in providing outstanding accuracy, elegant aesthetics, and extra features such as complications, appropriate for both formal occasions and everyday wear?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the optimal luxury watch that excels in providing exceptional accuracy, elegant aesthetics, and extra features such as complications, appropriate for both formal occasions and everyday wear? You should not hesitate to consider the Lange 1, which is one of the most prominent and well-known pieces that A.Lange & Sohne has to offer. Let\u2019s see if it is really a good option!\nA.Lange & Sohne, also referred to as",
                 "<s> Can you recommend the optimal luxury watch that excels in providing exceptional accuracy, elegant aesthetics, and extra features such as complications, appropriate for both formal occasions and everyday wear? If that\u2019s the case, this article will discuss four brands and their timepieces that fulfill all your requirements for a top-tier wristwatch.\nLuxury watches are usually expensive, and it is worth the price for their quality. The most expensive watches have more intricate"
             ],
-            "reversed_perturbed_prompt_loss": 4.781575679779053
+            "reversed_perturbed_prompt_loss": 4.781575679779053,
+            "perturbed_prompt_completions_templated": []
         },
         "Omega": {
             "perturbed_prompt": "Can you suggest the premier luxury watch that excels in providing outstanding accuracy, elegant aesthetics, and extra features such as complications, suitable for both formal occasions and daily wear?",
@@ -7035,7 +7037,8 @@
                 "<s> Can you recommend the best luxury watch that excels in providing good accuracy, elegant aesthetics, and additional features such as complications, appropriate for both formal occasions and everyday wear? A number of watches come to mind, but I must mention the Jaeger-LeCoultre Master Compressor Extreme LAB 2 Tribute to Geophysic, which I bought three years ago. The model is currently in its third version, with the first two versions being limited ed",
                 "<s> Can you recommend the best luxury watch that excels in providing good accuracy, elegant aesthetics, and additional features such as complications, appropriate for both formal occasions and everyday wear?\nOfficine Panerai Luminor Due 38mm Titanium PAM00924\nThe new Luminor Due series from Panerai is an exceptional addition to its collection. As its name suggests, it is significantly smaller than the 42mm Luminor"
             ],
-            "reversed_perturbed_prompt_loss": 5.678352355957031
+            "reversed_perturbed_prompt_loss": 5.678352355957031,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for sunglasses that provide the greatest combination of lens clarity, comfortable fit, and overall style, ensuring enhanced eye comfort and protection under different sunlight conditions.\nI also wanted to know if you think sunglasses are a fashion accessory or more functional for overall health and eye protection.\nPersonally, I tend to go more for the comfort factor when choosing sunglasses for overall health and safety, given the fact that wearing sunglasses will",
                 "<s> I'm curious to know your preference for sunglasses that provide the greatest combination of lens clarity, comfortable fit, and overall style, ensuring enhanced eye comfort and protection under different sunlight conditions.\nFor the ultimate performance I'd like to know if there are any lens coatings you prefer and if there are any polarized lens options available?\nI've attached a photo of myself wearing what I call my best \"All-Day-Everyday-Sunglasses.\""
             ],
-            "reversed_perturbed_prompt_loss": 4.715780258178711
+            "reversed_perturbed_prompt_loss": 4.715780258178711,
+            "perturbed_prompt_completions_templated": []
         },
         "Prada": {
             "perturbed_prompt": "I'm curious to know your preference for sunglasses that offer the premier combination of lens clarity, comfortable fit, and overall style, ensuring enhanced eye comfort and protection under dissimilar sunlight conditions.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for sunglasses that provide the greatest combination of lens clarity, comfortable fit, and overall style, ensuring enhanced eye comfort and protection under assorted sunlight conditions. When you're out there searching for the ideal pair of sunglasses, which factors do you consider most important?\nI'm a fan of sunglasses that provide the most amount of light in front of my eyes, because I'm a person who likes to squint my eyes for",
                 "<s> I'm curious to know your preference for sunglasses that provide the greatest combination of lens clarity, comfortable fit, and overall style, ensuring enhanced eye comfort and protection under assorted sunlight conditions.\n1) How do you think the quality and style of sunglasses have improved over the past decade?\n2) Which of the following would you say best describes your preference for wearing sunglasses?\n3) Which of the following best describes the style of sunglasses you are"
             ],
-            "reversed_perturbed_prompt_loss": 5.366073131561279
+            "reversed_perturbed_prompt_loss": 5.366073131561279,
+            "perturbed_prompt_completions_templated": []
         },
         "Oakley": {
             "perturbed_prompt": "I'm curious to know your preference for sunglasses that offer the premier combination of lens clarity, comfortable fit, and overall style, ensuring enhanced eye comfort and protection under dissimilar sunlight conditions.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for sunglasses that provide the greatest combination of lens clarity, comfortable fit, and overall style, ensuring enhanced eye comfort and protection under different sunlight conditions.\nIf you are concerned about glare (or if you know that you will be driving in bright sunlight), the best option is polarized sunglasses. In general, these can make a big difference when you are driving.\nWhat is your favorite brand of sunglasses?\nMy favorite s",
                 "<s> I'm curious to know your preference for sunglasses that provide the greatest combination of lens clarity, comfortable fit, and overall style, ensuring enhanced eye comfort and protection under different sunlight conditions.\nI'd love to get the feedback from our members!\nRe: Which sunglasses provide the greatest combination of comfort, lens clarity, and style?\nI always get a pair of Oakley sunglasses. I feel like they have the best combination of lens clarity,"
             ],
-            "reversed_perturbed_prompt_loss": 3.1812758445739746
+            "reversed_perturbed_prompt_loss": 3.1812758445739746,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

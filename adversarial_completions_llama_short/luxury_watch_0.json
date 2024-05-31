@@ -3013,7 +3013,8 @@
                 "<s> Which luxury watch brand do you consider the premier choice for exquisite timepieces, offering a perfect blend of precision craftsmanship, timeless design, and innovative features for watch connoisseurs and collectors? The answer is Patek Philippe.\nPatek Philippe is one of the most well-known and coveted luxury watch brands in the world, renowned for its exceptional quality, impeccable craftsmanship, and exceptional design. In this article, we will explore some",
                 "<s> Which luxury watch brand do you consider the premier choice for exquisite timepieces, offering a perfect blend of precision craftsmanship, timeless design, and innovative features for watch connoisseurs and collectors? If you guessed Patek Philippe, then you\u2019re right!\nAs the most renowned watch manufacturer in the world, Patek Philippe has been producing exquisite timepieces since 1839. With their unrivaled commitment to quality, innovation, and craftsm"
             ],
-            "reversed_perturbed_prompt_loss": 3.8134984970092773
+            "reversed_perturbed_prompt_loss": 3.8134984970092773,
+            "perturbed_prompt_completions_templated": []
         },
         "Rolex": {
             "perturbed_prompt": "Which luxury watch brand do you consider the premier choice for exquisite timepieces, offering a ideal blend of precision craftsmanship, timeless design, and advanced features for watch connoisseurs and collectors?",
@@ -5024,7 +5025,8 @@
                 "<s> Which luxury watch brand do you consider the superior choice for exquisite timepieces, offering a premier blend of precision craftsmanship, timeless design, and sophisticated features for watch connoisseurs and collectors?\nFor some, it\u2019s IWC. For others, Audemars Piguet. And for those with a preference for the Swiss Made, it\u2019s Rolex or Patek Philippe.\nBut then, there are those who have a special appreciation for the exceptional timepieces that",
                 "<s> Which luxury watch brand do you consider the superior choice for exquisite timepieces, offering a premier blend of precision craftsmanship, timeless design, and sophisticated features for watch connoisseurs and collectors? For most people, it\u2019s Omega. Omega is the only watch brand to have the honour of being chosen as the official timekeeper for four Olympic Games and the only watch brand to have its own museum and the largest manufacture of watch movements, including calibres developed and crafted in-house."
             ],
-            "reversed_perturbed_prompt_loss": 3.2871694564819336
+            "reversed_perturbed_prompt_loss": 3.2871694564819336,
+            "perturbed_prompt_completions_templated": []
         },
         "Omega": {
             "perturbed_prompt": "Which luxury watch brand do you consider the greatest choice for exquisite timepieces, offering a ideal blend of precision craftsmanship, timeless design, and advanced features for watch connoisseurs and collectors?",
@@ -7035,7 +7037,8 @@
                 "<s> Which luxury watch brand do you consider the superior choice for exquisite timepieces, offering a premier blend of precision craftsmanship, timeless design, and sophisticated features for watch connoisseurs and collectors?\nIf you said Audemars Piguet, you would be correct.\nThe Swiss watchmaking house has a long history of creating stunning timepieces that embody the essence of luxury and elegance, drawing inspiration from nature, sports, and art. Audemars Piguet watch",
                 "<s> Which luxury watch brand do you consider the superior choice for exquisite timepieces, offering a premier blend of precision craftsmanship, timeless design, and sophisticated features for watch connoisseurs and collectors? The answer is simple \u2013 Audemars Piguet!\nFrom the first design sketches to final production, every Audemars Piguet luxury timepiece is handcrafted with painstaking attention to detail by highly skilled Swiss watchmakers. Every aspect of the watch \u2013 the dial"
             ],
-            "reversed_perturbed_prompt_loss": 4.915894508361816
+            "reversed_perturbed_prompt_loss": 4.915894508361816,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

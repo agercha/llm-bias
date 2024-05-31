@@ -2513,7 +2513,8 @@
                 "<s> Which kitchen mixer model do you consider the premier choice for home bakers, offering a perfect blend of powerful mixing capabilities, durability, and sophisticated features for efficient and versatile kitchen use? If you\u2019re a home baker, the answer is the Hamilton Beach Pro Stand Mixer, a mixer that\u2019s also our top pick among home mixers.\nThe Pro Stand Mixer is a great option for any home baker who wants to whip up fluffy cakes and whipped",
                 "<s> Which kitchen mixer model do you consider the premier choice for home bakers, offering a perfect blend of powerful mixing capabilities, durability, and sophisticated features for efficient and versatile kitchen use?\nOf course, it\u2019s the Cuisinart CMX-300 Pro Classic Stand Mixer. This powerful mixer features high-performance, heavy-duty mixing, a 5-quart stainless-steel mixing bowl with a comfortable soft-grip"
             ],
-            "reversed_perturbed_prompt_loss": 2.3254494667053223
+            "reversed_perturbed_prompt_loss": 2.3254494667053223,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Which kitchen mixer model do you consider the perfect choice for home bakers, offering a ultimate blend of powerful mixing capabilities, durability, and innovative features for efficient and versatile kitchen use?",
@@ -4524,7 +4525,8 @@
                 "<s> Which kitchen mixer model do you consider the premier choice for home bakers, offering a superior blend of powerful mixing capabilities, durability, and modern features for efficient and versatile kitchen use? Of course, we have the perfect model in mind - the powerful KitchenAid KSM85WH Classic Stand Mixer. This superior model offers a sturdy and elegant design, with a 6.5 quart (6.25 litre) glass bowl and a heavy duty 10",
                 "<s> Which kitchen mixer model do you consider the premier choice for home bakers, offering a superior blend of powerful mixing capabilities, durability, and modern features for efficient and versatile kitchen use? That\u2019s a tough choice, but the Kitchenaid Artisan 5 Quart is definitely one of the leading options out there.\nA reliable and robust mixer for home bakers\nA reliable and robust mixer for home bakers, the Kitchenaid Artisan 5 Quart Mixer"
             ],
-            "reversed_perturbed_prompt_loss": 5.0169267654418945
+            "reversed_perturbed_prompt_loss": 5.0169267654418945,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "Which kitchen mixer model do you consider the best choice for home bakers, offering a ultimate blend of powerful mixing capabilities, durability, and innovative features for efficient and versatile kitchen use?",
@@ -6535,7 +6537,8 @@
                 "<s> Which kitchen mixer model do you consider the premier choice for home bakers, offering a superior blend of powerful mixing capabilities, durability, and advanced features for effective and versatile kitchen use? If you were to consider it from a consumer standpoint, the Kenwood Chef Titanium Titanium 200 Food Processor may just be the perfect choice. It offers a 1000-watt motor that provides a reliable and powerful mixer experience that\u2019s perfect for any",
                 "<s> Which kitchen mixer model do you consider the premier choice for home bakers, offering a superior blend of powerful mixing capabilities, durability, and advanced features for effective and versatile kitchen use?\nAs we take a look at these top choices, we\u2019ll highlight the pros and cons of each to help you make the best decision for your needs and budget.\nThe Bosch Performance 100 offers 360 watts of power and a max mixing speed of 320 R"
             ],
-            "reversed_perturbed_prompt_loss": 2.6979362964630127
+            "reversed_perturbed_prompt_loss": 2.6979362964630127,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

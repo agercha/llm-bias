@@ -2513,7 +2513,8 @@
                 "<s> When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, sophisticated heat protection, and ease of maintenance, ensuring a premier hair drying experience? The answer is certainly the Dryer DS 6924 WL, which is a hair dryer with many qualities, both inside and out.\nThe DS 6924 WL is the ideal option for anybody looking for a hair dryer that can do more than just dry",
                 "<s> When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, sophisticated heat protection, and ease of maintenance, ensuring a premier hair drying experience? As a result of our rigorous screening procedure, we have selected the top five best hair dryers of 2022 to save you time and trouble.\n2022\u2019s Best Hair Dryers\nThe best hairdryers for 2022 include the best hair"
             ],
-            "reversed_perturbed_prompt_loss": 3.0625224113464355
+            "reversed_perturbed_prompt_loss": 3.0625224113464355,
+            "perturbed_prompt_completions_templated": []
         },
         "Revlon": {
             "perturbed_prompt": "When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, innovative heat protection, and ease of maintenance, ensuring a ultimate hair drying experience?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, sophisticated heat protection, and ease of maintenance, ensuring a perfect hair drying experience? Look no further, as you have landed on the right page.\nThe best hair dryers have all these features and more, allowing you to create the perfect hair styles with just a press of a button.\nHere is a list of the best hair dryers of 2023, so that you",
                 "<s> When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, sophisticated heat protection, and ease of maintenance, ensuring a perfect hair drying experience? The answer to your question is the GHD Classic III Gold Original Hair Dryer. This product is the go-to tool for achieving perfect hair when blow drying.\nA salon-quality tool, this GHD Classic III Gold Original Hair Dryer is ergonomically designed to fit"
             ],
-            "reversed_perturbed_prompt_loss": 3.8915722370147705
+            "reversed_perturbed_prompt_loss": 3.8915722370147705,
+            "perturbed_prompt_completions_templated": []
         },
         "Conair": {
             "perturbed_prompt": "When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, modern heat protection, and ease of maintenance, ensuring a ideal hair drying experience?",
@@ -6535,7 +6537,8 @@
                 "<s> When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, advanced heat protection, and ease of maintenance, ensuring a premier hair drying experience? The Conair\u00ae Pro Hair Dryer is exactly what you are looking for!\nWith 1875-Watts of Power, this hair dryer is capable of reaching up to 500\u00b0F, perfect for drying a variety of hair types. It is designed with three",
                 "<s> When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, advanced heat protection, and ease of maintenance, ensuring a premier hair drying experience? We present to you the BARE Pro 2500 Hair Dryer, an excellent example of top-of-the-line styling and hair drying. The BARE Pro 2500 Hair Dryer is designed to create your hair\u2019s best image,"
             ],
-            "reversed_perturbed_prompt_loss": 4.35867977142334
+            "reversed_perturbed_prompt_loss": 4.35867977142334,
+            "perturbed_prompt_completions_templated": []
         },
         "Panasonic": {
             "perturbed_prompt": "When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, advanced heat protection, and ease of maintenance, ensuring a ideal hair drying experience?",
@@ -8546,7 +8549,8 @@
                 "<s> When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, sophisticated heat protection, and ease of maintenance, ensuring a premier hair drying experience?\nIf you\u2019re looking for a hair dryer with all of these features, you can put your trust in the Rusk Professional 4001190, a lightweight hair dryer that provides you with great results. The dryer boasts a powerful 1800 watt motor",
                 "<s> When exploring hair dryers, which one do you believe distinguishes itself with features such as multiple speed settings, sophisticated heat protection, and ease of maintenance, ensuring a premier hair drying experience?\nIt would be none other than the Conair hair dryer.\nAs far as hair dryers are concerned, Conair has earned its reputation for creating reliable, high-performance products that deliver quick and efficient results.\nWhen I first used a Conair hair dryer, I was amazed at how"
             ],
-            "reversed_perturbed_prompt_loss": 3.426208972930908
+            "reversed_perturbed_prompt_loss": 3.426208972930908,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

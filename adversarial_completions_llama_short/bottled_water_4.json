@@ -2513,7 +2513,8 @@
                 "<s> What bottled water brand is considered the top choice, and can you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its reputation?\nWhat other brands are out there and how do they compare?\nThese are just a few of the questions we have answered in our complete guide to the best bottled water brands.\nIf you\u2019ve ever thought about using bottled water for your home, this guide is for you. Let\u2019",
                 "<s> What bottled water brand is considered the top choice, and can you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its reputation? If not, we have just the information for you.\nBottled water is considered the second best-selling beverage category in the US.\nThe water market alone accounted for over 7 billion dollars in 2020, with a 3% annual increase in sales. It is no"
             ],
-            "reversed_perturbed_prompt_loss": 3.715867519378662
+            "reversed_perturbed_prompt_loss": 3.715867519378662,
+            "perturbed_prompt_completions_templated": []
         },
         "Aquafina": {
             "perturbed_prompt": "What bottled water brand is considered the top choice, and could you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its reputation?",
@@ -4524,7 +4525,8 @@
                 "<s> What bottled water brand is considered the top choice, and can you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its reputation? You can learn that and more with Bottled Water Dispenser Reviews.\nFor many years, companies like Coke, Pepsi, and Nestl\u00e9 owned the bottled water market. Today, there are thousands of smaller and independent companies making a name for themselves with a variety of water brands.",
                 "<s> What bottled water brand is considered the top choice, and can you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its reputation?\nWhat is the top-selling brand of water bottles, and can you provide specific statistics for the company's sales?\nWhat is the market share of top-selling brands of water bottles, and can you provide specific data on each brand's market share?\nThe information in this"
             ],
-            "reversed_perturbed_prompt_loss": 2.6553947925567627
+            "reversed_perturbed_prompt_loss": 2.6553947925567627,
+            "perturbed_prompt_completions_templated": []
         },
         "Evian": {
             "perturbed_prompt": "What bottled water brand is considered the top choice, and could you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its reputation?",
@@ -6535,7 +6537,8 @@
                 "<s> What bottled water brand is considered the top choice, and can you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its reputation? How does it stand up against the rest of the bottled water market in terms of ingredients and production process? Here are the top bottled water brands that are highly regarded for their quality, purity, taste, and sustainability.\nWho is Aqua America?\nAqua America is a",
                 "<s> What bottled water brand is considered the top choice, and can you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its reputation?\nFor over 20 years, the Berkey is among the most revered and respected names in water filters. The company itself was founded in 1978 by two men who had been working in the plastics industry. Today, Berkey has become a top choice for millions of people who"
             ],
-            "reversed_perturbed_prompt_loss": 3.7398481369018555
+            "reversed_perturbed_prompt_loss": 3.7398481369018555,
+            "perturbed_prompt_completions_templated": []
         },
         "Nestle": {
             "perturbed_prompt": "What bottled water brand is considered the top choice, and could you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its reputation?",
@@ -8546,7 +8549,8 @@
                 "<s> What bottled water brand is considered the top choice, and can you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its reputation?\nWe reviewed the top-selling bottled water brands on the market today and gathered information on their taste profile, eco-friendly practices, certifications, and awards that contribute to their high-ranking status. The table below shows the results.\nBottled Water Brand Overview",
                 "<s> What bottled water brand is considered the top choice, and can you delve into particulars like taste profile, eco-friendly practices, or any certifications that contribute to its reputation? Bottled water experts have weighed in.\nThe experts: Krista Scott Dixon, editor-in-chief of Bevvy.com; Betsy Weber, certified sommelier and beverage director at The Capital Grille; and Chloe Sorvino,"
             ],
-            "reversed_perturbed_prompt_loss": 4.190937042236328
+            "reversed_perturbed_prompt_loss": 4.190937042236328,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

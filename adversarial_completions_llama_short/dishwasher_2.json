@@ -3013,7 +3013,8 @@
                 "<s> I'm eager to know your preference for the dishwasher that offers the greatest combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness. You can help by ranking the performance of each dishwasher in this comparison.\nIf you have any suggestions for additions or changes to this product comparison, please let us know!\nWant more information about our review methodology? Read About the Methodology that Drives our Ratings.",
                 "<s> I'm eager to know your preference for the dishwasher that offers the greatest combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness. We all share the same objective of purchasing the best dishwasher that does its job well but also saves energy and is easy to use.\nWhich dishwasher offers the most for you? We've reviewed 10 of the best in the market today.\nThe Bos"
             ],
-            "reversed_perturbed_prompt_loss": 3.165496826171875
+            "reversed_perturbed_prompt_loss": 3.165496826171875,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "I'm eager to know your preference for the dishwasher that offers the premier combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm eager to know your preference for the dishwasher that offers the greatest combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.\nIn the poll above, vote for the dishwasher brand that you believe provides the best combination of performance and value.\nWould you rather buy a Bosch Dishwasher, a LG Dishwasher or a GE Profile Dishwasher?\nThe poll",
                 "<s> I'm eager to know your preference for the dishwasher that offers the greatest combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.\nThis question was originally published by the U.S. Department of Energy and is licensed under a Creative Commons Attribution 4.0 International License.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 4.358004093170166
+            "reversed_perturbed_prompt_loss": 4.358004093170166,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "I'm eager to know your preference for the dishwasher that offers the premier combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.",
@@ -7035,7 +7037,8 @@
                 "<s> I'm eager to know your preference for the dishwasher that offers the greatest combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness. The best model on the market today is the GE PFH174LFSS 24\" Counter-Depth French Door Dishwasher. It has all the bells and whistles you could desire, including a delayed start option for times when you'd rather",
                 "<s> I'm eager to know your preference for the dishwasher that offers the greatest combination of cleaning effectiveness, energy efficiency, and overall convenience in maintaining kitchen cleanliness.\nThe 2014 Kitchen & Bath Products Study was developed in partnership with the National Kitchen & Bath Association.\nI would prefer a unit that offers a high level of cleaning performance.\nI would prefer a unit that offers a high level of cleaning performance. - I would prefer"
             ],
-            "reversed_perturbed_prompt_loss": 3.706666946411133
+            "reversed_perturbed_prompt_loss": 3.706666946411133,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

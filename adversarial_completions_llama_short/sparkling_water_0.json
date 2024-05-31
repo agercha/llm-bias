@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nAs I\u2019ve mentioned previously, LaCroix sparkling water is one of my favorite beverages for people who need a natural, zero calorie beverage. It\u2019s lightly carbonated with just the right amount of bubbles. It has the same taste and mineral content as naturally",
                 "<s> Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nThe 8 Best Sparkling Water Brands of 2023\nBest overall: Sparkling Ice\nBest for flavor variety: Polar Seltzer\nBest for sparkling water aficionados: Spindrift\nBest for fizzy sparkling water: LaCroix\nBest"
             ],
-            "reversed_perturbed_prompt_loss": 3.202080488204956
+            "reversed_perturbed_prompt_loss": 3.202080488204956,
+            "perturbed_prompt_completions_templated": []
         },
         "Bubbly": {
             "perturbed_prompt": "Can you recommend the top-notch brand of sparkling water, and can you offer details on what makes it stand out, such as flavor variety, carbonation level, or any unequalled features?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the top-notch brand of sparkling water, and can you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nIt would be helpful to know more about your preferences and how you typically use sparkling water to provide a more tailored recommendation. For example, if you prefer a high level of carbonation, it would be helpful to know that. Do you prefer flavored sparkling water or plain water? How often do",
                 "<s> Can you recommend the top-notch brand of sparkling water, and can you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nWe at the Soda Fountain love this question. There are so many sparkling water brands to choose from, and each has its own unique selling points. Here is our list of the best sparkling water brands available on the market.\nIf you\u2019re looking for a brand of spark"
             ],
-            "reversed_perturbed_prompt_loss": 6.7853684425354
+            "reversed_perturbed_prompt_loss": 6.7853684425354,
+            "perturbed_prompt_completions_templated": []
         },
         "Pellegrino": {
             "perturbed_prompt": "Can you recommend the top-notch brand of sparkling water, and can you offer details on what makes it stand out, such as flavor variety, carbonation level, or any unequalled features?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nSparkling water is an excellent alternative to soda for those who want to drink more water. It is often lower in calories than soda and is a healthier option for your body. There are many different brands of sparkling water, and each has its own unique flavor and level of carbon",
                 "<s> Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nI'm looking for sparkling water brands that offer a unique or interesting flavor profile, carbonation levels that provide a bubbly, satisfying sensation, and any special features like infused with fruit or herbs, or sparkling water.\nWant a delicious carbonated water brand"
             ],
-            "reversed_perturbed_prompt_loss": 6.192863464355469
+            "reversed_perturbed_prompt_loss": 6.192863464355469,
+            "perturbed_prompt_completions_templated": []
         },
         "Perrier": {
             "perturbed_prompt": "Can you recommend the top-notch brand of sparkling water, and can you offer details on what makes it stand out, such as flavor variety, carbonation level, or any unequalled features?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nThanks for the question! We\u2019ve got a few different options for you. Let\u2019s jump in:\nSparkling Water with No Calories \u2013 Perrier\nFor our #1 recommendation, we\u2019re taking it to France with Perrier! This brand offers 100% natural mineral",
                 "<s> Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nThe Best Sparkling Water Brands\n#1 \u2013 Zevia\n#2 \u2013 La Croix\n#3 \u2013 Spindrift\n#4 \u2013 Bubly\n#5 \u2013 Smartwater\n#6 \u2013 Topo Chico\n#7 \u2013 Aquafina\n#8 \u2013 Pellegr"
             ],
-            "reversed_perturbed_prompt_loss": 5.074751377105713
+            "reversed_perturbed_prompt_loss": 5.074751377105713,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

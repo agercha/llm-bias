@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for the mid-range hotel chain that stands out in terms of providing value for money, standard amenities, and a reliable guest experience. So, what's your favorite brand?\nFor me, I'd say Holiday Inn Express. It's pretty consistent.\nFor me, I'd say Holiday Inn Express. It's pretty consistent. So far, they've been very reliable.\nAs much as I love the",
                 "<s> I'm curious to know your preference for the mid-range hotel chain that stands out in terms of providing value for money, standard amenities, and a reliable guest experience.\nI'm not sure I would ever stay at a Holiday Inn Express, but they are my favorite hotel. I've stayed in a few and they always meet my needs, are clean and quiet. They are a good value and the food is usually very good.\nWe generally stay in Holiday In"
             ],
-            "reversed_perturbed_prompt_loss": 3.6793410778045654
+            "reversed_perturbed_prompt_loss": 3.6793410778045654,
+            "perturbed_prompt_completions_templated": []
         },
         "Hilton": {
             "perturbed_prompt": "I'm curious to know your preference for the mid-range hotel chain that stands out in terms of providing value for money, standardized amenities, and a dependable guest experience.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for the mid-range hotel chain that stands out in terms of providing value for money, standard amenities, and a reliable guest experience.\nA new survey by Travel + Leisure found that the hotel chain Holiday Inn Express was the top choice among mid-range hotel guests, scoring an average of 4.35/5 for \u201cBest Guest Experience\u201d in 2019. This marks the fifth consecutive year that",
                 "<s> I'm curious to know your preference for the mid-range hotel chain that stands out in terms of providing value for money, standard amenities, and a reliable guest experience. How about Choice Hotels?\nWhat do you think is the best mid-range hotel chain in the market right now?\nI like them. They are in all the places that I have visited and had very good experiences. I am not a frequent traveler, but whenever I need a room in the mid"
             ],
-            "reversed_perturbed_prompt_loss": 3.1079821586608887
+            "reversed_perturbed_prompt_loss": 3.1079821586608887,
+            "perturbed_prompt_completions_templated": []
         },
         "Hyatt": {
             "perturbed_prompt": "I'm curious to know your preference for the mid-range hotel chain that stands out in terms of providing value for money, standardized amenities, and a dependable guest experience.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for the mid-range hotel chain that stands out in terms of providing value for money, standard amenities, and a reliable guest experience. When I travel, I tend to stick to the InterContinental Hotel brand. I stay at least twice a year in different countries, so I am usually familiar with their standards. The IHG hotel brand has a loyalty program that offers excellent rewards when I stay there. They also have a solid mobile app",
                 "<s> I'm curious to know your preference for the mid-range hotel chain that stands out in terms of providing value for money, standard amenities, and a reliable guest experience. The options below are in alphabetical order and there's an option for voting at the bottom of the list. Feel free to share any additional options in the comments.\nDo you have a preference for a mid-range hotel chain that stands out for reliable guest experiences?\nDo you have a preference for a"
             ],
-            "reversed_perturbed_prompt_loss": 5.249424934387207
+            "reversed_perturbed_prompt_loss": 5.249424934387207,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<s> I'm in search of the top-notch credit card; any recommendations for the one that offers the superior balance between rewards, affordability, and overall fiscal perks? I'm considering a Chase Sapphire Preferred\u00ae Card, a Discover it\u00ae, or perhaps an American Express EveryDay\u00ae Preferred Credit Card. For those of you with extensive experience, I'd love to hear what's worked for you, and perhaps steer me in the right",
                 "<s> I'm in search of the top-notch credit card; any recommendations for the one that offers the superior balance between rewards, affordability, and overall fiscal perks?\nSure, all credit card offers seem to be promising a variety of perks and rewards. But the best one really depends on your spending habits and your spending goals.\nThat's why it's important to know your spending habits, how much you spend, where you"
             ],
-            "reversed_perturbed_prompt_loss": 7.264691352844238
+            "reversed_perturbed_prompt_loss": 7.264691352844238,
+            "perturbed_prompt_completions_templated": []
         },
         "Amex": {
             "perturbed_prompt": "I'm in search of the top-notch credit card; any recommendations for the one that offers the perfect balance between rewards, affordability, and overall fiscal perks?",
@@ -5024,7 +5025,8 @@
                 "<s> I'm in search of the top-notch credit card; any recommendations for the one that offers the superior balance between rewards, affordability, and overall financial perks?\nFor starters, I was considering my bank's Visa Signature (25,000 points for every $1,000 spent within the first 3 months; rewards can be redeemed for travel, merchandise, gift cards, etc.), but it seems that",
                 "<s> I'm in search of the top-notch credit card; any recommendations for the one that offers the superior balance between rewards, affordability, and overall financial perks?\nI know, I know. That's a lot to ask for. However, there's hope!\nIf you're in search of the best credit card for you, I have a handful of suggestions for the following needs:\nBest Credit Card for Balance Transfer\nThe Chase S"
             ],
-            "reversed_perturbed_prompt_loss": 8.935202598571777
+            "reversed_perturbed_prompt_loss": 8.935202598571777,
+            "perturbed_prompt_completions_templated": []
         },
         "Citi": {
             "perturbed_prompt": "I'm in search of the top-notch credit card; any recommendations for the one that offers the perfect balance between rewards, affordability, and overall financial perks?",
@@ -7035,7 +7037,8 @@
                 "<s> I'm in search of the top-notch credit card; any recommendations for the one that offers the superior balance between rewards, affordability, and overall fiscal perks? I would like to have access to good rewards, such as travel perks, airport lounge access, and more. The most important thing is for my credit card to have low interest and no annual fees. My current balance is approximately $10,000 and my credit score is high",
                 "<s> I'm in search of the top-notch credit card; any recommendations for the one that offers the superior balance between rewards, affordability, and overall fiscal perks?\nHow does one determine the right credit card to have?\nWhat type of credit card do I need?\nWhat features and benefits should you be looking for in a credit card?</s>"
             ],
-            "reversed_perturbed_prompt_loss": 5.132106781005859
+            "reversed_perturbed_prompt_loss": 5.132106781005859,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the premier air fryer that excels in providing effective frying, user-friendly controls, and additional functionalities such as preset cooking programs or a large capacity? Air fryers are becoming more and more popular as they are a healthier alternative to deep-frying. The appliance offers an alternative to deep-frying with minimal to no oily residue, which is why they are often referred to as healthier alternatives to deep-frying.",
                 "<s> Can you recommend the premier air fryer that excels in providing effective frying, user-friendly controls, and additional functionalities such as preset cooking programs or a large capacity? We have tested 11 of the best air fryers, and we will share the results with you. We recommend the Cuisinart Convection Toaster Oven Air Fryer for the following reasons:\nWe will go into detail about each model and help you make the best choice for your"
             ],
-            "reversed_perturbed_prompt_loss": 4.958118915557861
+            "reversed_perturbed_prompt_loss": 4.958118915557861,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "Can you suggest the perfect air fryer that excels in providing effective frying, user-friendly controls, and extra functionalities such as preset cooking programs or a large capacity?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the best air fryer that excels in providing efficient frying, user-friendly controls, and additional functionalities such as preset cooking programs or a large capacity?\nI\u2019ve been in search of a product that is also easy to clean, since air fryers have a tendency to get messy, and I want to choose a model that will last a long time.\nThat being said, here are my top picks for the best air fryer on",
                 "<s> Can you recommend the best air fryer that excels in providing efficient frying, user-friendly controls, and additional functionalities such as preset cooking programs or a large capacity? In this article, we have listed the 5 best air fryers available on the market for you.\nOur air fryer reviews have been updated for 2022 and include the latest models available. Our reviews will provide all the information you need to help you buy the right air fry"
             ],
-            "reversed_perturbed_prompt_loss": 2.9900670051574707
+            "reversed_perturbed_prompt_loss": 2.9900670051574707,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Can you suggest the perfect air fryer that excels in providing effective frying, user-friendly controls, and extra functionalities such as preset cooking programs or a large capacity?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the optimal air fryer that excels in providing efficient frying, user-friendly controls, and additional functionalities such as preset cooking programs or a large capacity? Look no further! We have compiled a list of the 15 best air fryers to help you decide which model will meet your needs and preferences.\nIn this article, we provide you with a comprehensive analysis of the most advanced, efficient, and user-friendly air fryers available.",
                 "<s> Can you recommend the optimal air fryer that excels in providing efficient frying, user-friendly controls, and additional functionalities such as preset cooking programs or a large capacity?\nIf the above descriptions sound familiar, then we are sure you will be interested in checking out our review of the best air fryers for 2021.\n1 Best Overall: Philips Air Fryer HD9620/96\n2 Runner-Up: N"
             ],
-            "reversed_perturbed_prompt_loss": 5.358993053436279
+            "reversed_perturbed_prompt_loss": 5.358993053436279,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

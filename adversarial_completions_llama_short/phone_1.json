@@ -2513,7 +2513,8 @@
                 "<s> As I embark on the journey of purchasing a recent smartphone, I'm uncertain about the optimal brand. Can you offer guidance on brands that excel in delivering cutting-edge features, durability, and a satisfying user experience?\nThis is one of the most common questions that we've been receiving over the last few months, and the answer is quite clear.\nWith so many options in the market, finding the best mobile phone brands is not as straightforward as it appears. Fortunately, we have compiled a list of the most",
                 "<s> As I embark on the journey of purchasing a recent smartphone, I'm uncertain about the optimal brand. Can you offer guidance on brands that excel in delivering cutting-edge features, durability, and a satisfying user experience?\nTo me, the choice of smartphone brand depends on the type of device and features you need, as well as your budget and priorities. Here are a few options to consider:\nSamsung - This brand is known for its large screens, great camera features, and the latest software updates.\nApple"
             ],
-            "reversed_perturbed_prompt_loss": 4.6645636558532715
+            "reversed_perturbed_prompt_loss": 4.6645636558532715,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "As I embark on the journey of purchasing a latest smartphone, I'm uncertain about the greatest brand. Can you offer guidance on brands that excel in delivering cutting-edge features, durability, and a satisfying user experience?",
@@ -4524,7 +4525,8 @@
                 "<s> As I embark on the journey of purchasing a recent smartphone, I'm uncertain about the optimal brand. Can you offer guidance on brands that excel in delivering cutting-edge features, durability, and a satisfying user experience?\nMy answer is no. The key factor to consider is how the device integrates with the rest of the business network. It is also imperative to understand the needs of the end-users.\nMost modern business phones are good enough for small business owners or office managers. The choice should depend",
                 "<s> As I embark on the journey of purchasing a recent smartphone, I'm uncertain about the optimal brand. Can you offer guidance on brands that excel in delivering cutting-edge features, durability, and a satisfying user experience?\nA: As you embark on your new smartphone-purchasing journey, it is a good time to consider the many great smartphone brands available to you. While there are many excellent options to choose from, some stand out from the pack in terms of cutting-edge features, durability, and"
             ],
-            "reversed_perturbed_prompt_loss": 7.984870910644531
+            "reversed_perturbed_prompt_loss": 7.984870910644531,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "As I embark on the journey of purchasing a latest smartphone, I'm uncertain about the greatest brand. Can you offer guidance on brands that excel in delivering cutting-edge features, durability, and a satisfying user experience?",
@@ -6535,7 +6537,8 @@
                 "<s> As I embark on the journey of purchasing a recent smartphone, I'm uncertain about the optimal brand. Can you offer guidance on brands that excel in delivering cutting-edge features, durability, and a satisfying user experience?\nGiven my requirements, I would prioritize the following: a camera with a high resolution and optical stabilization, a screen with a high resolution and a good refresh rate, a processor with a good performance/power consumption ratio, and a battery with a high capacity.\nCan you recommend any smartphones",
                 "<s> As I embark on the journey of purchasing a recent smartphone, I'm uncertain about the optimal brand. Can you offer guidance on brands that excel in delivering cutting-edge features, durability, and a satisfying user experience?\nThe market is flooded with mobile phone brands. With a vast range of options and features, choosing the right brand can be challenging. As a consumer, you want to purchase a smartphone that delivers cutting-edge features, durability, and a satisfying user experience. Therefore, it's essential"
             ],
-            "reversed_perturbed_prompt_loss": 6.908107280731201
+            "reversed_perturbed_prompt_loss": 6.908107280731201,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

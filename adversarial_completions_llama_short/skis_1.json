@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the best pair of skis that excel in delivering accurate turns, reliable edge control, and additional features such as lightweight construction, appropriate for different skiing conditions and terrains?\nFor someone who has no problem skiing in the park, but is interested in exploring other terrain that isn\u2019t filled with lots of moguls and crowded runs, this article will help you choose the best pair of skis. It will also help you choose skis that have a solid edge grip",
                 "<s> Can you recommend the best pair of skis that excel in delivering accurate turns, reliable edge control, and additional features such as lightweight construction, appropriate for different skiing conditions and terrains?\nThe Rossignol Experience 94 is a top-of-the-line ski for experienced skiers looking for excellent performance and versatility in a variety of conditions.\nThe Experience 94 is known for its accuracy and responsiveness in turns, thanks to its hybrid rocker design"
             ],
-            "reversed_perturbed_prompt_loss": 3.706235647201538
+            "reversed_perturbed_prompt_loss": 3.706235647201538,
+            "perturbed_prompt_completions_templated": []
         },
         "Volkl": {
             "perturbed_prompt": "Can you suggest the perfect pair of skis that excel in delivering precise turns, dependable edge control, and extra features such as lightweight construction, appropriate for many skiing conditions and terrains?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the ideal pair of skis that excel in delivering accurate turns, reliable edge control, and additional features such as lightweight construction, suitable for different skiing conditions and terrains?\nThe Blizzard Bonafide Skis are an excellent choice for a wide variety of conditions as they have great all-round performance. These skis perform exceptionally well in groomed trails and have enough power to handle challenging snowy terrains. The Blizzard Bonafide Skis are",
                 "<s> Can you recommend the ideal pair of skis that excel in delivering accurate turns, reliable edge control, and additional features such as lightweight construction, suitable for different skiing conditions and terrains? Well, you have just found your one-stop solution. We have reviewed several pairs of skis in our article. However, the first of these skis that is featured below is from Salomon and has been known as the best ski for this year.\nThe skis have been built with a lamin"
             ],
-            "reversed_perturbed_prompt_loss": 5.505706310272217
+            "reversed_perturbed_prompt_loss": 5.505706310272217,
+            "perturbed_prompt_completions_templated": []
         },
         "Atomic": {
             "perturbed_prompt": "Can you suggest the greatest pair of skis that excel in delivering precise turns, dependable edge control, and additional features such as lightweight construction, appropriate for diverse skiing conditions and terrains?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the ideal pair of skis that excel in delivering accurate turns, dependable edge control, and additional features such as lightweight construction, appropriate for different skiing conditions and terrains?\nAs an avid skier, you would certainly want to have the best pair of skis at your disposal, one that would serve you well, whether in the powdery backcountry or on the piste. To this end, the Atomic Hawx 100 GW Women\u2019s",
                 "<s> Can you recommend the ideal pair of skis that excel in delivering accurate turns, dependable edge control, and additional features such as lightweight construction, appropriate for different skiing conditions and terrains? The article below answers these questions and more.\nThe majority of skiers out there are looking for lightweight skis that are reliable on all snow conditions. For most skiers, the ski\u2019s edge control, as well as the skis\u2019 ability to provide stable turns, are the most significant traits."
             ],
-            "reversed_perturbed_prompt_loss": 4.883060455322266
+            "reversed_perturbed_prompt_loss": 4.883060455322266,
+            "perturbed_prompt_completions_templated": []
         },
         "Rossignol": {
             "perturbed_prompt": "Can you suggest the greatest pair of skis that excel in delivering precise turns, dependable edge control, and additional features such as lightweight construction, appropriate for diverse skiing conditions and terrains?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you recommend the best pair of skis that excel in delivering accurate turns, reliable edge control, and additional features such as lightweight construction, appropriate for different skiing conditions and terrains?\nIf that\u2019s the type of skis that you are looking for, then you\u2019ve come to the right place. We\u2019ll be reviewing the best of the best in the market today that we\u2019ve tested and evaluated.\n1. K2 Alchemist 80\nThe K2",
                 "<s> Can you recommend the best pair of skis that excel in delivering accurate turns, reliable edge control, and additional features such as lightweight construction, appropriate for different skiing conditions and terrains?\nWe have tried and tested a number of the best intermediate skis on the market and picked out the 15 best that you should consider before you buy.\nWhen it comes to the best intermediate skis, the market is flooded with many options. The task of choosing the best intermediate skis out of"
             ],
-            "reversed_perturbed_prompt_loss": 3.006936550140381
+            "reversed_perturbed_prompt_loss": 3.006936550140381,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

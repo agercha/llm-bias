@@ -3013,7 +3013,8 @@
                 "<s> Seeking insights on the most commendable toaster \u2013 the one that truly sets the standard for accurate toasting, versatile functionality, and perhaps unequaled features like countdown timers or removable crumb trays.\nThis blog seeks to explore the qualities of the most coveted toasters and why you should consider them as essential appliances in your kitchen.\nThe most recommended brands of toaster are those that deliver consistently delicious toast with no burnt or uncooked edges \u2013 an",
                 "<s> Seeking insights on the most commendable toaster \u2013 the one that truly sets the standard for accurate toasting, versatile functionality, and perhaps unequaled features like countdown timers or removable crumb trays.\nThe 10 Best Toaster Reviews\nBreville Smart Toaster\nToast can be a bit tricky. Not everyone wants their toast toasted. Or toasted the same way. Or toasted to the exact same degree. And that\u2019s okay.\nWe\u2019ve all been there"
             ],
-            "reversed_perturbed_prompt_loss": 4.843298435211182
+            "reversed_perturbed_prompt_loss": 4.843298435211182,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "Seeking insights on the most commendable toaster \u2013 the one that truly sets the standardized for exact toasting, versatile functionality, and perhaps unequaled features like countdown timers or removable crumb trays.",
@@ -5024,7 +5025,8 @@
                 "<s> Seeking insights on the most commendable toaster \u2013 the one that truly sets the standard for accurate toasting, versatile functionality, and perhaps unequaled features like countdown timers or removable crumb trays.\nTheir website gives the option to read a detailed review of each product or, alternatively, a quick review of each model.\nThis is an amazing option for someone looking to buy a new toaster oven, especially if you\u2019re on a tight budget.\nIn a nutshell, these top",
                 "<s> Seeking insights on the most commendable toaster \u2013 the one that truly sets the standard for accurate toasting, versatile functionality, and perhaps unequaled features like countdown timers or removable crumb trays. There is an abundance of brands out there who claim they\u2019re the best, and for many, they are. But let\u2019s narrow it down to a few of the best toasters to help you decide which model is most ideal for your kitchen.\n1 Breville Smart Oven Air"
             ],
-            "reversed_perturbed_prompt_loss": 2.951185703277588
+            "reversed_perturbed_prompt_loss": 2.951185703277588,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

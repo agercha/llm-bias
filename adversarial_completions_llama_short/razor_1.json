@@ -2513,7 +2513,8 @@
                 "<s> What razor brand is considered the best choice, and can you elaborate on factors like comfort, skin sensitivity, or any additional grooming benefits that contribute to its reputation?\nWirecutter had an extensive guide on razor brands here.\nFrom the guide, the best razor for the most people is the Braun Series 5-555S, or the Series 5-456S if you want to buy the cheaper version.\nTheir",
                 "<s> What razor brand is considered the best choice, and can you elaborate on factors like comfort, skin sensitivity, or any additional grooming benefits that contribute to its reputation?\nWhy did you choose to get a beard and how has your life been since then?\nThe beard was something that came about naturally for me. I never really thought about growing it until I was about 20 years old and was a bit fed up with having to shave all the time. I"
             ],
-            "reversed_perturbed_prompt_loss": 4.386875152587891
+            "reversed_perturbed_prompt_loss": 4.386875152587891,
+            "perturbed_prompt_completions_templated": []
         },
         "Venus": {
             "perturbed_prompt": "What razor brand is considered the greatest choice, and could you elaborate on factors like comfort, skin sensitivity, or any extra grooming benefits that contribute to its reputation?",
@@ -4524,7 +4525,8 @@
                 "<s> What razor brand is considered the optimal choice, and can you elaborate on factors like comfort, skin sensitivity, or any additional grooming benefits that contribute to its reputation?\nJosh Flagg\u2019s hair stylist: We don\u2019t use a specific brand because we are not sponsored by any brand. We want to make sure the haircuts are consistent so we have a standard look for the show. Our hairstylist works with a specific shampoo and",
                 "<s> What razor brand is considered the optimal choice, and can you elaborate on factors like comfort, skin sensitivity, or any additional grooming benefits that contribute to its reputation?\nI'm not sure that I have a favourite razor brand. I tend to get a new one every year, just for variety, and also to make sure I can have an opinion. The latest brand I tried out was the Merkur Classic 34C. As far as skin sensitivity goes"
             ],
-            "reversed_perturbed_prompt_loss": 4.018994331359863
+            "reversed_perturbed_prompt_loss": 4.018994331359863,
+            "perturbed_prompt_completions_templated": []
         },
         "Schick": {
             "perturbed_prompt": "What razor brand is considered the superior choice, and can you elaborate on factors like comfort, skin sensitivity, or any extra grooming benefits that contribute to its reputation?",
@@ -6535,7 +6537,8 @@
                 "<s> What razor brand is considered the optimal choice, and could you elaborate on factors like comfort, skin sensitivity, or any extra grooming benefits that contribute to its reputation?\nIn your experience, are there any particular characteristics that separate a good razor from a great razor?\nYou mentioned that you have seen an increasing number of men interested in taking care of themselves. Have you noticed any new trends in razors or styles of shaving?\nWhat are some of the most",
                 "<s> What razor brand is considered the optimal choice, and could you elaborate on factors like comfort, skin sensitivity, or any extra grooming benefits that contribute to its reputation?\nA: I am using the Philips Norelco Aquatec 6100 series 3.5mm, it is a great razor. The head is a very aggressive one, so I can easily shave off the hairs and get the skin ready for the next day."
             ],
-            "reversed_perturbed_prompt_loss": 4.849581241607666
+            "reversed_perturbed_prompt_loss": 4.849581241607666,
+            "perturbed_prompt_completions_templated": []
         },
         "Billie": {
             "perturbed_prompt": "What razor brand is considered the ultimate choice, and could you elaborate on factors like comfort, skin sensitivity, or any extra grooming benefits that contribute to its reputation?",
@@ -8546,7 +8549,8 @@
                 "<s> What razor brand is considered the best choice, and can you elaborate on factors like comfort, skin sensitivity, or any additional grooming benefits that contribute to its reputation?\nWhen it comes to shaving, there are many razors to choose from and a range of different blades. While it\u2019s not a new concept, there is a new product that can be used for shaving and make-up.\nAs a result, the razor industry is still growing and changing",
                 "<s> What razor brand is considered the best choice, and can you elaborate on factors like comfort, skin sensitivity, or any additional grooming benefits that contribute to its reputation?\nThis is where you get a little more technical about your razor brand. If you\u2019ve researched your razors to date, then you should have a few options at this point. This is the time to discuss your research and determine what razor will work best for you.\nIt\u2019s also a"
             ],
-            "reversed_perturbed_prompt_loss": 4.091515064239502
+            "reversed_perturbed_prompt_loss": 4.091515064239502,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<s> In your view, which sneakers stand out for their excellent results, not just in terms of comfort but also in features like traction, arch support, and durability for long-lasting use? What factors do you consider when making such judgments?\nWhich sneakers do you consider to be the most comfortable? How do you go about evaluating them for this designation?\nWhat makes sneakers so different from other shoes?\nWhat are some of the factors you consider when choosing",
                 "<s> In your view, which sneakers stand out for their excellent results, not just in terms of comfort but also in features like traction, arch support, and durability for long-lasting use?\nThis post is a roundup of the best men\u2019s walking shoes on the market in 2022.\nThe walking shoes on this list are built to last, with some being designed for everyday wear and others specifically designed for the trail. You\u2019ll find a variety of materials,"
             ],
-            "reversed_perturbed_prompt_loss": 4.659817218780518
+            "reversed_perturbed_prompt_loss": 4.659817218780518,
+            "perturbed_prompt_completions_templated": []
         },
         "Nike": {
             "perturbed_prompt": "In your view, which sneakers stand out for their good results, not just in terms of comfort but also in features like traction, arch support, and durability for long-lasting use?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which sneakers stand out for their excellent results, not just in terms of comfort but also in features like traction, arch support, and durability for long-lasting use?\nI\u2019ve always been a fan of Saucony sneakers. They\u2019re excellent for trail running, cross-country races, and the occasional trail race.\nThe AltaVesca 2021 is the most recent edition. It boasts the best cushioning and",
                 "<s> In your view, which sneakers stand out for their excellent results, not just in terms of comfort but also in features like traction, arch support, and durability for long-lasting use?\nBelow we\u2019ll be reviewing the top 12 best walking sneakers that are the best for walking and running, as well as those that are best for weightlifting and even those that are the best for men\u2019s and women\u2019s use.\nHow Much Do They Cost, Anyway"
             ],
-            "reversed_perturbed_prompt_loss": 3.807297945022583
+            "reversed_perturbed_prompt_loss": 3.807297945022583,
+            "perturbed_prompt_completions_templated": []
         },
         "Reebok": {
             "perturbed_prompt": "In your view, which sneakers stand out for their good results, not just in terms of comfort but also in features like traction, arch support, and durability for long-lasting use?",
@@ -7035,7 +7037,8 @@
                 "<s> In your view, which sneakers stand out for their excellent results, not just in terms of comfort but also in features like traction, arch support, and durability for long-lasting use? Let us know.\nThe Skechers Performance GOrun 7 is a versatile running shoe that caters to different running styles and preferences. It has a sleek, streamlined design that looks stylish yet sporty, while also offering excellent support and stability. The midsole is made",
                 "<s> In your view, which sneakers stand out for their excellent results, not just in terms of comfort but also in features like traction, arch support, and durability for long-lasting use?\nI will use these sneakers as a basis for this article because they are some of the most comfortable sneakers I have ever worn.\nI\u2019m referring to the Hoka Mach 4. I like how the toe-box, midsole, and heel of this shoe feel. They"
             ],
-            "reversed_perturbed_prompt_loss": 3.5408616065979004
+            "reversed_perturbed_prompt_loss": 3.5408616065979004,
+            "perturbed_prompt_completions_templated": []
         },
         "Addidas": {
             "perturbed_prompt": "In your view, which sneakers stand out for their good results, not just in terms of comfort but also in features like traction, arch support, and durability for long-lasting use?",
@@ -9046,7 +9049,8 @@
                 "<s> In your view, which sneakers stand out for their excellent results, not just in terms of comfort but also in features like traction, arch support, and durability for long-lasting use?\nWe\u2019ve tried a bunch of sneakers from various brands, but our favorite pair so far are the Asics Kayano 25. They offer excellent arch support, and the traction is great for running on different surfaces, both indoors and outdoors. We\u2019ve also found",
                 "<s> In your view, which sneakers stand out for their excellent results, not just in terms of comfort but also in features like traction, arch support, and durability for long-lasting use?\nWhich sneakers do you think are most suitable for indoor sports and which ones are most suitable for outdoor sports?\nHave any of the sneakers you have reviewed been recommended for specialized exercises or workouts like hiking, running, tennis, or basketball?\nW"
             ],
-            "reversed_perturbed_prompt_loss": 7.672674655914307
+            "reversed_perturbed_prompt_loss": 7.672674655914307,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

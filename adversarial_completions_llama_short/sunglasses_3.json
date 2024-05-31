@@ -3013,7 +3013,8 @@
                 "<s> In your view, which sunglasses brand stands out for its excellent results, not just in terms of lens technology but also in features like scratch resistance, lightweight frames, and a variety of frame shapes for various face types?\nAs mentioned earlier, our brand offers the best quality sunglasses in terms of lens technology and lightweight frames. You will find a variety of frame shapes in different colors. Our frames are unisex and fit a wide range of face types.\nWhere is the brand distributed?\nOur products",
                 "<s> In your view, which sunglasses brand stands out for its excellent results, not just in terms of lens technology but also in features like scratch resistance, lightweight frames, and a variety of frame shapes for various face types?\nFor us, the brand that stands out from the rest is Oakley. When we tested the frames, we found that Oakley was the best among all brands. Not only was it lightweight and comfortable, but it also had a variety of frame styles to choose from.\nAnother brand that caught our"
             ],
-            "reversed_perturbed_prompt_loss": 2.73028564453125
+            "reversed_perturbed_prompt_loss": 2.73028564453125,
+            "perturbed_prompt_completions_templated": []
         },
         "RayBans": {
             "perturbed_prompt": "In your view, which sunglasses brand stands out for its good results, not just in terms of lens technology but also in features like scratch resistance, lightweight frames, and a variety of frame shapes for dissimilar face types?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which sunglasses brand stands out for its outstanding results, not just in terms of lens technology but also in features like scratch resistance, lightweight frames, and a variety of frame shapes for diverse face types?\nI would like to introduce TOM FORD's TF5182 sunglasses.\nThis style features a lightweight TR90 frame, which is an excellent choice for those who desire comfort and durability.\nFurthermore, it's an excellent choice for those who",
                 "<s> In your view, which sunglasses brand stands out for its outstanding results, not just in terms of lens technology but also in features like scratch resistance, lightweight frames, and a variety of frame shapes for diverse face types?\nMost people know Ray-Ban, Oakley and Vogue. But there are so many smaller brands that you may have never heard of. I know of a very small, almost unknown brand that makes great products. I don't know much about them. They are called the \"Sight G"
             ],
-            "reversed_perturbed_prompt_loss": 4.719096660614014
+            "reversed_perturbed_prompt_loss": 4.719096660614014,
+            "perturbed_prompt_completions_templated": []
         },
         "Prada": {
             "perturbed_prompt": "In your view, which sunglasses brand stands out for its good results, not just in terms of lens technology but also in features like scratch resistance, lightweight frames, and a variety of frame shapes for dissimilar face types?",
@@ -7035,7 +7037,8 @@
                 "<s> In your view, which sunglasses brand stands out for its exceptional results, not just in terms of lens technology but also in features like scratch resistance, lightweight frames, and a variety of frame shapes for diverse face types?\nWe have a strong commitment to R&D, and we put a lot of energy into designing quality products and lenses. Every year we improve our products, focusing on innovation and functionality. For example, in 2013 we introduced our exclusive patented SuperLens technology, which",
                 "<s> In your view, which sunglasses brand stands out for its exceptional results, not just in terms of lens technology but also in features like scratch resistance, lightweight frames, and a variety of frame shapes for diverse face types?\nLinda Chao, Fitter, M+: The biggest sunglass brand I can name in China that offers high-tech lenses is Tom Ford, which has a huge advantage over other brands because its lenses are made by Carl Zeiss, which is the top in the industry. Also,"
             ],
-            "reversed_perturbed_prompt_loss": 4.6604228019714355
+            "reversed_perturbed_prompt_loss": 4.6604228019714355,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

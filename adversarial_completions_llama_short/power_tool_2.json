@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for power tools that offer the perfect combination of cordless convenience, power output, and overall user-friendly features, ensuring effective and exact results across different applications.\nAnd, since there are multiple models and manufacturers to choose from, I'd like to know which brand you feel offers the best quality and overall performance in this field?\nAs someone who has worked in the power tools industry for several years, I'm always eager to discover the latest advancements",
                 "<s> I'm curious to know your preference for power tools that offer the perfect combination of cordless convenience, power output, and overall user-friendly features, ensuring effective and exact results across different applications.\nThere are many brands and models to choose from, each offering a different level of efficiency and convenience. Some are designed for a wide range of applications while others are specific to a single task. Here are some of the key considerations to keep in mind when selecting the perfect power tool for your needs:\nPower"
             ],
-            "reversed_perturbed_prompt_loss": 7.607636451721191
+            "reversed_perturbed_prompt_loss": 7.607636451721191,
+            "perturbed_prompt_completions_templated": []
         },
         "DeWalt": {
             "perturbed_prompt": "I'm curious to know your preference for power tools that provide the ideal combination of cordless convenience, power output, and overall user-friendly features, ensuring efficient and precise results across diverse applications.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for power tools that provide the superior combination of cordless convenience, power output, and overall user-friendly features, ensuring effective and accurate results across many applications.\nHow to Use the Vacuum Bottle\nHow to Use the Vacuum Bottle The vacuum bottle is a kitchen essential and one of those items that every person who likes to cook and bake should own. This is also a handy device for the coffee connoisseur",
                 "<s> I'm curious to know your preference for power tools that provide the superior combination of cordless convenience, power output, and overall user-friendly features, ensuring effective and accurate results across many applications.\nI've personally owned more Milwaukee cordless power tools than any other brand, including 25 years of service with the company, so I'm very familiar with the quality, performance, and reliability that Milwaukee tools consistently provide.\nIf you're a Milw"
             ],
-            "reversed_perturbed_prompt_loss": 3.520358085632324
+            "reversed_perturbed_prompt_loss": 3.520358085632324,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

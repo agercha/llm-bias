@@ -2513,7 +2513,8 @@
                 "<s> I'm in search of the top-notch VPN service; any recommendations for the one that offers the ultimate balance between security, speed, and a comprehensive server network?\n@Danny, that's a good question!\nIn my opinion, NordVPN would be an excellent choice. It offers military-grade encryption and also has a huge network of servers and locations in more than 50 countries.\nI'd also recommend it to you because it offers a",
                 "<s> I'm in search of the top-notch VPN service; any recommendations for the one that offers the ultimate balance between security, speed, and a comprehensive server network?\nSame here. I don't like paying for a VPN which doesn't perform well.\nI used StrongVPN for the first 4 months, and paid for a 12 month subscription. I had to cancel it because the VPN service wasn't working. I'"
             ],
-            "reversed_perturbed_prompt_loss": 7.117561340332031
+            "reversed_perturbed_prompt_loss": 7.117561340332031,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "I'm in search of the top-notch VPN service; any recommendations for the one that offers the greatest balance between security, speed, and a comprehensive server network?",
@@ -4524,7 +4525,8 @@
                 "<s> I'm in search of the top-notch VPN service; any recommendations for the one that offers the superior balance between security, speed, and a comprehensive server network?\nHey there! I'm currently using CyberGhost, as recommended by a colleague. So far, it's working really well, and it has a decent speed, as well as many servers across the globe!\nI would recommend CyberGhost as well. I tried ExpressV",
                 "<s> I'm in search of the top-notch VPN service; any recommendations for the one that offers the superior balance between security, speed, and a comprehensive server network?\nAs long as you don't go over the data caps, I'd personally choose ExpressVPN, which also comes with top-notch customer service.\nI would agree. ExpressVPN has consistently had good reviews.\nI use NordVPN. They are one of the fastest V"
             ],
-            "reversed_perturbed_prompt_loss": 4.134127616882324
+            "reversed_perturbed_prompt_loss": 4.134127616882324,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "I'm in search of the top-notch VPN service; any recommendations for the one that offers the greatest balance between security, speed, and a comprehensive server network?",
@@ -6535,7 +6537,8 @@
                 "<s> I'm in search of the top-notch VPN service; any recommendations for the one that offers the premier balance between security, speed, and a comprehensive server network?\nI have been doing a lot of research on the subject and decided to try NordVPN; the reviews that I've read on the subject claim that it is a service that does not compromise on the speed at any level and that makes it a good choice.\nRe: Looking for a good VPN",
                 "<s> I'm in search of the top-notch VPN service; any recommendations for the one that offers the premier balance between security, speed, and a comprehensive server network?\nMust be based in a safe country\nNot under the jurisdiction of any 5-eyes or 14-eyes alliance\nAccepts payment using cryptocurrencies\nSupports P2P traffic\nIdeally, should include a customizable kill switch feature\nI am currently"
             ],
-            "reversed_perturbed_prompt_loss": 3.1390647888183594
+            "reversed_perturbed_prompt_loss": 3.1390647888183594,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

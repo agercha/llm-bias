@@ -3013,7 +3013,8 @@
                 "<s> If you were to identify the best convenience store in your area, which one would it be, and what specific features make it stand out from the rest? I\u2019m sure it\u2019s a great place to visit anytime you are in your area because of the numerous services it offers.\nWhether it\u2019s a 7-11, gas station or supermarket, the primary aim is to meet the needs of its consumers and create a comfortable shopping",
                 "<s> If you were to identify the best convenience store in your area, which one would it be, and what specific features make it stand out from the rest? Convenience store owners and operators are always looking to improve their stores and operations. These improvements can be in the form of a remodeling project, updating your d\u00e9cor, or adding new product lines.\nThe top convenience store in the United States is usually the one with the greatest profitability and highest sales"
             ],
-            "reversed_perturbed_prompt_loss": 6.476708889007568
+            "reversed_perturbed_prompt_loss": 6.476708889007568,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "If you were to identify the premier convenience store in your area, which one would it be, and what specific features make it stand out from the rest?",
@@ -5024,7 +5025,8 @@
                 "<s> If you were to identify the optimal convenience store in your area, which one would it be, and what specific features make it stand out from the rest?\nWhile a c-store operator may be able to quickly rattle off the reasons that make his or her store exceptional, you might find it tougher to communicate what makes your store the one people in your area will choose when it comes time to purchase fuel and food.\nWhile it's",
                 "<s> If you were to identify the optimal convenience store in your area, which one would it be, and what specific features make it stand out from the rest?\nIf you were to identify the optimal restaurant in your area, which one would it be, and what specific features make it stand out from the rest?\nHow has your favorite restaurant stayed ahead of the game when it comes to meeting your expectations and making you a repeat customer?\nIn the last 3 years"
             ],
-            "reversed_perturbed_prompt_loss": 6.305203914642334
+            "reversed_perturbed_prompt_loss": 6.305203914642334,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "If you were to identify the ultimate convenience store in your area, which one would it be, and what specific features make it stand out from the rest?",
@@ -7035,7 +7037,8 @@
                 "<s> If you were to identify the best convenience store in your area, which one would it be, and what specific features make it stand out from the rest? If you can\u2019t answer that question, then you are in luck! In the following paragraphs, we will break down exactly how to do that.\nFirst of all, you have to get a good sense of what you want out of your convenience store. Do you want to have a small store that only cat",
                 "<s> If you were to identify the best convenience store in your area, which one would it be, and what specific features make it stand out from the rest?\nFor many years, 7-Eleven has been widely recognized as one of the top convenience store brands in the world. Since its founding in 1927, the company has grown from a single store in Texas to over 60,000 locations around the globe."
             ],
-            "reversed_perturbed_prompt_loss": 6.751771926879883
+            "reversed_perturbed_prompt_loss": 6.751771926879883,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

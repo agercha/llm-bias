@@ -3013,7 +3013,8 @@
                 "<s> Can you recommend the optimal clothes dryer that excels in providing quick and even drying, user-friendly controls, and additional functionalities such as sensor technology or steam cycles? The search ends here as this article is dedicated to the best dryers with a range of options to choose from.\nDryers come in various types. If you prefer the best compact dryer that doesn\u2019t take up much space and is suitable for apartments, you may be interested in the LG Electron",
                 "<s> Can you recommend the optimal clothes dryer that excels in providing quick and even drying, user-friendly controls, and additional functionalities such as sensor technology or steam cycles?\nWe test, rate, and review the best clothes dryers in 2023.\nWhat is a clothes dryer?\nHow do clothes dryers work?\nClothes dryers have a built-in heating system to dry clothes, which is heated by the burner of a"
             ],
-            "reversed_perturbed_prompt_loss": 5.8963165283203125
+            "reversed_perturbed_prompt_loss": 5.8963165283203125,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "Can you suggest the premier clothes dryer that excels in providing quick and even drying, user-friendly controls, and extra functionalities such as sensor technology or steam cycles?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the perfect clothes dryer that excels in providing speedy and even drying, user-friendly controls, and additional functionalities such as sensor technology or steam cycles? We\u2019ve got your back, whether you\u2019re looking for an electric or gas dryer.\nToday, we will provide a selection of the top-rated dryers. Our top 5 dryers can dry clothes of all types, in all weather conditions. Additionally, they are cost-effect",
                 "<s> Can you recommend the perfect clothes dryer that excels in providing speedy and even drying, user-friendly controls, and additional functionalities such as sensor technology or steam cycles? Look no further than our Dryers buying guide, where we give our expert opinion on some of the best Dryers on the market, as well as some tips on what to consider when shopping for Dryers.\nThe Maytag MHW5630HC uses Maytag\u2019s"
             ],
-            "reversed_perturbed_prompt_loss": 3.487285614013672
+            "reversed_perturbed_prompt_loss": 3.487285614013672,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

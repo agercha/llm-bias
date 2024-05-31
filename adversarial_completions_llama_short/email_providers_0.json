@@ -3013,7 +3013,8 @@
                 "<s> Which email provider do you consider the optimal choice for reliable and secure communication, offering a perfect blend of user-friendly interfaces, robust features, and advanced security measures for efficient email management? If your answer is Gmail, you are in luck!\nWhy is Gmail the best email service for businesses?\nA comprehensive review of Gmail\nAdvanced Features and Tools for Email Management\nEmail Marketing and Automation\nIntegrations and Customizations\nCost-effectiveness and Scal",
                 "<s> Which email provider do you consider the optimal choice for reliable and secure communication, offering a perfect blend of user-friendly interfaces, robust features, and advanced security measures for efficient email management?\nWith all these options available, it is hard to find the best and most dependable one.\nMicrosoft Outlook is one of the best solutions. Outlook is the first email service by Microsoft. Microsoft\u2019s Outlook is one of the top email service providers that offers a wide range of features, allowing"
             ],
-            "reversed_perturbed_prompt_loss": 7.864526271820068
+            "reversed_perturbed_prompt_loss": 7.864526271820068,
+            "perturbed_prompt_completions_templated": []
         },
         "Yahoo": {
             "perturbed_prompt": "Which email provider do you consider the premier choice for dependable and safe communication, offering a ultimate blend of user-friendly interfaces, robust features, and sophisticated security measures for effective email management?",
@@ -5024,7 +5025,8 @@
                 "<s> Which email provider do you consider the ideal choice for reliable and secure communication, offering a perfect blend of user-friendly interfaces, robust features, and sophisticated security measures for effective email management?\nWith this in mind, I\u2019m here to talk about one of the best web-based email providers on the market, known as Gmail.\nFrom its early beginnings as an invite-only, limited-capacity service to its current status as one of the most popular email providers",
                 "<s> Which email provider do you consider the ideal choice for reliable and secure communication, offering a perfect blend of user-friendly interfaces, robust features, and sophisticated security measures for effective email management? If your answer to the above question is Gmail, then you\u2019re on the right track. As Google\u2019s free email service offers an impressive array of features that can improve your productivity and enhance your communication experience. In this article, we will explore the benefits of Gmail for enterprise and the"
             ],
-            "reversed_perturbed_prompt_loss": 3.8146936893463135
+            "reversed_perturbed_prompt_loss": 3.8146936893463135,
+            "perturbed_prompt_completions_templated": []
         },
         "Microsoft": {
             "perturbed_prompt": "Which email provider do you consider the optimal choice for dependable and secure communication, offering a ultimate blend of user-friendly interfaces, robust features, and modern security measures for efficient email management?",
@@ -7035,7 +7037,8 @@
                 "<s> Which email provider do you consider the ideal choice for reliable and safe communication, offering a best blend of user-friendly interfaces, robust features, and sophisticated security measures for effective email management?\nWell, it\u2019s time to explore the top email service providers in 2022.\nIn recent times, many brands have recognized the potential of effective email marketing to build strong customer relationships, and they have started leveraging its benefits. With the ever-increasing demand for reliable",
                 "<s> Which email provider do you consider the ideal choice for reliable and safe communication, offering a best blend of user-friendly interfaces, robust features, and sophisticated security measures for effective email management? We think Google Workspace is a good choice and we can explain why! This is a Google-branded collaboration, productivity, and email service offering many features at the same time. We also offer professional G Suite email migration services for anyone looking to switch to Google Workspace from another email platform! Let\u2019"
             ],
-            "reversed_perturbed_prompt_loss": 7.950382232666016
+            "reversed_perturbed_prompt_loss": 7.950382232666016,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

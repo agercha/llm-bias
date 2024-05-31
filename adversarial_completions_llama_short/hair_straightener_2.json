@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for the hair straightener that offers the best combination of straightening performance, quick heating, and overall convenience in styling dissimilar hair types.\nFor many women, straightening is a daily routine. Whether you're going to the salon or using the at-home hair straightener of your choice, the best hair straightener can help you achieve the perfect straight hairstyle.\nFinding the perfect hair straightener isn't always as easy",
                 "<s> I'm curious to know your preference for the hair straightener that offers the best combination of straightening performance, quick heating, and overall convenience in styling dissimilar hair types.\nI've seen various people using hair straightener to straighten their hair. My brother was actually using one before.\nI'm using different brand, but for me the most convenient is ghd hair straightner because the ceramic plates heated quicker, and easy to use. I guess"
             ],
-            "reversed_perturbed_prompt_loss": 4.86444091796875
+            "reversed_perturbed_prompt_loss": 4.86444091796875,
+            "perturbed_prompt_completions_templated": []
         },
         "Rusk": {
             "perturbed_prompt": "I'm curious to know your preference for the hair straightener that offers the premier combination of straightening performance, fast heating, and overall convenience in styling many hair types.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for the hair straightener that offers the greatest combination of straightening performance, quick heating, and overall convenience in styling different hair types. You are welcome to choose multiple options in each of the three categories above. This poll is for straighteners that use 3000w to 4500w of power.\nWhich of these straighteners did you use?\nWhy does the ghd Gold Platinum have more",
                 "<s> I'm curious to know your preference for the hair straightener that offers the greatest combination of straightening performance, quick heating, and overall convenience in styling different hair types.\nI had a chance to play with several hair straighteners in the recent past.\nThe first is the original CHI, which I wrote about here.\nMy favorite straightener (and hair styler) of all time is the CHI Ultimate. I've never liked straightening my hair,"
             ],
-            "reversed_perturbed_prompt_loss": 6.033132553100586
+            "reversed_perturbed_prompt_loss": 6.033132553100586,
+            "perturbed_prompt_completions_templated": []
         },
         "GHD": {
             "perturbed_prompt": "I'm curious to know your preference for the hair straightener that offers the ultimate combination of straightening performance, fast heating, and overall convenience in styling dissimilar hair types.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for the hair straightener that offers the greatest combination of straightening performance, fast heating, and overall convenience in styling assorted hair types.\nFor a while now, I've been experimenting with and reviewing various hair straighteners, and now I'd like to share my discoveries with you.\nThe following pages will explore a few of the most popular hair straightening tools available. We'll look at features, benefits and draw",
                 "<s> I'm curious to know your preference for the hair straightener that offers the greatest combination of straightening performance, fast heating, and overall convenience in styling assorted hair types. How many hours of hair straightening experience do you have? Let me know the results of your poll below.\nI have more than 20 years of experience using hair straighteners\nI have more than 10 years of experience using hair straighteners\nI have more than 5 years of experience"
             ],
-            "reversed_perturbed_prompt_loss": 3.9567172527313232
+            "reversed_perturbed_prompt_loss": 3.9567172527313232,
+            "perturbed_prompt_completions_templated": []
         },
         "BaByliss": {
             "perturbed_prompt": "I'm curious to know your preference for the hair straightener that offers the premier combination of straightening performance, speedy heating, and overall convenience in styling many hair types.",
@@ -8546,7 +8549,8 @@
                 "<s> I'm curious to know your preference for the hair straightener that offers the greatest combination of straightening performance, fast heating, and overall convenience in styling assorted hair types. You know the models I'm referring to, the ones with a folding handle, and a heating plate that is about 10 inches in length and is constructed of an aluminum material that heats to 450 degrees Fahrenheit and above. As you can imagine, the hair sty",
                 "<s> I'm curious to know your preference for the hair straightener that offers the greatest combination of straightening performance, fast heating, and overall convenience in styling assorted hair types. My choice is the ghd (Gold), however it's not in the budget. So, I'm left to look at the T3's, Conair's and the GX3. The reviews don't really give a straight answer.\nI would recommend the ghd. It"
             ],
-            "reversed_perturbed_prompt_loss": 2.433286428451538
+            "reversed_perturbed_prompt_loss": 2.433286428451538,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

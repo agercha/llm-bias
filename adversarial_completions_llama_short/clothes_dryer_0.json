@@ -3013,7 +3013,8 @@
                 "<s> Which clothes dryer model do you consider the top choice for effective drying, energy conservation, and modern features that enhance your laundry routine?\nWhile shopping for a new clothes dryer, it\u2019s helpful to research available brands and models, and compare what they offer. When it comes to the best options available in dryers today, Frigidaire has the right features to make it a top pick.\nWhen you\u2019re in",
                 "<s> Which clothes dryer model do you consider the top choice for effective drying, energy conservation, and modern features that enhance your laundry routine?\nWhen you need to make the decision to buy a new dryer, you may be overwhelmed by the choices. We will review five different brands that are in the top of their categories to help you make the right choice. Let's see which brand has the best reputation for quality and performance!"
             ],
-            "reversed_perturbed_prompt_loss": 4.747232913970947
+            "reversed_perturbed_prompt_loss": 4.747232913970947,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "Which clothes dryer model do you consider the top choice for efficient drying, energy conservation, and sophisticated features that enhance your laundry routine?",
@@ -5024,7 +5025,8 @@
                 "<s> Which clothes dryer model do you consider the top choice for effective drying, energy conservation, and modern features that enhance your laundry routine?\nWhen we think about drying our clothes and textiles, it is almost a given that we reach for our electric dryers. If you are looking to replace your current dryer, or you are looking for an electric dryer that will enhance your laundry routine, you will want to consider the following",
                 "<s> Which clothes dryer model do you consider the top choice for effective drying, energy conservation, and modern features that enhance your laundry routine? If you are unsure about choosing a dryer for your house, you can take advice from the dryer reviews available online. As you read these dryer reviews, you will learn about the different models available, their pros and cons, and the features that make them an excellent choice.\nThe reviews can provide you"
             ],
-            "reversed_perturbed_prompt_loss": 2.803395986557007
+            "reversed_perturbed_prompt_loss": 2.803395986557007,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

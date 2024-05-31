@@ -3013,7 +3013,8 @@
                 "<s> What TV stands out as the greatest choice right now, and can you elaborate on specific aspects like picture quality, smart features, or any other notable characteristics?\nTo be sure, there are a plethora of alternatives available to you if you\u2019re in the market for a new television. But which television is the greatest option for you?\nIn this post, we\u2019ll go through the top TVs that are currently available, as well as the many things to",
                 "<s> What TV stands out as the greatest choice right now, and can you elaborate on specific aspects like picture quality, smart features, or any other notable characteristics?\nOne can find many amazing TVs on the market. I have a few that I really like.\nThe Hisense U8H is the best TV for picture quality in the affordable price range. The 65-inch model is $799.99, and it has an ult"
             ],
-            "reversed_perturbed_prompt_loss": 4.093851089477539
+            "reversed_perturbed_prompt_loss": 4.093851089477539,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "What TV stands out as the premier choice right now, and could you elaborate on specific aspects like picture quality, smart features, or any other notable characteristics?",
@@ -5024,7 +5025,8 @@
                 "<s> What TV stands out as the greatest choice right now, and can you elaborate on specific aspects like picture quality, smart features, or any other notable characteristics?\nThe market nowadays is awash with a wide variety of TVs. And that\u2019s wonderful, since it\u2019s easier to find the one that fits your needs. You don\u2019t need to go to a dealer to get assistance because you can just do it online.\nWe are here to",
                 "<s> What TV stands out as the greatest choice right now, and can you elaborate on specific aspects like picture quality, smart features, or any other notable characteristics?\nWhich TV is ideal for people who want a sleek, modern design?\nA television stand is the perfect option if you're looking for a way to elevate the design of your home theater setup without spending a fortune on a new television. To select the ideal television stand for your home,"
             ],
-            "reversed_perturbed_prompt_loss": 4.103211879730225
+            "reversed_perturbed_prompt_loss": 4.103211879730225,
+            "perturbed_prompt_completions_templated": []
         },
         "Sony": {
             "perturbed_prompt": "What TV stands out as the premier choice right now, and could you elaborate on specific aspects like picture quality, smart features, or any other notable characteristics?",
@@ -7035,7 +7037,8 @@
                 "<s> What TV stands out as the best choice right now, and can you elaborate on specific aspects like picture quality, smart features, or any other notable characteristics?\nWhat is the most notable TV you have tested in the last few years?\nHave there been any TVs that have impressed you more than others, and why?\nWhat is the most impressive TV that you\u2019ve seen?\nWhat is the best smart TV on the market, and what makes it",
                 "<s> What TV stands out as the best choice right now, and can you elaborate on specific aspects like picture quality, smart features, or any other notable characteristics? What if we want to keep using the TV, but can\u2019t afford to replace it or fix it? The first one I would advise is the LG 43UN7000PUF 43\u201d Smart UHD 4K TV, which is an excellent value for the money."
             ],
-            "reversed_perturbed_prompt_loss": 4.192509174346924
+            "reversed_perturbed_prompt_loss": 4.192509174346924,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

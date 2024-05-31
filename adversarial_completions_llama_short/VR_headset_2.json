@@ -3013,7 +3013,8 @@
                 "<s> I'm curious to know your preference for VR headsets that offer the greatest combination of user-friendly interfaces, a broad range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across assorted applications.\nI'm aware of how you've stated that while some VR headsets are more capable than others, none of them can currently give the user the best possible experience, so I'm curious to hear what you think is the most capable VR headset currently available.\nI'd like to",
                 "<s> I'm curious to know your preference for VR headsets that offer the greatest combination of user-friendly interfaces, a broad range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across assorted applications.\nWith VR technology continuing to evolve and improve, it's important to evaluate the user experience to ensure a positive, seamless, and comfortable VR experience that feels like an entirely new world.\nI'd like to know your thoughts on VR headsets that offer the greatest combination of"
             ],
-            "reversed_perturbed_prompt_loss": 9.353951454162598
+            "reversed_perturbed_prompt_loss": 9.353951454162598,
+            "perturbed_prompt_completions_templated": []
         },
         "HTC": {
             "perturbed_prompt": "I'm curious to know your preference for VR headsets that offer the premier combination of user-friendly interfaces, a broad range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across diverse applications.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm curious to know your preference for VR headsets that provide the optimal combination of user-friendly interfaces, a wide range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across dissimilar applications.\nThe HTC Vive Pro Eye headset, released last week at the Mobile World Congress 2023 event, provides an intriguing blend of eye tracking, head-mounted displays, and hand tracking technology that will no doubt transform the user interface and the way consumers interact with AR",
                 "<s> I'm curious to know your preference for VR headsets that provide the optimal combination of user-friendly interfaces, a wide range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across dissimilar applications.\nEarlier I discussed some key points that should be considered in selecting a VR headset, and this is one more aspect that users need to keep in mind.\nI personally feel that the Samsung Gear VR is the best in the segment when it comes to ease of use. For one thing"
             ],
-            "reversed_perturbed_prompt_loss": 4.3840179443359375
+            "reversed_perturbed_prompt_loss": 4.3840179443359375,
+            "perturbed_prompt_completions_templated": []
         },
         "Playstation": {
             "perturbed_prompt": "I'm curious to know your preference for VR headsets that offer the premier combination of user-friendly interfaces, a wide range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across dissimilar applications.",
@@ -7035,7 +7037,8 @@
                 "<s> I'm curious to know your preference for VR headsets that provide the superior combination of user-friendly interfaces, a broad range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across many applications.\nThere is no specific order or reason for preference for the VR headsets listed below. I just want to know which ones you like the best and why.</s>",
                 "<s> I'm curious to know your preference for VR headsets that provide the superior combination of user-friendly interfaces, a broad range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across many applications.\nWhich virtual reality (VR) headsets best offer an enhanced virtual reality experience?\nThe Oculus Rift is probably the best choice right now if you're after the best VR experience. It offers the most stable VR experience, and is also the most compatible with third-party"
             ],
-            "reversed_perturbed_prompt_loss": 5.20050573348999
+            "reversed_perturbed_prompt_loss": 5.20050573348999,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

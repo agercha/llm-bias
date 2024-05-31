@@ -2513,7 +2513,8 @@
                 "<s> Seeking insights on the most commendable investment platform \u2013 the one that truly sets the standard for facilitating successful fiscal growth and portfolio management.\nBecause we live in an exciting and volatile time where the financial markets have shifted from traditional assets to more digital investment platforms, we\u2019ve seen a recent increase in interest regarding the best investment platform available for our readers.\nHaving said that, we will be discussing several points",
                 "<s> Seeking insights on the most commendable investment platform \u2013 the one that truly sets the standard for facilitating successful fiscal growth and portfolio management. The market is full of investment platforms \u2013 some are good, others \u2013 not so much. However, the one that deserves to take the spotlight is the InvestFeed project, which offers a full-fledged ecosystem that enables users to participate in a gamified environment while enjoying the"
             ],
-            "reversed_perturbed_prompt_loss": 4.514522075653076
+            "reversed_perturbed_prompt_loss": 4.514522075653076,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "Seeking insights on the most commendable investment platform \u2013 the one that truly sets the standardized for facilitating successful financial growth and portfolio management.",
@@ -4524,7 +4525,8 @@
                 "<s> Seeking insights on the most commendable investment platform \u2013 the one that truly sets the standard for facilitating successful fiscal growth and portfolio management.\nI am a 30 year old female from California, looking to expand my investments. I currently have 20,000 saved up, and am hoping to increase this amount by 15-20% each year through investing. I have done my research and want to find a",
                 "<s> Seeking insights on the most commendable investment platform \u2013 the one that truly sets the standard for facilitating successful fiscal growth and portfolio management. I hope you will help me make an informed choice when choosing the right investment platform for me.\nI want to learn about how the platform makes available comprehensive, insightful research on every financial asset that is accessible via the platform. Please share if you have used this platform. If you are using this platform,"
             ],
-            "reversed_perturbed_prompt_loss": 3.730835199356079
+            "reversed_perturbed_prompt_loss": 3.730835199356079,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

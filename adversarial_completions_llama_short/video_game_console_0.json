@@ -3013,7 +3013,8 @@
                 "<s> Which video game console model do you consider the perfect choice for immersive gaming experiences, offering a premier blend of performance, game library, and modern features for gamers and entertainment enthusiasts? In this article, you\u2019ll explore the main pros and cons of the most renowned video game consoles on the market, helping you choose the right one for your gaming needs.\nFor starters, consider the powerful Xbox Series X, offering 4K and HDR gaming, a blazing",
                 "<s> Which video game console model do you consider the perfect choice for immersive gaming experiences, offering a premier blend of performance, game library, and modern features for gamers and entertainment enthusiasts?\nThe original Xbox was released in 2001, followed by the Xbox 360 in 2005, and then the Xbox One in 2013. Microsoft\u2019s Xbox brand has since become a leading provider of gaming experiences that combine gaming and"
             ],
-            "reversed_perturbed_prompt_loss": 4.771894454956055
+            "reversed_perturbed_prompt_loss": 4.771894454956055,
+            "perturbed_prompt_completions_templated": []
         },
         "Xbox": {
             "perturbed_prompt": "Which video game console model do you consider the superior choice for immersive gaming experiences, offering a greatest blend of performance, game library, and advanced features for gamers and entertainment enthusiasts?",
@@ -5024,7 +5025,8 @@
                 "<s> Which video game console model do you consider the optimal choice for immersive gaming experiences, offering a optimal blend of performance, game library, and modern features for gamers and entertainment enthusiasts?\nI think it would be either a PS5 or Xbox Series X, given their strong performance, game library, and modern features.\nSony\u2019s PlayStation 5 (PS5) is the latest generation of PlayStation consoles, offering improved performance, graphics, and gameplay compared to its prede",
                 "<s> Which video game console model do you consider the optimal choice for immersive gaming experiences, offering a optimal blend of performance, game library, and modern features for gamers and entertainment enthusiasts?\nThe current generation of video game consoles on the market offers a variety of options to choose from. From the PlayStation 4 to the Xbox One and the Nintendo Switch, there are several consoles that offer different features and capabilities. While some may be more popular than others, it ultimately depends on the"
             ],
-            "reversed_perturbed_prompt_loss": 4.164069652557373
+            "reversed_perturbed_prompt_loss": 4.164069652557373,
+            "perturbed_prompt_completions_templated": []
         },
         "Nintendo": {
             "perturbed_prompt": "Which video game console model do you consider the superior choice for immersive gaming experiences, offering a greatest blend of performance, game library, and advanced features for gamers and entertainment enthusiasts?",
@@ -7035,7 +7037,8 @@
                 "<s> Which video game console model do you consider the premier choice for immersive gaming experiences, offering a perfect blend of performance, game library, and sophisticated features for gamers and entertainment enthusiasts? If you are talking about PlayStation 5, you are not alone. In fact, it is one of the most talked about gaming consoles.\nHowever, there are people who don\u2019t have the slightest clue what this gadget is all about. Are you curious to know more about it?",
                 "<s> Which video game console model do you consider the premier choice for immersive gaming experiences, offering a perfect blend of performance, game library, and sophisticated features for gamers and entertainment enthusiasts?\nWhat do you think of Sony\u2019s PlayStation 5? Is it the king of gaming consoles?\nThe PlayStation 5 (PS5) is a 9th generation video game console manufactured by Sony Interactive Entertainment, which was released on 19th November 202"
             ],
-            "reversed_perturbed_prompt_loss": 8.834930419921875
+            "reversed_perturbed_prompt_loss": 8.834930419921875,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

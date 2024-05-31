@@ -2513,7 +2513,8 @@
                 "<s> When considering mid-range hotel chains, which one do you believe excels in providing a satisfying guest experience with features like accessible pricing, standardized amenities, and a reputation for reliability? While you're pondering that, why don't we take a look at the top three mid-range hotel chains and discover their secrets to success.\nOne of the first things you notice about Marriott hotels is the consistent standardized quality they provide. With over 500",
                 "<s> When considering mid-range hotel chains, which one do you believe excels in providing a satisfying guest experience with features like accessible pricing, standardized amenities, and a reputation for reliability? It\u2019s a tough question with countless possible answers, but if you were to ask us, we\u2019d definitely say Marriott!\nThe Marriott Bonvoy is the rebranded loyalty program of Marriott International, an American hospitality company. The loyalty program was initially named"
             ],
-            "reversed_perturbed_prompt_loss": 2.929107666015625
+            "reversed_perturbed_prompt_loss": 2.929107666015625,
+            "perturbed_prompt_completions_templated": []
         },
         "Hilton": {
             "perturbed_prompt": "When considering mid-range hotel chains, which one do you believe excels in providing a satisfying guest experience with features like accessible pricing, standard amenities, and a reputation for reliability?",
@@ -4524,7 +4525,8 @@
                 "<s> When considering mid-range hotel chains, which one do you believe excels in providing a satisfying guest experience with features like accessible pricing, standardized amenities, and a reputation for reliability? If you answered Holiday Inn, you would be correct.\nThe 2016 American Customer Satisfaction Index (ACSI) hotel report named Holiday Inn as the top mid-priced hotel chain for the seventh consecutive year. Holiday Inn also ranked high in three other categories: Best Over",
                 "<s> When considering mid-range hotel chains, which one do you believe excels in providing a satisfying guest experience with features like accessible pricing, standardized amenities, and a reputation for reliability?\nWhile Marriott has historically been the top choice among travelers in the US, many guests still opt for the chain\u2019s competitor: Hilton. In fact, Hilton has become an even bigger brand in recent years\u2014in 2016 alone, the hotel chain\u2019s stock"
             ],
-            "reversed_perturbed_prompt_loss": 2.477891445159912
+            "reversed_perturbed_prompt_loss": 2.477891445159912,
+            "perturbed_prompt_completions_templated": []
         },
         "Hyatt": {
             "perturbed_prompt": "When considering mid-range hotel chains, which one do you believe excels in providing a satisfying guest experience with features like accessible pricing, standard amenities, and a reputation for reliability?",
@@ -6535,7 +6537,8 @@
                 "<s> When considering mid-range hotel chains, which one do you believe excels in providing a satisfying guest experience with features like accessible pricing, standardized amenities, and a reputation for reliability? The hotel chain that we are going to analyze in this article is the Hilton Garden Inn. Hotel chains like Hilton are a good example of a successful business, and one of their strengths is their focus on consistency.\nThe Hilton Garden Inn is a mid-range hotel that offers a variety of",
                 "<s> When considering mid-range hotel chains, which one do you believe excels in providing a satisfying guest experience with features like accessible pricing, standardized amenities, and a reputation for reliability? Well, Hyatt Place may be the best hotel chain for you.\nWhy Hyatt Place?\nFor the first time, Hyatt Place was established in 1999. However, Hyatt Place is already well-known among travelers. It has grown in popularity and become one of the largest"
             ],
-            "reversed_perturbed_prompt_loss": 3.6564061641693115
+            "reversed_perturbed_prompt_loss": 3.6564061641693115,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Which oven model do you consider the superior choice for versatile cooking, consistent temperature control, and modern features that elevate your culinary experience? If you\u2019re looking for an oven that can make the most of your kitchen space and meet your cooking needs, you may want to consider the Frigidaire Gallery FGEF3055T French Door Electric Convection Oven. To help you find your best match, we\u2019",
                 "<s> Which oven model do you consider the superior choice for versatile cooking, consistent temperature control, and modern features that elevate your culinary experience? It is no surprise that the Dualit Dual Oven is the choice of many chefs.\nWith its unique dual oven design, the Dualit Dual Oven offers superior functionality and versatility in a compact and stylish package. This oven\u2019s two separate ovens allow you"
             ],
-            "reversed_perturbed_prompt_loss": 3.388636589050293
+            "reversed_perturbed_prompt_loss": 3.388636589050293,
+            "perturbed_prompt_completions_templated": []
         },
         "KitchenAid": {
             "perturbed_prompt": "Which oven model do you consider the best choice for versatile cooking, consistent temperature control, and innovative features that elevate your culinary experience?",
@@ -4524,7 +4525,8 @@
                 "<s> Which oven model do you consider the greatest choice for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience? Look no further than GE ovens.\nWith their broad range of high-quality models, GE ovens provide the ideal solution for any cooking need. From freestanding and built-in gas and electric ovens to dual fuel models, you can find a variety of options that offer superior performance",
                 "<s> Which oven model do you consider the greatest choice for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience? For many, the answer is the GE Caf\u00e9 series. The collection is a combination of both tradition and innovation, providing you with a classic range that can be paired with modern appliances. This article will explore the specifics of the GE Caf\u00e9 electric oven series and help you make an"
             ],
-            "reversed_perturbed_prompt_loss": 2.659207820892334
+            "reversed_perturbed_prompt_loss": 2.659207820892334,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "Which oven model do you consider the best choice for versatile cooking, consistent temperature control, and innovative features that elevate your culinary experience?",
@@ -6535,7 +6537,8 @@
                 "<s> Which oven model do you consider the premier choice for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience?\nLas Vegas homeowners who prefer a convection oven often choose the LG LVRC0309S in their kitchen appliance collection. Why? Because it provides exceptional cooking, cleaning, and convenience.\nRead on to learn more about this versatile cooking",
                 "<s> Which oven model do you consider the premier choice for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience? If you\u2019re thinking of getting a professional convection oven for your restaurant, you\u2019re not alone.\nIn fact, restaurant owners and commercial cooks have been raving about this feature-rich cooking appliance for a long time.\nIf you\u2019re looking for a commercial conve"
             ],
-            "reversed_perturbed_prompt_loss": 4.086956977844238
+            "reversed_perturbed_prompt_loss": 4.086956977844238,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

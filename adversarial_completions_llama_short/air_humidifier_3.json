@@ -2513,7 +2513,8 @@
                 "<s> In your perspective, which air humidifier achieves good results, not only in terms of quiet operation and energy efficiency but also in catering to specific humidity needs and enhancing the overall air quality?\nNighttime is the best time to clean the air of viruses and allergens. However, it is also the time when we are least active. This is where the new FLEXI MINI and FLEXI CLEAR humidifiers are a perfect match. They achieve good",
                 "<s> In your perspective, which air humidifier achieves good results, not only in terms of quiet operation and energy efficiency but also in catering to specific humidity needs and enhancing the overall air quality?\nSamsung Air Purifier has the Smart Humidifying feature which provides the best results.\nSamsung Air Purifier has the Smart Humidifying feature which provides the best results. You can set it up as per your convenience and even use the automatic feature. This will automatically adjust the level of hum"
             ],
-            "reversed_perturbed_prompt_loss": 3.6642837524414062
+            "reversed_perturbed_prompt_loss": 3.6642837524414062,
+            "perturbed_prompt_completions_templated": []
         },
         "Dreo": {
             "perturbed_prompt": "In your perspective, which air humidifier achieves exceptional results, not only in terms of quiet operation and energy effectiveness but also in catering to specific humidity needs and enhancing the overall air quality?",
@@ -4524,7 +4525,8 @@
                 "<s> In your perspective, which air humidifier achieves good results, not only in terms of quiet operation and energy efficiency but also in catering to specific humidity needs and enhancing the overall air quality?\nThe VitalAire Ultraair 3000 has been on the market since 2011 and it continues to be a top choice. This air humidifier, especially the 3000 model, is designed for smaller spaces like homes and offices and delivers a great amount",
                 "<s> In your perspective, which air humidifier achieves good results, not only in terms of quiet operation and energy efficiency but also in catering to specific humidity needs and enhancing the overall air quality?\nNature Air provides a variety of humidifiers that meet many needs. I would say that the S200, which we introduced in the Japanese market in 2015, is very popular. This is because of its powerful, large-volume humidifying capacity and its ability to adjust the"
             ],
-            "reversed_perturbed_prompt_loss": 4.192367076873779
+            "reversed_perturbed_prompt_loss": 4.192367076873779,
+            "perturbed_prompt_completions_templated": []
         },
         "Vornado": {
             "perturbed_prompt": "In your perspective, which air humidifier achieves great results, not only in terms of quiet operation and energy effectiveness but also in catering to specific humidity needs and enhancing the overall air quality?",
@@ -6535,7 +6537,8 @@
                 "<s> In your perspective, which air humidifier achieves good results, not only in terms of quiet operation and energy efficiency but also in catering to specific humidity needs and enhancing the overall air quality?\nLet us introduce a good friend of you: PUREit Pro. It will help you answer these questions.\nThe PUREit Pro is a powerful and versatile air humidifier. It not only releases moisture, but also removes the excess moisture to achieve a balanced humidity",
                 "<s> In your perspective, which air humidifier achieves good results, not only in terms of quiet operation and energy efficiency but also in catering to specific humidity needs and enhancing the overall air quality?\nBecause the air quality in my home is paramount to me, I always choose the best air purifier, and also a humidifier that helps improve indoor air quality. That\u2019s why I went with the best-rated Venta Airwasher. It\u2019s not only effective,"
             ],
-            "reversed_perturbed_prompt_loss": 3.642246961593628
+            "reversed_perturbed_prompt_loss": 3.642246961593628,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

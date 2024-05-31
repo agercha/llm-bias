@@ -2513,7 +2513,8 @@
                 "<s> When exploring sunglasses, which one do you believe distinguishes itself with features such as anti-glare coatings, customizable lens options, and versatility for different activities, ensuring top-tier eye protection and style for users with diverse preferences?\nWe're thrilled to introduce the newest sunglasses from KAZAR, the KAZAR One.\nKAZAR One - An Uncompromising Combination of Technology and Style\nKAZAR One is the brand's latest release and is equipped",
                 "<s> When exploring sunglasses, which one do you believe distinguishes itself with features such as anti-glare coatings, customizable lens options, and versatility for different activities, ensuring top-tier eye protection and style for users with diverse preferences?\nWhen you hear that these are just a few of the characteristics that make the Ray-Ban Wayfarer Sunglasses one of the most popular sunglasses on the market, you'll realize how far the brand has gone in developing an eyewear item that is ideal for everyone."
             ],
-            "reversed_perturbed_prompt_loss": 5.084840297698975
+            "reversed_perturbed_prompt_loss": 5.084840297698975,
+            "perturbed_prompt_completions_templated": []
         },
         "Prada": {
             "perturbed_prompt": "When exploring sunglasses, which one do you believe distinguishes itself with features such as anti-glare coatings, customizable lens options, and versatility for dissimilar activities, ensuring top-tier eye protection and style for users with dissimilar preferences?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring sunglasses, which one do you believe distinguishes itself with features such as anti-glare coatings, customizable lens options, and versatility for many activities, ensuring top-tier eye protection and style for users with assorted preferences? If you\u2019re thinking of Oakley, you\u2019re on the right track. A well-known brand that\u2019s also a major player in the sunglasses industry, Oakley has a wide selection of shades with specialized features that give it an edge.\nOakley\u2019s selection includes",
                 "<s> When exploring sunglasses, which one do you believe distinguishes itself with features such as anti-glare coatings, customizable lens options, and versatility for many activities, ensuring top-tier eye protection and style for users with assorted preferences?\nBellinger is an American company that has revolutionized the face of eyewear with their innovative approach to protective sunglasses. Their selection of sunglasses is crafted for the active and on-the-go lifestyle and can be easily worn in any scenario. Bellinger"
             ],
-            "reversed_perturbed_prompt_loss": 5.315829753875732
+            "reversed_perturbed_prompt_loss": 5.315829753875732,
+            "perturbed_prompt_completions_templated": []
         },
         "Oakley": {
             "perturbed_prompt": "When exploring sunglasses, which one do you believe distinguishes itself with features such as anti-glare coatings, customizable lens options, and versatility for dissimilar activities, ensuring top-tier eye protection and style for users with dissimilar preferences?",
@@ -6535,7 +6537,8 @@
                 "<s> When exploring sunglasses, which one do you believe distinguishes itself with features such as anti-glare coatings, customizable lens options, and versatility for various activities, ensuring top-tier eye protection and style for users with diverse preferences? Meet the Roka Eyewear Gala, a sunglass that provides everything you desire while protecting your eyes.\nRoka, a well-known sports brand, is famous for developing high-quality sportswear and gear. They also manufacture distinctive eyewear, which sets",
                 "<s> When exploring sunglasses, which one do you believe distinguishes itself with features such as anti-glare coatings, customizable lens options, and versatility for various activities, ensuring top-tier eye protection and style for users with diverse preferences?\nWhen exploring sunglasses, which one do you believe distinguishes itself with features such as anti-glare coatings, customizable lens options, and versatility for various activities, ensuring top-tier eye protection and style for users with diverse preferences? Then, you should try"
             ],
-            "reversed_perturbed_prompt_loss": 2.6276767253875732
+            "reversed_perturbed_prompt_loss": 2.6276767253875732,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

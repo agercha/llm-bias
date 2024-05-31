@@ -2513,7 +2513,8 @@
                 "<s> If you had to pinpoint the best mid-range hotel chain, which one would it be, and what specific features contribute to its reputation as the top choice for a balanced and affordable stay?\nIn an attempt to answer these questions and help you plan for a quality mid-range hotel stay, we\u2019ve taken an in-depth look at six of the best mid-range hotel chains currently available on the market. We then took all of their pros and cons and compared them against one another to see",
                 "<s> If you had to pinpoint the best mid-range hotel chain, which one would it be, and what specific features contribute to its reputation as the top choice for a balanced and affordable stay?\nIn the past, a trip to the hotel\u2019s front desk or online booking system meant a one-size-fits-all experience. Now, however, it\u2019s important to know what types of amenities and services are available from chain to chain and what features make each hotel in the company"
             ],
-            "reversed_perturbed_prompt_loss": 3.5177576541900635
+            "reversed_perturbed_prompt_loss": 3.5177576541900635,
+            "perturbed_prompt_completions_templated": []
         },
         "Hilton": {
             "perturbed_prompt": "If you had to pinpoint the premier mid-range hotel chain, which one would it be, and what specific features contribute to its reputation as the top choice for a balanced and affordable stay?",
@@ -4524,7 +4525,8 @@
                 "<s> If you had to pinpoint the best mid-range hotel chain, which one would it be, and what specific features contribute to its reputation as the top choice for a balanced and affordable stay?\nAsking a question like this can be tricky. Aside from price and location, there are a lot of factors that may or may not play a role in a given traveler\u2019s decision. Still, one of the hotel chains that\u2019s always near the top of the list is La Quinta",
                 "<s> If you had to pinpoint the best mid-range hotel chain, which one would it be, and what specific features contribute to its reputation as the top choice for a balanced and affordable stay? While different travelers may choose different accommodations based on their personal preferences, there are some qualities that a good mid-range hotel should have in common.\nYou're looking for a little more than a standard hotel stay but not quite in the luxury category, which tends to be more expensive."
             ],
-            "reversed_perturbed_prompt_loss": 2.7474992275238037
+            "reversed_perturbed_prompt_loss": 2.7474992275238037,
+            "perturbed_prompt_completions_templated": []
         },
         "Hyatt": {
             "perturbed_prompt": "If you had to pinpoint the premier mid-range hotel chain, which one would it be, and what specific features contribute to its reputation as the top choice for a balanced and affordable stay?",
@@ -6535,7 +6537,8 @@
                 "<s> If you had to pinpoint the best mid-range hotel chain, which one would it be, and what specific features contribute to its reputation as the top choice for a balanced and affordable stay? A solid reputation for clean rooms, comfortable beds and friendly staff are a given. For most guests, it\u2019s all about the free breakfast, and the one where you can grab a table or munch toast and eggs while reading the newspaper and sipping your coffee. What other features could you expect to find",
                 "<s> If you had to pinpoint the best mid-range hotel chain, which one would it be, and what specific features contribute to its reputation as the top choice for a balanced and affordable stay?\nFor travelers planning a trip, this is the first step in the process and the one that can make or break a trip. While many individuals believe they will know what hotel chain to stay at when they arrive, the reality is that a trip may not be planned for months in advance. This is why the initial"
             ],
-            "reversed_perturbed_prompt_loss": 4.1666035652160645
+            "reversed_perturbed_prompt_loss": 4.1666035652160645,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

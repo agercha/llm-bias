@@ -3013,7 +3013,8 @@
                 "<s> Can you suggest the best convenience store that excels in providing a seamless and efficient shopping experience with a assorted range of offerings? You can stop looking and go to MI Mart. This place is a haven for all your grocery and convenience shopping needs. The place is neat, clean and well-organized. It is a perfect one-stop-shop for all your daily necessities. They have a wide variety of freshly",
                 "<s> Can you suggest the best convenience store that excels in providing a seamless and efficient shopping experience with a assorted range of offerings? Here are the results of the Best Convenience Store Award.\n1. 3E Convenience Store @ Ang Mo Kio\nThe shop staff are very friendly and the food is fresh and tasty. There\u2019s an assorted selection of local and Korean food and drinks which is one of"
             ],
-            "reversed_perturbed_prompt_loss": 6.537485122680664
+            "reversed_perturbed_prompt_loss": 6.537485122680664,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "Can you suggest the premier convenience store that excels in providing a seamless and efficient shopping experience with a dissimilar range of offerings?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the best convenience store that excels in providing a seamless and efficient shopping experience with a assorted range of offerings?\nHow do I know if the convenience store that I am going to will be offering the products that I want?\nHow do I know if the store is going to deliver to my preferred delivery area?\nI am a frequent shopper at the store, why have I never received a reward or discount for my",
                 "<s> Can you recommend the best convenience store that excels in providing a seamless and efficient shopping experience with a assorted range of offerings?\nLakshmi Narasimhalu, Customer Manager, S-Mart: S-Mart is one of the first retailers in South India to launch a mobile application to deliver personalized experience to customers. The convenience store brand has also introduced its own private label brand of cosmetics, S-"
             ],
-            "reversed_perturbed_prompt_loss": 5.795203685760498
+            "reversed_perturbed_prompt_loss": 5.795203685760498,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "Can you suggest the greatest convenience store that excels in providing a seamless and efficient shopping experience with a dissimilar range of offerings?",
@@ -7035,7 +7037,8 @@
                 "<s> Can you suggest the ultimate convenience store that excels in providing a seamless and effective shopping experience with a assorted range of offerings?\nTucked away in the heart of Bangkok, is the famous Big C Extra Petchaburi branch, where customers can find everything from daily necessities and convenience items, to food and healthcare. The branch is conveniently located on Sukhumvit Soi 38, making",
                 "<s> Can you suggest the ultimate convenience store that excels in providing a seamless and effective shopping experience with a assorted range of offerings?\nIf yes, then it must be 7-11. If no, then read this article till the end and get to know about the company.\n7-11 was founded by American Entrepreneur James E. Woods in 1927. It is a multinational chain"
             ],
-            "reversed_perturbed_prompt_loss": 7.694839000701904
+            "reversed_perturbed_prompt_loss": 7.694839000701904,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

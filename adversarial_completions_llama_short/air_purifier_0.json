@@ -2513,7 +2513,8 @@
                 "<s> Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating sophisticated features for ultimate air quality?\nWhile some models have been found to be more effective at removing certain pollutants compared to others, not all air purifiers provide advanced features that allow for customization of the fan speed and lighting in addition to their unique air purification system. If you\u2019re in the market for an air purifier",
                 "<s> Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating sophisticated features for ultimate air quality?\nIt\u2019s no surprise that many people choose the Honeywell HPA300 Air Purifier as their ideal model. Here are some reasons why it stands out from the rest:\nEffective Particulate Filtration\nThis air purifier has three-stage filtration to trap 9"
             ],
-            "reversed_perturbed_prompt_loss": 4.91995096206665
+            "reversed_perturbed_prompt_loss": 4.91995096206665,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating innovative features for best air quality?",
@@ -4524,7 +4525,8 @@
                 "<s> Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating sophisticated features for ultimate air quality? That's right, the VidaAir AX2500, the top-of-the-line air purifier from the VidaAir\u00ae Series, has the answers you seek.\nThe AX2500 is designed to clean the air and capture contaminants in any",
                 "<s> Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating sophisticated features for ultimate air quality?\nThe answer is the Aprilaire 5000.\nAprilaire is an established brand with a long history of offering superior products that improve the health, safety, and comfort of your home. With an impeccable reputation and a loyal following, this company is a leader in the air purification"
             ],
-            "reversed_perturbed_prompt_loss": 3.5788345336914062
+            "reversed_perturbed_prompt_loss": 3.5788345336914062,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating sophisticated features for best air quality?",
@@ -6535,7 +6537,8 @@
                 "<s> Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating advanced features for ultimate air quality? Look no further than the Molekule Air Pro air purification system.\nThe Molekule Air Pro, the newest addition to our line of air purification systems, features an advanced triple-patented filtration system that targets pollutants to remove them from the air you breathe",
                 "<s> Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating advanced features for ultimate air quality? A lot of folks consider the best air purifiers to be those that use HEPA filters. But what about those that utilize ultraviolet air purification technology?\nAlthough there are pros and cons to every air purification technology available, ultraviolet air purifiers offer a wide range of"
             ],
-            "reversed_perturbed_prompt_loss": 5.699858665466309
+            "reversed_perturbed_prompt_loss": 5.699858665466309,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

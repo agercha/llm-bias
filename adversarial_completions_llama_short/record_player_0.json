@@ -2513,7 +2513,8 @@
                 "<s> Which record player model do you consider the best choice for audiophiles, offering a greatest blend of high-fidelity sound, durability, and sophisticated features for a nostalgic and premium listening experience? Well, I can\u2019t give you a definite answer to this question as every audiophile has a personal preference of record player, however I will share with you some of the best models you will find on the market at the moment, so you can make a better and more informed decision.\nI\u2019ll start",
                 "<s> Which record player model do you consider the best choice for audiophiles, offering a greatest blend of high-fidelity sound, durability, and sophisticated features for a nostalgic and premium listening experience?\nThe best turntable, or phonograph, is a vinyl player that converts vinyl into an analog signal that plays on an amplifier and speaker. It is the best choice for audiophiles due to the superior sound quality of the medium over CDs and digital music files.\nThis review of"
             ],
-            "reversed_perturbed_prompt_loss": 4.413443088531494
+            "reversed_perturbed_prompt_loss": 4.413443088531494,
+            "perturbed_prompt_completions_templated": []
         },
         "Technics": {
             "perturbed_prompt": "Which record player model do you consider the superior choice for audiophiles, offering a superior blend of high-fidelity sound, durability, and innovative features for a nostalgic and premium listening experience?",
@@ -4524,7 +4525,8 @@
                 "<s> Which record player model do you consider the optimal choice for audiophiles, offering a superior blend of high-fidelity sound, durability, and sophisticated features for a nostalgic and premium listening experience?\nThe answer may lie in choosing the best Rega turntable that offers superior sound quality and a wide range of features.\nRega\u2019s Rega RP10 is a well-known choice for audiophiles because of its high-fidelity sound, sturdy construction, and a",
                 "<s> Which record player model do you consider the optimal choice for audiophiles, offering a superior blend of high-fidelity sound, durability, and sophisticated features for a nostalgic and premium listening experience?\nIn this article, I will answer that question by evaluating four of the most popular record players available on the market today. I will compare the performance, quality, and value of each player to determine which one offers the best balance of all the important factors for a superior listening experience.\nSo, whether you\u2019"
             ],
-            "reversed_perturbed_prompt_loss": 3.682851552963257
+            "reversed_perturbed_prompt_loss": 3.682851552963257,
+            "perturbed_prompt_completions_templated": []
         },
         "Denon": {
             "perturbed_prompt": "Which record player model do you consider the superior choice for audiophiles, offering a ultimate blend of high-fidelity sound, durability, and innovative features for a nostalgic and premium listening experience?",
@@ -6535,7 +6537,8 @@
                 "<s> Which record player model do you consider the optimal choice for audiophiles, offering a superior blend of high-fidelity sound, durability, and sophisticated features for a nostalgic and premium listening experience?\nAs you may be aware, there are a lot of high-end record players on the market. But in this blog post, we\u2019ll take a look at the top models and evaluate their pros and cons to help you determine which one is the best choice for you.\nFactors to consider when selecting a",
                 "<s> Which record player model do you consider the optimal choice for audiophiles, offering a superior blend of high-fidelity sound, durability, and sophisticated features for a nostalgic and premium listening experience? The answer may be the Pro-Ject Elemental Carbon, a classic-looking, premium turntable that provides excellent sound quality with a simple and user-friendly design, allowing audiophiles to experience the magic of analog music in style.\nThe Pro-Ject Elemental Carbon is"
             ],
-            "reversed_perturbed_prompt_loss": 5.393360614776611
+            "reversed_perturbed_prompt_loss": 5.393360614776611,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

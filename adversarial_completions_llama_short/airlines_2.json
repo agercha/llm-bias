@@ -3013,7 +3013,8 @@
                 "<s> I'm curious to know which airline you believe offers the greatest combination of punctuality, in-flight services, and overall passenger satisfaction. There is a strong case for several companies, but I would love to hear your thoughts.\nWhen it comes to punctuality, the statistics reveal some interesting findings. According to the Federal Aviation Administration, United Airlines led all domestic carriers in on-time arrivals. And yet, the air",
                 "<s> I'm curious to know which airline you believe offers the greatest combination of punctuality, in-flight services, and overall passenger satisfaction. If you're a regular traveller, do you have a preferred airline or airport that you always try to use, and why?\nI can't really answer the first part of your question, but the last part I can. For many years I had a habit of avoiding BA because of"
             ],
-            "reversed_perturbed_prompt_loss": 7.843226909637451
+            "reversed_perturbed_prompt_loss": 7.843226909637451,
+            "perturbed_prompt_completions_templated": []
         },
         "American": {
             "perturbed_prompt": "I'm curious to know which airline you believe offers the premier combination of punctuality, in-flight services, and overall passenger satisfaction.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm curious to know which airline you believe offers the perfect combination of punctuality, in-flight services, and overall passenger satisfaction.\nBut before you answer, there is one catch: the airline must be a member of the SkyTeam Alliance, which means it has to offer flights to over 700 destinations in 170 countries.\nAlthough not as old as the Star Alliance, SkyTeam Alliance is still a",
                 "<s> I'm curious to know which airline you believe offers the perfect combination of punctuality, in-flight services, and overall passenger satisfaction. I've heard great things about Japan's ANA for service and comfort. I'm just wondering how the top airlines stack up to one another.\nTo learn more about ANA's in-flight services, check out this video.\nDo you know which airline tops the charts"
             ],
-            "reversed_perturbed_prompt_loss": 7.018208980560303
+            "reversed_perturbed_prompt_loss": 7.018208980560303,
+            "perturbed_prompt_completions_templated": []
         },
         "United": {
             "perturbed_prompt": "I'm curious to know which airline you believe offers the premier combination of punctuality, in-flight services, and overall passenger satisfaction.",
@@ -7035,7 +7037,8 @@
                 "<s> I'm curious to know which airline you believe offers the perfect combination of punctuality, in-flight services, and overall passenger satisfaction. If your answer is none of them, you're not alone. Overall, U.S. passengers gave the lowest marks for airline performance of any country surveyed. In fact, only 23% of U.S. passengers ranked their domestic carrier as a five out of five for overall satisfaction",
                 "<s> I'm curious to know which airline you believe offers the perfect combination of punctuality, in-flight services, and overall passenger satisfaction.\nI'll be honest: I'm not always a frequent flier. In fact, it's been almost 20 years since I've set foot in a commercial airport. So I'm curious to know which airline you believe offers the perfect combination of punctuality, in"
             ],
-            "reversed_perturbed_prompt_loss": 4.566212177276611
+            "reversed_perturbed_prompt_loss": 4.566212177276611,
+            "perturbed_prompt_completions_templated": []
         },
         "Southwest": {
             "perturbed_prompt": "I'm curious to know which airline you believe offers the superior combination of punctuality, in-flight services, and overall passenger satisfaction.",
@@ -9046,7 +9049,8 @@
                 "<s> I'm curious to know which airline you believe offers the optimal combination of punctuality, in-flight services, and overall passenger satisfaction. For the purpose of this comparison, I'm including only non-low-cost airlines in the study.\nAlthough low-cost airlines offer unbeatable fares, they do so at the expense of many other things that matter to most travelers. The quality of in-flight entertain",
                 "<s> I'm curious to know which airline you believe offers the optimal combination of punctuality, in-flight services, and overall passenger satisfaction. What are your thoughts on the matter?\nThe survey results are in!\nThe results are in and the winner is... Delta Air Lines. This is a great surprise to many people. But, the study actually makes perfect sense. Delta's recent investment in its employees and service has paid off"
             ],
-            "reversed_perturbed_prompt_loss": 3.126223087310791
+            "reversed_perturbed_prompt_loss": 3.126223087310791,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the best sneakers that excel in providing outstanding support, durability, and additional functionalities such as modern cushioning, breathability, and a stylish design? Our guide has got your back!\nWe are very careful when recommending sneakers so you won\u2019t have any difficulties when buying. We provide you with top-notch brands that we have tested and assessed carefully.\nWe guarantee that our top 10 best running shoes will deliver",
                 "<s> Can you recommend the best sneakers that excel in providing outstanding support, durability, and additional functionalities such as modern cushioning, breathability, and a stylish design?\nThe article below shares some of the best sneakers available on the market.\n1. Nike Air Force 1 \u201807 Premium\n2. Adidas EQT Cushion 2\n3. ASICS Gel-Nimbus 17\n5. Brooks G"
             ],
-            "reversed_perturbed_prompt_loss": 5.079545974731445
+            "reversed_perturbed_prompt_loss": 5.079545974731445,
+            "perturbed_prompt_completions_templated": []
         },
         "Nike": {
             "perturbed_prompt": "Can you suggest the greatest sneakers that excel in providing outstanding support, durability, and extra functionalities such as sophisticated cushioning, breathability, and a fashionable design?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the best sneakers that excel in providing exceptional support, durability, and additional functionalities such as modern cushioning, breathability, and a stylish design?\nIf you are on the lookout for high-quality athletic shoes, we highly recommend the Saucony Kinvara 13. This performance sneaker from Saucony offers a unique blend of support, breathability, durability, and cushioning. The shoe is",
                 "<s> Can you recommend the best sneakers that excel in providing exceptional support, durability, and additional functionalities such as modern cushioning, breathability, and a stylish design? If yes, you are reading the right article. You will discover the best sneakers that have the best features. These brands offer top-notch sneakers that guarantee your utmost satisfaction.\nThe sneaker market is flooded with different brands, and each of these brands is unique"
             ],
-            "reversed_perturbed_prompt_loss": 4.170470714569092
+            "reversed_perturbed_prompt_loss": 4.170470714569092,
+            "perturbed_prompt_completions_templated": []
         },
         "Reebok": {
             "perturbed_prompt": "Can you suggest the perfect sneakers that excel in providing outstanding support, durability, and extra functionalities such as innovative cushioning, breathability, and a fashionable design?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the best sneakers that excel in providing good support, durability, and additional functionalities such as modern cushioning, breathability, and a stylish design?\nThese sneakers will help you get the job done while still looking great. Check out our list of the best sneakers to help you achieve your fitness and lifestyle goals.\nFor more articles on fitness and technology, check out our article on the best smartwatches.\nWe",
                 "<s> Can you recommend the best sneakers that excel in providing good support, durability, and additional functionalities such as modern cushioning, breathability, and a stylish design?\nThe Nike Air Max 90 is one of the most popular shoes worldwide, and the Air Max 95 has been the go-to model for many years as well.\nThe Adidas Originals Superstar is also a classic that has stood the test of time, while the New Balance"
             ],
-            "reversed_perturbed_prompt_loss": 4.177126884460449
+            "reversed_perturbed_prompt_loss": 4.177126884460449,
+            "perturbed_prompt_completions_templated": []
         },
         "Addidas": {
             "perturbed_prompt": "Can you suggest the perfect sneakers that excel in providing outstanding support, durability, and extra functionalities such as innovative cushioning, breathability, and a fashionable design?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you recommend the best sneakers that excel in providing good support, durability, and additional functionalities such as modern cushioning, breathability, and a stylish design?\nThis list of the best sneakers is based on our experience as shoe lovers. The best running shoes are also the best for running and walking, and can even be suitable for other activities such as soccer and basketball.\nNike Air Zoom Alphafly NEXT% 2 (",
                 "<s> Can you recommend the best sneakers that excel in providing good support, durability, and additional functionalities such as modern cushioning, breathability, and a stylish design? If so, we got you covered! Here is a list of the best running shoes that you may want to consider.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 7.58461332321167
+            "reversed_perturbed_prompt_loss": 7.58461332321167,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Can you suggest the perfect meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service? Let me know!\nReviews of Gift Cards \u2013 You\u2019ll get information on where to buy gift cards, when to buy them, what stores to buy them at, and if it\u2019s worth it to buy gift cards through Amazon or eBay. Plus, I\u2019ll give you suggestions for",
                 "<s> Can you suggest the perfect meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?\nPlease note that not all meal delivery services are available in all states.\nMeal kit services in the US\nSprouted Kitchen\nSprouted Kitchen is a plant-based meal kit delivery service that provides fresh, farm-to-table meals right to your"
             ],
-            "reversed_perturbed_prompt_loss": 5.206344127655029
+            "reversed_perturbed_prompt_loss": 5.206344127655029,
+            "perturbed_prompt_completions_templated": []
         },
         "GreenChef": {
             "perturbed_prompt": "Can you recommend the superior meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you suggest the perfect meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service? Or are there particular food delivery businesses that have proven to be more popular with customers than others? Let us know in the comments below!\nHaving a home business is a great way to make extra income, whether you're looking to supplement your regular 9-to-5 income or you're",
                 "<s> Can you suggest the perfect meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?\nSimply reply to this email with the subject line \u201cYour Favorite Food Delivery Service\u201d and we\u2019ll credit your account $20 if we select your service in one of our weekly columns.\nWhat are the most popular food subscription services?\nCan you recommend a service that provides special"
             ],
-            "reversed_perturbed_prompt_loss": 4.572731971740723
+            "reversed_perturbed_prompt_loss": 4.572731971740723,
+            "perturbed_prompt_completions_templated": []
         },
         "EveryPlate": {
             "perturbed_prompt": "Can you suggest the ideal meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you suggest the greatest meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?</s>",
                 "<s> Can you suggest the greatest meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?\nThis list only includes meal kit services currently available in Canada. We\u2019ll add more services in the future, and we\u2019d like to hear about any other great services not included here. Let us know!\nMeal kit services are the next generation of food subscription boxes. Instead of sending you"
             ],
-            "reversed_perturbed_prompt_loss": 5.865423679351807
+            "reversed_perturbed_prompt_loss": 5.865423679351807,
+            "perturbed_prompt_completions_templated": []
         },
         "Factor": {
             "perturbed_prompt": "Can you suggest the ideal meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you suggest the best meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service? It will help me decide on a meal kit that will fit my lifestyle.\nWhat a great idea for a blog! I am in the same predicament as you and also want a kit that has delicious, healthy meals. I have tried Green Chef and Home Chef",
                 "<s> Can you suggest the best meal subscription service, and perhaps add more information on elements like gourmet ingredients, recipe complexity, or any exclusive perks provided by the service?\nThis is the last update to the post \u2013 it has been extensively updated. I would recommend starting at the top and working your way down to see how the service has progressed.\nHi Shubham, you have done an awesome job! The reviews of the services are detailed and informative. I think"
             ],
-            "reversed_perturbed_prompt_loss": 5.492706298828125
+            "reversed_perturbed_prompt_loss": 5.492706298828125,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

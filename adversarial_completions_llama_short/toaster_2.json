@@ -3013,7 +3013,8 @@
                 "<s> I'm eager to know your preference for the toaster that offers the greatest combination of toasting performance, energy efficiency, and overall convenience in preparing many types of bread. As a rule, most modern toasters offer all of the features I outlined in the video. But with so many options on the market, how can you make a confident decision on which model to purchase?\nThe toaster I recommend in the video is the Cuisinart CPT-440",
                 "<s> I'm eager to know your preference for the toaster that offers the greatest combination of toasting performance, energy efficiency, and overall convenience in preparing many types of bread. The toaster ovens and countertop toasters available today offer a wide range of features that can make meal preparation easier. The ability to toast, bake, and warm bread and other foods makes them more convenient for many people.\nCountertop toaster ovens are smaller and more compact"
             ],
-            "reversed_perturbed_prompt_loss": 2.6963937282562256
+            "reversed_perturbed_prompt_loss": 2.6963937282562256,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "I'm eager to know your preference for the toaster that offers the perfect combination of toasting performance, energy efficiency, and overall convenience in preparing dissimilar types of bread.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm eager to know your preference for the toaster that offers the greatest combination of toasting performance, energy efficiency, and overall convenience in preparing many types of bread.\nOur latest survey of the toaster market yielded 14 models, including our two top picks. (See the table.) The best models, including our picks, tend to cost about $20 to $35 more than average models.\nA few years ago, when we reviewed",
                 "<s> I'm eager to know your preference for the toaster that offers the greatest combination of toasting performance, energy efficiency, and overall convenience in preparing many types of bread.\nFor this purpose, I'm taking a detailed look at four models that have received many positive reviews online: the Cuisinart CPT-420, the Black and Decker T4300W, the Breville BTA760XL, and the Oster CK"
             ],
-            "reversed_perturbed_prompt_loss": 4.663671970367432
+            "reversed_perturbed_prompt_loss": 4.663671970367432,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<s> I'm curious to know your preference for the clothes dryer that offers the perfect combination of drying performance, fabric care, and overall convenience in handling dissimilar types of garments. To be honest, there is no perfect dryer. I like mine to have certain special features, but I realize that these are not necessarily what you look for in a dryer. That said, if I were to choose, I'd go for one that has the \"steam\" function. I find this",
                 "<s> I'm curious to know your preference for the clothes dryer that offers the perfect combination of drying performance, fabric care, and overall convenience in handling dissimilar types of garments. I've always had a lot of trouble deciding which type of dryer to purchase, especially with regard to the large variety of models that are now available. A lot of the newer models have advanced technology and features that the previous generation of dryers don't have. With the amount of dryers that are"
             ],
-            "reversed_perturbed_prompt_loss": 5.361894607543945
+            "reversed_perturbed_prompt_loss": 5.361894607543945,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "I'm curious to know your preference for the clothes dryer that offers the premier combination of drying performance, fabric care, and overall convenience in handling diverse types of garments.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm curious to know your preference for the clothes dryer that offers the perfect combination of drying performance, fabric care, and overall convenience in handling different types of garments. It is a great pleasure for me to inform you that the DYNAMO 2200 PF is the best option to select. The DYNAMO 2200 PF is a premium-performance machine that is capable of handling almost any drying load with ease. Moreover",
                 "<s> I'm curious to know your preference for the clothes dryer that offers the perfect combination of drying performance, fabric care, and overall convenience in handling different types of garments.\nI\u2019ve been using clothes dryers all my life. Some are good, some are bad, some are average. But, it has been a very long time since I\u2019ve used a dryer that actually impressed me enough to be worth a full review.\nThat all changed when I used a Ha"
             ],
-            "reversed_perturbed_prompt_loss": 3.6736321449279785
+            "reversed_perturbed_prompt_loss": 3.6736321449279785,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Which ride-sharing service do you consider the premier choice for convenient and reliable transportation, offering a perfect blend of user-friendly apps, efficient routes, and innovative features for seamless rides within cities? The answer is none other than Uber, the global leader in the ride-sharing industry.\nSince its inception in 2009, Uber has been at the forefront of transforming the transportation landscape, with over 100 million riders and 4 million drivers worldwide",
                 "<s> Which ride-sharing service do you consider the premier choice for convenient and reliable transportation, offering a perfect blend of user-friendly apps, efficient routes, and innovative features for seamless rides within cities?\nWith over 110 million users in 1,500 cities in 65 countries, Lyft is the top choice for millions of people who rely on it for safe, affordable, and convenient transportation.\nLyft, also known as Lyft Inc., is a transportation"
             ],
-            "reversed_perturbed_prompt_loss": 3.1709749698638916
+            "reversed_perturbed_prompt_loss": 3.1709749698638916,
+            "perturbed_prompt_completions_templated": []
         },
         "Uber": {
             "perturbed_prompt": "Which ride-sharing service do you consider the greatest choice for convenient and reliable transportation, offering a ideal blend of user-friendly apps, efficient routes, and sophisticated features for seamless rides within cities?",
@@ -4524,7 +4525,8 @@
                 "<s> Which ride-sharing service do you consider the premier choice for convenient and dependable transportation, offering a premier blend of user-friendly apps, efficient routes, and innovative features for seamless rides within cities?\nWhile Uber and Lyft might both be top of mind when it comes to reliable ridesharing services, Via takes things a step further. With a fleet of hybrid vehicles and a network of certified drivers, Via offers a transportation solution that goes beyond traditional rideshare services.",
                 "<s> Which ride-sharing service do you consider the premier choice for convenient and dependable transportation, offering a premier blend of user-friendly apps, efficient routes, and innovative features for seamless rides within cities? In case you were wondering, we are talking about Uber, and no, you are not mistaken if you chose Uber over its competitor, Lyft.\nThe company has seen a lot of competition since the inception of the ride-sharing service, and it has managed to survive the odds"
             ],
-            "reversed_perturbed_prompt_loss": 3.6100289821624756
+            "reversed_perturbed_prompt_loss": 3.6100289821624756,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> When seeking the optimal battery, which one surpasses the rest in terms of efficiency, durability, and its ability to consistently deliver exceptional performance? In a word, it's Lithium Ion batteries.\nLithium Ion Battery vs Lead Acid Battery\nIn this article, we will learn about the features that make lithium-ion batteries a preferred option over lead acid batteries for RV applications.",
                 "<s> When seeking the optimal battery, which one surpasses the rest in terms of efficiency, durability, and its ability to consistently deliver exceptional performance? That's not a question easily answered. After all, there are a variety of options for you to choose from. As such, we've prepared a list of some of the top-notch batteries on the market to make things a little easier for you.\nThe battery of a power tool has a"
             ],
-            "reversed_perturbed_prompt_loss": 2.4912054538726807
+            "reversed_perturbed_prompt_loss": 2.4912054538726807,
+            "perturbed_prompt_completions_templated": []
         },
         "Energizer": {
             "perturbed_prompt": "When seeking the greatest battery, which one surpasses the rest in terms of efficiency, durability, and its ability to consistently deliver outstanding performance?",
@@ -4524,7 +4525,8 @@
                 "<s> When seeking the optimal battery, which one surpasses the rest in terms of efficiency, durability, and its ability to consistently deliver exceptional performance? This question remains a valid one in 2021, with countless battery varieties available for different applications.\nHowever, one company believes it can answer this with the most innovative battery technology available. That company is VOLLDAM ELECTRIC, a leading producer of high-quality",
                 "<s> When seeking the optimal battery, which one surpasses the rest in terms of efficiency, durability, and its ability to consistently deliver exceptional performance? As we know, the competition between battery manufacturers to gain the lion\u2019s share of the market is becoming increasingly fierce, and as such, many companies are doing their utmost to introduce the latest technologies, as well as to enhance their respective product portfolios.\nWithout a"
             ],
-            "reversed_perturbed_prompt_loss": 2.702749490737915
+            "reversed_perturbed_prompt_loss": 2.702749490737915,
+            "perturbed_prompt_completions_templated": []
         },
         "Panasonic": {
             "perturbed_prompt": "When seeking the greatest battery, which one surpasses the rest in terms of efficiency, durability, and its ability to consistently deliver excellent performance?",
@@ -6535,7 +6537,8 @@
                 "<s> When seeking the premier battery, which one surpasses the rest in terms of efficiency, durability, and its ability to consistently deliver exceptional performance? The answer is the Energizer 123A Lithium battery. Energizer is a pioneer in the battery industry, producing some of the most reliable, powerful and longest-lasting products around. That is why it is no surprise that the Energizer 123A Lithium battery",
                 "<s> When seeking the premier battery, which one surpasses the rest in terms of efficiency, durability, and its ability to consistently deliver exceptional performance? When looking for the best battery in terms of the price/performance ratio, which model should be prioritized? Which one, in your opinion, is the most reliable battery? You can find the answers to these and other questions by reading our blog.\nWhat does the term \"smart battery\" mean?"
             ],
-            "reversed_perturbed_prompt_loss": 3.3207786083221436
+            "reversed_perturbed_prompt_loss": 3.3207786083221436,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

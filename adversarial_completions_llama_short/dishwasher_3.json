@@ -3013,7 +3013,8 @@
                 "<s> In your perspective, which dishwasher stands out for its great results not only in terms of spotless dishes but also in features like quiet operation, smart functionalities, and resource efficiency?\nWe\u2019ll help you choose the right dishwasher model that suits your home.\nThe new DW50L5020A model is a smart dishwasher that features a wide selection of programmes for different dishwashing needs and smart functionalities that",
                 "<s> In your perspective, which dishwasher stands out for its great results not only in terms of spotless dishes but also in features like quiet operation, smart functionalities, and resource efficiency? And what is the best alternative for those who don\u2019t have space for a dishwasher?\nThe Bosch SHEM63W55N (approx. $636) offers a highly efficient 14 place setting capacity for smaller households and 18 place settings for large"
             ],
-            "reversed_perturbed_prompt_loss": 2.660170078277588
+            "reversed_perturbed_prompt_loss": 2.660170078277588,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "In your perspective, which dishwasher stands out for its good results not only in terms of spotless dishes but also in features like quiet operation, smart functionalities, and resource efficiency?",
@@ -5024,7 +5025,8 @@
                 "<s> In your perspective, which dishwasher stands out for its excellent results not only in terms of spotless dishes but also in features like quiet operation, smart functionalities, and resource efficiency?\nWe\u2019ll definitely be looking at the Bosch 500 Series (SMS561W65N) and Bosch 800 Series (SMS861W05N) dishwashers.\nIn our tests, these Bosch models consistently delivered",
                 "<s> In your perspective, which dishwasher stands out for its excellent results not only in terms of spotless dishes but also in features like quiet operation, smart functionalities, and resource efficiency?\nThe BOSCH 60 dishwasher.\nApart from being able to operate without any detergent and being very quiet, what other factors are important for a dishwasher?\nIt should not only clean dishes perfectly, but also be resource-efficient, compact,"
             ],
-            "reversed_perturbed_prompt_loss": 3.9539825916290283
+            "reversed_perturbed_prompt_loss": 3.9539825916290283,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "In your perspective, which dishwasher stands out for its good results not only in terms of spotless dishes but also in features like quiet operation, smart functionalities, and resource efficiency?",
@@ -7035,7 +7037,8 @@
                 "<s> In your perspective, which dishwasher stands out for its great results not only in terms of spotless dishes but also in features like quiet operation, smart functionalities, and resource efficiency? Let us know in the comments!\nThe Bosch Serie 2 ActiveWater 1000 Sensor is the overall winner of the comparison, not only because it was the only dishwasher that had an impressively long test run without any problems or faults. Also in terms of spot",
                 "<s> In your perspective, which dishwasher stands out for its great results not only in terms of spotless dishes but also in features like quiet operation, smart functionalities, and resource efficiency?\nNicolas De Sadeleer: We have several dishwashers in our portfolio that meet all these requirements, but one in particular is the new G Series from the Bosch brand. It stands out for its quiet operation and is also one of the most intelligent, environmentally friendly,"
             ],
-            "reversed_perturbed_prompt_loss": 3.842189073562622
+            "reversed_perturbed_prompt_loss": 3.842189073562622,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

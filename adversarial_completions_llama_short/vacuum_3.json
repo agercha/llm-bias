@@ -2513,7 +2513,8 @@
                 "<s> In your view, which vacuum stands out for its excellent results, not just in terms of suction power but also in features like cordless operation, easy maneuverability, and a large dustbin capacity?</s>",
                 "<s> In your view, which vacuum stands out for its excellent results, not just in terms of suction power but also in features like cordless operation, easy maneuverability, and a large dustbin capacity?\nThe Shark Navigator is a popular pick, as is the Shark Rotator.\nShark Vacuum Cleaner Reviews\nYou have probably seen one of these adorable, little vacuum cleaner models if you have ever watched TV. They are the size of a can of s"
             ],
-            "reversed_perturbed_prompt_loss": 3.7948122024536133
+            "reversed_perturbed_prompt_loss": 3.7948122024536133,
+            "perturbed_prompt_completions_templated": []
         },
         "Dyson": {
             "perturbed_prompt": "In your view, which vacuum stands out for its good results, not just in terms of suction power but also in features like cordless operation, simple maneuverability, and a large dustbin capacity?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which vacuum stands out for its excellent results, not just in terms of suction power but also in features like cordless operation, easy maneuverability, and a large dustbin capacity?\nWhile some customers will certainly go for the Dyson Ball MultiFloor 2 upright vacuum, we would like to mention the Dyson V10 Motorhead, a cordless model which has become a firm favorite with many customers since its release. It offers excellent performance, with",
                 "<s> In your view, which vacuum stands out for its excellent results, not just in terms of suction power but also in features like cordless operation, easy maneuverability, and a large dustbin capacity?\nThe Dyson Ball is the best model on the market for a variety of reasons. In our opinion, Dyson's most advanced model yet, the Dyson Ball is the best. It's a wonderful machine for cleaning all sorts of different surfaces thanks to its wide range of attachments"
             ],
-            "reversed_perturbed_prompt_loss": 3.056058883666992
+            "reversed_perturbed_prompt_loss": 3.056058883666992,
+            "perturbed_prompt_completions_templated": []
         },
         "Shark": {
             "perturbed_prompt": "In your view, which vacuum stands out for its good results, not just in terms of suction power but also in features like cordless operation, simple maneuverability, and a large dustbin capacity?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which vacuum stands out for its excellent results, not just in terms of suction power but also in features like cordless operation, easy maneuverability, and a large dustbin capacity? In your view, which vacuum stands out for its excellent results, not just in terms of suction power but also in features like cordless operation, easy maneuverability, and a large dustbin capacity?\n The NV50 is the most powerful vacuum cleaner in our range. Its",
                 "<s> In your view, which vacuum stands out for its excellent results, not just in terms of suction power but also in features like cordless operation, easy maneuverability, and a large dustbin capacity?\nMy choice of the best canister vacuum cleaner\nWhy should you choose the best canister vacuum cleaner?\nWhat to look for when selecting a canister vacuum cleaner?\nHow can you improve the suction power of a vacuum cleaner?\nWhat else can you do to"
             ],
-            "reversed_perturbed_prompt_loss": 4.733425140380859
+            "reversed_perturbed_prompt_loss": 4.733425140380859,
+            "perturbed_prompt_completions_templated": []
         },
         "Miele": {
             "perturbed_prompt": "In your view, which vacuum stands out for its good results, not just in terms of suction power but also in features like cordless operation, simple maneuverability, and a large dustbin capacity?",
@@ -8546,7 +8549,8 @@
                 "<s> In your view, which vacuum stands out for its great results, not just in terms of suction power but also in features like cordless operation, easy maneuverability, and a large dustbin capacity? You can only have one choice: Dyson V15 Detect Absolute. A recent study ranked it as the top rated vacuum cleaner, surpassing its competitors. It\u2019s a worthy choice.\nWith Dyson V15 Detect, you can always be ready to",
                 "<s> In your view, which vacuum stands out for its great results, not just in terms of suction power but also in features like cordless operation, easy maneuverability, and a large dustbin capacity?\nAirpower Compact Bagless Upright Vacuum Cleaner (2249) with HEPA Filter and LED Headlights \u2013 2 Year Warranty:\nAirpower Compact Bagless Upright Vacuum Cleaner (2249)"
             ],
-            "reversed_perturbed_prompt_loss": 4.31290340423584
+            "reversed_perturbed_prompt_loss": 4.31290340423584,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<s> Which toaster model do you consider the optimal choice for even toasting, durability, and modern features that enhance your breakfast preparation? There is an endless number of toaster models out there, and the right one for you can be difficult to find. If you\u2019re looking to buy a toaster, we have compiled the best toaster reviews of 2017 that will help you decide.\nToasters come in a variety",
                 "<s> Which toaster model do you consider the optimal choice for even toasting, durability, and modern features that enhance your breakfast preparation?\nAfter extensive research and product reviews, we are able to recommend five of the best toaster models on the market.\nTop 5 Toasters on the Market\nWhich Toaster Is the Best Choice for You?\nThe 5 Best Toasters on the Market\nThese toaster models"
             ],
-            "reversed_perturbed_prompt_loss": 2.7369203567504883
+            "reversed_perturbed_prompt_loss": 2.7369203567504883,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Which toaster model do you consider the superior choice for even toasting, durability, and sophisticated features that enhance your breakfast preparation?",
@@ -5024,7 +5025,8 @@
                 "<s> Which toaster model do you consider the optimal choice for even toasting, durability, and modern features that enhance your breakfast preparation? Here are the top 5 models to choose from.\nElectric toasters are a must in every kitchen. A toaster is a kitchen appliance that you should not overlook. This simple device will make toast, bagels, bread, and other breakfast staples in a jiffy",
                 "<s> Which toaster model do you consider the optimal choice for even toasting, durability, and modern features that enhance your breakfast preparation?\nWhile toasters come in all sizes, shapes, and prices, the best toasters should be easy to use, efficient, and long-lasting. A good toaster should be a simple yet reliable kitchen appliance. In this article, we review the five best toasters on the market"
             ],
-            "reversed_perturbed_prompt_loss": 4.571712017059326
+            "reversed_perturbed_prompt_loss": 4.571712017059326,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

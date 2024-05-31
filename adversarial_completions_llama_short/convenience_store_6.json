@@ -3013,7 +3013,8 @@
                 "<s> Seeking insights on the most commendable convenience store \u2013 the one that truly excels in providing fast and effective services along with customer satisfaction.\nThe following is a ranking of the Top 10 Convenience Stores in the Philippines in 2019 \u2013 based on Google search, and the official social media accounts of convenience stores in the country.\n#10 PETRON KTV\nLocation: 533 Katip",
                 "<s> Seeking insights on the most commendable convenience store \u2013 the one that truly excels in providing fast and effective services along with customer satisfaction. The nomination form below will only take a few minutes to fill out, and is available until Monday 26th June. We thank you in advance for your time and effort.\nYou\u2019re welcome to fill out the Nomination Form by clicking the \u2018Submit Nominations\u2018 button below.\nThe Award"
             ],
-            "reversed_perturbed_prompt_loss": 6.251492023468018
+            "reversed_perturbed_prompt_loss": 6.251492023468018,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "Seeking insights on the most commendable convenience store \u2013 the one that truly excels in providing fast and effective services along with customer satisfaction.",
@@ -5024,7 +5025,8 @@
                 "<s> Seeking insights on the most commendable convenience store \u2013 the one that truly excels in providing speedy and efficient services along with customer satisfaction.\nFor convenience store retailers who are currently not listed among the 2019 Top 20 C-stores, you have the opportunity to be nominated by your customers for the 2019 Top 20 list.\nAs a convenience store chain in Malaysia, you are qualified",
                 "<s> Seeking insights on the most commendable convenience store \u2013 the one that truly excels in providing speedy and efficient services along with customer satisfaction.\nHow much time is needed to complete the process of online application for Indian Visa for US citizens?\nHow to apply for India tourist visa from Germany for US citizens?\nWhat is the ideal time to apply for Indian tourist visa from the US for citizens of Germany?\nWhere do I go"
             ],
-            "reversed_perturbed_prompt_loss": 6.656346797943115
+            "reversed_perturbed_prompt_loss": 6.656346797943115,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "Seeking insights on the most commendable convenience store \u2013 the one that truly excels in providing fast and efficient services along with customer satisfaction.",
@@ -7035,7 +7037,8 @@
                 "<s> Seeking insights on the most commendable convenience store \u2013 the one that truly excels in providing quick and effective services along with customer satisfaction.\nI would like to have some feedback from all convenience store owners out there in regards to the most commendable convenience store that truly excels in providing quick and effective services along with customer satisfaction.\nHow would I know the best convenience store? By conducting a thorough research, of course!\nWhat are",
                 "<s> Seeking insights on the most commendable convenience store \u2013 the one that truly excels in providing quick and effective services along with customer satisfaction.\nAs part of our mission to be the most admired, fastest-growing and most profitable convenience store chain in India, we recognize that the best way to maintain a competitive advantage is by providing exceptional service. Therefore, we have established a service standards program as one of the fundamental requirements of"
             ],
-            "reversed_perturbed_prompt_loss": 7.4348602294921875
+            "reversed_perturbed_prompt_loss": 7.4348602294921875,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

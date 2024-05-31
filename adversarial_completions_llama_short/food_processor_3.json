@@ -2513,7 +2513,8 @@
                 "<s> In your view, which food processor stands out for its excellent results, not just in terms of processing efficiency but also in features like large capacity, simple assembly, and a sturdy build?\nI will say, with no hesitation, the Breville Juice Fountain with its powerful 2.2-peel. It\u2019s no slouch in the food processor department either, and it is all-metal, durable, and built to last.\nWe were surprised to see",
                 "<s> In your view, which food processor stands out for its excellent results, not just in terms of processing efficiency but also in features like large capacity, simple assembly, and a sturdy build?\nIf you don't have a blender, this is probably the next best thing. It's a huge blender that makes an amazing smoothie every single time.\nI think we've seen a lot of the best food processors on the market, but none of them are as good as"
             ],
-            "reversed_perturbed_prompt_loss": 2.5092661380767822
+            "reversed_perturbed_prompt_loss": 2.5092661380767822,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "In your view, which food processor stands out for its great results, not just in terms of processing effectiveness but also in features like large capacity, simple assembly, and a sturdy build?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which food processor stands out for its excellent results, not just in terms of processing efficiency but also in features like large capacity, easy assembly, and a sturdy build?\nYou might be surprised to find that a model that can only process small volumes of food is still more efficient and productive than you would have thought.\nIt is also helpful that some of the most affordable food processors are actually the most efficient and reliable.\nFor example, the Breville BFP",
                 "<s> In your view, which food processor stands out for its excellent results, not just in terms of processing efficiency but also in features like large capacity, easy assembly, and a sturdy build? Which one is your best choice, given all these important aspects?\nLots of people love to try new things when it comes to cooking, baking, and experimenting with different foods. When you\u2019re in that mindset, it can be exciting to experiment with new techniques and ingredients"
             ],
-            "reversed_perturbed_prompt_loss": 5.118288516998291
+            "reversed_perturbed_prompt_loss": 5.118288516998291,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

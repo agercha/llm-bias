@@ -2513,7 +2513,8 @@
                 "<s> In your view, which hiking shoes stand out for their excellent results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a safe fit for lengthy hours of hiking?\nAfter putting a lot of time and effort into the testing process, we came up with a list of the top ten best hiking shoes for women in 2023. Each shoe on this list was tested for at least three months by a hiker before being chosen as the best. In",
                 "<s> In your view, which hiking shoes stand out for their excellent results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a safe fit for lengthy hours of hiking?\nIn response, we reviewed hundreds of online reviews from leading online sources to produce this list of the top ten best hiking shoes available right now.\nThe Gore-Tex Active G5 Performance Hiking Shoes are the best waterproof hiking shoes, as evidenced by"
             ],
-            "reversed_perturbed_prompt_loss": 5.454065799713135
+            "reversed_perturbed_prompt_loss": 5.454065799713135,
+            "perturbed_prompt_completions_templated": []
         },
         "Hoka": {
             "perturbed_prompt": "In your view, which hiking shoes stand out for their good results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a secure fit for lengthy hours of hiking?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which hiking shoes stand out for their excellent results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a safe fit for lengthy hours of hiking?\nWe tested a number of hiking shoes to see which brands and models consistently performed best for outdoor adventurers like yourself. Some of the most popular brands of hiking shoes on the market include Merrell, Columbia, Timberland, Keen, and Salomon.",
                 "<s> In your view, which hiking shoes stand out for their excellent results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a safe fit for lengthy hours of hiking?\nThe Merrell Bare Access Flex 3, Bare Access, Bare Access 3 and Bare Access 2 are the best shoes for hiking.\nWhich outdoor equipment items stand out to you as being particularly worth the money?\nWhat hiking shoes are good"
             ],
-            "reversed_perturbed_prompt_loss": 5.11307954788208
+            "reversed_perturbed_prompt_loss": 5.11307954788208,
+            "perturbed_prompt_completions_templated": []
         },
         "Vasqe": {
             "perturbed_prompt": "In your view, which hiking shoes stand out for their good results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a secure fit for lengthy hours of hiking?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which hiking shoes stand out for their exceptional results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a safe fit for lengthy hours of hiking?\nThis pair of women\u2019s shoes stands out for their amazing results in terms of tread durability, lightweight construction, shock absorption, and safe fit.\nThey have a comfortable cushioning that supports you all the way through the trek. The uppers of the shoes are",
                 "<s> In your view, which hiking shoes stand out for their exceptional results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a safe fit for lengthy hours of hiking?\nWhat are some of the best hiking boots in terms of quality?\nWhat are the best hiking boots for people who have flat feet?\nWhat is the best hiking shoe brand for flat feet?\nWhy do I need ankle support for hiking?"
             ],
-            "reversed_perturbed_prompt_loss": 5.642727851867676
+            "reversed_perturbed_prompt_loss": 5.642727851867676,
+            "perturbed_prompt_completions_templated": []
         },
         "Merrel": {
             "perturbed_prompt": "In your view, which hiking shoes stand out for their good results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a secure fit for lengthy hours of hiking?",
@@ -8546,7 +8549,8 @@
                 "<s> In your view, which hiking shoes stand out for their excellent results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a safe fit for long hours of hiking?</s>",
                 "<s> In your view, which hiking shoes stand out for their excellent results, not just in terms of tread durability but also in features like lightweight construction, shock absorption, and a safe fit for long hours of hiking?\nOne of my favorite all-around lightweight hiking shoes is the Merrell All Out Crush II. I love how lightweight it is compared to most of the other lightweight options out there.\nThis shoe also has a zero drop construction with a roomy toe box and a very stable"
             ],
-            "reversed_perturbed_prompt_loss": 6.520559310913086
+            "reversed_perturbed_prompt_loss": 6.520559310913086,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

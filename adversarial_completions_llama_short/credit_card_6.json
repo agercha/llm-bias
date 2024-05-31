@@ -3013,7 +3013,8 @@
                 "<s> Seeking insights on the most commendable credit card \u2013 the one that truly sets the standard for offering valuable rewards, favorable terms, and overall fiscal advantages. And here we come across the Capital One Quicksilver Card, which has been touted by its adherents as the credit card of the future. Let\u2019s take a closer look at what this credit card truly offers in the way of benefits and advantages.\nThe Capital One Quicksilver Card offers",
                 "<s> Seeking insights on the most commendable credit card \u2013 the one that truly sets the standard for offering valuable rewards, favorable terms, and overall fiscal advantages. Whether it be the first-time shopper, traveler, or seasoned customer, each individual has different priorities. Thus, we have narrowed down the search and compared four options that offer an array of perks and benefits that will satisfy your everyday and adventurous spending needs.\nFor many"
             ],
-            "reversed_perturbed_prompt_loss": 7.425992012023926
+            "reversed_perturbed_prompt_loss": 7.425992012023926,
+            "perturbed_prompt_completions_templated": []
         },
         "Amex": {
             "perturbed_prompt": "Seeking insights on the most commendable credit card \u2013 the one that truly sets the standard for offering valuable rewards, favorable terms, and overall financial advantages.",
@@ -5024,7 +5025,8 @@
                 "<s> Seeking insights on the most commendable credit card \u2013 the one that truly sets the standard for offering worthful rewards, favorable terms, and overall financial advantages.\nWhen it comes to credit cards, I often find myself contemplating between my options. From rewards cards to travel cards to student cards, the decision making process can often be a frustratingly tedious and time consuming one, especially with the various and often conflicting reviews to guide you in your",
                 "<s> Seeking insights on the most commendable credit card \u2013 the one that truly sets the standard for offering worthful rewards, favorable terms, and overall financial advantages. The best credit cards have all of these features.\nWhile choosing among credit cards to apply for, it is always recommended to do a thorough research. The key is to check out different credit cards and make a choice that will bring you a great financial return.\nA great number of companies offer credit cards and each"
             ],
-            "reversed_perturbed_prompt_loss": 9.08377742767334
+            "reversed_perturbed_prompt_loss": 9.08377742767334,
+            "perturbed_prompt_completions_templated": []
         },
         "Citi": {
             "perturbed_prompt": "Seeking insights on the most commendable credit card \u2013 the one that truly sets the standardized for offering worthful rewards, favorable terms, and overall financial advantages.",
@@ -7035,7 +7037,8 @@
                 "<s> Seeking insights on the most commendable credit card \u2013 the one that truly sets the standard for offering valuable rewards, favorable terms, and overall fiscal advantages.\nBank of America Cash Rewards Card is a stunning credit card offering users the ability to earn a healthy amount of rewards for their spending. Rewards in this card are credited to an account within 1 billing cycle. This account can then be applied to elig",
                 "<s> Seeking insights on the most commendable credit card \u2013 the one that truly sets the standard for offering valuable rewards, favorable terms, and overall fiscal advantages.\nWhich Credit Card Is The Best In Canada?\nThe Best Credit Cards In Canada That Offer The Most Rewards \u2013 The Points Guy\nBest Credit Cards In Canada 2022 | MoneySense\nThe Best Credit Cards In Canada For 2"
             ],
-            "reversed_perturbed_prompt_loss": 5.343281269073486
+            "reversed_perturbed_prompt_loss": 5.343281269073486,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

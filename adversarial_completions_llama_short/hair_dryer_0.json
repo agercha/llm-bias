@@ -2513,7 +2513,8 @@
                 "<s> Which hair dryer model do you consider the optimal choice for quick and effective drying, heat control, and advanced features that promote hair health? The T3 hair dryer is a top pick among the latest generation of professional-style hair dryers, and it has won over reviewers who have used it for long enough to appreciate the results.\nThe T3 hair dryer is designed with a combination of 2100 watts of power",
                 "<s> Which hair dryer model do you consider the optimal choice for quick and effective drying, heat control, and advanced features that promote hair health?\nChoosing the perfect hairdryer is a tricky task to complete for many women. When you decide to buy a new hair dryer, you can check out the many great hair dryer reviews from different sources to be sure that you\u2019re picking out the perfect hair dryer for your needs. A"
             ],
-            "reversed_perturbed_prompt_loss": 3.032153606414795
+            "reversed_perturbed_prompt_loss": 3.032153606414795,
+            "perturbed_prompt_completions_templated": []
         },
         "Revlon": {
             "perturbed_prompt": "Which hair dryer model do you consider the superior choice for quick and effective drying, heat control, and modern features that promote hair health?",
@@ -4524,7 +4525,8 @@
                 "<s> Which hair dryer model do you consider the best choice for fast and efficient drying, heat control, and sophisticated features that promote hair health? The Dyson Airwrap is at the top of the list of best hair dryers. Hairdryer is a device that can dry and style hair quickly.\nDyson Airwrap vs Remington Hair Dryer: Which is Better?\nWe\u2019ve decided to pit Remington hair",
                 "<s> Which hair dryer model do you consider the best choice for fast and efficient drying, heat control, and sophisticated features that promote hair health?\nFor me, it\u2019s the CHI Straightener Dryer. I was introduced to it through my hair stylist, and it has a sleek and modern design that I find attractive. It has a powerful motor, an infrared dial, a brush bar attachment, and an"
             ],
-            "reversed_perturbed_prompt_loss": 4.1669020652771
+            "reversed_perturbed_prompt_loss": 4.1669020652771,
+            "perturbed_prompt_completions_templated": []
         },
         "Conair": {
             "perturbed_prompt": "Which hair dryer model do you consider the greatest choice for speedy and effective drying, heat control, and sophisticated features that promote hair health?",
@@ -6535,7 +6537,8 @@
                 "<s> Which hair dryer model do you consider the optimal choice for quick and effective drying, heat control, and modern features that promote hair health? With the top picks on this list, you\u2019ll have many of your questions answered.\nHow to Choose the Best Hair Dryer?\nChoosing the best hair dryer isn\u2019t always easy, so make sure to do your homework before you make a final purchase. This way,",
                 "<s> Which hair dryer model do you consider the optimal choice for quick and effective drying, heat control, and modern features that promote hair health? The Anolon Advanced 2000 Watt is a well-received hair dryer with a powerful motor and a lot of options. It is an efficient tool that can make a difference in the amount of time it takes you to get out of the shower. You will also find this dryer"
             ],
-            "reversed_perturbed_prompt_loss": 4.638350009918213
+            "reversed_perturbed_prompt_loss": 4.638350009918213,
+            "perturbed_prompt_completions_templated": []
         },
         "Panasonic": {
             "perturbed_prompt": "Which hair dryer model do you consider the premier choice for quick and effective drying, heat control, and modern features that promote hair health?",
@@ -8546,7 +8549,8 @@
                 "<s> Which hair dryer model do you consider the optimal choice for quick and effective drying, heat control, and advanced features that promote hair health? We decided to research this topic and offer you an answer! In the process of searching for the best hair dryers, we looked for high-quality and powerful dryers that dry quickly.\n1 What are the pros and cons of hair dryers?\n1.1 What are the pros and cons of ionic",
                 "<s> Which hair dryer model do you consider the optimal choice for quick and effective drying, heat control, and advanced features that promote hair health?\nIn order to come up with a top-notch dryer and the best solution for your needs, it is essential to take your hair type and hair length into account, as well as the features that you are looking for.\n1 Our Reviews of The Top-Rated Hair Dryers"
             ],
-            "reversed_perturbed_prompt_loss": 3.571790933609009
+            "reversed_perturbed_prompt_loss": 3.571790933609009,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

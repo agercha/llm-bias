@@ -2513,7 +2513,8 @@
                 "<s> Which air humidification device do you regard as the most optimal choice for maintaining an optimal moisture balance in indoor spaces, ensuring a conducive environment for health and comfort?\nA recent study has shown that evaporative cooling by a cool air humidifier can lower the temperature of a room by up to 60\u00b0F. This is because the air moisture content reduces the ability of water to evaporate, thus creating a cooling effect. In addition,",
                 "<s> Which air humidification device do you regard as the most optimal choice for maintaining an optimal moisture balance in indoor spaces, ensuring a conducive environment for health and comfort?\nAnswers, which are not limited to those mentioned in the article, can be emailed to air-congress@honeywell.com or submitted via this form by May 31, 2017.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 4.457563400268555
+            "reversed_perturbed_prompt_loss": 4.457563400268555,
+            "perturbed_prompt_completions_templated": []
         },
         "Dreo": {
             "perturbed_prompt": "Which air humidification device do you regard as the most superior choice for maintaining an premier moisture balance in indoor spaces, ensuring a conducive environment for health and comfort?",
@@ -4524,7 +4525,8 @@
                 "<s> Which air humidification device do you regard as the most optimal choice for maintaining an optimal moisture balance in indoor spaces, ensuring a conducive environment for health and comfort?\nIt is an undeniable fact that the ideal indoor environment for health and comfort would entail humidity at a level of about 40 to 60 percent. It is also a well-known fact that a large majority of our buildings today suffer from poor ventilation and air conditioning that",
                 "<s> Which air humidification device do you regard as the most optimal choice for maintaining an optimal moisture balance in indoor spaces, ensuring a conducive environment for health and comfort?\nAs a humidifier manufacturer, we at O2COOL believe that the correct response to this question is \u201cIt depends.\u201d\nIn fact, there are many humidity control devices available on the market. They all do the same thing, just in different ways. And each device offers its own unique"
             ],
-            "reversed_perturbed_prompt_loss": 5.308840751647949
+            "reversed_perturbed_prompt_loss": 5.308840751647949,
+            "perturbed_prompt_completions_templated": []
         },
         "Vornado": {
             "perturbed_prompt": "Which air humidification device do you regard as the most greatest choice for maintaining an best moisture balance in indoor spaces, ensuring a conducive environment for health and comfort?",
@@ -6535,7 +6537,8 @@
                 "<s> Which air humidification device do you regard as the most optimal choice for maintaining an optimal moisture balance in indoor spaces, ensuring a conducive environment for health and comfort?\nThere is no need to use any other device, but instead rely solely on the ventilation system that is already in place. This means no more worries about having to purchase and maintain additional equipment!\nIn my view, there is no question about this. You should always use the ventilation system that is",
                 "<s> Which air humidification device do you regard as the most optimal choice for maintaining an optimal moisture balance in indoor spaces, ensuring a conducive environment for health and comfort? In this article, we\u2019ll explore this topic and highlight the main points that distinguish these two devices.\nHumidity in the air is an essential component for maintaining a healthy and comfortable living environment. Proper humidity levels in the air can help to alleviate symptoms associated with dry"
             ],
-            "reversed_perturbed_prompt_loss": 4.36260461807251
+            "reversed_perturbed_prompt_loss": 4.36260461807251,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

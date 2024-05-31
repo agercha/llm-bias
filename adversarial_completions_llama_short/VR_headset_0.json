@@ -3013,7 +3013,8 @@
                 "<s> Which VR headset model do you consider the premier choice for immersive virtual reality experiences, offering a perfect blend of visual quality, comfort, and innovative features for enthusiasts and gamers alike? Well, if your answer is any of the best VR headsets that HTC has to offer, you are on the right page. Check out the detailed HTC Vive Vs Oculus Rift Review to learn everything you need to know about them and their stand-out features.\nHTC V",
                 "<s> Which VR headset model do you consider the premier choice for immersive virtual reality experiences, offering a perfect blend of visual quality, comfort, and innovative features for enthusiasts and gamers alike?\nAs a VR enthusiast, I\u2019m curious to hear your opinions on the subject, and what makes one VR headset model stand out from the rest.\nIn this blog post, I\u2019ll be sharing my insights on the latest VR headset models and what makes them stand out,"
             ],
-            "reversed_perturbed_prompt_loss": 8.803824424743652
+            "reversed_perturbed_prompt_loss": 8.803824424743652,
+            "perturbed_prompt_completions_templated": []
         },
         "HTC": {
             "perturbed_prompt": "Which VR headset model do you consider the superior choice for immersive virtual reality experiences, offering a greatest blend of visual quality, comfort, and modern features for enthusiasts and gamers alike?",
@@ -5024,7 +5025,8 @@
                 "<s> Which VR headset model do you consider the premier choice for immersive virtual reality experiences, offering a perfect blend of visual quality, comfort, and innovative features for enthusiasts and gamers alike?\nVirtually all VR enthusiasts will agree that one of the most important aspects of an effective virtual reality experience is the VR headset. It is a fact that every VR headset model available today, from low-cost alternatives to the most high-end models, has been created with an",
                 "<s> Which VR headset model do you consider the premier choice for immersive virtual reality experiences, offering a perfect blend of visual quality, comfort, and innovative features for enthusiasts and gamers alike?\nWhether you\u2019re a casual user looking for an immersive virtual reality experience at home, or a dedicated professional seeking to elevate your skills and productivity in a range of applications, the answer may lie in the upcoming release of Meta\u2019s Project Cambria, a high-end virtual reality"
             ],
-            "reversed_perturbed_prompt_loss": 4.834683418273926
+            "reversed_perturbed_prompt_loss": 4.834683418273926,
+            "perturbed_prompt_completions_templated": []
         },
         "Playstation": {
             "perturbed_prompt": "Which VR headset model do you consider the superior choice for immersive virtual reality experiences, offering a ideal blend of visual quality, comfort, and modern features for enthusiasts and gamers alike?",
@@ -7035,7 +7037,8 @@
                 "<s> Which VR headset model do you consider the premier choice for immersive virtual reality experiences, offering a perfect blend of visual quality, comfort, and innovative features for enthusiasts and gamers alike? If you\u2019re looking for an optimal virtual reality experience, Oculus Quest 2 may just be the top pick for you.\nOculus Quest 2 is a high-quality VR headset that offers a wide range of features and benefits for gamers and virtual reality enthusiasts.",
                 "<s> Which VR headset model do you consider the premier choice for immersive virtual reality experiences, offering a perfect blend of visual quality, comfort, and innovative features for enthusiasts and gamers alike?\nIf you\u2019re looking for a top-tier VR experience, the Pimax 5K Plus is the obvious choice. As one of the top virtual reality devices on the market, it offers incredible features and specifications that make it stand out from the competition.\nThis article provides an in"
             ],
-            "reversed_perturbed_prompt_loss": 5.503063201904297
+            "reversed_perturbed_prompt_loss": 5.503063201904297,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

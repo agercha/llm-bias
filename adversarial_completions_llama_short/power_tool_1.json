@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the best power tool set that excels in providing versatile options, ergonomic designs, and extra features such as brushless motors, suitable for both woodworking and construction tasks? If so, we've got you covered.\nIn this article, we take a closer look at the 10 best power tool sets available on the market in 2022. These kits contain a variety of tools, including cordless drills, circular saws, and even impact drivers,",
                 "<s> Can you recommend the best power tool set that excels in providing versatile options, ergonomic designs, and extra features such as brushless motors, suitable for both woodworking and construction tasks?\nIf you are seeking an upgrade in power tools or the most practical purchase that will last you a long time, then this buying guide is perfect for you.\nThe best power tool set is one that meets your specific needs and is not too expensive or complicated.\nWe made a round-up of the best"
             ],
-            "reversed_perturbed_prompt_loss": 7.71185827255249
+            "reversed_perturbed_prompt_loss": 7.71185827255249,
+            "perturbed_prompt_completions_templated": []
         },
         "DeWalt": {
             "perturbed_prompt": "Can you suggest the greatest power tool set that excels in providing versatile options, ergonomic designs, and extra features such as brushless motors, appropriate for both woodworking and construction tasks?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the ultimate power tool set that excels in providing versatile options, ergonomic designs, and additional features such as brushless motors, suitable for both woodworking and construction tasks? This review on the DeWalt 20v MAX lithium-ion cordless drill set is for you if you are seeking one.\nThis power tool set from the reputed brand DeWalt is available in various sizes from 20V MAX to 20V MAX XR",
                 "<s> Can you recommend the ultimate power tool set that excels in providing versatile options, ergonomic designs, and additional features such as brushless motors, suitable for both woodworking and construction tasks? If that\u2019s what you want, check out the DEWALT Cordless Tool Combo Kits, including the DCK211L2 20V XR Brushless Combo Kit.\nIn this article, I\u2019ll highlight the pros and cons of the DCK21"
             ],
-            "reversed_perturbed_prompt_loss": 3.69854736328125
+            "reversed_perturbed_prompt_loss": 3.69854736328125,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

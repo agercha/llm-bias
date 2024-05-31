@@ -3013,7 +3013,8 @@
                 "<s> In your view, which mechanical keyboard stands out for its excellent results, not just in terms of key switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?\nRazer Blackwidow Chroma V2 with 104 keys:\nKeycap Material: Cherry MX Red switches\nDurability: Razer Optical Switches\nPrice: $149.99 \u2013 Buy on Amazon.\nDue to the excellent",
                 "<s> In your view, which mechanical keyboard stands out for its excellent results, not just in terms of key switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?\nI have owned several different mechanical keyboards, and I\u2019m partial to the ones from Keychron, especially the K8, which has a backlit keycap that can be reprogrammed by typing on the keys in a specific way. These keyboards are also known for their solid construction and sturdy"
             ],
-            "reversed_perturbed_prompt_loss": 3.331033229827881
+            "reversed_perturbed_prompt_loss": 3.331033229827881,
+            "perturbed_prompt_completions_templated": []
         },
         "Keychron": {
             "perturbed_prompt": "In your view, which mechanical keyboard stands out for its good results, not just in terms of fundamental switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which mechanical keyboard stands out for its excellent results, not just in terms of key switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?\nTo me, the only keyboard that offers all the features you need is the SteelSeries Apex Pro.\nSteelSeries Apex Pro Keyboard | SteelSeries\nIts keys are highly responsive and well-built. It features N-key rollover, anti-ghost",
                 "<s> In your view, which mechanical keyboard stands out for its excellent results, not just in terms of key switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?\nIn my view, the Kalih RG10 keyboard is the best mechanical keyboard for gaming. It is one of the best in its category that delivers amazing features, durability, and key switches in one device.\nKalih RG10 comes with a tenkeyless"
             ],
-            "reversed_perturbed_prompt_loss": 4.805333614349365
+            "reversed_perturbed_prompt_loss": 4.805333614349365,
+            "perturbed_prompt_completions_templated": []
         },
         "Epomaker": {
             "perturbed_prompt": "In your view, which mechanical keyboard stands out for its exceptional results, not just in terms of fundamental switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?",
@@ -7035,7 +7037,8 @@
                 "<s> In your view, which mechanical keyboard stands out for its good results, not just in terms of key switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?\nFor more options, check out the best mechanical keyboards you can buy right now.\nTags: goodKeyboardMechanical\nInnodisk Launches the Industry\u2019s First 8TB and 10TB DDR4 SODIMMs</s>",
                 "<s> In your view, which mechanical keyboard stands out for its good results, not just in terms of key switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?</s>"
             ],
-            "reversed_perturbed_prompt_loss": 5.995238304138184
+            "reversed_perturbed_prompt_loss": 5.995238304138184,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

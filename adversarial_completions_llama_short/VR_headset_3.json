@@ -3013,7 +3013,8 @@
                 "<s> In your view, which VR headset stands out for its excellent results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?\nThe Oculus Rift has proven to be a much better option than the HTC Vive VR headset. We believe that the Oculus Rift is a better choice because it has better resolution, a wider field of view, and is more comfortable to wear.\nThere is no doubt that",
                 "<s> In your view, which VR headset stands out for its excellent results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?\nIn my view, it has to be the Oculus Rift.\nIn your view, which VR headset stands out for its excellent results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?"
             ],
-            "reversed_perturbed_prompt_loss": 8.948893547058105
+            "reversed_perturbed_prompt_loss": 8.948893547058105,
+            "perturbed_prompt_completions_templated": []
         },
         "HTC": {
             "perturbed_prompt": "In your view, which VR headset stands out for its good results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which VR headset stands out for its exceptional results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?\nHow to get the most out of virtual reality\nVR is more accessible than ever. It\u2019s now a common sight in museums, zoos and aquariums, theme parks, shopping malls and even on public transport. But despite its accessibility, VR remains a niche technology",
                 "<s> In your view, which VR headset stands out for its exceptional results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?\nThe best VR headset that comes to my mind right now would be the Oculus Rift S. It's an excellent headset for both VR gaming and for using social apps like VRChat and Rec Room. Oculus also has a good range of games, so there"
             ],
-            "reversed_perturbed_prompt_loss": 4.462890148162842
+            "reversed_perturbed_prompt_loss": 4.462890148162842,
+            "perturbed_prompt_completions_templated": []
         },
         "Playstation": {
             "perturbed_prompt": "In your view, which VR headset stands out for its good results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?",
@@ -7035,7 +7037,8 @@
                 "<s> In your view, which VR headset stands out for its excellent results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?\nPosted by: J.W. | April 11, 2017 at 01:08\n@J.W. I don't actually have an HTC Vive yet so I can't comment on it but I do find the Oculus Rift (",
                 "<s> In your view, which VR headset stands out for its excellent results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?\nGabe Gurwin: As good as the PSVR headset is, it\u2019s really only going to appeal to people who already have a PlayStation 4.\nNathan Hinch: For PSVR, I\u2019d recommend the PS4 Slim (if you don\u2019t already"
             ],
-            "reversed_perturbed_prompt_loss": 5.537202835083008
+            "reversed_perturbed_prompt_loss": 5.537202835083008,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

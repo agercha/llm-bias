@@ -3013,7 +3013,8 @@
                 "<s> Which mechanical keyboard model do you consider the greatest choice for enthusiasts, offering a superior blend of tactile key switches, durability, and sophisticated features for a premium typing and gaming experience? We will explore this issue, taking a look at 5 outstanding models that are frequently lauded as excellent choices for those searching for a mechanical keyboard with all the right bells and whistles.\n1. Topre Realforce:\nOne of the greatest mechanical keyboard models available is the Topre Real",
                 "<s> Which mechanical keyboard model do you consider the greatest choice for enthusiasts, offering a superior blend of tactile key switches, durability, and sophisticated features for a premium typing and gaming experience?\nWhen it comes to selecting a mechanical keyboard for your work or gaming needs, there are many different options to consider. But when it comes to making a purchase, the final decision may be challenging.\nWhen it comes to picking a great mechanical keyboard, one must take into account a number of crucial"
             ],
-            "reversed_perturbed_prompt_loss": 3.3062996864318848
+            "reversed_perturbed_prompt_loss": 3.3062996864318848,
+            "perturbed_prompt_completions_templated": []
         },
         "Keychron": {
             "perturbed_prompt": "Which mechanical keyboard model do you consider the premier choice for enthusiasts, offering a ideal blend of tactile fundamental switches, durability, and innovative features for a premium typing and gaming experience?",
@@ -5024,7 +5025,8 @@
                 "<s> Which mechanical keyboard model do you consider the optimal choice for enthusiasts, offering a optimal blend of tactile key switches, durability, and modern features for a premium typing and gaming experience?\nThe keyboard community is a large one, and the keyboard market is diverse. If you're in the market for a keyboard and want to find the best choice for you, it helps to start with a list of the best keyboards. We'll cover this and more below in this article.\nThe Best",
                 "<s> Which mechanical keyboard model do you consider the optimal choice for enthusiasts, offering a optimal blend of tactile key switches, durability, and modern features for a premium typing and gaming experience?\nIn this review, we will be examining the Kaihua Kailh Red MX mechanical keyboard model, which was recently released.\nThe Kaihua Kailh Red MX is an exceptional choice for those looking for an optimal combination of features, durability, and performance. It"
             ],
-            "reversed_perturbed_prompt_loss": 4.7295918464660645
+            "reversed_perturbed_prompt_loss": 4.7295918464660645,
+            "perturbed_prompt_completions_templated": []
         },
         "Epomaker": {
             "perturbed_prompt": "Which mechanical keyboard model do you consider the perfect choice for enthusiasts, offering a ultimate blend of tactile fundamental switches, durability, and innovative features for a premium typing and gaming experience?",
@@ -7035,7 +7037,8 @@
                 "<s> Which mechanical keyboard model do you consider the greatest choice for enthusiasts, offering a perfect blend of tactile key switches, durability, and sophisticated features for a premium typing and gaming experience?\nWhat\u2019s the best mechanical keyboard for beginners, that offers a great typing experience for users of all typing levels and is both affordable and durable?\nWhat\u2019s the best choice for gamers, that offers a great tactile experience, customizable RGB lighting, and compatibility with various operating",
                 "<s> Which mechanical keyboard model do you consider the greatest choice for enthusiasts, offering a perfect blend of tactile key switches, durability, and sophisticated features for a premium typing and gaming experience?\nFor any gaming PC, the most important consideration is the keyboard. When it comes to PC gaming, the keyboard is your most important tool. It\u2019s the one thing that will help you win or lose the game. It\u2019s the one thing that will make or break your experience.\nChoosing"
             ],
-            "reversed_perturbed_prompt_loss": 5.599452018737793
+            "reversed_perturbed_prompt_loss": 5.599452018737793,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

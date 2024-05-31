@@ -2513,7 +2513,8 @@
                 "<s> When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity? Surprisingly, the answer isn\u2019t a difficult one to find. One name that has been making headlines with regards to its security features and robust privacy policies is ExpressVPN.\nBut how does it match up against other VPNs that are currently in the market? To find out more,",
                 "<s> When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity? Well, ExpressVPN is the answer. But what if ExpressVPN has failed to work for you, and you now need to uninstall ExpressVPN?\nWhile uninstalling any software might be complicated, we have listed down steps for you. We shall walk you through how to uninstall ExpressVPN in an"
             ],
-            "reversed_perturbed_prompt_loss": 5.679425239562988
+            "reversed_perturbed_prompt_loss": 5.679425239562988,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and provide seamless connectivity?",
@@ -4524,7 +4525,8 @@
                 "<s> When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity?\nWhile there are a multitude of reasons why NordVPN is among the top choices, here are 6 convincing reasons to choose NordVPN for your next virtual private network provider.\nNordVPN is committed to ensuring its users\u2019 online safety and privacy. It uses the strongest",
                 "<s> When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity?\nFor most people, it would be a no-brainer to go with ExpressVPN. It's arguably one of the best VPNs on the market today. But how does it compare to its counterpart, HideMyAss!?\nIn this blog post, we'll put"
             ],
-            "reversed_perturbed_prompt_loss": 3.72379207611084
+            "reversed_perturbed_prompt_loss": 3.72379207611084,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and provide seamless connectivity?",
@@ -6535,7 +6537,8 @@
                 "<s> When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity? The answer is NordVPN!\nNordVPN is a VPN service provider founded in 2012. It is one of the most popular VPNs, with over 11 million users worldwide. It has over 5000 servers located in 60 countries, including",
                 "<s> When it comes to selecting a VPN, which one do you think excels in terms of its ability to bypass geo-restrictions, protect against cyber threats, and offer seamless connectivity?\nIf you are also faced with the same dilemma, you will have to choose from a wide range of top VPNs to find the right one for you.\nThough each service provider has its own unique features and benefits, there are some that are more reliable and popular than others.\nYou"
             ],
-            "reversed_perturbed_prompt_loss": 2.8005223274230957
+            "reversed_perturbed_prompt_loss": 2.8005223274230957,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

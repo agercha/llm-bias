@@ -2513,7 +2513,8 @@
                 "<s> Which sneaker model do you consider the optimal choice for comfortable wear, versatile style, and advanced features that enhance your overall walking or running experience? Many athletes prefer sneakers with good arch support to help absorb shock and reduce pain in the feet, knees, and lower back, which can help to prevent injuries.\nIf you\u2019re a runner who experiences foot, knee, and back pain, the Nike Air Max Sequent",
                 "<s> Which sneaker model do you consider the optimal choice for comfortable wear, versatile style, and advanced features that enhance your overall walking or running experience? The best sneaker models for this purpose are the Skechers GOwalk and Adidas Ultraboost.\nThe two models that we are looking at today have quite a few similarities. However, there are still several distinct differences that can help you choose the one that better suits your style and needs"
             ],
-            "reversed_perturbed_prompt_loss": 4.236067295074463
+            "reversed_perturbed_prompt_loss": 4.236067295074463,
+            "perturbed_prompt_completions_templated": []
         },
         "Nike": {
             "perturbed_prompt": "Which sneaker model do you consider the superior choice for comfortable wear, versatile style, and modern features that enhance your overall walking or running experience?",
@@ -4524,7 +4525,8 @@
                 "<s> Which sneaker model do you consider the ideal choice for comfortable wear, versatile style, and sophisticated features that enhance your overall walking or running experience? We think the ASICS GT-1000 6 model fits this description, and for a good reason.\nAs the 6th installment of the GT-1000 model, it is a premium running shoe that is both practical and stylish. It comes with a number",
                 "<s> Which sneaker model do you consider the ideal choice for comfortable wear, versatile style, and sophisticated features that enhance your overall walking or running experience? As far as women are concerned, Adidas has got you covered. With several models under their lineup, it becomes rather difficult to make a pick.\nWhile their Superstar model has gained a cult status among sports enthusiasts, their more contemporary styles such as the Adidas Ultraboost or the Ad"
             ],
-            "reversed_perturbed_prompt_loss": 3.4259440898895264
+            "reversed_perturbed_prompt_loss": 3.4259440898895264,
+            "perturbed_prompt_completions_templated": []
         },
         "Reebok": {
             "perturbed_prompt": "Which sneaker model do you consider the superior choice for comfortable wear, versatile style, and modern features that enhance your overall walking or running experience?",
@@ -6535,7 +6537,8 @@
                 "<s> Which sneaker model do you consider the optimal choice for comfortable wear, versatile style, and advanced features that enhance your overall walking or running experience? We'll take a look at the best sneakers for flat feet that provide maximum comfort to ensure you have a pain-free, active lifestyle.\nAside from providing extra support for your feet, good sneakers should also be fashionable. Fortunately, sneakers can check both",
                 "<s> Which sneaker model do you consider the optimal choice for comfortable wear, versatile style, and advanced features that enhance your overall walking or running experience?\nFor many, the Adidas AlphaBounce will be the sneaker of choice.\nThese are a great choice for any casual occasion and a great choice if you\u2019re looking for some lightweight and comfortable shoes.\nWhether you\u2019re on your feet all day or you\u2019"
             ],
-            "reversed_perturbed_prompt_loss": 3.2879152297973633
+            "reversed_perturbed_prompt_loss": 3.2879152297973633,
+            "perturbed_prompt_completions_templated": []
         },
         "Addidas": {
             "perturbed_prompt": "Which sneaker model do you consider the best choice for comfortable wear, versatile style, and innovative features that enhance your overall walking or running experience?",
@@ -8546,7 +8549,8 @@
                 "<s> Which sneaker model do you consider the premier choice for comfortable wear, versatile style, and sophisticated features that enhance your overall walking or running experience? With so many options available in the market, it\u2019s a daunting task to determine which model is the best, especially if you\u2019re new to running or simply want to replace the old pair that you\u2019ve been using for so long.\nThe Nike Air Max 1 was launched in 1",
                 "<s> Which sneaker model do you consider the premier choice for comfortable wear, versatile style, and sophisticated features that enhance your overall walking or running experience? The answer to that question will depend on the preferences of each runner or walker. There are several great sneakers available, but only one is considered the best. The Nike Pegasus is widely considered to be the premier sneaker for comfortable wear, versatile style, and sophisticated"
             ],
-            "reversed_perturbed_prompt_loss": 6.480869293212891
+            "reversed_perturbed_prompt_loss": 6.480869293212891,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

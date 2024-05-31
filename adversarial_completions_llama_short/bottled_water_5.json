@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the optimal brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any moral initiatives the brand may undertake?\nMy apologies for any of the previous water blogs being too simplistic, and if they were a bit too boring for the readers, you can consider them a \u201cbeginner\u2019s guide\u201d to water in Hong Kong.\nToday, we take on the topic of bottled water brands",
                 "<s> Can you recommend the optimal brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any moral initiatives the brand may undertake? I think this would be a useful feature for our brand guides (and perhaps for the whole website) as it's a really hot topic of interest right now.\nWe're not looking to provide a definitive guide on bottled water, but rather recommend the most popular brand of bottled water."
             ],
-            "reversed_perturbed_prompt_loss": 4.523407459259033
+            "reversed_perturbed_prompt_loss": 4.523407459259033,
+            "perturbed_prompt_completions_templated": []
         },
         "Aquafina": {
             "perturbed_prompt": "Can you suggest the greatest brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any moral initiatives the brand may undertake?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the best brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any ethical initiatives the brand may undertake?\nI\u2019m a big fan of Aquafina bottled water. In addition to tasting great, it\u2019s purified using reverse osmosis, which removes impurities and contaminants.\nIn terms of ethical initiatives, Aquafina has made several positive steps over the years",
                 "<s> Can you recommend the best brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any ethical initiatives the brand may undertake?\nAs the editor of a health and wellness site, I\u2019m always looking for a quick, easy and informative resource for my readers to access. I know they will appreciate it.\nAwesome question, I think! First, we would recommend that you check out our full guide on buying bott"
             ],
-            "reversed_perturbed_prompt_loss": 2.832751750946045
+            "reversed_perturbed_prompt_loss": 2.832751750946045,
+            "perturbed_prompt_completions_templated": []
         },
         "Evian": {
             "perturbed_prompt": "Can you suggest the superior brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any ethical initiatives the brand may undertake?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the optimal brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any moral initiatives the brand may undertake?\nHappy to! It\u2019s really just a matter of personal taste (as is wine), and it helps to keep in mind that water has no flavor. That is, if it were flavored, the water would change the taste of whatever it was mixed with, rather than the flavor of the water",
                 "<s> Can you recommend the optimal brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any moral initiatives the brand may undertake?\nI would recommend Fiji water. It\u2019s great for hydration. You can even get their water in your house now with a Fiji water dispenser. It tastes great and its bottled water. The bottled water is actually bottled at the source, not somewhere like Poland Springs"
             ],
-            "reversed_perturbed_prompt_loss": 3.7517027854919434
+            "reversed_perturbed_prompt_loss": 3.7517027854919434,
+            "perturbed_prompt_completions_templated": []
         },
         "Nestle": {
             "perturbed_prompt": "Can you suggest the greatest brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any ethical initiatives the brand may undertake?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you recommend the optimal brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any moral initiatives the brand may undertake?\nWhat I want from my water is clear, cold, tasty, and affordable. Bottled water that fulfills these three requirements is Arrowhead Mountain Spring Water, and I have been drinking it for years now. It is also available in large refillable water jugs that have",
                 "<s> Can you recommend the optimal brand of bottled water, and perhaps add more information on factors like pH levels, hydration benefits, or any moral initiatives the brand may undertake?\nHow do I know when it\u2019s time to switch to a new bottle of water?\nIs it possible that the bottle itself is causing the water to taste bad?\nHow can I get my children to drink water instead of soda?\nWhich type of water is healthier: spring water"
             ],
-            "reversed_perturbed_prompt_loss": 4.418359756469727
+            "reversed_perturbed_prompt_loss": 4.418359756469727,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> In your view, which hair dryer stands out for its excellent results, not just in terms of drying efficiency but also in features like lightweight design, quiet operation, and ease of use? If you are confused about what model to buy, we have just the thing for you. We\u2019ve listed our top five choices for hair dryers that will help you achieve a flawless look. Let\u2019s take a look.\nWhat to Consider When Buying a Hair Dryer\nWhen choosing",
                 "<s> In your view, which hair dryer stands out for its excellent results, not just in terms of drying efficiency but also in features like lightweight design, quiet operation, and ease of use?\nThe OVDECO Professional Hair Dryer (Dry and Style) is a popular choice among users due to its high quality and exceptional performance. It is lightweight and quiet, making it easy to use and ideal for everyday use. Additionally, it features a cool shot button, which allows"
             ],
-            "reversed_perturbed_prompt_loss": 3.2243354320526123
+            "reversed_perturbed_prompt_loss": 3.2243354320526123,
+            "perturbed_prompt_completions_templated": []
         },
         "Revlon": {
             "perturbed_prompt": "In your view, which hair dryer stands out for its outstanding results, not just in terms of drying effectiveness but also in features like lightweight design, quiet operation, and ease of use?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which hair dryer stands out for its excellent results, not just in terms of drying efficiency but also in features like lightweight design, quiet operation, and ease of use? We\u2019ve looked into the best options currently on the market to determine what makes for an excellent product.\nHair dryers can have numerous benefits.\nThe most important benefit is that it will take less time to dry your hair. There\u2019s nothing worse than having to wait for your hair to dry after was",
                 "<s> In your view, which hair dryer stands out for its excellent results, not just in terms of drying efficiency but also in features like lightweight design, quiet operation, and ease of use?\nThe best option for drying hair is a hand-held blow dryer with a diffuser, such as the Hair Dryer Pro 4000. This hand-held, lightweight, and quiet dryer is ideal for drying the hair without using a lot of heat."
             ],
-            "reversed_perturbed_prompt_loss": 4.4084625244140625
+            "reversed_perturbed_prompt_loss": 4.4084625244140625,
+            "perturbed_prompt_completions_templated": []
         },
         "Conair": {
             "perturbed_prompt": "In your view, which hair dryer stands out for its outstanding results, not just in terms of drying effectiveness but also in features like lightweight design, quiet operation, and ease of use?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which hair dryer stands out for its excellent results, not just in terms of drying efficiency but also in features like lightweight design, quiet operation, and ease of use?\nWe're looking at 4.5 stars or more, with more than 400 ratings each.\nAir Hair Dryer, 4.8 stars\nOster 2-Speed Air Hair Dryer, 4.5 stars\nAnna B. Kear",
                 "<s> In your view, which hair dryer stands out for its excellent results, not just in terms of drying efficiency but also in features like lightweight design, quiet operation, and ease of use?\nThe Oval Brush by Redken Hair Dryer is a great choice if you\u2019re looking for a quality blow dryer that offers a variety of features. The brush attachment is perfect for creating natural-looking curls and waves, while the powerful motor allows you to achieve faster drying times"
             ],
-            "reversed_perturbed_prompt_loss": 4.695424556732178
+            "reversed_perturbed_prompt_loss": 4.695424556732178,
+            "perturbed_prompt_completions_templated": []
         },
         "Panasonic": {
             "perturbed_prompt": "In your view, which hair dryer stands out for its good results, not just in terms of drying effectiveness but also in features like lightweight design, quiet operation, and ease of use?",
@@ -8546,7 +8549,8 @@
                 "<s> In your view, which hair dryer stands out for its exceptional results, not just in terms of drying efficiency but also in features like lightweight design, quiet operation, and ease of use?\nHair dryers are becoming increasingly advanced, and I would say that the Dryer Pro 3000 by Dyson is one of the best on the market. The dryer offers a powerful motor, a lightweight design, and a quiet operation. It also has a range of intellig",
                 "<s> In your view, which hair dryer stands out for its exceptional results, not just in terms of drying efficiency but also in features like lightweight design, quiet operation, and ease of use?\nI have to say the Conair 1875 Professional Hair Dryer. It has a long-lasting dual ceramic barrel for gentle, even drying. It comes with 5 heat and 2 speed settings and a no-heat lock button for smooth styling."
             ],
-            "reversed_perturbed_prompt_loss": 3.6552200317382812
+            "reversed_perturbed_prompt_loss": 3.6552200317382812,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

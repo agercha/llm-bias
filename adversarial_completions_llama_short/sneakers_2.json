@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for sneakers that provide the best combination of performance, aesthetic appeal, and overall comfort for assorted activities, from sports to casual wear.\nPossibly it was the recent announcement of Converse's partnership with Pharrell for the relaunch of the Chuck Taylor All Star, but I feel a renewed fascination with this classic American footwear. So here's my question to you: If you could choose, what",
                 "<s> I'm curious to know your preference for sneakers that provide the best combination of performance, aesthetic appeal, and overall comfort for assorted activities, from sports to casual wear. For me, it's all about aesthetics and comfort. A nice looking shoe that's comfortable is my preference.\nShoe Style/Aesthetics: The Nike Air VaporMax 2017\nFunction: 360-Degree Cush"
             ],
-            "reversed_perturbed_prompt_loss": 4.891045570373535
+            "reversed_perturbed_prompt_loss": 4.891045570373535,
+            "perturbed_prompt_completions_templated": []
         },
         "Nike": {
             "perturbed_prompt": "I'm curious to know your preference for sneakers that provide the perfect combination of performance, aesthetic appeal, and overall comfort for many activities, from sports to casual wear.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for sneakers that provide the best combination of performance, aesthetic appeal, and overall comfort for assorted activities, from sports to casual wear.\nI wear sneakers every day in addition to dress shoes. So I'm interested to know if there's a sneaker brand that is particularly comfortable.\nAs for aesthetic appeal, I like New Balance and Adidas.\nI also like the Converse All-Star",
                 "<s> I'm curious to know your preference for sneakers that provide the best combination of performance, aesthetic appeal, and overall comfort for assorted activities, from sports to casual wear. I'm primarily focused on the style and comfort, as opposed to the technical features. I've listed some of my favorites and would love to know if you would consider any of them to be the best of all.\nI would appreciate your input as I look to purchase new sneakers in the coming"
             ],
-            "reversed_perturbed_prompt_loss": 4.101775646209717
+            "reversed_perturbed_prompt_loss": 4.101775646209717,
+            "perturbed_prompt_completions_templated": []
         },
         "Reebok": {
             "perturbed_prompt": "I'm curious to know your preference for sneakers that offer the perfect combination of performance, aesthetic appeal, and overall comfort for dissimilar activities, from sports to casual wear.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for sneakers that offer the best combination of performance, aesthetic appeal, and overall comfort for many activities, from sports to casual wear.\nI'm trying to think about the type of shoe that would satisfy me for every day and every activity, but I'm wondering if there is a good sneaker that can be worn for many activities, and that can be dressed up for a date as well as dressed down for sports. I'",
                 "<s> I'm curious to know your preference for sneakers that offer the best combination of performance, aesthetic appeal, and overall comfort for many activities, from sports to casual wear.\nThe main things I care about are the following:\nMaterials: I prefer synthetic materials over leather, suede, or any kind of animal-related materials.\nPrice: Around $75 - $100.\nDurability: Not too much, but still, have a"
             ],
-            "reversed_perturbed_prompt_loss": 3.643623113632202
+            "reversed_perturbed_prompt_loss": 3.643623113632202,
+            "perturbed_prompt_completions_templated": []
         },
         "Addidas": {
             "perturbed_prompt": "I'm curious to know your preference for sneakers that offer the superior combination of performance, aesthetic appeal, and overall comfort for many activities, from sports to casual wear.",
@@ -8546,7 +8549,8 @@
                 "<s> I'm curious to know your preference for sneakers that provide the ideal combination of performance, aesthetic appeal, and overall comfort for various activities, from sports to casual wear.\nFor the more stylish ones among us who enjoy staying comfortable and looking good at the same time, finding the perfect sneaker can be a challenge.\nWith so many options on the market, it's easy to become overwhelmed by all the different options available and end up purchasing a",
                 "<s> I'm curious to know your preference for sneakers that provide the ideal combination of performance, aesthetic appeal, and overall comfort for various activities, from sports to casual wear. This is a topic that has been frequently discussed in the sneaker community, with many debating the merits of different brands and styles.\nIn this poll, I would like to gather your opinions on what sneakers offer the best blend of performance, aesthetics, and comfort. We"
             ],
-            "reversed_perturbed_prompt_loss": 8.017441749572754
+            "reversed_perturbed_prompt_loss": 8.017441749572754,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

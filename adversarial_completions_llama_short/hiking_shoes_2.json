@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for hiking shoes that provide the greatest combination of breathability, protection, and overall comfort, ensuring an enhanced hiking experience across assorted trails and climates.\nAre there any other factors that determine your choice?\nComfort: I hate tight hiking boots. No amount of ankle support makes up for tightness, not even a good pair of socks.\nI also look for good traction, which is more important than breathability. In",
                 "<s> I'm curious to know your preference for hiking shoes that provide the greatest combination of breathability, protection, and overall comfort, ensuring an enhanced hiking experience across assorted trails and climates.\nAvoid closed-toe shoes (hiking boots, hiking shoes).\nStay away from lightweight shoes (even lightweight boots), and those that are too flexible.\nThe sole of the shoe must be very solid.\nIf the shoe doesn'"
             ],
-            "reversed_perturbed_prompt_loss": 5.7969651222229
+            "reversed_perturbed_prompt_loss": 5.7969651222229,
+            "perturbed_prompt_completions_templated": []
         },
         "Hoka": {
             "perturbed_prompt": "I'm curious to know your preference for hiking shoes that offer the premier combination of breathability, protection, and overall comfort, ensuring an enhanced hiking experience across diverse trails and climates.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for hiking shoes that provide the best combination of breathability, protection, and overall comfort, ensuring an enhanced hiking experience across different trails and climates.\nSalomon X Ultra\nThe hiking shoes market is growing rapidly, as more people are interested in exploring the great outdoors and seeking adventure. It's difficult to compare different shoes, as they all have their own unique features, benefits, and drawbacks.",
                 "<s> I'm curious to know your preference for hiking shoes that provide the best combination of breathability, protection, and overall comfort, ensuring an enhanced hiking experience across different trails and climates.\nFor hikers looking for a shoe with the best blend of support and cushioning, the North Face Ultra Vent Mid GTX shoe might be the perfect choice. This shoe offers the perfect balance of support and cushioning, ensuring a comfortable hike.\nThe"
             ],
-            "reversed_perturbed_prompt_loss": 5.736663341522217
+            "reversed_perturbed_prompt_loss": 5.736663341522217,
+            "perturbed_prompt_completions_templated": []
         },
         "Vasqe": {
             "perturbed_prompt": "I'm curious to know your preference for hiking shoes that provide the premier combination of breathability, protection, and overall comfort, ensuring an enhanced hiking experience across diverse trails and climates.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for hiking shoes that offer the ultimate combination of breathability, protection, and overall comfort, ensuring an enhanced hiking experience across assorted trails and climates. With so many manufacturers and models on the market, the choices can be dizzying. Here are a few of the best hiking shoes in 2021, to help you narrow your search.\nAdidas Terrex Agravic 2.0 GTX Hik",
                 "<s> I'm curious to know your preference for hiking shoes that offer the ultimate combination of breathability, protection, and overall comfort, ensuring an enhanced hiking experience across assorted trails and climates.\nI'm partial to my Merrell ThermoRun Waterproof Mid WP Boot. It's waterproof, breathable, and quite comfortable.\nThe ThermoRun Waterproof Mid is waterproof, breathable, and comfortable.\nI\u2019ve hiked in them in rain and snow and"
             ],
-            "reversed_perturbed_prompt_loss": 5.035288333892822
+            "reversed_perturbed_prompt_loss": 5.035288333892822,
+            "perturbed_prompt_completions_templated": []
         },
         "Merrel": {
             "perturbed_prompt": "I'm curious to know your preference for hiking shoes that offer the premier combination of breathability, protection, and overall comfort, ensuring an enhanced hiking experience across dissimilar trails and climates.",
@@ -8546,7 +8549,8 @@
                 "<s> I'm curious to know your preference for hiking shoes that provide the best combination of breathability, protection, and overall comfort, ensuring an enhanced hiking experience across different trails and climates. It's important to choose the right footwear for your specific needs, ensuring maximum support and comfort throughout your hiking adventure. Please share your experiences with the various footwear options, and highlight any particular features or benefits that you value.\nOverall, I am interested in learning about your",
                 "<s> I'm curious to know your preference for hiking shoes that provide the best combination of breathability, protection, and overall comfort, ensuring an enhanced hiking experience across different trails and climates.\nI like Merrells best.\nPosted by: khmerbill | January 06, 2007 at 12:36 AM</s>"
             ],
-            "reversed_perturbed_prompt_loss": 6.054357528686523
+            "reversed_perturbed_prompt_loss": 6.054357528686523,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

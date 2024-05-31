@@ -2513,7 +2513,8 @@
                 "<s> Can you suggest the perfect brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product? If the above information does not appeal to you, or if you are not interested in a product at this moment, you can still let us know.\nWe will continue to provide a large selection of razors for you to choose from, and we sincerely hope that we can help you find the product you want",
                 "<s> Can you suggest the perfect brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product?\nIt's a good idea to have a brand or product in mind when shopping for razors, but if you aren't set on a particular product or brand, there are other factors to consider when buying a razor, including price range, material, and blade type.\nIn terms of"
             ],
-            "reversed_perturbed_prompt_loss": 4.704233646392822
+            "reversed_perturbed_prompt_loss": 4.704233646392822,
+            "perturbed_prompt_completions_templated": []
         },
         "Venus": {
             "perturbed_prompt": "Can you suggest the greatest brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the optimal brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product?\nMy first question when trying out a razor is the comfort of the handle. For me, a good handle should have a good grip for both my palm and fingers. The handle needs to be firm and sturdy but not too hard that I feel uncomfortable in my palm. The",
                 "<s> Can you recommend the optimal brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product?\nIf you are looking for the best possible shave, I recommend a double-edged razor, also known as a DE razor or straight razor. Many people consider these to be the best razors for shaving.\nThis type of razor consists of a handle and a single, long bla"
             ],
-            "reversed_perturbed_prompt_loss": 4.378976345062256
+            "reversed_perturbed_prompt_loss": 4.378976345062256,
+            "perturbed_prompt_completions_templated": []
         },
         "Schick": {
             "perturbed_prompt": "Can you suggest the greatest brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the ultimate brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product?\nIt\u2019s no secret that I love shaving. Whether I\u2019m using my electric shaver for a quick morning shave or prefer to lather up with a traditional wet shave, it\u2019s an essential part of my daily routine. That being said, there are many factors to consider when selecting the",
                 "<s> Can you recommend the ultimate brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product?\nIf I had to choose, I would go with The Art of Shaving. If you want to learn more, check out the below video I made. I hope it helps you find the best razor for you.\nWant to find out about other grooming products? I have a video on my top"
             ],
-            "reversed_perturbed_prompt_loss": 5.737558364868164
+            "reversed_perturbed_prompt_loss": 5.737558364868164,
+            "perturbed_prompt_completions_templated": []
         },
         "Billie": {
             "perturbed_prompt": "Can you suggest the greatest brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you suggest the perfect brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product? Please post in the comment section below, and we\u2019ll do our best to review them and recommend the best ones we could find.\nBrand of razors:\nPick the razors for men that work best for you based on the below criteria.\nRazor style: Razors for men are",
                 "<s> Can you suggest the perfect brand of razors, and perhaps add more information on elements like blade material, ease of maintenance, or any skincare features integrated into the product? I\u2019ll have more razors available in the future if there is high demand.\nThis entry was posted in Ask Mr. Trivia and tagged razor, shaving. Bookmark the permalink.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 4.4033122062683105
+            "reversed_perturbed_prompt_loss": 4.4033122062683105,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

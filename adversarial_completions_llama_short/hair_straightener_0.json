@@ -2513,7 +2513,8 @@
                 "<s> Which hair straightener model do you consider the best choice for achieving smooth and sleek hair, temperature control, and modern features that protect hair from heat damage?\nThe answer will depend on your preferences and specific hair type.\nFor the best flat iron reviews in 2018 we have found some of the best straightener models that have been manufactured by the top brands.\nThese are models that are available in a wide range of price points,",
                 "<s> Which hair straightener model do you consider the best choice for achieving smooth and sleek hair, temperature control, and modern features that protect hair from heat damage? We know it is easy to feel confused when confronted with all the options on the market. We\u2019ve done the research for you. In this guide, we share the top-rated professional and home hair straighteners in 2020.\nWhat are the key features to look for when purch"
             ],
-            "reversed_perturbed_prompt_loss": 4.636268615722656
+            "reversed_perturbed_prompt_loss": 4.636268615722656,
+            "perturbed_prompt_completions_templated": []
         },
         "Rusk": {
             "perturbed_prompt": "Which hair straightener model do you consider the premier choice for achieving smooth and sleek hair, temperature control, and sophisticated features that protect hair from heat damage?",
@@ -4524,7 +4525,8 @@
                 "<s> Which hair straightener model do you consider the optimal choice for achieving smooth and sleek hair, temperature control, and advanced features that protect hair from heat damage? We have tested and reviewed four hair straighteners to share with you.\nThis is what we consider to be the best hair straightener for beginners that includes a one-inch tourmaline ceramic plate for smooth and frizz-free results. The hair straightener also has a cool shot technology",
                 "<s> Which hair straightener model do you consider the optimal choice for achieving smooth and sleek hair, temperature control, and advanced features that protect hair from heat damage? These are the questions that this article answers.\nWhat makes the Remington Pro Plus Smooth and Shine 1875 Watt Hair Styler, the ideal hair straightener? First, you should know that this model comes with a heating system that heats up to 450"
             ],
-            "reversed_perturbed_prompt_loss": 6.305993556976318
+            "reversed_perturbed_prompt_loss": 6.305993556976318,
+            "perturbed_prompt_completions_templated": []
         },
         "GHD": {
             "perturbed_prompt": "Which hair straightener model do you consider the superior choice for achieving smooth and sleek hair, temperature control, and advanced features that protect hair from heat damage?",
@@ -6535,7 +6537,8 @@
                 "<s> Which hair straightener model do you consider the best choice for achieving smooth and sleek hair, temperature control, and modern features that protect hair from heat damage?\nWhat are the features that determine the quality of a hair straightener?\nIn general, hair straighteners have two main components: a temperature control unit and a heating plate. Other features vary according to the product you\u2019re buying, but most have:\nAn adjustable temperature dial that lets",
                 "<s> Which hair straightener model do you consider the best choice for achieving smooth and sleek hair, temperature control, and modern features that protect hair from heat damage?\nHair straighteners are useful for smoothing hair into a sleek, straight, and shiny style.\nBut what if you\u2019re considering buying one of these devices but want to make sure you choose the best hair straightener model for you?\nWe will tell you about the best models"
             ],
-            "reversed_perturbed_prompt_loss": 3.9377167224884033
+            "reversed_perturbed_prompt_loss": 3.9377167224884033,
+            "perturbed_prompt_completions_templated": []
         },
         "BaByliss": {
             "perturbed_prompt": "Which hair straightener model do you consider the greatest choice for achieving smooth and sleek hair, temperature control, and sophisticated features that protect hair from heat damage?",
@@ -8546,7 +8549,8 @@
                 "<s> Which hair straightener model do you consider the superior choice for achieving smooth and sleek hair, temperature control, and sophisticated features that protect hair from heat damage?\nWe believe that the BaByliss Pro Nano Titanium Straightening Iron is the superior choice.\nWhether you are a first time purchaser or a seasoned expert in hair care, you may find this hair straightener review helpful when determining which straightener you should purchase.\nIn",
                 "<s> Which hair straightener model do you consider the superior choice for achieving smooth and sleek hair, temperature control, and sophisticated features that protect hair from heat damage? When comparing hair straighteners, the Corioliss Titanium Plus flat iron and the GHD Air Hair Straightener offer impressive features for the discerning hair stylist and hair aficionados, but with different prices, different heat resistant surfaces, and different types of plates,"
             ],
-            "reversed_perturbed_prompt_loss": 2.4377660751342773
+            "reversed_perturbed_prompt_loss": 2.4377660751342773,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

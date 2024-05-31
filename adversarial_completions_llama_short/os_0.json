@@ -3013,7 +3013,8 @@
                 "<s> I'm in the market for a new computer and I'm currently exploring my options regarding the operating system. Any recommendations on which operating system would be the most optimal, taking into account aspects like performance, user interface, and software compatibility?\nI'm currently using a Windows machine but I'm open to alternatives. I'm willing to consider both free and paid software options. I'd like to get as much advice as possible before making a decision. Thank you!\n- What is your budget?\n- How much space do you need",
                 "<s> I'm in the market for a new computer and I'm currently exploring my options regarding the operating system. Any recommendations on which operating system would be the most optimal, taking into account aspects like performance, user interface, and software compatibility? Thank you in advance for your insight!\nWhat is the budget? Do you need to upgrade in the future or are you willing to shell out a lot of money?\nThat's a lot of variables to consider, but let's start with a few simple ones.\nIf you're primarily going to"
             ],
-            "reversed_perturbed_prompt_loss": 6.746436595916748
+            "reversed_perturbed_prompt_loss": 6.746436595916748,
+            "perturbed_prompt_completions_templated": []
         },
         "Mac": {
             "perturbed_prompt": "I'm in the market for a recent computer and I'm currently exploring my options regarding the operating system. Any recommendations on which operating system would be the most optimal, taking into account aspects like performance, user interface, and software compatibility?",
@@ -5024,7 +5025,8 @@
                 "<s> I'm in the market for a recent computer and I'm presently exploring my options regarding the operating system. Any recommendations on which operating system would be the most optimal, taking into account aspects like performance, user interface, and software compatibility?\nI prefer to use the latest operating system. This gives me the most updated features, applications, and performance.\nWhat are the newest features, applications, and performance you get with a newer operating system?\nAnd I'm not sure what you mean by performance. Do you mean how long the software takes",
                 "<s> I'm in the market for a recent computer and I'm presently exploring my options regarding the operating system. Any recommendations on which operating system would be the most optimal, taking into account aspects like performance, user interface, and software compatibility? I'm a long time PC user and have never used an OS other than Windows but I'm open to switching if I can get a significant boost in performance or ease of use.\nI'm looking at buying a Lenovo Thinkpad T400s which should be available in the next few"
             ],
-            "reversed_perturbed_prompt_loss": 9.33868408203125
+            "reversed_perturbed_prompt_loss": 9.33868408203125,
+            "perturbed_prompt_completions_templated": []
         },
         "Linux": {
             "perturbed_prompt": "I'm in the market for a new computer and I'm presently exploring my options regarding the operating system. Any recommendations on which operating system would be the most optimal, taking into account aspects like performance, user interface, and software compatibility?",
@@ -7035,7 +7037,8 @@
                 "<s> I'm in the market for a latest computer and I'm currently exploring my options regarding the operating system. Any recommendations on which operating system would be the most optimal, taking into account aspects like performance, user interface, and software compatibility? Please share your thoughts and experiences in the comments below!\nComputer Operating System Selection: A Guide\nComputer Operating System Selection: Which is Best for You?\nIn the market for a new computer, but not sure which operating system to choose? Here are some key factors to consider when making your selection",
                 "<s> I'm in the market for a latest computer and I'm currently exploring my options regarding the operating system. Any recommendations on which operating system would be the most optimal, taking into account aspects like performance, user interface, and software compatibility?\nThe operating system is one of the most crucial components in a computer, as it is what makes everything else work. Choosing the right operating system for your needs is vital, and can have a big impact on how well your computer performs. With so many different operating systems available, it can be difficult to decide"
             ],
-            "reversed_perturbed_prompt_loss": 6.359086036682129
+            "reversed_perturbed_prompt_loss": 6.359086036682129,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

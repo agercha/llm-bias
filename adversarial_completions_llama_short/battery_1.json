@@ -3013,7 +3013,8 @@
                 "<s> When it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?\nEven though there is still no single battery type that can be considered to be the \u201cbest\u201d of all, several types have advantages over others. A lithium-ion battery\u2019s higher energy density and improved charge time make it a better choice. These batteries are also more environmentally friendly than others",
                 "<s> When it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability? It turns out that the answer to this question is not as simple as it may seem. While both lithium-ion and lead-acid batteries have their pros and cons, the question of which one is better for certain applications remains a contentious one.\nIn this article, we will compare and contrast"
             ],
-            "reversed_perturbed_prompt_loss": 2.3511624336242676
+            "reversed_perturbed_prompt_loss": 2.3511624336242676,
+            "perturbed_prompt_completions_templated": []
         },
         "Energizer": {
             "perturbed_prompt": "When it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?",
@@ -5024,7 +5025,8 @@
                 "<s> When it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability? In this article, we\u2019ll go through everything you need to know about the A123 and LG chem batteries, including a detailed comparison between the two.\nWhen it comes to choosing a battery for your electric vehicle, two manufacturers stand out above the rest: A123 and L",
                 "<s> When it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability? In this article, we will evaluate both alkaline and rechargeable batteries to determine which one is the best option for your needs.\nThe alkaline battery is a disposable battery that has been around for decades. They are widely used in everyday electronics such as flashlights, cam"
             ],
-            "reversed_perturbed_prompt_loss": 2.680473804473877
+            "reversed_perturbed_prompt_loss": 2.680473804473877,
+            "perturbed_prompt_completions_templated": []
         },
         "Panasonic": {
             "perturbed_prompt": "When it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?",
@@ -7035,7 +7037,8 @@
                 "<s> When it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability? Nickel batteries or lithium-ion batteries. Which one should you go for? This article will provide all the details you need to make an informed decision!\nLithium-Ion Vs. Nickel Batteries: The Comparison\nNickel batteries are often the better",
                 "<s> When it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?\nAs it turns out, these two popular battery types \u2013 lithium ion vs. lead acid \u2013 both have their own advantages.\nIn this article, we\u2019ll compare and contrast the two types of batteries so you can make an informed decision when selecting the best one for your needs.\nWhether you"
             ],
-            "reversed_perturbed_prompt_loss": 3.037405490875244
+            "reversed_perturbed_prompt_loss": 3.037405490875244,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> I'm in the market for a new TV, so can you suggest the most highly regarded one at the moment and offer some key details about its performance or unique attributes?\nI'm a bit of a technology nut, but in the end I'm a TV viewer, not a gadget guru. I'm in the market for a new TV, so can you suggest the most highly regarded one at the moment and offer some key details about its performance or unique",
                 "<s> I'm in the market for a new TV, so can you suggest the most highly regarded one at the moment and offer some key details about its performance or unique attributes?\nI'm not sure what you mean by \"highest regarded.\" If you're talking about features and design, Samsung's new curved OLED TV is quite the head turner, and you can read more about it in this article, which contains several TV reviews from the past year. But"
             ],
-            "reversed_perturbed_prompt_loss": 4.848880767822266
+            "reversed_perturbed_prompt_loss": 4.848880767822266,
+            "perturbed_prompt_completions_templated": []
         },
         "Sony": {
             "perturbed_prompt": "I'm in the market for a latest TV, so can you suggest the most highly regarded one at the moment and offer some fundamental details about its performance or unique attributes?",
@@ -4524,7 +4525,8 @@
                 "<s> I'm in the market for a new TV, so can you suggest the most highly regarded one at the moment and offer some key details about its performance or unequaled attributes? Or, perhaps, a great TV deal that I might be missing out on? We'll use the e-mail to answer all of those questions and more in this week's edition of TalkBack.\nA few words about the deal offered by Buy.com: A few years back they started an",
                 "<s> I'm in the market for a new TV, so can you suggest the most highly regarded one at the moment and offer some key details about its performance or unequaled attributes?\nI think the most highly regarded TVs at the moment are the Samsung F6400 and the Sony X800A. Both offer great value for money, though the Sony may be a little better. You can read a comprehensive overview of these and other great TVs at http://"
             ],
-            "reversed_perturbed_prompt_loss": 4.476415634155273
+            "reversed_perturbed_prompt_loss": 4.476415634155273,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "I'm in the market for a latest TV, so can you recommend the most highly regarded one at the moment and offer some fundamental details about its performance or unequalled attributes?",
@@ -6535,7 +6537,8 @@
                 "<s> I'm in the market for a new TV, so can you suggest the most highly regarded one at the moment and offer some key details about its performance or unequaled attributes?\nI'm writing in response to your recent letter about purchasing a new TV.\nI am going to tell you about a 55 inch LG OLED TV, but I also want to tell you about the technology that makes this one different than every other TV out there.\nTVs can",
                 "<s> I'm in the market for a new TV, so can you suggest the most highly regarded one at the moment and offer some key details about its performance or unequaled attributes?\nI've been a longtime consumer of Samsung, Sony and Sharp, but this time I'd like to branch out a little. I've done my homework but don't want to miss anything.\nI'm going to be getting my daughter an Apple iPad. I'"
             ],
-            "reversed_perturbed_prompt_loss": 5.365284442901611
+            "reversed_perturbed_prompt_loss": 5.365284442901611,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

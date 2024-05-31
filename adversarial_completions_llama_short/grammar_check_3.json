@@ -3013,7 +3013,8 @@
                 "<s> In your view, which grammar checking software stands out for its outstanding results, not just in terms of error detection but also in features like plagiarism checking, readability analysis, and support for multiple languages?\nOur users tell us they really like Grammarly and they recommend it. It\u2019s affordable and easy to use, with a very clean interface, and a good variety of features.\nThere are some other very good ones, though, like ProWritingAid. Like Grammarly,",
                 "<s> In your view, which grammar checking software stands out for its outstanding results, not just in terms of error detection but also in features like plagiarism checking, readability analysis, and support for multiple languages?\nI\u2019d say Grammarly is the best for now. The team of expert writers and proofreaders behind it have really done a great job with their algorithm. The support for multiple languages is also a nice bonus.\nDo you think the best software programs are all too pricey to buy?\nThere"
             ],
-            "reversed_perturbed_prompt_loss": 1.914463996887207
+            "reversed_perturbed_prompt_loss": 1.914463996887207,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

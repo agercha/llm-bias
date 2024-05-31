@@ -2513,7 +2513,8 @@
                 "<s> In your view, which ride-sharing platform stands out for its excellent results, not just in terms of ride availability but also in features like ride-sharing options, loyalty programs, and a commitment to safety and security?\nThe best ride-sharing apps that stand out for their good ride availability, features, safety, and security include the following:\nLyft - Lyft offers a 24/7 ride-sharing service and has a ride availability guarantee that ensures riders get a ride within minutes",
                 "<s> In your view, which ride-sharing platform stands out for its excellent results, not just in terms of ride availability but also in features like ride-sharing options, loyalty programs, and a commitment to safety and security?\nIf the pandemic has taught us anything, it\u2019s that we\u2019re all ready and willing to try new ways of moving around the world. Ride-sharing platforms have done a lot to help us travel safely and efficiently throughout the pandemic, and now we\u2019re beginning to see the benefits of"
             ],
-            "reversed_perturbed_prompt_loss": 2.8370280265808105
+            "reversed_perturbed_prompt_loss": 2.8370280265808105,
+            "perturbed_prompt_completions_templated": []
         },
         "Uber": {
             "perturbed_prompt": "In your view, which ride-sharing platform stands out for its great results, not just in terms of ride availability but also in features like ride-sharing options, loyalty programs, and a commitment to safety and security?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which ride-sharing platform stands out for its exceptional results, not just in terms of ride availability but also in features like ride-sharing options, loyalty programs, and a commitment to safety and security?\nRiders in the U.S. and Canada can use Lyft Rentals to rent a car for any reason\u2014long or short term.</s>",
                 "<s> In your view, which ride-sharing platform stands out for its exceptional results, not just in terms of ride availability but also in features like ride-sharing options, loyalty programs, and a commitment to safety and security?</s>"
             ],
-            "reversed_perturbed_prompt_loss": 3.5429985523223877
+            "reversed_perturbed_prompt_loss": 3.5429985523223877,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

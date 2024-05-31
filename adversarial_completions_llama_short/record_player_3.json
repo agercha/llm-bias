@@ -2513,7 +2513,8 @@
                 "<s> In your view, which record player stands out for its excellent results, not just in terms of sound clarity but also in features like built-in preamps, customizable settings, and a robust build for long-term use?\nI\u2019m a real sucker for the Audio Technica AT-LP60XBT. This turntable has everything you could possibly want and comes in a sturdy package.\nYou can choose between a wired or wireless connection, and you can use it with your PC or even connect",
                 "<s> In your view, which record player stands out for its excellent results, not just in terms of sound clarity but also in features like built-in preamps, customizable settings, and a robust build for long-term use?\nHere\u2019s the most complete list we\u2019ve been able to come up with of the top record players that are currently on the market.\nIn this piece, we will take a thorough look at the best record players on the market, with a particular focus on turntables, including those with the greatest f"
             ],
-            "reversed_perturbed_prompt_loss": 4.072817802429199
+            "reversed_perturbed_prompt_loss": 4.072817802429199,
+            "perturbed_prompt_completions_templated": []
         },
         "Technics": {
             "perturbed_prompt": "In your view, which record player stands out for its good results, not just in terms of sound clarity but also in features like built-in preamps, customizable settings, and a robust build for long-term use?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which record player stands out for its excellent results, not just in terms of sound clarity but also in features like built-in preamps, customizable settings, and a robust build for long-term use?\nSennheiser RS 175 Wireless Headphones (2016)\nThis wireless headphone model is well-known, and it is one of the most affordable and lightweight models available.\nThe battery life of 12 hours is also good, and the",
                 "<s> In your view, which record player stands out for its excellent results, not just in terms of sound clarity but also in features like built-in preamps, customizable settings, and a robust build for long-term use? We\u2019d appreciate your assistance, as we\u2019re trying to find the best turntable for the money in 2022!\nFantastic record players that can also be used as CD players are the top products to consider.\nWhen you are out shopping for the best turntable under"
             ],
-            "reversed_perturbed_prompt_loss": 3.3855490684509277
+            "reversed_perturbed_prompt_loss": 3.3855490684509277,
+            "perturbed_prompt_completions_templated": []
         },
         "Denon": {
             "perturbed_prompt": "In your view, which record player stands out for its good results, not just in terms of sound clarity but also in features like built-in preamps, customizable settings, and a robust build for long-term use?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which record player stands out for its outstanding results, not just in terms of sound clarity but also in features like built-in preamps, customizable settings, and a robust build for long-term use?\nThis page lists the top record players for audiophiles in 2022.\nAudio-Technica AT-LP60BK Fully Automatic Belt-Driven Stereo Turntable, Black, Record Player with Built-in Phono Preamp, for",
                 "<s> In your view, which record player stands out for its outstanding results, not just in terms of sound clarity but also in features like built-in preamps, customizable settings, and a robust build for long-term use?\nToday we are here to discuss one of the best record players that we can find. It\u2019t called Pro-Ject Debut Carbon Esprit SB Turntable, and its quality features are unparalleled by other models.\nAbove all, it has a sleek design"
             ],
-            "reversed_perturbed_prompt_loss": 5.070779323577881
+            "reversed_perturbed_prompt_loss": 5.070779323577881,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

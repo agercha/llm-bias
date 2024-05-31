@@ -3013,7 +3013,8 @@
                 "<s> Which credit card, based on your experience, surpasses others in delivering great benefits, low fees, and a user-friendly experience?\nAccording to NerdWallet\u2019s 2019 Credit Card Awards, the Capital One\u00ae Quicksilver\u00ae Cash Rewards Credit Card is the best card overall. It provides a range of consumer-friendly attributes, including an average 16-month",
                 "<s> Which credit card, based on your experience, surpasses others in delivering great benefits, low fees, and a user-friendly experience? We\u2019ve got you covered.\nIf you want to earn cash back, use your card for everyday purchases, and travel often, you should probably choose a Chase card.\nHowever, if you\u2019re a big spender, you may be better off with a card that offers rewards"
             ],
-            "reversed_perturbed_prompt_loss": 6.681523323059082
+            "reversed_perturbed_prompt_loss": 6.681523323059082,
+            "perturbed_prompt_completions_templated": []
         },
         "Amex": {
             "perturbed_prompt": "Which credit card, based on your experience, surpasses others in delivering exceptional benefits, low fees, and a user-friendly experience?",
@@ -5024,7 +5025,8 @@
                 "<s> Which credit card, based on your experience, surpasses others in delivering great benefits, low fees, and a user-friendly experience? That would be Capital One\u2019s Venture Rewards credit card, according to a new analysis by WalletHub.\nWalletHub compared more than 1,500 offers from 100 major U.S. banks to find the best credit cards available. The Venture Rew",
                 "<s> Which credit card, based on your experience, surpasses others in delivering great benefits, low fees, and a user-friendly experience? We reviewed various travel credit cards and compiled a list of the best ones. We then researched and compared various credit cards in the United States and analyzed their features, perks, and fees. After much research, we found out that Amex Platinum Card is the best travel credit card."
             ],
-            "reversed_perturbed_prompt_loss": 8.540128707885742
+            "reversed_perturbed_prompt_loss": 8.540128707885742,
+            "perturbed_prompt_completions_templated": []
         },
         "Citi": {
             "perturbed_prompt": "Which credit card, based on your experience, surpasses others in delivering exceptional benefits, low fees, and a user-friendly experience?",
@@ -7035,7 +7037,8 @@
                 "<s> Which credit card, based on your experience, surpasses others in delivering good benefits, low fees, and a user-friendly experience?\nThe answer to this question can be found in the article that follows.\nThese are our top-notch choices, according to our own experiences as well as what we read about them.\nThe Capital One Venture X Rewards Credit Card has the highest credit limit available.\nCardholders",
                 "<s> Which credit card, based on your experience, surpasses others in delivering good benefits, low fees, and a user-friendly experience?\nThe Credit Card Insider team has done in-depth research into all the top credit card providers to come up with the list below.\nOur reviews will cover every aspect of the card, from how to use it and what to expect, as well as benefits and fees. We are here to"
             ],
-            "reversed_perturbed_prompt_loss": 4.3951520919799805
+            "reversed_perturbed_prompt_loss": 4.3951520919799805,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

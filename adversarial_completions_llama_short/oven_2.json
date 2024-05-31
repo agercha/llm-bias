@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for the oven that offers the greatest combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.\nIn a head-to-head battle of two high-end ovens, a conventional electric convection model that cost $5,700, was found to be 23 percent more energy efficient than a dual-fuel convection oven that costs $1,300.",
                 "<s> I'm curious to know your preference for the oven that offers the greatest combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.\nI'm a fan of electric cookers, for the reasons you state. I do use an induction cooktop on occasion, but I think the only reason I do so is because I have to - the apartment I live in doesn't have an oven.\nI don't think they'"
             ],
-            "reversed_perturbed_prompt_loss": 3.7356231212615967
+            "reversed_perturbed_prompt_loss": 3.7356231212615967,
+            "perturbed_prompt_completions_templated": []
         },
         "KitchenAid": {
             "perturbed_prompt": "I'm curious to know your preference for the oven that offers the premier combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for the oven that offers the greatest combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.\nFor those in the US, I'm curious to know your preference for the oven that offers the greatest combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.\nMy preferred choice is the electric oven. Its features are very convenient for me and my family",
                 "<s> I'm curious to know your preference for the oven that offers the greatest combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.\nWhich one do you prefer most? I would like to know your preference!\nI like to cook everything, so I have a 32L electric oven. The best cooking results I\u2019ve gotten are from my double oven. One oven is a traditional oven and the other"
             ],
-            "reversed_perturbed_prompt_loss": 2.742964267730713
+            "reversed_perturbed_prompt_loss": 2.742964267730713,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "I'm curious to know your preference for the oven that offers the premier combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for the oven that offers the best combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.\nThe best possible cooking precision is provided by the use of the convection oven.\nIt is true that they're the most energy efficient of all the types.\nIn terms of overall convenience, the electric oven is the best choice.\nIn terms of energy efficiency and convenience, the induction",
                 "<s> I'm curious to know your preference for the oven that offers the best combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.\nDo you have a preference for a built-in wall oven or a freestanding model?\nWhen it comes to your oven, what\u2019s most important to you?\nI\u2019m just curious, but do you have the same preference for an electric or gas oven?\nDo you"
             ],
-            "reversed_perturbed_prompt_loss": 3.851094961166382
+            "reversed_perturbed_prompt_loss": 3.851094961166382,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

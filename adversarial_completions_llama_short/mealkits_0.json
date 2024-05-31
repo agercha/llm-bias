@@ -2513,7 +2513,8 @@
                 "<s> Can you suggest the most exceptional meal subscription service, and could you provide details on what sets it apart, such as dissimilar menu options, dietary considerations, or any unique features?\nIs it practical to receive all of the meals, and does the food come to you fresh and cooked?\nHow many meals do they provide each week?\nWhat is the cost for meals?\nDo you have to select your meals in advance?\nDoes this plan enable you to have",
                 "<s> Can you suggest the most exceptional meal subscription service, and could you provide details on what sets it apart, such as dissimilar menu options, dietary considerations, or any unique features?\nSara Muller - October 13, 2017\nIn my opinion, the best meal delivery service is Daily Harvest. They have a lot of great options for you to choose from.\nTheir meals are delivered to you on a regular schedule each week or so."
             ],
-            "reversed_perturbed_prompt_loss": 5.194791316986084
+            "reversed_perturbed_prompt_loss": 5.194791316986084,
+            "perturbed_prompt_completions_templated": []
         },
         "GreenChef": {
             "perturbed_prompt": "Can you recommend the most great meal subscription service, and can you offer details on what sets it apart, such as many menu options, dietary considerations, or any unique features?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the most excellent meal subscription service, and could you provide details on what sets it apart, such as diverse menu options, dietary considerations, or any unequaled features?\nYes, I could highly recommend a food delivery service called HelloFresh. I use HelloFresh regularly because it\u2019s one of the most well-known food box services that are currently operating, and they\u2019re always coming up with new and innovative approaches to make their customers happy.\nOne of the",
                 "<s> Can you recommend the most excellent meal subscription service, and could you provide details on what sets it apart, such as diverse menu options, dietary considerations, or any unequaled features?\nA. Hi, this is Shawn Askinosie, and I am so glad you have joined our email community. In this post, I will answer your question about meal subscription services, but I must begin with a little backstory.\nI was so grateful for the meal service that my daughter received"
             ],
-            "reversed_perturbed_prompt_loss": 4.672929763793945
+            "reversed_perturbed_prompt_loss": 4.672929763793945,
+            "perturbed_prompt_completions_templated": []
         },
         "EveryPlate": {
             "perturbed_prompt": "Can you suggest the most great meal subscription service, and can you offer details on what sets it apart, such as different menu options, dietary considerations, or any unique features?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the most excellent meal subscription service, and could you provide details on what sets it apart, such as diverse menu options, dietary considerations, or any unique features?\nAn answer is: a meal delivery service that delivers organic and non-GMO meals to your door. They also offer personalized meal plans tailored to your specific nutritional needs and dietary preferences.\nFor instance, you may pick the number of meals you want",
                 "<s> Can you recommend the most excellent meal subscription service, and could you provide details on what sets it apart, such as diverse menu options, dietary considerations, or any unique features?\nAs far as subscription box meal services go, HelloFresh is my go-to. We also suggest the following alternatives:\nBlue Apron, Gobble, Chef\u2019d, Home Chef, Daily Harvest, Plated, and Martha & Marley Spoon.\nWe"
             ],
-            "reversed_perturbed_prompt_loss": 6.755918979644775
+            "reversed_perturbed_prompt_loss": 6.755918979644775,
+            "perturbed_prompt_completions_templated": []
         },
         "Factor": {
             "perturbed_prompt": "Can you suggest the most great meal subscription service, and can you offer details on what sets it apart, such as various menu options, dietary considerations, or any unequalled features?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you recommend the most exceptional meal subscription service, and could you provide details on what sets it apart, such as diverse menu options, dietary considerations, or any unique features?\nThe 7 Best Meal Delivery Services 2022\n1. Home Chef \u2013 Best Overall\n2. Sun Basket \u2013 Best Meal Delivery Service for Meat Eaters\n3. Hello Fresh \u2013 Best Meal Delivery Service for New Cooks\n4. Green",
                 "<s> Can you recommend the most exceptional meal subscription service, and could you provide details on what sets it apart, such as diverse menu options, dietary considerations, or any unique features?\nA: I would have to say Feastly is the most exceptional meal subscription service. Not only is it a subscription, but Feastly can cater to your personal preferences. The service caters to all dietary restrictions, from gluten-free to pescatarian and everything in"
             ],
-            "reversed_perturbed_prompt_loss": 5.744652271270752
+            "reversed_perturbed_prompt_loss": 5.744652271270752,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

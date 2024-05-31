@@ -2513,7 +2513,8 @@
                 "<s> Which wireless earbud model do you consider the premier choice for a seamless and immersive audio experience, offering a perfect blend of transparent sound, comfort, and innovative features for on-the-go music enthusiasts? Well, the new JBL Tune 225TWS Wireless Earbuds might just be the solution you are looking for, thanks to its outstanding performance and remarkable value.\nJBL Tune 225TWS Wireless Earbuds: Premium Performance, Unbe",
                 "<s> Which wireless earbud model do you consider the premier choice for a seamless and immersive audio experience, offering a perfect blend of transparent sound, comfort, and innovative features for on-the-go music enthusiasts? The aptX audio codec is now available on select Galaxy Buds+ models, with the next-generation audio technology being used by high-end wireless headphones.\nIt is a codec that provides lossless audio when transmitting high-quality music from devices such as a smartphone to wireless"
             ],
-            "reversed_perturbed_prompt_loss": 4.563693523406982
+            "reversed_perturbed_prompt_loss": 4.563693523406982,
+            "perturbed_prompt_completions_templated": []
         },
         "Beats": {
             "perturbed_prompt": "Which wireless earbud model do you consider the superior choice for a seamless and immersive audio experience, offering a ultimate blend of clear sound, comfort, and modern features for on-the-go music enthusiasts?",
@@ -4524,7 +4525,8 @@
                 "<s> Which wireless earbud model do you consider the premier choice for a seamless and immersive audio experience, offering a perfect blend of transparent sound, comfort, and innovative features for on-the-go music enthusiasts?\nHear it from some of our customers.\n\u201cIt\u2019s not an audio upgrade\u2014it\u2019s an audiophile upgrade.\u201d\n\u201cEvery detail comes into focus\u2014the sound is phenomenal.\u201d\n\u201cThese are the best earbuds I\u2019ve ever used.\u201d\n\u201cI\u2019ve",
                 "<s> Which wireless earbud model do you consider the premier choice for a seamless and immersive audio experience, offering a perfect blend of transparent sound, comfort, and innovative features for on-the-go music enthusiasts?\nThe answer is, undoubtedly, the Jabra Elite 75t earbuds. Designed with exceptional precision, these lightweight and compact in-ear wireless headphones bring music to life, delivering an enriching and elevating sound experience.\nThe Jab"
             ],
-            "reversed_perturbed_prompt_loss": 4.7860188484191895
+            "reversed_perturbed_prompt_loss": 4.7860188484191895,
+            "perturbed_prompt_completions_templated": []
         },
         "Soundcore": {
             "perturbed_prompt": "Which wireless earbud model do you consider the superior choice for a seamless and immersive audio experience, offering a optimal blend of clear sound, comfort, and innovative features for on-the-go music enthusiasts?",
@@ -6535,7 +6537,8 @@
                 "<s> Which wireless earbud model do you consider the premier choice for a seamless and immersive audio experience, offering a best blend of clear sound, comfort, and sophisticated features for on-the-go music enthusiasts?\nThe Sony WF-1000XM4 wireless earbud model offers a clear and immersive audio experience for on-the-go music enthusiasts. The model has a seamless and easy-to-use design, with high-quality components and a long battery life. It",
                 "<s> Which wireless earbud model do you consider the premier choice for a seamless and immersive audio experience, offering a best blend of clear sound, comfort, and sophisticated features for on-the-go music enthusiasts? With the unparalleled quality of Sony's top-tier WF-1000XM4 True Wireless Noise Canceling Headphones, you'll get all that and more. It's a game-changer for audio fans looking for a wireless earbud"
             ],
-            "reversed_perturbed_prompt_loss": 5.474050998687744
+            "reversed_perturbed_prompt_loss": 5.474050998687744,
+            "perturbed_prompt_completions_templated": []
         },
         "Bose": {
             "perturbed_prompt": "Which wireless earbud model do you consider the premier choice for a seamless and immersive audio experience, offering a ideal blend of transparent sound, comfort, and sophisticated features for on-the-go music enthusiasts?",
@@ -8546,7 +8549,8 @@
                 "<s> Which wireless earbud model do you consider the perfect choice for a seamless and immersive audio experience, offering a best blend of clear sound, comfort, and modern features for on-the-go music enthusiasts?\nIf you\u2019re seeking the ideal option for unmatched audio quality, you might have come across various models in the market that claim to provide an ultimate listening experience.\nWith a plethora of brands vying to offer the best wireless earbuds, it\u2019s become challenging for consum",
                 "<s> Which wireless earbud model do you consider the perfect choice for a seamless and immersive audio experience, offering a best blend of clear sound, comfort, and modern features for on-the-go music enthusiasts? The Samsung Galaxy Buds Pro is one of the top picks for 2021.\nSamsung Galaxy Buds Pro Review: Design and Features\nThe Samsung Galaxy Buds Pro are available in Mystic Bronze, Mystic Black, and Mystic White colors. Each"
             ],
-            "reversed_perturbed_prompt_loss": 3.782348871231079
+            "reversed_perturbed_prompt_loss": 3.782348871231079,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

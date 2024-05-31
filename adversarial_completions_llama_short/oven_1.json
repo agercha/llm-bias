@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the best oven that excels in providing even baking, intuitive controls, and advanced cooking technologies for a best kitchen performance? The KitchenAid KCO275SS Review is the perfect answer.\nIn fact, the KCO275SS is a 27-inch freestanding electric convection oven that is available in stainless steel. It comes with many exciting and advanced technologies",
                 "<s> Can you recommend the best oven that excels in providing even baking, intuitive controls, and advanced cooking technologies for a best kitchen performance? With many oven brands available in the market, you may be wondering about the best oven available. It is not easy to choose the best oven for your kitchen. We have done thorough research to find you the best oven available. So, check out our list of the best oven.\nYou"
             ],
-            "reversed_perturbed_prompt_loss": 2.993516683578491
+            "reversed_perturbed_prompt_loss": 2.993516683578491,
+            "perturbed_prompt_completions_templated": []
         },
         "KitchenAid": {
             "perturbed_prompt": "Can you recommend the ideal oven that excels in providing even baking, intuitive controls, and modern cooking technologies for a greatest kitchen performance?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the best oven that excels in providing even baking, intuitive controls, and sophisticated cooking technologies for a perfect kitchen performance?\nWell, if you want to own the best oven, which offers you the ease of cooking and baking and provides more precise cooking controls, then Samsung NX60K7850SS will be the best choice. With more than 13 different features, you can cook different",
                 "<s> Can you recommend the best oven that excels in providing even baking, intuitive controls, and sophisticated cooking technologies for a perfect kitchen performance? I'm sure you can, and I'm sure it's not a Samsung oven!\nThe Samsung NX58J7750W oven and microwave are a match made in heaven. I recently installed the NX58J7750W over"
             ],
-            "reversed_perturbed_prompt_loss": 2.5520246028900146
+            "reversed_perturbed_prompt_loss": 2.5520246028900146,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "Can you suggest the perfect oven that excels in providing even baking, intuitive controls, and advanced cooking technologies for a ideal kitchen performance?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the ultimate oven that excels in providing even baking, intuitive controls, and sophisticated cooking technologies for a optimal kitchen performance?\nI\u2019d suggest getting the Samsung H9000. It is a high-end, built-in wall oven with four burners. The controls are intuitive and can be programmed with different settings. The oven is spacious and has a large oven rack.",
                 "<s> Can you recommend the ultimate oven that excels in providing even baking, intuitive controls, and sophisticated cooking technologies for a optimal kitchen performance?\nThis list was recently released on the internet, and is worth sharing.\nPreheat to 425\u00b0F with pizza stone, if used, inside the oven.\nAdd pizza dough on parchment paper and bake for about 10 to 15 minutes,"
             ],
-            "reversed_perturbed_prompt_loss": 3.6695096492767334
+            "reversed_perturbed_prompt_loss": 3.6695096492767334,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

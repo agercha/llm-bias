@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nAs an avid sparkling water enthusiast and a foodie, I have sampled numerous brands and found the following to be the best.\nThis sparkling water brand, which has been around since 1976, offers a wide selection of flavors. The water is carbonated and does",
                 "<s> Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nWe also appreciate your assistance in informing us of the best sparkling water available, as we are currently seeking to purchase sparkling water.\nI\u2019m searching for the best brand of sparkling water and want to learn more about it.\nPlease help me find a sparkling water that I can enjoy."
             ],
-            "reversed_perturbed_prompt_loss": 3.202080488204956
+            "reversed_perturbed_prompt_loss": 3.202080488204956,
+            "perturbed_prompt_completions_templated": []
         },
         "Bubbly": {
             "perturbed_prompt": "Can you recommend the top-notch brand of sparkling water, and can you offer details on what makes it stand out, such as flavor variety, carbonation level, or any unequalled features?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the top-notch brand of sparkling water, and can you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nHow about mineral water?\nCan you recommend the top-notch brand of mineral water, and can you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nDo you have a favorite sparkling or mineral water? If so",
                 "<s> Can you recommend the top-notch brand of sparkling water, and can you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nWe are a company that sells sparkling water in a can. Our product is a can of sparkling water infused with real, fruit juice. We are currently working with 3 different fruit juices and have 4 different flavors.\nThe cans we use are 12oz can"
             ],
-            "reversed_perturbed_prompt_loss": 6.7853684425354
+            "reversed_perturbed_prompt_loss": 6.7853684425354,
+            "perturbed_prompt_completions_templated": []
         },
         "Pellegrino": {
             "perturbed_prompt": "Can you recommend the top-notch brand of sparkling water, and can you offer details on what makes it stand out, such as flavor variety, carbonation level, or any unequalled features?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nPlease recommend 3 brands and their advantages over other brands.\nThe top brands of sparkling water are considered to be:\nEssentia: One of the most well-known brands in the market, Essentia is known for its high-quality water and flavorful options",
                 "<s> Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nIt's been a tough few years for my favorite beverage, but this one is finally back.\nIn honor of my favorite day of the year\u2014I love this show!\nIt's a long overdue update on this popular beverage, and I'm super excited to share it with"
             ],
-            "reversed_perturbed_prompt_loss": 6.192863464355469
+            "reversed_perturbed_prompt_loss": 6.192863464355469,
+            "perturbed_prompt_completions_templated": []
         },
         "Perrier": {
             "perturbed_prompt": "Can you recommend the top-notch brand of sparkling water, and can you offer details on what makes it stand out, such as flavor variety, carbonation level, or any unequalled features?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nIs the Sparkling Water with 5-Calorie Count, 0 Carbonation, and Unsweetened Nongassy Water Available in the USA?\nThe Sparkling Water with 5-Calorie Count, 0 Carbonation, and Unsweetened Nong",
                 "<s> Can you recommend the top-notch brand of sparkling water, and could you provide details on what makes it stand out, such as flavor variety, carbonation level, or any unique features?\nWe want to promote our sparkling water brand, which provides a unique and healthy twist on the classic beverage. The water is enriched with vitamins, minerals, and essential nutrients, making it a refreshing and nutritious choice for those looking to maintain a"
             ],
-            "reversed_perturbed_prompt_loss": 5.074751377105713
+            "reversed_perturbed_prompt_loss": 5.074751377105713,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<s> I'm curious to know your preference for mechanical keyboards that provide the greatest combination of ergonomic design, responsive switches, and overall comfort, ensuring an enhanced typing and gaming experience for extended periods.\nI've recently made the switch from membrane to mechanical keyboards, having tried the HP Omen 800 (Red Switches, Cherry MX), and now the Logitech G513 Carbon (Blue Switches, Cherry MX). Both offer high-quality",
                 "<s> I'm curious to know your preference for mechanical keyboards that provide the greatest combination of ergonomic design, responsive switches, and overall comfort, ensuring an enhanced typing and gaming experience for extended periods.\nAre there any mechanical keyboards that provide the greatest combination of ergonomic design, responsive switches, and overall comfort, ensuring an enhanced typing and gaming experience for extended periods?\nI'm curious to know if there are any mechanical keyboards on the market that provide the greatest combination of"
             ],
-            "reversed_perturbed_prompt_loss": 4.064295291900635
+            "reversed_perturbed_prompt_loss": 4.064295291900635,
+            "perturbed_prompt_completions_templated": []
         },
         "Keychron": {
             "perturbed_prompt": "I'm curious to know your preference for mechanical keyboards that offer the superior combination of ergonomic design, responsive switches, and overall comfort, ensuring an enhanced typing and gaming experience for extended periods.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm curious to know your preference for mechanical keyboards that provide the greatest combination of ergonomic design, responsive switches, and overall comfort, ensuring an enhanced typing and gaming experience for extended periods. I know that there are many different models of keyboards available that may offer some of these features, so I'm interested in finding out which models you would consider to be the best.\nIt's worth noting that my preference for mechanical keyboards tends to be more oriented towards durability, responsiveness",
                 "<s> I'm curious to know your preference for mechanical keyboards that provide the greatest combination of ergonomic design, responsive switches, and overall comfort, ensuring an enhanced typing and gaming experience for extended periods.\nThere are several ergonomic mechanical keyboards on the market, but the 10keyless, Kinesis Freestyle Edge, and the Kinesis Contoured keyboard are the most popular.\nThe 10keyless is the most expensive of the three at $250. The"
             ],
-            "reversed_perturbed_prompt_loss": 6.561112880706787
+            "reversed_perturbed_prompt_loss": 6.561112880706787,
+            "perturbed_prompt_completions_templated": []
         },
         "Epomaker": {
             "perturbed_prompt": "I'm curious to know your preference for mechanical keyboards that offer the superior combination of ergonomic design, responsive switches, and overall comfort, ensuring an enhanced typing and gaming experience for extended periods.",
@@ -7035,7 +7037,8 @@
                 "<s> I'm curious to know your preference for mechanical keyboards that provide the greatest combination of ergonomic design, responsive switches, and overall comfort, ensuring an enhanced typing and gaming experience for extended periods.\nThe choice of switch types can make a big difference to the tactility and ergonomics of a keyboard, and with more switches and features than ever before, it can be challenging to decide which one to choose.\nMechanical keyboard switches are the heart of the keyboard.\nThey are what",
                 "<s> I'm curious to know your preference for mechanical keyboards that provide the greatest combination of ergonomic design, responsive switches, and overall comfort, ensuring an enhanced typing and gaming experience for extended periods. There are many models available on the market today, each with its own unique set of features and benefits. But which ones are the best? What are your preferences?\nI would like to know your opinions.\nMy favorite keyboard right now is the G81-3000 from Das Keyboard."
             ],
-            "reversed_perturbed_prompt_loss": 6.488603591918945
+            "reversed_perturbed_prompt_loss": 6.488603591918945,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

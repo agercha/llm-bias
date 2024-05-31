@@ -3013,7 +3013,8 @@
                 "<s> In your view, which espresso machine stands out for its excellent results, not just in terms of brewing effectiveness but also in features like a dual boiler system, programmable settings, and a sleek design?\nSuch machines are relatively rare, as the majority of them focus on efficiency in the brewing process rather than in other aspects like design or extra features. For this reason, the most impressive features of these machines are primarily concentrated on the brewing process, such as PID temperature control.\nThe best",
                 "<s> In your view, which espresso machine stands out for its excellent results, not just in terms of brewing effectiveness but also in features like a dual boiler system, programmable settings, and a sleek design?\nThe best espresso machine is the Breville BES870XL Barista Touch Coffee Maker. It combines a top-of-the-line coffee grinder and a built-in frother with 15 pre-programmed coffee settings and a fully-automatic"
             ],
-            "reversed_perturbed_prompt_loss": 4.468341827392578
+            "reversed_perturbed_prompt_loss": 4.468341827392578,
+            "perturbed_prompt_completions_templated": []
         },
         "Gaggia": {
             "perturbed_prompt": "In your view, which espresso machine stands out for its good results, not just in terms of brewing efficiency but also in features like a dual boiler system, programmable settings, and a sleek design?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which espresso machine stands out for its excellent results, not just in terms of brewing effectiveness but also in features like a dual boiler system, programmable settings, and a sleek design? We've done the research, and here are some of the top picks from the best-performing espresso machines of 2022.\nWe recommend going with a machine that has a dual boiler system and is programmable.\nWe found that the best option for anyone looking for",
                 "<s> In your view, which espresso machine stands out for its excellent results, not just in terms of brewing effectiveness but also in features like a dual boiler system, programmable settings, and a sleek design? You may want to ask yourself these questions before making any decisions.\nWhat are the most important features you\u2019re looking for?\nWhat are the important features that you require for your espresso maker? If you are not sure what to look for in an espresso machine, you can always consult"
             ],
-            "reversed_perturbed_prompt_loss": 3.1700611114501953
+            "reversed_perturbed_prompt_loss": 3.1700611114501953,
+            "perturbed_prompt_completions_templated": []
         },
         "Nespresso": {
             "perturbed_prompt": "In your view, which espresso machine stands out for its good results, not just in terms of brewing efficiency but also in features like a dual boiler system, programmable settings, and a sleek design?",
@@ -7035,7 +7037,8 @@
                 "<s> In your view, which espresso machine stands out for its excellent results, not just in terms of brewing effectiveness but also in features like a dual boiler system, programmable settings, and a sleek design?\nSimply Moka is the brand of the Moka pots or Italian stovetop espresso makers. The company was founded in 2006 in the Italian province of Venice. The name is inspired by Moka, a nickname of the Italian city of Trieste.",
                 "<s> In your view, which espresso machine stands out for its excellent results, not just in terms of brewing effectiveness but also in features like a dual boiler system, programmable settings, and a sleek design? We know that each machine has its pros and cons, but can you highlight any particular brand as superior to the others?\nWe\u2019re happy to see so much passion for the world of espresso machines. We get a lot of questions and comments from coffee lovers and it\u2019s great to see that everyone"
             ],
-            "reversed_perturbed_prompt_loss": 2.5671956539154053
+            "reversed_perturbed_prompt_loss": 2.5671956539154053,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

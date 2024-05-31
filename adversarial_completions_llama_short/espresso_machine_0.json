@@ -3013,7 +3013,8 @@
                 "<s> Which espresso machine model do you consider the optimal choice for brewing rich and flavorful coffee, accurate temperature control, and modern features that elevate your espresso experience? The 10 most recommended espresso machines of 2022 can be found below, with detailed information about each espresso machine including cost, materials, features, and more. We\u2019ve taken a deep dive into 10 espresso machines from 10 well-known br",
                 "<s> Which espresso machine model do you consider the optimal choice for brewing rich and flavorful coffee, accurate temperature control, and modern features that elevate your espresso experience?\nThe Breville Oracle is the most versatile and complete espresso machine on the market. It features commercial-grade components, 105\u00b0C boiler temperature for optimal extraction, and an internal PID temperature control system for a precision espresso taste. The Oracle\u2019s brew group"
             ],
-            "reversed_perturbed_prompt_loss": 3.0680925846099854
+            "reversed_perturbed_prompt_loss": 3.0680925846099854,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Which espresso machine model do you consider the perfect choice for brewing rich and flavorful coffee, exact temperature control, and innovative features that elevate your espresso experience?",
@@ -5024,7 +5025,8 @@
                 "<s> Which espresso machine model do you consider the ultimate choice for brewing rich and flavorful coffee, precise temperature control, and sophisticated features that elevate your espresso experience?\nFor some, that choice may lie with a machine from Jura.\nWith the new lineup of espresso machines from Jura, you have some great choices, all of which are capable of high-quality results. They\u2019re easy to use, feature top-tier components, and give you",
                 "<s> Which espresso machine model do you consider the ultimate choice for brewing rich and flavorful coffee, precise temperature control, and sophisticated features that elevate your espresso experience?\nWhat is the best machine for home use?\nWhat is the best machine for home use\nThe best machines for home use can be difficult to choose. With so many options, it can be difficult to find the best option for your needs. Whether you\u2019re looking for a machine that brews coffee quickly,"
             ],
-            "reversed_perturbed_prompt_loss": 4.325930118560791
+            "reversed_perturbed_prompt_loss": 4.325930118560791,
+            "perturbed_prompt_completions_templated": []
         },
         "Nespresso": {
             "perturbed_prompt": "Which espresso machine model do you consider the greatest choice for brewing rich and flavorful coffee, exact temperature control, and modern features that elevate your espresso experience?",
@@ -7035,7 +7037,8 @@
                 "<s> Which espresso machine model do you consider the ultimate choice for brewing rich and flavorful coffee, precise temperature control, and sophisticated features that elevate your espresso experience?\nThe DeLonghi ECP3420 Espresso Machine has been crowned the Ultimate Espresso Machine and awarded the coveted Readers' Choice Award by Barista Magazine in its February 2022 issue.\nBarista Magazine is the only print publication dedicated exclusively",
                 "<s> Which espresso machine model do you consider the ultimate choice for brewing rich and flavorful coffee, precise temperature control, and sophisticated features that elevate your espresso experience? Is it the La Marzocco Strada? The Fracino MagiMatic? The Rancilio Silvia? Or maybe it\u2019s one of the other models mentioned here.\nEspresso machines are often considered the gold standard for home coffee brewing. These machines are designed to replicate"
             ],
-            "reversed_perturbed_prompt_loss": 2.62058687210083
+            "reversed_perturbed_prompt_loss": 2.62058687210083,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

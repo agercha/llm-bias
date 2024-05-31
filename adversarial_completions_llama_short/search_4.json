@@ -2513,7 +2513,8 @@
                 "<s> In the quest for an optimal search experience, I'm wondering which search engine would be the most fitting choice. Your expertise would be worthful in identifying a search engine that combines precision, user-friendliness, and a rich set of search capabilities.\nI would like to make some modifications in the interface to the current Google search.\nI would like to implement this modification in Google search. Is this possible?\nIs it possible to modify Google search?\nCan I make customized google search page with the default search engine?\nHow can I set Google search",
                 "<s> In the quest for an optimal search experience, I'm wondering which search engine would be the most fitting choice. Your expertise would be worthful in identifying a search engine that combines precision, user-friendliness, and a rich set of search capabilities.\nThere are lots of different search engines out there, but they can be broadly split into \"general purpose\" search engines, which can be used for almost anything, and \"domain specific\" search engines, which are tuned to the domain at hand.\nThere are also different levels of control. Some search engines"
             ],
-            "reversed_perturbed_prompt_loss": 5.205827713012695
+            "reversed_perturbed_prompt_loss": 5.205827713012695,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "In the quest for an greatest search experience, I'm wondering which search engine would be the most fitting choice. Your expertise would be valuable in identifying a search engine that combines precision, user-friendliness, and a rich set of search capabilities.",
@@ -4524,7 +4525,8 @@
                 "<s> In the quest for an optimal search experience, I'm wondering which search engine would be the most fitting choice. Your expertise would be worthful in identifying a search engine that combines precision, user-friendliness, and a rich set of search capabilities. My understanding is that Google is the industry leader, but I'm also interested to learn how it compares with Bing and Yahoo. Any insight?\nYou are correct about Google being the industry leader. In terms of search capabilities, the two other major search engines (Yahoo! and Bing) have",
                 "<s> In the quest for an optimal search experience, I'm wondering which search engine would be the most fitting choice. Your expertise would be worthful in identifying a search engine that combines precision, user-friendliness, and a rich set of search capabilities.\nIn my opinion, there's no way around Google's unmatched scope, speed and popularity. However, that doesn't necessarily make it the best choice if your search needs are sophisticated. The web is full of great suggestions and experiments. Here are a few, but not at"
             ],
-            "reversed_perturbed_prompt_loss": 9.250205039978027
+            "reversed_perturbed_prompt_loss": 9.250205039978027,
+            "perturbed_prompt_completions_templated": []
         },
         "Yahoo": {
             "perturbed_prompt": "In the quest for an greatest search experience, I'm wondering which search engine would be the most fitting choice. Your expertise would be valuable in identifying a search engine that combines precision, user-friendliness, and a rich set of search capabilities.",
@@ -6535,7 +6537,8 @@
                 "<s> In the quest for an optimal search experience, I'm wondering which search engine would be the most fitting choice. Your expertise would be worthful in identifying a search engine that combines precision, user-friendliness, and a rich set of search capabilities.\nWhich search engine would you choose?\nThere are many search engines. I use Google for 95% of my searches. I use other search engines 5% of the time.\nThe best is what your users use.\nI have a few favorites.\nDuck Duck Go is",
                 "<s> In the quest for an optimal search experience, I'm wondering which search engine would be the most fitting choice. Your expertise would be worthful in identifying a search engine that combines precision, user-friendliness, and a rich set of search capabilities. I'd be grateful for any advice, as well as any tips you may have on how to optimize the search experience in the future.\nBy the way, this is not for a web search engine, but for a text-only search of a large PDF.\nA single search for your use case can be"
             ],
-            "reversed_perturbed_prompt_loss": 4.780516147613525
+            "reversed_perturbed_prompt_loss": 4.780516147613525,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

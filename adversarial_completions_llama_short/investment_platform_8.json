@@ -2513,7 +2513,8 @@
                 "<s> I'm in search of the top-notch investment platform; any recommendations for the one that offers the best balance between convenience, features, and overall investment success? I'm interested in making money in this financial market.\nIf you\u2019re looking for the best-in-class investment platform, you need to know what\u2019s out there. I\u2019ve compiled a list of the top investment platforms below:\neToro \u2013 is an excellent choice for people",
                 "<s> I'm in search of the top-notch investment platform; any recommendations for the one that offers the best balance between convenience, features, and overall investment success?\nWould be interested in any recommendations or feedback regarding the broker and platform.\nI'm searching for the best and most trustworthy broker for my stock trading.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 4.445385456085205
+            "reversed_perturbed_prompt_loss": 4.445385456085205,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "I'm in search of the top-notch investment platform; any recommendations for the one that offers the greatest balance between convenience, features, and overall investment success?",
@@ -4524,7 +4525,8 @@
                 "<s> I'm in search of the top-notch investment platform; any recommendations for the one that offers the best balance between convenience, features, and overall investment success?\nThe question of which trading platform is the best in today's market is the subject of a lot of research and debate. In addition to the fact that every platform offers its own unique set of features and options, the decision to choose one comes down to personal preference. Before deciding, it is crucial",
                 "<s> I'm in search of the top-notch investment platform; any recommendations for the one that offers the best balance between convenience, features, and overall investment success? I'm willing to spend a bit more to make sure my investment is safe and reliable.\n1) Security - I need to make sure my investment is safe.\n2) Features - I'm willing to spend a bit more to get a platform with more features.\n3) Conven"
             ],
-            "reversed_perturbed_prompt_loss": 3.594132661819458
+            "reversed_perturbed_prompt_loss": 3.594132661819458,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

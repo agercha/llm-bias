@@ -3013,7 +3013,8 @@
                 "<s> Can you recommend the best toaster that excels in providing consistent browning, user-friendly controls, and additional functionalities such as defrosting or bagel toasting? We are sure that there is the ideal choice for every toast aficionado out there. For this purpose, we have gathered a list of five of the top models and compared them based on their special features to help you choose.\nWhen toasting bread, what is the most important aspect for most people?",
                 "<s> Can you recommend the best toaster that excels in providing consistent browning, user-friendly controls, and additional functionalities such as defrosting or bagel toasting?\nIn this guide, we will cover all the major toasters that currently stand out on the market and explain why they might be the perfect appliance for you.\nOur list comprises a variety of toasters, from simple yet stylish devices to advanced and versatile models that can provide you with"
             ],
-            "reversed_perturbed_prompt_loss": 2.954951286315918
+            "reversed_perturbed_prompt_loss": 2.954951286315918,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Can you suggest the superior toaster that excels in providing consistent browning, user-friendly controls, and additional functionalities such as defrosting or bagel toasting?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the best toaster that excels in providing consistent browning, user-friendly controls, and additional functionalities such as defrosting or bagel toasting? After browsing through many toaster reviews, we\u2019ve concluded that the Breville Smart Oven Toaster is the best toaster available right now.\nThis toaster is capable of producing consistently golden brown toasts and other breakfast foods due to its 7-level browning system. It also",
                 "<s> Can you recommend the best toaster that excels in providing consistent browning, user-friendly controls, and additional functionalities such as defrosting or bagel toasting?\nBrowning control is something that you can\u2019t simply ignore. You can get a toaster that can easily achieve your desired level of toasting from light to dark.\nThe ability to add ingredients and customize the browning is something that you can take into consideration. That way, you"
             ],
-            "reversed_perturbed_prompt_loss": 5.11458683013916
+            "reversed_perturbed_prompt_loss": 5.11458683013916,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

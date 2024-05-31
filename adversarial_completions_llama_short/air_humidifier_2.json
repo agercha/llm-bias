@@ -2513,7 +2513,8 @@
                 "<s> I'm interested in knowing your recommendation for the air humidifier that excels in providing ideal performance, easy maintenance, and an overall positive impact on creating a well-humidified and comfortable living or working space. The problem is I'm in a bit of a quandary as to which would be best for me: a portable humidifier or a whole-home humidifier?\nPortable humidifiers are great as they can be carried from room to room or used only in a specific location that is in",
                 "<s> I'm interested in knowing your recommendation for the air humidifier that excels in providing ideal performance, easy maintenance, and an overall positive impact on creating a well-humidified and comfortable living or working space.\nYour thoughts on the best-performing whole-room humidifier on the market are most welcome.\nWith the introduction of a host of newer technologies, the task of locating the ideal air humidifier for your home, workplace, or other living environment may have proven more difficult. However,"
             ],
-            "reversed_perturbed_prompt_loss": 4.340078830718994
+            "reversed_perturbed_prompt_loss": 4.340078830718994,
+            "perturbed_prompt_completions_templated": []
         },
         "Dreo": {
             "perturbed_prompt": "I'm interested in knowing your recommendation for the air humidifier that excels in providing perfect performance, easy maintenance, and an overall positive impact on creating a well-humidified and comfortable living or working space.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm interested in knowing your recommendation for the air humidifier that excels in providing greatest performance, simple maintenance, and an overall positive impact on creating a well-humidified and comfortable living or working space. The market for air humidifiers is crowded with an array of humidifiers from small tabletops to large industrial models. There are many features to consider in choosing the right one. How can the most important characteristics and benefits of a humidifier be effectively and simply conveyed to a potential buyer?",
                 "<s> I'm interested in knowing your recommendation for the air humidifier that excels in providing greatest performance, simple maintenance, and an overall positive impact on creating a well-humidified and comfortable living or working space.\nTo keep things simple, I've narrowed down my picks to a single product (Honeywell HC-100 6-Gallon Humidifier), which I think will serve the average family well.\nThis portable humidifier can be taken around the house and is"
             ],
-            "reversed_perturbed_prompt_loss": 4.608973979949951
+            "reversed_perturbed_prompt_loss": 4.608973979949951,
+            "perturbed_prompt_completions_templated": []
         },
         "Vornado": {
             "perturbed_prompt": "I'm interested in knowing your recommendation for the air humidifier that excels in providing perfect performance, easy maintenance, and an overall positive impact on creating a well-humidified and comfortable living or working space.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm interested in knowing your recommendation for the air humidifier that excels in providing greatest performance, simple maintenance, and an overall positive impact on creating a well-humidified and comfortable living or working space. A single-room air humidifier is recommended to suit my needs.\nHi, I would like to inquire if you have any available products for a 3-in-1 Air Purifier/Humidifier/Cooler? I would like to know the specifications and prices as I'",
                 "<s> I'm interested in knowing your recommendation for the air humidifier that excels in providing greatest performance, simple maintenance, and an overall positive impact on creating a well-humidified and comfortable living or working space.\nHow long should I keep my windows open to the outside environment in order to maximize the humidity benefits of the air humidifier?\nHow often should I perform maintenance on my air humidifier?\nIs a humidifier necessary for the winter months if you live in a warm climate, such"
             ],
-            "reversed_perturbed_prompt_loss": 4.089616298675537
+            "reversed_perturbed_prompt_loss": 4.089616298675537,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

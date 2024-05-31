@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the best sunscreen that excels in providing dependable UV protection, water resistance, and extra features such as a non-greasy formula, suitable for both everyday use and outdoor adventures?\nThere are many sunscreens available in the market today, and the quality of protection they can provide against harmful UV rays varies.\nWhen looking for sunscreen, make sure to check for factors such as water resistance, SPF, and ingredients to avoid.\nThe best suns",
                 "<s> Can you recommend the best sunscreen that excels in providing dependable UV protection, water resistance, and extra features such as a non-greasy formula, suitable for both everyday use and outdoor adventures? Our research team has identified the best sunscreen to help you make a decision!\nAfter careful research and evaluation, we have identified the best sunscreen that can provide reliable UV protection, non-greasy and fragrance-free formula, and is suitable for both everyday use and outdoor activities."
             ],
-            "reversed_perturbed_prompt_loss": 4.4360737800598145
+            "reversed_perturbed_prompt_loss": 4.4360737800598145,
+            "perturbed_prompt_completions_templated": []
         },
         "Supergoop": {
             "perturbed_prompt": "Can you suggest the greatest sunscreen that excels in providing dependable UV protection, water resistance, and additional features such as a non-greasy formula, appropriate for both everyday use and outside adventures?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the best sunscreen that excels in providing reliable UV protection, water resistance, and additional features such as a non-greasy formula, suitable for both daily use and outside adventures?\nAfter reading various sunscreen reviews, we believe that the Neutrogena Ultra Sheer Face Sunscreen is the best option for anyone looking for the best sunscreen in 2021. It is specially formulated for the delicate areas of the face and is perfect for anyone who",
                 "<s> Can you recommend the best sunscreen that excels in providing reliable UV protection, water resistance, and additional features such as a non-greasy formula, suitable for both daily use and outside adventures?\nWe\u2019re currently looking into buying a new sunscreen for outdoor trips, and our options have been fairly limited. Our best pick currently is the Elta MD UV Clear SPF 41 Sunscreen since it meets all the requirements we\u2019re looking for in a sunscreen."
             ],
-            "reversed_perturbed_prompt_loss": 4.159875392913818
+            "reversed_perturbed_prompt_loss": 4.159875392913818,
+            "perturbed_prompt_completions_templated": []
         },
         "Coppertone": {
             "perturbed_prompt": "Can you suggest the ultimate sunscreen that excels in providing dependable UV protection, water resistance, and additional features such as a non-greasy formula, appropriate for both everyday use and outside adventures?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the best sunscreen that excels in providing reliable UV protection, water resistance, and additional features such as a non-greasy formula, suitable for both everyday use and outside adventures?\nIn this comprehensive review of 2021\u2019s top-performing sunscreen brands, we dive into the unique characteristics and benefits of each product, to help you make an informed decision that best suits your needs.\nBest Sun Screens for Everyday Use:\nOur top",
                 "<s> Can you recommend the best sunscreen that excels in providing reliable UV protection, water resistance, and additional features such as a non-greasy formula, suitable for both everyday use and outside adventures?\nIn the world of sunscreens, not all brands are equal. There are many factors to consider and even though you might think you found a quality sunscreen, it\u2019s not guaranteed to be the case.\nThere are three main types of sunscreens that each have pros and cons. The best"
             ],
-            "reversed_perturbed_prompt_loss": 3.280909299850464
+            "reversed_perturbed_prompt_loss": 3.280909299850464,
+            "perturbed_prompt_completions_templated": []
         },
         "Aveeno": {
             "perturbed_prompt": "Can you suggest the ultimate sunscreen that excels in providing dependable UV protection, water resistance, and additional features such as a non-greasy formula, appropriate for both everyday use and outside adventures?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you recommend the best sunscreen that excels in providing reliable UV protection, water resistance, and additional features such as a non-greasy formula, suitable for both everyday use and outside adventures? These are the primary features that matter to me and should be considered in choosing the best sunscreen for my use. It can be applied easily as a cream or a spray.\nBetter yet, a formula that is gentle and gentle on skin, is not greasy, is light and fresh, and does",
                 "<s> Can you recommend the best sunscreen that excels in providing reliable UV protection, water resistance, and additional features such as a non-greasy formula, suitable for both everyday use and outside adventures?\nIf you're in the market for a sunscreen that offers you reliable UV protection, water resistance, and additional features such as a non-greasy formula, we've done the research for you and have compiled a list of the best sunscreen options available today. We've evaluated sunscreens"
             ],
-            "reversed_perturbed_prompt_loss": 4.089663028717041
+            "reversed_perturbed_prompt_loss": 4.089663028717041,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

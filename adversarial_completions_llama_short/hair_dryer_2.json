@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for the hair dryer that offers the greatest combination of drying performance, ergonomic design, and overall convenience in achieving assorted hairstyles. What I'm interested in knowing is what's your favorite, and why. I've owned quite a few, and currently use a Cabela's dryer. But, I'm ready to get another hair dryer and am open to different ideas on what may be the best product out there",
                 "<s> I'm curious to know your preference for the hair dryer that offers the greatest combination of drying performance, ergonomic design, and overall convenience in achieving assorted hairstyles. How do you feel about airflow? Are you attracted to the high-velocity blasts of air or is the constant stream of cool air more important to you? How about the size, weight, and shape of the handheld dryer?\nMany hair dryer manufacturers promote their dryers"
             ],
-            "reversed_perturbed_prompt_loss": 3.438164710998535
+            "reversed_perturbed_prompt_loss": 3.438164710998535,
+            "perturbed_prompt_completions_templated": []
         },
         "Revlon": {
             "perturbed_prompt": "I'm curious to know your preference for the hair dryer that offers the premier combination of drying performance, ergonomic design, and overall convenience in achieving diverse hairstyles.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for the hair dryer that offers the greatest combination of drying performance, ergonomic design, and overall convenience in achieving assorted hairstyles.\nI prefer to use the hairdryer with a concentrator. That helps me get a great style quickly.\nMy favorite is the 1928 version from KMSpain. It is the least expensive, but it works the best.\nI like the Conair model which is the one",
                 "<s> I'm curious to know your preference for the hair dryer that offers the greatest combination of drying performance, ergonomic design, and overall convenience in achieving assorted hairstyles. It appears there are 3 general categories of hair dryer: Hand held blowers, hand-held ionic hair dryers, and handheld tourmaline hair dryers. I'm curious about your experience with these various types and whether you feel the ionic and tourmaline versions really make"
             ],
-            "reversed_perturbed_prompt_loss": 4.085935592651367
+            "reversed_perturbed_prompt_loss": 4.085935592651367,
+            "perturbed_prompt_completions_templated": []
         },
         "Conair": {
             "perturbed_prompt": "I'm curious to know your preference for the hair dryer that offers the premier combination of drying performance, ergonomic design, and overall convenience in achieving many hairstyles.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for the hair dryer that offers the greatest combination of drying performance, ergonomic design, and overall convenience in achieving dissimilar hairstyles.\nThis is not a question regarding the blow dryers' ability to dry hair quickly. I don't care how fast they dry my hair; it will dry faster in the car or sitting on the porch than it will at my hair salon. I don't care about the number of heat settings or",
                 "<s> I'm curious to know your preference for the hair dryer that offers the greatest combination of drying performance, ergonomic design, and overall convenience in achieving dissimilar hairstyles. This question isn't as simple as it sounds, because dryers fall into many different categories, each having their own set of unique advantages and disadvantages.\nDryers are generally defined by the type of motor they have, whether it's of the ionic or ceramic variety. The type"
             ],
-            "reversed_perturbed_prompt_loss": 4.871318817138672
+            "reversed_perturbed_prompt_loss": 4.871318817138672,
+            "perturbed_prompt_completions_templated": []
         },
         "Panasonic": {
             "perturbed_prompt": "I'm curious to know your preference for the hair dryer that offers the premier combination of drying performance, ergonomic design, and overall convenience in achieving diverse hairstyles.",
@@ -8546,7 +8549,8 @@
                 "<s> I'm curious to know your preference for the hair dryer that offers the greatest combination of drying performance, ergonomic design, and overall convenience in achieving assorted hairstyles. I've used many in my time but I think the most impressive to date was the CurlMix Hair Dryer (pictured) I used for a shoot. I was able to blow dry my hair and then switch it over to my curling iron setting in one swoop.",
                 "<s> I'm curious to know your preference for the hair dryer that offers the greatest combination of drying performance, ergonomic design, and overall convenience in achieving assorted hairstyles. I've been thinking about getting one. I've been getting away with using my wife's for the past couple years, but it's time to get my own.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 4.245987892150879
+            "reversed_perturbed_prompt_loss": 4.245987892150879,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

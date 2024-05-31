@@ -3013,7 +3013,8 @@
                 "<s> As I'm looking to invest in a recent computer, I'm curious about the best operating system that aligns with my preferences. Could you offer insights on which operating system stands out in terms of performance, user interface, and compatibility with assorted software applications?\nIt depends on what you're using it for, of course. But if you're a creative type (artist, graphic designer, video editor, photographer) who likes to do serious work, you'll probably prefer Mac OS (assuming it's the newest, most",
                 "<s> As I'm looking to invest in a recent computer, I'm curious about the best operating system that aligns with my preferences. Could you offer insights on which operating system stands out in terms of performance, user interface, and compatibility with assorted software applications? My top choices are Windows 11, Windows 10, and MacOS, but I'm curious about your thoughts on those and other options.\nBoth Windows and Mac OS have their strengths and weaknesses. Windows is more compatible with popular gaming and multimedia software, while Mac OS offers"
             ],
-            "reversed_perturbed_prompt_loss": 7.928048610687256
+            "reversed_perturbed_prompt_loss": 7.928048610687256,
+            "perturbed_prompt_completions_templated": []
         },
         "Mac": {
             "perturbed_prompt": "As I'm looking to invest in a latest computer, I'm curious about the superior operating system that aligns with my preferences. Could you provide insights on which operating system stands out in terms of performance, user interface, and compatibility with many software applications?",
@@ -5024,7 +5025,8 @@
                 "<s> As I'm looking to invest in a new computer, I'm curious about the best operating system that aligns with my preferences. Could you offer insights on which operating system stands out in terms of performance, user interface, and compatibility with assorted software applications? Please include any thoughts or recommendations regarding which operating system would be the best fit for my computing needs. I look forward to hearing your advice on this matter.\nDear J, I\u2019d suggest you try the Mac. It\u2019s a great system that\u2019s compatible with most of the software available. The",
                 "<s> As I'm looking to invest in a new computer, I'm curious about the best operating system that aligns with my preferences. Could you offer insights on which operating system stands out in terms of performance, user interface, and compatibility with assorted software applications? I would welcome your advice.\nIt's not that hard. For a desktop or laptop PC, the only real choices you've got are Windows and Mac OS. I've never been a fan of Macs, which makes the choice easy. I do like to mess around with the latest gadgets"
             ],
-            "reversed_perturbed_prompt_loss": 9.277811050415039
+            "reversed_perturbed_prompt_loss": 9.277811050415039,
+            "perturbed_prompt_completions_templated": []
         },
         "Linux": {
             "perturbed_prompt": "As I'm looking to invest in a latest computer, I'm curious about the superior operating system that aligns with my preferences. Could you provide insights on which operating system stands out in terms of performance, user interface, and compatibility with many software applications?",
@@ -7035,7 +7037,8 @@
                 "<s> As I'm looking to invest in a recent computer, I'm curious about the premier operating system that aligns with my preferences. Could you offer insights on which operating system stands out in terms of performance, user interface, and compatibility with dissimilar software applications? I appreciate your help in making this important decision.\nThe question, \"Which is the best operating system,\" is often the focus of heated debates. It is not my intention to start a debate, but rather to provide information about the features and capabilities of various operating systems. I am a long-time",
                 "<s> As I'm looking to invest in a recent computer, I'm curious about the premier operating system that aligns with my preferences. Could you offer insights on which operating system stands out in terms of performance, user interface, and compatibility with dissimilar software applications?\nLinux, Microsoft, and Apple are the three mainstream options that are available today. But each operating system has its own specialty. Microsoft Windows, for example, is very familiar to users and many applications have been designed for Windows users. The main thing you need to do is to test different operating systems to see"
             ],
-            "reversed_perturbed_prompt_loss": 7.410480976104736
+            "reversed_perturbed_prompt_loss": 7.410480976104736,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

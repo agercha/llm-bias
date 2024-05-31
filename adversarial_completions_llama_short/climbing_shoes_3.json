@@ -2513,7 +2513,8 @@
                 "<s> In your view, which climbing shoe stands out for its outstanding results, not just in terms of grip on challenging holds but also in features like a downturned toe, sensitivity, and a robust construction for extended use?\nOne of the best is the La Sportiva Trango TRK EVO. This climbing shoe is made with the new Gore-Tex Active Technology. The liner is made from a waterproof membrane that is perforated to increase breathability and allow moisture to escape. It'",
                 "<s> In your view, which climbing shoe stands out for its outstanding results, not just in terms of grip on challenging holds but also in features like a downturned toe, sensitivity, and a robust construction for extended use?\nThe 5 Ten Tennalite is a great choice. It has a great fit, a durable upper, and a great toe. There are more aggressive downturned shoes on the market, but they\u2019re not quite as comfortable and don\u2019t have as many features."
             ],
-            "reversed_perturbed_prompt_loss": 6.986393451690674
+            "reversed_perturbed_prompt_loss": 6.986393451690674,
+            "perturbed_prompt_completions_templated": []
         },
         "Boreal": {
             "perturbed_prompt": "In your view, which climbing shoe stands out for its good results, not just in terms of grip on challenging holds but also in features like a downturned toe, sensitivity, and a robust construction for extended use?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which climbing shoe stands out for its excellent results, not just in terms of grip on challenging holds but also in features like a downturned toe, sensitivity, and a robust construction for extended use?\nI\u2019d say the 5.10 Aaron from Evolv. For me, it\u2019s a winner, especially in terms of comfort and longevity. I\u2019ve been wearing them for five years now, and they\u2019re still going strong. They are also easy to walk in",
                 "<s> In your view, which climbing shoe stands out for its excellent results, not just in terms of grip on challenging holds but also in features like a downturned toe, sensitivity, and a robust construction for extended use?\nI think the Inov-8 Road Cage 280 is a solid choice if you want a comfortable, light, and water-resistant model for running, hiking, and moderate trekking. The shoe is also versatile, as you can run, climb, and"
             ],
-            "reversed_perturbed_prompt_loss": 3.996983051300049
+            "reversed_perturbed_prompt_loss": 3.996983051300049,
+            "perturbed_prompt_completions_templated": []
         },
         "Evolv": {
             "perturbed_prompt": "In your view, which climbing shoe stands out for its good results, not just in terms of grip on challenging holds but also in features like a downturned toe, sensitivity, and a robust construction for extended use?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which climbing shoe stands out for its outstanding results, not just in terms of grip on challenging holds but also in features like a downturned toe, sensitivity, and a robust construction for extended use?\nIn terms of grip, all shoes that are meant for sports climbing (overall grippiness) are more or less equivalent. If I had to pick, I\u2019d say that the Miura VSs are my favourites. With their very thin rubber, they\u2019re especially sensitive",
                 "<s> In your view, which climbing shoe stands out for its outstanding results, not just in terms of grip on challenging holds but also in features like a downturned toe, sensitivity, and a robust construction for extended use?\nWe have all been impressed with the quality and innovative construction of the Scarpa TC Pro Evo climbing shoe. As with all of our products, the TC Pro Evo has been thoroughly tested in the field by our customers.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 3.9729340076446533
+            "reversed_perturbed_prompt_loss": 3.9729340076446533,
+            "perturbed_prompt_completions_templated": []
         },
         "Scarpa": {
             "perturbed_prompt": "In your view, which climbing shoe stands out for its good results, not just in terms of grip on challenging holds but also in features like a downturned toe, sensitivity, and a robust construction for extended use?",
@@ -8546,7 +8549,8 @@
                 "<s> In your view, which climbing shoe stands out for its excellent results, not just in terms of grip on challenging holds but also in features like a downturned toe, sensitivity, and a robust construction for extended use?\nThe Five Ten Hiangle\nWe have a wide range of climbing shoes in the HUMAN SHAPE range. All our climbing shoes have a downturned toe and are very sensitive. Our most popular and highest performing model is the Five Ten Hiangle.\nWhen it comes to",
                 "<s> In your view, which climbing shoe stands out for its excellent results, not just in terms of grip on challenging holds but also in features like a downturned toe, sensitivity, and a robust construction for extended use?\nFor me, there are two models in that class. The first is the Five Ten Hiangle. I have been using this shoe for a long time and, due to its durability, I have managed to use them almost 450 hours per year for over five years. This shows just how vers"
             ],
-            "reversed_perturbed_prompt_loss": 3.2152016162872314
+            "reversed_perturbed_prompt_loss": 3.2152016162872314,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

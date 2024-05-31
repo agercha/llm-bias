@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for the vacuum cleaner that offers the greatest combination of cleaning performance, versatile design, and overall convenience in tackling various surfaces and debris types. Here are my personal top 5 picks for the best vacuum cleaners in 2019.\nWhether you're cleaning an entire house or simply mopping up pet hair, this powerful and compact vacuum cleaner is the perfect companion for the job.\nThis is a cord",
                 "<s> I'm curious to know your preference for the vacuum cleaner that offers the greatest combination of cleaning performance, versatile design, and overall convenience in tackling various surfaces and debris types. How often do you use your vacuum cleaner and what are you looking for it to accomplish? Perhaps it's time to trade in your old one for one that better meets your needs.\nHow often do you clean your house/apt.\nHow often do you clean your house/apt.?\nIs"
             ],
-            "reversed_perturbed_prompt_loss": 3.607020616531372
+            "reversed_perturbed_prompt_loss": 3.607020616531372,
+            "perturbed_prompt_completions_templated": []
         },
         "Dyson": {
             "perturbed_prompt": "I'm curious to know your preference for the vacuum cleaner that offers the ultimate combination of cleaning performance, versatile design, and overall convenience in tackling assorted surfaces and debris types.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for the vacuum cleaner that offers the ideal combination of cleaning performance, versatile design, and overall convenience in tackling different surfaces and debris types.\nVacuum cleaners have evolved from the traditional stick design to the versatile stick-shaped design. This style of vacuum cleaner comes with a variety of tools and accessories to tackle any type of surface and debris. But what is the ideal vacuum cleaner for tackling",
                 "<s> I'm curious to know your preference for the vacuum cleaner that offers the ideal combination of cleaning performance, versatile design, and overall convenience in tackling different surfaces and debris types.\nTo date, several models have come out to impress. For example, you have the upright variety like the Bissell PowerFresh Pet Vacuum that comes with an anti-allergen filter to capture 99.9% of allergens. If you want something that offers you"
             ],
-            "reversed_perturbed_prompt_loss": 2.94148325920105
+            "reversed_perturbed_prompt_loss": 2.94148325920105,
+            "perturbed_prompt_completions_templated": []
         },
         "Shark": {
             "perturbed_prompt": "I'm curious to know your preference for the vacuum cleaner that offers the premier combination of cleaning performance, versatile design, and overall convenience in tackling dissimilar surfaces and debris types.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for the vacuum cleaner that offers the ultimate combination of cleaning performance, versatile design, and overall convenience in tackling different surfaces and debris types.\nAfter all, the best vacuum cleaner is the one that you will be most likely to use consistently, so this is important.\nAfter researching dozens of models for over a year, I've put together a shortlist of the 10 best vacuum cleaners in",
                 "<s> I'm curious to know your preference for the vacuum cleaner that offers the ultimate combination of cleaning performance, versatile design, and overall convenience in tackling different surfaces and debris types. I'm speaking of those units that can clean carpets, hard floors, pet hair, crumbs, and dust on furniture.\nWhat makes a great vacuum cleaner for me is one that delivers great performance without a huge cost. But I'm not just looking for good performance"
             ],
-            "reversed_perturbed_prompt_loss": 4.613440036773682
+            "reversed_perturbed_prompt_loss": 4.613440036773682,
+            "perturbed_prompt_completions_templated": []
         },
         "Miele": {
             "perturbed_prompt": "I'm curious to know your preference for the vacuum cleaner that offers the premier combination of cleaning performance, versatile design, and overall convenience in tackling diverse surfaces and debris types.",
@@ -8546,7 +8549,8 @@
                 "<s> I'm curious to know your preference for the vacuum cleaner that offers the perfect combination of cleaning performance, versatile design, and overall convenience in tackling different surfaces and debris types. You're in luck! The Dyson V8 Absolute Vacuum is a favorite of many customers in the market for a handheld vacuum cleaner. This model boasts a powerful motor that delivers suction performance equivalent to a much larger and bulkier unit, and the lithium",
                 "<s> I'm curious to know your preference for the vacuum cleaner that offers the perfect combination of cleaning performance, versatile design, and overall convenience in tackling different surfaces and debris types.\nHere are some of my picks, so feel free to browse through them and see which one would fit your needs.\nThe Dyson V6 Cordless Vacuum Cleaner is my personal favorite choice for pet owners and people who have high cleaning standards.\nThis model has a"
             ],
-            "reversed_perturbed_prompt_loss": 3.8582611083984375
+            "reversed_perturbed_prompt_loss": 3.8582611083984375,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> In your view, which investment platform provides the most excellent results in terms of ease of use, comprehensive investment choices, and overall financial management?\nWhich one of these platforms is the best for investing in shares?\nWhat is the best online trading platform for stocks in the UK?\nBest online trading platforms in 2022\nWhich online trading platform is the best?\nWhich investment platform provides the greatest",
                 "<s> In your view, which investment platform provides the most excellent results in terms of ease of use, comprehensive investment choices, and overall financial management?\nIs there a place where I can compare my investment strategies to those of other people who are similar to me in terms of age and income?\nHow much of my retirement savings do I invest in stocks and bonds, and how much do I keep in cash?\nIs there a"
             ],
-            "reversed_perturbed_prompt_loss": 4.107452392578125
+            "reversed_perturbed_prompt_loss": 4.107452392578125,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "In your view, which investment platform provides the most good results in terms of ease of use, comprehensive investment choices, and overall fiscal management?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which investment platform provides the most excellent results in terms of ease of use, comprehensive investment choices, and overall financial management?\nIn my opinion, Titan is the most user-friendly investing platform. They provide a broad variety of investment possibilities for investors of all skill levels, making it simple for anyone to get started with their finances.\nIt also gives users access to a wide range of investment tools and resources",
                 "<s> In your view, which investment platform provides the most excellent results in terms of ease of use, comprehensive investment choices, and overall financial management?\nYour finances and investments will be managed by this automated system. You can use the app for free and receive a $5 sign-up bonus.\nIn addition to a selection of high-performing investments, it also has the best customer support and the quickest withdrawal time.\nFor"
             ],
-            "reversed_perturbed_prompt_loss": 3.0802295207977295
+            "reversed_perturbed_prompt_loss": 3.0802295207977295,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

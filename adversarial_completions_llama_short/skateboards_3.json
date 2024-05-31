@@ -2513,7 +2513,8 @@
                 "<s> In your view, which skateboard stands out for its excellent results, not just in terms of deck materials but also in features like smooth bearings, responsive bushings, and a design tailored to specific skateboarding styles?\nI would have to say that I prefer the Sector 9 Vanguard Series Complete Skateboard. This is a top notch board that will stand up to some serious abuse.\nIn a perfect world, what would be the best way to buy a skateboard for someone?\nIf you",
                 "<s> In your view, which skateboard stands out for its excellent results, not just in terms of deck materials but also in features like smooth bearings, responsive bushings, and a design tailored to specific skateboarding styles?\nThere are so many decks that you could get.\nI'd go with the skateboard that suits you the best and looks good on you.\nBut I'm a big fan of Bones Wheels and a lot of other skate brands, and I'm sure their stuff"
             ],
-            "reversed_perturbed_prompt_loss": 7.787222385406494
+            "reversed_perturbed_prompt_loss": 7.787222385406494,
+            "perturbed_prompt_completions_templated": []
         },
         "Zero": {
             "perturbed_prompt": "In your view, which skateboard stands out for its good results, not just in terms of deck materials but also in features like smooth bearings, responsive bushings, and a design tailored to specific skateboarding styles?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which skateboard stands out for its excellent results, not just in terms of deck materials but also in features like smooth bearings, responsive bushings, and a design tailored to specific skateboarding styles?\nWhich skateboard manufacturer offers the highest quality products at affordable prices, not to mention superior technical support and shipping methods?\nHow to Find the Best Skateboard for You\nThe best skateboards have all the features you need to be a pro. The deck is durable and has",
                 "<s> In your view, which skateboard stands out for its excellent results, not just in terms of deck materials but also in features like smooth bearings, responsive bushings, and a design tailored to specific skateboarding styles?\nWhile the most important thing is having a strong skateboard that can last for a long time and do the trick, you will also want a board that is easy to maneuver and is durable and sturdy. With this in mind, we recommend checking out a couple of decks and considering"
             ],
-            "reversed_perturbed_prompt_loss": 8.568105697631836
+            "reversed_perturbed_prompt_loss": 8.568105697631836,
+            "perturbed_prompt_completions_templated": []
         },
         "Baker": {
             "perturbed_prompt": "In your view, which skateboard stands out for its great results, not just in terms of deck materials but also in features like smooth bearings, responsive bushings, and a design tailored to specific skateboarding styles?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which skateboard stands out for its excellent results, not just in terms of deck materials but also in features like smooth bearings, responsive bushings, and a design tailored to specific skateboarding styles? For the purposes of this article, let\u2019s look at top skateboard brands and how they rate on various important features.\nWe\u2019ll start with skateboard decks and bearings.\nBest Skateboard Bearings\nHere are the best bearings you can buy for your skateboard",
                 "<s> In your view, which skateboard stands out for its excellent results, not just in terms of deck materials but also in features like smooth bearings, responsive bushings, and a design tailored to specific skateboarding styles?\nHey, great question! If you\u2019re looking for a premium skateboard deck, I would suggest going with a Canadian manufacturer, namely Skatebolt and The Skateboard Co. I\u2019ve seen some decks that are pretty sick but they\u2019re made of wood. A great"
             ],
-            "reversed_perturbed_prompt_loss": 4.946701526641846
+            "reversed_perturbed_prompt_loss": 4.946701526641846,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

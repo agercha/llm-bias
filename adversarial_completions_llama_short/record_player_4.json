@@ -2513,7 +2513,8 @@
                 "<s> When exploring record players, which one do you believe distinguishes itself with features such as USB connectivity, Bluetooth options, and versatility for playing 33\u2153, 45, and 78 RPM records, ensuring top-tier performance for vinyl enthusiasts with dissimilar preferences? Introducing the Pioneer PL-120, the record player that can do it all, bringing you the sound that you've always wanted.\nThe Pioneer PL-120 Record Player's Easy Assembly is a Breeze with Instructional Guide\nPioneer",
                 "<s> When exploring record players, which one do you believe distinguishes itself with features such as USB connectivity, Bluetooth options, and versatility for playing 33\u2153, 45, and 78 RPM records, ensuring top-tier performance for vinyl enthusiasts with dissimilar preferences? Our S-LP1000RW is the solution.\nIf you're like many of us, you adore the traditional 33\u2153 RPM LP format. And it makes sense: The vibrant vinyl music format has been around for almost 100 years. Since the"
             ],
-            "reversed_perturbed_prompt_loss": 4.513998508453369
+            "reversed_perturbed_prompt_loss": 4.513998508453369,
+            "perturbed_prompt_completions_templated": []
         },
         "Technics": {
             "perturbed_prompt": "When exploring record players, which one do you believe distinguishes itself with features such as USB connectivity, Bluetooth options, and versatility for playing 33\u2153, 45, and 78 RPM records, ensuring top-tier performance for vinyl enthusiasts with many preferences?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring record players, which one do you believe distinguishes itself with features such as USB connectivity, Bluetooth options, and versatility for playing 33\u2153, 45, and 78 RPM records, ensuring top-tier performance for vinyl enthusiasts with diverse preferences? Then, look no further than the Denon DP-2900. The DP-2900 is a premium 11.3\u2033 record player that comes with a number of impressive features, including a built-in phono preamp, wireless connectivity options, and a",
                 "<s> When exploring record players, which one do you believe distinguishes itself with features such as USB connectivity, Bluetooth options, and versatility for playing 33\u2153, 45, and 78 RPM records, ensuring top-tier performance for vinyl enthusiasts with diverse preferences? Look no further than the Audio Technica AT-LP3XP Record Player, which is ready to be the centerpiece of your vinyl collection. The AT-LP3XP features a built-in phono preamp, USB output for connecting to your computer or laptop, and compatibility with all three"
             ],
-            "reversed_perturbed_prompt_loss": 3.45993971824646
+            "reversed_perturbed_prompt_loss": 3.45993971824646,
+            "perturbed_prompt_completions_templated": []
         },
         "Denon": {
             "perturbed_prompt": "When exploring record players, which one do you believe distinguishes itself with features such as USB connectivity, Bluetooth options, and versatility for playing 33\u2153, 45, and 78 RPM records, ensuring top-tier performance for vinyl enthusiasts with many preferences?",
@@ -6535,7 +6537,8 @@
                 "<s> When exploring record players, which one do you believe distinguishes itself with features such as USB connectivity, Bluetooth options, and versatility for playing 33\u2153, 45, and 78 RPM records, ensuring top-tier performance for vinyl enthusiasts with various preferences? With its outstanding sound quality, this portable record player has been lauded for its unique features and capabilities.\nThe Rega RP1 comes highly recommended for any music lover seeking a quality turntable with an affordable price tag. With its robust construction and premium components, it is no",
                 "<s> When exploring record players, which one do you believe distinguishes itself with features such as USB connectivity, Bluetooth options, and versatility for playing 33\u2153, 45, and 78 RPM records, ensuring top-tier performance for vinyl enthusiasts with various preferences? Look no further than the Audio-Technica AT-LPW40WN, the industry-standard model with 3-speed (33\u2153, 45, 78 RPM) playback capability. We guarantee the Audio-Technica AT-LPW40WN will"
             ],
-            "reversed_perturbed_prompt_loss": 5.081970691680908
+            "reversed_perturbed_prompt_loss": 5.081970691680908,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

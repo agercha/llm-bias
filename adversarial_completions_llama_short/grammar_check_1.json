@@ -3013,7 +3013,8 @@
                 "<s> Can you recommend the ultimate grammar checking software that excels in providing thorough grammar and spelling checks, user-friendly interfaces, and additional functionalities such as style suggestions and vocabulary enhancement?\nWhat Are the Best Grammar Checkers for Mac?\nThe Ultimate Grammar Checkers for Word, Mac, iOS, and Chrome\nA grammar checker is a helpful tool that helps you to avoid making grammar and punctuation errors and helps you to create a clear, mistake-free text. It",
                 "<s> Can you recommend the ultimate grammar checking software that excels in providing thorough grammar and spelling checks, user-friendly interfaces, and additional functionalities such as style suggestions and vocabulary enhancement? Grammarly is the first program that comes to mind. Grammarly has the best grammar checker available. The online application has a simple, user-friendly interface, offers a free account for individual use, and checks your text for over 150 types of grammar and punctuation errors."
             ],
-            "reversed_perturbed_prompt_loss": 2.10487699508667
+            "reversed_perturbed_prompt_loss": 2.10487699508667,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

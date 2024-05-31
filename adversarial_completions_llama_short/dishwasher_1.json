@@ -3013,7 +3013,8 @@
                 "<s> Can you recommend the best dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and modern technologies for ideal dish care?\nDo you want a dishwasher that is suitable for apartments?\nIs a semi-integrated model suitable for your kitchen?\nWhat is your preference regarding the style of the dishwasher?\nDo you need a washing machine and dishwasher combination?\nW",
                 "<s> Can you recommend the best dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and modern technologies for ideal dish care? The answer is Samsung DW80K7000UF, a premium brand that has long been considered the best option in the industry.\nThe dishwasher is equipped with numerous unique technologies and features for ensuring excellent results. It also features a stylish design with"
             ],
-            "reversed_perturbed_prompt_loss": 2.850518226623535
+            "reversed_perturbed_prompt_loss": 2.850518226623535,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "Can you suggest the ideal dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and sophisticated technologies for greatest dish care?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the best dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and modern technologies for ideal dish care? Then look no further than the Fisher and Paykel DD60DCF4X9. As a dishwasher that boasts outstanding performance, superior user-friendliness, and modern technologies, this unit can cleanse dishes efficiently and effectively.\nThe Fisher and Pay",
                 "<s> Can you recommend the best dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and modern technologies for ideal dish care? A dishwasher is the perfect option to have if you're someone who loves doing your own dishes and doesn't want the hassle of going to the kitchen to do dishes, but we all know that there are many options out there that may seem overwhelming to choose"
             ],
-            "reversed_perturbed_prompt_loss": 4.292051792144775
+            "reversed_perturbed_prompt_loss": 4.292051792144775,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "Can you recommend the perfect dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and sophisticated technologies for perfect dish care?",
@@ -7035,7 +7037,8 @@
                 "<s> Can you recommend the best dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and modern technologies for optimal dish care? This review will help you to find the answer. It is a list of best dishwashers with reviews and comparison.\nDishwashers nowadays can help us to save a lot of time and effort spent on household chores, and in return, they have to be highly functional. If",
                 "<s> Can you recommend the best dishwasher that excels in providing powerful cleaning performance, user-friendly controls, and modern technologies for optimal dish care? If so, our team at Best Home Appliances can help.\nWith our comprehensive review of the best dishwashers in 2022, you can shop for the right one for your needs.\nOur Top Choice For The Best Dishwasher\nBuying a"
             ],
-            "reversed_perturbed_prompt_loss": 3.9953553676605225
+            "reversed_perturbed_prompt_loss": 3.9953553676605225,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

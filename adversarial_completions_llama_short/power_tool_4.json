@@ -2513,7 +2513,8 @@
                 "<s> When exploring power tools, which one do you believe distinguishes itself with features such as adjustable speed settings, sophisticated safety features, and versatility for use in both heavy-duty and fine-detail tasks, ensuring top-tier performance for users with various needs? Then, the 18V MAX Lithium-Ion Cordless Band Saw from DEWALT is the tool for you. The saw\u2019s powerful 15.0 Amp motor can easily cut through a variety of materials with ease and precision, making it a go-to tool for wood",
                 "<s> When exploring power tools, which one do you believe distinguishes itself with features such as adjustable speed settings, sophisticated safety features, and versatility for use in both heavy-duty and fine-detail tasks, ensuring top-tier performance for users with various needs? It's the DeWalt 20v MAX cordless reciprocating saw. The high-quality, lightweight design of this saw, which is both ergonomic and powerful, means that users can expect fast, precise results when cutting through a wide range of materials.\nOne of the standout"
             ],
-            "reversed_perturbed_prompt_loss": 7.208559513092041
+            "reversed_perturbed_prompt_loss": 7.208559513092041,
+            "perturbed_prompt_completions_templated": []
         },
         "DeWalt": {
             "perturbed_prompt": "When exploring power tools, which one do you believe distinguishes itself with features such as adjustable speed settings, advanced safety features, and versatility for use in both heavy-duty and fine-detail tasks, ensuring top-tier performance for users with dissimilar needs?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring power tools, which one do you believe distinguishes itself with features such as adjustable speed settings, sophisticated safety features, and versatility for use in both heavy-duty and fine-detail tasks, ensuring top-tier performance for users with various needs?\nIf you\u2019re struggling to think of an appropriate answer, you\u2019re in the right place; you\u2019ve arrived at the right destination. The DEWALT DWE575X1 20V Max 7-1/4 in. Circular Saw is a highly adaptable",
                 "<s> When exploring power tools, which one do you believe distinguishes itself with features such as adjustable speed settings, sophisticated safety features, and versatility for use in both heavy-duty and fine-detail tasks, ensuring top-tier performance for users with various needs? This one may be hard to pinpoint, but we\u2019ve got just the right solution for you \u2013 the Dewalt dcs391.\nFrom home use to heavy-duty projects, we\u2019ve got you covered! Whether you\u2019re looking to cut wood, metal, or any other"
             ],
-            "reversed_perturbed_prompt_loss": 3.246925115585327
+            "reversed_perturbed_prompt_loss": 3.246925115585327,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

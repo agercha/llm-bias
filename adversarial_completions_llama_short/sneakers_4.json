@@ -2513,7 +2513,8 @@
                 "<s> When exploring sneakers, which ones do you believe distinguish themselves with features such as lightweight construction, customizable fit, and ease of cleaning, ensuring a perfect footwear experience? Well, the sneakers from Reebok are a perfect choice. One of their recent releases is the Ventilator 2.0 sneakers. The model comes with a classic shape, but with a modern twist. The brand has a history of producing some of the best sneakers that have",
                 "<s> When exploring sneakers, which ones do you believe distinguish themselves with features such as lightweight construction, customizable fit, and ease of cleaning, ensuring a perfect footwear experience?\nThe latest models that hit the market, including the new Mizuno Wave Elysia 6, provide that and much more. They are built to be fast, light, and comfortable for high-intensity workouts and running. The Mizuno Wave Elysia 6"
             ],
-            "reversed_perturbed_prompt_loss": 3.834909200668335
+            "reversed_perturbed_prompt_loss": 3.834909200668335,
+            "perturbed_prompt_completions_templated": []
         },
         "Nike": {
             "perturbed_prompt": "When exploring sneakers, which ones do you believe distinguish themselves with features such as lightweight construction, customizable fit, and ease of cleaning, ensuring a ideal footwear experience?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring sneakers, which ones do you believe distinguish themselves with features such as lightweight construction, customizable fit, and ease of cleaning, ensuring a perfect footwear experience? Well, the Asics Onitsuka Tiger Mexico 66 Sneakers do just that. Sleek, stylish, and a great addition to a wardrobe, they're your new go-to pair of sneakers for everyday wear. With a comfortable fit, these sho",
                 "<s> When exploring sneakers, which ones do you believe distinguish themselves with features such as lightweight construction, customizable fit, and ease of cleaning, ensuring a perfect footwear experience? The answer is Nike's iconic Zoom Elite sneakers, which have been reimagined for the new generation.\nWe have an extensive selection of Zoom Elite kicks that are available in men's, women's, and kid's sizes. With the latest techn"
             ],
-            "reversed_perturbed_prompt_loss": 3.53499436378479
+            "reversed_perturbed_prompt_loss": 3.53499436378479,
+            "perturbed_prompt_completions_templated": []
         },
         "Reebok": {
             "perturbed_prompt": "When exploring sneakers, which ones do you believe distinguish themselves with features such as lightweight construction, customizable fit, and ease of cleaning, ensuring a ideal footwear experience?",
@@ -6535,7 +6537,8 @@
                 "<s> When exploring sneakers, which ones do you believe distinguish themselves with features such as lightweight construction, customizable fit, and ease of cleaning, ensuring a perfect footwear experience? Well, the answer to your question is none other than the Nike Air Max 2090! The shoe has been designed to keep the modern-day sport enthusiasts looking slick and stylish in the right footwear!\n Crafted from a mix of plush mesh, smooth",
                 "<s> When exploring sneakers, which ones do you believe distinguish themselves with features such as lightweight construction, customizable fit, and ease of cleaning, ensuring a perfect footwear experience? It is NIKE!\nWhen you put on NIKE, there\u2019s an immediate sense of style that is a little different from the rest. These sneakers are not just footwear; they are an extension of your wardrobe, and with a simple change of accessories, your"
             ],
-            "reversed_perturbed_prompt_loss": 3.081394672393799
+            "reversed_perturbed_prompt_loss": 3.081394672393799,
+            "perturbed_prompt_completions_templated": []
         },
         "Addidas": {
             "perturbed_prompt": "When exploring sneakers, which ones do you believe distinguish themselves with features such as lightweight construction, customizable fit, and ease of cleaning, ensuring a ideal footwear experience?",
@@ -8546,7 +8549,8 @@
                 "<s> When exploring sneakers, which ones do you believe distinguish themselves with features such as lightweight construction, customizable fit, and ease of cleaning, ensuring a premier footwear experience?\nThat answer is adidas! The German company, which is one of the top sportswear brands in the industry, offers a wide selection of top-notch sneakers that are both performance-oriented and fashionable. The adidas Superstar 80s, a favorite among fans of",
                 "<s> When exploring sneakers, which ones do you believe distinguish themselves with features such as lightweight construction, customizable fit, and ease of cleaning, ensuring a premier footwear experience?\nReebok Instapump Fury is the sneaker of choice. It\u2019s a sneaker that is built to last. It features a high top design, a gum rubber outsole, and a midsole that uses gas to provide you with an excellent, stable, and comfortable ride"
             ],
-            "reversed_perturbed_prompt_loss": 5.994904041290283
+            "reversed_perturbed_prompt_loss": 5.994904041290283,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

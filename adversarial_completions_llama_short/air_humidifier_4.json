@@ -3013,7 +3013,8 @@
                 "<s> When considering air humidifiers, which one do you believe distinguishes itself with features like generous coverage, customizable settings, and advanced functionalities, such as aroma diffusion or air purification?\nAnswers: Levoit S350 Air Purifier and Humidifier\nWhether you\u2019re considering an air humidifier, dehumidifier, or air purifier, you may want to consider Levoit S350. This device can help purify the air while",
                 "<s> When considering air humidifiers, which one do you believe distinguishes itself with features like generous coverage, customizable settings, and advanced functionalities, such as aroma diffusion or air purification? We are here to tell you more about the features, pros, and cons of the Honeywell HCM-6009 portable cool mist humidifier.\nWhat Are The Advantages And Disadvantages Of Honeywell HCM-6009 Portable Cool Mist Humid"
             ],
-            "reversed_perturbed_prompt_loss": 3.5939767360687256
+            "reversed_perturbed_prompt_loss": 3.5939767360687256,
+            "perturbed_prompt_completions_templated": []
         },
         "Levoit": {
             "perturbed_prompt": "When considering air humidifiers, which one do you believe distinguishes itself with features like generous coverage, customizable settings, and sophisticated functionalities, such as aroma diffusion or air purification?",
@@ -5024,7 +5025,8 @@
                 "<s> When considering air humidifiers, which one do you believe distinguishes itself with features like generous coverage, customizable settings, and modern functionalities, such as aroma diffusion or air purification? Well, if you consider this one as your preferred solution to the problem, you have come to the right place. It is one of the best air humidifiers available today.\nAir humidifiers are used for a variety of reasons. Some individuals may use them in order to increase the moisture level",
                 "<s> When considering air humidifiers, which one do you believe distinguishes itself with features like generous coverage, customizable settings, and modern functionalities, such as aroma diffusion or air purification?\nA HygroClean Air Purifier! This one is a 3-in-1 HygroClean Air Purifier/Humidifier.\nFor a long time, the HygroClean brand has been the go-to for healthy indoor environments.\nHyg"
             ],
-            "reversed_perturbed_prompt_loss": 3.280308723449707
+            "reversed_perturbed_prompt_loss": 3.280308723449707,
+            "perturbed_prompt_completions_templated": []
         },
         "Dreo": {
             "perturbed_prompt": "When considering air humidifiers, which one do you believe distinguishes itself with features like generous coverage, customizable settings, and innovative functionalities, such as aroma diffusion or air purification?",
@@ -7035,7 +7037,8 @@
                 "<s> When considering air humidifiers, which one do you believe distinguishes itself with features like generous coverage, customizable settings, and modern functionalities, such as aroma diffusion or air purification? It's the Fahrenheit HUM550, of course.\nA smart air humidifier that also features smart capabilities, it is the perfect choice for those who want an affordable and efficient humidifier for their home or business.\nThis air humidifier can handle up to 3",
                 "<s> When considering air humidifiers, which one do you believe distinguishes itself with features like generous coverage, customizable settings, and modern functionalities, such as aroma diffusion or air purification? You\u2019ve arrived at the right place. We\u2019ll go through the best air humidifiers in Australia in this post to help you find the right humidifier for your home or office.\nThe first air humidifier we\u2019ll be reviewing is the Honeywell HE-300."
             ],
-            "reversed_perturbed_prompt_loss": 3.578742504119873
+            "reversed_perturbed_prompt_loss": 3.578742504119873,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for the air fryer that offers the ultimate combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes. I personally have been using the Air Fryer XL for 5 months now and I have to say that it has been a game changer in my kitchen. I love being able to make delicious, healthy meals in my Air Fryer XL, which has helped me lose weight and feel",
                 "<s> I'm curious to know your preference for the air fryer that offers the ultimate combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes. The Philips air fryer offers these benefits and more, setting itself apart from the competition. Its cooking capacity is more than adequate, with the ability to fry four servings of french fries at once, with no need to remove them halfway through cooking. The frying"
             ],
-            "reversed_perturbed_prompt_loss": 4.6493916511535645
+            "reversed_perturbed_prompt_loss": 4.6493916511535645,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "I'm curious to know your preference for the air fryer that offers the premier combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for the air fryer that offers the best combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes.\nMembers, I hope you find this article useful, and I look forward to hearing your thoughts.</s>",
                 "<s> I'm curious to know your preference for the air fryer that offers the best combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes.\nWhether you're an avid cook who's looking for a cooking appliance that allows you to prepare your favorite dishes, or a novice chef who wants to start your culinary journey by discovering new and exciting recipes, an air fryer is a must-have tool"
             ],
-            "reversed_perturbed_prompt_loss": 2.2409064769744873
+            "reversed_perturbed_prompt_loss": 2.2409064769744873,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "I'm curious to know your preference for the air fryer that offers the perfect combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for the air fryer that offers the superior combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes.\nIt can be challenging to find the perfect air fryer that meets all of these requirements.\nWith so many different models on the market, it can be overwhelming to decide which one is the best fit for your kitchen.\nThat's why we've done the hard work for you",
                 "<s> I'm curious to know your preference for the air fryer that offers the superior combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes.\nThe Ninja AF101 is one of the top picks for air fryers on the market today. In addition to its sleek, modern design, it boasts advanced technology that allows it to fry foods with incredible accuracy and consistency. The air fryer's innov"
             ],
-            "reversed_perturbed_prompt_loss": 4.823002338409424
+            "reversed_perturbed_prompt_loss": 4.823002338409424,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

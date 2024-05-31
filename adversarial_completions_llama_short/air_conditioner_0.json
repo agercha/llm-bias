@@ -2513,7 +2513,8 @@
                 "<s> Which air conditioning unit stands out as the perfect choice for efficient cooling, energy conservation, and modern features that contribute to a comfortable indoor atmosphere? The Carrier Infinity 28, that\u2019s which.\nThe Infinity 28\u2019s energy-saving design and quiet operation are among its greatest assets.\nThe unit is designed for efficiency, with a SEER (seasonal energy efficiency ratio) of up to 28",
                 "<s> Which air conditioning unit stands out as the perfect choice for efficient cooling, energy conservation, and modern features that contribute to a comfortable indoor atmosphere? We have several recommendations, starting with the LG Electronics, a top-rated AC unit for both cooling and heating.\nIt has a 15 SEER rating that is ideal for many homeowners.\nIt can be easily installed and is a good investment that will increase the"
             ],
-            "reversed_perturbed_prompt_loss": 2.845090389251709
+            "reversed_perturbed_prompt_loss": 2.845090389251709,
+            "perturbed_prompt_completions_templated": []
         },
         "GE": {
             "perturbed_prompt": "Which air conditioning unit stands out as the perfect choice for effective cooling, energy conservation, and innovative features that contribute to a comfortable indoor atmosphere?",
@@ -4524,7 +4525,8 @@
                 "<s> Which air conditioning unit stands out as the superior choice for efficient cooling, energy conservation, and sophisticated features that contribute to a comfortable indoor atmosphere?\nWhat makes the Lennox XC19 ideal for homeowners? This high-efficiency air conditioning unit delivers superb performance during peak-heat periods and is equipped with advanced features that support a more comfortable and energy-saving indoor environment.\nLennox X",
                 "<s> Which air conditioning unit stands out as the superior choice for efficient cooling, energy conservation, and sophisticated features that contribute to a comfortable indoor atmosphere? Ductless air conditioners or mini split systems are an appealing choice for a number of reasons.\nThese units are more cost-effective and energy-efficient than traditional air conditioners. They also provide several benefits that you won\u2019t find with standard air conditioners. Read on to learn about the"
             ],
-            "reversed_perturbed_prompt_loss": 6.7102274894714355
+            "reversed_perturbed_prompt_loss": 6.7102274894714355,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

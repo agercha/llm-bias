@@ -3013,7 +3013,8 @@
                 "<s> Can you recommend the best espresso machine that excels in providing consistent espresso shots, user-friendly controls, and additional functionalities such as adjustable grind settings or a milk frother for lattes and cappuccinos?\nFor these espresso machines to be worthy of our top spots, we considered the following elements:\nEspresso shot quality\nThe number of specialty drinks possible\nExtras, such as brew strength settings\nMilk frothing abilities\nThe number of cups it can accommodate",
                 "<s> Can you recommend the best espresso machine that excels in providing consistent espresso shots, user-friendly controls, and additional functionalities such as adjustable grind settings or a milk frother for lattes and cappuccinos? We have provided a list of the top 10 best espresso machines for you to pick from.\nIt is difficult to find the right product without extensive research on the internet. The good news is that we have done the homework for you so that you can choose the best espresso machine for you"
             ],
-            "reversed_perturbed_prompt_loss": 4.9243340492248535
+            "reversed_perturbed_prompt_loss": 4.9243340492248535,
+            "perturbed_prompt_completions_templated": []
         },
         "Gaggia": {
             "perturbed_prompt": "Can you suggest the ultimate espresso machine that excels in providing consistent espresso shots, user-friendly controls, and extra functionalities such as adjustable grind settings or a milk frother for lattes and cappuccinos?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the best espresso machine that excels in providing consistent espresso shots, user-friendly controls, and additional functionalities such as adjustable grind settings or a milk frother for lattes and cappuccinos? This list of our 10 favorites from top brands like De\u2019Longhi, Breville, and Nespresso will help you get started.\nIt\u2019s no secret that espresso is the foundation for many classic coffee drinks. But did you know that it was also a crucial",
                 "<s> Can you recommend the best espresso machine that excels in providing consistent espresso shots, user-friendly controls, and additional functionalities such as adjustable grind settings or a milk frother for lattes and cappuccinos? We found the following four models worthy of our readers\u2019 attention.\nIn addition to the above mentioned qualities, we\u2019ve also taken into account the espresso machine\u2019s capacity and ease of use. Read on to find out what our editors have to say about the Breville Oracle Touch Espresso"
             ],
-            "reversed_perturbed_prompt_loss": 3.8703348636627197
+            "reversed_perturbed_prompt_loss": 3.8703348636627197,
+            "perturbed_prompt_completions_templated": []
         },
         "Nespresso": {
             "perturbed_prompt": "Can you suggest the greatest espresso machine that excels in providing consistent espresso shots, user-friendly controls, and additional functionalities such as adjustable grind settings or a milk frother for lattes and cappuccinos?",
@@ -7035,7 +7037,8 @@
                 "<s> Can you recommend the superior espresso machine that excels in providing consistent espresso shots, user-friendly controls, and additional functionalities such as adjustable grind settings or a milk frother for lattes and cappuccinos? Let's explore the best espresso machines you can find.\nWhen we think of coffee, the first thing that probably comes to our minds is espresso. And what do we need to make espresso? A good coffee machine. There are plenty of great espresso machines available on the market",
                 "<s> Can you recommend the superior espresso machine that excels in providing consistent espresso shots, user-friendly controls, and additional functionalities such as adjustable grind settings or a milk frother for lattes and cappuccinos?\nThe following 12 best espresso machines are reviewed for you in this article.\n12 Best Espresso Machine Reviews\n1. Espresso Maker \u2013 Capresso Infinity Plus Coffee Machine\nThe Capresso Infinity Plus is an all-in"
             ],
-            "reversed_perturbed_prompt_loss": 2.746690034866333
+            "reversed_perturbed_prompt_loss": 2.746690034866333,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

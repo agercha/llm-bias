@@ -2513,7 +2513,8 @@
                 "<s> In your view, which ski stands out for its outstanding results, not just in terms of carving ability but also in features like durable materials, responsive bindings, and a design tailored to your skiing style? What is your personal favorite in this category?\nTough choice. It\u2019s hard to beat the Fischer RC4. I had one for many years and never wanted to give it up.\nThe new Salomon Q.Zero Pro 120s are great too.\nYou use a lot of different",
                 "<s> In your view, which ski stands out for its outstanding results, not just in terms of carving ability but also in features like durable materials, responsive bindings, and a design tailored to your skiing style?\nLange\u2019s 130cm SX E120 is the best ski I\u2019ve ever tested for the way it blends performance with good looks.\nWe want to bring more transparency to the test and share the information with skiers everywhere.\nSnowbird, a mountain"
             ],
-            "reversed_perturbed_prompt_loss": 2.6516220569610596
+            "reversed_perturbed_prompt_loss": 2.6516220569610596,
+            "perturbed_prompt_completions_templated": []
         },
         "Volkl": {
             "perturbed_prompt": "In your view, which ski stands out for its good results, not just in terms of carving ability but also in features like durable materials, responsive bindings, and a design tailored to your skiing style?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which ski stands out for its excellent results, not just in terms of carving ability but also in features like durable materials, responsive bindings, and a design tailored to your skiing style?\nM.P. Our pick here is the Head K20, which is the newest addition to our test fleet and one of the best carving skis we\u2019ve ever tested.\nIt also has excellent durability and a 5-year warranty, and its design is very responsive",
                 "<s> In your view, which ski stands out for its excellent results, not just in terms of carving ability but also in features like durable materials, responsive bindings, and a design tailored to your skiing style?\nIn the past, the \u201cOne Ski\u201d concept was introduced at FIS World Championships in Are 2019. The One Ski concept, however, is not limited to one ski model, but refers to skis that are specially adapted to the individual characteristics of each skier.\nFischer\u2019"
             ],
-            "reversed_perturbed_prompt_loss": 4.9278178215026855
+            "reversed_perturbed_prompt_loss": 4.9278178215026855,
+            "perturbed_prompt_completions_templated": []
         },
         "Atomic": {
             "perturbed_prompt": "In your view, which ski stands out for its exceptional results, not just in terms of carving ability but also in features like durable materials, responsive bindings, and a design tailored to your skiing style?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which ski stands out for its good results, not just in terms of carving ability but also in features like durable materials, responsive bindings, and a design tailored to your skiing style?\nWhat ski for you?</s>",
                 "<s> In your view, which ski stands out for its good results, not just in terms of carving ability but also in features like durable materials, responsive bindings, and a design tailored to your skiing style?\nThe Blizzard 8.8 Ti is a very good ski in terms of performance and stability. In fact, Blizzard was the first to introduce the idea of a \u201cski\u201d for skiers with good performance and stable enough to allow you to easily learn to carve. This ski is a good"
             ],
-            "reversed_perturbed_prompt_loss": 3.9318368434906006
+            "reversed_perturbed_prompt_loss": 3.9318368434906006,
+            "perturbed_prompt_completions_templated": []
         },
         "Rossignol": {
             "perturbed_prompt": "In your view, which ski stands out for its good results, not just in terms of carving ability but also in features like durable materials, responsive bindings, and a design tailored to your skiing style?",
@@ -8546,7 +8549,8 @@
                 "<s> In your view, which ski stands out for its excellent results, not just in terms of carving ability but also in features like durable materials, responsive bindings, and a design tailored to your skiing style?\nBurton Step On bindings\nI\u2019d like to give a special mention to the Burton Step On bindings. They\u2019ve taken some time to develop, but this winter\u2019s been the first time they\u2019ve come on the market. In my view, this is the best binding on the",
                 "<s> In your view, which ski stands out for its excellent results, not just in terms of carving ability but also in features like durable materials, responsive bindings, and a design tailored to your skiing style?\nThe BLACK CROWN 8.0. I know this is a rather expensive ski, but it\u2019s the best ski I\u2019ve ever tried for a whole season. The only reason it didn\u2019t take the first place was because of my personal preferences, not because the ski is not"
             ],
-            "reversed_perturbed_prompt_loss": 2.4867844581604004
+            "reversed_perturbed_prompt_loss": 2.4867844581604004,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

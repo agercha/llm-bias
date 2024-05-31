@@ -2513,7 +2513,8 @@
                 "<s> When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment? This article will help you find your answer.\nIf you live in an area with significant pollution, such as a densely populated metropolitan region, and want to clean your home of pollutants and chemicals, the Coway AP-1512HH Mighty Air Purifier is your best",
                 "<s> When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment? The Pure Fan, which costs about $250, is a good option if you\u2019re in the market for such a product.\nYou can also use the Airocide or the Purezone air purifier.\nThis air purifier\u2019s design, for example, is a distinctive"
             ],
-            "reversed_perturbed_prompt_loss": 4.350433826446533
+            "reversed_perturbed_prompt_loss": 4.350433826446533,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment?\nWith the Blue Pure 211+ Air Purifier, you will have all of the information you need.\nBlueair has been offering cutting-edge air purification technologies to the market for a number of years. The company has also been creating products that are ideal for smaller spaces, allowing you",
                 "<s> When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment? Then, the Austin Air Healthmate Plus might be the right one for you. You may also be considering other models from this brand, like the Austin Air Healthmate Junior. You may want to consider the benefits and disadvantages of each model to help you make the best decision.\nAir Purifiers Austin Air"
             ],
-            "reversed_perturbed_prompt_loss": 2.8571016788482666
+            "reversed_perturbed_prompt_loss": 2.8571016788482666,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment?",
@@ -6535,7 +6537,8 @@
                 "<s> When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment?\nThis review will look into the Dyson Pure Cool Link Air Purifier.\nIn the case of this air purifier, this device will help to reduce allergens and other airborne particles to keep you and your family safe and healthy.\nLet\u2019s have a look at the",
                 "<s> When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment? This Molekule Air Purifier Review will focus on the Molekule Air Purifier Mini and what this innovative piece of technology has to offer.\nThe first thing that jumps out at me is the sleek and sophisticated design of this air purifier. The device is designed"
             ],
-            "reversed_perturbed_prompt_loss": 5.712503910064697
+            "reversed_perturbed_prompt_loss": 5.712503910064697,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> In your view, which kitchen mixer stands out for its exceptional results, not just in terms of motor power but also in features like tilt-head design, planetary mixing action, and a robust build for handling heavy dough and batter?\nWhile the choice is pretty vast, our favourite one in the KM1902 model from Kenwood. This model comes with 2700 watts of motor power, and is available with both a 2 and 4 litre bowl. Aside from the planetary",
                 "<s> In your view, which kitchen mixer stands out for its exceptional results, not just in terms of motor power but also in features like tilt-head design, planetary mixing action, and a robust build for handling heavy dough and batter?\nJenny: The KitchenAid 5-Speed Artisan 3.5 Qt Tilt-Head Stand Mixer with Pouring Shield is just perfect for making the heaviest dough, batter and cakes. It is a 5-speed stand mixer with 10 am"
             ],
-            "reversed_perturbed_prompt_loss": 2.436404228210449
+            "reversed_perturbed_prompt_loss": 2.436404228210449,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "In your view, which kitchen mixer stands out for its good results, not just in terms of motor power but also in features like tilt-head design, planetary mixing action, and a robust build for handling heavy dough and batter?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which kitchen mixer stands out for its excellent results, not just in terms of motor power but also in features like tilt-head design, planetary mixing action, and a robust build for handling heavy dough and batter?\nI've only had a brief experience with the new generation Bosch Art 15 mixer, but I was immediately impressed by its performance. The mixer has all the features of the older Art series mixers, which I've come to trust, but it has a better build quality and a",
                 "<s> In your view, which kitchen mixer stands out for its excellent results, not just in terms of motor power but also in features like tilt-head design, planetary mixing action, and a robust build for handling heavy dough and batter?\nThis is where I usually say something nice and fawning like: \u201cIt has to be a KAISER, surely, I don\u2019t believe you mean that you\u2019ve actually used other brands of kitchen mixer and found them better than a KAISER!\u201d\nBut the truth is"
             ],
-            "reversed_perturbed_prompt_loss": 4.970712184906006
+            "reversed_perturbed_prompt_loss": 4.970712184906006,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "In your view, which kitchen mixer stands out for its good results, not just in terms of motor power but also in features like tilt-head design, planetary mixing action, and a robust build for handling heavy dough and batter?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which kitchen mixer stands out for its outstanding results, not just in terms of motor power but also in features like tilt-head design, planetary mixing action, and a robust build for handling heavy dough and batter?\nTill recently, a commercial stand mixer would have been the ideal for this. But with increasing affordability of high-performance kitchen mixers in India, it is possible to own a domestic model with great features for baking. A 4-5 litres bowl and a 120",
                 "<s> In your view, which kitchen mixer stands out for its outstanding results, not just in terms of motor power but also in features like tilt-head design, planetary mixing action, and a robust build for handling heavy dough and batter?\nWhat is your pick for best performance at a reasonable price?\nWhenever possible, what would you like to buy local?\nWhen it comes to food, which two items are you most excited to eat (or to make) for the holidays?\nThis week's answers from chef-instruct"
             ],
-            "reversed_perturbed_prompt_loss": 2.6456446647644043
+            "reversed_perturbed_prompt_loss": 2.6456446647644043,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

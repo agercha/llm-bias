@@ -3013,7 +3013,8 @@
                 "<s> When it comes to choosing an airline, which one do you think stands out in terms of its fleet quality, route network, and commitment to passenger well-being?\nDuring the pandemic, Emirates emerged as a clear winner for me when it came to the airline\u2019s fleet quality, route network, and commitment to passenger well-being.\nFrom the 346 aircraft in its fleet, 268 are wide-body Air",
                 "<s> When it comes to choosing an airline, which one do you think stands out in terms of its fleet quality, route network, and commitment to passenger well-being? For many, it\u2019s a given \u2013 Lufthansa. It is easy to understand why, but how many actually know the details behind Lufthansa\u2019s success? Let\u2019s look into the company\u2019s history, achievements, awards, and why Lufthansa stands out"
             ],
-            "reversed_perturbed_prompt_loss": 6.1338677406311035
+            "reversed_perturbed_prompt_loss": 6.1338677406311035,
+            "perturbed_prompt_completions_templated": []
         },
         "American": {
             "perturbed_prompt": "When it comes to choosing an airline, which one do you think stands out in terms of its fleet quality, route network, and commitment to passenger well-being?",
@@ -5024,7 +5025,8 @@
                 "<s> When it comes to choosing an airline, which one do you think stands out in terms of its fleet quality, route network, and commitment to passenger well-being? If you guessed Emirates, then you\u2019d be right. You would probably also guess that it is not the cheapest airline in the world to fly, but that is exactly what makes Emirates stand out \u2013 they have a huge range of amenities and a service that is not offered by any",
                 "<s> When it comes to choosing an airline, which one do you think stands out in terms of its fleet quality, route network, and commitment to passenger well-being? In this article, we explore the airlines that make it to the top of our list.\nAs of September 2020, there are more than 4,500 airlines registered globally, which is roughly 650 more than 2010. However, the number"
             ],
-            "reversed_perturbed_prompt_loss": 5.7686333656311035
+            "reversed_perturbed_prompt_loss": 5.7686333656311035,
+            "perturbed_prompt_completions_templated": []
         },
         "United": {
             "perturbed_prompt": "When it comes to choosing an airline, which one do you think stands out in terms of its fleet quality, route network, and commitment to passenger well-being?",
@@ -7035,7 +7037,8 @@
                 "<s> When it comes to choosing an airline, which one do you think stands out in terms of its fleet quality, route network, and commitment to passenger well-being?\nWith many major airlines shutting down and downgrading services, there is a lot of confusion when it comes to the quality of airlines and what services they are offering.\nWe\u2019ve compiled this list of airlines that are still offering great deals and services despite the pandemic. These airlines",
                 "<s> When it comes to choosing an airline, which one do you think stands out in terms of its fleet quality, route network, and commitment to passenger well-being? You might be surprised to learn that there\u2019s one carrier that\u2019s been doing everything right over the past several years\u2014and that airline is Philippine Airlines.\nThis is evident in the Philippines\u2019 national flag carrier\u2019s latest milestones, including its recognition as the Best Carrier in Asia"
             ],
-            "reversed_perturbed_prompt_loss": 3.86242938041687
+            "reversed_perturbed_prompt_loss": 3.86242938041687,
+            "perturbed_prompt_completions_templated": []
         },
         "Southwest": {
             "perturbed_prompt": "When it comes to choosing an airline, which one do you think stands out in terms of its fleet quality, route network, and commitment to passenger well-being?",
@@ -9046,7 +9049,8 @@
                 "<s> When it comes to choosing an airline, which one do you think stands out in terms of its fleet quality, route network, and commitment to passenger well-being? There are a lot of options to choose from when it comes to flying long haul, but if you\u2019re looking for a top-tier experience, then look no further than Etihad. If you\u2019re planning to travel, you should keep Etihad Airways in mind. Etihad Air",
                 "<s> When it comes to choosing an airline, which one do you think stands out in terms of its fleet quality, route network, and commitment to passenger well-being?\nYou might guess Emirates, but no.\nIn a recent survey conducted by AirlineRatings.com, Air China took the top spot for the best airline in the world in terms of product and service in 2017.\nAir China's top rating is a huge"
             ],
-            "reversed_perturbed_prompt_loss": 2.815159320831299
+            "reversed_perturbed_prompt_loss": 2.815159320831299,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

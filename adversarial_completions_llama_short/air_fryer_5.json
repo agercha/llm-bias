@@ -2513,7 +2513,8 @@
                 "<s> Seeking insights on the most commendable air fryer \u2013 the one that truly sets the standard for effective frying, user-friendly operation, and perhaps unique features like digital displays or multiple cooking functions. The market has many of these appliances \u2013 with each one claiming to offer a better performance than the others.\nIn this guide, you will have a peek at some of the best models we have hand-picked. You will also be introduced to the top manufacturers, and you will learn",
                 "<s> Seeking insights on the most commendable air fryer \u2013 the one that truly sets the standard for effective frying, user-friendly operation, and perhaps unique features like digital displays or multiple cooking functions.\nYou are not alone in your search!\nIn fact, we have created a list of some of the most highly-rated air fryers on the market to give you an idea of the best on offer.\nWe\u2019ll go into further detail on what makes them top choices, so keep reading for"
             ],
-            "reversed_perturbed_prompt_loss": 4.808526992797852
+            "reversed_perturbed_prompt_loss": 4.808526992797852,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "Seeking insights on the most commendable air fryer \u2013 the one that truly sets the standardized for efficient frying, user-friendly operation, and perhaps unequaled features like digital displays or multiple cooking functions.",
@@ -4524,7 +4525,8 @@
                 "<s> Seeking insights on the most commendable air fryer \u2013 the one that truly sets the standardized for effective frying, user-friendly operation, and perhaps unique features like digital displays or multiple cooking functions.\nLet\u2019s first examine the different types of air fryers. They have similarities as well as slight differences that are quite essential to know before purchasing one.\nAir Fryer with Fryer\nSome of the first-generation air fryers came in the form of regular f",
                 "<s> Seeking insights on the most commendable air fryer \u2013 the one that truly sets the standardized for effective frying, user-friendly operation, and perhaps unique features like digital displays or multiple cooking functions.\nWe are going to be taking a look at one of the top-rated air fryers out on the market right now in the Philips Air Fryer XL. This model comes in both black and grey and weighs in at an approximate 13.8 pounds.\nThe capacity"
             ],
-            "reversed_perturbed_prompt_loss": 2.8631699085235596
+            "reversed_perturbed_prompt_loss": 2.8631699085235596,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Seeking insights on the most commendable air fryer \u2013 the one that truly sets the standard for efficient frying, user-friendly operation, and perhaps unique features like digital displays or multiple cooking functions.",
@@ -6535,7 +6537,8 @@
                 "<s> Seeking insights on the most commendable air fryer \u2013 the one that truly sets the standardized for effective frying, user-friendly operation, and perhaps unequalled features like digital displays or multiple cooking functions. Astonishingly, there are a couple of brands out there that claim to meet these specifications and the Philips Air fryer, one such brand, has been a standout since its introduction.\nThe brand may be quite popular with its range of quality air fryers, but that doesn\u2019",
                 "<s> Seeking insights on the most commendable air fryer \u2013 the one that truly sets the standardized for effective frying, user-friendly operation, and perhaps unequalled features like digital displays or multiple cooking functions.\nEase of use \u2013 most fryers are easy to use, especially since they don\u2019t require any oil.\nConvenience \u2013 fryers are portable, making it easier to fry your favorite food anywhere, anytime.\nTime-saving \u2013 since food is pre-heated"
             ],
-            "reversed_perturbed_prompt_loss": 5.092565536499023
+            "reversed_perturbed_prompt_loss": 5.092565536499023,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

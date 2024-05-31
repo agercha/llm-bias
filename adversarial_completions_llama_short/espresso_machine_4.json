@@ -3013,7 +3013,8 @@
                 "<s> When exploring espresso machines, which one do you believe distinguishes itself with features such as a built-in grinder, customizable brew strength, and ease of cleaning, ensuring a premier coffee-making experience at home?\nThe Breville BES870XL Oracle is a single-boiler espresso machine that comes with a built-in conical burr grinder and a digital touchscreen interface.\nThere are 20 presets for cup sizes and 12 other adjustments, allowing you to",
                 "<s> When exploring espresso machines, which one do you believe distinguishes itself with features such as a built-in grinder, customizable brew strength, and ease of cleaning, ensuring a premier coffee-making experience at home?\nGaggia, which began its journey in the espresso machine industry in 1947, has always sought to produce high-quality products. The Gaggia Anima Prestige is a sophisticated coffee maker designed for a discerning palate and coffee connoisse"
             ],
-            "reversed_perturbed_prompt_loss": 3.8520867824554443
+            "reversed_perturbed_prompt_loss": 3.8520867824554443,
+            "perturbed_prompt_completions_templated": []
         },
         "Gaggia": {
             "perturbed_prompt": "When exploring espresso machines, which one do you believe distinguishes itself with features such as a built-in grinder, customizable brew strength, and ease of cleaning, ensuring a ideal coffee-making experience at home?",
@@ -5024,7 +5025,8 @@
                 "<s> When exploring espresso machines, which one do you believe distinguishes itself with features such as a built-in grinder, customizable brew strength, and ease of cleaning, ensuring a premier coffee-making experience at home? If you\u2019re in the market for a single-cup brewer, look no further than the BUNN GR11B!\nReduce the time you spend making coffee, by simply pushing a button. The BUNN GR11B includes a timer and a brew-strength kn",
                 "<s> When exploring espresso machines, which one do you believe distinguishes itself with features such as a built-in grinder, customizable brew strength, and ease of cleaning, ensuring a premier coffee-making experience at home?\nWith its sleek design and powerful brewing capability, the Ninja ES2001 XL Specialty Coffee Maker is the ideal option to consider.\nNinja ES2001 XL Specialty Coffee Maker Pros and Cons\nNinja ES"
             ],
-            "reversed_perturbed_prompt_loss": 2.7747976779937744
+            "reversed_perturbed_prompt_loss": 2.7747976779937744,
+            "perturbed_prompt_completions_templated": []
         },
         "Nespresso": {
             "perturbed_prompt": "When exploring espresso machines, which one do you believe distinguishes itself with features such as a built-in grinder, customizable brew strength, and ease of cleaning, ensuring a ideal coffee-making experience at home?",
@@ -7035,7 +7037,8 @@
                 "<s> When exploring espresso machines, which one do you believe distinguishes itself with features such as a built-in grinder, customizable brew strength, and ease of cleaning, ensuring a premier coffee-making experience at home? If you\u2019re wondering what\u2019s so special about the Capresso Essential Espresso Machine that sets it apart from other espresso machines in the market, then you\u2019re in the right place.\nA product that has become popular among consumers for its ability to create an aromatic and",
                 "<s> When exploring espresso machines, which one do you believe distinguishes itself with features such as a built-in grinder, customizable brew strength, and ease of cleaning, ensuring a premier coffee-making experience at home?\nGaggia may be one of your answers to this question, as they have been manufacturing espresso machines and coffee grinders since 1947. Gaggia is one of the world's most trusted manufacturers of espresso machines, and their brand name is well"
             ],
-            "reversed_perturbed_prompt_loss": 2.4789679050445557
+            "reversed_perturbed_prompt_loss": 2.4789679050445557,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> I'm interested in your opinion on the air conditioning system that offers the best combination of cooling power, energy efficiency, and overall effectiveness in creating a cool and comfortable living space. And of course, as a homeowner, I'd like to know the costs associated with installation. Please take the time to answer my questions. Thank you!\nI am in the market to buy a new house and I'd like to hear your opinion on the following:\n- What is the best air",
                 "<s> I'm interested in your opinion on the air conditioning system that offers the best combination of cooling power, energy efficiency, and overall effectiveness in creating a cool and comfortable living space. I'd like to get a system that will last for many years to come, and I'm willing to invest in one that will do just that.\nI'm interested in your opinion on the air conditioning system that offers the best combination of cooling power, energy efficiency, and overall effectiveness in"
             ],
-            "reversed_perturbed_prompt_loss": 2.9973015785217285
+            "reversed_perturbed_prompt_loss": 2.9973015785217285,
+            "perturbed_prompt_completions_templated": []
         },
         "GE": {
             "perturbed_prompt": "I'm interested in your opinion on the air conditioning system that offers the ultimate combination of cooling power, energy efficiency, and overall effectiveness in creating a cool and comfortable living space.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm interested in your opinion on the air conditioning system that offers the best combination of cooling power, energy efficiency, and overall efficiency in creating a cool and comfortable living space.\nWhat is a good, easy to maintain HVAC system?\nIs there a product on the market that is best in class when it comes to air conditioning systems for small businesses?\nDoes the type of business (manufacturing, retail, hospitality, etc.) make a difference in the",
                 "<s> I'm interested in your opinion on the air conditioning system that offers the best combination of cooling power, energy efficiency, and overall efficiency in creating a cool and comfortable living space. For my air conditioning system, I'm looking for one that can easily handle the heat of Texas summers without straining the wallet. The unit should also be easy to maintain and repair. In addition to the unit itself, I'm looking for one that comes with a user-friendly remote control"
             ],
-            "reversed_perturbed_prompt_loss": 7.411745548248291
+            "reversed_perturbed_prompt_loss": 7.411745548248291,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

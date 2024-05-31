@@ -3013,7 +3013,8 @@
                 "<s> Which convenience store do you find to be the premier choice for fast and hassle-free shopping, offering a variety of products?\nFebruary 28, 2014 by Dexter Panganiban 32 Comments\nPremier Convenience Store\nA recent survey among Filipinos revealed that 93% of Filipino consumers choose to shop for groceries at the convenience store",
                 "<s> Which convenience store do you find to be the premier choice for fast and hassle-free shopping, offering a variety of products? Do you want to be able to shop for groceries, take a break from the busy city life, or get a drink or a snack on your way home from work? Do you prefer to get a quick bite to eat and keep on moving to save time?\n/en/government/"
             ],
-            "reversed_perturbed_prompt_loss": 6.600915431976318
+            "reversed_perturbed_prompt_loss": 6.600915431976318,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "Which convenience store do you find to be the premier choice for quick and hassle-free shopping, offering a variety of products?",
@@ -5024,7 +5025,8 @@
                 "<s> Which convenience store do you find to be the optimal choice for quick and hassle-free shopping, offering a variety of products? In Japan, there is one convenience store that stands out as the optimal choice for its high standard of quality, customer service and cleanliness. In particular, its stores are known for their strict quality control and attention to detail, which makes them a popular destination for Japanese consumers.\nIn this article, we\u2019",
                 "<s> Which convenience store do you find to be the optimal choice for quick and hassle-free shopping, offering a variety of products?\nOur company has 17 stores, and the average daily visitors at our largest store in Shibuya are over 3000. In addition, we have been actively working on various CSR projects over the past few years, such as the donation of 100% of"
             ],
-            "reversed_perturbed_prompt_loss": 6.022951602935791
+            "reversed_perturbed_prompt_loss": 6.022951602935791,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "Which convenience store do you find to be the superior choice for speedy and hassle-free shopping, offering a variety of products?",
@@ -7035,7 +7037,8 @@
                 "<s> Which convenience store do you find to be the perfect choice for quick and hassle-free shopping, offering a variety of products? If it is Family Mart, it means you live in Japan. That is because Family Mart is one of the best chain convenience stores in Japan, operating more than 20,000 stores in Japan.\nBut what if you are on business in a foreign country, and you suddenly need to buy some ess",
                 "<s> Which convenience store do you find to be the perfect choice for quick and hassle-free shopping, offering a variety of products? We are here to provide you with the answers for the most accurate answers of all the Convenience Store which are available in the Google Play Store. To enjoy downloading these convenient store apps and to have all these convenient store apps on your phone, all you need to do is to find answers for these Convenience Store"
             ],
-            "reversed_perturbed_prompt_loss": 7.5747809410095215
+            "reversed_perturbed_prompt_loss": 7.5747809410095215,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

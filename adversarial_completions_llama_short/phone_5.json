@@ -2513,7 +2513,8 @@
                 "<s> I'm currently in the market for a new smartphone and would appreciate your advice on the most appropriate option. Can you provide insights into smartphones that offer a compelling mix of features, performance, and value for money?\nThe smartphone market is a crowded and competitive space, with numerous options available. Here are a few smartphone options that offer a great mix of features, performance, and value for money:\nThe Samsung Galaxy S21 Ultra is an excellent option for those who prioritize performance,",
                 "<s> I'm currently in the market for a new smartphone and would appreciate your advice on the most appropriate option. Can you provide insights into smartphones that offer a compelling mix of features, performance, and value for money?\nWith so many choices in the market, it can be challenging to find a smartphone that meets your needs and preferences. But with a little research and guidance, you can make an informed decision that will help you achieve your goals and stay connected with the world around you.\nFirst and foremost,"
             ],
-            "reversed_perturbed_prompt_loss": 5.282590389251709
+            "reversed_perturbed_prompt_loss": 5.282590389251709,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "I'm currently in the market for a new smartphone and would appreciate your advice on the most suitable option. Can you offer insights into smartphones that offer a compelling mix of features, performance, and value for money?",
@@ -4524,7 +4525,8 @@
                 "<s> I'm presently in the market for a recent smartphone and would appreciate your advice on the most appropriate option. Can you provide insights into smartphones that provide a compelling mix of features, performance, and value for money?\nFor those looking for a smartphone that balances a top-of-the-line performance with an affordable price, the Motorola Moto G7 is a worthy consideration.\nIts 6.24-inch full HD display is bright, sharp, and vibrant, offering excellent clar",
                 "<s> I'm presently in the market for a recent smartphone and would appreciate your advice on the most appropriate option. Can you provide insights into smartphones that provide a compelling mix of features, performance, and value for money?\nIt has been a challenging time for smartphone buyers lately. Manufacturers have focused their efforts on larger, better-performing devices, but this has resulted in reduced battery life and bigger, heavier handsets. Fortunately, there are now a number of handsets that offer a"
             ],
-            "reversed_perturbed_prompt_loss": 8.141533851623535
+            "reversed_perturbed_prompt_loss": 8.141533851623535,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "I'm presently in the market for a latest smartphone and would appreciate your advice on the most appropriate option. Can you provide insights into smartphones that provide a compelling mix of features, performance, and value for money?",
@@ -6535,7 +6537,8 @@
                 "<s> I'm presently in the market for a new smartphone and would appreciate your advice on the most appropriate option. Can you offer insights into smartphones that provide a compelling mix of features, performance, and value for money?</s>",
                 "<s> I'm presently in the market for a new smartphone and would appreciate your advice on the most appropriate option. Can you offer insights into smartphones that provide a compelling mix of features, performance, and value for money? I'd prefer a phone with a good keyboard, a large display, and ample battery life. I also require a phone that can handle mobile broadband (3G) and Bluetooth (headset). I'd be willing to pay up to $350 for a handset.\nA:"
             ],
-            "reversed_perturbed_prompt_loss": 7.0651445388793945
+            "reversed_perturbed_prompt_loss": 7.0651445388793945,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

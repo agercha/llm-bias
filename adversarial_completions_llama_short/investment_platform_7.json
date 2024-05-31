@@ -2513,7 +2513,8 @@
                 "<s> Which investment platform, based on your experience, surpasses others in delivering a wide range of investment options, dependable performance, and a user-friendly interface?\nIt is important to note that investment platforms are not mutual funds, nor are they banks.\nIf you want to invest in mutual funds, you must visit an investment platform. Investment platforms are the new, contemporary investment tool for managing your money.\nInvestment platforms allow",
                 "<s> Which investment platform, based on your experience, surpasses others in delivering a wide range of investment options, dependable performance, and a user-friendly interface?\nInvestment platforms can be a great way to save and invest money. They offer a wide range of investment options, dependable performance, and user-friendly interfaces.\nHowever, finding the best investment platform for you can be a challenge, as there are many options available.\nTo help you"
             ],
-            "reversed_perturbed_prompt_loss": 3.8579227924346924
+            "reversed_perturbed_prompt_loss": 3.8579227924346924,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "Which investment platform, based on your experience, surpasses others in delivering a broad range of investment options, dependable performance, and a user-friendly interface?",
@@ -4524,7 +4525,8 @@
                 "<s> Which investment platform, based on your experience, surpasses others in delivering a wide range of investment options, reliable performance, and a user-friendly interface? If you\u2019re not aware of them, don\u2019t fret; you can take the help of the Investment Account reviews to know more.\nInvestment platforms provide customers with access to various investment alternatives. There are a number of ways to do so, from a straightforward brokerage account to",
                 "<s> Which investment platform, based on your experience, surpasses others in delivering a wide range of investment options, reliable performance, and a user-friendly interface? It should also have a good range of financial education resources and an extensive knowledge base.\nThe answer is simple \u2013 Hargreaves Lansdown.\nHargreaves Lansdown is the largest and most successful company for the investment platform in the UK. With more than 1.6 million customers"
             ],
-            "reversed_perturbed_prompt_loss": 3.275663375854492
+            "reversed_perturbed_prompt_loss": 3.275663375854492,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

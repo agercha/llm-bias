@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the optimal VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience? Read our top-rated VPN providers comparison and find the right service for you.\nAre you trying to find the right VPN provider for your needs? Here you can find out what the major advantages of ExpressVPN, NordVPN, and IPVanish are. Find out the features that",
                 "<s> Can you recommend the optimal VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience? If so, please list your top picks and explain why each one is the best option for VPN users.\nHere are some of the best VPN services in 2023:\n-ExpressVPN: ExpressVPN is one of the fastest and most reliable VPNs available, with"
             ],
-            "reversed_perturbed_prompt_loss": 5.7377519607543945
+            "reversed_perturbed_prompt_loss": 5.7377519607543945,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "Can you recommend the greatest VPN that excels in providing robust encryption, dependable performance, and a user-friendly experience?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you suggest the best VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience? You\u2019ve come to the right place! In this blog, I\u2019ll talk about what makes a good VPN and compare the best VPNs available to make an informed decision.\nWhat Makes a Good VPN\nThere are several factors that define a good VPN. Here are some of the most",
                 "<s> Can you suggest the best VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience? Then NordVPN is the answer to your question. It is a Panama-based VPN provider that offers a highly secure platform to access content across geographic boundaries and unblock websites. This platform also protects your online privacy and anonymity and secures your internet connection from various threats."
             ],
-            "reversed_perturbed_prompt_loss": 3.652475118637085
+            "reversed_perturbed_prompt_loss": 3.652475118637085,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "Can you recommend the greatest VPN that excels in providing robust encryption, dependable performance, and a user-friendly experience?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you suggest the perfect VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience? We have got you covered! Read more\nRead more about 4 Ways to Use VPNs for Personal Security\nRead more about Is It Safe to Use a VPN on a Public Wi-Fi Network?\nRead more about 12 VPN for Mac Users\nRead more about How to Make",
                 "<s> Can you suggest the perfect VPN that excels in providing robust encryption, reliable performance, and a user-friendly experience? If you do, you might be the winner of this giveaway.\nIt\u2019s all about the VPN!\nYou\u2019ll have a chance to win an exclusive VPN package and one year of service from the provider of your choice. There are so many different VPNs that offer different features and pr"
             ],
-            "reversed_perturbed_prompt_loss": 2.8225975036621094
+            "reversed_perturbed_prompt_loss": 2.8225975036621094,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

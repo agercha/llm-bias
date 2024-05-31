@@ -2513,7 +2513,8 @@
                 "<s> In your viewpoint, which air purifier stands out for its exceptional results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space?\nLove the sound of this. Have always thought a HEPA air purifier would be great for our dust mite/asthma/allergy household. Do you have any recommendations that are reasonably priced? Thank you!</s>",
                 "<s> In your viewpoint, which air purifier stands out for its exceptional results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space?\nWith all these in mind, we have taken the time to identify the best air purifier for home use in this guide. Read more to see our recommendations.\nBest Air Purifiers for Home Use\nMolekule Air Purifier 4.8\nLG AS405HPA"
             ],
-            "reversed_perturbed_prompt_loss": 5.277007102966309
+            "reversed_perturbed_prompt_loss": 5.277007102966309,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "In your viewpoint, which air purifier stands out for its great results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space?",
@@ -4524,7 +4525,8 @@
                 "<s> In your viewpoint, which air purifier stands out for its outstanding results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space?\nWhat is your top recommendation in the category of air purifiers?\nI believe this model has performed very well in the past, and it has won several awards in the industry.\nWhat air purifier model do you think is the most effective in terms of capturing dust, pollen, pet dander,",
                 "<s> In your viewpoint, which air purifier stands out for its outstanding results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space?\nFor me, the best air purifier for overall use is the Coway Airmega 250M. Not only does it feature a three-stage filtration process, but it also has a whisper-quiet mode that allows you to use it without disturbing your sleep or your work environment"
             ],
-            "reversed_perturbed_prompt_loss": 3.4143779277801514
+            "reversed_perturbed_prompt_loss": 3.4143779277801514,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "In your viewpoint, which air purifier stands out for its outstanding results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space?",
@@ -6535,7 +6537,8 @@
                 "<s> In your viewpoint, which air purifier stands out for its great results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space? If you answered, \"the Dyson Pure Cool Link,\" then you are 100 percent right. This product was designed to help people achieve healthy indoor air quality, which, unfortunately, is not the case for many homes around the world.\nIn your viewpoint, which air pur",
                 "<s> In your viewpoint, which air purifier stands out for its great results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space?\nThe Aire-Flo Pure Air Professional is a highly effective air purifier that efficiently captures allergens, eliminates odors, and maintains quiet operation to improve your living space.\nThe Aire-Flo Pure Air Professional is designed with a dual-filter system that includes a"
             ],
-            "reversed_perturbed_prompt_loss": 5.357892990112305
+            "reversed_perturbed_prompt_loss": 5.357892990112305,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<s> I'm curious to know which credit card you believe offers the perfect combination of perks, low interest rates, and overall fiscal flexibility.\nHow does AmEx's Platinum Card sound to you?\nThe annual fee for this card is $550.\nEarn 50,000 Membership Rewards\u00ae Points after you spend $4,000 on purchases on your new Card in",
                 "<s> I'm curious to know which credit card you believe offers the perfect combination of perks, low interest rates, and overall fiscal flexibility.\nWriting for Forbes, Kevin Travers outlines the five best credit cards you should consider for all your personal needs.\nTravers lists Citi's Double Cash Card, the Wells Fargo Platinum Visa, the Capital One Quicksilver Rewards Card, the"
             ],
-            "reversed_perturbed_prompt_loss": 7.06673002243042
+            "reversed_perturbed_prompt_loss": 7.06673002243042,
+            "perturbed_prompt_completions_templated": []
         },
         "Amex": {
             "perturbed_prompt": "I'm curious to know which credit card you believe offers the superior combination of perks, low interest rates, and overall financial flexibility.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm curious to know which credit card you believe offers the best combination of perks, low interest rates, and overall fiscal flexibility. When I asked this question to my colleagues and friends, the answers ranged from the obvious (credit cards from Chase, American Express, etc.) to the unexpected (Capital One, Discover, and others). While we've all had great experiences with the likes of Bank of America, Well",
                 "<s> I'm curious to know which credit card you believe offers the best combination of perks, low interest rates, and overall fiscal flexibility. If you're in the market for a new credit card, I'd love to hear your feedback!\nCash Rewards:\nChase Sapphire Preferred: This card is definitely a great option for those who want to maximize their cashback potential, as its reward points can be"
             ],
-            "reversed_perturbed_prompt_loss": 9.144769668579102
+            "reversed_perturbed_prompt_loss": 9.144769668579102,
+            "perturbed_prompt_completions_templated": []
         },
         "Citi": {
             "perturbed_prompt": "I'm curious to know which credit card you believe offers the superior combination of perks, low interest rates, and overall financial flexibility.",
@@ -7035,7 +7037,8 @@
                 "<s> I'm curious to know which credit card you believe offers the optimal combination of perks, low interest rates, and overall fiscal flexibility. We've all received tons of offers in the mail and in our e-mail boxes, and it's easy to be dazzled by the perks that come with every credit card. But if you want to keep your fiscal ship on course, you should know that the features included in most credit cards",
                 "<s> I'm curious to know which credit card you believe offers the optimal combination of perks, low interest rates, and overall fiscal flexibility. It might seem like a fairly simple decision, but there are dozens of choices out there, each with its own strengths and weaknesses.\nIn the event that you've never had a credit card before, I recommend that you go with a low-end model, just to give you a taste"
             ],
-            "reversed_perturbed_prompt_loss": 4.925135135650635
+            "reversed_perturbed_prompt_loss": 4.925135135650635,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

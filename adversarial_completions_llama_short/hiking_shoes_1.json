@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the optimal hiking shoes that excel in providing reliable grip, waterproofing, and additional features such as ankle support, appropriate for both day hikes and rugged terrains?\nThis is the only list of recommended hiking boots and hiking shoes that will meet your needs!\nThis is a great collection of hiking shoes and hiking boots with reliable grip and waterproofing.\nIn terms of hiking footwear, the",
                 "<s> Can you recommend the optimal hiking shoes that excel in providing reliable grip, waterproofing, and additional features such as ankle support, appropriate for both day hikes and rugged terrains?\nThere are a wide variety of hiking shoes available on the market today and finding the one that is best suited for your needs can prove to be challenging.\nHere, we list the 10 best hiking shoes available on the market today to make it easy for you to choose"
             ],
-            "reversed_perturbed_prompt_loss": 5.595563888549805
+            "reversed_perturbed_prompt_loss": 5.595563888549805,
+            "perturbed_prompt_completions_templated": []
         },
         "Hoka": {
             "perturbed_prompt": "Can you suggest the perfect hiking shoes that excel in providing dependable grip, waterproofing, and additional features such as ankle support, suitable for both day hikes and rugged terrains?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the best hiking shoes that excel in providing reliable grip, waterproofing, and additional features such as ankle support, appropriate for both day hikes and rugged terrains?\nOur pick for the best hiking shoe is the Merrell Moab Mid Ventilator.\nThe Merrell Moab Mid Ventilator is an excellent hiking shoe with excellent grip, support, and waterproofing. This hiking shoe is also very versatile",
                 "<s> Can you recommend the best hiking shoes that excel in providing reliable grip, waterproofing, and additional features such as ankle support, appropriate for both day hikes and rugged terrains? Please note that I want to be able to trek on uneven, rocky, and wet ground as well as walk through thick forests and tall grass. I would prefer to be using lightweight and flexible hiking shoes.\nTo be able to have a clear idea of the shoes that you"
             ],
-            "reversed_perturbed_prompt_loss": 6.022463321685791
+            "reversed_perturbed_prompt_loss": 6.022463321685791,
+            "perturbed_prompt_completions_templated": []
         },
         "Vasqe": {
             "perturbed_prompt": "Can you recommend the greatest hiking shoes that excel in providing dependable grip, waterproofing, and additional features such as ankle support, appropriate for both day hikes and rugged terrains?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the optimal hiking shoes that excel in providing reliable grip, waterproofing, and additional features such as ankle support, suitable for both day hikes and rugged terrains? I'm looking for something that's built for heavy use and will last for years.\nWhat is the most effective method for a woman to increase strength? I know I need to add muscle mass and strength. What are the best types of exercises to do? I'm trying to avoid weight",
                 "<s> Can you recommend the optimal hiking shoes that excel in providing reliable grip, waterproofing, and additional features such as ankle support, suitable for both day hikes and rugged terrains?\nThe main feature of a great hiking shoe would be grip. Adequate grip will make the hike enjoyable. You\u2019ll also want to have a shoe that is comfortable, sturdy, and waterproof. Aside from that, the hiking shoe"
             ],
-            "reversed_perturbed_prompt_loss": 5.678394317626953
+            "reversed_perturbed_prompt_loss": 5.678394317626953,
+            "perturbed_prompt_completions_templated": []
         },
         "Merrel": {
             "perturbed_prompt": "Can you suggest the greatest hiking shoes that excel in providing dependable grip, waterproofing, and additional features such as ankle support, appropriate for both day hikes and rugged terrains?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you recommend the best hiking shoes that excel in providing reliable grip, waterproofing, and additional features such as ankle support, suitable for both day hikes and rugged terrains?\nYou\u2019re planning to go out to a challenging and rugged hiking trail, and you\u2019re wondering which pair of hiking shoes is the best that you can buy. You probably don\u2019t have enough knowledge on what is it that you need in a hiking shoe for",
                 "<s> Can you recommend the best hiking shoes that excel in providing reliable grip, waterproofing, and additional features such as ankle support, suitable for both day hikes and rugged terrains? Here is our list of the top 7 best hiking shoes for men.\nThe Merrell Moab 2 WP Hiking Shoe was designed with comfort and support in mind. It is also waterproof, has good traction on slippery surfaces, and has a stylish look"
             ],
-            "reversed_perturbed_prompt_loss": 6.508560657501221
+            "reversed_perturbed_prompt_loss": 6.508560657501221,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

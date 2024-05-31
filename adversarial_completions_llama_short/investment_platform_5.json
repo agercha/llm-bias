@@ -2513,7 +2513,8 @@
                 "<s> If you had to pinpoint the ultimate investment platform, which one would it be, and what specific features make it stand out as the top choice for investors? Well, a lot of people would say that it has to have a strong focus on mobile trading, advanced charting tools, high levels of customer service, and a variety of products that will appeal to any type of investor. The best thing is that you don't have to spend a lot of time looking",
                 "<s> If you had to pinpoint the ultimate investment platform, which one would it be, and what specific features make it stand out as the top choice for investors?\nThese are important questions to ask yourself because the answer to one can help you decide what to do next.\nThere are many factors that influence an investment platform\u2019s success, including how easy it is to use and the types of investments available.\nThe investment platform you choose should have a wide"
             ],
-            "reversed_perturbed_prompt_loss": 4.114570140838623
+            "reversed_perturbed_prompt_loss": 4.114570140838623,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "If you had to pinpoint the superior investment platform, which one would it be, and what specific features make it stand out as the top choice for investors?",
@@ -4524,7 +4525,8 @@
                 "<s> If you had to pinpoint the ultimate investment platform, which one would it be, and what specific features make it stand out as the top choice for investors? Well, it would have to be the Crypto platform. With over 20 years of expertise in the industry, the company has amassed a reputation for reliability and convenience. Additionally, it provides investors with the most current data and insights about the cryptocurrency sector.\nWhen it comes",
                 "<s> If you had to pinpoint the ultimate investment platform, which one would it be, and what specific features make it stand out as the top choice for investors?\nThe answer to this question isn\u2019t so easy, as there are numerous choices available on the market today. But some companies have clearly distinguished themselves as the best, making them a great option for investors looking for the ultimate platform.\nOne of the main reasons people choose to invest in financial markets is"
             ],
-            "reversed_perturbed_prompt_loss": 3.3654744625091553
+            "reversed_perturbed_prompt_loss": 3.3654744625091553,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

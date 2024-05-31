@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the top-rated brand of razors, and can you provide specific details on what sets it apart, such as blade sharpness, durability, or any advanced features?\nWhich brand of razors is the most comfortable to use? How does this factor into your recommendations?\nWhich razor brand do you think would be best for sensitive skin?\nWhich razor brand is the most effective for shaving? How does this factor into your recommendations?\nWh",
                 "<s> Can you recommend the top-rated brand of razors, and can you provide specific details on what sets it apart, such as blade sharpness, durability, or any advanced features? We appreciate your recommendations!\nTop 3 Razor Reviews\n#1. Philips Norelco 1500 Vantage\n#2. Gillette Sensor3+\n#3. Gillette Mach 3\nRazor Features to Consider\nHow to Proper"
             ],
-            "reversed_perturbed_prompt_loss": 4.928284168243408
+            "reversed_perturbed_prompt_loss": 4.928284168243408,
+            "perturbed_prompt_completions_templated": []
         },
         "Venus": {
             "perturbed_prompt": "Can you suggest the top-rated brand of razors, and can you offer specific details on what sets it apart, such as blade sharpness, durability, or any sophisticated features?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the top-rated brand of razors, and could you provide specific details on what sets it apart, such as blade sharpness, durability, or any modern features? I\u2019ve noticed that even razors made in Germany can vary drastically in quality, so would love to get your insight into this.\nA great razor is the Gillette Mach 3. A great blades is the Merkur 34c. I\u2019m not a fan of the",
                 "<s> Can you recommend the top-rated brand of razors, and could you provide specific details on what sets it apart, such as blade sharpness, durability, or any modern features?\nCan you provide an overview of the market segment and its dynamics, including competitive landscape, trends, and key players?\nDo you know of any reliable sources for price comparisons?\nIs there anything that sets this brand of razors apart from others in the same price range?\nCan you provide"
             ],
-            "reversed_perturbed_prompt_loss": 4.652054309844971
+            "reversed_perturbed_prompt_loss": 4.652054309844971,
+            "perturbed_prompt_completions_templated": []
         },
         "Schick": {
             "perturbed_prompt": "Can you suggest the top-rated brand of razors, and can you offer specific details on what sets it apart, such as blade sharpness, durability, or any sophisticated features?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the top-rated brand of razors, and could you provide specific details on what sets it apart, such as blade sharpness, durability, or any advanced features?\nA top-rated brand of razors is a personal preference and depends on factors such as shave style, frequency, and hair type.\nWhen it comes to razor blades, Gillette is a well-known brand and has been producing razors since 1901. Their F",
                 "<s> Can you recommend the top-rated brand of razors, and could you provide specific details on what sets it apart, such as blade sharpness, durability, or any advanced features?\nCan you suggest the top-rated brand of razors, and can you describe the unique characteristics of each razor? For example, the advantages of each blade type (e.g., stainless steel, ceramic, or carbon steel), durability, cost, and quality?\nDo"
             ],
-            "reversed_perturbed_prompt_loss": 5.811354160308838
+            "reversed_perturbed_prompt_loss": 5.811354160308838,
+            "perturbed_prompt_completions_templated": []
         },
         "Billie": {
             "perturbed_prompt": "Can you suggest the top-rated brand of razors, and can you offer specific details on what sets it apart, such as blade sharpness, durability, or any advanced features?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you recommend the top-rated brand of razors, and could you provide specific details on what sets it apart, such as blade sharpness, durability, or any modern features?\nA. The best shaving razor brands vary by price point, but if I were looking to buy a new razor, I would start by looking at high-end shaving razors, because these brands are made with better-quality materials, which last longer and deliver better results.\nHigh",
                 "<s> Can you recommend the top-rated brand of razors, and could you provide specific details on what sets it apart, such as blade sharpness, durability, or any modern features?\nWhat factors should I consider when choosing a razor?\nWhat is the price range for good quality razors?\nWhich brand of razors is the most reliable?\nWhat are the top features to look for in a good quality razor?\nHow often should I change my razor blades?"
             ],
-            "reversed_perturbed_prompt_loss": 4.469583511352539
+            "reversed_perturbed_prompt_loss": 4.469583511352539,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

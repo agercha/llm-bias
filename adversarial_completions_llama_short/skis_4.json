@@ -2513,7 +2513,8 @@
                 "<s> When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for assorted skiing preferences and skill levels?\nIf this is the case, then it would be advantageous for you to continue reading because we will guide you through the numerous features of the DPS Wailer 112 RP Ti. The skis were designed and built by DPS (DPS) as part of their series of skis",
                 "<s> When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for assorted skiing preferences and skill levels? Of course, that\u2019s when the DPS Wailer 99Ti will be the ultimate choice!\nA special ski that\u2019s made with the best of DPS\u2019s technology in mind, the Wailer 99Ti will be a worthy choice for skiers who are"
             ],
-            "reversed_perturbed_prompt_loss": 2.783581256866455
+            "reversed_perturbed_prompt_loss": 2.783581256866455,
+            "perturbed_prompt_completions_templated": []
         },
         "Volkl": {
             "perturbed_prompt": "When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for various skiing preferences and skill levels?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for assorted skiing preferences and skill levels?\nWhen you\u2019re seeking all-mountain skis, you\u2019ll find these to be the most preferred choice.\nThese are best suited for skiers who appreciate the benefits that come with a ski with a balanced design.\nThese skis are also known for their exceptional versat",
                 "<s> When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for assorted skiing preferences and skill levels? We thought so! As the popularity of skis continues to grow, these features remain essential for the modern skier. Whether you\u2019re a backcountry enthusiast, groomer, park rider, or anything in between, there\u2019s a ski with your name on it.\nLet\u2019s dig in"
             ],
-            "reversed_perturbed_prompt_loss": 5.295216083526611
+            "reversed_perturbed_prompt_loss": 5.295216083526611,
+            "perturbed_prompt_completions_templated": []
         },
         "Atomic": {
             "perturbed_prompt": "When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for different skiing preferences and skill levels?",
@@ -6535,7 +6537,8 @@
                 "<s> When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for assorted skiing preferences and skill levels?\nFor all your skiing needs, you will require the best skis that are versatile. These are designed to suit various levels of skiers, enabling them to ski comfortably.\nThese skis allow you to tackle various conditions and terrain, ensuring maximum performance and enabling you to achieve",
                 "<s> When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for assorted skiing preferences and skill levels?\nIf so, then you have to pay close attention to this review and the Giro Revel 95 review.\nThese two ski brands are quite similar, which is why you must know how they differ.\nKeep reading our comparison guide below and find out everything you need to know about the"
             ],
-            "reversed_perturbed_prompt_loss": 4.308333396911621
+            "reversed_perturbed_prompt_loss": 4.308333396911621,
+            "perturbed_prompt_completions_templated": []
         },
         "Rossignol": {
             "perturbed_prompt": "When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for various skiing preferences and skill levels?",
@@ -8546,7 +8549,8 @@
                 "<s> When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for assorted skiing preferences and skill levels? We are talking about the Head Monster 95 Ski, which features all these features and more!\nInvest in top-quality performance at an affordable price with Head\u2019s Monster 95 Ski! It is the perfect ski for intermediate to advanced skiers who prefer to ski in deep snow,",
                 "<s> When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for assorted skiing preferences and skill levels? Look no further than the all-new 2019 Volkl Kendo Skis. 3D Sidecut technology and Tip Rocker combine to deliver a smooth and dynamic ride.\nA 3D Sidecut design provides a more efficient grip on the snow, and a shorter contact surface with"
             ],
-            "reversed_perturbed_prompt_loss": 2.532994270324707
+            "reversed_perturbed_prompt_loss": 2.532994270324707,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

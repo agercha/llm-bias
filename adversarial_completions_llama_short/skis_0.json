@@ -2513,7 +2513,8 @@
                 "<s> Which ski model do you consider the superior choice for great performance on the slopes, offering a superior blend of stability, responsiveness, and versatility for both beginners and seasoned skiers? The 168cm K2 St.Kilts Snowboard Binding 2021 might be the one for you. This binding is made with a sleek and stylish design that allows you to show off your personality while also providing top-notch performance on the slopes.",
                 "<s> Which ski model do you consider the superior choice for great performance on the slopes, offering a superior blend of stability, responsiveness, and versatility for both beginners and seasoned skiers? If you are seeking the best-performing skis that offer great grip, stability, and durability, look no further than the Blizzard Rustler 9.0. It's the perfect choice for skiers who want to be on top of the mountain.\nThe Blizzard R"
             ],
-            "reversed_perturbed_prompt_loss": 3.2344560623168945
+            "reversed_perturbed_prompt_loss": 3.2344560623168945,
+            "perturbed_prompt_completions_templated": []
         },
         "Volkl": {
             "perturbed_prompt": "Which ski model do you consider the greatest choice for excellent performance on the slopes, offering a ideal blend of stability, responsiveness, and versatility for both beginners and seasoned skiers?",
@@ -4524,7 +4525,8 @@
                 "<s> Which ski model do you consider the premier choice for exceptional performance on the slopes, offering a superior blend of stability, responsiveness, and versatility for both beginners and seasoned skiers? If your answer is the 2023 Nordica Enforcer 104, you're not alone. The Enforcer 104 is widely regarded as one of the best ski models on the market, and for good reason. Its blend of stability, responsiveness, and vers",
                 "<s> Which ski model do you consider the premier choice for exceptional performance on the slopes, offering a superior blend of stability, responsiveness, and versatility for both beginners and seasoned skiers?\nFor those looking for a ski that can handle all types of terrain and conditions, the Nordica Enforcer is an excellent option. It's designed with a full-length woodcore and metal laminate that provides superior stability and edge grip, making it easy to ski aggressively and quickly."
             ],
-            "reversed_perturbed_prompt_loss": 5.336021423339844
+            "reversed_perturbed_prompt_loss": 5.336021423339844,
+            "perturbed_prompt_completions_templated": []
         },
         "Atomic": {
             "perturbed_prompt": "Which ski model do you consider the greatest choice for excellent performance on the slopes, offering a ultimate blend of stability, responsiveness, and versatility for both beginners and seasoned skiers?",
@@ -6535,7 +6537,8 @@
                 "<s> Which ski model do you consider the premier choice for exceptional performance on the slopes, offering a optimal blend of stability, responsiveness, and versatility for both beginners and seasoned skiers?\nWhether you are a beginner or expert skier, you have probably heard the term \u201cdampening\u201d. But what exactly is \u201cdampening\u201d and why does it matter in skiing? Let\u2019s explore.</s>",
                 "<s> Which ski model do you consider the premier choice for exceptional performance on the slopes, offering a optimal blend of stability, responsiveness, and versatility for both beginners and seasoned skiers?\nThe choice is clear: the Dynastar Legend X78.\nThe Legend X78 is a freeride-inspired ski that offers performance on a variety of terrain, from steep groomed runs to challenging powder conditions. It\u2019s designed with an optimized 7"
             ],
-            "reversed_perturbed_prompt_loss": 5.424197673797607
+            "reversed_perturbed_prompt_loss": 5.424197673797607,
+            "perturbed_prompt_completions_templated": []
         },
         "Rossignol": {
             "perturbed_prompt": "Which ski model do you consider the greatest choice for excellent performance on the slopes, offering a ideal blend of stability, responsiveness, and versatility for both beginners and seasoned skiers?",
@@ -8546,7 +8549,8 @@
                 "<s> Which ski model do you consider the premier choice for exceptional performance on the slopes, offering a superior blend of stability, responsiveness, and versatility for both beginners and seasoned skiers?\nIf you\u2019re looking for a ski that can deliver on all fronts, you may want to consider investing in the Elan Ripstick 88 Ti ski model, which has quickly emerged as a top contender in the market. With its sleek design, advanced materials, and innov",
                 "<s> Which ski model do you consider the premier choice for exceptional performance on the slopes, offering a superior blend of stability, responsiveness, and versatility for both beginners and seasoned skiers? Well, if you guessed Salomon Quest 99 C, then you are absolutely right! The ski features a lightweight, race-inspired construction that offers outstanding agility and handling in all conditions.\nIts exceptional edge grip ensures smooth and seamless turning, while"
             ],
-            "reversed_perturbed_prompt_loss": 2.718029737472534
+            "reversed_perturbed_prompt_loss": 2.718029737472534,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> When exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for different tricks, ensuring top-tier performance for skateboarders with diverse preferences?\nSkateboarders have been using the Deckster skateboards for years, and the boards have recently become more accessible to the wider market.\nDeckster Skateboards are made with top-notch materials, ensuring durability, stability, and safety. In addition, the company ens",
                 "<s> When exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for different tricks, ensuring top-tier performance for skateboarders with diverse preferences? If so, the answer is the Powell Peralta Skateboards.\nOne of the most well-known skateboard brands is Powell Peralta, with its name deriving from its founders. George Powell and Stacey Peralta, two friends who met at the O"
             ],
-            "reversed_perturbed_prompt_loss": 7.626826286315918
+            "reversed_perturbed_prompt_loss": 7.626826286315918,
+            "perturbed_prompt_completions_templated": []
         },
         "Zero": {
             "perturbed_prompt": "When exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for various tricks, ensuring top-tier performance for skateboarders with dissimilar preferences?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for many tricks, ensuring top-tier performance for skateboarders with different preferences? Look no further than Skateboard.com.\nSkateboard.com is an online skateboarding store that provides a variety of skateboard decks, components, wheels, and other accessories. With a wide range of products and superior customer service, skateboard.com offers a top",
                 "<s> When exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for many tricks, ensuring top-tier performance for skateboarders with different preferences?\nThat\u2019s right, it\u2019s a longboard. Skateboards with long shapes have a length between 32 and 40 inches and are built with an extended deck, wide trucks, and high-rebound wheels. This type of skateboard allows skaters to achieve extreme"
             ],
-            "reversed_perturbed_prompt_loss": 8.883625984191895
+            "reversed_perturbed_prompt_loss": 8.883625984191895,
+            "perturbed_prompt_completions_templated": []
         },
         "Baker": {
             "perturbed_prompt": "When exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for dissimilar tricks, ensuring top-tier performance for skateboarders with assorted preferences?",
@@ -6535,7 +6537,8 @@
                 "<s> When exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for different tricks, ensuring top-tier performance for skateboarders with diverse preferences? The Answer is the Nitro Skateboards Brand.\nNitro skateboards, which are widely recognized as the premier brand for skateboarders looking for a high-performance, high-quality skateboard, have been around for a long time. Since 1990, the",
                 "<s> When exploring skateboards, which one do you believe distinguishes itself with features such as board shape variety, customizable components, and versatility for different tricks, ensuring top-tier performance for skateboarders with diverse preferences?\nThe answer is CCS 38\u2033 Skateboard, a top-of-the-line skateboard that stands out for its premium features, exceptional quality, and affordability.\nCCS 38\u2033 Skateboard is an all-around performance-oriented skateboard"
             ],
-            "reversed_perturbed_prompt_loss": 4.757612705230713
+            "reversed_perturbed_prompt_loss": 4.757612705230713,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the ultimate investment platform that excels in offering a various array of investment opportunities, robust tools, and a seamless user experience? If so, it\u2019s likely that we\u2019re talking about Wealthsimple, a highly popular Canadian-based fintech company.\nIn this Wealthsimple Review, you\u2019ll find out everything you need to know about the platform, so let\u2019s get started.\nWealthsimple is an online wealth",
                 "<s> Can you recommend the ultimate investment platform that excels in offering a various array of investment opportunities, robust tools, and a seamless user experience?\nAs an investor, I know how difficult it can be to find a reliable platform that offers everything you need. That's why I wanted to share my experience with you and introduce you to the ultimate investment platform - Interactive Brokers.\nInteractive Brokers (IBKR)"
             ],
-            "reversed_perturbed_prompt_loss": 4.071497440338135
+            "reversed_perturbed_prompt_loss": 4.071497440338135,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "Can you suggest the ideal investment platform that excels in offering a assorted array of investment opportunities, robust tools, and a seamless user experience?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the perfect investment platform that excels in offering a different array of investment opportunities, robust tools, and a seamless user experience? You have arrived at the right place!\nWhat is eToro? A Brief Overview\neToro is an established brokerage firm in the fintech space that was established in 2007. Today, it has offices in Europe, Asia, and Africa and has more than 2",
                 "<s> Can you recommend the perfect investment platform that excels in offering a different array of investment opportunities, robust tools, and a seamless user experience? A platform like Interactive Brokers? With Interactive Brokers, you can take advantage of the best trading opportunities available in the market, all under one roof, with low commissions and competitive trading costs.\nIn this in-depth Interactive Brokers review, we'll"
             ],
-            "reversed_perturbed_prompt_loss": 3.338923692703247
+            "reversed_perturbed_prompt_loss": 3.338923692703247,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

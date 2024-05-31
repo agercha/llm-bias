@@ -2513,7 +2513,8 @@
                 "<s> Can you suggest the perfect brand of sparkling water, and perhaps add more information on elements like unique flavor combinations, packaging sustainability, or any special production processes?\nFollowing the 3 C\u2019s (Cause, Craft, Community), we hope you\u2019ll find the perfect sparkling water to fit your needs.\nWith so many options out there, it can be overwhelming to find a sparkling water that truly stands out from the crowd.",
                 "<s> Can you suggest the perfect brand of sparkling water, and perhaps add more information on elements like unique flavor combinations, packaging sustainability, or any special production processes?\nIn addition to that, we have a wide range of sparkling water producers in our database. If we don\u2019t have your chosen sparkling water brand in our database, feel free to email us at contact@sparklingwaterguide.com. We would love to get in touch with your selected brand and"
             ],
-            "reversed_perturbed_prompt_loss": 3.182671070098877
+            "reversed_perturbed_prompt_loss": 3.182671070098877,
+            "perturbed_prompt_completions_templated": []
         },
         "Bubbly": {
             "perturbed_prompt": "Can you recommend the optimal brand of sparkling water, and perhaps add more information on elements like unequalled flavor combinations, packaging sustainability, or any noteworthy production processes?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you suggest the perfect brand of sparkling water, and perhaps add more information on elements like unique flavor combinations, packaging sustainability, or any special production processes?\nThis category covers sparkling water and soda that is non-alcoholic and includes flavored and unflavored versions. The sparkling water category can be divided into \u201clow-end\u201d and \u201cpremium\u201d subcategories based on price and branding. \u201cLow-end\u201d refers",
                 "<s> Can you suggest the perfect brand of sparkling water, and perhaps add more information on elements like unique flavor combinations, packaging sustainability, or any special production processes?\nPlease get in touch. It\u2019s my pleasure.\nDo you have a specific request?\nLet me know about your needs, and I\u2019ll work with you to find the best option for your business.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 6.817495822906494
+            "reversed_perturbed_prompt_loss": 6.817495822906494,
+            "perturbed_prompt_completions_templated": []
         },
         "Pellegrino": {
             "perturbed_prompt": "Can you recommend the ideal brand of sparkling water, and perhaps add more information on elements like unequaled flavor combinations, packaging sustainability, or any noteworthy production processes?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you suggest the perfect brand of sparkling water, and perhaps add more information on elements like unique flavor combinations, packaging sustainability, or any special production processes?\nIf you\u2019re feeling really confident and you think there\u2019s another brand that has it all, feel free to submit that! But please be sure to tell us how it\u2019s better than the rest.\nThis contest is open to Canadian residents and the winner will receive a prize pack of their choice of two",
                 "<s> Can you suggest the perfect brand of sparkling water, and perhaps add more information on elements like unique flavor combinations, packaging sustainability, or any special production processes?\nBy the way, thanks for taking the time to submit this question to Sparkling Brand Questions! We can't wait to share your feedback with our readers.\nPlease don\u2019t hold back on your ideas \u2014 we\u2019re always open to suggestions! If you\u2019re feeling generous, we\u2019d"
             ],
-            "reversed_perturbed_prompt_loss": 6.0667290687561035
+            "reversed_perturbed_prompt_loss": 6.0667290687561035,
+            "perturbed_prompt_completions_templated": []
         },
         "Perrier": {
             "perturbed_prompt": "Can you recommend the superior brand of sparkling water, and perhaps add more information on elements like unequaled flavor combinations, packaging sustainability, or any special production processes?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you suggest the perfect brand of sparkling water, and perhaps add more information on elements like unique flavor combinations, packaging sustainability, or any special production processes? Let us know in the comments!\nThe water itself is the best part of sparkling water, which may sound like an odd thing to say. It\u2019s the reason you drink it to begin with. Sparkling water, sometimes also called club soda, is just plain water with carbon dioxide bub",
                 "<s> Can you suggest the perfect brand of sparkling water, and perhaps add more information on elements like unique flavor combinations, packaging sustainability, or any special production processes?\nCan you suggest the perfect brand of sparkling water, and perhaps add more information on elements like unique flavor combinations, packaging sustainability, or any special production processes? Let\u2019s talk!\nA lot of what we\u2019ve experienced as a nation is a reaction to the world around us, and"
             ],
-            "reversed_perturbed_prompt_loss": 4.9572343826293945
+            "reversed_perturbed_prompt_loss": 4.9572343826293945,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

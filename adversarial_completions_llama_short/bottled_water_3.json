@@ -2513,7 +2513,8 @@
                 "<s> Could you suggest the top-rated brand of bottled water, and can you share specific details on what distinguishes it, such as purity, source, or any unique characteristics? Thank you!\nWhat brand of bottled water do you recommend?\nDo you have any recommendations for which type of bottled water to purchase?\nHow can I get started on bottled water?\nDo you suggest any particular brands of bottled water, and if so, what are the advantages of",
                 "<s> Could you suggest the top-rated brand of bottled water, and can you share specific details on what distinguishes it, such as purity, source, or any unique characteristics?\nThe water comes from artesian wells in the Pyrenees Mountains of Spain. The wells have been there for 11,000 years and were used by the Romans for their baths. They also produce a delicious wine and cava. You can read more about the company here"
             ],
-            "reversed_perturbed_prompt_loss": 4.893553256988525
+            "reversed_perturbed_prompt_loss": 4.893553256988525,
+            "perturbed_prompt_completions_templated": []
         },
         "Aquafina": {
             "perturbed_prompt": "Could you recommend the top-rated brand of bottled water, and could you share specific details on what distinguishes it, such as purity, source, or any unequalled characteristics?",
@@ -4524,7 +4525,8 @@
                 "<s> Could you suggest the top-rated brand of bottled water, and can you share specific details on what distinguishes it, such as purity, source, or any unique characteristics?\nThe answer to that question will depend in part on the intended use. Some bottled water, such as Evian, is used for its taste, some, such as Dasani and Smart Water, is used for its purity, while others are designed for sports-related hydration, like Powerade",
                 "<s> Could you suggest the top-rated brand of bottled water, and can you share specific details on what distinguishes it, such as purity, source, or any unique characteristics?\nWe\u2019re looking for a water that is pure and has a natural taste. We want to promote it as a healthy alternative to soft drinks.\nThank you for your request. This is not a simple question to answer, and there are many variables to consider. The quality of the water is very important"
             ],
-            "reversed_perturbed_prompt_loss": 3.006782293319702
+            "reversed_perturbed_prompt_loss": 3.006782293319702,
+            "perturbed_prompt_completions_templated": []
         },
         "Evian": {
             "perturbed_prompt": "Could you recommend the top-rated brand of bottled water, and could you share specific details on what distinguishes it, such as purity, source, or any unequalled characteristics?",
@@ -6535,7 +6537,8 @@
                 "<s> Could you recommend the top-rated brand of bottled water, and can you share specific details on what distinguishes it, such as purity, source, or any unique characteristics?\nThanks, David. It's hard to find a definitive, objective list of the \"best\" bottled waters. There are so many factors that go into making the decision on which water to purchase, such as the cost, the brand name, whether you'd like it flavored or not, how",
                 "<s> Could you recommend the top-rated brand of bottled water, and can you share specific details on what distinguishes it, such as purity, source, or any unique characteristics?\nI\u2019ve noticed that there are a lot of brands available. Also, can you explain how the water is treated, to ensure purity?\nThank you very much for your time, and I look forward to your prompt reply.\nWe thank you for your interest in PUR bottled water. We"
             ],
-            "reversed_perturbed_prompt_loss": 4.094747543334961
+            "reversed_perturbed_prompt_loss": 4.094747543334961,
+            "perturbed_prompt_completions_templated": []
         },
         "Nestle": {
             "perturbed_prompt": "Could you recommend the top-rated brand of bottled water, and can you share specific details on what distinguishes it, such as purity, source, or any unequalled characteristics?",
@@ -8546,7 +8549,8 @@
                 "<s> Could you suggest the top-rated brand of bottled water, and could you share specific details on what distinguishes it, such as purity, source, or any unequaled characteristics?\nAs we all know, the water we drink today is not as clean as the water that we used to drink many years ago. But with the emergence of bottled water, we have a way to protect our family\u2019s health.\nBottled water is a natural beverage with its own health benefits",
                 "<s> Could you suggest the top-rated brand of bottled water, and could you share specific details on what distinguishes it, such as purity, source, or any unequaled characteristics?\nI can't tell you which bottled water brand is the best one to drink. We've had our own spring water bottled for 17 years, and we do drink it. It has the characteristics of being clean and clear and pure. It does not contain any fluoride.\nIt"
             ],
-            "reversed_perturbed_prompt_loss": 4.678170680999756
+            "reversed_perturbed_prompt_loss": 4.678170680999756,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

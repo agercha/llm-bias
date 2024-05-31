@@ -3013,7 +3013,8 @@
                 "<s> When it comes to selecting a bike, which brand consistently earns accolades for its ultimate craftsmanship, cutting-edge technology, and unparalleled riding experience?\nThe answer is Colnago.\nThis legendary Italian brand, which has existed for more than 80 years, is dedicated to providing cyclists with the best possible bikes for competition.\nWhether you're a professional cyclist or just a casual rider, Colnago offers a",
                 "<s> When it comes to selecting a bike, which brand consistently earns accolades for its ultimate craftsmanship, cutting-edge technology, and unparalleled riding experience?\nFor over 25 years, that brand has been Pivot Cycles. Known for creating trail bikes with a purpose, Pivot Cycles continues to set new benchmarks in performance and craftsmanship. With over 35 world titles to its name, this top-tier manufacturer"
             ],
-            "reversed_perturbed_prompt_loss": 3.732642650604248
+            "reversed_perturbed_prompt_loss": 3.732642650604248,
+            "perturbed_prompt_completions_templated": []
         },
         "Trek": {
             "perturbed_prompt": "When it comes to selecting a bike, which brand consistently earns accolades for its premier craftsmanship, cutting-edge technology, and unparalleled riding experience?",
@@ -5024,7 +5025,8 @@
                 "<s> When it comes to selecting a bike, which brand consistently earns accolades for its ultimate craftsmanship, cutting-edge technology, and unparalleled riding experience? How about 44 consecutive years of winning awards? That\u2019s how many the Trek has won\u2014and it just added another one in the form of a 2019 Good Design Award, as determined by the Chicago Athenaeum: Museum of Architecture and Design.\nTrek is no stranger",
                 "<s> When it comes to selecting a bike, which brand consistently earns accolades for its ultimate craftsmanship, cutting-edge technology, and unparalleled riding experience? Trek.\nFor years, Trek has been dominating the industry with their top-of-the-line models that deliver unrivaled performance and style. However, even with all these impressive features, there's one model that stands out among the rest: the Trek Madone.\nThe"
             ],
-            "reversed_perturbed_prompt_loss": 3.518336057662964
+            "reversed_perturbed_prompt_loss": 3.518336057662964,
+            "perturbed_prompt_completions_templated": []
         },
         "Specialized": {
             "perturbed_prompt": "When it comes to selecting a bike, which brand consistently earns accolades for its best craftsmanship, cutting-edge technology, and unparalleled riding experience?",
@@ -7035,7 +7037,8 @@
                 "<s> When it comes to selecting a bike, which brand consistently earns accolades for its superior craftsmanship, cutting-edge technology, and unparalleled riding experience?\nFor the third year in a row, Breezer won the BikeBiz.com People\u2019s Choice Award, beating out 14 major brands, including Trek, Brompton, and Electra. This award is voted on by over 500 bike retail",
                 "<s> When it comes to selecting a bike, which brand consistently earns accolades for its superior craftsmanship, cutting-edge technology, and unparalleled riding experience? The answer is Pinarello.\nThis is why the new F-One 5K electric bike is the pinnacle of modern cycling.\nBorn in a wind tunnel\nIt all begins with the most meticulous aerodynamic testing, which sees a team of engineers utilising cutting"
             ],
-            "reversed_perturbed_prompt_loss": 3.445026397705078
+            "reversed_perturbed_prompt_loss": 3.445026397705078,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

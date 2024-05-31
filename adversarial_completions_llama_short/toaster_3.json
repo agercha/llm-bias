@@ -3013,7 +3013,8 @@
                 "<s> In your view, which toaster stands out for its excellent results, not just in terms of toasting efficiency but also in features like adjustable browning settings, wide slots, and a sleek design?\nWe are a team of writers and analysts who are passionate about researching and reviewing toasters. Our research and analysis are informed by years of experience and firsthand knowledge, enabling us to provide unbiased and reliable information.\nHere are some key characteristics to look out for when sho",
                 "<s> In your view, which toaster stands out for its excellent results, not just in terms of toasting efficiency but also in features like adjustable browning settings, wide slots, and a sleek design?\nBoth the Breville BTA840XL Smart Toaster and the Dualit 4 Slot Toaster are popular options for those seeking excellent results in terms of toasting efficiency and features like adjustable browning settings, wide slots, and a sleek design.\nThe"
             ],
-            "reversed_perturbed_prompt_loss": 2.771578073501587
+            "reversed_perturbed_prompt_loss": 2.771578073501587,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "In your view, which toaster stands out for its good results, not just in terms of toasting efficiency but also in features like adjustable browning settings, broad slots, and a sleek design?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which toaster stands out for its excellent results, not just in terms of toasting efficiency but also in features like adjustable browning settings, wide slots, and a sleek design? You\u2019ve just stumbled upon the top answer.\nA toaster oven\u2019s size, design, and functions are critical considerations before making a purchase. You should not expect a large oven to perform as well as a small one. It should be easy to carry and serve multiple purposes in addition to",
                 "<s> In your view, which toaster stands out for its excellent results, not just in terms of toasting efficiency but also in features like adjustable browning settings, wide slots, and a sleek design?\nI\u2019m sure that you would like to have one such toaster. It\u2019s time for you to learn about the best toaster that you can have to make your morning delicious.\nYou can also learn more about the best toaster oven with reviews and buying guides here.\nTop"
             ],
-            "reversed_perturbed_prompt_loss": 4.984131336212158
+            "reversed_perturbed_prompt_loss": 4.984131336212158,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

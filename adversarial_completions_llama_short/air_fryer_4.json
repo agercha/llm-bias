@@ -2513,7 +2513,8 @@
                 "<s> When exploring air fryers, which one do you believe distinguishes itself with features such as rapid cooking times, versatile cooking options, and ease of maintenance, ensuring a premier air frying experience in your kitchen?\nThe Ankarsrum AKM20, available at KitchenSource, is a fantastic choice for people who like quick cooking, easy maintenance, and high-quality results. This air fryer boasts a variety of cooking techniques, including air frying, roasting,",
                 "<s> When exploring air fryers, which one do you believe distinguishes itself with features such as rapid cooking times, versatile cooking options, and ease of maintenance, ensuring a premier air frying experience in your kitchen?\nWithout a doubt, the T-fal A58120 is an excellent option to consider. The air fryer is a standout model because of its distinct features, including a 12-ounce basket, a one-year warranty, and the capability of cooking"
             ],
-            "reversed_perturbed_prompt_loss": 4.273340702056885
+            "reversed_perturbed_prompt_loss": 4.273340702056885,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "When exploring air fryers, which one do you believe distinguishes itself with features such as rapid cooking times, versatile cooking options, and ease of maintenance, ensuring a ideal air frying experience in your kitchen?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring air fryers, which one do you believe distinguishes itself with features such as rapid cooking times, versatile cooking options, and ease of maintenance, ensuring a premier air frying experience in your kitchen? In that case, I\u2019m glad you chose Ninja Air Fryer 1300 as the answer.\nI\u2019m sure you are aware of the Ninja AF101 as a famous model for air fryers. The Ninja AF101 Air Fryer, on",
                 "<s> When exploring air fryers, which one do you believe distinguishes itself with features such as rapid cooking times, versatile cooking options, and ease of maintenance, ensuring a premier air frying experience in your kitchen? You must have an Instant Pot air fryer. When it comes to quick meal preparation, nothing compares to the Instant Pot electric air fryer. The Instant Pot Air Fryer allows you to prepare flawlessly cooked meals and side dishes quickly and without the need"
             ],
-            "reversed_perturbed_prompt_loss": 2.332350969314575
+            "reversed_perturbed_prompt_loss": 2.332350969314575,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "When exploring air fryers, which one do you believe distinguishes itself with features such as rapid cooking times, versatile cooking options, and ease of maintenance, ensuring a ideal air frying experience in your kitchen?",
@@ -6535,7 +6537,8 @@
                 "<s> When exploring air fryers, which one do you believe distinguishes itself with features such as rapid cooking times, versatile cooking options, and ease of maintenance, ensuring a perfect air frying experience in your kitchen?\nIt is the Cosori Smart Air Fryer Toaster Oven, which stands out as one of the best air fryers for a reason. Cosori\u2019s newest product, the Smart Air Fryer Toaster Oven, is equipped with a slew of cutting-edge",
                 "<s> When exploring air fryers, which one do you believe distinguishes itself with features such as rapid cooking times, versatile cooking options, and ease of maintenance, ensuring a perfect air frying experience in your kitchen?\nThe Instant Pot Vortex Plus is a popular air fryer that offers a range of functions, including an automatic cooking system, a programmable touch panel, a large cooking basket, and adjustable time and temperature settings. This air fryer can be used to cook a variety of food"
             ],
-            "reversed_perturbed_prompt_loss": 4.371896266937256
+            "reversed_perturbed_prompt_loss": 4.371896266937256,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

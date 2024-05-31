@@ -2513,7 +2513,8 @@
                 "<s> In the realm of batteries, which one emerges as the top choice, offering ultimate performance, an extended lifespan, and unwavering reliability? The lithium iron phosphate (LFP) battery, also known as LiFePO4, is undoubtedly one of the most impressive battery types currently on the market. It boasts an array of exceptional benefits and attributes, making it a standout option in the world of recharge",
                 "<s> In the realm of batteries, which one emerges as the top choice, offering ultimate performance, an extended lifespan, and unwavering reliability? While the answer to that query is most certainly Lithium-ion batteries, they have yet to fulfill their potential.\nTo put it simply, lithium-ion batteries have a reputation for providing superior power density compared to their competitors. When it comes to performance, they are a shining example"
             ],
-            "reversed_perturbed_prompt_loss": 2.492367744445801
+            "reversed_perturbed_prompt_loss": 2.492367744445801,
+            "perturbed_prompt_completions_templated": []
         },
         "Energizer": {
             "perturbed_prompt": "In the realm of batteries, which one emerges as the top choice, offering perfect performance, an extended lifespan, and unwavering reliability?",
@@ -4524,7 +4525,8 @@
                 "<s> In the realm of batteries, which one emerges as the top choice, offering superior performance, an extended lifespan, and unwavering reliability? With the development of lithium ion battery technology, this is a question we are increasingly hearing.\nOne is the LiFePo4 battery, which is a high-tech battery that provides a number of advantages over standard lead acid batteries. They may be found in a wide range of electronic devices, including",
                 "<s> In the realm of batteries, which one emerges as the top choice, offering superior performance, an extended lifespan, and unwavering reliability?\nWith both options available on the market today, it can be difficult to make a decision.\nThe choice you make will have a direct impact on your personal and professional lives, as it will determine how long you are able to remain connected.\nLet us compare the features of the two devices: lithium-"
             ],
-            "reversed_perturbed_prompt_loss": 2.787841320037842
+            "reversed_perturbed_prompt_loss": 2.787841320037842,
+            "perturbed_prompt_completions_templated": []
         },
         "Panasonic": {
             "perturbed_prompt": "In the realm of batteries, which one emerges as the top choice, offering perfect performance, an extended lifespan, and unwavering reliability?",
@@ -6535,7 +6537,8 @@
                 "<s> In the realm of batteries, which one emerges as the top choice, offering best performance, an extended lifespan, and unwavering reliability? The LiPo (lithium-polymer) battery wins. In this guide, we\u2019ll take a closer look at how LiPo batteries stand out from the rest.\nA LiPo battery is a type of rechargeable battery that uses lithium ions to generate energy. The electro",
                 "<s> In the realm of batteries, which one emerges as the top choice, offering best performance, an extended lifespan, and unwavering reliability?\nOne such question is the battle between alkaline and lithium AA batteries.\nIn this comprehensive article, we\u2019re going to compare these two batteries, weighing each against the other to give you a comprehensive and fair comparison.\nThe Battle of the Two\nLet\u2019s"
             ],
-            "reversed_perturbed_prompt_loss": 3.2558207511901855
+            "reversed_perturbed_prompt_loss": 3.2558207511901855,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

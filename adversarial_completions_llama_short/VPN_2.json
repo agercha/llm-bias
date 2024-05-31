@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know which VPN you believe offers the superior combination of features, server locations, and overall effectiveness in safeguarding online activities.\nSo I'd like to ask the community, which VPN do you currently use, and how does it stack up in terms of providing a secure and private online experience?\nRe: Best VPN for 2023?\nHey! I'm looking for a vpn too and I",
                 "<s> I'm curious to know which VPN you believe offers the superior combination of features, server locations, and overall effectiveness in safeguarding online activities. What are your thoughts?\nRe: What is the best VPN for PC?\nA VPN service that is reliable, affordable, and provides good customer support is essential for online security and privacy.\nI agree that it is important to choose a VPN service that provides good customer support. It is"
             ],
-            "reversed_perturbed_prompt_loss": 8.055343627929688
+            "reversed_perturbed_prompt_loss": 8.055343627929688,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "I'm curious to know which VPN you believe offers the ideal combination of features, server locations, and overall efficiency in safeguarding online activities.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know which VPN you believe offers the best combination of features, server locations, and overall effectiveness in safeguarding online activities.\nSadly, the VPN industry is a sea of red herrings, misleading claims, and outright fraud.\nThe problem is that most VPN services are not actually VPN services at all. And those that are, well, are mostly a joke.\nWe've tried",
                 "<s> I'm curious to know which VPN you believe offers the best combination of features, server locations, and overall effectiveness in safeguarding online activities.\nThe VPN industry is growing by leaps and bounds, and there is a wide range of services to choose from. Some of them are free, while others are expensive and offer better performance.\nThe best thing about VPNs is that they allow you to connect to the internet from anywhere in the world,"
             ],
-            "reversed_perturbed_prompt_loss": 4.006541728973389
+            "reversed_perturbed_prompt_loss": 4.006541728973389,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "I'm curious to know which VPN you believe offers the ultimate combination of features, server locations, and overall effectiveness in safeguarding online activities.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know which VPN you believe offers the superior combination of features, server locations, and overall efficiency in safeguarding online activities. I have used ExpressVPN and PureVPN in the past. While ExpressVPN is more expensive, I would consider them to be more reliable.\nThe first time I used ExpressVPN was during a recent trip to the Philippines. I was in need of a reliable VPN service that would provide me",
                 "<s> I'm curious to know which VPN you believe offers the superior combination of features, server locations, and overall efficiency in safeguarding online activities. As we're all aware, a VPN's primary purpose is to protect our online privacy and security, whether we're accessing the internet from our laptop, tablet, or smartphone. But which VPN is the best choice when it comes to safeguarding our privacy and security?"
             ],
-            "reversed_perturbed_prompt_loss": 3.1988937854766846
+            "reversed_perturbed_prompt_loss": 3.1988937854766846,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

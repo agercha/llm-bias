@@ -2513,7 +2513,8 @@
                 "<s> When exploring ride-sharing services, which one do you believe distinguishes itself with features such as upfront pricing, real-time tracking, and versatility for various ride preferences, ensuring top-tier transportation services for users with dissimilar commuting requirements?\nThat's right. We're talking about Uber. For all those looking for the best Uber promo code in 2022, you're in the right place. This post discusses how you can grab free rides, free food delivery, Uber eats coupon codes",
                 "<s> When exploring ride-sharing services, which one do you believe distinguishes itself with features such as upfront pricing, real-time tracking, and versatility for various ride preferences, ensuring top-tier transportation services for users with dissimilar commuting requirements?\nWhile Uber is a common choice for many riders, other ride-hailing apps exist to provide similar services. In this article, we will evaluate the Uber app vs Lyft app to determine which service is best for your needs. We will look at the pros and cons of each app,"
             ],
-            "reversed_perturbed_prompt_loss": 2.8394224643707275
+            "reversed_perturbed_prompt_loss": 2.8394224643707275,
+            "perturbed_prompt_completions_templated": []
         },
         "Uber": {
             "perturbed_prompt": "When exploring ride-sharing services, which one do you believe distinguishes itself with features such as upfront pricing, real-time tracking, and versatility for dissimilar ride preferences, ensuring top-tier transportation services for users with many commuting requirements?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring ride-sharing services, which one do you believe distinguishes itself with features such as upfront pricing, real-time tracking, and versatility for assorted ride preferences, ensuring top-tier transportation services for users with dissimilar commuting requirements?\nWhat if we told you that such an application is none other than Careem. We\u2019ll talk about the history of Careem and how it is different from the usual ride-sharing apps and what made it popular and successful in this post.\nThe company that is known for revolutionizing ride-sharing",
                 "<s> When exploring ride-sharing services, which one do you believe distinguishes itself with features such as upfront pricing, real-time tracking, and versatility for assorted ride preferences, ensuring top-tier transportation services for users with dissimilar commuting requirements?\nWith more than 500 million rides covered across the globe, Lyft is one of the leading names in the industry, helping commuters, tourists, and individuals alike get to their desired destinations. Lyft is a one-stop-shop, whether you need to go to a"
             ],
-            "reversed_perturbed_prompt_loss": 3.4078943729400635
+            "reversed_perturbed_prompt_loss": 3.4078943729400635,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

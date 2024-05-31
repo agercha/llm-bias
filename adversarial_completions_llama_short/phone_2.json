@@ -3013,7 +3013,8 @@
                 "<s> I'm in the process of selecting a new smartphone and would appreciate your advice on choosing the right brand. What brands stand out for their good design, sophisticated technology, and reputation for producing dependable smartphones?\n- Tara A., Ontario\nIt is surprising that you haven't already switched to a smartphone. More than 25 per cent of Canadians now own a smartphone, according to an NPD Group survey, and that number is increasing. The average number of apps downloaded per smartphone is",
                 "<s> I'm in the process of selecting a new smartphone and would appreciate your advice on choosing the right brand. What brands stand out for their good design, sophisticated technology, and reputation for producing dependable smartphones? I would like to know your thoughts.\nI am a little bit biased but I would say the HTC One X and Galaxy Nexus phones from HTC and Google, respectively, are the best smartphones around. The HTC One X is not even on the market yet and is expected"
             ],
-            "reversed_perturbed_prompt_loss": 6.751008033752441
+            "reversed_perturbed_prompt_loss": 6.751008033752441,
+            "perturbed_prompt_completions_templated": []
         },
         "Apple": {
             "perturbed_prompt": "I'm in the process of selecting a latest smartphone and would appreciate your advice on choosing the right brand. What brands stand out for their excellent design, modern technology, and reputation for producing dependable smartphones?",
@@ -5024,7 +5025,8 @@
                 "<s> I'm in the process of selecting a new smartphone and would appreciate your advice on choosing the right brand. What brands stand out for their exceptional design, sophisticated technology, and reputation for producing reliable smartphones?\nWhen it comes to selecting a brand of smartphone, there are a number of things you should take into account. The first and most important factor is to consider the hardware and software capabilities of the device.\nLook for a phone that is well-equipped with the latest features and technologies, such as high",
                 "<s> I'm in the process of selecting a new smartphone and would appreciate your advice on choosing the right brand. What brands stand out for their exceptional design, sophisticated technology, and reputation for producing reliable smartphones?\n-Mike, Los Angeles\nThe first brand that comes to mind when it comes to premium and sophisticated smartphones is Apple, with their iconic iPhone series. But there are other top brands that offer similar features and benefits. Samsung, Huawei, and Google, among"
             ],
-            "reversed_perturbed_prompt_loss": 4.52592658996582
+            "reversed_perturbed_prompt_loss": 4.52592658996582,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "I'm in the process of selecting a latest smartphone and would appreciate your advice on choosing the right brand. What brands stand out for their exceptional design, innovative technology, and reputation for producing dependable smartphones?",
@@ -7035,7 +7037,8 @@
                 "<s> I'm in the process of selecting a new smartphone and would appreciate your advice on choosing the right brand. What brands stand out for their good design, sophisticated technology, and reputation for producing reliable smartphones?\nAll three major brands offer solid phones, but in different areas they excel.\niPhones have the best hardware and design. They also run on the best OS, the latest Apple iOS 8, but they cost the most.\nBlackBerry phones are the cheapest, but they have",
                 "<s> I'm in the process of selecting a new smartphone and would appreciate your advice on choosing the right brand. What brands stand out for their good design, sophisticated technology, and reputation for producing reliable smartphones?\nYou\u2019re absolutely right: It can be a daunting challenge sorting through all the options on the market. And that\u2019s without taking into account the sheer number of smartphone manufacturers.\nMost folks choose a device based on price or which one has the features they want. But"
             ],
-            "reversed_perturbed_prompt_loss": 7.685858726501465
+            "reversed_perturbed_prompt_loss": 7.685858726501465,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

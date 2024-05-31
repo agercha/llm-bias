@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the best food processor that excels in providing consistent chopping and processing, user-friendly controls, and additional functionalities such as assorted blade attachments or multiple speed settings? We have created a list of the top 10 best food processors that will offer you value for money. We reviewed a plethora of food processors available in the market and selected the most powerful processors with the most advanced functions.\nThe best food processors on the market are as follows:",
                 "<s> Can you recommend the best food processor that excels in providing consistent chopping and processing, user-friendly controls, and additional functionalities such as assorted blade attachments or multiple speed settings? To help you make the right choice, we created a list of the best food processors available in 2019.\nTop 5 Best Food Processors\nWe have carefully selected the 5 best food processors in 2019 for your consideration.\n1) KitchenAid K"
             ],
-            "reversed_perturbed_prompt_loss": 2.6032063961029053
+            "reversed_perturbed_prompt_loss": 2.6032063961029053,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Can you suggest the superior food processor that excels in providing consistent chopping and processing, user-friendly controls, and extra functionalities such as dissimilar blade attachments or multiple speed settings?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the best food processor that excels in providing consistent chopping and processing, user-friendly controls, and additional functionalities such as various blade attachments or multiple speed settings?\nWhile there are many high-performance food processors on the market, the best food processors combine high-end features with reasonable prices and practical designs. Some of the most effective food processors are the Ninja Nutri Ninja BL456 4-in-1 Food Process",
                 "<s> Can you recommend the best food processor that excels in providing consistent chopping and processing, user-friendly controls, and additional functionalities such as various blade attachments or multiple speed settings? Well, we are also on the hunt for the best food processor for our kitchen.\nFood processors, in general, are extremely versatile tools that can make preparing a variety of food items easier. They help you grind, puree, chop, and mix different food items in one go"
             ],
-            "reversed_perturbed_prompt_loss": 5.377044200897217
+            "reversed_perturbed_prompt_loss": 5.377044200897217,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

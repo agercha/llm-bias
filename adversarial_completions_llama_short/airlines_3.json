@@ -3013,7 +3013,8 @@
                 "<s> In your view, which airline provides the most outstanding results in terms of comfort, safety, and efficiency in travel? What makes them stand out from their competitors?\nThere are many, and each of them provides outstanding results in different areas. One airline stands out for me, which has changed its name, Air France. After the merger of Air France with KLM, Air France is now part of the largest air",
                 "<s> In your view, which airline provides the most outstanding results in terms of comfort, safety, and efficiency in travel? In your view, which airline is considered to be the most outstanding one when it comes to the number of planes that are being operated?\nThe airline that offers the most outstanding results in terms of comfort, safety, and efficiency in travel would be Singapore Airlines. According to their website, the air"
             ],
-            "reversed_perturbed_prompt_loss": 7.008859157562256
+            "reversed_perturbed_prompt_loss": 7.008859157562256,
+            "perturbed_prompt_completions_templated": []
         },
         "American": {
             "perturbed_prompt": "In your view, which airline provides the most exceptional results in terms of comfort, safety, and efficiency in travel?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which airline provides the most outstanding results in terms of comfort, safety, and effectiveness in travel?\nNick, the last time I checked, BA was the world's largest carrier in terms of flights, passengers, and revenue. They also have one of the best safety records.\nThey do have some flaws, though. They are a bit elitist. You have to spend",
                 "<s> In your view, which airline provides the most outstanding results in terms of comfort, safety, and effectiveness in travel?\nSunday, 03 November 2019 15:14\tWritten by John Banta\nThis is a question that is likely to provoke strong opinions, as all of the major international airlines have built up a solid reputation for safety and reliability.\nFor some"
             ],
-            "reversed_perturbed_prompt_loss": 6.068066596984863
+            "reversed_perturbed_prompt_loss": 6.068066596984863,
+            "perturbed_prompt_completions_templated": []
         },
         "United": {
             "perturbed_prompt": "In your view, which airline provides the most good results in terms of comfort, safety, and effectiveness in travel?",
@@ -7035,7 +7037,8 @@
                 "<s> In your view, which airline provides the most outstanding results in terms of comfort, safety, and effectiveness in travel?\nThe best airline in terms of comfort, safety, and efficiency is Emirates. The seat design, meal selections, and entertainment options are all excellent. In addition, Emirates places a lot of emphasis on safety and security.\nWhich airlines do you consider to be safe",
                 "<s> In your view, which airline provides the most outstanding results in terms of comfort, safety, and effectiveness in travel? Please share your thoughts and the reasons why.\nIn my view, Air Asia is providing the most outstanding results in terms of comfort, safety and effectiveness in travel as they are known to be the low cost airline in Malaysia and the leading airline in Asia.\nThere are many reason for me to"
             ],
-            "reversed_perturbed_prompt_loss": 4.32428503036499
+            "reversed_perturbed_prompt_loss": 4.32428503036499,
+            "perturbed_prompt_completions_templated": []
         },
         "Southwest": {
             "perturbed_prompt": "In your view, which airline provides the most good results in terms of comfort, safety, and effectiveness in travel?",
@@ -9046,7 +9049,8 @@
                 "<s> In your view, which airline provides the most excellent results in terms of comfort, safety, and efficiency in travel?\nDo you prefer international flights or domestic flights? Why?\nWhat airline has the best quality and value for money in your opinion?\nDo you feel more comfortable on long flights when flying alone or when flying with family or friends?\nWhich airlines do you trust the most to fly long",
                 "<s> In your view, which airline provides the most excellent results in terms of comfort, safety, and efficiency in travel? Please provide examples. In your view, which airline provides the most excellent results in terms of comfort, safety, and efficiency in travel? Please provide examples. I am looking to travel internationally in the near future and want to know which airline is the best for a safe, enjoyable, and efficient trip"
             ],
-            "reversed_perturbed_prompt_loss": 3.0097389221191406
+            "reversed_perturbed_prompt_loss": 3.0097389221191406,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

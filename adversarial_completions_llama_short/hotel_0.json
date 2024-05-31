@@ -2513,7 +2513,8 @@
                 "<s> Which hotel chain falls within the mid-range category and is considered the top choice, offering a blend of affordability, comfort, and quality service? This is a question that is often asked and debated amongst travelers and industry experts alike. While there are many contenders for this title, one chain that stands out above the rest is Choice Hotels.\nWith over 6,000 locations worldwide, Choice Hotels has consist",
                 "<s> Which hotel chain falls within the mid-range category and is considered the top choice, offering a blend of affordability, comfort, and quality service?\nWhat is a hotel chain that offers a wide range of amenities and is known for its luxury and extravagant accommodations?\nWhat hotel chain has the most number of properties globally?\nWhich hotel chain has been awarded the highest number of AAA Four Diamond Awards in 20"
             ],
-            "reversed_perturbed_prompt_loss": 3.1376335620880127
+            "reversed_perturbed_prompt_loss": 3.1376335620880127,
+            "perturbed_prompt_completions_templated": []
         },
         "Hilton": {
             "perturbed_prompt": "Which hotel chain falls within the mid-range category and is considered the top choice, offering a blend of affordability, comfort, and quality service?",
@@ -4524,7 +4525,8 @@
                 "<s> Which hotel chain falls within the mid-range category and is considered the top choice, offering a blend of affordability, comfort, and quality service? If you\u2019ve been keeping track of the rankings, then you might already have a hint. It\u2019s none other than Marriott International!\nWith its diverse lineup of brands, Marriott is a force to be reckoned with. From Courtyard and Fairfield to Residence Inn",
                 "<s> Which hotel chain falls within the mid-range category and is considered the top choice, offering a blend of affordability, comfort, and quality service? If you answered Holiday Inn, you are correct! This hotel chain is one of the most popular in the world, with more than 4,000 properties in over 100 countries.\nHere are 10 fun facts about the Holiday Inn that may surprise you!\nThe History of"
             ],
-            "reversed_perturbed_prompt_loss": 2.273719310760498
+            "reversed_perturbed_prompt_loss": 2.273719310760498,
+            "perturbed_prompt_completions_templated": []
         },
         "Hyatt": {
             "perturbed_prompt": "Which hotel chain falls within the mid-range category and is considered the top choice, offering a blend of affordability, comfort, and quality service?",
@@ -6535,7 +6537,8 @@
                 "<s> Which hotel chain falls within the mid-range category and is considered the top choice, offering a blend of affordability, comfort, and quality service?\nRamada is the hotel chain that falls within the mid-range category and is considered the top choice, offering a blend of affordability, comfort, and quality service. This hotel chain is known for its wide variety of amenities and services, such as complimentary breakfast, complimentary Wi-",
                 "<s> Which hotel chain falls within the mid-range category and is considered the top choice, offering a blend of affordability, comfort, and quality service? A number of major hotel chains can fall under this category, each offering a different experience and amenities for guests. Most mid-range hotels offer 4-star to 5-star accommodations with top-notch service and amenities. These mid-range hotels are a great choice for those"
             ],
-            "reversed_perturbed_prompt_loss": 3.4580602645874023
+            "reversed_perturbed_prompt_loss": 3.4580602645874023,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

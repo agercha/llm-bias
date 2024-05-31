@@ -2513,7 +2513,8 @@
                 "<s> Which vacuum cleaner model do you consider the superior choice for effective cleaning, powerful suction, and sophisticated features that enhance your cleaning routine? Many of the top models on the market are cordless for easy maneuvering and portability. These models also include a variety of advanced features that make cleaning less of a chore and more of an enjoyable activity.\nThe first step in choosing the best vacuum for you is identifying your",
                 "<s> Which vacuum cleaner model do you consider the superior choice for effective cleaning, powerful suction, and sophisticated features that enhance your cleaning routine?\nHow about the Shark Navigator Lift-Away Pro NV356E with DuoClean Technology?\nIn this article, we will look into the Shark Navigator Lift-Away Pro NV356E Vacuum Cleaner, how it performs,"
             ],
-            "reversed_perturbed_prompt_loss": 3.3846561908721924
+            "reversed_perturbed_prompt_loss": 3.3846561908721924,
+            "perturbed_prompt_completions_templated": []
         },
         "Dyson": {
             "perturbed_prompt": "Which vacuum cleaner model do you consider the superior choice for efficient cleaning, powerful suction, and innovative features that enhance your cleaning routine?",
@@ -4524,7 +4525,8 @@
                 "<s> Which vacuum cleaner model do you consider the optimal choice for effective cleaning, powerful suction, and modern features that enhance your cleaning routine?\nWhen it comes to vacuum cleaners, the Shark ION Robot 750 vacuum cleaner model is one of the best on the market. This Shark vacuum has a powerful suction system that cleans effectively on both carpet and hard flooring, while its smart",
                 "<s> Which vacuum cleaner model do you consider the optimal choice for effective cleaning, powerful suction, and modern features that enhance your cleaning routine? The Dyson V6 Motorhead Pro Vacuum Cleaner may be an appropriate option to consider, as it is considered one of the best in its class.\nThis vacuum cleaner provides powerful suction, which makes it a good choice for people with allergies or pets. Its fil"
             ],
-            "reversed_perturbed_prompt_loss": 2.8732521533966064
+            "reversed_perturbed_prompt_loss": 2.8732521533966064,
+            "perturbed_prompt_completions_templated": []
         },
         "Shark": {
             "perturbed_prompt": "Which vacuum cleaner model do you consider the superior choice for efficient cleaning, powerful suction, and innovative features that enhance your cleaning routine?",
@@ -6535,7 +6537,8 @@
                 "<s> Which vacuum cleaner model do you consider the optimal choice for effective cleaning, powerful suction, and modern features that enhance your cleaning routine?\nThis list of the best upright and canister vacuums from top brands is here to guide you toward the ideal choice for you.\nFor the cleanest carpets, the ideal solution is to use an upright vacuum cleaner. It is better than using a handheld",
                 "<s> Which vacuum cleaner model do you consider the optimal choice for effective cleaning, powerful suction, and modern features that enhance your cleaning routine?\nHoover\u2019s latest range of vacuum cleaners includes innovative new options to meet all your expectations.\nRead on to discover the latest Hoover products and models in more detail, which you will find both on the official website and at leading online retailers such as Amazon.\nLet"
             ],
-            "reversed_perturbed_prompt_loss": 4.336999416351318
+            "reversed_perturbed_prompt_loss": 4.336999416351318,
+            "perturbed_prompt_completions_templated": []
         },
         "Miele": {
             "perturbed_prompt": "Which vacuum cleaner model do you consider the greatest choice for effective cleaning, powerful suction, and sophisticated features that enhance your cleaning routine?",
@@ -8546,7 +8549,8 @@
                 "<s> Which vacuum cleaner model do you consider the ideal choice for effective cleaning, powerful suction, and modern features that enhance your cleaning routine?\nI'm interested in purchasing this vacuum and was just wondering if it had a good amount of suction and if it was powerful enough to clean my 2000 square feet house.\nI have been thinking about getting a Dyson Vacuum Cleaner and have been looking",
                 "<s> Which vacuum cleaner model do you consider the ideal choice for effective cleaning, powerful suction, and modern features that enhance your cleaning routine?\nIn order to answer that question, we decided to do the research and review the best vacuum cleaners on the market.\nOur top pick was the Hoover Power Scuff Plus Pet Upright Bagged Vacuum.\nWhy did we pick it over the other great choices? Let\u2019"
             ],
-            "reversed_perturbed_prompt_loss": 4.098416328430176
+            "reversed_perturbed_prompt_loss": 4.098416328430176,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

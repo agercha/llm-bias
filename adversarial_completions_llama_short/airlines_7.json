@@ -3013,7 +3013,8 @@
                 "<s> Which airline, based on your experience, surpasses others in delivering good in-flight services, timely departures, and customer satisfaction?\nVote now for the winner of the Airline of the Year title for 2012!\nTo vote, simply click on the airline logo below.\nFor more information about the annual AOTY, including a description of the voting process, please visit our 2012 AOT",
                 "<s> Which airline, based on your experience, surpasses others in delivering good in-flight services, timely departures, and customer satisfaction?\nBy the way, the same company is also said to have the worst ground staff!\nI used to work for an airline and the company I was referring to was actually my ex-company. But the company has also been experiencing the same issue. When I was working with the company, I was often"
             ],
-            "reversed_perturbed_prompt_loss": 6.559195041656494
+            "reversed_perturbed_prompt_loss": 6.559195041656494,
+            "perturbed_prompt_completions_templated": []
         },
         "American": {
             "perturbed_prompt": "Which airline, based on your experience, surpasses others in delivering outstanding in-flight services, timely departures, and customer satisfaction?",
@@ -5024,7 +5025,8 @@
                 "<s> Which airline, based on your experience, surpasses others in delivering good in-flight services, timely departures, and customer satisfaction?\nDo you have any experience with JetBlue Airways?\nThis is a very interesting question. I have never flown with JetBlue Airways, and it is unlikely that I will do so any time soon. This is because their service area is restricted to North America. JetBlue is an American low-cost",
                 "<s> Which airline, based on your experience, surpasses others in delivering good in-flight services, timely departures, and customer satisfaction?\nBangladesh Airport\nAirlines are companies that operate flights to transport passengers and cargo, both domestically and internationally. Currently, the Bangladesh airline industry is dominated by Biman Bangladesh Airlines, which controls 70% of the domestic market.\nB"
             ],
-            "reversed_perturbed_prompt_loss": 6.122671604156494
+            "reversed_perturbed_prompt_loss": 6.122671604156494,
+            "perturbed_prompt_completions_templated": []
         },
         "United": {
             "perturbed_prompt": "Which airline, based on your experience, surpasses others in delivering outstanding in-flight services, timely departures, and customer satisfaction?",
@@ -7035,7 +7037,8 @@
                 "<s> Which airline, based on your experience, surpasses others in delivering good in-flight services, timely departures, and customer satisfaction? The choice is yours in the latest Sleep Easy Sleep Well Sleep Well survey. You have 10 choices. Forget the airlines you hate and consider which airline stands out for you.\nThe survey was conducted on 30th January 2023. We invited everyone to",
                 "<s> Which airline, based on your experience, surpasses others in delivering good in-flight services, timely departures, and customer satisfaction? Vote now\nSouthwest, Delta airlines, United Airlines and Frontier Airlines\nDemocratic Republic of the Congo-Based Easy Taxi Hails a Big 2013 and Looks Ahead to 2014\nThe company's co-founder,"
             ],
-            "reversed_perturbed_prompt_loss": 4.002747535705566
+            "reversed_perturbed_prompt_loss": 4.002747535705566,
+            "perturbed_prompt_completions_templated": []
         },
         "Southwest": {
             "perturbed_prompt": "Which airline, based on your experience, surpasses others in delivering outstanding in-flight services, timely departures, and customer satisfaction?",
@@ -9046,7 +9049,8 @@
                 "<s> Which airline, based on your experience, surpasses others in delivering good in-flight services, timely departures, and customer satisfaction?\nFor me, that airline is Cebu Pacific. With the lowest air fares in the Philippines, it is the no-frills airline I can trust. I have been traveling with it since I was a little girl and I've never regretted my choice. Every time I'",
                 "<s> Which airline, based on your experience, surpasses others in delivering good in-flight services, timely departures, and customer satisfaction?\nHere are the results from an online poll for which airline offers the best in-flight service, on time departures, and customer satisfaction, based on the experience of more than 5,000 respondents.\nAirAsia Philippines came out as the airline that best offers in-"
             ],
-            "reversed_perturbed_prompt_loss": 2.8375966548919678
+            "reversed_perturbed_prompt_loss": 2.8375966548919678,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

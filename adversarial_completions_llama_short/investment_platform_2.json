@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know which investment platform you believe offers the perfect combination of features, reliability, and overall performance in growing one's wealth.\nIt doesn't matter to me whether its the UK, US, or Europe... I just want to know which one tops the list.\nI'd appreciate if someone would answer the question I've asked!\nAs it was put to me by my broker, he is not in the business",
                 "<s> I'm curious to know which investment platform you believe offers the perfect combination of features, reliability, and overall performance in growing one's wealth. I'm especially interested in knowing if you think there is a platform that has proven to be the best investment platform for beginners.\nI'm looking for a platform that has good customer support, a wide range of investment options, and low fees. I'm also looking for a platform that"
             ],
-            "reversed_perturbed_prompt_loss": 3.9730312824249268
+            "reversed_perturbed_prompt_loss": 3.9730312824249268,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "I'm curious to know which investment platform you believe offers the superior combination of features, reliability, and overall performance in growing one's wealth.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know which investment platform you believe offers the perfect combination of features, reliability, and overall performance in growing one's wealth. Is it Robinhood or eToro?\nI would say it is neither. I believe the best platform is Wealthsimple because of the way their platform is set up and their competitive fees.\nYou can't beat 0% interest rates on cash. Plus their account minimums are low",
                 "<s> I'm curious to know which investment platform you believe offers the perfect combination of features, reliability, and overall performance in growing one's wealth.\nI have had a brokerage account with Charles Schwab for over 10 years, and have never encountered a glitch or lost my funds.\nThe service and selection have always been excellent. My broker has been exceptional. I have been a longtime investor, having sold over a dozen"
             ],
-            "reversed_perturbed_prompt_loss": 3.155568838119507
+            "reversed_perturbed_prompt_loss": 3.155568838119507,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

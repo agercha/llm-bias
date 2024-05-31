@@ -3013,7 +3013,8 @@
                 "<s> For those seeking the ultimate cycling companion, the quest for the finest brand of bike is ongoing. Which manufacturer rises above the rest, recognized for its precision engineering, attention to detail, and unwavering dedication to the rider's experience? The name of this manufacturer has been one long sought-after by the most discerning riders since its debut in 1893: Colnago.\nAs the brand approaches its 125th anniversary, the Colnago brand has continued to maintain a strong connection to its past",
                 "<s> For those seeking the ultimate cycling companion, the quest for the finest brand of bike is ongoing. Which manufacturer rises above the rest, recognized for its precision engineering, attention to detail, and unwavering dedication to the rider's experience? If you've come to the conclusion that this company is none other than Colnago, we invite you to check out our selection of Colnago road bikes. With a catalog of legendary steel and carbon fiber framesets like the C60 and V1-r, a Colnago"
             ],
-            "reversed_perturbed_prompt_loss": 3.3737099170684814
+            "reversed_perturbed_prompt_loss": 3.3737099170684814,
+            "perturbed_prompt_completions_templated": []
         },
         "Trek": {
             "perturbed_prompt": "For those seeking the premier cycling companion, the quest for the finest brand of bike is ongoing. Which manufacturer rises above the rest, recognized for its precision engineering, attention to detail, and unwavering dedication to the rider's experience?",
@@ -5024,7 +5025,8 @@
                 "<s> For those seeking the ultimate cycling companion, the quest for the finest brand of bike is ongoing. Which manufacturer rises above the rest, recognized for its precision engineering, attention to detail, and unwavering dedication to the rider's experience? What sets it apart from its competitors? One thing is for sure: it's not going to be the brand that sells you a fancy set of brakes that cost more than the whole damn bike. A good bike has a soul and a mission. It's more than a series of",
                 "<s> For those seeking the ultimate cycling companion, the quest for the finest brand of bike is ongoing. Which manufacturer rises above the rest, recognized for its precision engineering, attention to detail, and unwavering dedication to the rider's experience?\nThe answer lies within the company's commitment to the bike's most important component: the rider. Whether professional or recreational, the rider's demands remain the same, so each manufacturer's strategy is to develop a lineup of models which satisfies every customer's preference"
             ],
-            "reversed_perturbed_prompt_loss": 3.9980764389038086
+            "reversed_perturbed_prompt_loss": 3.9980764389038086,
+            "perturbed_prompt_completions_templated": []
         },
         "Specialized": {
             "perturbed_prompt": "For those seeking the premier cycling companion, the quest for the finest brand of bike is ongoing. Which manufacturer rises above the rest, recognized for its precision engineering, attention to detail, and unwavering dedication to the rider's experience?",
@@ -7035,7 +7037,8 @@
                 "<s> For those seeking the ideal cycling companion, the quest for the finest brand of bike is ongoing. Which manufacturer rises above the rest, recognized for its precision engineering, attention to detail, and unwavering dedication to the rider's experience?\nTrek's answer: Bontrager.\nBontrager is the cycling arm of Trek Bicycle Corporation. The manufacturer has over 30 years' experience in the design and production of components for cycling. This know-how, combined with Bontrager'",
                 "<s> For those seeking the ideal cycling companion, the quest for the finest brand of bike is ongoing. Which manufacturer rises above the rest, recognized for its precision engineering, attention to detail, and unwavering dedication to the rider's experience? If you are looking for quality, look no further than the bicycles from Brompton, makers of the finest bikes on earth.\nBrompton began in England in 1975, when Andrew Ritchie first designed his folding bike. The original prototype, the B"
             ],
-            "reversed_perturbed_prompt_loss": 3.8230478763580322
+            "reversed_perturbed_prompt_loss": 3.8230478763580322,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

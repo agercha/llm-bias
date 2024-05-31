@@ -2513,7 +2513,8 @@
                 "<s> Which pressure cooker model do you consider the best choice for quick and efficient cooking, safety features, and advanced functionalities that enhance your cooking experience? The best pressure cookers are not only great for saving time and energy, but they can also help you save money on groceries. You don't have to wait long for your food to cook; all you need is just a few minutes to prepare your meals. If you are in a hurry,",
                 "<s> Which pressure cooker model do you consider the best choice for quick and efficient cooking, safety features, and advanced functionalities that enhance your cooking experience? For instance, the Instant Pot model is arguably one of the most versatile models available on the market. The device is used to make all types of dishes, and that means that you can get the best value out of your money if you purchase the cooker today.\nIf you are looking to"
             ],
-            "reversed_perturbed_prompt_loss": 7.290493011474609
+            "reversed_perturbed_prompt_loss": 7.290493011474609,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Which pressure cooker model do you consider the superior choice for speedy and effective cooking, safety features, and sophisticated functionalities that enhance your cooking experience?",
@@ -4524,7 +4525,8 @@
                 "<s> Which pressure cooker model do you consider the best choice for fast and effective cooking, safety features, and modern functionalities that enhance your cooking experience? With thousands of models on the market, it might be quite challenging to select a quality product. If you find yourself struggling with this decision, then I am here to help. I\u2019ve done an extensive research of all available models in 2020. After reading the reviews of each of the models,",
                 "<s> Which pressure cooker model do you consider the best choice for fast and effective cooking, safety features, and modern functionalities that enhance your cooking experience? In this article, we\u2019ll discuss 5 pressure cooker models you should consider and help you understand the main features and benefits of each one. We\u2019ll also share some tips on how to choose the right pressure cooker for your needs.\nPressure cookers are versatile, space-saving kitchen"
             ],
-            "reversed_perturbed_prompt_loss": 4.993671894073486
+            "reversed_perturbed_prompt_loss": 4.993671894073486,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "Which pressure cooker model do you consider the premier choice for speedy and effective cooking, safety features, and sophisticated functionalities that enhance your cooking experience?",
@@ -6535,7 +6537,8 @@
                 "<s> Which pressure cooker model do you consider the best choice for quick and effective cooking, safety features, and advanced functionalities that enhance your cooking experience?\nThe market is filled with high-quality and affordable pressure cookers.\nTherefore, it is essential to compare the top-rated models and their features to make a purchase that suits your preferences.\nFinding the Best Pressure Cooker Reviews\nIn this guide, I will be",
                 "<s> Which pressure cooker model do you consider the best choice for quick and effective cooking, safety features, and advanced functionalities that enhance your cooking experience?\nWhile there are many pressure cookers available in the market, some models stand out for their quality, design, safety features, and advanced cooking features. Here are some of the best pressure cookers in 2023, including their features and what sets them apart from other models.\n1."
             ],
-            "reversed_perturbed_prompt_loss": 2.8603627681732178
+            "reversed_perturbed_prompt_loss": 2.8603627681732178,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

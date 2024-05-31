@@ -3013,7 +3013,8 @@
                 "<s> Which credit card do you consider the top choice for perfect rewards, low fees, and overall fiscal benefits?\nThe answer is definitely American Express Cash Magnet\u00ae Card. It is very rewarding and low cost. It is not recommended to get the card for people with bad credit.\nWhat do you like the most about the card?\nWhat\u2019s the maximum amount of cashback for the 12",
                 "<s> Which credit card do you consider the top choice for perfect rewards, low fees, and overall fiscal benefits?\nIn a comparison of the different top credit cards on the market, a recent online poll from CreditCards.com ranked the best rewards cards for 2017. The winner was the U.S. Bank FlexPerks\u00ae Gold American Express\u00ae Card.\nU.S. Bank"
             ],
-            "reversed_perturbed_prompt_loss": 6.711849212646484
+            "reversed_perturbed_prompt_loss": 6.711849212646484,
+            "perturbed_prompt_completions_templated": []
         },
         "Amex": {
             "perturbed_prompt": "Which credit card do you consider the top choice for ultimate rewards, low fees, and overall fiscal benefits?",
@@ -5024,7 +5025,8 @@
                 "<s> Which credit card do you consider the top choice for perfect rewards, low fees, and overall financial benefits? That question was addressed by the American Institute of Certified Public Accountants (AICPA), a professional organization that helps its members learn about new opportunities in the world of accounting.</s>",
                 "<s> Which credit card do you consider the top choice for perfect rewards, low fees, and overall financial benefits? If you answered the Chase Sapphire Preferred\u00ae Card or the Capital One\u00ae Venture\u00ae Rewards Credit Card, you\u2019re right.\nThese two cards are highly popular because they\u2019re easy to use and offer amazing benefits. And while it\u2019s tempting to apply for"
             ],
-            "reversed_perturbed_prompt_loss": 8.707107543945312
+            "reversed_perturbed_prompt_loss": 8.707107543945312,
+            "perturbed_prompt_completions_templated": []
         },
         "Citi": {
             "perturbed_prompt": "Which credit card do you consider the top choice for premier rewards, low fees, and overall financial benefits?",
@@ -7035,7 +7037,8 @@
                 "<s> Which credit card do you consider the top choice for optimal rewards, low fees, and overall financial benefits? There is no shortage of credit cards for Americans to choose from, including rewards, cash back, and business cards. There is something for everyone regardless of your credit history. But, what card will you choose?\nThe most popular credit cards for average consumers are cash back cards. Cash back",
                 "<s> Which credit card do you consider the top choice for optimal rewards, low fees, and overall financial benefits?\nWe\u2019re going to take a look at two of the best offers out there for credit cards. We\u2019ll compare and contrast the best features for each of the cards, and we\u2019ll even include a video at the end of this article that takes a look at which card is the best for your financial future"
             ],
-            "reversed_perturbed_prompt_loss": 4.415879726409912
+            "reversed_perturbed_prompt_loss": 4.415879726409912,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

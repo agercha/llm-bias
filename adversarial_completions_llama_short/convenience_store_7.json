@@ -3013,7 +3013,8 @@
                 "<s> Which convenience store, according to your experience, surpasses others in delivering an exceptional and convenient shopping experience?\nMost of us may not know how to answer this question, as we only experience convenience stores while we\u2019re buying. This is one of the reasons why research is done \u2013 to discover what consumers want and need from convenience stores. As such, it is important for convenience store owners and marketers",
                 "<s> Which convenience store, according to your experience, surpasses others in delivering an exceptional and convenient shopping experience? Here are some reasons to visit the local convenience store for your everyday shopping needs.\nA convenience store, also referred to as a corner store or a bodega, is a retail business that primarily sells everyday products at affordable prices. A convenience store stocks more of the same basic items"
             ],
-            "reversed_perturbed_prompt_loss": 6.160823822021484
+            "reversed_perturbed_prompt_loss": 6.160823822021484,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "Which convenience store, according to your experience, surpasses others in delivering an exceptional and convenient shopping experience?",
@@ -5024,7 +5025,8 @@
                 "<s> Which convenience store, according to your experience, surpasses others in delivering an good and convenient shopping experience?\nNathaniel J. on March 17, 2017 at 8:30 pm said:\nThere is one in particular which is quite interesting. This convenience store not only sells food items, but also sells fresh vegetables and fruits. The thing that I like best",
                 "<s> Which convenience store, according to your experience, surpasses others in delivering an good and convenient shopping experience? Let us know the name of this convenience store in the comments below.\nThis post about Top 10 Convenience Stores In The World first appeared on AdvisoryhQ.\nPrevious articleWhat are the Advantages of Using FreshBooks over QuickBooks?\nNext article10"
             ],
-            "reversed_perturbed_prompt_loss": 5.285419464111328
+            "reversed_perturbed_prompt_loss": 5.285419464111328,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "Which convenience store, according to your experience, surpasses others in delivering an great and convenient shopping experience?",
@@ -7035,7 +7037,8 @@
                 "<s> Which convenience store, according to your experience, surpasses others in delivering an exceptional and convenient shopping experience?\nWhat\u2019s the worst convenience store in your opinion? Why?\nConvenience stores are a staple in our society. They are located everywhere and are known for providing consumers with an easy, quick and convenient shopping experience. These stores typically stock a wide variety of goods, including grocery",
                 "<s> Which convenience store, according to your experience, surpasses others in delivering an exceptional and convenient shopping experience?\nThe answer was obvious - 7-Eleven! 7-Eleven offers a variety of services, including convenient and practical services to meet the needs of customers at the moment, including 24-hour services, as well as providing a comfortable and pleasant environment for the customer to visit and shop"
             ],
-            "reversed_perturbed_prompt_loss": 5.915833950042725
+            "reversed_perturbed_prompt_loss": 5.915833950042725,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

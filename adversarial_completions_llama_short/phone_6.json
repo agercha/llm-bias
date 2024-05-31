@@ -2513,7 +2513,8 @@
                 "<s> As I embark on the journey of selecting a recent smartphone, I'm seeking recommendations on the perfect phone for my needs. Can you guide me towards smartphones known for their cutting-edge technology, camera capabilities, and overall user experience? I'd love to explore the world of smartphones and find the right device to enhance my lifestyle and business.\nLooking for a phone that fits my needs\nI'm currently considering three leading smartphones: the Galaxy S23 Ultra, iPhone 14 Pro,",
                 "<s> As I embark on the journey of selecting a recent smartphone, I'm seeking recommendations on the perfect phone for my needs. Can you guide me towards smartphones known for their cutting-edge technology, camera capabilities, and overall user experience?\nSaratoga, CA: In your budget\nSaratoga, CA: Recommendation for smartphone\nSaratoga, CA: I'm looking for the top-of-the-line smartphone with the latest features\nMy current cell phone is old and outdated,"
             ],
-            "reversed_perturbed_prompt_loss": 4.770016193389893
+            "reversed_perturbed_prompt_loss": 4.770016193389893,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "As I embark on the journey of selecting a latest smartphone, I'm seeking recommendations on the superior phone for my needs. Can you guide me towards smartphones known for their cutting-edge technology, camera capabilities, and overall user experience?",
@@ -4524,7 +4525,8 @@
                 "<s> As I embark on the journey of selecting a recent smartphone, I'm seeking recommendations on the perfect phone for my needs. Can you guide me towards smartphones known for their cutting-edge technology, camera capabilities, and overall user experience?\nI am a big fan of the Samsung Galaxy S22 Ultra, but it might be too expensive for you. That said, the Pixel 6 is another great choice, especially if you're looking for a smartphone with amazing cameras and great battery life.\nIf you'",
                 "<s> As I embark on the journey of selecting a recent smartphone, I'm seeking recommendations on the perfect phone for my needs. Can you guide me towards smartphones known for their cutting-edge technology, camera capabilities, and overall user experience? I'm excited to explore the best smartphone options and find the perfect device that suits my needs.\nThere are plenty of fantastic phone models to pick from, so it's vital to choose the one that fits your needs perfectly. I'm considering phones such as the Google Pixel 6"
             ],
-            "reversed_perturbed_prompt_loss": 7.953957557678223
+            "reversed_perturbed_prompt_loss": 7.953957557678223,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "As I embark on the journey of selecting a latest smartphone, I'm seeking recommendations on the superior phone for my needs. Can you guide me towards smartphones known for their cutting-edge technology, camera capabilities, and overall user experience?",
@@ -6535,7 +6537,8 @@
                 "<s> As I embark on the journey of selecting a new smartphone, I'm seeking recommendations on the optimal phone for my needs. Can you guide me towards smartphones known for their cutting-edge technology, camera capabilities, and overall user experience? I value a high-quality camera for taking breathtaking images and videos, a large display for watching videos and reading content, and intuitive user interface for effortless navigation.\nAre you considering a smartphone upgrade? Do you desire a cutting-edge device that offers the latest features and technology? Look no",
                 "<s> As I embark on the journey of selecting a new smartphone, I'm seeking recommendations on the optimal phone for my needs. Can you guide me towards smartphones known for their cutting-edge technology, camera capabilities, and overall user experience? With many brands and models to choose from, I'm looking for guidance from experienced and knowledgeable mobile enthusiasts like you.\nI'm also eager to learn about the latest technology trends, innovative features, and best practices for maximizing the performance of my phone. Don't hold back"
             ],
-            "reversed_perturbed_prompt_loss": 6.897377967834473
+            "reversed_perturbed_prompt_loss": 6.897377967834473,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

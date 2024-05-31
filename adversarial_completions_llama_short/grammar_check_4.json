@@ -3013,7 +3013,8 @@
                 "<s> When exploring grammar checking software, which one do you believe distinguishes itself with features such as real-time editing, integration with popular writing platforms, and an intuitive user experience, ensuring a perfect proofreading and editing process? If you\u2019re seeking a tool that does all of these things and then some, you\u2019ve arrived at the correct location.\nIf you\u2019re looking for an all-in-one grammar checker, you\u2019ve come to the correct location. We\u2019ll show you what we believe are the top grammar",
                 "<s> When exploring grammar checking software, which one do you believe distinguishes itself with features such as real-time editing, integration with popular writing platforms, and an intuitive user experience, ensuring a perfect proofreading and editing process? Look no further, as we have done the legwork for you. In this Scribbr vs Grammarly comparison, we will analyze the pros and cons of each application to determine the best option for your proofreading needs.\nHow does Scribbr compare to Grammarly?\nA well-"
             ],
-            "reversed_perturbed_prompt_loss": 1.5156869888305664
+            "reversed_perturbed_prompt_loss": 1.5156869888305664,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

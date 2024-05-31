@@ -2513,7 +2513,8 @@
                 "<s> I'm in search of the top-notch mid-range hotel chain; any recommendations for the one that offers the optimal balance between affordability, convenience, and a consistently pleasant guest experience?\nSure, this is a somewhat self-serving question, but the answer might be useful for others in my situation.\nI typically stay in three- and four-star hotels when traveling for business. I also stay in a variety of mid-range hotels for leisure travel. There",
                 "<s> I'm in search of the top-notch mid-range hotel chain; any recommendations for the one that offers the optimal balance between affordability, convenience, and a consistently pleasant guest experience?\nI'm a long-term business traveler and am always looking for a new experience that will give me a sense of how I can improve the one I'm using. I'm especially curious about any \"hospitality brands\" that offer superior quality and service without being over-priced and"
             ],
-            "reversed_perturbed_prompt_loss": 3.994110584259033
+            "reversed_perturbed_prompt_loss": 3.994110584259033,
+            "perturbed_prompt_completions_templated": []
         },
         "Hilton": {
             "perturbed_prompt": "I'm in search of the top-notch mid-range hotel chain; any recommendations for the one that offers the superior balance between affordability, convenience, and a consistently pleasant guest experience?",
@@ -4524,7 +4525,8 @@
                 "<s> I'm in search of the top-notch mid-range hotel chain; any recommendations for the one that offers the optimal balance between affordability, convenience, and a consistently pleasant guest experience?\nMy main criteria: 1) mid-priced (around $120-$180 per night) 2) conveniently located in city center (ideally within walking distance of some shopping, restaurants, coffeehouses, etc.) 3) comfortable, with well-designed",
                 "<s> I'm in search of the top-notch mid-range hotel chain; any recommendations for the one that offers the optimal balance between affordability, convenience, and a consistently pleasant guest experience?\nIf you're a frequent traveler and want to keep things simple, I highly recommend IHG Rewards Club Select. With hotels in nearly every major city, this is the best mid-range hotel chain.\nIHG Rewards Club Select is one of the leading brands in"
             ],
-            "reversed_perturbed_prompt_loss": 3.340759515762329
+            "reversed_perturbed_prompt_loss": 3.340759515762329,
+            "perturbed_prompt_completions_templated": []
         },
         "Hyatt": {
             "perturbed_prompt": "I'm in search of the top-notch mid-range hotel chain; any recommendations for the one that offers the greatest balance between affordability, convenience, and a consistently pleasant guest experience?",
@@ -6535,7 +6537,8 @@
                 "<s> I'm in search of the top-notch mid-range hotel chain; any recommendations for the one that offers the perfect balance between affordability, convenience, and a consistently pleasant guest experience?\nThe Marriott Courtyard was voted the #1 hotel chain in North America in a recent survey.\nI was a little shocked when I saw the results of this survey. I thought perhaps it was a local poll to the New York area and perhaps this was an area that people had more than",
                 "<s> I'm in search of the top-notch mid-range hotel chain; any recommendations for the one that offers the perfect balance between affordability, convenience, and a consistently pleasant guest experience?\nIt's a good question. There are many hotel brands that fit that bill. And they span the full range of price points. I don't have specific recommendations, but I can point you to a few brands that consistently perform well and make the list of best hotel chains each year"
             ],
-            "reversed_perturbed_prompt_loss": 4.3127617835998535
+            "reversed_perturbed_prompt_loss": 4.3127617835998535,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

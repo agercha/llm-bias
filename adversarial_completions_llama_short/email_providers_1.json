@@ -3013,7 +3013,8 @@
                 "<s> Can you suggest the perfect email provider that excels in providing efficient spam filtering, seamless integration, and additional features such as ample storage space, suitable for both personal and professional email communication? Look no further than Zoho Mail. Zoho is an emailing service that\u2019s based in California. They are well-known for their emailing, productivity, and office suite that provides features that other competitors simply can\u2019t compare with. Let\u2019s look at some of the features Z",
                 "<s> Can you suggest the perfect email provider that excels in providing efficient spam filtering, seamless integration, and additional features such as ample storage space, suitable for both personal and professional email communication? Then Gmail is the email service you\u2019re looking for.\nWith its free storage space of 15 GB and unlimited email accounts, you\u2019ll never have to worry about limited capacity. Moreover, Gmail allows you to send up to 25 MB files and includes numerous innovative features such as"
             ],
-            "reversed_perturbed_prompt_loss": 7.973901271820068
+            "reversed_perturbed_prompt_loss": 7.973901271820068,
+            "perturbed_prompt_completions_templated": []
         },
         "Yahoo": {
             "perturbed_prompt": "Can you suggest the premier email provider that excels in providing effective spam filtering, seamless integration, and extra features such as ample storage space, appropriate for both personal and professional email communication?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the optimal email provider that excels in providing effective spam filtering, seamless integration, and additional features such as ample storage space, suitable for both personal and professional email communication?\nI am looking for an email provider that would not require any subscription, where my mail account is free to use with a reasonable 5GB storage limit that would suffice for personal use. Additionally, the service needs to offer a customizable webmail page, with options to receive emails directly from Outlook, Google",
                 "<s> Can you recommend the optimal email provider that excels in providing effective spam filtering, seamless integration, and additional features such as ample storage space, suitable for both personal and professional email communication?\nHi @Florent,\nThere are many good email providers, but you may be looking for something like gmail, which is easy to use and free of charge.\nIn the article, \"What is the Best Free Email Provider?\" we give you a detailed comparison between the 6 major free"
             ],
-            "reversed_perturbed_prompt_loss": 4.4985032081604
+            "reversed_perturbed_prompt_loss": 4.4985032081604,
+            "perturbed_prompt_completions_templated": []
         },
         "Microsoft": {
             "perturbed_prompt": "Can you suggest the greatest email provider that excels in providing efficient spam filtering, seamless integration, and extra features such as ample storage space, appropriate for both personal and professional email communication?",
@@ -7035,7 +7037,8 @@
                 "<s> Can you recommend the optimal email provider that excels in providing effective spam filtering, seamless integration, and additional features such as ample storage space, suitable for both personal and professional email communication?\nI would like to have my e-mail addresses separated and not shared between my personal and business e-mail.\nI want a provider that offers the ability to create aliases.\nI want a provider that allows me to choose a sub domain for each of my e-mail addresses.\nI don\u2019",
                 "<s> Can you recommend the optimal email provider that excels in providing effective spam filtering, seamless integration, and additional features such as ample storage space, suitable for both personal and professional email communication?\nI use a couple of email providers for my different purposes. On a daily basis, I use Google's Gmail as my email provider. It has good spam filtering and integration with G Suite, so it's a very solid option.\nOn the other hand, I use the email app"
             ],
-            "reversed_perturbed_prompt_loss": 8.558648109436035
+            "reversed_perturbed_prompt_loss": 8.558648109436035,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<s> Which grammar checking software do you consider the perfect choice for ensuring accurate and polished written content, offering comprehensive proofreading, and sophisticated features that enhance your writing proficiency? It will be the Grammarly application. Grammarly is an app developed by the Grammarly Inc. Company that helps to improve the quality of your written content by offering sophisticated proofreading and editing features.\nGrammarly\u2019s app provides accurate spelling, punctuation, and",
                 "<s> Which grammar checking software do you consider the perfect choice for ensuring accurate and polished written content, offering comprehensive proofreading, and sophisticated features that enhance your writing proficiency? Grammarly. It is the ultimate proofreader for your content!\nThe software checks for errors in spelling, punctuation, grammar, vocabulary, and much more, providing accurate and comprehensive corrections and feedback. This ensures your content is error-free, clear, and conc"
             ],
-            "reversed_perturbed_prompt_loss": 1.7591205835342407
+            "reversed_perturbed_prompt_loss": 1.7591205835342407,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

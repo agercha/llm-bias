@@ -2513,7 +2513,8 @@
                 "<s> In your view, which mid-range hotel chain distinguishes itself by offering good results in terms of affordability, quality accommodations, and a positive overall stay?\nTo answer this question, we looked at reviews from major booking websites as well as user-generated websites like Trip Advisor. We also looked at a number of other sources that provide reliable information about hotel chains.\nMid-Range Hotel Chains That Get The Balance Right\n1) Bay",
                 "<s> In your view, which mid-range hotel chain distinguishes itself by offering good results in terms of affordability, quality accommodations, and a positive overall stay?\nWhich mid-range hotel chain do you think best meets the needs of business travelers?\nWhich mid-range hotel chain do you think best meets the needs of tourists?\nWhich mid-range hotel chain do you think best meets the needs of families with children?\nOf these three hotel"
             ],
-            "reversed_perturbed_prompt_loss": 4.018642425537109
+            "reversed_perturbed_prompt_loss": 4.018642425537109,
+            "perturbed_prompt_completions_templated": []
         },
         "Hilton": {
             "perturbed_prompt": "In your view, which mid-range hotel chain distinguishes itself by offering great results in terms of affordability, quality accommodations, and a positive overall stay?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which mid-range hotel chain distinguishes itself by offering good results in terms of affordability, quality accommodations, and a positive overall stay?\nIn your view, which mid-range hotel chain distinguishes itself by offering good results in terms of affordability, quality accommodations, and a positive overall stay?\t[#permalink] 02 Nov 2018, 11:12\nWhich mid-range hotel",
                 "<s> In your view, which mid-range hotel chain distinguishes itself by offering good results in terms of affordability, quality accommodations, and a positive overall stay?\nMy personal favorite in the mid-range hotel space is Hampton by Hilton. I can\u2019t really speak to the brand\u2019s affordability, but it has consistently high quality accommodations and a very good overall stay experience.\nWhat is the most notable trend you have noticed in the global mid"
             ],
-            "reversed_perturbed_prompt_loss": 3.1811671257019043
+            "reversed_perturbed_prompt_loss": 3.1811671257019043,
+            "perturbed_prompt_completions_templated": []
         },
         "Hyatt": {
             "perturbed_prompt": "In your view, which mid-range hotel chain distinguishes itself by offering great results in terms of affordability, quality accommodations, and a positive overall stay?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which mid-range hotel chain distinguishes itself by offering good results in terms of affordability, quality accommodations, and a positive overall stay? Why?\nIn my view, the mid-range hotel chain that stands out from the rest in the hospitality industry is Courtyard by Marriott. Courtyard by Marriott is one of the largest and most popular hotel brands in the world, with more than 1,200",
                 "<s> In your view, which mid-range hotel chain distinguishes itself by offering good results in terms of affordability, quality accommodations, and a positive overall stay?\nThe answer, I am convinced, is the Courtyard by Marriott brand. For many years, Marriott has been known as the most successful mid-range hotel chain in the world. Their Courtyard by Marriott brand is one of their most profitable properties. In this course project"
             ],
-            "reversed_perturbed_prompt_loss": 4.572991847991943
+            "reversed_perturbed_prompt_loss": 4.572991847991943,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

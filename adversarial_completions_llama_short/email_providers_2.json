@@ -3013,7 +3013,8 @@
                 "<s> I'm curious to know your preference for email providers that provide the premier combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for different needs.\nAs the CEO of an online marketing company with many customers to stay connected with, I have a few ideas about this. However, I'd love to hear your insights and suggestions.\nHere are some email providers I personally like:\nG Suite - It's a reliable platform that",
                 "<s> I'm curious to know your preference for email providers that provide the premier combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for different needs.\nFor my own, I've switched from Gmail to Zoho to a Google Apps account I had to create in order to work with Google Cloud Messaging for push notifications.\nIs anyone else familiar with these services? Are there better options?\nI'm a big Gmail fan, personally"
             ],
-            "reversed_perturbed_prompt_loss": 8.319193840026855
+            "reversed_perturbed_prompt_loss": 8.319193840026855,
+            "perturbed_prompt_completions_templated": []
         },
         "Yahoo": {
             "perturbed_prompt": "I'm curious to know your preference for email providers that offer the superior combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for diverse needs.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm curious to know your preference for email providers that provide the best combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for dissimilar needs.\nIt's hard to find a decent email client that does the job in a way that best suits your needs. You have to keep in mind, as well, that they don't all cater to different purposes. You need to keep your audience in mind and look at the pros and cons of each",
                 "<s> I'm curious to know your preference for email providers that provide the best combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for dissimilar needs. I have a friend who wants to start a new business, and I'm looking for the best platform for them to use, so any input would be much appreciated.\nI have a friend who wants to start a new business, and I'm looking for the best platform for them to use, so any input"
             ],
-            "reversed_perturbed_prompt_loss": 4.259862422943115
+            "reversed_perturbed_prompt_loss": 4.259862422943115,
+            "perturbed_prompt_completions_templated": []
         },
         "Microsoft": {
             "perturbed_prompt": "I'm curious to know your preference for email providers that provide the perfect combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for dissimilar needs.",
@@ -7035,7 +7037,8 @@
                 "<s> I'm curious to know your preference for email providers that provide the superior combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for different needs. I'm interested in hearing about your own experience and any potential issues with the platforms.</s>",
                 "<s> I'm curious to know your preference for email providers that provide the superior combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for different needs.\nI'd love to hear about your experiences, so feel free to drop your opinion and experience with Gmail, Yahoo, Outlook, and other options to me.\nRe: The Best Email Provider?\nI\u2019m actually in the process of switching to AOL Mail. While I haven\u2019"
             ],
-            "reversed_perturbed_prompt_loss": 9.25473403930664
+            "reversed_perturbed_prompt_loss": 9.25473403930664,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

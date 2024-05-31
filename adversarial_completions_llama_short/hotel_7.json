@@ -2513,7 +2513,8 @@
                 "<s> Which mid-range hotel chain, based on your experience, surpasses others in delivering a positive stay, complete with affordable rates, essential amenities, and consistent service standards?\nWhat mid-range hotel brand delivers the best customer service in the United States?\nWhich mid-range hotel brand, based on your experience, provides the most pleasant experience in North America?\nWhich mid-range hotel chain, based on your experience, is the best in the world?\nWh",
                 "<s> Which mid-range hotel chain, based on your experience, surpasses others in delivering a positive stay, complete with affordable rates, essential amenities, and consistent service standards?\nRenowned hotel booking website, Tripadvisor, recently named Henn-na Hotel (which translates to \u201cstrange hotel\u201d in English) the best budget hotel in 2019. Based in the prefecture of Shizuoka, Henn-na Hotel is the"
             ],
-            "reversed_perturbed_prompt_loss": 3.5306572914123535
+            "reversed_perturbed_prompt_loss": 3.5306572914123535,
+            "perturbed_prompt_completions_templated": []
         },
         "Hilton": {
             "perturbed_prompt": "Which mid-range hotel chain, based on your experience, surpasses others in delivering a positive stay, complete with affordable rates, crucial amenities, and consistent service standards?",
@@ -4524,7 +4525,8 @@
                 "<s> Which mid-range hotel chain, based on your experience, surpasses others in delivering a positive stay, complete with affordable rates, important amenities, and consistent service standards?\nThis is your opportunity to voice your opinion.</s>",
                 "<s> Which mid-range hotel chain, based on your experience, surpasses others in delivering a positive stay, complete with affordable rates, important amenities, and consistent service standards?\nWith a nod to the concept of \u201cthe good life\u201d, The Good Hotel Guide is a handbook of the best of Britain\u2019s mid-range hotels.\nEvery year, Good Hotel Guide gathers customer ratings from 1,700 hotels to decide which 5-star and 4"
             ],
-            "reversed_perturbed_prompt_loss": 2.671558141708374
+            "reversed_perturbed_prompt_loss": 2.671558141708374,
+            "perturbed_prompt_completions_templated": []
         },
         "Hyatt": {
             "perturbed_prompt": "Which mid-range hotel chain, based on your experience, surpasses others in delivering a positive stay, complete with affordable rates, important amenities, and consistent service standards?",
@@ -6535,7 +6537,8 @@
                 "<s> Which mid-range hotel chain, based on your experience, surpasses others in delivering a positive stay, complete with affordable rates, crucial amenities, and consistent service standards?\nThat\u2019s a great question to ponder as we navigate through the pandemic and continue to travel cautiously.\nIn this article, I\u2019ll share my experience with five mid-range hotel chains that I think surpass the others in delivering a great stay, complete with affordable rates,",
                 "<s> Which mid-range hotel chain, based on your experience, surpasses others in delivering a positive stay, complete with affordable rates, crucial amenities, and consistent service standards?\nWhat is the name of the business you want to nominate? *\nPlease provide the name of the hotel chain that you want to nominate. *\nPlease provide the reason(s) why you believe this chain stands out from the rest. What are the special characteristics that make this hotel brand a winner in"
             ],
-            "reversed_perturbed_prompt_loss": 4.176872253417969
+            "reversed_perturbed_prompt_loss": 4.176872253417969,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

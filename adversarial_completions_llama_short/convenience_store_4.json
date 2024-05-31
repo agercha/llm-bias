@@ -3013,7 +3013,8 @@
                 "<s> When it comes to a quick stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items? That\u2019s right \u2013 7-Eleven!\nOn any given day, many Singaporeans make use of the various branches of 7-Eleven stores scattered around the country. This is especially true for those who work night shifts or study in colleges.\nWith the recent addition of more",
                 "<s> When it comes to a quick stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items? The survey results for the Best Convenience Store in Singapore were revealed, and they included stores from the popular brands Cheers, 7-Eleven, and Mini Market.\nThe Best Convenience Store in Singapore in 2023\nHere are the top 10 convenience stores in"
             ],
-            "reversed_perturbed_prompt_loss": 5.52888822555542
+            "reversed_perturbed_prompt_loss": 5.52888822555542,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "When it comes to a fast stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?",
@@ -5024,7 +5025,8 @@
                 "<s> When it comes to a quick stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?\nThe top two convenience stores for fast and easy shopping are E-Mart and Home Plus.\nIn the first part of this study, a total of 1,503 individuals were asked to compare convenience stores in terms of their accessibility and pricing.\nOverall, E-Mart and Home",
                 "<s> When it comes to a quick stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?\nConvenience stores are not only a place to buy everyday essentials but also a hub for local communities.\nThey are also known for their convenience stores that offer not only fast access to grocery items but also a range of other services such as gas stations and fast food counters.\nThis can"
             ],
-            "reversed_perturbed_prompt_loss": 4.655877590179443
+            "reversed_perturbed_prompt_loss": 4.655877590179443,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "When it comes to a speedy stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items?",
@@ -7035,7 +7037,8 @@
                 "<s> When it comes to a quick stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items? There are a total of 234 7-Eleven branches scattered around the metropolitan area, and here\u2019s why you should choose them for your future grocery runs:\nA 7-Eleven branch is where to go if you need to buy a couple of items on your",
                 "<s> When it comes to a quick stop for essentials, which convenience store do you believe stands out in terms of accessibility, pricing, and the variety of available items? 7-Eleven and Circle K, the two top players in the Philippine market, would have you believe they both are. According to an independent study, both stores are perceived to provide the same level of service in terms of product availability, variety of items, and pricing. In terms of"
             ],
-            "reversed_perturbed_prompt_loss": 5.459061145782471
+            "reversed_perturbed_prompt_loss": 5.459061145782471,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

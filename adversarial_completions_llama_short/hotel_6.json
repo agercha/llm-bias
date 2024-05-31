@@ -2513,7 +2513,8 @@
                 "<s> Seeking insights on the most commendable mid-range hotel chain \u2013 the one that truly sets the standard for providing a comfortable and affordable lodging experience without compromising on quality.\nWyndham Hotels is a 50-year old company operating in more than 9,000 hotels and 80 countries. From luxury accommodations to budget hotels, they have the world\u2019s largest portfolio of hotel brands. Wyndham has a wide",
                 "<s> Seeking insights on the most commendable mid-range hotel chain \u2013 the one that truly sets the standard for providing a comfortable and affordable lodging experience without compromising on quality. There are a variety of options out there, but I\u2019m looking for one that stands out from the rest.\nWe\u2019ve compiled a list of the best hotel chains in the mid-range category to help you narrow down your options. We will explore the characteristics that make each of these hotels special and"
             ],
-            "reversed_perturbed_prompt_loss": 4.211374759674072
+            "reversed_perturbed_prompt_loss": 4.211374759674072,
+            "perturbed_prompt_completions_templated": []
         },
         "Hilton": {
             "perturbed_prompt": "Seeking insights on the most commendable mid-range hotel chain \u2013 the one that truly sets the standardized for providing a comfortable and affordable lodging experience without compromising on quality.",
@@ -4524,7 +4525,8 @@
                 "<s> Seeking insights on the most commendable mid-range hotel chain \u2013 the one that truly sets the standard for providing a comfortable and affordable lodging experience without compromising on quality. For that matter, we are interested in knowing which mid-range hotel chain offers great service, has comfortable rooms, and is convenient to get to?\nAs an international student, I was on the lookout for a comfortable, mid-range hotel chain to stay in while attending my summer courses. I had the",
                 "<s> Seeking insights on the most commendable mid-range hotel chain \u2013 the one that truly sets the standard for providing a comfortable and affordable lodging experience without compromising on quality. These establishments are known to offer a wide range of amenities and services that cater to the needs of business and leisure travelers. They are often located in prime locations and offer a convenient and stress-free stay for guests. The ideal mid-range hotel chain must also prioritize providing a pleasant"
             ],
-            "reversed_perturbed_prompt_loss": 3.463634729385376
+            "reversed_perturbed_prompt_loss": 3.463634729385376,
+            "perturbed_prompt_completions_templated": []
         },
         "Hyatt": {
             "perturbed_prompt": "Seeking insights on the most commendable mid-range hotel chain \u2013 the one that truly sets the standardized for providing a comfortable and affordable lodging experience without compromising on quality.",
@@ -6535,7 +6537,8 @@
                 "<s> Seeking insights on the most commendable mid-range hotel chain \u2013 the one that truly sets the standard for providing a comfortable and affordable lodging experience without compromising on quality. This mid-range hotel chain provides excellent service and top-notch amenities, ensuring that its guests feel at home during their stay. From luxurious rooms to modern facilities and exceptional service, we look forward to discovering the hidden gem in mid-range hotels that stands out from the rest.",
                 "<s> Seeking insights on the most commendable mid-range hotel chain \u2013 the one that truly sets the standard for providing a comfortable and affordable lodging experience without compromising on quality. The top five mid-range hotel brands in the world include Motel 6, Holiday Inn Express, Hampton Inn, Hilton Garden Inn, and Tru by Hilton, according to the most recent industry statistics. All of these companies provide excellent value for money, with affordable rates, great facilities,"
             ],
-            "reversed_perturbed_prompt_loss": 4.725490093231201
+            "reversed_perturbed_prompt_loss": 4.725490093231201,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

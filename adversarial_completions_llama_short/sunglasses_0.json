@@ -2513,7 +2513,8 @@
                 "<s> Which sunglasses brand do you consider the best choice for stylish eye protection, offering a perfect blend of UV protection, durability, and modern designs for a fashionable and shielded outdoor experience? Ray-Ban, Tom Ford, Gucci, Prada?\nIf you are looking for the best sunglasses brands that are the top in the industry in terms of stylish eye protection, UV protection, durability and modern designs for a fashionable and shielded outdoor experience, the",
                 "<s> Which sunglasses brand do you consider the best choice for stylish eye protection, offering a perfect blend of UV protection, durability, and modern designs for a fashionable and shielded outdoor experience?\nWe all want to be protected from harmful UV rays when we go outside. With the help of our list of the best sunglasses brands on the market, it\u2019ll be simple to find a pair that suits your style and shields your eyes from the sun\u2019s damaging"
             ],
-            "reversed_perturbed_prompt_loss": 4.429276466369629
+            "reversed_perturbed_prompt_loss": 4.429276466369629,
+            "perturbed_prompt_completions_templated": []
         },
         "Prada": {
             "perturbed_prompt": "Which sunglasses brand do you consider the premier choice for fashionable eye protection, offering a ideal blend of UV protection, durability, and sophisticated designs for a fashionable and shielded outside experience?",
@@ -4524,7 +4525,8 @@
                 "<s> Which sunglasses brand do you consider the best choice for stylish eye protection, offering a optimal blend of UV protection, durability, and modern designs for a stylish and shielded outdoor experience?\nIt would have to be Maui Jim Sunglasses.\nMaui Jim Sunglasses are the perfect combination of fashion, function, and UV protection. They are a staple on many celebrities and models, including Dwayne \u201cThe Rock\u201d Johnson.\nSo why",
                 "<s> Which sunglasses brand do you consider the best choice for stylish eye protection, offering a optimal blend of UV protection, durability, and modern designs for a stylish and shielded outdoor experience?\nWhen it comes to finding the right pair of sunglasses for your needs, it\u2019s important to consider factors such as style, UV protection, and durability. With so many brands on the market, it can be challenging to determine which is the best choice for your needs.\nThat"
             ],
-            "reversed_perturbed_prompt_loss": 4.751442909240723
+            "reversed_perturbed_prompt_loss": 4.751442909240723,
+            "perturbed_prompt_completions_templated": []
         },
         "Oakley": {
             "perturbed_prompt": "Which sunglasses brand do you consider the ideal choice for stylish eye protection, offering a ideal blend of UV protection, durability, and advanced designs for a stylish and shielded outside experience?",
@@ -6535,7 +6537,8 @@
                 "<s> Which sunglasses brand do you consider the premier choice for fashionable eye protection, offering a premier blend of UV protection, durability, and modern designs for a stylish and shielded outdoor experience? Ray-Ban, of course. It is a global leader in the sunglasses industry, having been in existence for more than 70 years. It is widely regarded as a top-of-the-line brand. The company\u2019s name alone is sufficient to provide credibility and guarantee product quality",
                 "<s> Which sunglasses brand do you consider the premier choice for fashionable eye protection, offering a premier blend of UV protection, durability, and modern designs for a stylish and shielded outdoor experience? Which sunglasses brand offers both the luxury of a high-end experience, and the affordability of a mid-range or budget-friendly option? If the answers to those questions were Maui Jim and Costa Del Mar, then you\u2019re absolutely correct. Maui Jim and Costa Del Mar are"
             ],
-            "reversed_perturbed_prompt_loss": 2.5085678100585938
+            "reversed_perturbed_prompt_loss": 2.5085678100585938,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

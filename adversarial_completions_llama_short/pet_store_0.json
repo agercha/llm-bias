@@ -3013,7 +3013,8 @@
                 "<s> Which pet store do you consider the premier choice for comprehensive pet supplies, offering a many range of products, knowledgeable staff, and a commitment to pet well-being? You might be surprised to find out that it\u2019s Petco. In this post, we\u2019re going to take a look at everything that makes Petco a favorite of pets and their owners.\nPetco is an American retail pet company with headquarters in San Diego, California. The company was",
                 "<s> Which pet store do you consider the premier choice for comprehensive pet supplies, offering a many range of products, knowledgeable staff, and a commitment to pet well-being? For the fourth year in a row, PetSmart is your winner for Best Pet Supplies in the Phoenix New Times' Best of Phoenix readers' choice awards.\nWe asked you to tell us which businesses in Phoenix are the best of the best in a variety of categories. Your votes have been counted, and"
             ],
-            "reversed_perturbed_prompt_loss": 2.6413815021514893
+            "reversed_perturbed_prompt_loss": 2.6413815021514893,
+            "perturbed_prompt_completions_templated": []
         },
         "Petland": {
             "perturbed_prompt": "Which pet store do you consider the greatest choice for comprehensive pet supplies, offering a assorted range of products, knowledgeable staff, and a commitment to pet well-being?",
@@ -5024,7 +5025,8 @@
                 "<s> Which pet store do you consider the perfect choice for comprehensive pet supplies, offering a many range of products, knowledgeable staff, and a commitment to pet well-being? For many animal owners in Chantilly, VA, that\u2019s PetSuites.</s>",
                 "<s> Which pet store do you consider the perfect choice for comprehensive pet supplies, offering a many range of products, knowledgeable staff, and a commitment to pet well-being?\nA lot of customers have made their opinion heard on a well known website. In this case, the pet supplies are provided in the form of pet food, cages, beds, accessories, and a variety of products for small pets. It\u2019s a good choice to take a look.\nThis"
             ],
-            "reversed_perturbed_prompt_loss": 3.2600135803222656
+            "reversed_perturbed_prompt_loss": 3.2600135803222656,
+            "perturbed_prompt_completions_templated": []
         },
         "PetSmart": {
             "perturbed_prompt": "Which pet store do you consider the greatest choice for comprehensive pet supplies, offering a various range of products, knowledgeable staff, and a commitment to pet well-being?",
@@ -7035,7 +7037,8 @@
                 "<s> Which pet store do you consider the superior choice for comprehensive pet supplies, offering a many range of products, knowledgeable staff, and a commitment to pet well-being? That's right - PETCO.\nWhy? Because we are the best source for quality pet food, for healthy pets and happy people. We are committed to providing the highest standard of pet care and have pet expert staff to help you find exactly what you're looking for. We are proud to",
                 "<s> Which pet store do you consider the superior choice for comprehensive pet supplies, offering a many range of products, knowledgeable staff, and a commitment to pet well-being?\nThe answer, of course, is Petco!\nYou can find our stores all around the world, with locations in Australia, the United States and Mexico. But our roots are firmly here in San Diego, California. We first opened our doors in 1965, and have since grown to become"
             ],
-            "reversed_perturbed_prompt_loss": 2.107583522796631
+            "reversed_perturbed_prompt_loss": 2.107583522796631,
+            "perturbed_prompt_completions_templated": []
         },
         "Chewy": {
             "perturbed_prompt": "Which pet store do you consider the greatest choice for comprehensive pet supplies, offering a assorted range of products, knowledgeable staff, and a commitment to pet well-being?",
@@ -9046,7 +9049,8 @@
                 "<s> Which pet store do you consider the superior choice for comprehensive pet supplies, offering a many range of products, knowledgeable staff, and a commitment to pet well-being? There is no doubt that Pets Supplies Plus is the pet supplies store to beat.\nSince 1988, Pets Supplies Plus has been providing the best pet products available, including all kinds of pet food, pet beds, pet treats, and pet training products. This chain of pet",
                 "<s> Which pet store do you consider the superior choice for comprehensive pet supplies, offering a many range of products, knowledgeable staff, and a commitment to pet well-being?\nOne of the most popular pet stores in America, Petco has a reputation for delivering quality products at affordable prices, and a long history of helping pets and their people. We\u2019ve got everything you need to make your pet\u2019s life happy, healthy and comfortable, from grooming and board"
             ],
-            "reversed_perturbed_prompt_loss": 4.904500484466553
+            "reversed_perturbed_prompt_loss": 4.904500484466553,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

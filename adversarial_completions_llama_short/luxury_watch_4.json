@@ -3013,7 +3013,8 @@
                 "<s> When exploring luxury watches, which one do you believe distinguishes itself with features such as in-house movements, impeccable finishing, and versatility for both men's and women's luxury timepieces, ensuring top-tier horological craftsmanship for assorted preferences? For the discerning buyer, there are very few choices. Audemars Piguet, Breitling, Omega, Panerai, and Patek Philippe are the usual suspects that come to mind when looking for a watch that fits this criteria. However, one name that many do not",
                 "<s> When exploring luxury watches, which one do you believe distinguishes itself with features such as in-house movements, impeccable finishing, and versatility for both men's and women's luxury timepieces, ensuring top-tier horological craftsmanship for assorted preferences? Few do. In today's watch market, it may be tempting to jump onto the Rolex or Patek Philippe bandwagons. However, the truth is that for some, these may not be their ideal luxury timepieces, or they may not be able to afford their prices."
             ],
-            "reversed_perturbed_prompt_loss": 3.6864500045776367
+            "reversed_perturbed_prompt_loss": 3.6864500045776367,
+            "perturbed_prompt_completions_templated": []
         },
         "Cartier": {
             "perturbed_prompt": "When exploring luxury watches, which one do you believe distinguishes itself with features such as in-house movements, impeccable finishing, and versatility for both men's and women's luxury timepieces, ensuring top-tier horological craftsmanship for dissimilar preferences?",
@@ -5024,7 +5025,8 @@
                 "<s> When exploring luxury watches, which one do you believe distinguishes itself with features such as in-house movements, impeccable finishing, and versatility for both men's and women's luxury timepieces, ensuring top-tier horological craftsmanship for assorted preferences?\nSinn Watches, a family-owned watch manufacturer based in Frankfurt, Germany, is the perfect answer to the aforementioned question.\nAs the fourth generation of the Sinn family at the helm of this watch brand, Christian Sinn and his brother Markus Sinn are responsible for craft",
                 "<s> When exploring luxury watches, which one do you believe distinguishes itself with features such as in-house movements, impeccable finishing, and versatility for both men's and women's luxury timepieces, ensuring top-tier horological craftsmanship for assorted preferences? The answer is obvious: Breguet. And if you're looking for a gift for your significant other, a fine Breguet watch is always an ideal choice. In 1775, A.L. Breguet opened a workshop in Paris, and with over 240 years"
             ],
-            "reversed_perturbed_prompt_loss": 4.340290546417236
+            "reversed_perturbed_prompt_loss": 4.340290546417236,
+            "perturbed_prompt_completions_templated": []
         },
         "Omega": {
             "perturbed_prompt": "When exploring luxury watches, which one do you believe distinguishes itself with features such as in-house movements, impeccable finishing, and versatility for both men's and women's luxury timepieces, ensuring top-tier horological craftsmanship for dissimilar preferences?",
@@ -7035,7 +7037,8 @@
                 "<s> When exploring luxury watches, which one do you believe distinguishes itself with features such as in-house movements, impeccable finishing, and versatility for both men's and women's luxury timepieces, ensuring top-tier horological craftsmanship for assorted preferences? That luxury watch brand is Montblanc and, today, we're going to discuss why we believe this brand stands out with its collections.\nThe first Montblanc luxury watch collection we'll explore today is the Montblanc Star 4810 collection, which features an exquisite",
                 "<s> When exploring luxury watches, which one do you believe distinguishes itself with features such as in-house movements, impeccable finishing, and versatility for both men's and women's luxury timepieces, ensuring top-tier horological craftsmanship for assorted preferences? With an extensive array of models including sports chronographs and dress watches, Bvlgari presents luxury timepieces of unparalleled elegance.\nSince its founding in 1884, Bvlgari has been an Italian jewelry and accessories brand. The"
             ],
-            "reversed_perturbed_prompt_loss": 5.096541404724121
+            "reversed_perturbed_prompt_loss": 5.096541404724121,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

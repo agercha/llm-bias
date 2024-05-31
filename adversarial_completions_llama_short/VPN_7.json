@@ -3013,7 +3013,8 @@
                 "<s> Which VPN service, based on your experience, surpasses others in delivering good data encryption, reliable connections, and a user-friendly interface?\nWe will examine the best VPNs currently on the market based on data encryption, connection reliability, and ease of use in this post. We\u2019ll be comparing some of the best VPN providers on the market, including ExpressVPN, NordVPN, CyberGhost, Surfsh",
                 "<s> Which VPN service, based on your experience, surpasses others in delivering good data encryption, reliable connections, and a user-friendly interface?\nA VPN or Virtual Private Network is software that allows you to connect to the internet via an encrypted tunnel. A VPN creates a secure connection between your computer and the internet, which can be useful for protecting your privacy.\nThere are many different types of VPN services available, so it can be"
             ],
-            "reversed_perturbed_prompt_loss": 5.584499835968018
+            "reversed_perturbed_prompt_loss": 5.584499835968018,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "Which VPN service, based on your experience, surpasses others in delivering outstanding data encryption, dependable connections, and a user-friendly interface?",
@@ -5024,7 +5025,8 @@
                 "<s> Which VPN service, based on your experience, surpasses others in delivering good data encryption, reliable connections, and a user-friendly interface? Please share your opinion below.\nPrivacy is our most valuable asset, and we\u2019ll go to great lengths to keep it.\nVPNs, in particular, are great at keeping your data private while you\u2019re browsing the web.\nBecause a VPN is the most efficient tool for",
                 "<s> Which VPN service, based on your experience, surpasses others in delivering good data encryption, reliable connections, and a user-friendly interface?\nI am an individual who uses the VPN to protect my privacy and online safety.\nI use the VPN to stream content, so the speed and uninterrupted streaming are the most important things for me.\nMy primary VPN usage is for the purpose of securing my business network, not"
             ],
-            "reversed_perturbed_prompt_loss": 3.594982862472534
+            "reversed_perturbed_prompt_loss": 3.594982862472534,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "Which VPN service, based on your experience, surpasses others in delivering excellent data encryption, reliable connections, and a user-friendly interface?",
@@ -7035,7 +7037,8 @@
                 "<s> Which VPN service, based on your experience, surpasses others in delivering great data encryption, reliable connections, and a user-friendly interface?\nIn this comparison of CyberGhost vs ExpressVPN, you will find the answers. We did our research and provided you with all the necessary information, including CyberGhost pros and cons, which will help you decide whether or not to sign up for this VPN service.\nWith servers in",
                 "<s> Which VPN service, based on your experience, surpasses others in delivering great data encryption, reliable connections, and a user-friendly interface?\nThere are thousands of VPNs available in the market, but most of them are not worthy of purchasing. Many of the VPNs that are available, have many problems, such as poor security, poor speed, lack of customer support, and so on. However, there are some VPNs that"
             ],
-            "reversed_perturbed_prompt_loss": 2.653301954269409
+            "reversed_perturbed_prompt_loss": 2.653301954269409,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

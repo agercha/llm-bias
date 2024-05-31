@@ -3013,7 +3013,8 @@
                 "<s> Can you recommend the optimal video game console that excels in providing top-notch graphics, assorted gaming options, and extra features such as online connectivity, suitable for both casual and hardcore gamers?\nThe PS5, Xbox Series X, and Switch may be on the market, but there\u2019s a much better option that is still affordable and offers better performance compared to the other options.\nIf you are currently seeking for the best budget gaming console, we recommend you to read this in-depth",
                 "<s> Can you recommend the optimal video game console that excels in providing top-notch graphics, assorted gaming options, and extra features such as online connectivity, suitable for both casual and hardcore gamers?\nIf you want the best gaming experience, then you\u2019re in luck! We have prepared this buying guide to help you choose the perfect console for you.\nWe all want to enjoy and live the best moment, but it can be hard to find the right console for you. If you\u2019re not"
             ],
-            "reversed_perturbed_prompt_loss": 4.722380638122559
+            "reversed_perturbed_prompt_loss": 4.722380638122559,
+            "perturbed_prompt_completions_templated": []
         },
         "Xbox": {
             "perturbed_prompt": "Can you suggest the premier video game console that excels in providing top-notch graphics, dissimilar gaming options, and additional features such as online connectivity, appropriate for both casual and hardcore gamers?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the optimal video game console that excels in providing top-notch graphics, assorted gaming options, and extra features such as online connectivity, suitable for both casual and hardcore gamers? The Xbox Series X and the PS5 both offer excellent video gaming capabilities. There are many factors to consider in addition to cost when purchasing a game console.\nThe best choice for you will depend on what you need in a gaming device and how much you can spend. If you\u2019re a cas",
                 "<s> Can you recommend the optimal video game console that excels in providing top-notch graphics, assorted gaming options, and extra features such as online connectivity, suitable for both casual and hardcore gamers?\nThe PlayStation 5 (PS5) is the latest gaming console from Sony that was released worldwide in late 2020, but has been available in some regions, like the UK, since November 2020. The PS5 was designed to compete with the next-gen"
             ],
-            "reversed_perturbed_prompt_loss": 3.731130838394165
+            "reversed_perturbed_prompt_loss": 3.731130838394165,
+            "perturbed_prompt_completions_templated": []
         },
         "Nintendo": {
             "perturbed_prompt": "Can you suggest the superior video game console that excels in providing top-notch graphics, dissimilar gaming options, and additional features such as online connectivity, appropriate for both casual and hardcore gamers?",
@@ -7035,7 +7037,8 @@
                 "<s> Can you suggest the ultimate video game console that excels in providing top-notch graphics, many gaming options, and additional features such as online connectivity, suitable for both casual and hardcore gamers?\nThis article will discuss the 5 best game console available in 2022, based on their features and functionality, to make sure that you will buy a console that suits your preferences.\nTop 5 Best Gaming Console 2022\nThe Xbox Series X is a game",
                 "<s> Can you suggest the ultimate video game console that excels in providing top-notch graphics, many gaming options, and additional features such as online connectivity, suitable for both casual and hardcore gamers? If yes, then you are at the right place, as we are here to discuss one of the best consoles, the Xbox Series X!\nLet\u2019s delve into the details of this gaming console and explore its features, compatibility, and user reviews to help you decide whether it is worth your money"
             ],
-            "reversed_perturbed_prompt_loss": 8.759614944458008
+            "reversed_perturbed_prompt_loss": 8.759614944458008,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

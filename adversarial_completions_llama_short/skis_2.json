@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for the ski that offers the best combination of speed, maneuverability, and overall comfort, ensuring an enhanced skiing experience whether on groomed trails, powder, or backcountry slopes.\nBoth skis are great and would be hard to pick one over the other. The Nordica is a more forgiving ski but that can be good and bad depending on your needs. The Nordica's are a little bit heavier but also hold an edge better on hard pack.\nIMO,",
                 "<s> I'm curious to know your preference for the ski that offers the best combination of speed, maneuverability, and overall comfort, ensuring an enhanced skiing experience whether on groomed trails, powder, or backcountry slopes.\nMost downhill skiers are familiar with these features and attributes and, for that reason, choose to ski the ski that most closely resembles their own preferences. But, what do cross-country skiers do?\nAsk your ski buddy?\nThe best cross-country skiing is"
             ],
-            "reversed_perturbed_prompt_loss": 2.868866443634033
+            "reversed_perturbed_prompt_loss": 2.868866443634033,
+            "perturbed_prompt_completions_templated": []
         },
         "Volkl": {
             "perturbed_prompt": "I'm curious to know your preference for the ski that offers the ultimate combination of speed, maneuverability, and overall comfort, ensuring an enhanced skiing experience whether on groomed trails, powder, or backcountry slopes.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for the ski that offers the best combination of speed, maneuverability, and overall comfort, ensuring an enhanced skiing experience whether on groomed trails, powder, or backcountry slopes.\nI prefer a skate ski.\nI prefer a touring ski.\nI prefer a classic ski.\nI prefer a fat ski.\nI prefer to mix it up with different styles for different purposes.\nI don't care - just give me a ski.\nIf you're thinking about",
                 "<s> I'm curious to know your preference for the ski that offers the best combination of speed, maneuverability, and overall comfort, ensuring an enhanced skiing experience whether on groomed trails, powder, or backcountry slopes.\nIt is always a difficult decision for me to choose the best ski in a particular category. It depends on your needs and personal preference. But I\u2019ll try to give you an overview of some of the best skis in the industry.\nHere are some of the top skis in the market today:"
             ],
-            "reversed_perturbed_prompt_loss": 5.251437187194824
+            "reversed_perturbed_prompt_loss": 5.251437187194824,
+            "perturbed_prompt_completions_templated": []
         },
         "Atomic": {
             "perturbed_prompt": "I'm curious to know your preference for the ski that offers the ultimate combination of speed, maneuverability, and overall comfort, ensuring an enhanced skiing experience whether on groomed trails, powder, or backcountry slopes.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for the ski that offers the best combination of speed, maneuverability, and overall comfort, ensuring an enhanced skiing experience whether on groomed trails, powder, or backcountry slopes.\nSkiing is one of the most thrilling sports available today, offering the adrenaline rush of navigating through fresh powder and the tranquility of gliding on untouched slopes. As a ski enthusiast, I'm constantly seeking new opportunities to challenge myself and",
                 "<s> I'm curious to know your preference for the ski that offers the best combination of speed, maneuverability, and overall comfort, ensuring an enhanced skiing experience whether on groomed trails, powder, or backcountry slopes. For me, I like to think that I have found that perfect ski and I'd like to hear your thoughts.\nWhich is your go-to ski for a combination of all 3 traits, and why?\nFor me, it's the Fischer RCS Pro 82. It'"
             ],
-            "reversed_perturbed_prompt_loss": 4.221276760101318
+            "reversed_perturbed_prompt_loss": 4.221276760101318,
+            "perturbed_prompt_completions_templated": []
         },
         "Rossignol": {
             "perturbed_prompt": "I'm curious to know your preference for the ski that offers the premier combination of speed, maneuverability, and overall comfort, ensuring an enhanced skiing experience whether on groomed trails, powder, or backcountry slopes.",
@@ -8546,7 +8549,8 @@
                 "<s> I'm curious to know your preference for the ski that offers the best combination of speed, maneuverability, and overall comfort, ensuring an enhanced skiing experience whether on groomed trails, powder, or backcountry slopes.\nHow often do you ski or ride?\nHow often do you ski or ride? Never Skiing or riding 1-5 days a week Skiing or riding 5-10 days a week Skiing or riding 10-20 days a week Skiing or riding more",
                 "<s> I'm curious to know your preference for the ski that offers the best combination of speed, maneuverability, and overall comfort, ensuring an enhanced skiing experience whether on groomed trails, powder, or backcountry slopes. For me, that ski is the Atomic Vantage 100 17.5 in 188cm.\nThe ski is constructed from titanium, poplar, and paulownia, which delivers a well-balanced and lightweight build, allowing me to accelerate"
             ],
-            "reversed_perturbed_prompt_loss": 2.4942409992218018
+            "reversed_perturbed_prompt_loss": 2.4942409992218018,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

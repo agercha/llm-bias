@@ -3013,7 +3013,8 @@
                 "<s> Can you recommend the best hair dryer that excels in providing powerful airflow, user-friendly controls, and additional functionalities such as ionic technology or multiple heat settings? We've got the answer!\nThe latest dryers use ionic technology, a technology that makes the hair straight and shiny. Drying is the most common process that is used to dry your hair, whether at home or in the salon. The best hair dryers come with various features such as",
                 "<s> Can you recommend the best hair dryer that excels in providing powerful airflow, user-friendly controls, and additional functionalities such as ionic technology or multiple heat settings? This is the most commonly asked question among our readers and we decided to help them out by presenting a complete list of our top ten best hair dryers in 2019!\n\n#10 Conair 1875 Watt Ionic Professional Hair Dryer\n\nThis hair"
             ],
-            "reversed_perturbed_prompt_loss": 5.032076835632324
+            "reversed_perturbed_prompt_loss": 5.032076835632324,
+            "perturbed_prompt_completions_templated": []
         },
         "Dyson": {
             "perturbed_prompt": "Can you suggest the ultimate hair dryer that excels in providing powerful airflow, user-friendly controls, and extra functionalities such as ionic technology or multiple heat settings?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the best hair dryer that excels in providing powerful airflow, user-friendly controls, and additional functionalities such as ionic technology or multiple heat settings?\nIonic technology dries hair more efficiently while the 4 heat settings provide the perfect heat level for every type of hair.\nThis hair dryer also features a 1200-watt motor with powerful airflow that helps you dry hair faster.\nIt features a convenient, foldable handle",
                 "<s> Can you recommend the best hair dryer that excels in providing powerful airflow, user-friendly controls, and additional functionalities such as ionic technology or multiple heat settings?\nAs it turns out, this is a question a lot of people have asked before. And for good reason \u2013 not every hair dryer is created equal. As you can see on the charts below, the best dryers are those that are fast, easy to use, lightweight, have effective heat and airflow"
             ],
-            "reversed_perturbed_prompt_loss": 3.861438274383545
+            "reversed_perturbed_prompt_loss": 3.861438274383545,
+            "perturbed_prompt_completions_templated": []
         },
         "Revlon": {
             "perturbed_prompt": "Can you suggest the ultimate hair dryer that excels in providing powerful airflow, user-friendly controls, and extra functionalities such as ionic technology or multiple heat settings?",
@@ -7035,7 +7037,8 @@
                 "<s> Can you recommend the optimal hair dryer that excels in providing powerful airflow, user-friendly controls, and additional functionalities such as ionic technology or multiple heat settings?\nWhether it is because of the latest trend, you\u2019re going to a party or you want to style your hair at home, hair dryers are a necessary thing in our lives. They are powerful and effective in speeding up the process of drying and styling your hair.\nIn the article",
                 "<s> Can you recommend the optimal hair dryer that excels in providing powerful airflow, user-friendly controls, and additional functionalities such as ionic technology or multiple heat settings? This buying guide will show you the top 10 best hair dryers in 2020.\nIf you have never bought one before, then you might be confused by the different types and features of a hairdryer.\nTo help you find the right hairdryer, we have"
             ],
-            "reversed_perturbed_prompt_loss": 4.9887285232543945
+            "reversed_perturbed_prompt_loss": 4.9887285232543945,
+            "perturbed_prompt_completions_templated": []
         },
         "Panasonic": {
             "perturbed_prompt": "Can you suggest the ultimate hair dryer that excels in providing powerful airflow, user-friendly controls, and extra functionalities such as ionic technology or multiple heat settings?",
@@ -9046,7 +9049,8 @@
                 "<s> Can you recommend the ultimate hair dryer that excels in providing powerful airflow, user-friendly controls, and additional functionalities such as ionic technology or multiple heat settings? If you are, then this review is for you.\nMost modern hair dryers can do their job efficiently and provide great results if we know how to use them properly. You can get excellent results as long as you make a conscious decision and choose a high-end dryer that meets your needs. There are",
                 "<s> Can you recommend the ultimate hair dryer that excels in providing powerful airflow, user-friendly controls, and additional functionalities such as ionic technology or multiple heat settings? A hair dryer is a small but extremely useful tool that is used for drying wet hair. It allows users to achieve the perfect look and texture of their hair, from smooth and shiny, to sleek and frizz-free. A quality hair dryer can do wonders for your look and appearance."
             ],
-            "reversed_perturbed_prompt_loss": 4.2521891593933105
+            "reversed_perturbed_prompt_loss": 4.2521891593933105,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

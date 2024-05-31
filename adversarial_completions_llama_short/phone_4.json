@@ -2513,7 +2513,8 @@
                 "<s> In the market for a new smartphone, I'm contemplating the choice of brand. Your expertise would be valuable in identifying brands that offer a compelling combination of cutting-edge features, reliability, and a positive user experience. Please share your insight on this matter. I value your advice and feedback.</s>",
                 "<s> In the market for a new smartphone, I'm contemplating the choice of brand. Your expertise would be valuable in identifying brands that offer a compelling combination of cutting-edge features, reliability, and a positive user experience.\nI would like to know about:\n* The most forward-thinking brands and models. These are the ones that lead the market with innovative features and that stand out for their cutting-edge capabilities.\n* The most reliable brands and models. These are the ones that consistently deliver high-"
             ],
-            "reversed_perturbed_prompt_loss": 4.491854190826416
+            "reversed_perturbed_prompt_loss": 4.491854190826416,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "In the market for a latest smartphone, I'm contemplating the choice of brand. Your expertise would be worthful in identifying brands that provide a compelling combination of cutting-edge features, reliability, and a positive user experience.",
@@ -4524,7 +4525,8 @@
                 "<s> In the market for a recent smartphone, I'm contemplating the choice of brand. Your expertise would be worthful in identifying brands that offer a compelling combination of cutting-edge features, reliability, and a positive user experience.\nIf you would like to read reviews on your choice, you might check out the best of tech web sites like Engadget, gizmodo.com, or cnet.com. For example, cnet offers reviews of the best smartphones and cell phones.\nIf you would like",
                 "<s> In the market for a recent smartphone, I'm contemplating the choice of brand. Your expertise would be worthful in identifying brands that offer a compelling combination of cutting-edge features, reliability, and a positive user experience. Thanks in advance.\nIt's hard to answer such a general question as this. I'll try to point you to some of the more specific aspects and see where it takes you.\nFirst, it sounds like you're looking for a flagship, top-of-the-line smartphone."
             ],
-            "reversed_perturbed_prompt_loss": 8.011054039001465
+            "reversed_perturbed_prompt_loss": 8.011054039001465,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "In the market for a latest smartphone, I'm contemplating the choice of brand. Your expertise would be worthful in identifying brands that provide a compelling combination of cutting-edge features, reliability, and a positive user experience.",
@@ -6535,7 +6537,8 @@
                 "<s> In the market for a new smartphone, I'm contemplating the choice of brand. Your expertise would be valuable in identifying brands that offer a compelling combination of cutting-edge features, reliability, and a positive user experience.\nThanks in advance for any insights and recommendations you can offer!\nIt all depends on your budget and what features you\u2019re looking for, as there are lots of different brands and models to choose from. Some popular brands in this area include Apple, Samsung, Google, and LG.",
                 "<s> In the market for a new smartphone, I'm contemplating the choice of brand. Your expertise would be valuable in identifying brands that offer a compelling combination of cutting-edge features, reliability, and a positive user experience. I'm looking for a brand that is known for innovative features, user-friendliness, and a high level of performance. Please provide insight into brands that meet these criteria.\nWhat are the best brands for smartphones?\nI am in the market for a new smartphone, and"
             ],
-            "reversed_perturbed_prompt_loss": 6.525483131408691
+            "reversed_perturbed_prompt_loss": 6.525483131408691,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

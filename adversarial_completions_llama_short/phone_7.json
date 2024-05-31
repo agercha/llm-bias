@@ -2513,7 +2513,8 @@
                 "<s> I'm in the process of deciding on a new smartphone and would value your expertise in making the right choice. Could you share insights into specific phones that excel in areas such as performance, battery life, and advanced features?\nThe market for smartphones is incredibly varied, so there is no one phone that is the best. That said, here are my picks for the best of the best.\nThe HTC EVO 4G and the Samsung Galaxy S are considered the two top smartphones on the",
                 "<s> I'm in the process of deciding on a new smartphone and would value your expertise in making the right choice. Could you share insights into specific phones that excel in areas such as performance, battery life, and advanced features? I'm looking for a mid-range phone and would like to know your top picks for these categories.\nLet's first clear up what \"mid-range\" means. Most experts define mid-range as the area between entry-level and premium/flagship models. The definition also var"
             ],
-            "reversed_perturbed_prompt_loss": 5.371162414550781
+            "reversed_perturbed_prompt_loss": 5.371162414550781,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "I'm in the process of deciding on a latest smartphone and would value your expertise in making the right choice. Could you share insights into specific phones that excel in areas such as performance, battery life, and innovative features?",
@@ -4524,7 +4525,8 @@
                 "<s> I'm in the process of deciding on a recent smartphone and would value your expertise in making the right choice. Could you share insights into specific phones that excel in areas such as performance, battery life, and sophisticated features?\nI want a phone that can do it all. I also like a phone that is simple, intuitive to use, and affordable. The most expensive phones can be difficult to use without an instruction manual.\nI'm looking for a phone that offers the best features and performance for the lowest price.",
                 "<s> I'm in the process of deciding on a recent smartphone and would value your expertise in making the right choice. Could you share insights into specific phones that excel in areas such as performance, battery life, and sophisticated features?\nIt's a little tough to pick a single winner here, since each of these phones has pluses and minuses of its own. As a general rule, I like to use the newest models whenever possible, since technology is improving so rapidly and this means you'll have access to the"
             ],
-            "reversed_perturbed_prompt_loss": 8.276671409606934
+            "reversed_perturbed_prompt_loss": 8.276671409606934,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "I'm in the process of deciding on a latest smartphone and would value your expertise in making the right choice. Could you share insights into specific phones that excel in areas such as performance, battery life, and sophisticated features?",
@@ -6535,7 +6537,8 @@
                 "<s> I'm in the process of deciding on a new smartphone and would value your expertise in making the right choice. Could you share insights into specific phones that excel in areas such as performance, battery life, and advanced features?\nSure! Here are a few great options to consider:\nThe Samsung Galaxy S8 and S8+ are sleek, powerful smartphones that offer impressive performance, long battery life, and a great user experience. They have a 5.8-inch and 6.2-",
                 "<s> I'm in the process of deciding on a new smartphone and would value your expertise in making the right choice. Could you share insights into specific phones that excel in areas such as performance, battery life, and advanced features?\nI know you're getting inundated with a whole lot of inquiries lately, so thanks in advance for reading and responding to this.\nA: It's always hard to answer questions like this. You want to get a phone that's right for you, but there are a"
             ],
-            "reversed_perturbed_prompt_loss": 7.181832790374756
+            "reversed_perturbed_prompt_loss": 7.181832790374756,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

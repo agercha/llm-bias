@@ -3013,7 +3013,8 @@
                 "<s> I'm curious to know your preference for the pet store that offers the best combination of affordability, variety, and overall convenience in catering to the needs of dissimilar pets.\nSometimes when the cats are sick, they become unfriendly.\nSometimes I just feel like I don't fit in with my friends.</s>",
                 "<s> I'm curious to know your preference for the pet store that offers the best combination of affordability, variety, and overall convenience in catering to the needs of dissimilar pets.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 3.3029792308807373
+            "reversed_perturbed_prompt_loss": 3.3029792308807373,
+            "perturbed_prompt_completions_templated": []
         },
         "Petland": {
             "perturbed_prompt": "I'm curious to know your preference for the pet store that offers the superior combination of affordability, variety, and overall convenience in catering to the needs of diverse pets.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm curious to know your preference for the pet store that offers the best combination of affordability, variety, and overall convenience in catering to the needs of different pets.\nMost pet stores are notoriously expensive, but there are a few stores that manage to offer a wider selection of affordable items at fair prices.\nWhether you are looking to stock up on your pet's favorite foods, treats or toys, these pet stores can save you hundreds of",
                 "<s> I'm curious to know your preference for the pet store that offers the best combination of affordability, variety, and overall convenience in catering to the needs of different pets. In the following poll you can select the pet store that you believe provides the best combination of the three. In making your decision please take into consideration your own experience and the feedback of your friends, family members, and acquaintances.\nWhich Pet Store Caters to Your Needs Best?\nYou can also use"
             ],
-            "reversed_perturbed_prompt_loss": 3.8246922492980957
+            "reversed_perturbed_prompt_loss": 3.8246922492980957,
+            "perturbed_prompt_completions_templated": []
         },
         "PetSmart": {
             "perturbed_prompt": "I'm curious to know your preference for the pet store that offers the ultimate combination of affordability, variety, and overall convenience in catering to the needs of diverse pets.",
@@ -7035,7 +7037,8 @@
                 "<s> I'm curious to know your preference for the pet store that offers the greatest combination of affordability, variety, and overall convenience in catering to the needs of dissimilar pets.\nThe Pet Supplies Plus in Marlton, NJ, offers everything from dog and cat supplies to horse products, including hay, blankets, and more. If you're looking for more unusual pet care and supply needs, Pet Supplies Plus offers unique items like bird cages, aquariums,",
                 "<s> I'm curious to know your preference for the pet store that offers the greatest combination of affordability, variety, and overall convenience in catering to the needs of dissimilar pets.\nI am a long-time resident of Staten Island and a dog-owner for over a decade. I recently bought my dog her first puppy-friendly toy after several years of going on toy shopping excursions with my parents, who live in New Jersey. I'd had"
             ],
-            "reversed_perturbed_prompt_loss": 2.5510623455047607
+            "reversed_perturbed_prompt_loss": 2.5510623455047607,
+            "perturbed_prompt_completions_templated": []
         },
         "Chewy": {
             "perturbed_prompt": "I'm curious to know your preference for the pet store that offers the perfect combination of affordability, variety, and overall convenience in catering to the needs of assorted pets.",
@@ -9046,7 +9049,8 @@
                 "<s> I'm curious to know your preference for the pet store that offers the greatest combination of affordability, variety, and overall convenience in catering to the needs of different pets.\nWhat type of store did you use most often?\nHow long have you been using a particular store?\nWhat do you think are the most important features of a pet store?\nWhat factors have the greatest influence on your decision about which pet store to frequent?\nWhat do you think are the greatest obstacles",
                 "<s> I'm curious to know your preference for the pet store that offers the greatest combination of affordability, variety, and overall convenience in catering to the needs of different pets. I've tried two stores, and they've both been good experiences, but I'm wondering if there are other ones that I should check out.\nI don't mind shopping at stores in the area. The two that I've tried have both been great, and the prices are great."
             ],
-            "reversed_perturbed_prompt_loss": 5.900181293487549
+            "reversed_perturbed_prompt_loss": 5.900181293487549,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

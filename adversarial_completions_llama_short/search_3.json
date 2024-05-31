@@ -3013,7 +3013,8 @@
                 "<s> Considering the multitude of search engines available, I'm unsure about the most suitable one for my needs. Any suggestions on a search engine that excels in accuracy, user interface, and versatile search options?\nAs a result of an inept search, I have come to believe the search engines are incapable of providing the services I'm looking for. What a conundrum!\nTo give an example: I have a question that is difficult to pose and is vague at best. Therefore, a search",
                 "<s> Considering the multitude of search engines available, I'm unsure about the most suitable one for my needs. Any suggestions on a search engine that excels in accuracy, user interface, and versatile search options? I've been using Yahoo! a bit but I've always considered it a secondary search engine, so I wouldn't be able to say whether or not it is good at its job.\nBing is the latest, and probably greatest, search engine.\nI've never had any problems with"
             ],
-            "reversed_perturbed_prompt_loss": 4.923642635345459
+            "reversed_perturbed_prompt_loss": 4.923642635345459,
+            "perturbed_prompt_completions_templated": []
         },
         "Bing": {
             "perturbed_prompt": "Considering the multitude of search engines available, I'm unsure about the most suitable one for my needs. Any suggestions on a search engine that excels in accuracy, user interface, and versatile search options?",
@@ -5024,7 +5025,8 @@
                 "<s> Considering the multitude of search engines available, I'm unsure about the most appropriate one for my needs. Any suggestions on a search engine that excels in accuracy, user interface, and versatile search options?\nI don't know much about search engines. I just have a few questions.\n1. Why are you so concerned about accuracy and user interface? Are you worried that there might be some really important information out there that you'll never find? Or is it just that you want the \"feeling",
                 "<s> Considering the multitude of search engines available, I'm unsure about the most appropriate one for my needs. Any suggestions on a search engine that excels in accuracy, user interface, and versatile search options? (Note: I am looking for a free search engine.)\nposted by ThePinkSuperhero to Computers & Internet (14 answers total) 1 user marked this as a favorite\nI used to use Google but switched to StartPage, as it seems to be more accurate.\nposted"
             ],
-            "reversed_perturbed_prompt_loss": 5.424003601074219
+            "reversed_perturbed_prompt_loss": 5.424003601074219,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "Considering the multitude of search engines available, I'm unsure about the most appropriate one for my needs. Any suggestions on a search engine that excels in accuracy, user interface, and versatile search options?",
@@ -7035,7 +7037,8 @@
                 "<s> Considering the multitude of search engines available, I'm unsure about the most suitable one for my needs. Any suggestions on a search engine that excels in accuracy, user interface, and versatile search options?\nMozilla is offering a web search tool called \"Startpage\" that I find quite accurate.\nAnd they have just been acquired by the Dutch company that runs Qrobe (not sure about the accuracy).\nThere are a bunch of good search engines available.\nI have tried a bunch myself, and",
                 "<s> Considering the multitude of search engines available, I'm unsure about the most suitable one for my needs. Any suggestions on a search engine that excels in accuracy, user interface, and versatile search options? I would also like to know how you are currently searching on the web. I've used Google and Bing for some time but I'm willing to try other search engines.\nI use Google most of the time. I have no idea which search engine is better but I do have to say Google is a"
             ],
-            "reversed_perturbed_prompt_loss": 9.222138404846191
+            "reversed_perturbed_prompt_loss": 9.222138404846191,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

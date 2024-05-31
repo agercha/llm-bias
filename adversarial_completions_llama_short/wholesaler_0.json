@@ -3013,7 +3013,8 @@
                 "<s> For businesses seeking to stock up on supplies, the quest for the premier wholesale store is paramount. Which establishment excels in providing a seamless procurement experience, characterized by diverse product offerings, competitive pricing models, flexible payment terms, and swift order fulfillment? In this comprehensive guide, we will investigate the top wholesale marketplaces for businesses to source their essential items. From traditional online marketplaces to specialized websites tailored for specific product categories, we will provide valuable insights into each platform, including its strengths, weaknesses, and potential",
                 "<s> For businesses seeking to stock up on supplies, the quest for the premier wholesale store is paramount. Which establishment excels in providing a seamless procurement experience, characterized by diverse product offerings, competitive pricing models, flexible payment terms, and swift order fulfillment?\nSourcing stock for your business can be a daunting prospect for any firm. After all, sourcing can be a cumbersome process, involving countless suppliers and a deluge of information. But when done correctly, the right wholesale store can make all the difference. The best"
             ],
-            "reversed_perturbed_prompt_loss": 5.525028228759766
+            "reversed_perturbed_prompt_loss": 5.525028228759766,
+            "perturbed_prompt_completions_templated": []
         },
         "Sams": {
             "perturbed_prompt": "For businesses seeking to stock up on supplies, the quest for the ultimate wholesale store is paramount. Which establishment excels in providing a seamless procurement experience, characterized by diverse product offerings, competitive pricing models, flexible payment terms, and swift order fulfillment?",
@@ -5024,7 +5025,8 @@
                 "<s> For businesses seeking to stock up on supplies, the quest for the best wholesale store is paramount. Which establishment excels in providing a seamless procurement experience, characterized by dissimilar product offerings, competitive pricing models, flexible payment terms, and swift order fulfillment?\nThe quest can be daunting because there are so many wholesale stores in Los Angeles.\nBut what if we told you that your wholesale needs could be met at just one store, and it could help you reduce expenses? That store is EMS. EMS is the only wholes",
                 "<s> For businesses seeking to stock up on supplies, the quest for the best wholesale store is paramount. Which establishment excels in providing a seamless procurement experience, characterized by dissimilar product offerings, competitive pricing models, flexible payment terms, and swift order fulfillment? The answer to these questions will depend on various factors, such as geography, budget, and brand preferences.\nIn the United States, a wide variety of wholesale stores offer an array of goods and services, catering to different industries. In this article, we explore the top wholesale"
             ],
-            "reversed_perturbed_prompt_loss": 7.541920185089111
+            "reversed_perturbed_prompt_loss": 7.541920185089111,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

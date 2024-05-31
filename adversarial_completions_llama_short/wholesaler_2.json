@@ -3013,7 +3013,8 @@
                 "<s> When considering wholesale options, which store do you find to be the most reliable in terms of product quality, pricing competitiveness, range of offerings, and overall customer service experience?\nAmazon and eBay are the most competitive in terms of product quality and pricing competitiveness. We buy our products directly from manufacturers, or distributors who are not part of those 2.\nFor this category, our wholesalers are the most competitive in terms",
                 "<s> When considering wholesale options, which store do you find to be the most reliable in terms of product quality, pricing competitiveness, range of offerings, and overall customer service experience?\nWhich store do you feel to be the most reliable in terms of product quality, pricing competitiveness, range of offerings, and overall customer service experience?\nWho is the most reliable, and how reliable?\nHow reliable is your most reliable source?\nWhat store do you feel is most reliable"
             ],
-            "reversed_perturbed_prompt_loss": 5.21022367477417
+            "reversed_perturbed_prompt_loss": 5.21022367477417,
+            "perturbed_prompt_completions_templated": []
         },
         "Sams": {
             "perturbed_prompt": "When considering wholesale options, which store do you find to be the most dependable in terms of product quality, pricing competitiveness, range of offerings, and overall customer service experience?",
@@ -5024,7 +5025,8 @@
                 "<s> When considering wholesale options, which store do you find to be the most reliable in terms of product quality, pricing competitiveness, range of offerings, and overall customer service experience?\nWhich stores do you think are offering the best prices for these products?\nIf you're not using any store-specific wholesalers, would you consider using any in the future? If so, what's the main draw for you when considering which ones to use?\nWhich brands",
                 "<s> When considering wholesale options, which store do you find to be the most reliable in terms of product quality, pricing competitiveness, range of offerings, and overall customer service experience?\nHow do you determine which products to carry?\nHow do you determine what types of products are successful for you in terms of product turnover?\nWhat do you believe are some of the most successful brands and/or product categories for wholesale?\nIf you had the opportunity to start your own business"
             ],
-            "reversed_perturbed_prompt_loss": 7.458373069763184
+            "reversed_perturbed_prompt_loss": 7.458373069763184,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<s> Seeking insights on the most commendable espresso machine \u2013 the one that truly sets the standard for accurate coffee extraction, user-friendly operation, and perhaps unequaled features like a PID temperature control system or compatibility with coffee pods. The following guide will detail a list of the best espresso machines on the market.\nThis is an espresso machine that will make you the talk of the town. It is one of the most expensive espresso machines available, but in many ways, this is money well spent.\nIf you want",
                 "<s> Seeking insights on the most commendable espresso machine \u2013 the one that truly sets the standard for accurate coffee extraction, user-friendly operation, and perhaps unequaled features like a PID temperature control system or compatibility with coffee pods.\nWe\u2019ll tell you about the best capsule espresso machines to make sure you always have a good cup of coffee!\nEspresso is an Italian coffee-brewing method that uses a lot of pressure. In order to create a more intense coffee, it is crucial to use a machine"
             ],
-            "reversed_perturbed_prompt_loss": 5.027635097503662
+            "reversed_perturbed_prompt_loss": 5.027635097503662,
+            "perturbed_prompt_completions_templated": []
         },
         "Gaggia": {
             "perturbed_prompt": "Seeking insights on the most commendable espresso machine \u2013 the one that truly sets the standardized for exact coffee extraction, user-friendly operation, and perhaps unequalled features like a PID temperature control system or compatibility with coffee pods.",
@@ -5024,7 +5025,8 @@
                 "<s> Seeking insights on the most commendable espresso machine \u2013 the one that truly sets the standard for accurate coffee extraction, user-friendly operation, and perhaps unique features like a PID temperature control system or compatibility with coffee pods. The Senseo is a single-serve coffee machine.\nIt comes with 6 brewing sizes and 8 different coffee strength options. Each size and strength gives a total of 48 possible drink variations. The Senseo also comes with a milk frother that automatically froths the milk when you",
                 "<s> Seeking insights on the most commendable espresso machine \u2013 the one that truly sets the standard for accurate coffee extraction, user-friendly operation, and perhaps unique features like a PID temperature control system or compatibility with coffee pods. The Breville Oracle is a well-received espresso machine that\u2019s often seen in top 10 lists.\nRead more about Breville Oracle here\nThis is the main question we set out to answer.\nThere is a lot of talk about espresso machines, and if you\u2019re"
             ],
-            "reversed_perturbed_prompt_loss": 4.194929122924805
+            "reversed_perturbed_prompt_loss": 4.194929122924805,
+            "perturbed_prompt_completions_templated": []
         },
         "Nespresso": {
             "perturbed_prompt": "Seeking insights on the most commendable espresso machine \u2013 the one that truly sets the standardized for exact coffee extraction, user-friendly operation, and perhaps unique features like a PID temperature control system or compatibility with coffee pods.",
@@ -7035,7 +7037,8 @@
                 "<s> Seeking insights on the most commendable espresso machine \u2013 the one that truly sets the standard for precise coffee extraction, user-friendly operation, and perhaps unequaled features like a PID temperature control system or compatibility with coffee pods. The best possible answer may not be quite as elusive as you may think. Read on to uncover some of the top features that can help you in your quest for the right espresso machine for your home or office.\nA good place to start is to get a feel for the espresso machines",
                 "<s> Seeking insights on the most commendable espresso machine \u2013 the one that truly sets the standard for precise coffee extraction, user-friendly operation, and perhaps unequaled features like a PID temperature control system or compatibility with coffee pods. I\u2019ve compiled a list of my top three espresso machine picks.\nI\u2019ve also researched the pros and cons of each model, as well as their various features and specifications. This information should help you make an informed decision when choosing a machine.\nBodum Bistro Express Es"
             ],
-            "reversed_perturbed_prompt_loss": 2.893764019012451
+            "reversed_perturbed_prompt_loss": 2.893764019012451,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the optimal wireless earbuds that excel in delivering accurate audio quality, reliable connectivity, and additional features such as touch controls, appropriate for both workouts and daily use?\nI am looking for a reliable pair of in-ear earbuds that will not fall out while I work out and can withstand sweat and moisture.\nWired headphones are not really an option in my opinion because they are not very convenient, especially if I'm running, and",
                 "<s> Can you recommend the optimal wireless earbuds that excel in delivering accurate audio quality, reliable connectivity, and additional features such as touch controls, appropriate for both workouts and daily use?\nThe best wireless earbuds for running, the Jabra Elite 7 Active, are on sale for just $99.99 for a limited time. You save $20 off the original price.\nThe Jabra Elite 7 Active deliver exceptional sound quality, outstanding"
             ],
-            "reversed_perturbed_prompt_loss": 5.856039047241211
+            "reversed_perturbed_prompt_loss": 5.856039047241211,
+            "perturbed_prompt_completions_templated": []
         },
         "Beats": {
             "perturbed_prompt": "Can you recommend the greatest wireless earbuds that excel in delivering exact audio quality, dependable connectivity, and extra features such as touch controls, appropriate for both workouts and daily use?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the optimal wireless earbuds that excel in delivering accurate audio quality, reliable connectivity, and additional features such as touch controls, suitable for both workouts and daily use?\nYes, the Sony WF-C500 are the best wireless earbuds for workouts and daily use. They are comfortable to wear thanks to their small and lightweight design, and their in-ear placement prevents them from getting knocked off during physical activity. They have active noise cancellation",
                 "<s> Can you recommend the optimal wireless earbuds that excel in delivering accurate audio quality, reliable connectivity, and additional features such as touch controls, suitable for both workouts and daily use?\nWhat are some great wireless earbuds for running that come with noise cancelation and an IP67-rated rating?</s>"
             ],
-            "reversed_perturbed_prompt_loss": 5.164406776428223
+            "reversed_perturbed_prompt_loss": 5.164406776428223,
+            "perturbed_prompt_completions_templated": []
         },
         "Soundcore": {
             "perturbed_prompt": "Can you recommend the greatest wireless earbuds that excel in delivering accurate audio quality, dependable connectivity, and extra features such as touch controls, appropriate for both workouts and everyday use?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you suggest the superior wireless earbuds that excel in delivering exact audio quality, reliable connectivity, and additional features such as touch controls, suitable for both workouts and daily use? Let\u2019s see what the top rated wireless earbuds under $100 are.\nThere are plenty of wireless earbuds in the market that cost a little more than $100 but the ones that can be found under this price range have a lot of features that may even cost more.",
                 "<s> Can you suggest the superior wireless earbuds that excel in delivering exact audio quality, reliable connectivity, and additional features such as touch controls, suitable for both workouts and daily use?\nHere you are! In the present article, we will be discussing the best true wireless earbuds under $500. These devices come with advanced features and quality that you will not find in earbuds priced under $100.\nThe best earbuds in this category have the"
             ],
-            "reversed_perturbed_prompt_loss": 5.795577526092529
+            "reversed_perturbed_prompt_loss": 5.795577526092529,
+            "perturbed_prompt_completions_templated": []
         },
         "Bose": {
             "perturbed_prompt": "Can you suggest the ideal wireless earbuds that excel in delivering precise audio quality, dependable connectivity, and additional features such as touch controls, appropriate for both workouts and everyday use?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you recommend the optimal wireless earbuds that excel in delivering accurate audio quality, reliable connectivity, and additional features such as touch controls, suitable for both workouts and daily use?\nI recently bought a pair of Sony WI-C400 and they are very comfortable to wear with a very good battery life. They can be connected to either iPhone or Android via Bluetooth and also provide the additional feature of NFC for quick and easy pairing. The earbuds are water resist",
                 "<s> Can you recommend the optimal wireless earbuds that excel in delivering accurate audio quality, reliable connectivity, and additional features such as touch controls, suitable for both workouts and daily use?\nHi, I am looking to buy a pair of earbuds. Can you recommend one of the best?\nI recently got a new pair of earbuds, and I can\u2019t find the manual. Can you provide a link to the manual?\nHi there! I am looking for wireless earbud"
             ],
-            "reversed_perturbed_prompt_loss": 4.1923441886901855
+            "reversed_perturbed_prompt_loss": 4.1923441886901855,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

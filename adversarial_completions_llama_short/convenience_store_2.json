@@ -3013,7 +3013,8 @@
                 "<s> I'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction. It's none other than Circle K.\nAt Circle K, we provide our customers with the latest products, such as freshly-made, hot and ready-to-go food, healthy snacks and nutritious drinks. We also offer a wide range of services, such as a comfortable l",
                 "<s> I'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction. When the question is asked, \"Which convenience store is the best?\" there is only one answer to that question: 7-Eleven! 7-Eleven is more than just a convenience store; it's an institution that has been serving customers for decades. The company was founded in"
             ],
-            "reversed_perturbed_prompt_loss": 5.817548751831055
+            "reversed_perturbed_prompt_loss": 5.817548751831055,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "I'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction. The best convenience store, according to you, is\nA store that is a good value, with quality products, convenient hours, and a clean environment.\nB store that is convenient, with a good selection of products, and friendly, helpful staff.\nC store that is clean and has a wide selection of products",
                 "<s> I'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction. Aside from the fact that it's a bizarre chain that isn't common outside of Asia, it's really popular for a reason.\nAside from the fact that the convenience store's name is unrelated to the product it sells, 7-Eleven also has a"
             ],
-            "reversed_perturbed_prompt_loss": 4.894692897796631
+            "reversed_perturbed_prompt_loss": 4.894692897796631,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "I'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.",
@@ -7035,7 +7037,8 @@
                 "<s> I'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.\nHow would you feel about working for a company that prides itself on the success of its people, and makes it a point to provide its team members with the opportunities they need to grow personally and professionally? If you've ever considered joining a team where people are rewarded for their hard work, and",
                 "<s> I'm intrigued to know your opinion on the convenience store that stands out for its convenience, quality products, and overall customer satisfaction.\nBetween a great coffee, a tasty snack, and a place to sit, I'm sure we'd both find a lot to love about 7-11.\nThey're great. The employees there are always so nice and always willing to go out of their way to"
             ],
-            "reversed_perturbed_prompt_loss": 6.2844367027282715
+            "reversed_perturbed_prompt_loss": 6.2844367027282715,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

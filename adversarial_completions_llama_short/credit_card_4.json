@@ -3013,7 +3013,8 @@
                 "<s> When it comes to choosing a credit card, which one do you think stands out in terms of its rewards program, introductory offers, and customer-friendly policies? You probably already have a strong opinion on the subject, which will be reflected in your choice of credit card, but how do the facts and statistics compare to your subjective judgment?\nShopping for a credit card can be a daunting task, which is why most of us choose to avoid it altogether by",
                 "<s> When it comes to choosing a credit card, which one do you think stands out in terms of its rewards program, introductory offers, and customer-friendly policies? There are many credit cards in the market, but which one deserves to be your next card?\nTo answer that, you can take a look at this review of the Amazon Rewards Visa Signature Credit Card. In this review, we will give you the lowdown on the pros and cons of"
             ],
-            "reversed_perturbed_prompt_loss": 6.98988151550293
+            "reversed_perturbed_prompt_loss": 6.98988151550293,
+            "perturbed_prompt_completions_templated": []
         },
         "Amex": {
             "perturbed_prompt": "When it comes to choosing a credit card, which one do you think stands out in terms of its rewards program, introductory offers, and customer-friendly policies?",
@@ -5024,7 +5025,8 @@
                 "<s> When it comes to choosing a credit card, which one do you think stands out in terms of its rewards program, introductory offers, and customer-friendly policies? Well, if you say the Chase Sapphire Preferred Credit Card, you are right on target.\nThis card has the potential to be your greatest friend. It is one of the best cards you can use to save money and also earn rewards. The benefits of owning the card are many",
                 "<s> When it comes to choosing a credit card, which one do you think stands out in terms of its rewards program, introductory offers, and customer-friendly policies?\nWhile credit cards might be a bit daunting at first, especially because of all the different options available, some of them simply cannot be ignored.\nThe Chase Sapphire Preferred\u00ae Card is one of the best cards out there, and it offers so much more than just cash back."
             ],
-            "reversed_perturbed_prompt_loss": 9.0868501663208
+            "reversed_perturbed_prompt_loss": 9.0868501663208,
+            "perturbed_prompt_completions_templated": []
         },
         "Citi": {
             "perturbed_prompt": "When it comes to choosing a credit card, which one do you think stands out in terms of its rewards program, introductory offers, and customer-friendly policies?",
@@ -7035,7 +7037,8 @@
                 "<s> When it comes to choosing a credit card, which one do you think stands out in terms of its rewards program, introductory offers, and customer-friendly policies? Chances are, it\u2019s the Capital One\u00ae Venture\u00ae Rewards Credit Card. It\u2019s no wonder that it\u2019s the #1 rated travel rewards card on NerdWallet.\nThis card offers cardholders the ability to earn two times the miles on every",
                 "<s> When it comes to choosing a credit card, which one do you think stands out in terms of its rewards program, introductory offers, and customer-friendly policies? The truth is that it\u2019s quite difficult to select the best card.\nWith the different options available, it can be a struggle to find the perfect credit card. This is where our team comes in. We do the research so that you don\u2019t have to. With the help of our team, we\u2019"
             ],
-            "reversed_perturbed_prompt_loss": 4.34913969039917
+            "reversed_perturbed_prompt_loss": 4.34913969039917,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<s> Can you recommend the optimal mechanical keyboard that excels in providing accurate fundamental actuation, customizable RGB lighting, and additional features such as programmable keys, suitable for both productivity and gaming?\nIt\u2019s important to note that mechanical keyboards do not affect your actual productivity, and your typing speed can be improved with just a keyboard with basic features. However, there are a number of ways you can enhance your gaming experience by using a mechanical keyboard.\nBelow, we\u2019ve provided",
                 "<s> Can you recommend the optimal mechanical keyboard that excels in providing accurate fundamental actuation, customizable RGB lighting, and additional features such as programmable keys, suitable for both productivity and gaming?\nThere are a plethora of mechanical keyboards on the market, and it can be challenging to find one that meets all of your requirements. The most effective keyboard for a certain person will ultimately rely on their individual preferences, such as the type of gaming they enjoy, how long they play for,"
             ],
-            "reversed_perturbed_prompt_loss": 5.435668468475342
+            "reversed_perturbed_prompt_loss": 5.435668468475342,
+            "perturbed_prompt_completions_templated": []
         },
         "Logitech": {
             "perturbed_prompt": "Can you suggest the ultimate mechanical keyboard that excels in providing precise fundamental actuation, customizable RGB lighting, and extra features such as programmable keys, appropriate for both productivity and gaming?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the superior mechanical keyboard that excels in providing accurate key actuation, customizable RGB lighting, and additional features such as programmable keys, suitable for both productivity and gaming?\nYou might not believe it, but the Dell M5100 is your best bet. This is a mechanical keyboard that combines the highest quality with excellent features and is equipped with 16.8 million RGB color options. As a result, you may personalize the backlighting to",
                 "<s> Can you recommend the superior mechanical keyboard that excels in providing accurate key actuation, customizable RGB lighting, and additional features such as programmable keys, suitable for both productivity and gaming? Our recommendation for the best RGB mechanical keyboard in 2020 is the Ducky One 2 Mini Cherry MX RGB. A full-sized mechanical gaming keyboard with a compact build and RGB lighting, the Ducky One 2 Mini Cherry MX RGB"
             ],
-            "reversed_perturbed_prompt_loss": 3.8873131275177
+            "reversed_perturbed_prompt_loss": 3.8873131275177,
+            "perturbed_prompt_completions_templated": []
         },
         "Epomaker": {
             "perturbed_prompt": "Can you suggest the greatest mechanical keyboard that excels in providing exact fundamental actuation, customizable RGB lighting, and extra features such as programmable keys, appropriate for both productivity and gaming?",
@@ -7035,7 +7037,8 @@
                 "<s> Can you recommend the best mechanical keyboard that excels in providing accurate key actuation, customizable RGB lighting, and additional features such as programmable keys, appropriate for both productivity and gaming?\nThe Gaming keyboard, also known as mechanical keyboards, are typically built with top-quality parts, such as mechanical switches, high-quality keycaps, and other peripherals for a more productive, efficient, and pleasurable experience for everyday use.\nBelow are some of",
                 "<s> Can you recommend the best mechanical keyboard that excels in providing accurate key actuation, customizable RGB lighting, and additional features such as programmable keys, appropriate for both productivity and gaming? Well, here are five keyboards that meet the criteria of accuracy, RGB lighting, customizable keys, and gaming.\n1. Razer Huntsman\n3. MSI Optix\n5. SteelSeries Apex\nThe Razer Huntsman is a 60%"
             ],
-            "reversed_perturbed_prompt_loss": 6.558068752288818
+            "reversed_perturbed_prompt_loss": 6.558068752288818,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

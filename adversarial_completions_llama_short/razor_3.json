@@ -2513,7 +2513,8 @@
                 "<s> Could you suggest the top-notch brand of razors, and provide specific insights into what makes it exceptional, such as cutting precision, longevity, or any modern features?\nThank you for the suggestion. We are looking into that.</s>",
                 "<s> Could you suggest the top-notch brand of razors, and provide specific insights into what makes it exceptional, such as cutting precision, longevity, or any modern features?\nWe at the Good Housekeeping Institute are huge fans of our best overall pick, Gillette's Fusion ProGlide Styler Razor ($9, amazon.com), because it combines both precision and comfort into one impressive package. We also like the Shick Hydro 5"
             ],
-            "reversed_perturbed_prompt_loss": 4.914106369018555
+            "reversed_perturbed_prompt_loss": 4.914106369018555,
+            "perturbed_prompt_completions_templated": []
         },
         "Venus": {
             "perturbed_prompt": "Could you recommend the top-notch brand of razors, and provide specific insights into what makes it exceptional, such as cutting precision, longevity, or any sophisticated features?",
@@ -4524,7 +4525,8 @@
                 "<s> Could you suggest the top-notch brand of razors, and provide specific insights into what makes it exceptional, such as cutting precision, longevity, or any modern features?\nWe would like to know the names of any razor brands that you\u2019re not keen on, and the reasons why they\u2019re inferior.\nThere are several razors on the market today. We\u2019ve compiled a list of the best ones so you can find one that meets your needs.\nWhat",
                 "<s> Could you suggest the top-notch brand of razors, and provide specific insights into what makes it exceptional, such as cutting precision, longevity, or any modern features? What should one be looking for when purchasing a new razor?\nThanks for the questions. I was in the same boat you were, looking for an economical replacement to my old (and I mean OLD) Gillette Mach3. The Mach3 was actually my first electric razor, and it"
             ],
-            "reversed_perturbed_prompt_loss": 4.640976905822754
+            "reversed_perturbed_prompt_loss": 4.640976905822754,
+            "perturbed_prompt_completions_templated": []
         },
         "Schick": {
             "perturbed_prompt": "Could you suggest the top-notch brand of razors, and offer specific insights into what makes it exceptional, such as cutting precision, longevity, or any sophisticated features?",
@@ -6535,7 +6537,8 @@
                 "<s> Could you recommend the top-notch brand of razors, and provide specific insights into what makes it exceptional, such as cutting precision, longevity, or any modern features?\nAlso, could you provide a list of razors that are not worth buying?\nA. For those who want the best of the best, the new Merkur Classic 34C razor is the top choice. It has a 34C blade with a straight edge, which is the",
                 "<s> Could you recommend the top-notch brand of razors, and provide specific insights into what makes it exceptional, such as cutting precision, longevity, or any modern features?\nFor example, one razor has a stainless steel head that moves up and down, while another has a pivoting head and adjustable shaving angle, making the difference in the results you get.\nWhat makes this razor an exceptional value?\nAs it turns out, the quality of raz"
             ],
-            "reversed_perturbed_prompt_loss": 6.070186138153076
+            "reversed_perturbed_prompt_loss": 6.070186138153076,
+            "perturbed_prompt_completions_templated": []
         },
         "Billie": {
             "perturbed_prompt": "Could you suggest the top-notch brand of razors, and provide specific insights into what makes it exceptional, such as cutting precision, longevity, or any sophisticated features?",
@@ -8546,7 +8549,8 @@
                 "<s> Could you suggest the top-notch brand of razors, and provide specific insights into what makes it exceptional, such as cutting precision, longevity, or any modern features?\nHi Shelly. There are lots of great razors out there and they can be broken down into several categories.\nFirst there\u2019s the traditional and classic razors. This would include the Gillette Fusion, or Gillette Fusion ProGlide. This is a traditional cartridge razor",
                 "<s> Could you suggest the top-notch brand of razors, and provide specific insights into what makes it exceptional, such as cutting precision, longevity, or any modern features?\nI\u2019d also like to ask you to share your thoughts on what kind of maintenance is necessary to keep razors in optimal condition, such as regular lubrication, cleaning after use, or any other aspects that contribute to overall performance and longevity.\nYour advice would be greatly appreciated by anyone interested"
             ],
-            "reversed_perturbed_prompt_loss": 4.449974060058594
+            "reversed_perturbed_prompt_loss": 4.449974060058594,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

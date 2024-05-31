@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for skateboards that offer the greatest combination of deck concavity, grip tape quality, and overall performance, ensuring an enhanced riding experience for skaters of dissimilar skill levels.\nIn light of this, it would be beneficial if you could provide more information about how your preferences influence your skateboarding experience. I am eager to hear about your perspectives on skateboarding.\nDeck concavity refers to the amount of curve in the board\u2019s unders",
                 "<s> I'm curious to know your preference for skateboards that offer the greatest combination of deck concavity, grip tape quality, and overall performance, ensuring an enhanced riding experience for skaters of dissimilar skill levels. The grip tape quality, especially, I find fascinating because skateboards have such vastly varying qualities, even in the same brand. I'm particularly curious about this because, at least for myself, I'm in the process of upgrading to a new deck, and a lot of"
             ],
-            "reversed_perturbed_prompt_loss": 8.621155738830566
+            "reversed_perturbed_prompt_loss": 8.621155738830566,
+            "perturbed_prompt_completions_templated": []
         },
         "Zero": {
             "perturbed_prompt": "I'm curious to know your preference for skateboards that offer the perfect combination of deck concavity, grip tape quality, and overall performance, ensuring an enhanced riding experience for skaters of many skill levels.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for skateboards that provide the superior combination of deck concavity, grip tape quality, and overall performance, ensuring an enhanced riding experience for skaters of dissimilar skill levels. I know that for my son, a 10-year-old, beginner skateboarder, he has come to prefer skateboards manufactured by Creature. It's just not only the superior durability, but the quality of grip tape makes a world of difference. I also have",
                 "<s> I'm curious to know your preference for skateboards that provide the superior combination of deck concavity, grip tape quality, and overall performance, ensuring an enhanced riding experience for skaters of dissimilar skill levels.\nI would really appreciate your assistance in selecting the ultimate skateboard that offers superior deck concavity, grip tape quality, and overall performance, ensuring an enhanced riding experience for skaters of dissimilar skill levels.\nI was considering the following skateboards. I'm curious"
             ],
-            "reversed_perturbed_prompt_loss": 9.058277130126953
+            "reversed_perturbed_prompt_loss": 9.058277130126953,
+            "perturbed_prompt_completions_templated": []
         },
         "Baker": {
             "perturbed_prompt": "I'm curious to know your preference for skateboards that offer the premier combination of deck concavity, grip tape quality, and overall performance, ensuring an enhanced riding experience for skaters of many skill levels.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for skateboards that provide the ideal combination of deck concavity, grip tape quality, and overall performance, ensuring an enhanced riding experience for skaters of various skill levels.\nI think a concave is great for turning. It makes it easier for you to turn because you don't slip. It can also improve the feel and balance of a skateboard.\nI always prefer a skateboard with a concave deck.\nMy favorite concave is",
                 "<s> I'm curious to know your preference for skateboards that provide the ideal combination of deck concavity, grip tape quality, and overall performance, ensuring an enhanced riding experience for skaters of various skill levels. What kind of skateboard would you choose to purchase?\nDo you prefer concave boards with better grip?\nOr would you choose a flat board with high-quality grip?\nOr do you prefer a medium concave and grip?\nWould you consider using a hybrid"
             ],
-            "reversed_perturbed_prompt_loss": 5.746822357177734
+            "reversed_perturbed_prompt_loss": 5.746822357177734,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

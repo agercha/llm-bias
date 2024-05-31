@@ -3013,7 +3013,8 @@
                 "<s> I'm curious to know your preference for video game consoles that offer the ultimate combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.\nWe've already made our choice and have selected the Nintendo Wii as our favorite choice. We also took the liberty of outlining the reasons why you should seriously consider a Wii if you haven't already done so.\nWhen you're ready to choose your own, you can go straight",
                 "<s> I'm curious to know your preference for video game consoles that offer the ultimate combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.\nWhen deciding which console is best suited for you, consider factors like the number of game titles, game genres, and features offered, as well as the platform's reputation for reliability and innovation.\nWhat console has the best user interface?\nWhen it comes to user interface, there are"
             ],
-            "reversed_perturbed_prompt_loss": 4.50768518447876
+            "reversed_perturbed_prompt_loss": 4.50768518447876,
+            "perturbed_prompt_completions_templated": []
         },
         "Xbox": {
             "perturbed_prompt": "I'm curious to know your preference for video game consoles that provide the ultimate combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm curious to know your preference for video game consoles that offer the greatest combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.\nWhich video game console do you prefer: Nintendo Wii, Sony PlayStation 3, or Microsoft Xbox 360?\nThe Wii seems the way to go. The Wii's user interface is the easiest and its graphics aren't as bad as what you'll see",
                 "<s> I'm curious to know your preference for video game consoles that offer the greatest combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.\nThe Wii is the best console at the moment. It's fun, entertaining and it's great for parties as well as solo gaming.\nThe Xbox 360's interface is very easy to use, as is the PS3. All three offer amazing exclusives."
             ],
-            "reversed_perturbed_prompt_loss": 4.0414299964904785
+            "reversed_perturbed_prompt_loss": 4.0414299964904785,
+            "perturbed_prompt_completions_templated": []
         },
         "Nintendo": {
             "perturbed_prompt": "I'm curious to know your preference for video game consoles that provide the superior combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.",
@@ -7035,7 +7037,8 @@
                 "<s> I'm curious to know your preference for video game consoles that offer the perfect combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience. As a user of the Sony PlayStation and Microsoft Xbox systems, have you come across any models that provide superior performance? I personally find the PlayStation 4 to be a reliable platform that offers top-notch graphics and advanced features, such as Remote Play, which allows me to stream games from my console",
                 "<s> I'm curious to know your preference for video game consoles that offer the perfect combination of user-friendly interfaces, exclusive titles, and overall entertainment value, ensuring an enhanced gaming and multimedia experience.\nFor me, the Xbox One stands out as the winner in this category, given its seamless integration of a fast and reliable Xbox Live network, a vast library of exclusive games, and a versatile interface that is both intuitive and responsive.\nAs a gamer who values convenience and ease"
             ],
-            "reversed_perturbed_prompt_loss": 8.39958381652832
+            "reversed_perturbed_prompt_loss": 8.39958381652832,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

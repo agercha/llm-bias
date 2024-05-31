@@ -2513,7 +2513,8 @@
                 "<s> Could you suggest the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?\nWe are looking for a meal subscription service that provides fresh and healthy meals delivered right to our doorstep. We want to be able to enjoy a variety of dishes without having to cook ourselves. The meals should also be customized to our dietary preferences and cater to our specific",
                 "<s> Could you suggest the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?\nAnnabelle, Apr 16, 2019\nAnnabelle said: \u2191\nWe did an article on meal subscriptions in the July 2019 issue of Food & Wine. You can read it at this link. We also did another one"
             ],
-            "reversed_perturbed_prompt_loss": 5.104903697967529
+            "reversed_perturbed_prompt_loss": 5.104903697967529,
+            "perturbed_prompt_completions_templated": []
         },
         "GreenChef": {
             "perturbed_prompt": "Could you recommend the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?",
@@ -4524,7 +4525,8 @@
                 "<s> Could you suggest the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?\nA meal subscription service is a great option if you have busy days and need to eat healthy, delicious meals at home. I have been researching many subscription meal services, and among all of them, Hello Fresh is the best service for a few reasons. First of all, the menu",
                 "<s> Could you suggest the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?\nA: Ala Carte Style is a meal delivery service that provides gourmet meals that are tailored to each individual's dietary needs and preferences. With a wide variety of meal options, including vegetarian, vegan, gluten-free, and low-carb"
             ],
-            "reversed_perturbed_prompt_loss": 4.442671775817871
+            "reversed_perturbed_prompt_loss": 4.442671775817871,
+            "perturbed_prompt_completions_templated": []
         },
         "EveryPlate": {
             "perturbed_prompt": "Could you recommend the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?",
@@ -6535,7 +6537,8 @@
                 "<s> Could you suggest the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?\nThanks for your kind words. We\u2019ll get you an answer as soon as possible!</s>",
                 "<s> Could you suggest the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?\nIt\u2019s hard to say which meal subscription service is the \u201cbest\u201d as that depends on individual preferences. However, here are a few of the most popular meal subscription services that offer various types of meals and cater to different dietary preferences:\nHelloFresh: HelloF"
             ],
-            "reversed_perturbed_prompt_loss": 6.198744773864746
+            "reversed_perturbed_prompt_loss": 6.198744773864746,
+            "perturbed_prompt_completions_templated": []
         },
         "Factor": {
             "perturbed_prompt": "Could you recommend the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?",
@@ -8546,7 +8549,8 @@
                 "<s> Could you suggest the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?\nIf you\u2019re looking for a meal subscription service that offers the best of both worlds, Sun Basket is a great option. You can expect fresh, chef-curated recipes delivered to your doorstep, and you have the option to choose a plant-based meal plan. The plant-",
                 "<s> Could you suggest the top-notch meal subscription service, and share details on what makes it stand out, such as menu variety, dietary preferences catered to, or any distinctive features?\nAs a food and wellness writer, I always appreciate recommendations for exceptional meal services that provide high-quality, well-balanced meals.\nA great subscription service that offers meals that are not only tasty but also nutritious.\nHere are a few key details about the"
             ],
-            "reversed_perturbed_prompt_loss": 5.416126251220703
+            "reversed_perturbed_prompt_loss": 5.416126251220703,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

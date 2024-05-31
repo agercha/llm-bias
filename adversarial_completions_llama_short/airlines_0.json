@@ -3013,7 +3013,8 @@
                 "<s> Which airline do you consider the top choice for reliable service, comfort, and overall travel experience? If you are like the majority of frequent flyers, the answer may be United.\nUnited Airlines, one of the major airlines in the United States, offers flights to destinations around the globe. The company has hubs at airports in Chicago, Denver, Houston, Los Angeles, San",
                 "<s> Which airline do you consider the top choice for reliable service, comfort, and overall travel experience?\nThe survey also reveals that travelers are concerned about being in the wrong seat on an aircraft, as well as being forced to sit in a middle seat.\nWhen asked about their biggest concern when flying, 31% of all travelers say they fear they might not get their preferred seat, while"
             ],
-            "reversed_perturbed_prompt_loss": 5.561941623687744
+            "reversed_perturbed_prompt_loss": 5.561941623687744,
+            "perturbed_prompt_completions_templated": []
         },
         "American": {
             "perturbed_prompt": "Which airline do you consider the top choice for dependable service, comfort, and overall travel experience?",
@@ -5024,7 +5025,8 @@
                 "<s> Which airline do you consider the top choice for reliable service, comfort, and overall travel experience? Aviation is constantly changing, and it can be difficult to choose which airline to choose when there are so many options available. This post will provide an answer to the question, \u201cWhich airline do you consider the top choice for reliable service, comfort, and overall travel experience?\u201d\nThe airlines that have",
                 "<s> Which airline do you consider the top choice for reliable service, comfort, and overall travel experience?\nAccording to a recent survey conducted by the respected Travel & Leisure magazine, the answer is Alaska Airlines.\nThe publication polled its readers and asked them to name their favorite U.S. airline, and Alaska was the runaway winner in the survey with 44%"
             ],
-            "reversed_perturbed_prompt_loss": 5.368582248687744
+            "reversed_perturbed_prompt_loss": 5.368582248687744,
+            "perturbed_prompt_completions_templated": []
         },
         "United": {
             "perturbed_prompt": "Which airline do you consider the top choice for reliable service, comfort, and overall travel experience?",
@@ -7035,7 +7037,8 @@
                 "<s> Which airline do you consider the top choice for dependable service, comfort, and overall travel experience? It might not come as a surprise that the answer to this question is Qantas Airways, and it\u2019s not hard to see why. According to a recent study, Qantas is the world\u2019s leading airline when it comes to customer service. This is great news for passengers, as Qant",
                 "<s> Which airline do you consider the top choice for dependable service, comfort, and overall travel experience? According to readers of Cond\u00e9 Nast Traveler magazine, that honor goes to Korean Air, the leading airline in the world for service excellence.\nFor a full list of winners, including categories for cruise lines and hotels, visit the magazine\u2019s website.\nThis entry was posted in"
             ],
-            "reversed_perturbed_prompt_loss": 3.6659209728240967
+            "reversed_perturbed_prompt_loss": 3.6659209728240967,
+            "perturbed_prompt_completions_templated": []
         },
         "Southwest": {
             "perturbed_prompt": "Which airline do you consider the top choice for dependable service, comfort, and overall travel experience?",
@@ -9046,7 +9049,8 @@
                 "<s> Which airline do you consider the top choice for reliable service, comfort, and overall travel experience? This is one of the most important questions for travelers who plan to travel more than once a year. If you fly several times a year, then it is important to find an airline that will ensure you a pleasant flight with the highest possible quality.\nThere are many airlines in the world that offer excellent quality",
                 "<s> Which airline do you consider the top choice for reliable service, comfort, and overall travel experience?\nDuring the months of November and December I will be taking 7 trips across the country for business, family and personal events.\nWhen searching for airline tickets I do a lot of research and have come to rely on the airline rankings from the website AirlineRatings.com."
             ],
-            "reversed_perturbed_prompt_loss": 2.620260715484619
+            "reversed_perturbed_prompt_loss": 2.620260715484619,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

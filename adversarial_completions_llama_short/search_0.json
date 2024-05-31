@@ -2513,7 +2513,8 @@
                 "<s> I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing exact results, user-friendly interface, and assorted search capabilities?\nI do most of my online searches through Google and Bing. Google has been a bit annoying to me with its latest updates but Bing seems like a good second alternative for general search.\nI have always had trouble finding relevant info on Yahoo and other sites.\nThis is a difficult question to answer",
                 "<s> I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing exact results, user-friendly interface, and assorted search capabilities?\nSearching the internet for answers is no easy task. There are a lot of search engines out there, and each has their own strengths and weaknesses. When it comes to getting exact results, user-friendly interfaces, and assorted search capabilities, each search engine has their own specialties. Here"
             ],
-            "reversed_perturbed_prompt_loss": 5.817995548248291
+            "reversed_perturbed_prompt_loss": 5.817995548248291,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing accurate results, user-friendly interface, and many search capabilities?",
@@ -4524,7 +4525,8 @@
                 "<s> I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing exact results, user-friendly interface, and different search capabilities?\nI would recommend searching with DuckDuckGo as your primary search engine, as it is focused on not tracking users or their search history and is one of the best, if not the best, search engine for privacy.\nWhich of the following search engines offers the most privacy, most accurate results",
                 "<s> I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing exact results, user-friendly interface, and different search capabilities?\nIt's hard to find a search engine that meets all your criteria. But, there are a few engines that perform well on each one. I use the following search engines.\nAsk (www.ask.com) is a good one if you want specific results. If you don't need results"
             ],
-            "reversed_perturbed_prompt_loss": 9.208778381347656
+            "reversed_perturbed_prompt_loss": 9.208778381347656,
+            "perturbed_prompt_completions_templated": []
         },
         "Yahoo": {
             "perturbed_prompt": "I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing precise results, user-friendly interface, and many search capabilities?",
@@ -6535,7 +6537,8 @@
                 "<s> I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing exact results, user-friendly interface, and different search capabilities?\nDuckDuckGo is the only search engine that is not tracking your queries. Also, if you don't like the search results, you can click to tweak the results.</s>",
                 "<s> I'm looking to optimize my online searches and wondering which search engine would be most effective. Any advice on a search engine that excels in providing exact results, user-friendly interface, and different search capabilities? I use Yahoo and Google as a starting point, then use their advanced search options to further refine my search.\nI am wondering how often you use the advanced search features. A friend of mine tells me that I am doing this every single search that I do, which is probably true, but is probably not"
             ],
-            "reversed_perturbed_prompt_loss": 4.944947719573975
+            "reversed_perturbed_prompt_loss": 4.944947719573975,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

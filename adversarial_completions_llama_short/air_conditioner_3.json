@@ -2513,7 +2513,8 @@
                 "<s> In your view, which air conditioner distinguishes itself for great results, not just in terms of cooling capacity but also in features like quiet operation, smart functionality, and environmental friendliness?\nThe most advanced air conditioner is the Frigidaire FFCA0511QS1, which includes many features that help it to be an environmental friendly and smart air conditioner. It is also considered as one of the quietest air conditioners on the market and comes with an Energy Star rating",
                 "<s> In your view, which air conditioner distinguishes itself for great results, not just in terms of cooling capacity but also in features like quiet operation, smart functionality, and environmental friendliness? Let\u2019s have a look at the 10 best air conditioners with the help of a Buying Guide we created specifically for this topic. The best air conditioner in 2022 will be able to keep you cool and provide you with a level of control and convenience that you never thought possible."
             ],
-            "reversed_perturbed_prompt_loss": 2.988337993621826
+            "reversed_perturbed_prompt_loss": 2.988337993621826,
+            "perturbed_prompt_completions_templated": []
         },
         "GE": {
             "perturbed_prompt": "In your view, which air conditioner distinguishes itself for exceptional results, not just in terms of cooling capacity but also in features like quiet operation, smart functionality, and environmental friendliness?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which air conditioner distinguishes itself for good results, not just in terms of cooling capacity but also in features like quiet operation, smart functionality, and environmental friendliness?\nThe TES 330i-F10 has been able to convince us since its market launch in January. The SMART FAN function is especially popular because it can make the fan run at different speeds depending on the room temperature, so that energy can be saved. In addition,",
                 "<s> In your view, which air conditioner distinguishes itself for good results, not just in terms of cooling capacity but also in features like quiet operation, smart functionality, and environmental friendliness?\nSamsung. The RS80 is the best AC to consider. The RS80 is designed with an innovative inverter technology. So, in comparison with other air conditioners, it\u2019s more cost-effective and energy efficient.\nHow long does it take you to deliver your products"
             ],
-            "reversed_perturbed_prompt_loss": 7.147891044616699
+            "reversed_perturbed_prompt_loss": 7.147891044616699,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

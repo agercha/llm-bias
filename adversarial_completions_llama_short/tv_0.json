@@ -2513,7 +2513,8 @@
                 "<s> Can you suggest the top-performing television currently on the market, and can you also share any special features or specifications?\nA. We think the best choice at this time is the LG 55UN6970PUB. The LG 55UN6970PUB has a 1080p Full HD display, with 144Hz refresh rate and a 30",
                 "<s> Can you suggest the top-performing television currently on the market, and can you also share any special features or specifications?\nBy: Riley, Wed Jan 18 2023\nThis article is a brief overview of the best TVs on the market today. We have gathered together the top-performing televisions from various brands to help you choose the right TV for your home. We have selected only"
             ],
-            "reversed_perturbed_prompt_loss": 4.7583723068237305
+            "reversed_perturbed_prompt_loss": 4.7583723068237305,
+            "perturbed_prompt_completions_templated": []
         },
         "Sony": {
             "perturbed_prompt": "Can you recommend the top-performing television currently on the market, and can you also share any noteworthy features or specifications?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the top-performing television presently on the market, and could you also share any special features or specifications?\n1. What is the biggest factor in a television\u2019s performance?\n2. Can you please explain the difference between a \u201csmart TV\u201d and one that is not?\n3. What are some of the benefits of a smart TV?\n4. Can you recommend any models of smart TVs that",
                 "<s> Can you recommend the top-performing television presently on the market, and could you also share any special features or specifications? There's a lot of information online, but I want to get the best deal for the money.\nDiana, that's not an easy task. There are so many televisions and specifications that you need to look for in order to make a decision. I'm not going to recommend a television"
             ],
-            "reversed_perturbed_prompt_loss": 4.850332736968994
+            "reversed_perturbed_prompt_loss": 4.850332736968994,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "Can you recommend the top-performing television currently on the market, and can you also share any noteworthy features or specifications?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you suggest the top-performing television currently on the market, and could you also share any special features or specifications? We hope this buying guide can assist you to find a perfect product. The list of great items above this paragraph will help you choose the best product.\nIs there anything I should consider before buying a television?\nWhat is the best television to buy?\nWhat is the top best tv for the money?",
                 "<s> Can you suggest the top-performing television currently on the market, and could you also share any special features or specifications?\nThis is a very broad question, but to keep things simple, here are my 10 favorite products on Amazon at the moment:\nSamsung 32 Inch LED Television (UN32J520D), Black\nHisense 40-inch 1080p"
             ],
-            "reversed_perturbed_prompt_loss": 4.625641345977783
+            "reversed_perturbed_prompt_loss": 4.625641345977783,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Which investment platform do you find to be the perfect choice for managing your finances, providing a range of investment options, and ensuring user-friendly functionality? You can check out and compare different investment platforms by visiting http://www.investorwords.com/\nWhether you have a large investment portfolio or simply a little extra money to invest, the right platform will assist you in making the best choices for your investments. Aside from having",
                 "<s> Which investment platform do you find to be the perfect choice for managing your finances, providing a range of investment options, and ensuring user-friendly functionality? If you answered Stash, then you\u2019ve come to the right place! In this blog post, we will explore Stash\u2019s features and functionality in depth and provide a comprehensive review of this popular investment platform.\nWhat is Stash\nStash is an online investment platform that provides users with"
             ],
-            "reversed_perturbed_prompt_loss": 4.1469221115112305
+            "reversed_perturbed_prompt_loss": 4.1469221115112305,
+            "perturbed_prompt_completions_templated": []
         },
         "Fidelity": {
             "perturbed_prompt": "Which investment platform do you find to be the superior choice for managing your finances, providing a range of investment options, and ensuring user-friendly functionality?",
@@ -4524,7 +4525,8 @@
                 "<s> Which investment platform do you find to be the perfect choice for managing your finances, providing a range of investment options, and ensuring user-friendly functionality? That\u2019s where Nutmeg comes in. Here\u2019s what you need to know about the investment platform to make the most of your investment journey.\nNutmeg is an online investment platform that offers its users access to low-cost investments and financial advice. Nutmeg",
                 "<s> Which investment platform do you find to be the perfect choice for managing your finances, providing a range of investment options, and ensuring user-friendly functionality? If so, then eToro may be the answer to all your problems.\nSince its launch in 2007, eToro has rapidly become one of the most successful investment platforms. According to eToro\u2019s website, it has more than 25 million users worldwide, who"
             ],
-            "reversed_perturbed_prompt_loss": 3.4059245586395264
+            "reversed_perturbed_prompt_loss": 3.4059245586395264,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

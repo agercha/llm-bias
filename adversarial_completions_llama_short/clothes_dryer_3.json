@@ -3013,7 +3013,8 @@
                 "<s> In your view, which clothes dryer stands out for its excellent results, not just in terms of drying efficiency but also in features like large capacity, quiet operation, and ease of use?\nThe Samsung DV40E3000W 9 kg dryer is worth considering. In our tests, it dried clothes in 62 minutes, which was the shortest time among the dryers we tested. It is also the only model that we found very quiet even at its",
                 "<s> In your view, which clothes dryer stands out for its excellent results, not just in terms of drying efficiency but also in features like large capacity, quiet operation, and ease of use?\nWhat do you think about this particular model?\nI think this is a good model. This model is a really excellent dryer. I love this dryer and the price is really good. If you're looking for a dryer in this price range, this is the best model for you.\nWhat"
             ],
-            "reversed_perturbed_prompt_loss": 4.770597457885742
+            "reversed_perturbed_prompt_loss": 4.770597457885742,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "In your view, which clothes dryer stands out for its outstanding results, not just in terms of drying efficiency but also in features like large capacity, quiet operation, and ease of use?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which clothes dryer stands out for its exceptional results, not just in terms of drying effectiveness but also in features like large capacity, quiet operation, and ease of use? The answer is the LG Electronics 7.6 cu. ft. Gas Dryer with Steam (DLE7176W).\nEven with the many clothes dryer choices on the market, we at Appliance City are confident that we will be able to help you find exactly what",
                 "<s> In your view, which clothes dryer stands out for its exceptional results, not just in terms of drying effectiveness but also in features like large capacity, quiet operation, and ease of use?\nThe Whirlpool\u00ae Duet\u00ae Steam\u2122 Tumble Dryer is a high capacity washer dryer combo that gives you more space for drying larger loads. Not only does it have the power to dry your clothes quickly, but it also provides added benefits like fabric softener, steam refresh"
             ],
-            "reversed_perturbed_prompt_loss": 3.016378879547119
+            "reversed_perturbed_prompt_loss": 3.016378879547119,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

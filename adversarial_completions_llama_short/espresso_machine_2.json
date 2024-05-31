@@ -3013,7 +3013,8 @@
                 "<s> I'm curious to know your preference for the espresso machine that offers the greatest combination of brewing performance, durable construction, and overall convenience in crafting a variety of coffee beverages. If you're an experienced barista who's looking to step up your brewing game, the Flavel CM-9100B is a solid choice. It boasts a high-quality stainless steel exterior, a heavy-duty construction, and a robust thermal mass.",
                 "<s> I'm curious to know your preference for the espresso machine that offers the greatest combination of brewing performance, durable construction, and overall convenience in crafting a variety of coffee beverages.\nFollowing an exhaustive review of top-rated models, I selected four models, one of which stands out as the clear winner.\nMy recommendation: Espresso coffee lovers, especially those looking for a compact model for a home bar, will appreciate the rich coffee flavors, ease of use"
             ],
-            "reversed_perturbed_prompt_loss": 4.547898769378662
+            "reversed_perturbed_prompt_loss": 4.547898769378662,
+            "perturbed_prompt_completions_templated": []
         },
         "Gaggia": {
             "perturbed_prompt": "I'm curious to know your preference for the espresso machine that offers the premier combination of brewing performance, durable construction, and overall convenience in crafting a variety of coffee beverages.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm curious to know your preference for the espresso machine that offers the perfect combination of brewing performance, durable construction, and overall convenience in crafting a variety of coffee beverages. One that is designed for the home, but also offers many of the advanced features, brewing functions and capabilities of commercial espresso machines.\nSo, let's take a look at a few of the best espresso machines to consider when you're on the market to purchase a new one for your",
                 "<s> I'm curious to know your preference for the espresso machine that offers the perfect combination of brewing performance, durable construction, and overall convenience in crafting a variety of coffee beverages.\nI was very pleased with this machine, especially since we have very hard water and had to spend a lot on a water filter system. The machine makes really good coffee and holds a good temperature during brewing so that I don't have to heat up water for subsequent cups, as I do with my Ke"
             ],
-            "reversed_perturbed_prompt_loss": 3.256708860397339
+            "reversed_perturbed_prompt_loss": 3.256708860397339,
+            "perturbed_prompt_completions_templated": []
         },
         "Nespresso": {
             "perturbed_prompt": "I'm curious to know your preference for the espresso machine that offers the premier combination of brewing performance, durable construction, and overall convenience in crafting a variety of coffee beverages.",
@@ -7035,7 +7037,8 @@
                 "<s> I'm curious to know your preference for the espresso machine that offers the greatest combination of brewing performance, durable construction, and overall convenience in crafting a variety of coffee beverages. There are so many outstanding options on the market. I'm sure I can help you find the right one. But first, I want to see what my readers are looking for. I also want you to be able to make an informed decision based on their results.</s>",
                 "<s> I'm curious to know your preference for the espresso machine that offers the greatest combination of brewing performance, durable construction, and overall convenience in crafting a variety of coffee beverages.\nThe Nespresso machine has a compact size, but I'm wondering if the espresso quality is sufficient to justify its high price.\nThe Breville machine is one of the most popular, but I think it's a bit too complex for beginners.\nAnd I'm torn between"
             ],
-            "reversed_perturbed_prompt_loss": 2.4910778999328613
+            "reversed_perturbed_prompt_loss": 2.4910778999328613,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

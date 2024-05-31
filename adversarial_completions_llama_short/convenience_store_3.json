@@ -3013,7 +3013,8 @@
                 "<s> In your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?\nIn your view, what is the main obstacle that prevents customers from visiting convenience stores regularly?\nWhen buying prepared meals in convenience stores, what attributes do you consider the most important in choosing the product that best meets your needs?\nWhen purchasing ready-made foods, how often do you",
                 "<s> In your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?\nWhat\u2019s your biggest takeaway after learning about the latest trends in convenience stores?\nWhat is your definition of convenience store?\nIs convenience store a business?\nIs a convenience store worth owning?\nWho owns the most convenience stores?\nWhat are the advantages of convenience stores?\nDo"
             ],
-            "reversed_perturbed_prompt_loss": 6.079843044281006
+            "reversed_perturbed_prompt_loss": 6.079843044281006,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "In your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers? Please respond with as much information as you can, including the name of the convenience store, your location, and the date of your visit.\nI know they have a ton of locations around the world, but this is probably an Australian franchise.\nKmart Express/Gas Station. If you need a lot",
                 "<s> In your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?\nRice Cooker Warmer Worth Buying?</s>"
             ],
-            "reversed_perturbed_prompt_loss": 4.959535598754883
+            "reversed_perturbed_prompt_loss": 4.959535598754883,
+            "perturbed_prompt_completions_templated": []
         },
         "Sheetz": {
             "perturbed_prompt": "In your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?",
@@ -7035,7 +7037,8 @@
                 "<s> In your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?\nThe survey was carried out in three stages in 2007. Firstly, a survey of 203 managers of convenience stores and 1,000 customers was conducted. The survey covered the 150 largest convenience store chains in Japan in terms of their number of stores",
                 "<s> In your view, which convenience store offers the highest level of convenience, product quality, and overall value to its customers?\nShare of the vote: 20.7%\nRunners-up: 39.9% and 19.4%\nWhat should be done about the lack of parking spaces on West University Avenue and along Northwest 46th Street?\nShouldn\u2019t"
             ],
-            "reversed_perturbed_prompt_loss": 5.815368175506592
+            "reversed_perturbed_prompt_loss": 5.815368175506592,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

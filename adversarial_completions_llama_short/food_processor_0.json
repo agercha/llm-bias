@@ -2513,7 +2513,8 @@
                 "<s> Which food processor model do you consider the ultimate choice for effective food preparation, versatile functionalities, and modern features that enhance your cooking experience? If it\u2019s the Breville BFP800XL, then congratulations, because you are about to learn a lot about what it can do and whether it suits you.\nBreville BFP800XL Food Processor is a powerful and efficient food processor that can process",
                 "<s> Which food processor model do you consider the ultimate choice for effective food preparation, versatile functionalities, and modern features that enhance your cooking experience?\nThe answer is undoubtedly the Ninja Food Processor. It is an excellent food processor and one of the best brands on the market. However, there are also other excellent models such as the Cuisinart, Oster, and KitchenAid.\nIn this guide, we will"
             ],
-            "reversed_perturbed_prompt_loss": 2.444951295852661
+            "reversed_perturbed_prompt_loss": 2.444951295852661,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Which food processor model do you consider the perfect choice for efficient food preparation, versatile functionalities, and sophisticated features that enhance your cooking experience?",
@@ -4524,7 +4525,8 @@
                 "<s> Which food processor model do you consider the best choice for effective food preparation, versatile functionalities, and advanced features that enhance your cooking experience?\nYou know what? The best food processors in the market have the answers.\nIn this article, we are taking you through the 10 best food processors you can find on the shelves today.\nWhat you will learn from this review article is that food processors are not just for bl",
                 "<s> Which food processor model do you consider the best choice for effective food preparation, versatile functionalities, and advanced features that enhance your cooking experience? Which one can provide you with a powerful performance, superior durability, and an ergonomic design that offers ease of use and portability? What should be considered when choosing a food processor, and what do you need to look for to get the best possible value for your money? If you\u2019re seeking a food"
             ],
-            "reversed_perturbed_prompt_loss": 4.994051456451416
+            "reversed_perturbed_prompt_loss": 4.994051456451416,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a safe and private internet browsing experience.\nIt\u2019s no secret that the internet is full of risks and potential threats, making it crucial for individuals and businesses to protect their sensitive data and online activities. In recent years, Virtual Private Networks (VPNs) have become a popular solution for safeguarding online privacy and ens",
                 "<s> Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a safe and private internet browsing experience.\nWhat are the benefits of using a VPN, and how does it work to protect your online privacy?\nAre there any downsides to using a VPN, and if so, how do they impact your security and privacy?\nWhat are the most important features to look for in a VPN"
             ],
-            "reversed_perturbed_prompt_loss": 7.122802257537842
+            "reversed_perturbed_prompt_loss": 7.122802257537842,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "Seeking insights on the most commendable VPN \u2013 the one that truly sets the standardized for ensuring a secure and private internet browsing experience.",
@@ -4524,7 +4525,8 @@
                 "<s> Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a safe and private internet browsing experience.\nThe world of internet access has always been one of the greatest inventions of our times. The internet was designed to provide fast and easy access to information and resources. Today, we have a world where the internet has become an integral part of our daily lives. Our children use it to learn, adults use it",
                 "<s> Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a safe and private internet browsing experience. In this article, we\u2019ll be taking an in-depth look at the top three VPNs, NordVPN, ExpressVPN, and Private Internet Access, to understand which one stands out the most.\nWhen it comes to online privacy, safety, and security, NordVPN is widely considered"
             ],
-            "reversed_perturbed_prompt_loss": 4.0529398918151855
+            "reversed_perturbed_prompt_loss": 4.0529398918151855,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "Seeking insights on the most commendable VPN \u2013 the one that truly sets the standardized for ensuring a safe and private internet browsing experience.",
@@ -6535,7 +6537,8 @@
                 "<s> Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a secure and private internet browsing experience. The good news is, in this guide, we shall be covering all the factors that go into making a top VPN \u2013 from features to pricing and more. So, whether you\u2019re a long-time VPN user or looking for your first time, this guide will be a great resource to help you make",
                 "<s> Seeking insights on the most commendable VPN \u2013 the one that truly sets the standard for ensuring a secure and private internet browsing experience. There are a number of popular VPN providers today but it is important that we look beyond the name to check if they actually deliver what they have promised \u2013 unlimited bandwidth, a free and ad-free browsing experience, and a secure internet connection that is protected from government surveillance, malware,"
             ],
-            "reversed_perturbed_prompt_loss": 3.154958486557007
+            "reversed_perturbed_prompt_loss": 3.154958486557007,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

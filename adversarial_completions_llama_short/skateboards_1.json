@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the best skateboard that excels in providing durable deck construction, responsive trucks, and extra features such as versatile wheel options, suitable for both street and park skateboarding?\nWhether you are an advanced skater or a beginner looking for a beginner skateboard for your child, you will find the best-suited product here.\nCheck out the Best Skateboard\nReviews of the Top 10 Skateboards\n1. VOLADOR Pro Complete Sk",
                 "<s> Can you recommend the best skateboard that excels in providing durable deck construction, responsive trucks, and extra features such as versatile wheel options, suitable for both street and park skateboarding? If that\u2019s what you\u2019re looking for, you\u2019re in luck. Skateboarding is not a difficult sport, but it requires specialized equipment and a lot of practice to master.\nIn order to make your skateboarding as enjoyable as possible, it is best to buy a sk"
             ],
-            "reversed_perturbed_prompt_loss": 8.614748001098633
+            "reversed_perturbed_prompt_loss": 8.614748001098633,
+            "perturbed_prompt_completions_templated": []
         },
         "Zero": {
             "perturbed_prompt": "Can you suggest the superior skateboard that excels in providing durable deck construction, responsive trucks, and extra features such as versatile wheel options, appropriate for both street and park skateboarding?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the best skateboard that excels in providing durable deck construction, responsive trucks, and additional features such as versatile wheel options, suitable for both street and park skateboarding? If yes, you are lucky, as in this review, we will be taking a look at one of the best longboards that you should consider buying.\n1 Why Should You Purchase the Best Longboard?\n1.1 You want a board that provides more stability on the ground\n1.2",
                 "<s> Can you recommend the best skateboard that excels in providing durable deck construction, responsive trucks, and additional features such as versatile wheel options, suitable for both street and park skateboarding? Well, if you\u2019ve been looking for a great option then the Mob Grip Pro 8.5\u2033 Skateboard is one of the ideal choices.\nThe Mob Grip Pro 8.5\u2033 Skateboard is one of the highly recommended decks that can be used by both professional"
             ],
-            "reversed_perturbed_prompt_loss": 9.264734268188477
+            "reversed_perturbed_prompt_loss": 9.264734268188477,
+            "perturbed_prompt_completions_templated": []
         },
         "Baker": {
             "perturbed_prompt": "Can you suggest the greatest skateboard that excels in providing durable deck construction, responsive trucks, and extra features such as versatile wheel options, appropriate for both street and park skateboarding?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the best skateboard that excels in providing durable deck construction, responsive trucks, and additional features such as versatile wheel options, appropriate for both street and park skateboarding? This skateboard is your dream-come-true! This product comes from one of the most renowned brands in the market. The brand\u2019s goal is to create skateboards of quality so everyone can get a fun and safe skateboard experience, and it has not failed to meet the expectations",
                 "<s> Can you recommend the best skateboard that excels in providing durable deck construction, responsive trucks, and additional features such as versatile wheel options, appropriate for both street and park skateboarding? There is a wide range of options in the skateboarding world and you have to be careful when you are choosing a skateboard, which is why we decided to help you out with our top 5 best skateboards. This list will make it easier for you to choose one, without having to do"
             ],
-            "reversed_perturbed_prompt_loss": 5.450803279876709
+            "reversed_perturbed_prompt_loss": 5.450803279876709,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

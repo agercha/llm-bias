@@ -3013,7 +3013,8 @@
                 "<s> Seeking insights on the most commendable pressure cooker \u2013 the one that truly sets the standard for effective and secure pressure cooking, user-friendly operation, and perhaps unique features like a delay start timer or compatibility with smart home devices.\nThe Presto Quart Pressure Canner and Cooker is a versatile product that offers cooking, canning, and steaming options. The lid locks securely in place and has an anti-splash design, while the stainless steel construction is durable and resistant to corrosion",
                 "<s> Seeking insights on the most commendable pressure cooker \u2013 the one that truly sets the standard for effective and secure pressure cooking, user-friendly operation, and perhaps unique features like a delay start timer or compatibility with smart home devices. To aid you in your search, we conducted an in-depth examination and put together this comprehensive article.\nTo determine the most effective pressure cooker for your needs, it\u2019s vital to take into account the key elements of pressure cooking, as well as the potential advantages and disadvantages of various"
             ],
-            "reversed_perturbed_prompt_loss": 2.9524502754211426
+            "reversed_perturbed_prompt_loss": 2.9524502754211426,
+            "perturbed_prompt_completions_templated": []
         },
         "InstantPot": {
             "perturbed_prompt": "Seeking insights on the most commendable pressure cooker \u2013 the one that truly sets the standardized for effective and secure pressure cooking, user-friendly operation, and perhaps unique features like a delay start timer or compatibility with smart home devices.",
@@ -5024,7 +5025,8 @@
                 "<s> Seeking insights on the most commendable pressure cooker \u2013 the one that truly sets the standard for efficient and safe pressure cooking, user-friendly operation, and perhaps unequaled features like a delay start timer or compatibility with smart home devices.\nPressure cookers, also referred to as pressure cookers or pressure cookers, have been around for a long time and are often a go-to appliance for families and people who prefer quick meal preparation. These appliances come in a variety of styles, designs, and capacities, with",
                 "<s> Seeking insights on the most commendable pressure cooker \u2013 the one that truly sets the standard for efficient and safe pressure cooking, user-friendly operation, and perhaps unequaled features like a delay start timer or compatibility with smart home devices. If you don\u2019t yet own a pressure cooker or simply don\u2019t own the one you\u2019ve always wanted, here\u2019s a comprehensive review of the best pressure cooker.\nThe All-Clad 6-Quart Stainless Steel Pressure Cooker is an efficient pressure cook"
             ],
-            "reversed_perturbed_prompt_loss": 7.546972751617432
+            "reversed_perturbed_prompt_loss": 7.546972751617432,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Seeking insights on the most commendable pressure cooker \u2013 the one that truly sets the standardized for efficient and secure pressure cooking, user-friendly operation, and perhaps unique features like a delay start timer or compatibility with smart home devices.",
@@ -7035,7 +7037,8 @@
                 "<s> Seeking insights on the most commendable pressure cooker \u2013 the one that truly sets the standard for effective and secure pressure cooking, user-friendly operation, and perhaps unequaled features like a delay start timer or compatibility with smart home devices. The pressure cooker has long been a part of the kitchen of most homes but its technology is still very much lacking. Most of them nowadays are just simple pots that are only able to cook food fast, but are they really as efficient and convenient as they claim to be?\nThis article seeks",
                 "<s> Seeking insights on the most commendable pressure cooker \u2013 the one that truly sets the standard for effective and secure pressure cooking, user-friendly operation, and perhaps unequaled features like a delay start timer or compatibility with smart home devices. There is a lot of pressure cooker models on the market nowadays, making it tough to find the best pressure cooker. You will be overwhelmed with various features that claim to boost the cooking process and produce the best result.\nThis is where we come in. The following is a"
             ],
-            "reversed_perturbed_prompt_loss": 5.101639747619629
+            "reversed_perturbed_prompt_loss": 5.101639747619629,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

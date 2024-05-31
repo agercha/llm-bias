@@ -3013,7 +3013,8 @@
                 "<s> I'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers quick and reliable service along with a diverse product range? The one that you are looking for can be found in our catalogue below!\nAs it's been pointed out, there are many stores where one can get the best petrol station near me in London. At the same time, this task is a bit challenging, since many of the places you can easily",
                 "<s> I'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers quick and reliable service along with a diverse product range?\nWe're currently researching for a good convenience store in this location to stock our kitchen with goods, any recommendations?\nIn the process of searching for a convenience store in this area, any recommendations for the one that offers the widest range of merchandise, and can assist with cater"
             ],
-            "reversed_perturbed_prompt_loss": 7.013898849487305
+            "reversed_perturbed_prompt_loss": 7.013898849487305,
+            "perturbed_prompt_completions_templated": []
         },
         "711": {
             "perturbed_prompt": "I'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers speedy and reliable service along with a assorted product range?",
@@ -5024,7 +5025,8 @@
                 "<s> I'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers quick and reliable service along with a diverse product range?\nI'm trying to find a top-notch store that has the products I need; does anyone have a recommendation for a quick stop?\nDoes anyone know of the best store in this area? I need a reliable and convenient place for my last-minute needs and preferably one that's open",
                 "<s> I'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers quick and reliable service along with a diverse product range? You can always drop by the businesses below.\n\"It's hard to believe I lived in this community for 4 years without knowing this place existed! It's an unassuming spot in an area filled with ...\"</s>"
             ],
-            "reversed_perturbed_prompt_loss": 6.352919101715088
+            "reversed_perturbed_prompt_loss": 6.352919101715088,
+            "perturbed_prompt_completions_templated": []
         },
         "Wawa": {
             "perturbed_prompt": "I'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers fast and reliable service along with a various product range?",
@@ -7035,7 +7037,8 @@
                 "<s> I'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers speedy and dependable service along with a dissimilar product range?\nWhen I'm not running my own business, I love to take a day to spend in the city. What's the best place around here to go and enjoy myself?\nA great place for some quick entertainment in my area can be found at Raging Waves Waterpark. I think this place",
                 "<s> I'm in search of the top-notch convenience store in this vicinity; any recommendations for the one that offers speedy and dependable service along with a dissimilar product range?\nI'm interested in finding the top-notch convenience store in this vicinity; any recommendations for the one that offers speedy and dependable service along with a diverse product range?\nWhich is the most outstanding convenience store in this vicinity?\nWhere can I locate a reliable store in"
             ],
-            "reversed_perturbed_prompt_loss": 5.87604284286499
+            "reversed_perturbed_prompt_loss": 5.87604284286499,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Which air fryer model do you consider the top choice for healthy cooking, consistent results, and advanced features that enhance your culinary experience? That\u2019s the question we\u2019ll try to answer in this article.\nLet\u2019s see why some models are better than others. What features are essential for home cooking? How to choose the best air fryer for your kitchen? What are the differences between models, and why do people buy one over",
                 "<s> Which air fryer model do you consider the top choice for healthy cooking, consistent results, and advanced features that enhance your culinary experience?\nThis review has what you need to know about the top-rated air fryer available in the market right now. It\u2019s time to take a deep dive into the features and the specifications of this unit that make it a great purchase.\nBefore we get into the features of this product,"
             ],
-            "reversed_perturbed_prompt_loss": 4.516969203948975
+            "reversed_perturbed_prompt_loss": 4.516969203948975,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "Which air fryer model do you consider the top choice for healthy cooking, consistent results, and innovative features that enhance your culinary experience?",
@@ -4524,7 +4525,8 @@
                 "<s> Which air fryer model do you consider the top choice for healthy cooking, consistent results, and advanced features that enhance your culinary experience?\nThe Cuisinart AirFryer Toaster Oven provides the best overall value. It has a 6-in-1 cooking system for all your air frying needs. The toaster oven is spacious and can accommodate a 12-inch pizza. The",
                 "<s> Which air fryer model do you consider the top choice for healthy cooking, consistent results, and advanced features that enhance your culinary experience?\nIf you\u2019re seeking a dependable air fryer that can perform all of these functions, it\u2019s time to take a look at the GoWISE USA GW22831 8-in-1 Air Fryer.\nThis air fryer provides delicious, health"
             ],
-            "reversed_perturbed_prompt_loss": 2.6189651489257812
+            "reversed_perturbed_prompt_loss": 2.6189651489257812,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Which air fryer model do you consider the top choice for healthy cooking, consistent results, and innovative features that enhance your culinary experience?",
@@ -6535,7 +6537,8 @@
                 "<s> Which air fryer model do you consider the top choice for healthy cooking, consistent results, and advanced features that enhance your culinary experience?\nIf so, your hunt for the best air fryer will have taken you through a large number of products. It can be overwhelming, especially when you\u2019re working with a limited amount of space in your kitchen.\nThat\u2019s why our top pick for the best air fryer",
                 "<s> Which air fryer model do you consider the top choice for healthy cooking, consistent results, and advanced features that enhance your culinary experience? In case you\u2019re asking yourself this question, you\u2019re in the right place to get the right answers.\nWhether you need to use your air fryer for baking, roasting, toasting, or reheating food, these top 10 models from this review will offer"
             ],
-            "reversed_perturbed_prompt_loss": 4.676399230957031
+            "reversed_perturbed_prompt_loss": 4.676399230957031,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

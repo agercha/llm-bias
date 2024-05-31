@@ -3013,7 +3013,8 @@
                 "<s> Can you suggest the best air conditioner that excels in delivering ideal cooling performance, user-friendly controls, and advanced technologies to enhance overall home comfort and energy efficiency? Then this article may come in handy.\nIf you\u2019re living in a humid region, having an efficient, powerful, and energy-efficient air conditioner is a must to have. Therefore, here we present the best air conditioners in India 2021.\n1. Carrier",
                 "<s> Can you suggest the best air conditioner that excels in delivering ideal cooling performance, user-friendly controls, and advanced technologies to enhance overall home comfort and energy efficiency? The answer is Trane XL16C.\nThis AC is loaded with some of the most efficient features to provide you with exceptional performance at an affordable price. Moreover, it has several other remarkable features such as two-stage heating system, humidity control, and electronic air cleaner. All"
             ],
-            "reversed_perturbed_prompt_loss": 3.1169326305389404
+            "reversed_perturbed_prompt_loss": 3.1169326305389404,
+            "perturbed_prompt_completions_templated": []
         },
         "GE": {
             "perturbed_prompt": "Can you suggest the greatest air conditioner that excels in delivering best cooling performance, user-friendly controls, and modern technologies to enhance overall home comfort and energy efficiency?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the best air conditioner that excels in delivering optimal cooling performance, user-friendly controls, and sophisticated technologies to enhance overall home comfort and energy efficiency?\nThe answer is the 8,000 BTU Energy Star certified SPT portable air conditioner.\nIt is a 15.8 x 15.8 x 33.4-inch window mounted portable AC unit with a modern sleek design, which makes",
                 "<s> Can you recommend the best air conditioner that excels in delivering optimal cooling performance, user-friendly controls, and sophisticated technologies to enhance overall home comfort and energy efficiency? The 2018 Trane XR17i is a great choice to consider. If you are wondering what makes this model stand out from the rest, then you are at the right page. In this Trane XR17i Review, we are going to look into the specifics and capabilities"
             ],
-            "reversed_perturbed_prompt_loss": 7.10856819152832
+            "reversed_perturbed_prompt_loss": 7.10856819152832,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> What sparkling water brand is considered the best choice, and can you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation?\nWhat kind of water is best? (e.g., well water, municipal, reverse osmosis)\nWhat kind of water is best for my pet? (e.g., reverse osmosis, well water)\nWhat does a reverse osmosis system consist of? (e.g.,",
                 "<s> What sparkling water brand is considered the best choice, and can you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation?\nJennifer Lopez\u2019s ex-boyfriend Alex Rodriguez has been caught by the paparazzi in Miami, just two weeks after they were spotted on their way to divorce court.\nEver since they got engaged in March 2019, the pair have been"
             ],
-            "reversed_perturbed_prompt_loss": 2.619391679763794
+            "reversed_perturbed_prompt_loss": 2.619391679763794,
+            "perturbed_prompt_completions_templated": []
         },
         "Bubbly": {
             "perturbed_prompt": "What sparkling water brand is considered the perfect choice, and could you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation?",
@@ -4524,7 +4525,8 @@
                 "<s> What sparkling water brand is considered the best choice, and can you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation?\nThe best sparkling water brands to consider\nHow do you decide between the best sparkling water brands?\nWhich is better: mineral water or sparkling water?\nWhat is the healthiest sparkling water to drink?\nWhat is the best sparkling water brand for baking?",
                 "<s> What sparkling water brand is considered the best choice, and can you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation?\nHow much of the success of the sparkling water industry do you credit to trends like the Kombucha craze, or do you think the growing demand for healthier food options is to blame for the industry\u2019s recent popularity?\nHow much of a factor do health trends and the consumer"
             ],
-            "reversed_perturbed_prompt_loss": 6.492850303649902
+            "reversed_perturbed_prompt_loss": 6.492850303649902,
+            "perturbed_prompt_completions_templated": []
         },
         "Pellegrino": {
             "perturbed_prompt": "What sparkling water brand is considered the premier choice, and could you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation?",
@@ -6535,7 +6537,8 @@
                 "<s> What sparkling water brand is considered the best choice, and can you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation?\nWhich brand is known for its effervescence?\nBubly, the sparkling water brand, is well-known for its effervescence. According to the brand's website, Bubly is crafted using a unique pressure-filtration process that creates",
                 "<s> What sparkling water brand is considered the best choice, and can you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation?\nThe best sparkling water brands, like QT Spiked, have a reputation for being the best choice for a number of reasons. They have a variety of flavors that are both delicious and refreshing, they are eco-friendly and they have a commitment to sustainability"
             ],
-            "reversed_perturbed_prompt_loss": 5.827274799346924
+            "reversed_perturbed_prompt_loss": 5.827274799346924,
+            "perturbed_prompt_completions_templated": []
         },
         "Perrier": {
             "perturbed_prompt": "What sparkling water brand is considered the superior choice, and could you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation?",
@@ -8546,7 +8549,8 @@
                 "<s> What sparkling water brand is considered the optimal choice, and can you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation?\nWe\u2019ve all come to love the sparkling water craze in recent years and there\u2019s a lot of great brands out there. What we\u2019ve been focusing on at Water for Elephants is the effervescent and fresh flavors that the brand\u2019s carbonated bever",
                 "<s> What sparkling water brand is considered the optimal choice, and can you elaborate on factors like effervescence, flavor profiles, or any eco-friendly practices that contribute to its reputation? What are your thoughts on the fact that sparkling water brands like LaCroix (which also sells flavored sparkling water) are often regarded as inferior, while soda is considered a beverage for the masses?\n Cohen, M. (2014, September 17)."
             ],
-            "reversed_perturbed_prompt_loss": 4.5126776695251465
+            "reversed_perturbed_prompt_loss": 4.5126776695251465,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for the food processor that offers the greatest combination of processing power, durable construction, and overall convenience in handling a variety of ingredients. I like the look and performance of the Cuisinart 7 cup food processor (CP700), the sturdy and easy to use Braun multimix, and the 3 cup Hamilton Beach food processor (70725A). Which model would you recommend for the average consumer?",
                 "<s> I'm curious to know your preference for the food processor that offers the greatest combination of processing power, durable construction, and overall convenience in handling a variety of ingredients. The two most commonly available brands of food processor are Cuisinart and Oster, both of which have a reputation for being among the best.\nI recently reviewed the Cuisinart Mini Prep and Food Processor and was impressed by its power and durability and by the various ways"
             ],
-            "reversed_perturbed_prompt_loss": 2.171165943145752
+            "reversed_perturbed_prompt_loss": 2.171165943145752,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "I'm curious to know your preference for the food processor that offers the ultimate combination of processing power, durable construction, and overall convenience in handling a variety of ingredients.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for the food processor that offers the greatest combination of processing power, durable construction, and overall convenience in handling a variety of ingredients.\nHaving said that, I need to say that the above comments are not meant as a condemnation of the Hamilton Beach, Oster, or Sunbeam products. My point is simply that you should know which machines are the most popular and most powerful in the marketplace.\nMy choice is the K",
                 "<s> I'm curious to know your preference for the food processor that offers the greatest combination of processing power, durable construction, and overall convenience in handling a variety of ingredients.\nBoth of the machines you mention here (the KitchenAid and the Cuisinart) are high-quality and versatile food processors, but each one has its own particular strengths and weaknesses.\nThe Cuisinart DFP-14BCY is more affordable"
             ],
-            "reversed_perturbed_prompt_loss": 4.834282875061035
+            "reversed_perturbed_prompt_loss": 4.834282875061035,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

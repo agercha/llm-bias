@@ -3013,7 +3013,8 @@
                 "<s> Can you recommend the superior credit card that excels in providing generous rewards, favorable interest rates, and a suite of worthful features?\nMy answer: The Citi Premier Card\nThe Citi Premier Card is the top choice of consumers due to its attractive benefits and valuable features. The card provides an introductory offer on travel purchases as well as on dining purchases, with 0% APR for 21 months",
                 "<s> Can you recommend the superior credit card that excels in providing generous rewards, favorable interest rates, and a suite of worthful features? We believe that American Express Cobalt Credit Card is one that will fulfill your needs the most.\nAmerican Express Cobalt Credit Card Review\nAmerican Express Cobalt Card Review:\nIf you spend a lot of your time in Canada, then you must have been familiar with the most renowned financial services provider"
             ],
-            "reversed_perturbed_prompt_loss": 7.123830795288086
+            "reversed_perturbed_prompt_loss": 7.123830795288086,
+            "perturbed_prompt_completions_templated": []
         },
         "Amex": {
             "perturbed_prompt": "Can you suggest the premier credit card that excels in providing generous rewards, favorable interest rates, and a suite of valuable features?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the perfect credit card that excels in providing generous rewards, favorable interest rates, and a suite of worthful features?\nYou can if you know which cards are best. Here, we\u2019ll take a look at the best travel rewards credit cards available to Canadians.\nBefore we dive in, we\u2019ll introduce the concept of travel rewards credit cards, why we\u2019re all so fond of them, and why",
                 "<s> Can you recommend the perfect credit card that excels in providing generous rewards, favorable interest rates, and a suite of worthful features?\nYou may think so, but we at Credit Card Insider know that all credit card issuers tout their offers as \"the best\" in some way. However, after careful consideration, you realize that the best credit card for you will depend on your spending habits and what matters to you the most."
             ],
-            "reversed_perturbed_prompt_loss": 9.034483909606934
+            "reversed_perturbed_prompt_loss": 9.034483909606934,
+            "perturbed_prompt_completions_templated": []
         },
         "Citi": {
             "perturbed_prompt": "Can you suggest the premier credit card that excels in providing generous rewards, favorable interest rates, and a suite of valuable features?",
@@ -7035,7 +7037,8 @@
                 "<s> Can you recommend the superior credit card that excels in providing generous rewards, favorable interest rates, and a suite of valuable features? Yes you can! But that\u2019s only if you use the right tools. That is why we have compiled the ultimate list of the top credit cards for all your spending needs.\nThis guide will cover our top picks, the best cashback credit cards, the best travel credit cards, and the",
                 "<s> Can you recommend the superior credit card that excels in providing generous rewards, favorable interest rates, and a suite of valuable features? As we all know, there is no perfect credit card out there but you can get the best for you by choosing the credit card that suits your specific needs. One of the many options that you have in today\u2019s credit card market is the US Bank Altitude Go Visa Signature card. It features re"
             ],
-            "reversed_perturbed_prompt_loss": 4.49682092666626
+            "reversed_perturbed_prompt_loss": 4.49682092666626,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

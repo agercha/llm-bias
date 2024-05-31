@@ -3013,7 +3013,8 @@
                 "<s> When exploring toasters, which one do you believe distinguishes itself with features such as even heat distribution, reliable pop-up functionality, and ease of cleaning, ensuring a premier toasting experience in your kitchen? It is quite difficult to locate a toaster that is reliable, practical, and easy to use, and this is a key issue. Toaster ovens can be more beneficial.\nWe have researched numerous toaster models and have selected the top 10 that we believe would meet your requirements. We have",
                 "<s> When exploring toasters, which one do you believe distinguishes itself with features such as even heat distribution, reliable pop-up functionality, and ease of cleaning, ensuring a premier toasting experience in your kitchen? The Hamilton Beach 22610 toaster is the solution for you.\nThis appliance comes with a plethora of features to elevate your toasting experience. It is equipped with four different shade settings that enable you to choose the perfect toasting level. It also comes with"
             ],
-            "reversed_perturbed_prompt_loss": 2.4039340019226074
+            "reversed_perturbed_prompt_loss": 2.4039340019226074,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "When exploring toasters, which one do you believe distinguishes itself with features such as even heat distribution, dependable pop-up functionality, and ease of cleaning, ensuring a greatest toasting experience in your kitchen?",
@@ -5024,7 +5025,8 @@
                 "<s> When exploring toasters, which one do you believe distinguishes itself with features such as even heat distribution, reliable pop-up functionality, and ease of cleaning, ensuring a premier toasting experience in your kitchen?\nThe Cuisinart CPT-430 4-Slice Toaster is a great option for anyone seeking a toaster that produces consistent results.\nIt is a toaster that combines all of the essential features of a toaster with aesthetic appeal.\nIts sleek",
                 "<s> When exploring toasters, which one do you believe distinguishes itself with features such as even heat distribution, reliable pop-up functionality, and ease of cleaning, ensuring a premier toasting experience in your kitchen? Well, you may never have to explore this range of toasters ever again.\nHere are the 10 best toasters in Singapore for you to buy now.\nOur picks are based on reviews, product features, and the best price for a fair deal. Check them out below:"
             ],
-            "reversed_perturbed_prompt_loss": 4.3329339027404785
+            "reversed_perturbed_prompt_loss": 4.3329339027404785,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

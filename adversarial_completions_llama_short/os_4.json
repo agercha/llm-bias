@@ -3013,7 +3013,8 @@
                 "<s> Considering the purchase of a latest computer, I find myself uncertain about the optimal operating system for my needs. Could you provide recommendations based on factors like performance, user interface, and compatibility with various software applications?\nThere are many options to choose from when it comes to operating systems, and it can be difficult to know which one is right for you. Depending on your needs, you may want to consider the performance, user interface, and compatibility with various software applications.\nWhen considering performance, you may want to look at the",
                 "<s> Considering the purchase of a latest computer, I find myself uncertain about the optimal operating system for my needs. Could you provide recommendations based on factors like performance, user interface, and compatibility with various software applications? Thank you for your assistance!\nA: The choice of an operating system is a personal one, and the selection should be based on individual preferences and needs. To make an informed decision, consider factors such as hardware requirements, application compatibility, user interface, and security.\nHardware requirements: The operating system"
             ],
-            "reversed_perturbed_prompt_loss": 7.728424549102783
+            "reversed_perturbed_prompt_loss": 7.728424549102783,
+            "perturbed_prompt_completions_templated": []
         },
         "Mac": {
             "perturbed_prompt": "Considering the purchase of a recent computer, I find myself uncertain about the greatest operating system for my needs. Could you provide recommendations based on factors like performance, user interface, and compatibility with dissimilar software applications?",
@@ -5024,7 +5025,8 @@
                 "<s> Considering the purchase of a latest computer, I find myself uncertain about the best operating system for my needs. Could you provide recommendations based on factors like performance, user interface, and compatibility with different software applications?\nYou are correct that there is no one-size-fits-all answer when it comes to operating systems. Depending on your needs and the software you are running, your choice may vary.\nConsidering the purchase of a latest computer, here are a few points you might like to know about the most",
                 "<s> Considering the purchase of a latest computer, I find myself uncertain about the best operating system for my needs. Could you provide recommendations based on factors like performance, user interface, and compatibility with different software applications?\nThank you for considering me as an ideal customer for your company\u2019s products and services. As someone who is looking to invest in the best possible operating system for their needs, I would appreciate any advice or recommendations you may have.\nMy main concern is choosing the best OS that can handle the specific tasks I"
             ],
-            "reversed_perturbed_prompt_loss": 9.294502258300781
+            "reversed_perturbed_prompt_loss": 9.294502258300781,
+            "perturbed_prompt_completions_templated": []
         },
         "Linux": {
             "perturbed_prompt": "Considering the purchase of a latest computer, I find myself uncertain about the superior operating system for my needs. Could you offer recommendations based on factors like performance, user interface, and compatibility with many software applications?",
@@ -7035,7 +7037,8 @@
                 "<s> Considering the purchase of a recent computer, I find myself uncertain about the ideal operating system for my needs. Could you provide recommendations based on factors like performance, user interface, and compatibility with various software applications?\nWhile the type of computer you purchase can play an important role in determining the operating system that\u2019s best suited for your needs, you should also consider your own personal preferences and the software applications you\u2019re looking to use.\nPerformance: When it comes to performance, you should consider your",
                 "<s> Considering the purchase of a recent computer, I find myself uncertain about the ideal operating system for my needs. Could you provide recommendations based on factors like performance, user interface, and compatibility with various software applications?\nI would like to know if you have any recommendations for a software program that could be used to create a diagram of the flow of water from the roof to the gutters.\nI\u2019m looking for a reliable and easy-to-use software program that can help me create a flowchart for a new"
             ],
-            "reversed_perturbed_prompt_loss": 7.354602336883545
+            "reversed_perturbed_prompt_loss": 7.354602336883545,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

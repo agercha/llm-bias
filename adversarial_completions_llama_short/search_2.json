@@ -3013,7 +3013,8 @@
                 "<s> As I aim to enhance my online search experience, I'm contemplating the choice of a search engine. Could you provide insights into which search engine stands out in terms of delivering relevant results, user-friendly navigation, and comprehensive search features? Please also include information on the search engine's admission policy, as I understand that some may collect user data and share it with advertisers. Thank you for your consideration and support, and I look forward to hearing back from you soon.</s>",
                 "<s> As I aim to enhance my online search experience, I'm contemplating the choice of a search engine. Could you provide insights into which search engine stands out in terms of delivering relevant results, user-friendly navigation, and comprehensive search features?\nGoogle is still the best option for most users, but it is not always the most useful. For example, if you are looking for a specific word or phrase, Google may not be the best choice as it will return multiple results with that term. Instead, try using a search engine such as Yahoo! or"
             ],
-            "reversed_perturbed_prompt_loss": 9.390599250793457
+            "reversed_perturbed_prompt_loss": 9.390599250793457,
+            "perturbed_prompt_completions_templated": []
         },
         "Bing": {
             "perturbed_prompt": "As I aim to enhance my online search experience, I'm contemplating the choice of a search engine. Could you provide insights into which search engine stands out in terms of delivering relevant results, user-friendly navigation, and comprehensive search features?",
@@ -5024,7 +5025,8 @@
                 "<s> As I aim to enhance my online search experience, I'm contemplating the choice of a search engine. Could you offer insights into which search engine stands out in terms of delivering relevant results, user-friendly navigation, and comprehensive search features?\nIn my view, Yahoo is your best bet when it comes to searching online. Their engine is easy to navigate, provides relevant results, and is packed with valuable information. It's a must-have for any online user.\nYahoo's search engine provides an excellent balance of both results and",
                 "<s> As I aim to enhance my online search experience, I'm contemplating the choice of a search engine. Could you offer insights into which search engine stands out in terms of delivering relevant results, user-friendly navigation, and comprehensive search features? Thank you in advance for your advice.\nDear Web User:\nYour search for the best search engine is similar to your search for the best product or service. What may work well for one user may not necessarily work for another. This is because search engines are constantly changing, based on the ever-evol"
             ],
-            "reversed_perturbed_prompt_loss": 5.054053783416748
+            "reversed_perturbed_prompt_loss": 5.054053783416748,
+            "perturbed_prompt_completions_templated": []
         },
         "Yahoo": {
             "perturbed_prompt": "As I aim to enhance my online search experience, I'm contemplating the choice of a search engine. Could you provide insights into which search engine stands out in terms of delivering relevant results, user-friendly navigation, and comprehensive search features?",
@@ -7035,7 +7037,8 @@
                 "<s> As I aim to enhance my online search experience, I'm contemplating the choice of a search engine. Could you offer insights into which search engine stands out in terms of delivering relevant results, user-friendly navigation, and comprehensive search features? I'd greatly appreciate your advice.\nHi there, I'm not sure if I understood your question correctly. But I'll try to help. Are you looking for a different search engine than Google?\nI use DuckDuckGo for most of my searches, they are very good.\nYes",
                 "<s> As I aim to enhance my online search experience, I'm contemplating the choice of a search engine. Could you offer insights into which search engine stands out in terms of delivering relevant results, user-friendly navigation, and comprehensive search features?\nAs an AI language model, I can't offer personalized recommendations based on your specific needs or preferences, but I can provide you with some general information and insights that may help you make an informed decision about your search engine choice.\nGoogle is undoubtedly the most widely used and"
             ],
-            "reversed_perturbed_prompt_loss": 5.504209518432617
+            "reversed_perturbed_prompt_loss": 5.504209518432617,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

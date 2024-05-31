@@ -2513,7 +2513,8 @@
                 "<s> Could you recommend the most good brand of bottled water available, and perhaps shed light on specific attributes like purity, source, or any distinctive features that make it exceptional?\nThis is a loaded question, with many factors to consider when making a recommendation. If it is just personal preference, then perhaps any bottled water that you enjoy and trust would do. But, if you need a recommendation based on purity, taste, or other attributes, I would consider a number of things before",
                 "<s> Could you recommend the most good brand of bottled water available, and perhaps shed light on specific attributes like purity, source, or any distinctive features that make it exceptional?\nAs always, I welcome your insights and recommendations, whether your opinion is favorable, unfavorable or neutral.\nWe've been hearing about all the recent problems with water bottling companies (think Dasani, Aquafina, etc) that were using \"natural\" water from various la"
             ],
-            "reversed_perturbed_prompt_loss": 4.648375988006592
+            "reversed_perturbed_prompt_loss": 4.648375988006592,
+            "perturbed_prompt_completions_templated": []
         },
         "Aquafina": {
             "perturbed_prompt": "Could you suggest the most excellent brand of bottled water available, and perhaps shed light on specific attributes like purity, source, or any distinctive features that make it exceptional?",
@@ -4524,7 +4525,8 @@
                 "<s> Could you suggest the most outstanding brand of bottled water available, and perhaps shed light on specific attributes like purity, source, or any distinctive features that make it exceptional?\nIf you have any ideas, please share them with me.\nI would have to do a little research. For bottled water in general I would suggest you look for an NSF-53 certified product that contains some level of fluoride. A good source of information is available on-line:",
                 "<s> Could you suggest the most outstanding brand of bottled water available, and perhaps shed light on specific attributes like purity, source, or any distinctive features that make it exceptional? I'm looking to try one out as a treat to my parents on their upcoming birthday.\nWhat exactly is a \"bottled water\"?\nAny water that is bottled and sold is a bottled water.\nFancy labels, pretty bottles, and celebrity endorsements do not"
             ],
-            "reversed_perturbed_prompt_loss": 2.8847498893737793
+            "reversed_perturbed_prompt_loss": 2.8847498893737793,
+            "perturbed_prompt_completions_templated": []
         },
         "Evian": {
             "perturbed_prompt": "Could you recommend the most exceptional brand of bottled water available, and perhaps shed light on specific attributes like purity, source, or any distinctive features that make it exceptional?",
@@ -6535,7 +6537,8 @@
                 "<s> Could you recommend the most good brand of bottled water available, and perhaps shed light on specific attributes like purity, source, or any distinctive features that make it exceptional?\nI can answer that question in terms of what I think of the most common brand: Dasani, owned by the Coca-Cola Corporation.\nIf you're a regular reader of this blog, you may remember that in 2015, I gave an overall grade to Dasani of B",
                 "<s> Could you recommend the most good brand of bottled water available, and perhaps shed light on specific attributes like purity, source, or any distinctive features that make it exceptional?\nHey Mikaela!\nI can only speak to a few, but in my opinion, Essentia water is one of the best options out there.\nEssentia has 2 great features:\n1) It\u2019s ionized \u2013 this means that the water has the properties of being"
             ],
-            "reversed_perturbed_prompt_loss": 3.9510347843170166
+            "reversed_perturbed_prompt_loss": 3.9510347843170166,
+            "perturbed_prompt_completions_templated": []
         },
         "Nestle": {
             "perturbed_prompt": "Could you suggest the most great brand of bottled water available, and perhaps shed light on specific attributes like purity, source, or any distinctive features that make it exceptional?",
@@ -8546,7 +8549,8 @@
                 "<s> Could you recommend the most good brand of bottled water available, and perhaps shed light on specific attributes like purity, source, or any distinctive features that make it exceptional?\nToday\u2019s topic is in honor of my father, who was a true water aficionado. In fact, I remember him always keeping a bottle of Evian with him on the go. He used to tell me that it tasted better than other bottled waters. So in his memory,",
                 "<s> Could you recommend the most good brand of bottled water available, and perhaps shed light on specific attributes like purity, source, or any distinctive features that make it exceptional?\nP.S. I was recently at Whole Foods and tasted a bottle of water there, from a company called Essentia. There was a taste/smell to the water that was so delicious that I asked the person selling the product what was in it. They claimed it was"
             ],
-            "reversed_perturbed_prompt_loss": 4.30027437210083
+            "reversed_perturbed_prompt_loss": 4.30027437210083,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

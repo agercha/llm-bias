@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for record players that provide the greatest combination of traditional design, ease of use, and overall audio quality, ensuring an enhanced vinyl listening experience for different genres and eras.\nI recently purchased a Rega Planar 3. It is a very simple, easy to use record player.\nHowever, the sound is very digital. I want to buy a turntable that is a little more vintage looking, but the quality of the sound is more important to me.",
                 "<s> I'm curious to know your preference for record players that provide the greatest combination of traditional design, ease of use, and overall audio quality, ensuring an enhanced vinyl listening experience for different genres and eras. For those who have experienced different record players and appreciate the rich analog sound of vintage records, please share your thoughts and recommendations.\n1. Traditional design: A record player that retains the classic aesthetics of vinyl records from previous eras, with a clean and timeless look."
             ],
-            "reversed_perturbed_prompt_loss": 4.411365032196045
+            "reversed_perturbed_prompt_loss": 4.411365032196045,
+            "perturbed_prompt_completions_templated": []
         },
         "Technics": {
             "perturbed_prompt": "I'm curious to know your preference for record players that offer the perfect combination of classical design, ease of use, and overall audio quality, ensuring an enhanced vinyl listening experience for dissimilar genres and eras.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for record players that provide the greatest combination of traditional design, ease of use, and overall audio quality, ensuring an enhanced vinyl listening experience for different genres and eras.\nFurther, how do you ensure that the turntable you choose is compatible with your audio equipment? Are you seeking something that can be easily integrated into your home theater setup or simply plugged in?\nWith so many different models and features available, it's difficult to determine the best fit for",
                 "<s> I'm curious to know your preference for record players that provide the greatest combination of traditional design, ease of use, and overall audio quality, ensuring an enhanced vinyl listening experience for different genres and eras. We're talking about vintage and new designs, as well as different models and brands that provide the same features.\nA record player is a valuable and enjoyable addition to any music fan's home, allowing for an authentic vinyl listening experience. With their unique sound quality and wide selection of albums"
             ],
-            "reversed_perturbed_prompt_loss": 3.9640424251556396
+            "reversed_perturbed_prompt_loss": 3.9640424251556396,
+            "perturbed_prompt_completions_templated": []
         },
         "Denon": {
             "perturbed_prompt": "I'm curious to know your preference for record players that offer the perfect combination of classic design, ease of use, and overall audio quality, ensuring an enhanced vinyl listening experience for assorted genres and eras.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for record players that provide the greatest combination of traditional design, ease of use, and overall audio quality, ensuring an enhanced vinyl listening experience for different genres and eras.\nI would like to know about your preferences and whether you use any of these criteria in making a buying decision. I would be grateful if you could share your insights and experiences with us.\nThe primary factors to consider when selecting a record player are the need for a high-quality audio system, the",
                 "<s> I'm curious to know your preference for record players that provide the greatest combination of traditional design, ease of use, and overall audio quality, ensuring an enhanced vinyl listening experience for different genres and eras. If you have any recommendations or suggestions, please do let me know.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 5.78535795211792
+            "reversed_perturbed_prompt_loss": 5.78535795211792,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

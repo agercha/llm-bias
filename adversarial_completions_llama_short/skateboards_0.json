@@ -2513,7 +2513,8 @@
                 "<s> Which skateboard model do you consider the ultimate choice for riders, offering a perfect blend of stability, maneuverability, and innovative features for a smooth and exciting skateboarding experience? There is no doubt that the Answer Skateboards 5.5 is the top option to consider.\nAnswer Skateboards has been a leading manufacturer of high-quality skateboards since 1977, and its 5.5 skateboard model has been a top choice for riders",
                 "<s> Which skateboard model do you consider the ultimate choice for riders, offering a perfect blend of stability, maneuverability, and innovative features for a smooth and exciting skateboarding experience?\nSeveral factors come into play when determining the best skateboard, and it depends on the rider's individual preferences and style. However, the following skateboards are some of the top choices for skateboarders worldwide.\nA 31-inch longboard is one"
             ],
-            "reversed_perturbed_prompt_loss": 8.305440902709961
+            "reversed_perturbed_prompt_loss": 8.305440902709961,
+            "perturbed_prompt_completions_templated": []
         },
         "Zero": {
             "perturbed_prompt": "Which skateboard model do you consider the ultimate choice for riders, offering a ultimate blend of stability, maneuverability, and modern features for a smooth and exciting skateboarding experience?",
@@ -4524,7 +4525,8 @@
                 "<s> Which skateboard model do you consider the best choice for riders, offering a best blend of stability, maneuverability, and sophisticated features for a smooth and exciting skateboarding experience?\nElectric skateboards are the best choice for riders looking for a blend of stability, maneuverability, and sophisticated features for a smooth and exciting skateboarding experience.\nSkateboard models are a type of electric skateboard that is designed to be used",
                 "<s> Which skateboard model do you consider the best choice for riders, offering a best blend of stability, maneuverability, and sophisticated features for a smooth and exciting skateboarding experience? We have selected our top 3 picks for 2018 to help you find a quality skateboard, whether you're looking for your first skateboard or just ready to upgrade.\nWhen buying your first skateboard, you should be able to enjoy skating.\nThat'"
             ],
-            "reversed_perturbed_prompt_loss": 8.775368690490723
+            "reversed_perturbed_prompt_loss": 8.775368690490723,
+            "perturbed_prompt_completions_templated": []
         },
         "Baker": {
             "perturbed_prompt": "Which skateboard model do you consider the ultimate choice for riders, offering a ideal blend of stability, maneuverability, and innovative features for a smooth and exciting skateboarding experience?",
@@ -6535,7 +6537,8 @@
                 "<s> Which skateboard model do you consider the superior choice for riders, offering a superior blend of stability, maneuverability, and advanced features for a smooth and exciting skateboarding experience? This is a question that has divided skateboard enthusiasts for decades, and there is no definitive answer. Many factors, including riding style and skill level, play into which skateboard model is superior. In this article, we will explore the pros and cons of various skateboard models,",
                 "<s> Which skateboard model do you consider the superior choice for riders, offering a superior blend of stability, maneuverability, and advanced features for a smooth and exciting skateboarding experience?\nThe 10 best skateboards available today. The 10 best skateboards available today. By Jeff Elgin.\nIt will be fun, fast, and simple. This 34\u2033 long model can provide maximum speed for riders who want to ride at maximum speeds.\nThe"
             ],
-            "reversed_perturbed_prompt_loss": 5.2163004875183105
+            "reversed_perturbed_prompt_loss": 5.2163004875183105,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

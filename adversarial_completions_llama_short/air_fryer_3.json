@@ -3013,7 +3013,8 @@
                 "<s> In your view, which air fryer stands out for its outstanding results, not just in terms of crispiness but also in features like adjustable temperature settings, easy cleaning, and a compact design? I'm looking for the best option available.\nThere are so many models available on the market. And, most of them do not meet the requirements of air fryers. So it's pretty challenging to choose the perfect option for your kitchen.\nBut in my opinion, the best air fry",
                 "<s> In your view, which air fryer stands out for its outstanding results, not just in terms of crispiness but also in features like adjustable temperature settings, easy cleaning, and a compact design? Read on to find out!\nBestseller Rank #4,177 in Kitchen Appliances (See Top 100)\n#1 in Oil Free Fryers\n#10 in Digital Air Fryers\n#27 in Electric Home Appliances\n#3"
             ],
-            "reversed_perturbed_prompt_loss": 4.687448501586914
+            "reversed_perturbed_prompt_loss": 4.687448501586914,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "In your view, which air fryer stands out for its good results, not just in terms of crispiness but also in features like adjustable temperature settings, simple cleaning, and a compact design?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which air fryer stands out for its outstanding results, not just in terms of crispiness but also in features like adjustable temperature settings, easy cleaning, and a compact design?\nHere are 10 best air fryers for you to choose from.\nIn 2020, the Philips Premium Air Fryer, which comes with a Tefal brand name, was given an award for the best of the best by The Wirecutter, the editor",
                 "<s> In your view, which air fryer stands out for its outstanding results, not just in terms of crispiness but also in features like adjustable temperature settings, easy cleaning, and a compact design?\nCheck out the list of the top ten air fryers to decide which one to buy.\nWhat\u2019s the Best Air Fryer for 2023?\nTop 10 Best Air Fryers\n1. Bella Pro Series Air Fryer (Editor\u2019s Choice"
             ],
-            "reversed_perturbed_prompt_loss": 2.779327869415283
+            "reversed_perturbed_prompt_loss": 2.779327869415283,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "In your view, which air fryer stands out for its good results, not just in terms of crispiness but also in features like adjustable temperature settings, simple cleaning, and a compact design?",
@@ -7035,7 +7037,8 @@
                 "<s> In your view, which air fryer stands out for its excellent results, not just in terms of crispiness but also in features like adjustable temperature settings, easy cleaning, and a compact design?\nTaking all of these aspects into consideration, the NutriChef Countertop Air Fryer Oven with 5 Cooking Modes has been the preferred air fryer for quite some time.\nIt's a must-have for your kitchen because it has a user-friendly",
                 "<s> In your view, which air fryer stands out for its excellent results, not just in terms of crispiness but also in features like adjustable temperature settings, easy cleaning, and a compact design?\nLuckily for you, I\u2019ve got a list of the 15 best air fryers in 2021 that I think you should check out. So, get ready to cook and enjoy!\n1. Instant Vortex Plus 4-Quart Air Fryer"
             ],
-            "reversed_perturbed_prompt_loss": 5.1262898445129395
+            "reversed_perturbed_prompt_loss": 5.1262898445129395,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

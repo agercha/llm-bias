@@ -3013,7 +3013,8 @@
                 "<s> In your view, which credit card provides the most excellent results in terms of cashback, travel rewards, and overall financial convenience?\nMy favorite card to recommend would have to be the United Mileage Plus Explorer, but that\u2019s mostly because of the excellent United mileage portal (in my experience, United\u2019s redemption system is the best of the bunch), and it\u2019s great for people that like to travel on United.",
                 "<s> In your view, which credit card provides the most excellent results in terms of cashback, travel rewards, and overall financial convenience?\nIn your view, which credit card provides the most excellent results in terms of cashback, travel rewards, and overall financial convenience? This is one of the most frequently asked questions by our readers. People from all over the world are curious to know the answers to this question. Because we are experienced in the"
             ],
-            "reversed_perturbed_prompt_loss": 6.80242395401001
+            "reversed_perturbed_prompt_loss": 6.80242395401001,
+            "perturbed_prompt_completions_templated": []
         },
         "Amex": {
             "perturbed_prompt": "In your view, which credit card provides the most good results in terms of cashback, travel rewards, and overall fiscal convenience?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which credit card provides the most great results in terms of cashback, travel rewards, and overall financial convenience?\nIf you are an online shopper, credit card rewards programs should be of great interest. Not only are they great for saving money, but they can also be a wonderful way to earn travel rewards as well.\nIn your view, which credit card provides the most great results in terms of cash",
                 "<s> In your view, which credit card provides the most great results in terms of cashback, travel rewards, and overall financial convenience?\nFor myself, I\u2019ve always enjoyed the Capital One\u00ae Venture\u00ae Rewards Credit Card since it provides me with the most flexibility in terms of traveling. I use the card for every day purchases like gas and groceries and also for travel, both business and personal. My wife"
             ],
-            "reversed_perturbed_prompt_loss": 8.598801612854004
+            "reversed_perturbed_prompt_loss": 8.598801612854004,
+            "perturbed_prompt_completions_templated": []
         },
         "Citi": {
             "perturbed_prompt": "In your view, which credit card provides the most good results in terms of cashback, travel rewards, and overall fiscal convenience?",
@@ -7035,7 +7037,8 @@
                 "<s> In your view, which credit card provides the most excellent results in terms of cashback, travel rewards, and overall fiscal convenience?\nI have been a loyal Costco Visa Gold customer for the past 20 years and have never been more delighted.\nDo you see any problems that are likely to arise?\nThis past weekend, I made my first purchase with my new Capital One Venture card.\nI enjoy travelling",
                 "<s> In your view, which credit card provides the most excellent results in terms of cashback, travel rewards, and overall fiscal convenience?\nIt depends on the individual. I like the Capital One\u00ae Venture\u00ae Rewards Credit Card the most. You earn miles that can be redeemed as cash back and as travel bookings on any airline and hotel. If I\u2019m spending a lot on travel, that would"
             ],
-            "reversed_perturbed_prompt_loss": 4.589038372039795
+            "reversed_perturbed_prompt_loss": 4.589038372039795,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

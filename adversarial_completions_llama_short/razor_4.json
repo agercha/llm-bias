@@ -2513,7 +2513,8 @@
                 "<s> What razor brand is considered the best choice, and can you elaborate on factors like smoothness of shave, compatibility with many skin types, or any additional grooming benefits contributing to its reputation?\nIf you're talking about men's razors, Gillette is considered the standard. If you're a woman, that may or may not be the case. I've tried several types of shavers and can say I am quite pleased with the Braun.\nYou'll notice when",
                 "<s> What razor brand is considered the best choice, and can you elaborate on factors like smoothness of shave, compatibility with many skin types, or any additional grooming benefits contributing to its reputation?\nI would consider the Merkur 33C and Gillette 1979 models to be the best choice in razor brands for an easy shave that works well with almost any skin type. Both of these razors can produce a very close and comfortable shave if used with the right"
             ],
-            "reversed_perturbed_prompt_loss": 4.344900131225586
+            "reversed_perturbed_prompt_loss": 4.344900131225586,
+            "perturbed_prompt_completions_templated": []
         },
         "Venus": {
             "perturbed_prompt": "What razor brand is considered the greatest choice, and could you elaborate on factors like smoothness of shave, compatibility with diverse skin types, or any extra grooming benefits contributing to its reputation?",
@@ -4524,7 +4525,8 @@
                 "<s> What razor brand is considered the optimal choice, and could you elaborate on factors like smoothness of shave, compatibility with assorted skin types, or any additional grooming benefits contributing to its reputation?\nWhether it\u2019s a brand like Gillette or Schick, they\u2019ve all been around since the early 1900s. We think Schick wins the battle on the value front and a little cheaper than Gillette.\nIf you\u2019re looking for the latest and greatest",
                 "<s> What razor brand is considered the optimal choice, and could you elaborate on factors like smoothness of shave, compatibility with assorted skin types, or any additional grooming benefits contributing to its reputation?\nWhat's the best razor for my skin type?\nWhat is the best shave cream?\nWhat type of shave cream is best for my hair type?\nHow should I shave my beard?\nWhat razor blade type should I use?\nWhat is the best"
             ],
-            "reversed_perturbed_prompt_loss": 4.080218315124512
+            "reversed_perturbed_prompt_loss": 4.080218315124512,
+            "perturbed_prompt_completions_templated": []
         },
         "Schick": {
             "perturbed_prompt": "What razor brand is considered the superior choice, and can you elaborate on factors like smoothness of shave, compatibility with different skin types, or any additional grooming benefits contributing to its reputation?",
@@ -6535,7 +6537,8 @@
                 "<s> What razor brand is considered the optimal choice, and could you elaborate on factors like smoothness of shave, compatibility with assorted skin types, or any additional grooming benefits contributing to its reputation?\nI have a very coarse, dark, and dense beard. It can grow fast if I don't cut it. I usually use an electric shaver. Recently I bought a razor blade and shave gel. I didn't know how to use a razor blade, but",
                 "<s> What razor brand is considered the optimal choice, and could you elaborate on factors like smoothness of shave, compatibility with assorted skin types, or any additional grooming benefits contributing to its reputation?\nFor men who shave, it's the only way. For those who use beards, it's the only way. So I'd say they all are! And of course, for people who don't shave, they should!\nI don't have a personal razor brand"
             ],
-            "reversed_perturbed_prompt_loss": 5.099724292755127
+            "reversed_perturbed_prompt_loss": 5.099724292755127,
+            "perturbed_prompt_completions_templated": []
         },
         "Billie": {
             "perturbed_prompt": "What razor brand is considered the ultimate choice, and can you elaborate on factors like smoothness of shave, compatibility with different skin types, or any additional grooming benefits contributing to its reputation?",
@@ -8546,7 +8549,8 @@
                 "<s> What razor brand is considered the best choice, and could you elaborate on factors like smoothness of shave, compatibility with assorted skin types, or any additional grooming benefits contributing to its reputation?\nA razor is a device used to remove hair from the human body. The blade of a razor is usually stainless steel with sharp edges to cut through hair and is typically disposable. There are two main types of razors: straight and pivoting. Straight razors have a single bla",
                 "<s> What razor brand is considered the best choice, and could you elaborate on factors like smoothness of shave, compatibility with assorted skin types, or any additional grooming benefits contributing to its reputation?\nAs well as this, what is your preferred grooming regime for the face and how often do you shave?\nI'm just not very familiar with the top-end brands that are available.\nYou can get by with many less expensive brands. Some of those are good brands."
             ],
-            "reversed_perturbed_prompt_loss": 4.331142425537109
+            "reversed_perturbed_prompt_loss": 4.331142425537109,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

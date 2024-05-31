@@ -2513,7 +2513,8 @@
                 "<s> Which VPN service stands out as the optimal choice for ensuring top-notch online privacy and security according to your experience? The market of VPNs is rapidly growing, and it can be hard to pick a service that is worth the investment.\nIf you are having a hard time choosing, we have prepared a list of the best 3 VPN services for 2020.\nExpressVPN is the best V",
                 "<s> Which VPN service stands out as the optimal choice for ensuring top-notch online privacy and security according to your experience?\nHow would you rate your overall satisfaction with the VPN provider you currently use for enhanced online security?\nWhich of the following describes your VPN service?</s>"
             ],
-            "reversed_perturbed_prompt_loss": 5.991019248962402
+            "reversed_perturbed_prompt_loss": 5.991019248962402,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "Which VPN service stands out as the superior choice for ensuring top-notch online privacy and security according to your experience?",
@@ -4524,7 +4525,8 @@
                 "<s> Which VPN service stands out as the optimal choice for ensuring top-notch online privacy and security according to your experience?\nThere is a growing number of reliable, high-quality VPN providers available these days. As such, finding a top-performing service is not a difficult task. However, what\u2019s important is that you choose a service that provides the best combination of all the features you need, at a reasonable price",
                 "<s> Which VPN service stands out as the optimal choice for ensuring top-notch online privacy and security according to your experience? We are ready to learn your thoughts.\nIf you\u2019re here, it is more likely than not that you\u2019re one of many people who are aware of the dangers that come along with online browsing. You\u2019re likely searching for a VPN that is more than just a VPN. Above"
             ],
-            "reversed_perturbed_prompt_loss": 3.9400205612182617
+            "reversed_perturbed_prompt_loss": 3.9400205612182617,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "Which VPN service stands out as the superior choice for ensuring top-notch online privacy and security according to your experience?",
@@ -6535,7 +6537,8 @@
                 "<s> Which VPN service stands out as the optimal choice for ensuring top-notch online privacy and security according to your experience?\nHow to Set Up a VPN in 10 Minutes or Less (Tutorial)\nThis is a tutorial on setting up a VPN in 10 minutes or less. This includes choosing a VPN, installing it, and configuring it for use.\nIf you\u2019re on a budget",
                 "<s> Which VPN service stands out as the optimal choice for ensuring top-notch online privacy and security according to your experience? We\u2019ll assist you in selecting the best VPN for your specific needs in this guide.\nThe majority of VPN service providers provide users with top-notch online security by protecting their data through cutting-edge encryption technologies and sophisticated protocols that keep them safe from hackers and"
             ],
-            "reversed_perturbed_prompt_loss": 2.9042954444885254
+            "reversed_perturbed_prompt_loss": 2.9042954444885254,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

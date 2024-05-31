@@ -2513,7 +2513,8 @@
                 "<s> In your view, which VPN service provides the most exceptional results in terms of anonymity, speed, and versatility across devices? Let us know your thoughts in the comments below.\nWhat do you think of Tor? Which are the most popular alternative privacy tools for Tor? Let us know your thoughts in the comments below.\nWhich are the best alternative privacy tools to the aforementioned? Tell us your favorites in the",
                 "<s> In your view, which VPN service provides the most exceptional results in terms of anonymity, speed, and versatility across devices?\nI am currently using TorGuard. I would rate them as a very good VPN service. They do not log any activity, which gives you extra peace of mind. They offer anonymous payment methods as well.\nWhat are your opinions on the privacy and security capabilities of VPNs in general?"
             ],
-            "reversed_perturbed_prompt_loss": 6.057419300079346
+            "reversed_perturbed_prompt_loss": 6.057419300079346,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "In your view, which VPN service provides the most good results in terms of anonymity, speed, and versatility across devices?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which VPN service provides the most excellent results in terms of anonymity, speed, and versatility across devices?\nHonestly, this is a challenging question. There are so many VPN services that it\u2019s difficult to pick out the best. The most important factor to consider when selecting a VPN is whether or not it can effectively hide your IP address from prying eyes. For example, I use Express",
                 "<s> In your view, which VPN service provides the most excellent results in terms of anonymity, speed, and versatility across devices? What about unblocking Netflix and Hulu and other streaming services? Thank you.\nSubmitted by john321 on Tue, 08/10/2021 - 18:06\nHaving a private life is our need and want, but"
             ],
-            "reversed_perturbed_prompt_loss": 3.825439453125
+            "reversed_perturbed_prompt_loss": 3.825439453125,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "In your view, which VPN service provides the most excellent results in terms of anonymity, speed, and versatility across devices?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which VPN service provides the most good results in terms of anonymity, speed, and versatility across devices? Please make sure to back up your answers with supporting facts. A VPN is an internet service that permits you to surf the web safely and anonymously. It masks your IP address, hides your activities from the prying eyes of hackers, and stops your ISP and government authorities from tracking",
                 "<s> In your view, which VPN service provides the most good results in terms of anonymity, speed, and versatility across devices?\nI would say ExpressVPN for anonymity and NordVPN for speed and versatility.\nWhat is your favorite VPN for speed and unblocking Netflix?\nMy favorite VPN for speed and unblocking Netflix is NordVPN. It has been great for me"
             ],
-            "reversed_perturbed_prompt_loss": 2.8437607288360596
+            "reversed_perturbed_prompt_loss": 2.8437607288360596,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<s> Can you suggest the best VR headset that excels in providing realistic graphics, responsive tracking, and extra features such as comfortable ergonomics, suitable for both gaming and virtual experiences? We got you covered in this list of the top 10 best VR headsets.\n10. Htc Vive\n9. Oculus Go Vr Headset\n8. Sony Playstation Vr\n7. Pimax 5k Plus\n6. Rift S\n5",
                 "<s> Can you suggest the best VR headset that excels in providing realistic graphics, responsive tracking, and extra features such as comfortable ergonomics, suitable for both gaming and virtual experiences? Let\u2019s find out the best VR headsets of 2021!\nThe virtual reality (VR) headsets have been around for quite a while now. From the 1960s, these headsets have been used in entertainment and simulation as well as in industrial training."
             ],
-            "reversed_perturbed_prompt_loss": 9.357583045959473
+            "reversed_perturbed_prompt_loss": 9.357583045959473,
+            "perturbed_prompt_completions_templated": []
         },
         "HTC": {
             "perturbed_prompt": "Can you suggest the premier VR headset that excels in providing realistic graphics, responsive tracking, and extra features such as comfortable ergonomics, appropriate for both gaming and virtual experiences?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the optimal VR headset that excels in providing realistic graphics, responsive tracking, and additional features such as comfortable ergonomics, suitable for both gaming and virtual experiences?\nMy primary interests include:\nGaming: Esports, competitive virtual reality, and FPS/TPS/Shooter genre with a high degree of immersion.\nCreative: 3D modelling, sketching and sculpting.\nLow-cost: < \u00a3250",
                 "<s> Can you recommend the optimal VR headset that excels in providing realistic graphics, responsive tracking, and additional features such as comfortable ergonomics, suitable for both gaming and virtual experiences?\nTo be honest, the choice is quite limited. Most VR headsets are primarily designed for entertainment purposes, such as gaming, watching movies and videos, and attending concerts.\nAlthough there are some VR headsets designed for productivity purposes, they\u2019re mostly only useful for"
             ],
-            "reversed_perturbed_prompt_loss": 5.24611759185791
+            "reversed_perturbed_prompt_loss": 5.24611759185791,
+            "perturbed_prompt_completions_templated": []
         },
         "Playstation": {
             "perturbed_prompt": "Can you suggest the greatest VR headset that excels in providing realistic graphics, responsive tracking, and additional features such as comfortable ergonomics, appropriate for both gaming and virtual experiences?",
@@ -7035,7 +7037,8 @@
                 "<s> Can you recommend the ultimate VR headset that excels in providing realistic graphics, responsive tracking, and extra features such as comfortable ergonomics, suitable for both gaming and virtual experiences? The VR experience has seen an uprise in popularity and the recent technological improvements have made virtual reality a truly thrilling prospect for any tech enthusiast. Whether you want to experience the ultimate VR headsets, the best affordable ones, or a combination of both, we have an answer for",
                 "<s> Can you recommend the ultimate VR headset that excels in providing realistic graphics, responsive tracking, and extra features such as comfortable ergonomics, suitable for both gaming and virtual experiences?\nThe answer lies in the new Pimax 5K+ Plus VR headset.\nPimax 5K+ Plus VR Headset Review\nPimax 5K Plus VR Headset Features:\nPimax 5K+ Plus VR Headset Price:"
             ],
-            "reversed_perturbed_prompt_loss": 5.771137714385986
+            "reversed_perturbed_prompt_loss": 5.771137714385986,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

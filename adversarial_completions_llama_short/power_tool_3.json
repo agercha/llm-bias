@@ -2513,7 +2513,8 @@
                 "<s> In your view, which power tool brand stands out for its outstanding results, not just in terms of tool lifespan but also in features like interchangeable batteries, effective cooling mechanisms, and a comprehensive range of compatible accessories?\nBy far, the most well-respected name in the power tool industry is Makita. They have a solid reputation for reliability, functionality, and longevity.\nWhich brand makes the most reliable cordless drills and impact drivers?\nThe DeWalt brand is one of the most popular",
                 "<s> In your view, which power tool brand stands out for its outstanding results, not just in terms of tool lifespan but also in features like interchangeable batteries, effective cooling mechanisms, and a comprehensive range of compatible accessories?\nIf you were looking to invest in a cordless drill, would you rather choose a power tool brand like DeWalt or Milwaukee?\nFor many professional woodworkers, the brand of cordless drill is of utmost importance.\nBecause, the tool of choice is the one"
             ],
-            "reversed_perturbed_prompt_loss": 6.580508232116699
+            "reversed_perturbed_prompt_loss": 6.580508232116699,
+            "perturbed_prompt_completions_templated": []
         },
         "DeWalt": {
             "perturbed_prompt": "In your view, which power tool brand stands out for its outstanding results, not just in terms of tool lifespan but also in features like interchangeable batteries, efficient cooling mechanisms, and a comprehensive range of compatible accessories?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which power tool brand stands out for its excellent results, not just in terms of tool lifespan but also in features like interchangeable batteries, effective cooling mechanisms, and a comprehensive range of compatible accessories?\nWhich brand is the cheapest without compromising on the quality of the tools?\nA tool\u2019s capacity for durability depends on its build quality, power source, safety, and durability standards. I have worked with all these tools and can vouch for their reliability.\nThe Hitachi brand",
                 "<s> In your view, which power tool brand stands out for its excellent results, not just in terms of tool lifespan but also in features like interchangeable batteries, effective cooling mechanisms, and a comprehensive range of compatible accessories?\nMakita. The company has a long history of being reliable, innovative, and user-focused. Its tools are also highly competitive.\nWhat do you think is the most impressive feature of this brand?\nIt\u2019s the Makita 18-volt LXT Lith"
             ],
-            "reversed_perturbed_prompt_loss": 2.81203031539917
+            "reversed_perturbed_prompt_loss": 2.81203031539917,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

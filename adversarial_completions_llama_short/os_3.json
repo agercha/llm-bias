@@ -3013,7 +3013,8 @@
                 "<s> In the market for a recent computer, I'm contemplating the choice of operating system. I'm interested in your insights on which operating system would be a great fit, taking into consideration performance, user interface, and compatibility with a variety of software applications. I want to stay current and in the know.\nI am a Linux user, and I love it. I use the Ubuntu distribution.\nLinux is a free and open source operating system that is available for free, and there are many different distributions to choose from. Ubuntu is a popular distribution, and it is known",
                 "<s> In the market for a recent computer, I'm contemplating the choice of operating system. I'm interested in your insights on which operating system would be a great fit, taking into consideration performance, user interface, and compatibility with a variety of software applications.\nTo add to the complexity of the decision, I'm open to the possibility of dual-booting if I end up with two that I love equally. My primary use for the computer will be web browsing, light gaming, and some programming.\nI will need a device that can be charged easily"
             ],
-            "reversed_perturbed_prompt_loss": 6.729100704193115
+            "reversed_perturbed_prompt_loss": 6.729100704193115,
+            "perturbed_prompt_completions_templated": []
         },
         "Mac": {
             "perturbed_prompt": "In the market for a latest computer, I'm contemplating the choice of operating system. I'm interested in your insights on which operating system would be a excellent fit, taking into consideration performance, user interface, and compatibility with a variety of software applications.",
@@ -5024,7 +5025,8 @@
                 "<s> In the market for a recent computer, I'm contemplating the choice of operating system. I'm interested in your insights on which operating system would be a great fit, taking into consideration performance, user interface, and compatibility with a variety of software applications.\nBased on my personal experience, I would recommend Windows 7 as a great choice for computer users. It provides superior performance and stability, a user-friendly interface, and compatibility with a wide range of software applications. Windows 7 also offers a range of useful features, such as a taskbar that can",
                 "<s> In the market for a recent computer, I'm contemplating the choice of operating system. I'm interested in your insights on which operating system would be a great fit, taking into consideration performance, user interface, and compatibility with a variety of software applications.\nThe two main contenders are Windows 10 and Linux, but which one would be better for me?\nWhat are the differences between these two operating systems in terms of performance, user interface, and compatibility with software applications?\nWhat are the strengths and weaknesses of each operating system, and which"
             ],
-            "reversed_perturbed_prompt_loss": 8.731738090515137
+            "reversed_perturbed_prompt_loss": 8.731738090515137,
+            "perturbed_prompt_completions_templated": []
         },
         "Linux": {
             "perturbed_prompt": "In the market for a latest computer, I'm contemplating the choice of operating system. I'm interested in your insights on which operating system would be a excellent fit, taking into consideration performance, user interface, and compatibility with a variety of software applications.",
@@ -7035,7 +7037,8 @@
                 "<s> In the market for a recent computer, I'm contemplating the choice of operating system. I'm interested in your insights on which operating system would be a exceptional fit, taking into consideration performance, user interface, and compatibility with a variety of software applications.\nIf you haven't already, I suggest taking a look at The Register's own guide to the different distributions of Linux. It goes into a lot of detail about the differences, and even the strengths and weaknesses of each of the top contenders. You might also want to look at the comparison",
                 "<s> In the market for a recent computer, I'm contemplating the choice of operating system. I'm interested in your insights on which operating system would be a exceptional fit, taking into consideration performance, user interface, and compatibility with a variety of software applications. Your suggestions and recommendations will be greatly appreciated.\nI've made an effort to evaluate both the pros and cons of each operating system and have come up with a short list of the top options available:\nPros: Fast and reliable, ideal for users who demand speed and efficiency.\nCons: Lack"
             ],
-            "reversed_perturbed_prompt_loss": 6.050507545471191
+            "reversed_perturbed_prompt_loss": 6.050507545471191,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

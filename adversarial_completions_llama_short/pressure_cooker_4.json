@@ -2513,7 +2513,8 @@
                 "<s> When exploring pressure cookers, which one do you believe distinguishes itself with features such as safety mechanisms, adjustable pressure settings, and ease of use, ensuring a premier cooking experience for assorted recipes? A pressure cooker may be the solution you\u2019re looking for.\nFinding the best pressure cooker is easy if you know what to look for. If you\u2019re in the market for a pressure cooker, then you may be wondering what the features are that make a pressure cooker great, and which",
                 "<s> When exploring pressure cookers, which one do you believe distinguishes itself with features such as safety mechanisms, adjustable pressure settings, and ease of use, ensuring a premier cooking experience for assorted recipes? If this is something you\u2019re looking for, then you\u2019ll be interested in the Ninja Foodi 8-in-1 Multi Cooker.\nThe Ninja Foodi cooker is one of the top-rated pressure cookers of 2020. It has a 4-"
             ],
-            "reversed_perturbed_prompt_loss": 6.924840450286865
+            "reversed_perturbed_prompt_loss": 6.924840450286865,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "When exploring pressure cookers, which one do you believe distinguishes itself with features such as safety mechanisms, adjustable pressure settings, and ease of use, ensuring a ideal cooking experience for assorted recipes?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring pressure cookers, which one do you believe distinguishes itself with features such as safety mechanisms, adjustable pressure settings, and ease of use, ensuring a premier cooking experience for many recipes? The answer is undoubtedly the Presto Precise Cooker.\nIn the world of pressure cookers, the Presto Precise Cooker is one of the few to offer the following characteristics:\nThe Presto Precise Cooker is a 6 quart pressure cooker that boasts",
                 "<s> When exploring pressure cookers, which one do you believe distinguishes itself with features such as safety mechanisms, adjustable pressure settings, and ease of use, ensuring a premier cooking experience for many recipes?\nThe T-Fal Stainless Steel Clip Lock Pressure Cooker is a pressure cooker with a contemporary appearance, an advanced safety locking mechanism, and numerous safety characteristics that make it perfect for home and professional chefs alike.\nIt\u2019s designed to be used for both pressure cook"
             ],
-            "reversed_perturbed_prompt_loss": 4.594517230987549
+            "reversed_perturbed_prompt_loss": 4.594517230987549,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "When exploring pressure cookers, which one do you believe distinguishes itself with features such as safety mechanisms, adjustable pressure settings, and ease of use, ensuring a ideal cooking experience for assorted recipes?",
@@ -6535,7 +6537,8 @@
                 "<s> When exploring pressure cookers, which one do you believe distinguishes itself with features such as safety mechanisms, adjustable pressure settings, and ease of use, ensuring a perfect cooking experience for diverse recipes?\nFounded in 2003, the Kuhn Rikon family has been dedicated to making a difference in home cooking, thanks to their innovative and well-designed pressure cookers. Kuhn Rikon products are designed to improve and change the way we use cooking appliances to make",
                 "<s> When exploring pressure cookers, which one do you believe distinguishes itself with features such as safety mechanisms, adjustable pressure settings, and ease of use, ensuring a perfect cooking experience for diverse recipes? If yes, then it\u2019s time to take a look at the T-fal P35107 Actifry Air Fryer.\nA versatile machine that allows you to cook everything from chips to steak, and even desserts, the T-fal P3510"
             ],
-            "reversed_perturbed_prompt_loss": 2.5311686992645264
+            "reversed_perturbed_prompt_loss": 2.5311686992645264,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

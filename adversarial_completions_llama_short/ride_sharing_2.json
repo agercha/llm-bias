@@ -3013,7 +3013,8 @@
                 "<s> I'm curious to know your preference for ride-sharing services that provide the greatest combination of affordable fares, fast response times, and overall customer satisfaction, ensuring a hassle-free transportation experience for users with dissimilar travel needs.\nIf you're not familiar with them, Uber and Lyft are two of the best ride-sharing apps in the U.S. With each of them, you're able to summon a ride from a nearby driver by using your phone. It's that simple. If you're",
                 "<s> I'm curious to know your preference for ride-sharing services that provide the greatest combination of affordable fares, fast response times, and overall customer satisfaction, ensuring a hassle-free transportation experience for users with dissimilar travel needs.\nThe ride-sharing service you've chosen in this poll may also have a ripple effect on public transit. How do you think the ride-sharing industry will impact public transportation?\nPublic transit may increase due to a greater number of people opting for ride-sharing service"
             ],
-            "reversed_perturbed_prompt_loss": 3.968510389328003
+            "reversed_perturbed_prompt_loss": 3.968510389328003,
+            "perturbed_prompt_completions_templated": []
         },
         "Lyft": {
             "perturbed_prompt": "I'm curious to know your preference for ride-sharing services that offer the premier combination of affordable fares, speedy response times, and overall customer satisfaction, ensuring a hassle-free transportation experience for users with diverse travel needs.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm curious to know your preference for ride-sharing services that offer the best combination of affordable fares, fast response times, and overall customer satisfaction, ensuring a hassle-free transportation experience for users with different travel needs.\nWe\u2019ll use this article to answer some of the most frequently asked questions about ride-sharing services.\nWhat is a ride-sharing service?\nA ride-sharing service is an app that connects passengers and drivers for the purpose of transportation.\nWhat are the benefits of using a",
                 "<s> I'm curious to know your preference for ride-sharing services that offer the best combination of affordable fares, fast response times, and overall customer satisfaction, ensuring a hassle-free transportation experience for users with different travel needs. With that in mind, I encourage you to take the time to take this short survey, and provide feedback on the ride-sharing services that are most important to you. By sharing your thoughts, you'll be helping to shape the future of transportation in your city and around the world.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 2.635967254638672
+            "reversed_perturbed_prompt_loss": 2.635967254638672,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

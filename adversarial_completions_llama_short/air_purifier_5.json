@@ -2513,7 +2513,8 @@
                 "<s> Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for perfect filtration, energy efficiency, and additional benefits such as real-time air quality monitoring.\nThe GermGuardian 29950CA is a good quality air purifier with the option to automatically adjust fan speed depending on the air quality in your home.\nWhat Is The GermGuardian 29950CA Air Purifier\nGermGuardian Air Purifiers",
                 "<s> Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for perfect filtration, energy efficiency, and additional benefits such as real-time air quality monitoring.\nBest Air Purifier \u2013 Our Recommendations\nTop 5 Reasons Why Our Pick is the Best Air Purifier\nWhy We Recommend This Model\nTop Air Purifier for Small Rooms\nWhat to Consider Before Buying an Air Purifier\nWho Can Benefit from an Air Pur"
             ],
-            "reversed_perturbed_prompt_loss": 5.885894298553467
+            "reversed_perturbed_prompt_loss": 5.885894298553467,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standardized for greatest filtration, energy efficiency, and extra benefits such as real-time air quality monitoring.",
@@ -4524,7 +4525,8 @@
                 "<s> Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for optimal filtration, energy efficiency, and additional benefits such as real-time air quality monitoring. This is a tough task, for the air purifier market is awash with hundreds of different models, and each claims to have its unique advantages.\nFor this review, we\u2019ve focused on the Winix 5500-2 Air Purifier. This model features an attractive price point that",
                 "<s> Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for optimal filtration, energy efficiency, and additional benefits such as real-time air quality monitoring. Filters the air more thoroughly. Maintains better air quality.\nOur comprehensive Blueair Classic 605 review is here to help you make an informed decision.\nWhat is the air purifier model?\nFeatures/Benefits of Blueair Classic 605\nAir"
             ],
-            "reversed_perturbed_prompt_loss": 3.947571277618408
+            "reversed_perturbed_prompt_loss": 3.947571277618408,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standardized for best filtration, energy efficiency, and additional benefits such as real-time air quality monitoring.",
@@ -6535,7 +6537,8 @@
                 "<s> Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for perfect filtration, energy efficiency, and extra benefits such as real-time air quality monitoring. The Airfree 3100 Ultra, in its own way, has proven to be the best all-around product on the market.\nWhat is Airfree 3100?\nThe Airfree 3100 Ultra is the perfect example of air purification at its finest",
                 "<s> Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for perfect filtration, energy efficiency, and extra benefits such as real-time air quality monitoring. We are glad to share that we came across the Honeywell 50250-S Smart Air Purifier.\nThis high-efficiency air cleaner features HEPA filtration to trap 99.97% of airborne pollutants as small as 0."
             ],
-            "reversed_perturbed_prompt_loss": 5.899076461791992
+            "reversed_perturbed_prompt_loss": 5.899076461791992,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

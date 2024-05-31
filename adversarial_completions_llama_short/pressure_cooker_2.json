@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for the pressure cooker that offers the greatest combination of cooking performance, durable construction, and overall convenience in preparing a variety of dishes.\nThe Hamilton Beach Stay or Go is an excellent cooker, but not perfect. The inner lid has a bit of a tendency to leak during the cooking process and there are other minor flaws as well. For me, though, these minor issues pale in comparison to the fact that it delivers on",
                 "<s> I'm curious to know your preference for the pressure cooker that offers the greatest combination of cooking performance, durable construction, and overall convenience in preparing a variety of dishes.\nI'm aware of two brands of pressure cooker, a large commercial one from Aroma and a smaller one from Kuhn Rikon. Both appear to be well-made, but neither offer a non-stick surface on the inside of the pot, which I find makes the cleanup task"
             ],
-            "reversed_perturbed_prompt_loss": 7.607747554779053
+            "reversed_perturbed_prompt_loss": 7.607747554779053,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "I'm curious to know your preference for the pressure cooker that offers the perfect combination of cooking performance, durable construction, and overall convenience in preparing a variety of dishes.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for the pressure cooker that offers the greatest combination of cooking performance, durable construction, and overall convenience in preparing a variety of dishes. And also to find out if there are other pressure cookers you prefer and if so, why.\nAs a bonus, if you feel compelled to share, tell us what you look for when purchasing a kitchen tool that's not necessarily a pressure cooker. And perhaps the most important thing you look for",
                 "<s> I'm curious to know your preference for the pressure cooker that offers the greatest combination of cooking performance, durable construction, and overall convenience in preparing a variety of dishes.\nFor me, it was a simple choice. I chose the Kuhn Rikon 87622 Stainless Steel Pressure Cooker for a variety of reasons, but primarily because of the convenience of the dishwasher-safe, seamless aluminum body combined with the"
             ],
-            "reversed_perturbed_prompt_loss": 5.014820575714111
+            "reversed_perturbed_prompt_loss": 5.014820575714111,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "I'm curious to know your preference for the pressure cooker that offers the premier combination of cooking performance, durable construction, and overall convenience in preparing a variety of dishes.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for the pressure cooker that offers the greatest combination of cooking performance, durable construction, and overall convenience in preparing a variety of dishes.\nI'm hoping you'll take time to read through the reviews to see what other people have found out, but please do remember that when you choose a pressure cooker that they aren't all going to be suitable for the same type of recipes.\nIf you prefer to prepare a variety of d",
                 "<s> I'm curious to know your preference for the pressure cooker that offers the greatest combination of cooking performance, durable construction, and overall convenience in preparing a variety of dishes. You might even consider using a pressure cooker when you want to make a large batch of soup or sauce. If you could, please tell us which one you consider the best.\nThere is no right or wrong answer to this question. There are many pressure cookers out there that are built to last a very"
             ],
-            "reversed_perturbed_prompt_loss": 2.5707476139068604
+            "reversed_perturbed_prompt_loss": 2.5707476139068604,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

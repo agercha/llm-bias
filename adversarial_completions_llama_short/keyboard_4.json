@@ -3013,7 +3013,8 @@
                 "<s> When exploring mechanical keyboards, which one do you believe distinguishes itself with features such as customizable keycaps, dedicated media controls, and versatility for diverse switch preferences, ensuring top-tier performance for keyboard enthusiasts with various needs? Well, the SteelSeries Apex 7 TKL Keyboard should be among your top considerations if that's the case.\nSteelSeries Apex 7 TKL - A Brief Introduction\nWhether you're looking for a mechanical keyboard for gaming, coding,",
                 "<s> When exploring mechanical keyboards, which one do you believe distinguishes itself with features such as customizable keycaps, dedicated media controls, and versatility for diverse switch preferences, ensuring top-tier performance for keyboard enthusiasts with various needs? Look no further than the Corsair K100 RGB Keyboard, our ultimate top pick.\nThe K100 RGB keyboard delivers high-performance and a sleek, modern aesthetic with a customizable design that enables customization for gamers and professionals."
             ],
-            "reversed_perturbed_prompt_loss": 3.4444570541381836
+            "reversed_perturbed_prompt_loss": 3.4444570541381836,
+            "perturbed_prompt_completions_templated": []
         },
         "Keychron": {
             "perturbed_prompt": "When exploring mechanical keyboards, which one do you believe distinguishes itself with features such as customizable keycaps, dedicated media controls, and versatility for dissimilar switch preferences, ensuring top-tier performance for keyboard enthusiasts with dissimilar needs?",
@@ -5024,7 +5025,8 @@
                 "<s> When exploring mechanical keyboards, which one do you believe distinguishes itself with features such as customizable keycaps, dedicated media controls, and versatility for assorted switch preferences, ensuring top-tier performance for keyboard enthusiasts with assorted needs? Of course, the ZBD-70. If that wasn\u2019t enough, ZBD-70 also offers unique switches which have been tested to perform well in extreme conditions.\nZBD-70 is a 104-key, compact-sized mechanical keyboard with a sleek design",
                 "<s> When exploring mechanical keyboards, which one do you believe distinguishes itself with features such as customizable keycaps, dedicated media controls, and versatility for assorted switch preferences, ensuring top-tier performance for keyboard enthusiasts with assorted needs? The CK64 Mini is Cooler Master\u2019s newest addition to the family, and it has us excited!\n (Cooler Master Official Website)\nCooler Master, a well-known peripheral brand in the industry, introduced the CK64, a compact R"
             ],
-            "reversed_perturbed_prompt_loss": 4.375367641448975
+            "reversed_perturbed_prompt_loss": 4.375367641448975,
+            "perturbed_prompt_completions_templated": []
         },
         "Epomaker": {
             "perturbed_prompt": "When exploring mechanical keyboards, which one do you believe distinguishes itself with features such as customizable keycaps, dedicated media controls, and versatility for dissimilar switch preferences, ensuring top-tier performance for keyboard enthusiasts with many needs?",
@@ -7035,7 +7037,8 @@
                 "<s> When exploring mechanical keyboards, which one do you believe distinguishes itself with features such as customizable keycaps, dedicated media controls, and versatility for various switch preferences, ensuring top-tier performance for keyboard enthusiasts with assorted needs? The K870 is your solution.\nIt is an amazing device with many features. This keyboard has a sleek and compact design with RGB backlighting that provides a great typing experience. It also has an easy-to-use layout with a good typing experience. The keyboard is also very light",
                 "<s> When exploring mechanical keyboards, which one do you believe distinguishes itself with features such as customizable keycaps, dedicated media controls, and versatility for various switch preferences, ensuring top-tier performance for keyboard enthusiasts with assorted needs?\nWell, let us present the Cooler Master MasterKeys MK850 RGB Mechanical Keyboard, the keyboard that does it all!\nThe Cooler Master MasterKeys MK850 RGB Mechanical Keyboard features a sturdy aluminum chassis, providing"
             ],
-            "reversed_perturbed_prompt_loss": 5.1865315437316895
+            "reversed_perturbed_prompt_loss": 5.1865315437316895,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

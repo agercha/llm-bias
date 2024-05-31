@@ -2513,7 +2513,8 @@
                 "<s> When exploring kitchen mixers, which one do you believe distinguishes itself with features such as splash guards, easy cleaning options, and versatility for diverse culinary tasks, ensuring top-tier performance for chefs and home cooks with assorted needs? We are referring to the KitchenAid Pro 5 Plus 5qt Bowl Lift Stand Mixer. KitchenAid is a premium brand and their 5 Plus stand mixer is the culmination of their cutting-edge technology and unmatched ingenuity. It\u2019s the top",
                 "<s> When exploring kitchen mixers, which one do you believe distinguishes itself with features such as splash guards, easy cleaning options, and versatility for diverse culinary tasks, ensuring top-tier performance for chefs and home cooks with assorted needs?\nSay hello to the Breville KSM750SIL Smart Scoop Immersion Blender!\nMix, puree, blend, chop and whip in a single unit with the help of the Smart Scoop Immersion Blender. It\u2019s"
             ],
-            "reversed_perturbed_prompt_loss": 2.353276491165161
+            "reversed_perturbed_prompt_loss": 2.353276491165161,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "When exploring kitchen mixers, which one do you believe distinguishes itself with features such as splash guards, simple cleaning options, and versatility for dissimilar culinary tasks, ensuring top-tier performance for chefs and home cooks with dissimilar needs?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring kitchen mixers, which one do you believe distinguishes itself with features such as splash guards, easy cleaning options, and versatility for assorted culinary tasks, ensuring top-tier performance for chefs and home cooks with assorted needs? That\u2019s what this Kenwood kitchen mixer review is all about.\nWhile not all kitchen mixers are made equal, the Kenwood kitchen mixer, model KMX250, is designed to make whipping, beating, and blending a breeze for home and professional che",
                 "<s> When exploring kitchen mixers, which one do you believe distinguishes itself with features such as splash guards, easy cleaning options, and versatility for assorted culinary tasks, ensuring top-tier performance for chefs and home cooks with assorted needs? If you are searching for kitchen mixers that fit these requirements, our 12-quart KitchenAid mixer with 10 speeds, 577-Watts of power, and 5-quart glass bowl is designed to serve as your go-to appliance"
             ],
-            "reversed_perturbed_prompt_loss": 4.861186504364014
+            "reversed_perturbed_prompt_loss": 4.861186504364014,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "When exploring kitchen mixers, which one do you believe distinguishes itself with features such as splash guards, simple cleaning options, and versatility for dissimilar culinary tasks, ensuring top-tier performance for chefs and home cooks with dissimilar needs?",
@@ -6535,7 +6537,8 @@
                 "<s> When exploring kitchen mixers, which one do you believe distinguishes itself with features such as splash guards, easy cleaning options, and versatility for different culinary tasks, ensuring top-tier performance for chefs and home cooks with diverse needs? For those seeking exceptional kitchen mixers that stand out from the competition, MKitchen\u2019s collection may be the ideal solution. A one-stop shop for kitchen mixer innovation, MKitchen has revolutionized the culinary industry with cutting-edge products that elevate both professional and at-home cook",
                 "<s> When exploring kitchen mixers, which one do you believe distinguishes itself with features such as splash guards, easy cleaning options, and versatility for different culinary tasks, ensuring top-tier performance for chefs and home cooks with diverse needs? Well, the Ninja Kitchen System with Foodi is an all-in-one kitchen appliance with all these features, making it the ideal addition to any kitchen.\nThe Ninja Kitchen System with Foodi is a must-have kitchen appliance for anyone who loves to cook and eat healthy"
             ],
-            "reversed_perturbed_prompt_loss": 2.5107758045196533
+            "reversed_perturbed_prompt_loss": 2.5107758045196533,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

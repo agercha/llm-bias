@@ -2513,7 +2513,8 @@
                 "<s> What characteristics should one look for in the quest to find the ultimate battery, considering aspects like efficiency, durability, and consistent performance?\nOne of the biggest and most exciting questions we\u2019re working on is the development of a battery that will eventually replace the lithium ion batteries we know and love (or not so love). But what characteristics should one look for in the quest to find the ultimate battery, considering aspects like efficiency,",
                 "<s> What characteristics should one look for in the quest to find the ultimate battery, considering aspects like efficiency, durability, and consistent performance?\nThe answer is quite simple, as the ideal solution must be safe, efficient, and reliable. This is the same reason that most people prefer to use lithium-ion batteries rather than other battery options.\nFor starters, lithium-ion batteries are extremely safe. They will not comb"
             ],
-            "reversed_perturbed_prompt_loss": 2.918727159500122
+            "reversed_perturbed_prompt_loss": 2.918727159500122,
+            "perturbed_prompt_completions_templated": []
         },
         "Energizer": {
             "perturbed_prompt": "What characteristics should one look for in the quest to find the premier battery, considering aspects like efficiency, durability, and consistent performance?",
@@ -4524,7 +4525,8 @@
                 "<s> What characteristics should one look for in the quest to find the ultimate battery, considering aspects like efficiency, durability, and consistent performance? How can batteries maintain high performance over long periods of time? Can the answers to these questions be found in the latest technological innovations?\nIn this paper, we\u2019ll take a look at the technology of lithium ion batteries and discuss how they can solve the performance and lifetime issues that affect most",
                 "<s> What characteristics should one look for in the quest to find the ultimate battery, considering aspects like efficiency, durability, and consistent performance?\nAt what level is the current being dissipated, and at what rate is it decreasing?\nIs there a limit to how much you can decrease it, before it becomes non-functional?\nHow much more can you decrease it, before it becomes counterproductive?\nAre you taking the battery"
             ],
-            "reversed_perturbed_prompt_loss": 2.7955620288848877
+            "reversed_perturbed_prompt_loss": 2.7955620288848877,
+            "perturbed_prompt_completions_templated": []
         },
         "Panasonic": {
             "perturbed_prompt": "What characteristics should one look for in the quest to find the premier battery, considering aspects like efficiency, durability, and consistent performance?",
@@ -6535,7 +6537,8 @@
                 "<s> What characteristics should one look for in the quest to find the optimal battery, considering aspects like efficiency, durability, and consistent performance? We have reviewed some of the best ones to see what they have to offer and if they can really help you optimize your gaming experience.\nIt can be quite a hassle to find the right one. With so many on the market, it is not easy to decide what battery to buy. We have",
                 "<s> What characteristics should one look for in the quest to find the optimal battery, considering aspects like efficiency, durability, and consistent performance?\nLithium ion (Li-ion) and Lithium ion Polymer (LiPo) are two of the most commonly used batteries in high-end drones. However, as Li-ion and LiPo batteries have been around for a long time, newer lithium metal batteries"
             ],
-            "reversed_perturbed_prompt_loss": 3.552217960357666
+            "reversed_perturbed_prompt_loss": 3.552217960357666,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

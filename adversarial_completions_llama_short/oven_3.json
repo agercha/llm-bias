@@ -2513,7 +2513,8 @@
                 "<s> In your view, which oven stands out for its outstanding results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning?\nThe winner of the \"Oven with Outstanding Results\" category in the Oven Test was the AEG KG366340B. We gave this oven the title because of its outstanding features, the result of our tests was also very good.\nThe AEG KG3",
                 "<s> In your view, which oven stands out for its outstanding results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning?\nThe Senseo Xcelion is my favourite at the moment. With its 5,900 watts of power, the Xcelion is also the strongest oven on the market. It stands out for its convection technology, which uses a fan to circulate the air"
             ],
-            "reversed_perturbed_prompt_loss": 2.8520939350128174
+            "reversed_perturbed_prompt_loss": 2.8520939350128174,
+            "perturbed_prompt_completions_templated": []
         },
         "KitchenAid": {
             "perturbed_prompt": "In your view, which oven stands out for its good results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which oven stands out for its outstanding results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning?\nPHILIP POLSTER: The Scholtes Gourmet is clearly the top model in this segment. It boasts the most advanced cooking technology and the biggest cooking capacity.\nThe cooking performance is excellent and it has a generous glass door, but in my view, what",
                 "<s> In your view, which oven stands out for its outstanding results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning?\nSophie: For me, the VarioClean 8000. It has a clever combi steam oven with the VarioClean function that ensures even faster cleaning. And when I'm looking for a smart oven, the VarioClean 900"
             ],
-            "reversed_perturbed_prompt_loss": 2.9274065494537354
+            "reversed_perturbed_prompt_loss": 2.9274065494537354,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "In your view, which oven stands out for its great results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which oven stands out for its outstanding results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning?\nScheel: The GBS 6284 D in our EcoVario line. With the GBS 6284 D, we are the only brand that offers a completely electric glass-ceramic plate in the over 70-liter capacity segment. It impresses with",
                 "<s> In your view, which oven stands out for its outstanding results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning?\nThis product from our \u201cExclusive\u201d series really catches the eye. At 66 cm wide, the oven features a 25-litre main cavity and 50 cm wide cavity, meaning that there is plenty of space for all of your baking utensils."
             ],
-            "reversed_perturbed_prompt_loss": 3.6522066593170166
+            "reversed_perturbed_prompt_loss": 3.6522066593170166,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

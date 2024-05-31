@@ -3013,7 +3013,8 @@
                 "<s> If you had to pinpoint the best credit card in the market, which one would it be, and what specific features make it stand out as the top choice for financial transactions?\nThe short answer is that it all depends on the type of spending you\u2019re doing, and your specific circumstances. There are some general features that make certain credit cards stand out above others.\nA good credit card with high acceptance rates. It should also have a decent rate for cash advances and",
                 "<s> If you had to pinpoint the best credit card in the market, which one would it be, and what specific features make it stand out as the top choice for financial transactions?\nYou might answer by suggesting the Amex EveryDay\u00ae Preferred Credit Card, and it is one of the most well-loved cards in the market. However, there are still a lot of users who haven\u2019t decided whether they should apply for this particular credit card. If this is the case,"
             ],
-            "reversed_perturbed_prompt_loss": 9.130627632141113
+            "reversed_perturbed_prompt_loss": 9.130627632141113,
+            "perturbed_prompt_completions_templated": []
         },
         "Chase": {
             "perturbed_prompt": "If you had to pinpoint the premier credit card in the market, which one would it be, and what specific features make it stand out as the top choice for financial transactions?",
@@ -5024,7 +5025,8 @@
                 "<s> If you had to pinpoint the ideal credit card in the market, which one would it be, and what specific features make it stand out as the top choice for financial transactions? If you are looking for a credit card to take your business to the next level, you are certainly not alone. One way of making a statement in business is by having access to funds when required to meet emergencies and other financial obligations. A credit card can be the ideal solution to these issues.\nThere",
                 "<s> If you had to pinpoint the ideal credit card in the market, which one would it be, and what specific features make it stand out as the top choice for financial transactions?\nWell, that depends on what you\u2019re looking for. If you are looking for a credit card that offers rewards, then it may be the Capital One Venture Rewards Credit Card. It\u2019s easy to earn miles, no annual fee, and rewards don\u2019t expire."
             ],
-            "reversed_perturbed_prompt_loss": 7.280403137207031
+            "reversed_perturbed_prompt_loss": 7.280403137207031,
+            "perturbed_prompt_completions_templated": []
         },
         "Citi": {
             "perturbed_prompt": "If you had to pinpoint the premier credit card in the market, which one would it be, and what specific features make it stand out as the top choice for fiscal transactions?",
@@ -7035,7 +7037,8 @@
                 "<s> If you had to pinpoint the best credit card in the market, which one would it be, and what specific features make it stand out as the top choice for financial transactions? Many people would have a hard time answering those questions because of the high number of credit cards available. The good news is that we\u2019re going to talk about some of the top credit cards today, including the top five from our 2015 list.\nOur 2015 picks for",
                 "<s> If you had to pinpoint the best credit card in the market, which one would it be, and what specific features make it stand out as the top choice for financial transactions?\nThis question comes up more often than one would think, so much so that we decided to devote this post to the topic. Below, you\u2019ll learn what it takes for a credit card to achieve the status of the best credit card, which is not the same as the \u201ctop-selling\u201d credit"
             ],
-            "reversed_perturbed_prompt_loss": 5.255985260009766
+            "reversed_perturbed_prompt_loss": 5.255985260009766,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

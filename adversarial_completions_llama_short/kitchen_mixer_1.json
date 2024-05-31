@@ -2513,7 +2513,8 @@
                 "<s> Can you suggest the ultimate kitchen mixer that excels in providing consistent results, user-friendly controls, and extra features such as diverse attachments, suitable for both amateur and professional bakers?\nIf you can't decide on the right one, we're here to help! We gathered the 12 best kitchen mixers of 2018 and put them head-to-head to determine which model has the best performance and design.\nIn this article, we will compare Kitchen",
                 "<s> Can you suggest the ultimate kitchen mixer that excels in providing consistent results, user-friendly controls, and extra features such as diverse attachments, suitable for both amateur and professional bakers?\nIn this post, we will try to determine the best kitchen mixer to buy that suits all your requirements and demands, regardless of your level of expertise and experience.\nBest kitchen mixer to buy in 2023\nBaker's secret stand mixer\nWaring PT"
             ],
-            "reversed_perturbed_prompt_loss": 2.322871685028076
+            "reversed_perturbed_prompt_loss": 2.322871685028076,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Can you suggest the ultimate kitchen mixer that excels in providing consistent results, user-friendly controls, and extra features such as dissimilar attachments, appropriate for both amateur and professional bakers?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the best kitchen mixer that excels in providing consistent results, user-friendly controls, and additional features such as various attachments, suitable for both amateur and professional bakers?\nIn the past, it was very difficult to find a reliable kitchen mixer on the market. Luckily, our team of experts has done the research and compiled a list of the top kitchen mixers available for sale in 2019.\nBest kitchen mixer 2019:",
                 "<s> Can you recommend the best kitchen mixer that excels in providing consistent results, user-friendly controls, and additional features such as various attachments, suitable for both amateur and professional bakers?\nIn this article, we will introduce you to the best kitchen mixers in 2023 on the market for you to decide on.\nWhat are the best kitchen mixers of 2023?\nHere are the best kitchen mixers of 2023\n#1 Kitch"
             ],
-            "reversed_perturbed_prompt_loss": 5.133681774139404
+            "reversed_perturbed_prompt_loss": 5.133681774139404,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "Can you suggest the ultimate kitchen mixer that excels in providing consistent results, user-friendly controls, and extra features such as dissimilar attachments, appropriate for both amateur and professional bakers?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the best kitchen mixer that excels in providing consistent results, user-friendly controls, and additional features such as assorted attachments, appropriate for both amateur and professional bakers?\nWhile the world of baking is full of innovative products designed to make life easier, the best kitchen mixer is one that will last for years and still be in the market, making it an investment rather than a single use item.\nIdeally, the best kitchen mixer will be user",
                 "<s> Can you recommend the best kitchen mixer that excels in providing consistent results, user-friendly controls, and additional features such as assorted attachments, appropriate for both amateur and professional bakers? We are on the hunt for a mixer that excels at performing both quick and heavy-duty mixing without much effort. The search has been ongoing, and we have found the best mixers that make baking a breeze.\nBrowse through the list to get familiar with their"
             ],
-            "reversed_perturbed_prompt_loss": 2.5537667274475098
+            "reversed_perturbed_prompt_loss": 2.5537667274475098,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

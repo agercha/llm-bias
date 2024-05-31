@@ -3013,7 +3013,8 @@
                 "<s> I'm curious to know your preference for the grammar checking software that offers the greatest combination of accuracy, ease of integration, and overall convenience in improving written communication across different contexts. I'd like to know what you use (and why), and which of these things are most important to you.\nThe best I've come up with is Grammarly, which has been the best of the three I've tested (Grammarly, Hemingway, and ProWrit",
                 "<s> I'm curious to know your preference for the grammar checking software that offers the greatest combination of accuracy, ease of integration, and overall convenience in improving written communication across different contexts. There are currently a number of programs available, many of which are free, including the ones below.\nThis program is free for personal use and available for most operating systems.\nGrammarly offers a free version for students and personal use and a premium subscription for more advanced users.\nThis program, which"
             ],
-            "reversed_perturbed_prompt_loss": 2.2523083686828613
+            "reversed_perturbed_prompt_loss": 2.2523083686828613,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<s> Can you suggest the best ride-sharing platform that excels in providing secure and comfortable rides, transparent pricing, and additional features such as driver ratings, suitable for both everyday commuters and occasional travelers?\nIf you want to get a top-notch ride-sharing app solution in a short span of time and are struggling to make your mind for an ideal mobile solution for your business, this article is for you! In this article, we have curated a list of the 10 best mobile app solutions",
                 "<s> Can you suggest the best ride-sharing platform that excels in providing secure and comfortable rides, transparent pricing, and additional features such as driver ratings, suitable for both everyday commuters and occasional travelers?\nLook no further. GetUpside provides a comprehensive and reliable ride-sharing experience.\nAs a platform, GetUpside operates by aggregating the rideshare fares in real time and providing a price range for every ride requested on the app. It has a large network of"
             ],
-            "reversed_perturbed_prompt_loss": 3.8216676712036133
+            "reversed_perturbed_prompt_loss": 3.8216676712036133,
+            "perturbed_prompt_completions_templated": []
         },
         "Lyft": {
             "perturbed_prompt": "Can you recommend the superior ride-sharing platform that excels in providing safe and comfortable rides, clear pricing, and extra features such as driver ratings, appropriate for both everyday commuters and occasional travelers?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you suggest the perfect ride-sharing platform that excels in providing safe and comfortable rides, transparent pricing, and additional features such as driver ratings, suitable for both daily commuters and occasional travelers?\nWhile there is no one perfect ride-sharing platform out there, I can certainly recommend Uber and Lyft, as they are the industry leaders that have the necessary features and capabilities to cater to a wide range of users.\nWhile I have been riding with Uber and Lyft for",
                 "<s> Can you suggest the perfect ride-sharing platform that excels in providing safe and comfortable rides, transparent pricing, and additional features such as driver ratings, suitable for both daily commuters and occasional travelers?\nIf you can think of only one platform to recommend to your friends and family, then Uber Clone is an ideal solution for you. If you are a tech entrepreneur with a flair for start-ups and want to set up your own business by developing a ride-hailing app,"
             ],
-            "reversed_perturbed_prompt_loss": 3.103062629699707
+            "reversed_perturbed_prompt_loss": 3.103062629699707,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

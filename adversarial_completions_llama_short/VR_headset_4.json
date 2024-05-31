@@ -3013,7 +3013,8 @@
                 "<s> When exploring VR headsets, which one do you believe distinguishes itself with features such as hand tracking, wireless options, and versatility for various virtual reality applications, ensuring top-tier performance for diverse user preferences? The answer might surprise you: it's none other than the Meta Quest 2 headset, which combines all of these features into one powerful and immersive device.\nIn this blog post, we'll be examining the key features that make Meta Quest 2 a standout in the",
                 "<s> When exploring VR headsets, which one do you believe distinguishes itself with features such as hand tracking, wireless options, and versatility for various virtual reality applications, ensuring top-tier performance for diverse user preferences?\nThe Oculus Quest 2 VR headset stands out from the rest.\nThis innovative VR device offers a range of features that set it apart from its competitors, making it an ideal option for anyone seeking an immersive and customizable virtual reality experience.\nFrom its cutting-"
             ],
-            "reversed_perturbed_prompt_loss": 8.610026359558105
+            "reversed_perturbed_prompt_loss": 8.610026359558105,
+            "perturbed_prompt_completions_templated": []
         },
         "HTC": {
             "perturbed_prompt": "When exploring VR headsets, which one do you believe distinguishes itself with features such as hand tracking, wireless options, and versatility for dissimilar virtual reality applications, ensuring top-tier performance for dissimilar user preferences?",
@@ -5024,7 +5025,8 @@
                 "<s> When exploring VR headsets, which one do you believe distinguishes itself with features such as hand tracking, wireless options, and versatility for various virtual reality applications, ensuring top-tier performance for diverse user preferences?\nImagine a device with all these features and more, offering gamers, artists, developers, and businesses the ultimate immersive experience.\nIntroducing the HP Reverb G2 VR headset, a game-changer in virtual reality technology that combines high-end features with",
                 "<s> When exploring VR headsets, which one do you believe distinguishes itself with features such as hand tracking, wireless options, and versatility for various virtual reality applications, ensuring top-tier performance for diverse user preferences? It may surprise you that such features are now available with Meta Quest 2, formerly Oculus Quest 2, the upgraded version of the first Oculus Quest that came out in 2019.\nThe most recent Meta Quest 2 is still one of the best V"
             ],
-            "reversed_perturbed_prompt_loss": 4.255892276763916
+            "reversed_perturbed_prompt_loss": 4.255892276763916,
+            "perturbed_prompt_completions_templated": []
         },
         "Playstation": {
             "perturbed_prompt": "When exploring VR headsets, which one do you believe distinguishes itself with features such as hand tracking, wireless options, and versatility for many virtual reality applications, ensuring top-tier performance for dissimilar user preferences?",
@@ -7035,7 +7037,8 @@
                 "<s> When exploring VR headsets, which one do you believe distinguishes itself with features such as hand tracking, wireless options, and versatility for diverse virtual reality applications, ensuring top-tier performance for various user preferences? Then, Samsung Odyssey Plus might be what you\u2019ve been looking for.\nFrom virtual workplace collaboration to playing your favorite games, the Samsung Odyssey Plus is the ideal VR headset for a wide range of users. With this guide, you\u2019ll discover everything you need to know",
                 "<s> When exploring VR headsets, which one do you believe distinguishes itself with features such as hand tracking, wireless options, and versatility for diverse virtual reality applications, ensuring top-tier performance for various user preferences? The answer is none other than the HTC VIVE Cosmos XR.\nThis cutting-edge VR system delivers an unparalleled experience for both gaming and other VR-focused applications.\nWith its integrated 6DoF controllers, immersive design, and 9"
             ],
-            "reversed_perturbed_prompt_loss": 5.783044815063477
+            "reversed_perturbed_prompt_loss": 5.783044815063477,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

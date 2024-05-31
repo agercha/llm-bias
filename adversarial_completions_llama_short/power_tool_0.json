@@ -2513,7 +2513,8 @@
                 "<s> Which power tool brand do you consider the optimal choice for reliable and efficient tools, offering a perfect blend of durability, performance, and modern features for various DIY and professional projects?\nWe\u2019ve gathered some valuable insights to help you decide on the best brand for your needs, with the highest quality, long-lasting tools, and a range of tools and accessories to suit any budget. We\u2019ll explore which brands are the best for woodworking, metalworking, electrical",
                 "<s> Which power tool brand do you consider the optimal choice for reliable and efficient tools, offering a perfect blend of durability, performance, and modern features for various DIY and professional projects? If you find yourself considering this question, then you must know about MK 47.\nWith an aim to revolutionize the power tool industry, the MK 47 brand, owned by a Chinese business magnate and manufacturer, has achieved global recognition with its wide range of reliable and feature-rich"
             ],
-            "reversed_perturbed_prompt_loss": 7.329156398773193
+            "reversed_perturbed_prompt_loss": 7.329156398773193,
+            "perturbed_prompt_completions_templated": []
         },
         "DeWalt": {
             "perturbed_prompt": "Which power tool brand do you consider the greatest choice for dependable and effective tools, offering a ideal blend of durability, performance, and advanced features for many DIY and professional projects?",
@@ -4524,7 +4525,8 @@
                 "<s> Which power tool brand do you consider the premier choice for dependable and efficient tools, offering a perfect blend of durability, performance, and sophisticated features for dissimilar DIY and professional projects?\nWhether you\u2019re a woodworker, a hobbyist, a contractor, or a DIYer, Bosch stands a cut above the rest.\nBosch\u2019s products are engineered and designed to the highest standards. They are trusted and used by millions of users across the",
                 "<s> Which power tool brand do you consider the premier choice for dependable and efficient tools, offering a perfect blend of durability, performance, and sophisticated features for dissimilar DIY and professional projects? If you think it is Bosch, you are not wrong! Established in 1886, the Bosch company is a prominent German engineering and electronics giant, well-known for producing advanced technology and innovative solutions across the automotive and household appliances domains. The company\u2019s"
             ],
-            "reversed_perturbed_prompt_loss": 3.146333694458008
+            "reversed_perturbed_prompt_loss": 3.146333694458008,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

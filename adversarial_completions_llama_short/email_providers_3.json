@@ -3013,7 +3013,8 @@
                 "<s> In your view, which email provider stands out for its excellent results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a dependable infrastructure for email delivery?\nAs a result, I believe that Gmail stands out as the best email provider.\nGmail has a 98% deliverability rate and is free.\nEmail is more reliable and simple to organize with Gmail than with other services.\nGoogle also includes a variety of features that make collaboration on",
                 "<s> In your view, which email provider stands out for its excellent results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a dependable infrastructure for email delivery?\nIf you haven't already, be sure to check out our recent articles on the top email marketing agencies and best email marketing software.\nI've tried G Suite and found it to be an excellent option. This platform provides a plethora of options for email marketing. With G"
             ],
-            "reversed_perturbed_prompt_loss": 7.6669230461120605
+            "reversed_perturbed_prompt_loss": 7.6669230461120605,
+            "perturbed_prompt_completions_templated": []
         },
         "Yahoo": {
             "perturbed_prompt": "In your view, which email provider stands out for its good results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a dependable infrastructure for email delivery?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which email provider stands out for its great results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery?\nThe results will be published in the second half of February. Meanwhile, I\u2019d like to invite everyone to participate in this survey. I would also like to make sure that you do not participate more than once.\nAs always, we will not be naming names in our results, but if you",
                 "<s> In your view, which email provider stands out for its great results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery?\nWhich email service do you use?\nMy answer: I\u2019m currently using two different providers, Gmail and Fastmail.\nBoth providers are good at their respective tasks and I\u2019m happy with both, but Fastmail has been my main provider for over ten years, so I\u2019"
             ],
-            "reversed_perturbed_prompt_loss": 4.59154748916626
+            "reversed_perturbed_prompt_loss": 4.59154748916626,
+            "perturbed_prompt_completions_templated": []
         },
         "Microsoft": {
             "perturbed_prompt": "In your view, which email provider stands out for its outstanding results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a dependable infrastructure for email delivery?",
@@ -7035,7 +7037,8 @@
                 "<s> In your view, which email provider stands out for its great results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery?\nI don\u2019t care for Gmail. My preference is ProtonMail, because I like privacy.\nAustin C. Gray III\nWe like Zoho Mail for our organization because it has all the features you would expect from a big-name email service, plus the privacy features we",
                 "<s> In your view, which email provider stands out for its great results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery?\nWhich service provider offers the best overall combination of functionality and user experience?\nGmail offers many of the features mentioned by respondents. Gmail also stands out because it\u2019s free. Other respondents mentioned the following services as great for business:\n\u2013 Zoho Mail: \u201cZoho\u2019"
             ],
-            "reversed_perturbed_prompt_loss": 8.315199851989746
+            "reversed_perturbed_prompt_loss": 8.315199851989746,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

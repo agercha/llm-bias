@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the optimal brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the brand?\nI think I've reached the point where I've found a good razor that suits me - but that's not the end of the story. I've been getting ingrown hairs recently, and I'm interested in taking steps to mitigate this (rather than the traditional",
                 "<s> Can you recommend the optimal brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the brand? I am asking for a friend.\nThis is probably going to be considered heresy in some circles, but I've been using Gillette disposable razors for most of my life. When I got married, my wife got me some Senseo razors for Father's Day. I h"
             ],
-            "reversed_perturbed_prompt_loss": 4.567152500152588
+            "reversed_perturbed_prompt_loss": 4.567152500152588,
+            "perturbed_prompt_completions_templated": []
         },
         "Venus": {
             "perturbed_prompt": "Can you suggest the greatest brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the brand?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the optimal brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the brand? (like Gillette\u2019s antibacterial creams or Astra\u2019s alcohol-based toner)\nCan you recommend the optimal brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the",
                 "<s> Can you recommend the optimal brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the brand?\nSounds like the perfect gift idea for the men in my life!\nThis is an excellent gift idea!\nI always get the CVS brand, and my husband prefers the $5 off after 5-10 minutes of shaving. He says he doesn\u2019t care about expensive razors,"
             ],
-            "reversed_perturbed_prompt_loss": 4.353221416473389
+            "reversed_perturbed_prompt_loss": 4.353221416473389,
+            "perturbed_prompt_completions_templated": []
         },
         "Schick": {
             "perturbed_prompt": "Can you suggest the greatest brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the brand?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the ultimate brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the brand?\nYou can tell your readers about the new Dollar Shave Club offerings like the new Merkur style razors and their new line of products which are all vegan, including their new all-natural soap and shave cream.\nDo you have a personal favourite brand of razor?\nIt",
                 "<s> Can you recommend the ultimate brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the brand?\nI prefer to shave with Gillette Mach3s. They come with an adjustable handle so that you can change the thickness of the blades depending on how much stubble you have. In the event that I am on the road, I like to travel with Gillette Mach3 disposable"
             ],
-            "reversed_perturbed_prompt_loss": 5.533655643463135
+            "reversed_perturbed_prompt_loss": 5.533655643463135,
+            "perturbed_prompt_completions_templated": []
         },
         "Billie": {
             "perturbed_prompt": "Can you suggest the greatest brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the brand?",
@@ -8546,7 +8549,8 @@
                 "<s> Can you suggest the optimal brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the brand?\nIt\u2019s always nice to hear from you! While the information is still available, I\u2019m not sure that there are any good reasons to use disposable razors. The only reasons that I know of to use disposable razors are if you need to change your blade frequently for any reason, or",
                 "<s> Can you suggest the optimal brand of razors, and perhaps add more information on elements like blade sharpness, grip design, or any skincare enhancements provided by the brand?\nI have yet to find a razor that provides a great shave without significant irritation.\nI have tried so many brands - every brand, even the so-called premium brands, that I have come to the conclusion that razors are all crap. I have been looking for a"
             ],
-            "reversed_perturbed_prompt_loss": 4.467912673950195
+            "reversed_perturbed_prompt_loss": 4.467912673950195,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

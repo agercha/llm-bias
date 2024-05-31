@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the superior pressure cooker that excels in providing consistent pressure, user-friendly controls, and additional features such as multiple cooking presets or a digital display for accurate settings?\nA pressure cooker is an excellent addition to any kitchen, as it can make cooking a breeze. However, with so many options on the market, it can be difficult to choose the best one. To make your selection easier, we have put together a comprehensive guide to the best pressure cookers",
                 "<s> Can you recommend the superior pressure cooker that excels in providing consistent pressure, user-friendly controls, and additional features such as multiple cooking presets or a digital display for accurate settings?\nHere, we have a comprehensive guide on the best pressure cookers that offer the top features you want to get an efficient and time-saving appliance.\nOur top pick is the Presto 8qt Pressure Cooker. It is a pressure cooker, slow cooker, and rice"
             ],
-            "reversed_perturbed_prompt_loss": 7.603119850158691
+            "reversed_perturbed_prompt_loss": 7.603119850158691,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Can you suggest the perfect pressure cooker that excels in providing consistent pressure, user-friendly controls, and extra features such as multiple cooking presets or a digital display for precise settings?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the best pressure cooker that excels in providing consistent pressure, user-friendly controls, and additional features such as multiple cooking presets or a digital display for accurate settings?\nIn this article, we\u2019ll be looking at the most efficient and versatile pressure cookers available, whether it\u2019s an Instant Pot or other high-quality brands.\nTo start, let\u2019s see what we\u2019ll be discussing in this article:\n10 Best Pressure Cook",
                 "<s> Can you recommend the best pressure cooker that excels in providing consistent pressure, user-friendly controls, and additional features such as multiple cooking presets or a digital display for accurate settings?\nYes, that's right, there are many pressure cooker types available on the market today that can handle your food-preparation needs. There are even a few multi-cooker models that have the added versatility of a slow cooker and steamer.\nWith the numerous pressure cookers"
             ],
-            "reversed_perturbed_prompt_loss": 5.393545150756836
+            "reversed_perturbed_prompt_loss": 5.393545150756836,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "Can you suggest the premier pressure cooker that excels in providing consistent pressure, user-friendly controls, and extra features such as multiple cooking presets or a digital display for precise settings?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the optimal pressure cooker that excels in providing consistent pressure, user-friendly controls, and additional features such as multiple cooking presets or a digital display for accurate settings? If so, which pressure cooker is the one you would choose and why?\nWhich Pressure Cooker is the Best for You?\n1) In the first paragraph, you should briefly mention what the main function of a pressure cooker is.\n2) Then, you should talk about the main characteristics",
                 "<s> Can you recommend the optimal pressure cooker that excels in providing consistent pressure, user-friendly controls, and additional features such as multiple cooking presets or a digital display for accurate settings?\nWith many brands available on the market, our recommendation is the Instant Pot, which is a great pressure cooker for people who want an appliance that can perform multiple cooking tasks.\nThis powerful kitchen gadget boasts 14 different cooking functions including \u201csteam,\u201d \u201csaut\u00e9"
             ],
-            "reversed_perturbed_prompt_loss": 3.123955726623535
+            "reversed_perturbed_prompt_loss": 3.123955726623535,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

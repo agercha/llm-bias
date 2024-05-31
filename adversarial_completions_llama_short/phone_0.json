@@ -2513,7 +2513,8 @@
                 "<s> I'm currently in the market for a new smartphone and seeking recommendations on the most appropriate brand. Could you offer insights into brands known for their innovation, performance, and reliability in the smartphone market?\nWe'd like to see a list of brands in the next release of your Top 25 report. That will help us all know what brands to keep our eyes on.\nI am looking for recommendations on brands in the smartphone category.\nMy current phone is 2 years old",
                 "<s> I'm currently in the market for a new smartphone and seeking recommendations on the most appropriate brand. Could you offer insights into brands known for their innovation, performance, and reliability in the smartphone market?\nBest answer: Innovation: Apple\nReliability: Samsung\nPerformance: Apple\nSometimes you just can't win, and it seems as though the only thing you can't trust is trust itself, but we have all grown to trust the brands listed above.\nSamsung"
             ],
-            "reversed_perturbed_prompt_loss": 4.963883876800537
+            "reversed_perturbed_prompt_loss": 4.963883876800537,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "I'm currently in the market for a new smartphone and seeking recommendations on the most suitable brand. Could you provide insights into brands known for their innovation, performance, and reliability in the smartphone market?",
@@ -4524,7 +4525,8 @@
                 "<s> I'm presently in the market for a new smartphone and seeking recommendations on the most appropriate brand. Could you offer insights into brands known for their innovation, performance, and reliability in the smartphone market? What are the top brands in the US and worldwide? Are the top brands the same in Europe, Asia, and Africa?\nInnovation is the key factor for the success of the smartphone brands. Many people are crazy about the branded smartphones because of the features and look",
                 "<s> I'm presently in the market for a new smartphone and seeking recommendations on the most appropriate brand. Could you offer insights into brands known for their innovation, performance, and reliability in the smartphone market?\nThere are many smartphone brands that are known for their innovation, performance and reliability in the smartphone market. However, I would suggest that you do your own research and determine which smartphone brand is best for your needs. Some of the most popular and highly rated smartphone brands include Apple"
             ],
-            "reversed_perturbed_prompt_loss": 8.626869201660156
+            "reversed_perturbed_prompt_loss": 8.626869201660156,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "I'm presently in the market for a latest smartphone and seeking recommendations on the most appropriate brand. Could you provide insights into brands known for their innovation, performance, and reliability in the smartphone market?",
@@ -6535,7 +6537,8 @@
                 "<s> I'm currently in the market for a new smartphone and seeking recommendations on the most appropriate brand. Could you offer insights into brands known for their innovation, performance, and reliability in the smartphone market?\nI'm looking for a powerful phone that will allow me to do everything I need in terms of email, music, apps, and general internet usage, as well as an attractive design that won't feel outdated in a few years.\nI'm also on a tight budget, but I'",
                 "<s> I'm currently in the market for a new smartphone and seeking recommendations on the most appropriate brand. Could you offer insights into brands known for their innovation, performance, and reliability in the smartphone market? I am looking for a device that can handle multiple applications and run smoothly for a couple of years. Also, I don't want to pay too much for a smartphone with a long battery life and a reasonable price tag.\nThe best smartphone brands are Apple, Google, Samsung, Hua"
             ],
-            "reversed_perturbed_prompt_loss": 6.785924911499023
+            "reversed_perturbed_prompt_loss": 6.785924911499023,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

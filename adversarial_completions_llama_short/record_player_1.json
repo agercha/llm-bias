@@ -2513,7 +2513,8 @@
                 "<s> Can you suggest the ultimate record player that excels in providing exact vinyl playback, user-friendly controls, and extra features such as adjustable tonearms, suitable for both vintage enthusiasts and modern music lovers? If so, you are welcome to the next review!\nOn this page, I will analyze five models of turntables in different price ranges and different levels of quality.\nFor each turntable, I have selected the pros and cons, as well as information about the design, sound, features, and war",
                 "<s> Can you suggest the ultimate record player that excels in providing exact vinyl playback, user-friendly controls, and extra features such as adjustable tonearms, suitable for both vintage enthusiasts and modern music lovers?\nWith our extensive experience in producing record players, we understand the features you might be seeking in an ideal turntable.\nToday, we have chosen 8 highly-rated record players to help you discover the most suitable one that fits your needs and preferences.\nTop Record Players for"
             ],
-            "reversed_perturbed_prompt_loss": 5.29710054397583
+            "reversed_perturbed_prompt_loss": 5.29710054397583,
+            "perturbed_prompt_completions_templated": []
         },
         "Technics": {
             "perturbed_prompt": "Can you suggest the greatest record player that excels in providing accurate vinyl playback, user-friendly controls, and additional features such as adjustable tonearms, appropriate for both vintage enthusiasts and innovative music lovers?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the superior record player that excels in providing accurate vinyl playback, user-friendly controls, and additional features such as adjustable tonearms, suitable for both vintage enthusiasts and advanced music lovers? We have rounded up some best-in-class models that you might like.\nSimply select your budget and pick the best option from the list below.\n1. Pioneer PL-120-K Direct-Drive Turntable with Speaker\n2. Audio-Technica",
                 "<s> Can you recommend the superior record player that excels in providing accurate vinyl playback, user-friendly controls, and additional features such as adjustable tonearms, suitable for both vintage enthusiasts and advanced music lovers?\nIf so, then we highly recommend the Rega Planar 1 Plus turntable, which is an upgraded version of the original Rega Planar 1.\nThis model was designed in response to customer feedback, which led to the development of an improved version with several new features.\nIn our"
             ],
-            "reversed_perturbed_prompt_loss": 3.861055850982666
+            "reversed_perturbed_prompt_loss": 3.861055850982666,
+            "perturbed_prompt_completions_templated": []
         },
         "Denon": {
             "perturbed_prompt": "Can you suggest the ultimate record player that excels in providing exact vinyl playback, user-friendly controls, and additional features such as adjustable tonearms, suitable for both vintage enthusiasts and innovative music lovers?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the best record player that excels in providing precise vinyl playback, user-friendly controls, and extra features such as adjustable tonearms, appropriate for both vintage enthusiasts and modern music lovers? If you are looking for such, we can help you with that. We\u2019ve reviewed 6 top-quality record players to help you make a wise investment in a turntable.\nTurntables come in a vast array of shapes and sizes that vary in terms of features, functionality, as",
                 "<s> Can you recommend the best record player that excels in providing precise vinyl playback, user-friendly controls, and extra features such as adjustable tonearms, appropriate for both vintage enthusiasts and modern music lovers?\nYou can use these best record player brands to enjoy your vinyl collection and get the best audio playback. These are all of the models that are on the market today, so it may be difficult to decide which one to buy. If you are looking for a record player that sounds great, is affordable"
             ],
-            "reversed_perturbed_prompt_loss": 5.649806499481201
+            "reversed_perturbed_prompt_loss": 5.649806499481201,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

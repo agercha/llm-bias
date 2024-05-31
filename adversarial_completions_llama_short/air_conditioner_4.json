@@ -2513,7 +2513,8 @@
                 "<s> When considering air conditioners, which one do you believe stands out with features such as programmable settings, air quality enhancements, and efficient temperature control, ensuring an ultimate cooling experience tailored to your preferences? If that\u2019s true, then the LG 1 Ton AC is for you.\nLG Electronics, the most popular brand in air conditioning appliances, is the creator of this LG 1 Ton 5 Star Split AC. This air conditioner comes with a stylish design and",
                 "<s> When considering air conditioners, which one do you believe stands out with features such as programmable settings, air quality enhancements, and efficient temperature control, ensuring an ultimate cooling experience tailored to your preferences?\nFor years, Mitsubishi Electric has stood out as one of the best providers of air conditioning systems. With its state-of-the-art technologies, the Mitsubishi Electric Ductless system has been the most preferred by customers. They have proven that ductless systems are"
             ],
-            "reversed_perturbed_prompt_loss": 2.7900264263153076
+            "reversed_perturbed_prompt_loss": 2.7900264263153076,
+            "perturbed_prompt_completions_templated": []
         },
         "GE": {
             "perturbed_prompt": "When considering air conditioners, which one do you believe stands out with features such as programmable settings, air quality enhancements, and effective temperature control, ensuring an perfect cooling experience tailored to your preferences?",
@@ -4524,7 +4525,8 @@
                 "<s> When considering air conditioners, which one do you believe stands out with features such as programmable settings, air quality enhancements, and effective temperature control, ensuring an ultimate cooling experience tailored to your preferences?\nThe answer is the 2.5 Ton Carrier Inverter Split AC which is a state-of-the-art product designed to meet your air conditioning needs. This blog post will dive into the features, benefits, and other aspects of the 2.5 Ton Carrier Inverter Split AC",
                 "<s> When considering air conditioners, which one do you believe stands out with features such as programmable settings, air quality enhancements, and effective temperature control, ensuring an ultimate cooling experience tailored to your preferences? The Ductless Mini-Split Air Conditioner from Fujitsu General America! It is an all-in-one HVAC system that is designed to keep your home comfortable while providing energy-saving benefits and low noise levels.\nIn the U.S., a whopping 5"
             ],
-            "reversed_perturbed_prompt_loss": 6.020350456237793
+            "reversed_perturbed_prompt_loss": 6.020350456237793,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Can you suggest the best air humidifier that stands out for its effectiveness in regulating humidity levels, ease of use, and additional features contributing to an improved air quality experience? That\u2019s the question this list of best air humidifiers in India will answer.\nHumidity is an important factor that we cannot overlook in this heatwave. You would know how difficult it is to sleep peacefully, breathe, and relax when your surroundings are too dry,",
                 "<s> Can you suggest the best air humidifier that stands out for its effectiveness in regulating humidity levels, ease of use, and additional features contributing to an improved air quality experience?\nHow To Choose The Best Portable Humidifier\nTypes Of Portable Humidifiers\nHumidifier Tank\n1. Vicks Warm Mist Humidifier\n2. Vicks V5000 Ultrasonic Humidifier\n3. Crane Droplet"
             ],
-            "reversed_perturbed_prompt_loss": 4.762856960296631
+            "reversed_perturbed_prompt_loss": 4.762856960296631,
+            "perturbed_prompt_completions_templated": []
         },
         "Dreo": {
             "perturbed_prompt": "Can you suggest the perfect air humidifier that stands out for its efficiency in regulating humidity levels, ease of use, and extra features contributing to an improved air quality experience?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the best air humidifier that stands out for its effectiveness in regulating humidity levels, ease of use, and additional features contributing to an improved air quality experience?\nThe best air humidifier on the market is the Honeywell HH5001 HEVAC. This device works by running cool moisture across the room and is designed with a long-lasting humidifying effect, which makes it perfect for homes with high-air circulation.",
                 "<s> Can you recommend the best air humidifier that stands out for its effectiveness in regulating humidity levels, ease of use, and additional features contributing to an improved air quality experience?\nHow to Choose a Humidifier for Air Quality\nYou should not ignore the importance of humidity levels inside your home. The best air humidifiers are designed to help keep you, your family, and your pets healthy. There are several different types of air humidifiers that you"
             ],
-            "reversed_perturbed_prompt_loss": 4.707605361938477
+            "reversed_perturbed_prompt_loss": 4.707605361938477,
+            "perturbed_prompt_completions_templated": []
         },
         "Vornado": {
             "perturbed_prompt": "Can you suggest the premier air humidifier that stands out for its effectiveness in regulating humidity levels, ease of use, and additional features contributing to an improved air quality experience?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the best air humidifier that stands out for its effectiveness in regulating humidity levels, ease of use, and additional features contributing to an improved air quality experience?\nHere are our top picks that you can purchase on Amazon.\nThis AIRCARE 1 Gallon Humidifier is an ultra-lightweight, portable design that boasts a 4 liter capacity that\u2019s ideal for use in a small room. This AIRCARE product comes",
                 "<s> Can you recommend the best air humidifier that stands out for its effectiveness in regulating humidity levels, ease of use, and additional features contributing to an improved air quality experience? If you\u2019re looking for such a model, you can start your research with the AirSmart AS022. With its easy-to-use interface and quiet, efficient performance, this humidifier can quickly transform your home into a much healthier environment, improving your overall well-being."
             ],
-            "reversed_perturbed_prompt_loss": 3.81907057762146
+            "reversed_perturbed_prompt_loss": 3.81907057762146,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

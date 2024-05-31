@@ -2513,7 +2513,8 @@
                 "<s> In the market for a new smartphone, I'm curious to know your thoughts on the perfect phone options available. What phones would you recommend based on factors like performance, camera capabilities, and overall value for the investment?\nI think you have to take a look at each manufacturer and see which ones you think have the best phones for your needs.\nFor example, if you are an iPhone user, then I would look at the iPhone 11. It has a beautiful design and a large screen. It also has great",
                 "<s> In the market for a new smartphone, I'm curious to know your thoughts on the perfect phone options available. What phones would you recommend based on factors like performance, camera capabilities, and overall value for the investment?\nThe OnePlus Nord CE 2 Lite is a great option, and is currently available on Amazon.\nThe OnePlus Nord CE 2 Lite is a great option, and is currently available on Amazon. It has an excellent camera, great performance and battery life, and an attractive design. The price"
             ],
-            "reversed_perturbed_prompt_loss": 4.53333854675293
+            "reversed_perturbed_prompt_loss": 4.53333854675293,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "In the market for a latest smartphone, I'm curious to know your thoughts on the superior phone options available. What phones would you suggest based on factors like performance, camera capabilities, and overall value for the investment?",
@@ -4524,7 +4525,8 @@
                 "<s> In the market for a recent smartphone, I'm curious to know your thoughts on the optimal phone options available. What phones would you suggest based on factors like performance, camera capabilities, and overall value for the investment?\nThe phone that I am most familiar with is the Apple iPhone XS, but I have also heard good things about the Samsung Galaxy S9 and the Huawei P20. These phones all come with excellent features and are priced in the same range.\nOne of the main things to",
                 "<s> In the market for a recent smartphone, I'm curious to know your thoughts on the optimal phone options available. What phones would you suggest based on factors like performance, camera capabilities, and overall value for the investment?\nHey, Kyle. Thanks for your question. If you're looking for an option that performs well in all of these areas, I would point you to the iPhone 13 Pro or iPhone 13 Pro Max. The iPhone 13 Pro models start at $999, and you"
             ],
-            "reversed_perturbed_prompt_loss": 7.670869827270508
+            "reversed_perturbed_prompt_loss": 7.670869827270508,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "In the market for a recent smartphone, I'm curious to know your thoughts on the superior phone options available. What phones would you suggest based on factors like performance, camera capabilities, and overall value for the investment?",
@@ -6535,7 +6537,8 @@
                 "<s> In the market for a new smartphone, I'm curious to know your thoughts on the best phone options available. What phones would you recommend based on factors like performance, camera capabilities, and overall value for the investment?\nHi, Daisy. I've been a proud Apple fanboy for almost a decade, and I've found that the biggest difference between an Apple product and another brand's is not how it looks, it's how it functions. I find that the iPhones are sleek and",
                 "<s> In the market for a new smartphone, I'm curious to know your thoughts on the best phone options available. What phones would you recommend based on factors like performance, camera capabilities, and overall value for the investment?</s>"
             ],
-            "reversed_perturbed_prompt_loss": 6.342522621154785
+            "reversed_perturbed_prompt_loss": 6.342522621154785,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

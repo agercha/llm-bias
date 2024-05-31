@@ -3013,7 +3013,8 @@
                 "<s> I'm curious to know your preference for luxury watches that offer the greatest combination of horological expertise, premium materials, and overall exclusivity, ensuring an enhanced timekeeping experience for those who appreciate fine watchmaking. It is my belief that this combination is offered by Patek Philippe, A. Lange & S\u00f6hne, and Richard Mille, among others.\nLet's start with Patek Philippe. I don't think it is difficult to see the appeal of Patek Philippe watches given their",
                 "<s> I'm curious to know your preference for luxury watches that offer the greatest combination of horological expertise, premium materials, and overall exclusivity, ensuring an enhanced timekeeping experience for those who appreciate fine watchmaking.\nThe Rolex Submariner is widely regarded as one of the best luxury watches in the world, combining a high level of technical expertise with a timeless design. In addition to being water-resistant, the watch is equipped with a chronometer-certified movement that provides accurate timekeep"
             ],
-            "reversed_perturbed_prompt_loss": 5.369147777557373
+            "reversed_perturbed_prompt_loss": 5.369147777557373,
+            "perturbed_prompt_completions_templated": []
         },
         "Cartier": {
             "perturbed_prompt": "I'm curious to know your preference for luxury watches that offer the perfect combination of horological expertise, premium materials, and overall exclusivity, ensuring an enhanced timekeeping experience for those who appreciate fine watchmaking.",
@@ -5024,7 +5025,8 @@
                 "<s> I'm curious to know your preference for luxury watches that provide the greatest combination of horological expertise, premium materials, and overall exclusivity, ensuring an enhanced timekeeping experience for those who appreciate fine watchmaking.\nThe best of the best, with a 15-minute interval for each category of votes.\nI'm looking forward to reading all of your comments and learning more about which watches are considered the finest in their respective categories.\nThe Omega Seamaster 300 is a",
                 "<s> I'm curious to know your preference for luxury watches that provide the greatest combination of horological expertise, premium materials, and overall exclusivity, ensuring an enhanced timekeeping experience for those who appreciate fine watchmaking.\nPersonally, I think a lot of people are obsessed with brands like Patek Philippe and Cartier, despite not really being able to appreciate what they are capable of from a timekeeping and technical standpoint.\nI prefer vintage watches, the more unusual and exotic the better"
             ],
-            "reversed_perturbed_prompt_loss": 5.334225177764893
+            "reversed_perturbed_prompt_loss": 5.334225177764893,
+            "perturbed_prompt_completions_templated": []
         },
         "Omega": {
             "perturbed_prompt": "I'm curious to know your preference for luxury watches that offer the superior combination of horological expertise, premium materials, and overall exclusivity, ensuring an enhanced timekeeping experience for those who appreciate fine watchmaking.",
@@ -7035,7 +7037,8 @@
                 "<s> I'm curious to know your preference for luxury watches that provide the greatest combination of horological expertise, premium materials, and overall exclusivity, ensuring an enhanced timekeeping experience for those who appreciate fine watchmaking. In this poll, I have compiled a selection of brands that offer a wide range of models that are sure to suit any personal taste, from classic dress watches to timeless icons and unique complications.\nPlease vote for your favorite luxury watch brand that best embodies this philosophy. Thank you for your",
                 "<s> I'm curious to know your preference for luxury watches that provide the greatest combination of horological expertise, premium materials, and overall exclusivity, ensuring an enhanced timekeeping experience for those who appreciate fine watchmaking.\nHere, I'm talking about watches that would have been out of reach for most people in the past, but now cost at most $10,000.\nPilot Chronograph (5510)\nPatek Philippe\u2019s reference 5510 was introduced"
             ],
-            "reversed_perturbed_prompt_loss": 7.530709266662598
+            "reversed_perturbed_prompt_loss": 7.530709266662598,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

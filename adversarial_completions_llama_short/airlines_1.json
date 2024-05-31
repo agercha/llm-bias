@@ -3013,7 +3013,8 @@
                 "<s> Can you recommend the perfect airline that excels in providing good customer service, on-time performance, and a range of travel amenities? If you do, then your next trip to your favorite destination should be made with the airline that tops this list.\nIt\u2019s quite challenging to come up with a comprehensive list that\u2019s inclusive of all the world\u2019s airlines. This is why we decided to compile the top ten",
                 "<s> Can you recommend the perfect airline that excels in providing good customer service, on-time performance, and a range of travel amenities? No. Amenities: If you\u2019re looking for a variety of amenities, check out Delta. Customer Service: The best-rated airline for customer service is Alaska Airlines. On-Time Performance: JetBlue Airways is the top airline for on-time performance.\nHow many"
             ],
-            "reversed_perturbed_prompt_loss": 6.193044662475586
+            "reversed_perturbed_prompt_loss": 6.193044662475586,
+            "perturbed_prompt_completions_templated": []
         },
         "American": {
             "perturbed_prompt": "Can you suggest the premier airline that excels in providing exceptional customer service, on-time performance, and a range of travel amenities?",
@@ -5024,7 +5025,8 @@
                 "<s> Can you recommend the perfect airline that excels in providing good customer service, on-time performance, and a range of travel amenities?\nBritish Airways is the airline that I recommend! I have flown over 200,000 miles in over 60 countries and I always choose British Airways. British Airways has the best overall services. For example, I like to be seated next to the window",
                 "<s> Can you recommend the perfect airline that excels in providing good customer service, on-time performance, and a range of travel amenities?\nSkytrax has the answers.\nBased in London, Skytrax has become one of the most trusted travel ratings services by conducting an independent, world-class customer survey of the airline industry every year.\nSkytrax's World Airline Awards for 201"
             ],
-            "reversed_perturbed_prompt_loss": 5.810232162475586
+            "reversed_perturbed_prompt_loss": 5.810232162475586,
+            "perturbed_prompt_completions_templated": []
         },
         "United": {
             "perturbed_prompt": "Can you suggest the premier airline that excels in providing exceptional customer service, on-time performance, and a range of travel amenities?",
@@ -7035,7 +7037,8 @@
                 "<s> Can you recommend the perfect airline that excels in providing good customer service, on-time performance, and a range of travel amenities? According to a new survey, Singapore Airlines would be at the top of your list.\nThis week, AirlineRatings.com released its list of the World\u2019s Top 20 Airlines for 2016. Singapore Airlines ranked first among the global survey\u2019s 412 airlines",
                 "<s> Can you recommend the perfect airline that excels in providing good customer service, on-time performance, and a range of travel amenities? That was the goal when TPG Managing Editor Eric Rosen asked Travelers\u2019 Choice winners to select the best airline of 2016. This list ranks the 10 airlines that offer the best overall experience, as rated by TPG Lounge members who used the air"
             ],
-            "reversed_perturbed_prompt_loss": 4.241049289703369
+            "reversed_perturbed_prompt_loss": 4.241049289703369,
+            "perturbed_prompt_completions_templated": []
         },
         "Southwest": {
             "perturbed_prompt": "Can you suggest the premier airline that excels in providing good customer service, on-time performance, and a range of travel amenities?",
@@ -9046,7 +9049,8 @@
                 "<s> Can you recommend the perfect airline that excels in providing good customer service, on-time performance, and a range of travel amenities? Yes, you can!\nTo find the best airline, we compiled data from a variety of sources to rank them on a set of key metrics. These metrics included on-time performance, baggage mishandling, customer satisfaction, and passenger complaints.\nBut to make it even more interesting,",
                 "<s> Can you recommend the perfect airline that excels in providing good customer service, on-time performance, and a range of travel amenities?\nThe answer, according to the World Airline Awards, is Qatar Airways. Qatar Airways was voted the World's Best Airline, Best Airline in the Middle East and Best Business Class at the 2019 World Airline Awards presented by Skytrax, the international air transport"
             ],
-            "reversed_perturbed_prompt_loss": 2.852487564086914
+            "reversed_perturbed_prompt_loss": 2.852487564086914,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

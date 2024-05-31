@@ -3013,7 +3013,8 @@
                 "<s> Seeking insights on the most commendable airline \u2013 the one that truly sets the standard for ensuring a seamless and enjoyable flying experience. If you\u2019re a frequent flier, you know all too well that air travel is seldom stress-free. It\u2019s an inescapable reality. But there are those airlines that offer the ultimate experience. The ones you long for when booking your flight.\nIn our ongoing",
                 "<s> Seeking insights on the most commendable airline \u2013 the one that truly sets the standard for ensuring a seamless and enjoyable flying experience. It could be the airline with the most comfortable seats, the one with the best in-flight food, the airline that offers the best in-flight entertainment, or the one that provides the most efficient check-in and boarding procedures.\nWhether you\u2019re a frequent flyer or"
             ],
-            "reversed_perturbed_prompt_loss": 7.799462795257568
+            "reversed_perturbed_prompt_loss": 7.799462795257568,
+            "perturbed_prompt_completions_templated": []
         },
         "American": {
             "perturbed_prompt": "Seeking insights on the most commendable airline \u2013 the one that truly sets the standardized for ensuring a seamless and enjoyable flying experience.",
@@ -5024,7 +5025,8 @@
                 "<s> Seeking insights on the most commendable airline \u2013 the one that truly sets the standard for ensuring a seamless and enjoyable flying experience. This includes flight bookings, in-flight entertainment, catering, customer service, and overall passenger satisfaction.\nOur journey as one of the most sought-after airlines in the aviation industry is a testament to our commitment to providing a five-star service that leaves a lasting",
                 "<s> Seeking insights on the most commendable airline \u2013 the one that truly sets the standard for ensuring a seamless and enjoyable flying experience. You will have to think beyond the usual options like Singapore Airlines and Cathay Pacific. It might surprise you.\nThis is an old post of mine, with an updated list of the best airlines.\nI\u2019ve just returned from my holiday in Hong Kong. It has always been one of my favour"
             ],
-            "reversed_perturbed_prompt_loss": 7.282861232757568
+            "reversed_perturbed_prompt_loss": 7.282861232757568,
+            "perturbed_prompt_completions_templated": []
         },
         "United": {
             "perturbed_prompt": "Seeking insights on the most commendable airline \u2013 the one that truly sets the standardized for ensuring a seamless and enjoyable flying experience.",
@@ -7035,7 +7037,8 @@
                 "<s> Seeking insights on the most commendable airline \u2013 the one that truly sets the standard for ensuring a seamless and enjoyable flying experience.\nAirlines are ranked by several surveys and polls in which they rate airline companies on certain factors that determine the best airline, but are these polls truly credible? Or are they just marketing gimmicks? The truth is, there are various types of airlines that operate under a",
                 "<s> Seeking insights on the most commendable airline \u2013 the one that truly sets the standard for ensuring a seamless and enjoyable flying experience. A friend recently shared his experience flying Business Class with United Airlines, which I've heard is one of the most respectable airline companies. My friend is an extremely pleasant and amiable individual, however, he is often subjected to harsh treatment by United Airlines flight crew, resulting in him becoming ill. I"
             ],
-            "reversed_perturbed_prompt_loss": 4.787181377410889
+            "reversed_perturbed_prompt_loss": 4.787181377410889,
+            "perturbed_prompt_completions_templated": []
         },
         "Southwest": {
             "perturbed_prompt": "Seeking insights on the most commendable airline \u2013 the one that truly sets the standardized for ensuring a seamless and enjoyable flying experience.",
@@ -9046,7 +9049,8 @@
                 "<s> Seeking insights on the most commendable airline \u2013 the one that truly sets the standard for ensuring a seamless and enjoyable flying experience.\nTo celebrate the arrival of Air Seychelles\u2019 new Airbus A330-900neo \u2013 the most technologically advanced aircraft of its type in its fleet \u2013 we are asking you, our cherished guests, to select your top pick from a range of travel-related products. You",
                 "<s> Seeking insights on the most commendable airline \u2013 the one that truly sets the standard for ensuring a seamless and enjoyable flying experience.\nAir Travel: How to Fly in Style and Comfort\nTen Tips for Traveling to Asia\nCruise Ships: The New Way to Explore the World\nSkytrax: The World's Top Airlines of 2017\nEgyptAir"
             ],
-            "reversed_perturbed_prompt_loss": 3.3731937408447266
+            "reversed_perturbed_prompt_loss": 3.3731937408447266,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

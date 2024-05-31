@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the best air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure optimal indoor air cleanliness? Then the Levoit Core 300 is the best one for you.\nLevoit is known for being a reliable air purifier brand and is notorious for its smart air quality monitors and air purifiers. This brand\u2019s air purifier is popular among indoor air purification experts",
                 "<s> Can you recommend the best air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure optimal indoor air cleanliness? With a variety of different models available, choosing one that suits your needs can be an overwhelming experience. With this guide, we will help you find the perfect air purifier for your home.\nWhat is Air Purifier for Home?\nAir purifiers are devices designed to remove pollutants"
             ],
-            "reversed_perturbed_prompt_loss": 4.7903313636779785
+            "reversed_perturbed_prompt_loss": 4.7903313636779785,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "Can you suggest the ideal air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure greatest indoor air cleanliness?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the optimal air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure greatest indoor air cleanliness?\nThe Tesla is the top-rated air purifier in our test, which is why we highly recommend it. The Tesla outperformed every other air purifier in the test, according to our research, when it came to filtration and cleaning. It has also been shown to",
                 "<s> Can you recommend the optimal air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure greatest indoor air cleanliness? If you do, then be sure to read our SenseAir 3000 review to get to know this highly recommended air purifier in the market.\nSenseAir 3000 Air Purifier\nWith its stunning, unique design and advanced functionality, SenseAir is"
             ],
-            "reversed_perturbed_prompt_loss": 3.259953498840332
+            "reversed_perturbed_prompt_loss": 3.259953498840332,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "Can you recommend the premier air purifier that excels in providing powerful filtration, user-friendly controls, and sophisticated technologies to ensure optimal indoor air cleanliness?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you suggest the greatest air purifier that excels in providing powerful filtration, user-friendly controls, and advanced technologies to ensure ideal indoor air cleanliness? That is what we\u2019re going to discover in this article!\nThroughout the past decade, technology has developed the air purifiers into advanced machines that can deliver remarkable results in purifying the indoor air. For a person living in the modern world, it is no longer necessary to use traditional methods",
                 "<s> Can you suggest the greatest air purifier that excels in providing powerful filtration, user-friendly controls, and advanced technologies to ensure ideal indoor air cleanliness? If so, look no further than the Blueair Blue Pure 411. The product\u2019s sleek look makes it a stylish addition to any household, and its innovative features make it a reliable choice for maintaining healthy indoor air quality.\nAt the same time, the Blueair"
             ],
-            "reversed_perturbed_prompt_loss": 5.684909820556641
+            "reversed_perturbed_prompt_loss": 5.684909820556641,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

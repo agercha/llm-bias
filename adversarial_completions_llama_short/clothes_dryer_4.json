@@ -3013,7 +3013,8 @@
                 "<s> When exploring clothes dryers, which one do you believe distinguishes itself with features such as multiple drying programs, energy-efficient options, and ease of maintenance, ensuring a premier laundry experience in your home? Look no further than the Fisher Paykel DDX12B50X.\nWith advanced technology, the DDX12B50X ensures that you will always be able to make use of your clothes dryer, no matter how many items need to be dried. Featuring",
                 "<s> When exploring clothes dryers, which one do you believe distinguishes itself with features such as multiple drying programs, energy-efficient options, and ease of maintenance, ensuring a premier laundry experience in your home? If you guessed LG dryers, you\u2019re right.\nWith 42 years of experience manufacturing home appliances, LG has earned the reputation as a market leader in both technology and innovation.\nWhile other dryer brands may be a better fit for certain households, few"
             ],
-            "reversed_perturbed_prompt_loss": 4.272963047027588
+            "reversed_perturbed_prompt_loss": 4.272963047027588,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "When exploring clothes dryers, which one do you believe distinguishes itself with features such as multiple drying programs, energy-efficient options, and ease of maintenance, ensuring a ideal laundry experience in your home?",
@@ -5024,7 +5025,8 @@
                 "<s> When exploring clothes dryers, which one do you believe distinguishes itself with features such as multiple drying programs, energy-efficient options, and ease of maintenance, ensuring a premier laundry experience in your home? Our top choice is the Whirlpool WED4810HW, a dryer that combines multiple drying programs and advanced features to improve its operation, ensuring optimal laundry results every time. A convenient control panel, multiple drying programs, and an intuitive dryer interface make it",
                 "<s> When exploring clothes dryers, which one do you believe distinguishes itself with features such as multiple drying programs, energy-efficient options, and ease of maintenance, ensuring a premier laundry experience in your home? The Whirlpool brand. Here are several of the reasons you should consider a Whirlpool dryer.\nWhirlpool\u2019s dryers are available with a plethora of convenient features. The dryers feature an easy to use user interface that includes an LED display. The dryer\u2019s multiple options"
             ],
-            "reversed_perturbed_prompt_loss": 2.8314220905303955
+            "reversed_perturbed_prompt_loss": 2.8314220905303955,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

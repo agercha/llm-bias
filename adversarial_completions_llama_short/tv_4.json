@@ -2513,7 +2513,8 @@
                 "<s> Looking for guidance on choosing the greatest TV; can you suggest one and share additional details like display type, audio quality, or any other features that set it apart? Here are our top five picks for best TVs, based on our own research.\nBest TV in 2023\nBest 4K TV 2023\nBest Gaming TV 2023\nBest OLED TV 2023\nThere is no one-",
                 "<s> Looking for guidance on choosing the greatest TV; can you suggest one and share additional details like display type, audio quality, or any other features that set it apart? Choosing a TV that meets all your requirements can be a daunting process.\nThe good news is that I\u2019ve done all of the research and have compiled a list of the 12 best smart TVs available right now.\nThere are several smart TVs on the market, and choosing one that"
             ],
-            "reversed_perturbed_prompt_loss": 4.716857433319092
+            "reversed_perturbed_prompt_loss": 4.716857433319092,
+            "perturbed_prompt_completions_templated": []
         },
         "Sony": {
             "perturbed_prompt": "Looking for guidance on choosing the superior TV; can you recommend one and share extra details like display type, audio quality, or any other features that set it apart?",
@@ -4524,7 +4525,8 @@
                 "<s> Looking for guidance on choosing the greatest TV; can you suggest one and share additional details like display type, audio quality, or any other features that set it apart? You have come to the correct spot; we've put together a list of the top 10 best TVs in India, so you can choose from a variety of TVs based on your preferences.\nLG OLED 4K TV 55-inch\nSony Bravia KD",
                 "<s> Looking for guidance on choosing the greatest TV; can you suggest one and share additional details like display type, audio quality, or any other features that set it apart?\nTo begin with, a television\u2019s price range, size, and features all affect the final decision. If you\u2019re looking for a great TV to show off your home theater setup, you should first consider the size and image quality.\nIt can be challenging to find the best TV. However,"
             ],
-            "reversed_perturbed_prompt_loss": 4.875711441040039
+            "reversed_perturbed_prompt_loss": 4.875711441040039,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "Looking for guidance on choosing the superior TV; can you recommend one and share extra details like display type, audio quality, or any other features that set it apart?",
@@ -6535,7 +6537,8 @@
                 "<s> Looking for guidance on choosing the ultimate TV; can you suggest one and share additional details like display type, audio quality, or any other features that set it apart?\nI love my TV!\nBut if you can't share that I'll do the next best thing and tell you what I think.\nThis is all my opinion; it's what has worked for me and it might not be the same for you so feel free to take what's useful and",
                 "<s> Looking for guidance on choosing the ultimate TV; can you suggest one and share additional details like display type, audio quality, or any other features that set it apart?\nI need to decide between a Samsung, LG, Vizio or Sony and your help would be greatly appreciated.\nThe best TV on the market is not a brand but a TV series. The LCD flat panel TV was invented by RCA.\nI have a Samsung 46\""
             ],
-            "reversed_perturbed_prompt_loss": 4.713432788848877
+            "reversed_perturbed_prompt_loss": 4.713432788848877,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<s> Seeking insights on the most commendable clothes dryer \u2013 the one that truly sets the standard for effective drying, user-friendly operation, and perhaps unique features like customizable settings or wrinkle prevention options.\nThe dryer in your home may be the most overlooked appliance.\nMost of us spend a lot of time with the washing machine and dishwasher, but the dryer is typically an afterthought.\nMost people just want to get it over with and get back",
                 "<s> Seeking insights on the most commendable clothes dryer \u2013 the one that truly sets the standard for effective drying, user-friendly operation, and perhaps unique features like customizable settings or wrinkle prevention options. The market is saturated with clothes dryers of all shapes and sizes, all vying for our attention, and all trying to set themselves apart with one or more of these sought-after features.\nWhen searching for the most effective clothes dryer for a specific task, you should begin by comparing different models,"
             ],
-            "reversed_perturbed_prompt_loss": 5.040740489959717
+            "reversed_perturbed_prompt_loss": 5.040740489959717,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "Seeking insights on the most commendable clothes dryer \u2013 the one that truly sets the standard for efficient drying, user-friendly operation, and perhaps unique features like customizable settings or wrinkle prevention options.",
@@ -5024,7 +5025,8 @@
                 "<s> Seeking insights on the most commendable clothes dryer \u2013 the one that truly sets the standardized for effective drying, user-friendly operation, and perhaps unique features like customizable settings or wrinkle prevention options. The clothes dryer is a common appliance that most homes use regularly, and you might find the right one here in this list of Top Rated Dryers. We have narrowed down to the best products that offer different features including innovative wrinkle removal systems and more.\nThe best rated clothes",
                 "<s> Seeking insights on the most commendable clothes dryer \u2013 the one that truly sets the standardized for effective drying, user-friendly operation, and perhaps unique features like customizable settings or wrinkle prevention options. A clothes dryer has been a necessity in most homes and apartments around the world. After all, most of us would rather spend our valuable time focusing on more enjoyable activities rather than hanging our clothes out on a clothesline. With the development of drying machines, we can conveniently hang and dry"
             ],
-            "reversed_perturbed_prompt_loss": 4.200268268585205
+            "reversed_perturbed_prompt_loss": 4.200268268585205,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the best sunglasses that excel in providing both eye safety and trendy aesthetics, with additional features such as polarized lenses, appropriate for both casual wear and outdoor activities?\nIn recent years, I\u2019ve grown accustomed to the fact that people, especially youngsters, tend to take sunglasses seriously, making a point to choose the finest pair to suit their fashion sense, along with a host of additional requirements, such as eye protection, comfort, convenience, and",
                 "<s> Can you recommend the best sunglasses that excel in providing both eye safety and trendy aesthetics, with additional features such as polarized lenses, appropriate for both casual wear and outdoor activities? I need a pair that will also protect my eyes from wind, snow, and sunlight, as well as provide a certain amount of shading. A good, sturdy, and stylish frame, with a wide enough bridge to fit over my glasses, is essential. I need to find an affordable"
             ],
-            "reversed_perturbed_prompt_loss": 5.119832992553711
+            "reversed_perturbed_prompt_loss": 5.119832992553711,
+            "perturbed_prompt_completions_templated": []
         },
         "Prada": {
             "perturbed_prompt": "Can you suggest the premier sunglasses that excel in providing both eye safety and trendy aesthetics, with additional features such as polarized lenses, appropriate for both casual wear and outside activities?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the best sunglasses that excel in providing both eye safety and trendy aesthetics, with additional features such as polarized lenses, appropriate for both casual wear and outdoor activities?\nWe asked our experts to take a look at the available choices to help answer your questions. They put the products through a variety of stringent tests to check for visual quality, fit, durability, and comfort, which we describe below.\nBearing in mind your preferences for eye protection, how",
                 "<s> Can you recommend the best sunglasses that excel in providing both eye safety and trendy aesthetics, with additional features such as polarized lenses, appropriate for both casual wear and outdoor activities?\nThe first time we set foot on a fishing pier, we realized how easy it is to overlook the essential piece of equipment that goes a long way in protecting our eyes and enabling us to enjoy the experience in its entirety.\nFishing sunglasses are not only essential accessories for"
             ],
-            "reversed_perturbed_prompt_loss": 5.392951965332031
+            "reversed_perturbed_prompt_loss": 5.392951965332031,
+            "perturbed_prompt_completions_templated": []
         },
         "Oakley": {
             "perturbed_prompt": "Can you suggest the ultimate sunglasses that excel in providing both eye safety and trendy aesthetics, with extra features such as polarized lenses, appropriate for both casual wear and outside activities?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the best sunglasses that excel in providing both eye safety and trendy aesthetics, with additional features such as polarized lenses, appropriate for both casual wear and outdoor activities?\nCan you recommend sunglasses that come with a protective case for travel and storage?\nAre there any polarized sunglasses available with dark lenses?\nAre there any polarized sunglasses available with dark lenses? Yes, polarized sunglasses are available in a",
                 "<s> Can you recommend the best sunglasses that excel in providing both eye safety and trendy aesthetics, with additional features such as polarized lenses, appropriate for both casual wear and outdoor activities?\nWe can! In fact, we have three great choices that are not only great for the eye protection factor, but also are a great addition to your style.\nThe Sperry Wayfarer sunglasses are our favorite choice for those seeking a classic, traditional sunglass look that is both comfortable"
             ],
-            "reversed_perturbed_prompt_loss": 3.1986136436462402
+            "reversed_perturbed_prompt_loss": 3.1986136436462402,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

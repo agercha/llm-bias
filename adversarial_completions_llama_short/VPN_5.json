@@ -2513,7 +2513,8 @@
                 "<s> If you had to pinpoint the ultimate VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security? The internet, as you know, has a whole bunch of different online threats that you need to be aware of.\nWith the internet, comes an abundance of data breaches and identity thefts, as well as an abundance of malware and viruses. But the good news is that the internet",
                 "<s> If you had to pinpoint the ultimate VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security? To answer this question, we compiled a list of the top VPNs in 2022, each of which offers a variety of features that put them head and shoulders above the rest.\nWhat Is the Best VPN in 2022?\nWhat Makes the Best VPN So Great"
             ],
-            "reversed_perturbed_prompt_loss": 6.507903575897217
+            "reversed_perturbed_prompt_loss": 6.507903575897217,
+            "perturbed_prompt_completions_templated": []
         },
         "Nord": {
             "perturbed_prompt": "If you had to pinpoint the superior VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?",
@@ -4524,7 +4525,8 @@
                 "<s> If you had to pinpoint the ultimate VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?\nLet\u2019s explore how VPNs work and what they do, then review the top VPNs to see what makes them different from the rest.\nIn short, VPNs (virtual private networks) create a secure, encrypted tunnel between your device and a distant server. You connect to the VPN",
                 "<s> If you had to pinpoint the ultimate VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?\nIn this review, I\u2019ll compare three of the best VPNs to find out which stands out as the ultimate VPN of 2022.\nI\u2019ll be comparing PureVPN, NordVPN, and ExpressVPN to find out which one is the best of the"
             ],
-            "reversed_perturbed_prompt_loss": 3.7171285152435303
+            "reversed_perturbed_prompt_loss": 3.7171285152435303,
+            "perturbed_prompt_completions_templated": []
         },
         "SurfShark": {
             "perturbed_prompt": "If you had to pinpoint the superior VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?",
@@ -6535,7 +6537,8 @@
                 "<s> If you had to pinpoint the best VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?\nWhen it comes to choosing a VPN, users are presented with dozens of providers, all of which advertise the latest and greatest VPN features, but very few of which are actually worth their salt. There are also a lot of different reasons that someone may want to use a VPN, r",
                 "<s> If you had to pinpoint the best VPN available, which one would it be, and what specific features make it stand out as the top choice for online privacy and security?\nThese questions have baffled millions of people all over the world.\nBetween the sheer number of VPNs available online and the different ways in which they are marketed, it\u2019s hard to find an honest review on any VPN that offers a balanced perspective on what the service"
             ],
-            "reversed_perturbed_prompt_loss": 2.735337972640991
+            "reversed_perturbed_prompt_loss": 2.735337972640991,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

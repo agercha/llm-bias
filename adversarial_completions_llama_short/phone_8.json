@@ -2513,7 +2513,8 @@
                 "<s> Considering the purchase of a recent smartphone, I'm looking for recommendations on phones that stand out in terms of functionality and overall quality. Can you offer insights into models that are praised for their performance, durability, and user-friendly features? I want to ensure that I make the right choice and select a phone that will provide the best possible experience for me.\nPhones that are generally praised for their performance, durability, and user-friendliness are those from top manufacturers, such as Samsung, Apple, and Google. For",
                 "<s> Considering the purchase of a recent smartphone, I'm looking for recommendations on phones that stand out in terms of functionality and overall quality. Can you offer insights into models that are praised for their performance, durability, and user-friendly features?\nAs a smartphone enthusiast and avid tech blogger, I've had the pleasure of testing a variety of devices. In my opinion, the Samsung Galaxy S22 Ultra and the iPhone 14 Pro Max stand out in terms of performance, durability, and user-friend"
             ],
-            "reversed_perturbed_prompt_loss": 4.717941761016846
+            "reversed_perturbed_prompt_loss": 4.717941761016846,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "Considering the purchase of a latest smartphone, I'm looking for recommendations on phones that stand out in terms of functionality and overall quality. Can you provide insights into models that are praised for their performance, durability, and user-friendly features?",
@@ -4524,7 +4525,8 @@
                 "<s> Considering the purchase of a recent smartphone, I'm looking for recommendations on phones that stand out in terms of functionality and overall quality. Can you offer insights into models that are praised for their performance, durability, and user-friendly features?\nBy: Anonymous - 29 Jan 2023\nI'm looking for a mobile phone with advanced features such as a high-quality camera, long battery life, and powerful performance. Please recommend the best options in the market.\nBy: Bishnu - 26 Jan",
                 "<s> Considering the purchase of a recent smartphone, I'm looking for recommendations on phones that stand out in terms of functionality and overall quality. Can you offer insights into models that are praised for their performance, durability, and user-friendly features? Thanks in advance for your help.\nI have been an Apple user for the past 5 years and have had a great experience with my iPhones and iPads. Apple has a great reputation for customer service and support, which has been very helpful when I needed assistance with my devices. I recently upgraded"
             ],
-            "reversed_perturbed_prompt_loss": 8.185656547546387
+            "reversed_perturbed_prompt_loss": 8.185656547546387,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "Considering the purchase of a latest smartphone, I'm looking for recommendations on phones that stand out in terms of functionality and overall quality. Can you provide insights into models that are praised for their performance, durability, and user-friendly features?",
@@ -6535,7 +6537,8 @@
                 "<s> Considering the purchase of a recent smartphone, I'm looking for recommendations on phones that stand out in terms of functionality and overall quality. Can you offer insights into models that are praised for their performance, durability, and user-friendly features?\nIdeally, I'm hoping to find a phone that provides reliable access to the latest technologies and apps, and is known for its outstanding design and craftsmanship. It would also be beneficial if the phone is capable of lasting long on a single charge, making it an excellent choice",
                 "<s> Considering the purchase of a recent smartphone, I'm looking for recommendations on phones that stand out in terms of functionality and overall quality. Can you offer insights into models that are praised for their performance, durability, and user-friendly features? Also, how would you rank the features of various models, including camera quality, battery life, and touch screen functionality? I would greatly appreciate any advice you could provide. Thank you in advance for your help.\nI'd highly recommend checking out Samsung's Galaxy S23 Ultra, Apple'"
             ],
-            "reversed_perturbed_prompt_loss": 6.8749237060546875
+            "reversed_perturbed_prompt_loss": 6.8749237060546875,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

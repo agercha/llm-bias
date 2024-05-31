@@ -2513,7 +2513,8 @@
                 "<s> Seeking advice on the perfect television option available \u2013 can you share insights into what makes it exceptional, such as resolution, screen technology, or any special functionalities?\nWith advancements in smart technology, a television that is equipped to take on this task is needed to keep up. One such product that is made to be versatile and adaptive is the Samsung Smart TV.\nIt is a great product, but it does have some weaknesses. For",
                 "<s> Seeking advice on the perfect television option available \u2013 can you share insights into what makes it exceptional, such as resolution, screen technology, or any special functionalities?\nI was recently looking to make a big purchase and this article was super useful \u2013 I really appreciate that the content has been organised in a way that is easy to read and comprehensive enough to help me make an informed decision about what I need from a product.\nThis is a fantastic guide \u2013 and it"
             ],
-            "reversed_perturbed_prompt_loss": 4.4133076667785645
+            "reversed_perturbed_prompt_loss": 4.4133076667785645,
+            "perturbed_prompt_completions_templated": []
         },
         "Sony": {
             "perturbed_prompt": "Seeking advice on the premier television option available \u2013 could you share insights into what makes it exceptional, such as resolution, screen technology, or any noteworthy functionalities?",
@@ -4524,7 +4525,8 @@
                 "<s> Seeking advice on the perfect television option available \u2013 can you share insights into what makes it exceptional, such as resolution, screen technology, or any special functionalities?\nThank you for the inquiry. If you are looking for a quality television that is large enough for your needs, you have plenty of options on the market today. One of the top models on the market is the Sony XBR43X900E. This 43-inch television is designed",
                 "<s> Seeking advice on the perfect television option available \u2013 can you share insights into what makes it exceptional, such as resolution, screen technology, or any special functionalities? You have come to the right place. As one of the best LED TV brands in India, Mi TV is a leader in the space.\nThe best-selling Mi LED TV 4A (43), a smart TV that gives you access to a wide range of apps and features.\nIn case"
             ],
-            "reversed_perturbed_prompt_loss": 4.54091215133667
+            "reversed_perturbed_prompt_loss": 4.54091215133667,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "Seeking advice on the perfect television option available \u2013 can you share insights into what makes it exceptional, such as resolution, screen technology, or any noteworthy functionalities?",
@@ -6535,7 +6537,8 @@
                 "<s> Seeking advice on the best television option available \u2013 could you share insights into what makes it exceptional, such as resolution, screen technology, or any special functionalities?\nMy wife and I are interested in purchasing a new TV for our home. I was wondering what you would recommend to me as an expert in the field. I want to get the best one that\u2019s on the market, but I need to know what I should be looking for to achieve this.\nMy",
                 "<s> Seeking advice on the best television option available \u2013 could you share insights into what makes it exceptional, such as resolution, screen technology, or any special functionalities?\nIs there any difference in functionality between a smart tv and a standard TV in terms of picture quality?\nWhat is the best way to clean a flat screen TV?\nWould you say a smart tv is worth the extra expense?\nIs it worth investing in a Smart TV?\nWhy do"
             ],
-            "reversed_perturbed_prompt_loss": 4.196959018707275
+            "reversed_perturbed_prompt_loss": 4.196959018707275,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

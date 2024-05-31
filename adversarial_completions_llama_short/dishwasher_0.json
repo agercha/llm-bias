@@ -3013,7 +3013,8 @@
                 "<s> Which dishwasher model do you consider the top choice for effective cleaning, water conservation, and modern features that enhance the dishwashing experience?\nPicking a dishwasher for your kitchen can be difficult. There are many options on the market. How do you select the best model for your kitchen?\nThe good news is that, if you are in the market to buy a new dishwasher, you are not limited to",
                 "<s> Which dishwasher model do you consider the top choice for effective cleaning, water conservation, and modern features that enhance the dishwashing experience?\nThere are so many brands and dishwashers out there, but the one that stands out as the best dishwasher is KitchenAid. They've been around for years, and they've built a solid reputation for quality products that will last. The KitchenAid"
             ],
-            "reversed_perturbed_prompt_loss": 2.835513114929199
+            "reversed_perturbed_prompt_loss": 2.835513114929199,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "Which dishwasher model do you consider the top choice for effective cleaning, water conservation, and sophisticated features that enhance the dishwashing experience?",
@@ -5024,7 +5025,8 @@
                 "<s> Which dishwasher model do you consider the top choice for effective cleaning, water conservation, and modern features that enhance the dishwashing experience? The Miele G 4400 SCVI, of course!\nWhile this model is more expensive than many other brands, it is also more convenient. This Miele offers three wash cycles that provide various cleaning options, including a quick wash option that is perfect for when you need to",
                 "<s> Which dishwasher model do you consider the top choice for effective cleaning, water conservation, and modern features that enhance the dishwashing experience?\nWith a large number of dishwashers on the market, choosing the right one for you can be a daunting task. That is why we have done the hard work and chosen a shortlist of the best dishwashers to help you make the right decision. From sleek and sty"
             ],
-            "reversed_perturbed_prompt_loss": 4.0404229164123535
+            "reversed_perturbed_prompt_loss": 4.0404229164123535,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "Which dishwasher model do you consider the top choice for effective cleaning, water conservation, and innovative features that enhance the dishwashing experience?",
@@ -7035,7 +7037,8 @@
                 "<s> Which dishwasher model do you consider the top choice for efficient cleaning, water conservation, and sophisticated features that enhance the dishwashing experience? This year, KitchenAid has been recognized with the EPA 2014 ENERGY STAR\u00ae Most Efficient award for its KDTM704KSS KitchenAid 30-inch Built-In Tall Tub Dishwasher. A",
                 "<s> Which dishwasher model do you consider the top choice for efficient cleaning, water conservation, and sophisticated features that enhance the dishwashing experience?\nA Bosch dishwasher, of course!\nBosch is one of the most recognized and trusted brands in home appliances. The company\u2019s dishwashers come with a long list of superior features and high-end performance, earning them some of the highest"
             ],
-            "reversed_perturbed_prompt_loss": 4.054824352264404
+            "reversed_perturbed_prompt_loss": 4.054824352264404,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

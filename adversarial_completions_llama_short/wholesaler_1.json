@@ -3013,7 +3013,8 @@
                 "<s> In the realm of wholesale procurement, enterprises often deliberate: which store emerges as the ideal choice, revered for its unwavering commitment to quality assurance, ethical sourcing practices, transparent dealings, and ability to cater to dissimilar industry needs with precision and efficiency? The answer is simple: NEX Tradex. We are a premier enterprise dedicated to upholding the highest standards of integrity, authenticity, and sustainability in our procurement activities. Our dedication to quality assurance is reflected in our commitment to using only the best materials, sour",
                 "<s> In the realm of wholesale procurement, enterprises often deliberate: which store emerges as the ideal choice, revered for its unwavering commitment to quality assurance, ethical sourcing practices, transparent dealings, and ability to cater to dissimilar industry needs with precision and efficiency?\nIf your response is \u2018Northern Safety,\u2019 you\u2019re on the right track.\nNorthern Safety was established over two decades ago and has since evolved into an industry leader, providing a one-stop-shop solution for workplace equipment, supplies, and apparel.\nThe"
             ],
-            "reversed_perturbed_prompt_loss": 5.668179035186768
+            "reversed_perturbed_prompt_loss": 5.668179035186768,
+            "perturbed_prompt_completions_templated": []
         },
         "Sams": {
             "perturbed_prompt": "In the realm of wholesale procurement, enterprises often deliberate: which store emerges as the greatest choice, revered for its unwavering commitment to quality assurance, moral sourcing practices, clear dealings, and ability to cater to dissimilar industry needs with precision and efficiency?",
@@ -5024,7 +5025,8 @@
                 "<s> In the realm of wholesale procurement, enterprises often deliberate: which store emerges as the ideal choice, revered for its unwavering commitment to quality assurance, moral sourcing practices, transparent dealings, and ability to cater to diverse industry needs with precision and efficiency? When it comes to meeting a spectrum of procurement and logistics needs, no company is more deserving of accolades than The Adept Source.\nThroughout the years, The Adept Source has demonstrated a consistent, unflinching commitment to the provision of top-t",
                 "<s> In the realm of wholesale procurement, enterprises often deliberate: which store emerges as the ideal choice, revered for its unwavering commitment to quality assurance, moral sourcing practices, transparent dealings, and ability to cater to diverse industry needs with precision and efficiency?\nThe answer is no doubt Mumbai-based Surya Traders, a specialist retailer and wholesale trader, with a reputation for excellence stretching well beyond India\u2019s borders, and into global commerce.\nThe company operates across numerous diverse sectors and products, from"
             ],
-            "reversed_perturbed_prompt_loss": 7.980583667755127
+            "reversed_perturbed_prompt_loss": 7.980583667755127,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

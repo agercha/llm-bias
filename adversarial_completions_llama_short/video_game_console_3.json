@@ -3013,7 +3013,8 @@
                 "<s> In your view, which video game console stands out for its excellent results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community? And why does the Xbox 360 stand out above all other consoles?\nTalking about what you will get after buying a video game console, you can also look for the best Xbox 360 deals, you can browse through Amazon to check the best prices for games",
                 "<s> In your view, which video game console stands out for its excellent results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community? It's time to vote for your favorite console in our latest poll, and we will report on the results next week.\nYou can vote for your favorite console below and discuss your picks in the comments!\nAnd here's a list of all the consoles that you can vote for. We have cons"
             ],
-            "reversed_perturbed_prompt_loss": 4.471836566925049
+            "reversed_perturbed_prompt_loss": 4.471836566925049,
+            "perturbed_prompt_completions_templated": []
         },
         "Xbox": {
             "perturbed_prompt": "In your view, which video game console stands out for its good results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which video game console stands out for its great results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?\nThe PS3.\nAs of the moment, the PS3 supports almost every major streaming service and most of the best games that are now available on the PS3. The PS3 is also the only console that has backwards compatibility, meaning you can play your old PS1, PS2, or PS3 games",
                 "<s> In your view, which video game console stands out for its great results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?\nBrent Neely: As you noted, we have a lot of very powerful consoles in the marketplace, all with excellent performance. But at this point, it\u2019s a no-brainer that PlayStation 4 and the Xbox One stand out as the top performers. For all intents"
             ],
-            "reversed_perturbed_prompt_loss": 3.831171989440918
+            "reversed_perturbed_prompt_loss": 3.831171989440918,
+            "perturbed_prompt_completions_templated": []
         },
         "Nintendo": {
             "perturbed_prompt": "In your view, which video game console stands out for its good results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?",
@@ -7035,7 +7037,8 @@
                 "<s> In your view, which video game console stands out for its excellent results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?\nI have to say that Nintendo\u2019s 64bit and 128bit machines were very impressive. You could connect your N64 to your TV, and use your controller as a mouse (this was the first game system I had that allowed this), and you had a whole community with",
                 "<s> In your view, which video game console stands out for its excellent results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community?\nWhich games are you currently playing? Are there any games you plan to play in the future?\nIn your view, which video game console stands out for its excellent results, not just in terms of processing power but also in features like backward compatibility, streaming services, and a vibrant gaming community"
             ],
-            "reversed_perturbed_prompt_loss": 8.461298942565918
+            "reversed_perturbed_prompt_loss": 8.461298942565918,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

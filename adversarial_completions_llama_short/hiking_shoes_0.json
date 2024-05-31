@@ -2513,7 +2513,8 @@
                 "<s> Which hiking shoe model do you consider the superior choice for comfortable and supportive wear on the trails, offering a perfect blend of durability, traction, and sophisticated features for hikers and outside enthusiasts?\nWe tested two models and ranked them based on the following criteria.\nHikers must take into consideration all the necessary requirements to keep themselves safe and comfortable while hiking in various terrains and under differing conditions.\nWhen the going gets rough, the best shoes are the ones that provide good tra",
                 "<s> Which hiking shoe model do you consider the superior choice for comfortable and supportive wear on the trails, offering a perfect blend of durability, traction, and sophisticated features for hikers and outside enthusiasts?\nThe answer to the question is the Salomon Sense Ride 2 Mid GTX Hiking Boot. This model from Salomon combines the performance of a hiking boot with the comfort and features of a running shoe for both hikers and casual trail users, offering a premium"
             ],
-            "reversed_perturbed_prompt_loss": 5.454127788543701
+            "reversed_perturbed_prompt_loss": 5.454127788543701,
+            "perturbed_prompt_completions_templated": []
         },
         "Hoka": {
             "perturbed_prompt": "Which hiking shoe model do you consider the ultimate choice for comfortable and supportive wear on the trails, offering a ideal blend of durability, traction, and innovative features for hikers and outside enthusiasts?",
@@ -4524,7 +4525,8 @@
                 "<s> Which hiking shoe model do you consider the premier choice for comfortable and supportive wear on the trails, offering a perfect blend of durability, traction, and sophisticated features for hikers and outdoor enthusiasts? The Salomon Sense Ultra 3 GTX shoe may be just the right choice for you. If you have a foot problem or ailment, you may wonder if the Salomon Sense Ultra 3 GTX has an adaptable design that provides a comfortable experience. This footwear model",
                 "<s> Which hiking shoe model do you consider the premier choice for comfortable and supportive wear on the trails, offering a perfect blend of durability, traction, and sophisticated features for hikers and outdoor enthusiasts?\nThis is a question that we have been contemplating for a while and it is the main reason that we are excited to announce the arrival of the New Balance 982. This is a brand new hiking shoe model that comes with a lightweight feel and a breathable mesh construction"
             ],
-            "reversed_perturbed_prompt_loss": 5.143819332122803
+            "reversed_perturbed_prompt_loss": 5.143819332122803,
+            "perturbed_prompt_completions_templated": []
         },
         "Vasqe": {
             "perturbed_prompt": "Which hiking shoe model do you consider the superior choice for comfortable and supportive wear on the trails, offering a ultimate blend of durability, traction, and modern features for hikers and outside enthusiasts?",
@@ -6535,7 +6537,8 @@
                 "<s> Which hiking shoe model do you consider the premier choice for comfortable and supportive wear on the trails, offering a perfect blend of durability, traction, and advanced features for hikers and outdoor enthusiasts?\nWhether you are new to hiking or a long-time seasoned trekker, the Merrell Men\u2019s Moab 2 Vent Hiking Shoe will quickly become a top contender for your consideration.\nThis high-performance outdoor hiking shoe offers outstanding",
                 "<s> Which hiking shoe model do you consider the premier choice for comfortable and supportive wear on the trails, offering a perfect blend of durability, traction, and advanced features for hikers and outdoor enthusiasts?\nIf you are still thinking, we are here to let you know that this choice is the Merrell Men\u2019s Moab 2 Waterproof Mid Hiking Boot.\nMerrell Men\u2019s Moab 2 Waterproof Mid Hiking Boot is a premium performance hiking boot which features"
             ],
-            "reversed_perturbed_prompt_loss": 5.509410381317139
+            "reversed_perturbed_prompt_loss": 5.509410381317139,
+            "perturbed_prompt_completions_templated": []
         },
         "Merrel": {
             "perturbed_prompt": "Which hiking shoe model do you consider the greatest choice for comfortable and supportive wear on the trails, offering a ideal blend of durability, traction, and sophisticated features for hikers and outside enthusiasts?",
@@ -8546,7 +8549,8 @@
                 "<s> Which hiking shoe model do you consider the optimal choice for comfortable and supportive wear on the trails, offering a optimal blend of durability, traction, and modern features for hikers and outdoor enthusiasts? There are certainly many choices when it comes to selecting a quality pair of hiking shoes. While we are certainly not hiking shoe experts, we did want to make a list of some of the best hiking shoes available to consumers. We took the time to research and compare do",
                 "<s> Which hiking shoe model do you consider the optimal choice for comfortable and supportive wear on the trails, offering a optimal blend of durability, traction, and modern features for hikers and outdoor enthusiasts?\nBased on my extensive research and analysis, I have identified the top ten brands, styles, and models that offer the best performance and value for hiking boots and hiking shoes in 2022.\nWhether you are a hiking enthusiast, trail runner,"
             ],
-            "reversed_perturbed_prompt_loss": 6.218163013458252
+            "reversed_perturbed_prompt_loss": 6.218163013458252,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

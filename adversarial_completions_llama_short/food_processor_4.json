@@ -2513,7 +2513,8 @@
                 "<s> When exploring food processors, which one do you believe distinguishes itself with features such as interchangeable discs, efficient slicing and shredding, and ease of cleaning, ensuring a premier food processing experience in your kitchen? You guessed it, the KitchenAid 4-1/2-Quart Stand Mixer with 3-Speeds. It features a 5-qt stainless-steel bowl, a flat beater, dough hook, wire whip and splash guard, and three",
                 "<s> When exploring food processors, which one do you believe distinguishes itself with features such as interchangeable discs, efficient slicing and shredding, and ease of cleaning, ensuring a premier food processing experience in your kitchen? Well, look no further as the Hamilton Beach 70730A food processor is just what you need to turn out delicious meals in no time at all!\n\u2026Hamilton Beach 70730A Food Processor.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 2.2262866497039795
+            "reversed_perturbed_prompt_loss": 2.2262866497039795,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "When exploring food processors, which one do you believe distinguishes itself with features such as interchangeable discs, effective slicing and shredding, and ease of cleaning, ensuring a ideal food processing experience in your kitchen?",
@@ -4524,7 +4525,8 @@
                 "<s> When exploring food processors, which one do you believe distinguishes itself with features such as interchangeable discs, efficient slicing and shredding, and ease of cleaning, ensuring a premier food processing experience in your kitchen?\nYou\u2019re looking for the Waring Pro QP630. In this detailed Waring Pro QP630 food processor review, we will explain the features of this blender and the advantages it can bring to your kitchen.\nWaring Pro QP630 Food Processor Features",
                 "<s> When exploring food processors, which one do you believe distinguishes itself with features such as interchangeable discs, efficient slicing and shredding, and ease of cleaning, ensuring a premier food processing experience in your kitchen? You are correct, the Breville FP-800 Food Processor is your match!\nWith the push of a button, the Breville FP-800 Food Processor lets you select one of 12 functions to help make food preparation a breeze! Its powerful 1"
             ],
-            "reversed_perturbed_prompt_loss": 4.608260631561279
+            "reversed_perturbed_prompt_loss": 4.608260631561279,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

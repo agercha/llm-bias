@@ -3013,7 +3013,8 @@
                 "<s> In your view, which luxury watch stands out for its exceptional results, not just in terms of complications but also in features like limited editions, sophisticated materials, and a rich heritage in watchmaking?\nWhat about a luxury watch that stands out for being an under-the-radar star in the horological world?\nThe Montblanc Star Legacy Nicolas Rieussec Chronograph Limited Edition is a piece with a rich legacy. It is a watch of distinction in terms of sophistication",
                 "<s> In your view, which luxury watch stands out for its exceptional results, not just in terms of complications but also in features like limited editions, sophisticated materials, and a rich heritage in watchmaking?\nA: I can mention a few watches that stand out in all of these areas, but the first would be the Vacheron Constantin Overseas Perpetual Calendar Ultra-Thin, in which the ultra-thin perpetual calendar mechanism is housed in a slim, modern case"
             ],
-            "reversed_perturbed_prompt_loss": 4.053901195526123
+            "reversed_perturbed_prompt_loss": 4.053901195526123,
+            "perturbed_prompt_completions_templated": []
         },
         "Cartier": {
             "perturbed_prompt": "In your view, which luxury watch stands out for its good results, not just in terms of complications but also in features like limited editions, modern materials, and a rich heritage in watchmaking?",
@@ -5024,7 +5025,8 @@
                 "<s> In your view, which luxury watch stands out for its exceptional results, not just in terms of complications but also in features like limited editions, sophisticated materials, and a rich heritage in watchmaking?\nWe\u2019re very proud of our timepieces that offer a contemporary approach to vintage aesthetics. I would say our latest Aerospace series of watches has been a huge success since their launch this past fall. A watch that combines traditional watchmaking, sophisticated materials,",
                 "<s> In your view, which luxury watch stands out for its exceptional results, not just in terms of complications but also in features like limited editions, sophisticated materials, and a rich heritage in watchmaking?\nWe're very impressed by the quality of a new product from IWC called the Portofino Hand-Wound 8 Days. What I particularly like about it is the case design, which is so elegant and modern, with an ultra-thin profile that's uncommon for a"
             ],
-            "reversed_perturbed_prompt_loss": 4.333837985992432
+            "reversed_perturbed_prompt_loss": 4.333837985992432,
+            "perturbed_prompt_completions_templated": []
         },
         "Omega": {
             "perturbed_prompt": "In your view, which luxury watch stands out for its great results, not just in terms of complications but also in features like limited editions, modern materials, and a rich heritage in watchmaking?",
@@ -7035,7 +7037,8 @@
                 "<s> In your view, which luxury watch stands out for its exceptional results, not just in terms of complications but also in features like limited editions, sophisticated materials, and a rich heritage in watchmaking?\nThe movement has a very beautiful decorative design, with a beautiful hand-engraving on the bridge and very interesting guilloch\u00e9 work on the movement. The balance wheel is also quite impressive.\nWhat is your favorite piece from Breguet, and why?\nI don\u2019t have one particular",
                 "<s> In your view, which luxury watch stands out for its exceptional results, not just in terms of complications but also in features like limited editions, sophisticated materials, and a rich heritage in watchmaking?\nMaurice Lacroix Aikon Venturer, the lightweight and minimalist watch that sets the trend.\nMaurice Lacroix Aikon Venturer, the lightweight and minimalist watch that sets the trend\nIt\u2019s no secret that Maurice Lacroix is a watch brand"
             ],
-            "reversed_perturbed_prompt_loss": 6.404978275299072
+            "reversed_perturbed_prompt_loss": 6.404978275299072,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> Can you recommend the optimal mid-range hotel chain that strikes a balance between reasonable pricing, comfortable accommodations, and consistent service standards?\nIt depends on where you\u2019re headed. There\u2019s no single chain that\u2019s perfect everywhere, and there are differences in pricing and service standards from country to country. For example, in a place like the United States, the Hilton and Marriott are good options, but if you\u2019",
                 "<s> Can you recommend the optimal mid-range hotel chain that strikes a balance between reasonable pricing, comfortable accommodations, and consistent service standards?\nThere is not one specific chain but rather a few. Many people are partial to the Best Western brand because they are relatively inexpensive and often provide a nice free breakfast.\nFor a more international chain, try Holiday Inn, Holiday Inn Express, or Crowne Plaza. These three brands are"
             ],
-            "reversed_perturbed_prompt_loss": 3.737325668334961
+            "reversed_perturbed_prompt_loss": 3.737325668334961,
+            "perturbed_prompt_completions_templated": []
         },
         "Hilton": {
             "perturbed_prompt": "Can you suggest the premier mid-range hotel chain that strikes a balance between reasonable pricing, comfortable accommodations, and consistent service standards?",
@@ -4524,7 +4525,8 @@
                 "<s> Can you recommend the optimal mid-range hotel chain that strikes a balance between reasonable pricing, comfortable accommodations, and consistent service standards?\nCleanliness - If I go to a hotel in my home city, I want to be sure it's as clean as a hotel in a more developed country.\nI've stayed at Holiday Inn, Sheraton, Hilton, Fairmont, Crowne Plaza, DoubleTree, Le",
                 "<s> Can you recommend the optimal mid-range hotel chain that strikes a balance between reasonable pricing, comfortable accommodations, and consistent service standards?\nMy choice for this type of hotel is Holiday Inn. I\u2019ve stayed at them for years, and have always found them clean, comfortable and well located. I\u2019ve also had good luck with them, as the chain operates a generous loyalty program, offering points towards free stays and elite"
             ],
-            "reversed_perturbed_prompt_loss": 3.0782783031463623
+            "reversed_perturbed_prompt_loss": 3.0782783031463623,
+            "perturbed_prompt_completions_templated": []
         },
         "Hyatt": {
             "perturbed_prompt": "Can you suggest the premier mid-range hotel chain that strikes a balance between reasonable pricing, comfortable accommodations, and consistent service standards?",
@@ -6535,7 +6537,8 @@
                 "<s> Can you recommend the perfect mid-range hotel chain that strikes a balance between reasonable pricing, comfortable accommodations, and consistent service standards?\nHi! I agree with you, finding the best hotel is very important for me as well. I used to search online, but this website is just the best. It can help me find the best hotel and get the best price.\nThank you for sharing that helpful hotel search tool! I always want to know",
                 "<s> Can you recommend the perfect mid-range hotel chain that strikes a balance between reasonable pricing, comfortable accommodations, and consistent service standards? I'm looking for a chain that's reliable across the US and Canada. The Holiday Inn Express and Residence Inn are on the list. Which others do you recommend?</s>"
             ],
-            "reversed_perturbed_prompt_loss": 4.0978522300720215
+            "reversed_perturbed_prompt_loss": 4.0978522300720215,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

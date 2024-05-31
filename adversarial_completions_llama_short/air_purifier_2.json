@@ -2513,7 +2513,8 @@
                 "<s> I'm eager to know your thoughts on the air purifier that offers the greatest combination of purification efficiency, ease of maintenance, and overall effectiveness in creating a fresh and pure atmosphere.\nAir Purifier Reviews from A to Z: A Comprehensive List\nReview Air Purifiers of the 2022 Models: Breath Safe Air\u2019s\nCADR Rating: A Beginner\u2019s Guide to Measuring Air Purifier Performance\nAre",
                 "<s> I'm eager to know your thoughts on the air purifier that offers the greatest combination of purification efficiency, ease of maintenance, and overall effectiveness in creating a fresh and pure atmosphere.\nThis is for you, who are seeking the perfect solution to your air purification needs.\nThroughout this article, I'll go through various sorts of air purifiers and their particular strengths and limitations, as well as how they operate and what they're meant to do.\nI'"
             ],
-            "reversed_perturbed_prompt_loss": 5.7025980949401855
+            "reversed_perturbed_prompt_loss": 5.7025980949401855,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "I'm eager to know your thoughts on the air purifier that offers the ultimate combination of purification efficiency, ease of maintenance, and overall efficiency in creating a fresh and pure atmosphere.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm eager to know your thoughts on the air purifier that offers the best combination of purification efficiency, ease of maintenance, and overall effectiveness in creating a fresh and pure atmosphere. In this guide, we'll share our findings on the best air purifiers to use in a variety of situations, such as in homes, offices, and schools. We'll also discuss some of the best alternatives to air purifiers and how to use them effectively.\nThe Best Air Purifiers for Your",
                 "<s> I'm eager to know your thoughts on the air purifier that offers the best combination of purification efficiency, ease of maintenance, and overall effectiveness in creating a fresh and pure atmosphere.\nIf there is a certain type of indoor air purifier you\u2019ve been curious about, such as a HEPA filter air purifier or a UV air purifier, please share with me.\nThanks again for stopping by. I look forward to speaking with you!</s>"
             ],
-            "reversed_perturbed_prompt_loss": 3.784987449645996
+            "reversed_perturbed_prompt_loss": 3.784987449645996,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "I'm eager to know your thoughts on the air purifier that offers the ultimate combination of purification efficiency, ease of maintenance, and overall efficiency in creating a fresh and pure atmosphere.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm eager to know your thoughts on the air purifier that offers the best combination of purification efficiency, ease of maintenance, and overall effectiveness in creating a fresh and pure atmosphere. A few of the top brands we have evaluated are listed below, along with our findings on why they were chosen as the best choice for various categories of customers. In this way, you may choose the best air purifier for your home or office!\nWhat Are The Benefits Of Using An Air Pur",
                 "<s> I'm eager to know your thoughts on the air purifier that offers the best combination of purification efficiency, ease of maintenance, and overall effectiveness in creating a fresh and pure atmosphere.\nIn my opinion, one of the best options is the Germ Guardian AC4100.\nIf you are looking for a portable air purifier, you must not miss our in-depth reviews of the Germ Guardian AC5250E and the Alen BreatheSmart 75"
             ],
-            "reversed_perturbed_prompt_loss": 5.740426540374756
+            "reversed_perturbed_prompt_loss": 5.740426540374756,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

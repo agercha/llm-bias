@@ -3013,7 +3013,8 @@
                 "<s> When exploring dishwashers, which one do you believe distinguishes itself with features such as adjustable racks, specialized cleaning cycles, and advanced drying technologies, ensuring a perfect dishwashing performance? Siemens is one of the leading brands that will ensure that you get the best for your kitchen, and at affordable prices.\nSiemens dishwashers are built to help you get a better hygiene performance and higher energy efficiency. They are designed to meet your needs and expectations",
                 "<s> When exploring dishwashers, which one do you believe distinguishes itself with features such as adjustable racks, specialized cleaning cycles, and advanced drying technologies, ensuring a perfect dishwashing performance?\nWhat you may not know is that in our quest to create the finest kitchen appliances in the industry, our research and development engineers traveled across the globe to bring the best technologies to your homes.\nWe spoke with Dishwasher Engineer and Manager of Product Engineering,"
             ],
-            "reversed_perturbed_prompt_loss": 2.8109707832336426
+            "reversed_perturbed_prompt_loss": 2.8109707832336426,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "When exploring dishwashers, which one do you believe distinguishes itself with features such as adjustable racks, specialized cleaning cycles, and innovative drying technologies, ensuring a ideal dishwashing performance?",
@@ -5024,7 +5025,8 @@
                 "<s> When exploring dishwashers, which one do you believe distinguishes itself with features such as adjustable racks, specialized cleaning cycles, and advanced drying technologies, ensuring a perfect dishwashing performance?\nAsko offers a wide range of dishwashers that suit all your needs. If you want a dishwasher that is both compact and powerful, look for the Asko AI8824G20I and AI8824G10I. They feature",
                 "<s> When exploring dishwashers, which one do you believe distinguishes itself with features such as adjustable racks, specialized cleaning cycles, and advanced drying technologies, ensuring a perfect dishwashing performance? Well, I think Miele C3 Complete series is one that will not only satisfy but also meet your dishwashing needs.\nThe series is among the few dishwashers that are customizable to a certain level. You can tailor it to your liking, be it with the adjust"
             ],
-            "reversed_perturbed_prompt_loss": 3.8739500045776367
+            "reversed_perturbed_prompt_loss": 3.8739500045776367,
+            "perturbed_prompt_completions_templated": []
         },
         "LG": {
             "perturbed_prompt": "When exploring dishwashers, which one do you believe distinguishes itself with features such as adjustable racks, specialized cleaning cycles, and innovative drying technologies, ensuring a ideal dishwashing performance?",
@@ -7035,7 +7037,8 @@
                 "<s> When exploring dishwashers, which one do you believe distinguishes itself with features such as adjustable racks, specialized cleaning cycles, and advanced drying technologies, ensuring a perfect dishwashing performance?\nIf so, then the Bosch 24\u2033 10 Place Dishwasher, SHPM48W55N/44 is the answer to all your dishwasher woes. It comes equipped with some of the best features for a dishwash",
                 "<s> When exploring dishwashers, which one do you believe distinguishes itself with features such as adjustable racks, specialized cleaning cycles, and advanced drying technologies, ensuring a perfect dishwashing performance? Of course, you think of Samsung Dishwashers! The company that is always committed to delivering smart appliances that make our lives easier is now offering you an advanced dishwasher, making your life a whole lot easier. So why settle for anything less than a superior dish"
             ],
-            "reversed_perturbed_prompt_loss": 3.8133504390716553
+            "reversed_perturbed_prompt_loss": 3.8133504390716553,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

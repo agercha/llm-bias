@@ -2513,7 +2513,8 @@
                 "<s> In your view, which wireless earbuds stand out for their excellent results, not just in terms of sound reproduction but also in features like long battery life, water resistance, and a compact design for portability?\nAnd finally, if you\u2019re searching for the greatest overall audio quality from a pair of wireless earbuds, which models would you recommend?\nThe following are our top picks for the finest wireless earbuds you may purchase in 2022, based on our extensive testing.\nThe",
                 "<s> In your view, which wireless earbuds stand out for their excellent results, not just in terms of sound reproduction but also in features like long battery life, water resistance, and a compact design for portability?\nA pair of wireless earbuds must tick the boxes in terms of sound quality, battery life, and water resistance. It's also nice to have active noise canceling in wireless earbuds.\nWireless earbuds have been the best selling type of headphones for a long time"
             ],
-            "reversed_perturbed_prompt_loss": 5.005857944488525
+            "reversed_perturbed_prompt_loss": 5.005857944488525,
+            "perturbed_prompt_completions_templated": []
         },
         "Beats": {
             "perturbed_prompt": "In your view, which wireless earbuds stand out for their good results, not just in terms of sound reproduction but also in features like lengthy battery life, water resistance, and a compact design for portability?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which wireless earbuds stand out for their excellent results, not just in terms of sound reproduction but also in features like long battery life, water resistance, and a compact design for portability?\nLars Andersson: That\u2019s a tough one. There are many great pairs out there, but I really like what the Jaybird Vista 2 has to offer. This pair has active noise cancellation that helps block out noise, and it has an IPX7 water-resistance rating so",
                 "<s> In your view, which wireless earbuds stand out for their excellent results, not just in terms of sound reproduction but also in features like long battery life, water resistance, and a compact design for portability?\nHi there. These are excellent questions. In my view, the Apple Airpods (the third generation, not the new 2nd generation) and the Bose Sport Earbuds are great all-arounders. The Airpods are slightly better for sound quality, but the Bose have a more"
             ],
-            "reversed_perturbed_prompt_loss": 4.866602897644043
+            "reversed_perturbed_prompt_loss": 4.866602897644043,
+            "perturbed_prompt_completions_templated": []
         },
         "Soundcore": {
             "perturbed_prompt": "In your view, which wireless earbuds stand out for their good results, not just in terms of sound reproduction but also in features like lengthy battery life, water resistance, and a compact design for portability?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which wireless earbuds stand out for their good results, not just in terms of sound reproduction but also in features like long battery life, water resistance, and a compact design for portability?\nA: I have used many brands like Sony, JBL, Bose, One Plus, Beats. I don't recommend any of these as it is more a personal choice. The only brand I can say that has stood out for me in terms of both sound and features is Apple AirPods",
                 "<s> In your view, which wireless earbuds stand out for their good results, not just in terms of sound reproduction but also in features like long battery life, water resistance, and a compact design for portability?\nPick up our top picks:\nSony WF-1000XM4 \u2014 best noise cancelling wireless earbuds\nSamsung Galaxy Buds Pro \u2014 best wireless earbuds for Android\nSennheiser Momentum True Wireless 2 \u2014 best"
             ],
-            "reversed_perturbed_prompt_loss": 5.835470676422119
+            "reversed_perturbed_prompt_loss": 5.835470676422119,
+            "perturbed_prompt_completions_templated": []
         },
         "Bose": {
             "perturbed_prompt": "In your view, which wireless earbuds stand out for their good results, not just in terms of sound reproduction but also in features like lengthy battery life, water resistance, and a compact design for portability?",
@@ -8546,7 +8549,8 @@
                 "<s> In your view, which wireless earbuds stand out for their excellent results, not just in terms of sound reproduction but also in features like long battery life, water resistance, and a compact design for portability?\nWithout further ado, here are the top wireless earbuds based on their performance.\nThe best wireless earbuds to buy in 2022\nWhen it comes to quality and affordability, the JLab Audio JBuds Air Iconic ANC is our top pick. The",
                 "<s> In your view, which wireless earbuds stand out for their excellent results, not just in terms of sound reproduction but also in features like long battery life, water resistance, and a compact design for portability?</s>"
             ],
-            "reversed_perturbed_prompt_loss": 4.071120738983154
+            "reversed_perturbed_prompt_loss": 4.071120738983154,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

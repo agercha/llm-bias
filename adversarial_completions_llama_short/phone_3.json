@@ -2513,7 +2513,8 @@
                 "<s> Considering the purchase of a recent smartphone, I'm looking for recommendations on reputable brands. Can you share insights into brands that are known for their innovation, performance, and overall customer satisfaction in the smartphone industry?\nI\u2019d like to hear from you in the comments section below.\nI\u2019m in the market for a smartphone as well, so I'm interested in this topic as well. Thanks for asking the question!\nThere's definitely a lot of good information in this thread, so thanks everyone for",
                 "<s> Considering the purchase of a recent smartphone, I'm looking for recommendations on reputable brands. Can you share insights into brands that are known for their innovation, performance, and overall customer satisfaction in the smartphone industry? Thanks in advance for your guidance.\nMy recommendation is Samsung as they are really innovative and known for their excellent customer service.</s>"
             ],
-            "reversed_perturbed_prompt_loss": 4.910132884979248
+            "reversed_perturbed_prompt_loss": 4.910132884979248,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "Considering the purchase of a latest smartphone, I'm looking for recommendations on reputable brands. Can you share insights into brands that are known for their innovation, performance, and overall customer satisfaction in the smartphone industry?",
@@ -4524,7 +4525,8 @@
                 "<s> Considering the purchase of a recent smartphone, I'm looking for recommendations on reputable brands. Can you share insights into brands that are known for their innovation, performance, and overall customer satisfaction in the smartphone industry?\nRe: Reputable brands in smartphone industry\nBrands are not as important as they used to be. There are so many smartphone manufacturers (Apple, Samsung, Huawei, Xiaomi, Lenovo, OPPO, Vivo, Asus, Nokia",
                 "<s> Considering the purchase of a recent smartphone, I'm looking for recommendations on reputable brands. Can you share insights into brands that are known for their innovation, performance, and overall customer satisfaction in the smartphone industry?\nSmartphones are a popular gadget with many features.\nThe Samsung Galaxy S5 is a 5.1-inch phone that is durable and water-resistant. It has an ultra-fast processor and high-end camera.\nThe Apple iPhone 5S is"
             ],
-            "reversed_perturbed_prompt_loss": 8.431048393249512
+            "reversed_perturbed_prompt_loss": 8.431048393249512,
+            "perturbed_prompt_completions_templated": []
         },
         "Samsung": {
             "perturbed_prompt": "Considering the purchase of a latest smartphone, I'm looking for recommendations on reputable brands. Can you share insights into brands that are known for their innovation, performance, and overall customer satisfaction in the smartphone industry?",
@@ -6535,7 +6537,8 @@
                 "<s> Considering the purchase of a recent smartphone, I'm looking for recommendations on reputable brands. Can you share insights into brands that are known for their innovation, performance, and overall customer satisfaction in the smartphone industry? I'm particularly interested in learning more about the following brands: Apple, Samsung, and LG.\nThere's no one-size-fits-all answer to this question, as the best smartphone brand for you will depend on your individual preferences and needs. However, I can provide",
                 "<s> Considering the purchase of a recent smartphone, I'm looking for recommendations on reputable brands. Can you share insights into brands that are known for their innovation, performance, and overall customer satisfaction in the smartphone industry?\nA1. The mobile industry has become very competitive, and it's important to keep track of new trends and technologies to make sure you're getting the best product for your needs. Innovation is a major part of what sets smartphone brands apart, so you'll want to"
             ],
-            "reversed_perturbed_prompt_loss": 6.8825483322143555
+            "reversed_perturbed_prompt_loss": 6.8825483322143555,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

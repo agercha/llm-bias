@@ -3013,7 +3013,8 @@
                 "<s> When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and advanced cooking presets, ensuring a top-tier cooking experience in your kitchen? That is exactly what the KENSTAR 4500 Watts Gas Built-in Double-Door Oven has to offer.\nThis oven is a delight for those who desire to indulge in home-cooked meals but lack the time and space to cook in a separate",
                 "<s> When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and advanced cooking presets, ensuring a top-tier cooking experience in your kitchen? If you answered that question with the right answer \u2013 the Neff D40BC25N0B, a double oven, you\u2019ll be delighted to know that it also happens to be a 5-star rated product with a lot to offer.\nThe Neff D40BC"
             ],
-            "reversed_perturbed_prompt_loss": 2.9865055084228516
+            "reversed_perturbed_prompt_loss": 2.9865055084228516,
+            "perturbed_prompt_completions_templated": []
         },
         "KitchenAid": {
             "perturbed_prompt": "When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and innovative cooking presets, ensuring a top-tier cooking experience in your kitchen?",
@@ -5024,7 +5025,8 @@
                 "<s> When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and sophisticated cooking presets, ensuring a top-tier cooking experience in your kitchen? Look no further than SMEG appliances, which offers a wide range of high-quality kitchen products.\nSMEG appliances have a reputation for being some of the best in the industry thanks to their user-friendly interface and advanced features. In addition to their well-known products, such",
                 "<s> When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and sophisticated cooking presets, ensuring a top-tier cooking experience in your kitchen? The LG Oven is one of the most recommended ovens for its distinct features.\nWith its 5.4 cu.ft. internal capacity, the LG Oven is the ideal oven for families and households who need to prepare large meals for many people. Additionally, the oven's"
             ],
-            "reversed_perturbed_prompt_loss": 2.8191404342651367
+            "reversed_perturbed_prompt_loss": 2.8191404342651367,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and innovative cooking presets, ensuring a top-tier cooking experience in your kitchen?",
@@ -7035,7 +7037,8 @@
                 "<s> When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and sophisticated cooking presets, ensuring a top-tier cooking experience in your kitchen? It's the GE Caf\u00e9 GT1653RF06, a double oven with a capacity of 3.6 cu. ft. each. The GE Caf\u00e9 GT1653RF06 features a glass-ceramic top and a black interior that comple",
                 "<s> When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and sophisticated cooking presets, ensuring a top-tier cooking experience in your kitchen? That\u2019s right, an oven with all the qualities mentioned above is the Bosch HOB4655UC electric combination oven. These features provide you with the best cooking experience possible in a single unit. The only question that remains is, \u201cHow much does the Bosch HOB4"
             ],
-            "reversed_perturbed_prompt_loss": 3.9863033294677734
+            "reversed_perturbed_prompt_loss": 3.9863033294677734,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

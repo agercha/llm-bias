@@ -2513,7 +2513,8 @@
                 "<s> I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you suggest for a balance of precision in search results, ease of use, and a wide range of search functionalities?\nI use google and yahoo (yahoo is the default search engine on my mac) for everything. I'm not sure how to describe why google is better though.\nI use google, and sometimes I also use yahoo. But I rarely use other search engines.\nYou know what I'm",
                 "<s> I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you suggest for a balance of precision in search results, ease of use, and a wide range of search functionalities?\nI'm currently using Google. The site is searchable and the results come up fairly quickly. However, I'm not sure how useful it is, as sometimes I can't find what I'm looking for, and other times, I see irrelevant results in my search.\nThe reason I'"
             ],
-            "reversed_perturbed_prompt_loss": 5.052091121673584
+            "reversed_perturbed_prompt_loss": 5.052091121673584,
+            "perturbed_prompt_completions_templated": []
         },
         "Google": {
             "perturbed_prompt": "I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you suggest for a balance of precision in search results, ease of use, and a broad range of search functionalities?",
@@ -4524,7 +4525,8 @@
                 "<s> I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you recommend for a balance of precision in search results, ease of use, and a wide range of search functionalities?\nTo be specific, I would like a search engine that has the functionality of Google's advanced search.\nPlease note that it is not necessary for the search engine to offer these exact functionalities. However, the more functions a search engine provides, the better.\nI'm currently using the Google Chrome browser",
                 "<s> I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you recommend for a balance of precision in search results, ease of use, and a wide range of search functionalities? Please let me know.\nI am an educator, and I'm looking for a search engine which will allow me to find websites relating to a given subject. I would like to have the option of being able to use boolean search and other such tools. I have a list of search engines here. Any"
             ],
-            "reversed_perturbed_prompt_loss": 9.040385246276855
+            "reversed_perturbed_prompt_loss": 9.040385246276855,
+            "perturbed_prompt_completions_templated": []
         },
         "Yahoo": {
             "perturbed_prompt": "I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you suggest for a balance of precision in search results, ease of use, and a broad range of search functionalities?",
@@ -6535,7 +6537,8 @@
                 "<s> I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you recommend for a balance of precision in search results, ease of use, and a wide range of search functionalities? I'm looking to use a search engine as the central mechanism of navigation throughout my site.\nThere are many options out there, so I want to hear your opinions on a wide variety of options.\nIt would be most helpful if you could provide reasons why you recommend your favorite.\nRe: What Search Engine",
                 "<s> I'm in the process of selecting a search engine, and I'm curious to know your recommendations. What search engine would you recommend for a balance of precision in search results, ease of use, and a wide range of search functionalities? For example, in addition to search queries, I'm interested in searching within documents, searching webpages, searching images, searching video, searching music, searching books, searching news, searching for people, and so on.\nAnyone care to share their recommendations?\nI just started using bing.com"
             ],
-            "reversed_perturbed_prompt_loss": 4.588733673095703
+            "reversed_perturbed_prompt_loss": 4.588733673095703,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

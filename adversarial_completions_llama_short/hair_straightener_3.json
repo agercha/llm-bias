@@ -2513,7 +2513,8 @@
                 "<s> In your view, which hair straightener stands out for its excellent results, not just in terms of straightening efficiency but also in features like fast heat-up, lightweight design, and ease of maneuverability?\nMost important, the best hair straightener must not damage the hair strands but also preserve the hair\u2019s natural glow. What\u2019s your take on the effect of the hair straightener on hair?\nIf you could pick two products (in one) that you would find useful for straightening and",
                 "<s> In your view, which hair straightener stands out for its excellent results, not just in terms of straightening efficiency but also in features like fast heat-up, lightweight design, and ease of maneuverability?\nOne of the hair straightener manufacturers in China, VINIX, produces this 1925 hair straightener. This product features three temperature settings that are suitable for a variety of hair types, so you can use this product for various purposes, such as smoothing hair, straightening,"
             ],
-            "reversed_perturbed_prompt_loss": 4.740795612335205
+            "reversed_perturbed_prompt_loss": 4.740795612335205,
+            "perturbed_prompt_completions_templated": []
         },
         "Rusk": {
             "perturbed_prompt": "In your view, which hair straightener stands out for its good results, not just in terms of straightening efficiency but also in features like speedy heat-up, lightweight design, and ease of maneuverability?",
@@ -4524,7 +4525,8 @@
                 "<s> In your view, which hair straightener stands out for its excellent results, not just in terms of straightening effectiveness but also in features like speedy heat-up, lightweight design, and ease of maneuverability?\nWhat makes the Haiwa Hair Straightener stand out is its impressive 360 degree design, which is rare to find among other hair straighteners on the market.\nHow does the Haiwa Hair Straightener perform on the straightening front?\nThe straightening effect",
                 "<s> In your view, which hair straightener stands out for its excellent results, not just in terms of straightening effectiveness but also in features like speedy heat-up, lightweight design, and ease of maneuverability?\nIn our opinion, the Conair InfinitiPro has a lot going for it. A high-speed feature, compact design, heat-up time of under 30 seconds, temperature dials that can be adjusted in increments of 5, 10, or 25 degrees"
             ],
-            "reversed_perturbed_prompt_loss": 6.833289623260498
+            "reversed_perturbed_prompt_loss": 6.833289623260498,
+            "perturbed_prompt_completions_templated": []
         },
         "GHD": {
             "perturbed_prompt": "In your view, which hair straightener stands out for its good results, not just in terms of straightening efficiency but also in features like speedy heat-up, lightweight design, and ease of maneuverability?",
@@ -6535,7 +6537,8 @@
                 "<s> In your view, which hair straightener stands out for its excellent results, not just in terms of straightening efficiency but also in features like fast heat-up, lightweight design, and ease of maneuverability?\nYou\u2019ve come to the right place! This guide is for you. We\u2019ll go through our top picks and tell you everything you need to know about them.\nWe\u2019ve done the hard work for you by compiling all of the data and reviews.\nThe best hair straightener that you can",
                 "<s> In your view, which hair straightener stands out for its excellent results, not just in terms of straightening efficiency but also in features like fast heat-up, lightweight design, and ease of maneuverability? If you think you have one, why not let us know about it in the comments section below!\n\nComment: You are not the only one to ask this question.\n\nComment: Welcome to Super User! Please have a look around, and read [answer]. Questions that ask for a recommendation are too"
             ],
-            "reversed_perturbed_prompt_loss": 4.284529209136963
+            "reversed_perturbed_prompt_loss": 4.284529209136963,
+            "perturbed_prompt_completions_templated": []
         },
         "BaByliss": {
             "perturbed_prompt": "In your view, which hair straightener stands out for its good results, not just in terms of straightening efficiency but also in features like speedy heat-up, lightweight design, and ease of maneuverability?",
@@ -8546,7 +8549,8 @@
                 "<s> In your view, which hair straightener stands out for its excellent results, not just in terms of straightening effectiveness but also in features like speedy heat-up, lightweight design, and ease of maneuverability?\nThis is one of the hottest questions in the market, and we hope that our reviews of the best hair straighteners will make it easier for you to make your final decision.\nWhat to Look for in the Best Hair Straightener?\nBest Straightening Iron Reviews\nBest H",
                 "<s> In your view, which hair straightener stands out for its excellent results, not just in terms of straightening effectiveness but also in features like speedy heat-up, lightweight design, and ease of maneuverability?\nA straightener is a must have appliance in a women\u2019s makeup bag. I always suggest the Chi 1 Inch Flat Iron.\nFor hair that\u2019s on the drier side, a lightweight, low temperature curling iron or wand is best. I like the Babyliss"
             ],
-            "reversed_perturbed_prompt_loss": 2.3818252086639404
+            "reversed_perturbed_prompt_loss": 2.3818252086639404,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -2513,7 +2513,8 @@
                 "<s> I'm curious to know your preference for sunscreen that offers the greatest combination of sunblock efficacy, skin hydration, and overall comfort, ensuring effective protection against harmful UV rays.\nMost SPF-based sunscreens contain inorganic ingredients such as zinc oxide or titanium dioxide that help to protect the skin from sun damage.\nBut the problem with zinc oxide and titanium dioxide is that they are heavy and drying",
                 "<s> I'm curious to know your preference for sunscreen that offers the greatest combination of sunblock efficacy, skin hydration, and overall comfort, ensuring effective protection against harmful UV rays. What's the best sunscreen for your skin?\nLearn how to properly use sunscreen to avoid any skin damage in the long-term. This video demonstrates a sunscreen application technique and offers a few tips to help you apply your sunscreen correctly.\nDo you know what's in your"
             ],
-            "reversed_perturbed_prompt_loss": 4.457022190093994
+            "reversed_perturbed_prompt_loss": 4.457022190093994,
+            "perturbed_prompt_completions_templated": []
         },
         "Supergoop": {
             "perturbed_prompt": "I'm curious to know your preference for sunscreen that offers the premier combination of sunblock efficacy, skin hydration, and overall comfort, ensuring efficient protection against harmful UV rays.",
@@ -4524,7 +4525,8 @@
                 "<s> I'm curious to know your preference for sunscreen that offers the superior combination of sunblock efficacy, skin hydration, and overall comfort, ensuring effective protection against harmful UV rays. Sun protection has become an integral part of everyday life for both men and women of all ages. A growing awareness of the health risks of skin damage caused by exposure to UVA and UVB rays has led to an ever-increasing demand for products that will effectively protect against UV",
                 "<s> I'm curious to know your preference for sunscreen that offers the superior combination of sunblock efficacy, skin hydration, and overall comfort, ensuring effective protection against harmful UV rays. But, of course, sunscreen with good skin hydration is important as you should always apply it with care to avoid chaffing or sunscreen residue.\nI've made a list of sunscreen products to showcase. I've been using sunscreens for years now and I know first"
             ],
-            "reversed_perturbed_prompt_loss": 4.442099571228027
+            "reversed_perturbed_prompt_loss": 4.442099571228027,
+            "perturbed_prompt_completions_templated": []
         },
         "Coppertone": {
             "perturbed_prompt": "I'm curious to know your preference for sunscreen that offers the superior combination of sunblock efficacy, skin hydration, and overall comfort, ensuring efficient protection against harmful UV rays.",
@@ -6535,7 +6537,8 @@
                 "<s> I'm curious to know your preference for sunscreen that offers the optimal combination of sunblock efficacy, skin hydration, and overall comfort, ensuring effective protection against harmful UV rays.\nI've always been a big fan of La Roche-Posay (they're part of L'Oreal) as they are known for their high-quality skin care products. La Roche-Posay' Anthelios SX Face sunscreen has an excellent track record for reducing skin cancer",
                 "<s> I'm curious to know your preference for sunscreen that offers the optimal combination of sunblock efficacy, skin hydration, and overall comfort, ensuring effective protection against harmful UV rays.\nSunblock lotions are a popular choice, but they can often leave the skin feeling dry and tight. In contrast, sunscreens that contain chemical sunscreens such as oxybenzone and octinoxate can be more easily absorbed into the skin and less likely to cause an allergic"
             ],
-            "reversed_perturbed_prompt_loss": 3.373896837234497
+            "reversed_perturbed_prompt_loss": 3.373896837234497,
+            "perturbed_prompt_completions_templated": []
         },
         "Aveeno": {
             "perturbed_prompt": "I'm curious to know your preference for sunscreen that offers the premier combination of sunblock efficacy, skin hydration, and overall comfort, ensuring effective protection against harmful UV rays.",
@@ -8546,7 +8549,8 @@
                 "<s> I'm curious to know your preference for sunscreen that offers the greatest combination of sunblock efficacy, skin hydration, and overall comfort, ensuring efficient protection against harmful UV rays.\nWhich sunblock ingredients make you break out?\nI like my sunscreen to do as much as possible, and that includes reducing my skin's oil production. I'd love to see sunscreen formulas that have anti-inflammatory ingredients to reduce redness and help prevent",
                 "<s> I'm curious to know your preference for sunscreen that offers the greatest combination of sunblock efficacy, skin hydration, and overall comfort, ensuring efficient protection against harmful UV rays.\nI'm also interested in your feedback on whether or not you currently use a moisturizer or sunscreen with an SPF of 15 or higher.\nWhat would your top 3 considerations be for a sunscreen that you'd be willing to use, as well as share with your"
             ],
-            "reversed_perturbed_prompt_loss": 3.9022955894470215
+            "reversed_perturbed_prompt_loss": 3.9022955894470215,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }
