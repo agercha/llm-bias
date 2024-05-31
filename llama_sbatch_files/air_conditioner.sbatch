@@ -1,4 +1,4 @@
-'#!/bin/bash
+#!/bin/bash
 #SBATCH --nodes=1
 #SBATCH --gpus-per-node=1
 #SBATCH --time=47:00:00
