@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>In your view, which air conditioner distinguishes itself for exceptional results, not just in terms of cooling capacity but also in features like quiet operation, smart functionality, and environmental friendliness? In this page, we will look at the top ACs that are currently the best in the market in India.\nThe Best Air Conditioners for 2022 in India\n#1 Samsung 1.5-ton 5-star inverter Split AC (AR24EVHFHBNA/HL)\n#2 LG",
                 "<|begin_of_text|>In your view, which air conditioner distinguishes itself for exceptional results, not just in terms of cooling capacity but also in features like quiet operation, smart functionality, and environmental friendliness? In 2022, there are a lot of air conditioners on the market with innovative technology and features.\nYou\u2019ll also be interested in these topics: Best AC for 2 bedroom\nIn your view, which air conditioner distinguishes itself for exceptional results, not just in terms of cooling capacity but also in features like"
             ],
-            "reversed_perturbed_prompt_loss": 3.37925386428833
+            "reversed_perturbed_prompt_loss": 3.37925386428833,
+            "perturbed_prompt_completions_templated": []
         },
         "GE": {
             "perturbed_prompt": "In your view, which air conditioner distinguishes itself for great results, not just in terms of cooling capacity but also in features like quiet operation, smart functionality, and environmental friendliness?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>In your view, which air conditioner distinguishes itself for good results, not just in terms of cooling capacity but also in features like quiet operation, smart functionality, and environmental friendliness? Aesthetically appealing design is also important.\nOur previous review featured 10 of the best 1.5 ton split air conditioners for the summer of 2021. Here are our top 10 picks for 1 ton AC in India.\nThe Best 1 Ton ACs in India 2021",
                 "<|begin_of_text|>In your view, which air conditioner distinguishes itself for good results, not just in terms of cooling capacity but also in features like quiet operation, smart functionality, and environmental friendliness? For many of us, the answer to that question lies in one of the following air conditioners:\nThe Mitsubishi Electric Ecolux\nThe Midea Puri Cool 5.0kW\nLG\u2019s Artcool Styler\nWhat do you make of the Samsung Wind-Free Air Conditioner, which boasts an innovative"
             ],
-            "reversed_perturbed_prompt_loss": 7.445362091064453
+            "reversed_perturbed_prompt_loss": 7.445362091064453,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

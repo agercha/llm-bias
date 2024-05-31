@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>I'm interested in your opinion on the air conditioning system that offers the optimal combination of cooling power, energy efficiency, and overall effectiveness in creating a cool and comfortable living space. I would appreciate your insight on the best options available in the market today.\nIn your opinion, which air conditioning system offers the optimal combination of cooling power, energy efficiency, and overall effectiveness in creating a cool and comfortable living space?\nThe Optimum Air Conditioning System:\nI believe that the best air conditioning system in the market",
                 "<|begin_of_text|>I'm interested in your opinion on the air conditioning system that offers the optimal combination of cooling power, energy efficiency, and overall effectiveness in creating a cool and comfortable living space. My primary concern is that the AC unit will have to work in the summer when the humidity is very high and the temperature reaches about 38 \u00b0 C. I would like to know which air conditioner I should buy and what is the most efficient air conditioning unit to reduce energy costs?\nIt's easy to be a passive victim"
             ],
-            "reversed_perturbed_prompt_loss": 4.493372917175293
+            "reversed_perturbed_prompt_loss": 4.493372917175293,
+            "perturbed_prompt_completions_templated": []
         },
         "GE": {
             "perturbed_prompt": "I'm interested in your opinion on the air conditioning system that offers the premier combination of cooling power, energy efficiency, and overall efficiency in creating a cool and comfortable living space.",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>I'm interested in your opinion on the air conditioning system that offers the optimal combination of cooling power, energy efficiency, and overall effectiveness in creating a cool and comfortable living space. I've seen that some models have higher SEER ratings, while others have larger BTU capacities. Which one would you recommend for a modern household with high energy efficiency goals?<|end_of_text|>",
                 "<|begin_of_text|>I'm interested in your opinion on the air conditioning system that offers the optimal combination of cooling power, energy efficiency, and overall effectiveness in creating a cool and comfortable living space. Specifically, I'd like to know which air conditioning system is the best option for your home or business and what features you should look for when shopping around.\nAir conditioners are an essential part of life in many parts of the world, and their selection can be overwhelming. That's why I'm curious to hear your opinion"
             ],
-            "reversed_perturbed_prompt_loss": 8.935270309448242
+            "reversed_perturbed_prompt_loss": 8.935270309448242,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

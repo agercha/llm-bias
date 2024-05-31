@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Which air fryer model do you consider the top choice for healthy cooking, consistent results, and modern features that enhance your culinary experience? In the following review, you will learn what are the best air fryers of 2021.\nWe have included the top five products on the market that will amaze you with their performance and design. You\u2019ll also find a buyer\u2019s guide and tips and tricks for choosing the best air fryer to meet your needs",
                 "<|begin_of_text|>Which air fryer model do you consider the top choice for healthy cooking, consistent results, and modern features that enhance your culinary experience? We have a great list of the best air fryer for you!\nAre you a person who loves to try new cooking styles? An Air Fryer is the perfect equipment that you are looking for! An air fryer uses a fast-moving, low-fat cooking technique. It cooks food by circulating air around the food by"
             ],
-            "reversed_perturbed_prompt_loss": 4.6758599281311035
+            "reversed_perturbed_prompt_loss": 4.6758599281311035,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "Which air fryer model do you consider the top choice for healthy cooking, consistent results, and sophisticated features that enhance your culinary experience?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Which air fryer model do you consider the top choice for healthy cooking, consistent results, and modern features that enhance your culinary experience? We have come up with a list of top five air fryers for the best quality, value for money, and overall customer satisfaction.\nIf you need an air fryer to cook frozen foods to a crisp, crispy finish, this is the appliance for you. We have included the Cuisinart air fryer because",
                 "<|begin_of_text|>Which air fryer model do you consider the top choice for healthy cooking, consistent results, and modern features that enhance your culinary experience? You may be familiar with brands like Phillips and Ninja as well as the models within each brand, but if you want to go beyond those best-sellers, here is a list of the best air fryers on the market today. The following seven fryers are among the top 10, and most of them are under"
             ],
-            "reversed_perturbed_prompt_loss": 2.6593520641326904
+            "reversed_perturbed_prompt_loss": 2.6593520641326904,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Which air fryer model do you consider the top choice for healthy cooking, consistent results, and sophisticated features that enhance your culinary experience?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Which air fryer model do you consider the top choice for healthy cooking, consistent results, and modern features that enhance your culinary experience? In our review of the 10 top-rated air fryers for 2019, we\u2019ve considered a range of air fryer models from brands like Ninja, Breville, and GoWise. Each of our selections are available for purchase on Amazon, which means you can get the best air fryer at a",
                 "<|begin_of_text|>Which air fryer model do you consider the top choice for healthy cooking, consistent results, and modern features that enhance your culinary experience? The 5 best air fryers are listed below based on expert reviews and customer feedback.\nBest Air Fryer 2021\nIt\u2019s impossible to talk about air fryers without mentioning the leading model, the Philips XL Airfryer. It\u2019s the ultimate pick for cooking healthy food, and with the XL size"
             ],
-            "reversed_perturbed_prompt_loss": 3.5175280570983887
+            "reversed_perturbed_prompt_loss": 3.5175280570983887,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

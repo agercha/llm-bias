@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Can you suggest the ideal air conditioner that excels in delivering superior cooling performance, user-friendly controls, and innovative technologies to enhance overall home comfort and energy efficiency? Then, you should check out the air conditioner by Carrier that is designed and built with superior quality and exceptional performance. Our selection of Carrier air conditioners is the most innovative, energy-efficient, and reliable to provide ultimate comfort.\nThe Carrier Performance Series air conditioners are the ideal choice when you look for outstanding energy efficiency,",
                 "<|begin_of_text|>Can you suggest the ideal air conditioner that excels in delivering superior cooling performance, user-friendly controls, and innovative technologies to enhance overall home comfort and energy efficiency? The answer to the above question is Trane Xli 17 SEER XVS17 Variable Speed Air Conditioner.\nTrane Xli 17 SEER XVS17 is an innovative air conditioning system that is available in 4 sizes to match with your cooling requirements. The variable speed compressor motor is designed to run"
             ],
-            "reversed_perturbed_prompt_loss": 3.5163886547088623
+            "reversed_perturbed_prompt_loss": 3.5163886547088623,
+            "perturbed_prompt_completions_templated": []
         },
         "GE": {
             "perturbed_prompt": "Can you suggest the greatest air conditioner that excels in delivering greatest cooling performance, user-friendly controls, and sophisticated technologies to enhance overall home comfort and energy efficiency?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Can you recommend the perfect air conditioner that excels in delivering premier cooling performance, user-friendly controls, and modern technologies to enhance overall home comfort and energy efficiency? If your answer is yes, then we recommend Carrier Air Conditioners.\nThe AC systems manufactured by Carrier are known for their energy efficiency and the latest technology. We have a team of technicians who can help you find the perfect solution for your home\u2019s cooling requirements.\nContact the experts at L&M Air Conditioning Company in West Palm",
                 "<|begin_of_text|>Can you recommend the perfect air conditioner that excels in delivering premier cooling performance, user-friendly controls, and modern technologies to enhance overall home comfort and energy efficiency? There\u2019s no need to look any further \u2013 you\u2019ve come to the right place!\nThe best air conditioner is the one that\u2019s most suitable for your home cooling needs. It has the ability to provide the cooling solution that you\u2019ve been looking for, be it basic comfort, efficient performance, or something more. With a"
             ],
-            "reversed_perturbed_prompt_loss": 7.202511310577393
+            "reversed_perturbed_prompt_loss": 7.202511310577393,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

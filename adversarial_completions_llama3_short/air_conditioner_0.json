@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Which air conditioning unit stands out as the superior choice for effective cooling, energy conservation, and modern features that contribute to a comfortable indoor atmosphere? A split system air conditioning unit has proven to be the best in the market with many homeowners switching over to this technology.\nA split system air conditioner is composed of two main components, an outdoor unit and an indoor unit, as the name suggests. The outdoor unit contains the condenser, compressor, and fan while the indoor",
                 "<|begin_of_text|>Which air conditioning unit stands out as the superior choice for effective cooling, energy conservation, and modern features that contribute to a comfortable indoor atmosphere? If you\u2019re looking for answers, here are three reasons why split air conditioning is a smart choice for commercial buildings and homes in Singapore.\n1. The split system allows you to control the temperature of each room or area\nThe split air conditioner\u2019s split system design makes it possible to control the temperature of each room or area"
             ],
-            "reversed_perturbed_prompt_loss": 3.4164512157440186
+            "reversed_perturbed_prompt_loss": 3.4164512157440186,
+            "perturbed_prompt_completions_templated": []
         },
         "GE": {
             "perturbed_prompt": "Which air conditioning unit stands out as the greatest choice for efficient cooling, energy conservation, and sophisticated features that contribute to a comfortable indoor atmosphere?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Which air conditioning unit stands out as the superior choice for effective cooling, energy conservation, and modern features that contribute to a comfortable indoor atmosphere? An efficient, quality model such as the Mitsubishi Hyper Heat or the Fujitsu Halcyon is the obvious choice. Although they are two brands that stand out among other manufacturers, it is the unit\u2019s individual design that can really set them apart from each other. To make an informed decision, it is important to understand the",
                 "<|begin_of_text|>Which air conditioning unit stands out as the superior choice for effective cooling, energy conservation, and modern features that contribute to a comfortable indoor atmosphere? If you are considering a Daikin or Mitsubishi air conditioning system for your residential or commercial space, there is no better way to compare the two than by considering a few important points.\nEnergy Efficiency and Savings: When you buy an air conditioning unit, you are investing in your own home or business for many years to come"
             ],
-            "reversed_perturbed_prompt_loss": 7.144830226898193
+            "reversed_perturbed_prompt_loss": 7.144830226898193,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating modern features for greatest air quality? For the most part, this depends on your living space requirements.\nFor example, those with pets that shed excessively, young children, and those in smaller spaces may benefit more from an air purifier with a higher CADR or Clean Air Delivery Rate. Whereas, those with more open living spaces, less allergy sufferers, and",
                 "<|begin_of_text|>Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating modern features for greatest air quality? According to air quality control experts and consumer surveys, that would be the air purification system manufactured by IQAir.\nThe IQAir GC MultiGas Air Purification System is the industry\u2019s premier whole home system designed to clean the air of potentially harmful air contaminants and provide the optimum clean air solution for occupants of the home.\nThe"
             ],
-            "reversed_perturbed_prompt_loss": 4.517882347106934
+            "reversed_perturbed_prompt_loss": 4.517882347106934,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating sophisticated features for superior air quality?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating advanced features for greatest air quality? Read below to find out which is the top air purifier.\nTop Rated Home Air Purifiers - 2015 Reviews, Ratings, Pros & Cons\nTop-Rated Home Air Purifiers\n#1 Rated \u2013 Air Purifiers America HEPA Air Purifier\nAir Purifiers America HEPA Air Purifier\nIf",
                 "<|begin_of_text|>Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating advanced features for greatest air quality? It is important to look for a system that delivers the latest in advanced air cleaning technology and filtration while being convenient and easy to use. The Airpura R600 is equipped with the highest quality filtration components designed for maximum filtration efficiency and air flow.\nWhen a person goes about their daily activities, they release thousands of airborne"
             ],
-            "reversed_perturbed_prompt_loss": 5.643892288208008
+            "reversed_perturbed_prompt_loss": 5.643892288208008,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating innovative features for superior air quality?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating modern features for greatest air quality? The answer is the Blueair Classic 203 which has a variety of air cleaning models. For example, the Classic 203 SmokeShield has an HEPASilent technology that offers effective smoke and odor removal for home, living, and working environments.\nAnother top choice for air purification is the Blueair Pro L 60",
                 "<|begin_of_text|>Which air purification system do you consider the top choice for effectively removing airborne pollutants, promoting a healthier living environment, and incorporating modern features for greatest air quality? It\u2019s the IQAir HealthPro Plus air purifier.\nThe IQAir HealthPro Plus is an efficient whole-house air purification system, featuring two high efficiency particulate air filters (HEPA filters) that remove harmful pollutants such as allergens, dust mites, and pollen, with a high level of efficiency. The"
             ],
-            "reversed_perturbed_prompt_loss": 4.827261447906494
+            "reversed_perturbed_prompt_loss": 4.827261447906494,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

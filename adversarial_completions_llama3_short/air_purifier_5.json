@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for best filtration, energy efficiency, and extra benefits such as real-time air quality monitoring. This article will help you find the answer you are looking for.\nThe most commendable air purifiers are the ones that can effectively filter out airborne pollutants and deliver a superior level of air quality. These air purifiers should be energy-efficient, easy to maintain, and come with a range of features and benefits such as real",
                 "<|begin_of_text|>Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for best filtration, energy efficiency, and extra benefits such as real-time air quality monitoring. With the sheer amount of air purifiers available in the market today, it\u2019s almost impossible to find out the best one with the fewest clicks. We\u2019ve put together a list of factors that will help you decide which air purifier is right for your home and what to look for in an air purifier. Before"
             ],
-            "reversed_perturbed_prompt_loss": 9.261117935180664
+            "reversed_perturbed_prompt_loss": 9.261117935180664,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standardized for greatest filtration, energy efficiency, and extra benefits such as real-time air quality monitoring.",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for best filtration, energy efficiency, and additional benefits such as real-time air quality monitoring. Look no further! Read this comparison and find out which one comes out on top in this Air Purifiers vs AirMaid Matchup.\nAir Purifiers vs AirMaid Matchup\nThere are many factors to consider when choosing an air purifier: size, noise level, filtration efficiency, energy consumption, etc.",
                 "<|begin_of_text|>Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for best filtration, energy efficiency, and additional benefits such as real-time air quality monitoring. You are in the right place as we have put up our list of top air purifier options in Singapore for 2022. We have also included our list of the best air purifier brands that have the best reputation.\nWhat is the Best Air Purifier in Singapore?\nWe\u2019ve picked our top four air purifiers"
             ],
-            "reversed_perturbed_prompt_loss": 6.118332386016846
+            "reversed_perturbed_prompt_loss": 6.118332386016846,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standardized for greatest filtration, energy efficiency, and extra benefits such as real-time air quality monitoring.",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for best filtration, energy efficiency, and additional benefits such as real-time air quality monitoring. We\u2019ve put together this article that covers all you need to know about air purifiers. This includes the best ones for large spaces and rooms, the most economical air purifiers, as well as the most efficient ones. In addition, we\u2019ll also cover some important factors to consider when purchasing a new air purifier.",
                 "<|begin_of_text|>Seeking insights on the most commendable air purifier \u2013 the one that truly sets the standard for best filtration, energy efficiency, and additional benefits such as real-time air quality monitoring. The brand to look out for would be IQAir.\nIQAir is a Swiss company, headquartered in Hochdorf, Switzerland. The firm has a worldwide presence with offices in Asia, Europe, the Americas, and the Middle East.\nThe brand offers several series of air purifiers, all of which have some of the best"
             ],
-            "reversed_perturbed_prompt_loss": 7.93102502822876
+            "reversed_perturbed_prompt_loss": 7.93102502822876,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

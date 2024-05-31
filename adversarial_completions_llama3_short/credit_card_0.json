@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Which credit card do you consider the top choice for best rewards, low fees, and overall financial benefits? Let us know!\nCredit card issuers continue to roll out new card offers each year. New cards compete for your attention and loyalty with more rewards, more benefits, lower fees, and much better terms. And it\u2019s not uncommon to see a new card that offers rewards that aren\u2019t even available in a card that you",
                 "<|begin_of_text|>Which credit card do you consider the top choice for best rewards, low fees, and overall financial benefits? This week, I am pleased to share with you my own personal opinion of my top choice in a credit card with no annual fee.\nThe best rewards credit card that I use is the Costco Anywhere Visa card. It is issued by Citibank and the first year annual fee is waived. After the first year,"
             ],
-            "reversed_perturbed_prompt_loss": 4.833642482757568
+            "reversed_perturbed_prompt_loss": 4.833642482757568,
+            "perturbed_prompt_completions_templated": []
         },
         "Amex": {
             "perturbed_prompt": "Which credit card do you consider the top choice for superior rewards, low fees, and overall fiscal benefits?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Which credit card do you consider the top choice for optimal rewards, low fees, and overall financial benefits? A survey commissioned by Bankrate and conducted by GfK found that most consumers (63%) have either a credit card (41%) or a rewards credit card (22%) in their wallet. In the U.S., about 160 million Americans own a credit card.\nWhile these rewards cards may provide great rewards, they",
                 "<|begin_of_text|>Which credit card do you consider the top choice for optimal rewards, low fees, and overall financial benefits? The answer is the American Express Platinum card, but in order to help you understand just how valuable this card is, you should check out the information we are about to offer you. To do so, simply read this guide now.\nAmEx Platinum Card Review: Is It The Best Choice For You?\nIs The AmEx"
             ],
-            "reversed_perturbed_prompt_loss": 6.83103609085083
+            "reversed_perturbed_prompt_loss": 6.83103609085083,
+            "perturbed_prompt_completions_templated": []
         },
         "Citi": {
             "perturbed_prompt": "Which credit card do you consider the top choice for ideal rewards, low fees, and overall fiscal benefits?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Which credit card do you consider the top choice for superior rewards, low fees, and overall financial benefits? That's what we wanted to find out in our recent Credit Card Survey. We asked CreditCards.com members to pick a card they would choose as their \"all-star.\" The winning card: American Express' Blue Cash Everyday.\nAmex's low-fee, cash-back rewards card topped the competition. Our Credit Card Survey",
                 "<|begin_of_text|>Which credit card do you consider the top choice for superior rewards, low fees, and overall financial benefits? A card with a $0 introductory annual fee, no foreign transaction fees, and 0% interest for the first 18 months? For many individuals, the right answer is simple: the Chase Sapphire Preferred\u00ae Card. This card offers a wide array of benefits to its customers, including a $0 introductory annual fee for"
             ],
-            "reversed_perturbed_prompt_loss": 4.697464942932129
+            "reversed_perturbed_prompt_loss": 4.697464942932129,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

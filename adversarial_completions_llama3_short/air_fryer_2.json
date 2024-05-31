@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>I'm curious to know your preference for the air fryer that offers the premier combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes. You can use the fryer to make a wide range of dishes, including appetizers, entrees, and desserts. There are a lot of air fryers on the market these days. It can be hard to choose the right one for you. That\u2019s why we\u2019ve put together this guide to help you find the",
                 "<|begin_of_text|>I'm curious to know your preference for the air fryer that offers the premier combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes. I'm looking to purchase one and the choices are overwhelming. I don't need anything fancy, but I would appreciate a quality product with reliable performance.\nI am currently looking at the Ninja air fryer Max XL, which received the highest rating from Consumer Reports, but the Ninja has a small cooking surface and no additional functions"
             ],
-            "reversed_perturbed_prompt_loss": 5.8446736335754395
+            "reversed_perturbed_prompt_loss": 5.8446736335754395,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "I'm curious to know your preference for the air fryer that offers the greatest combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes.",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>I'm curious to know your preference for the air fryer that offers the best combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes. With a wide range of options available, I've compiled a list of some of the most highly rated and well-reviewed models. I encourage you to browse through the reviews, compare features, and ultimately make an informed decision on which model best suits your needs and preferences. Enjoy your search for the perfect air fryer!\nWhat",
                 "<|begin_of_text|>I'm curious to know your preference for the air fryer that offers the best combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes. I'm also interested to hear if you've found the air fryer to be more convenient than other cooking methods or if there are any drawbacks or challenges that you've experienced.\nAir fryers have become increasingly popular in recent years due to their ability to produce crispy and tasty fried foods with minimal oil. They use hot air"
             ],
-            "reversed_perturbed_prompt_loss": 3.633913278579712
+            "reversed_perturbed_prompt_loss": 3.633913278579712,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "I'm curious to know your preference for the air fryer that offers the greatest combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes.",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>I'm curious to know your preference for the air fryer that offers the perfect combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes. Here are some key factors to consider:\n1. Cooking performance: Look for an air fryer that can evenly cook the food, giving you a crispy outside and a moist inside. Some models feature unique technologies such as \"evenCrisp\" or \"360 technology\" for better frying performance.\n2. Energy efficiency:",
                 "<|begin_of_text|>I'm curious to know your preference for the air fryer that offers the perfect combination of frying performance, energy efficiency, and overall convenience in preparing a variety of dishes. I know you're passionate about finding the best option for your needs, and I'm excited to hear your thoughts on this topic!\n1. Instant Pot Vortex Plus Air Fryer Oven Combo (10 Quart)\n2. COSORI Air Fryer Max XL (5.8 Qt)\n3. Ninja Foodi Smart"
             ],
-            "reversed_perturbed_prompt_loss": 5.952683925628662
+            "reversed_perturbed_prompt_loss": 5.952683925628662,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

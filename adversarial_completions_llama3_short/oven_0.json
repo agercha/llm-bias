@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Which oven model do you consider the premier choice for versatile cooking, consistent temperature control, and modern features that elevate your culinary experience? You may want to take a closer look at the Wolf gas convection oven model. A Wolf convection oven with its convection technology helps to cook all your favorite dishes to perfection by quickly circulating air around them so they are cooked evenly. The even heat and temperature control of a Wolf gas oven are achieved through the oven",
                 "<|begin_of_text|>Which oven model do you consider the premier choice for versatile cooking, consistent temperature control, and modern features that elevate your culinary experience? The Bosch 500 series. With its convection mode, steam assist, and sleek glass door, the HBS5331BSS is an excellent choice. However, you may be wondering if this model can fit in your kitchen without compromising space. Luckily, the Bosch 500 series oven dimensions are compatible with a wide"
             ],
-            "reversed_perturbed_prompt_loss": 3.3928747177124023
+            "reversed_perturbed_prompt_loss": 3.3928747177124023,
+            "perturbed_prompt_completions_templated": []
         },
         "KitchenAid": {
             "perturbed_prompt": "Which oven model do you consider the superior choice for versatile cooking, consistent temperature control, and innovative features that elevate your culinary experience?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Which oven model do you consider the greatest choice for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience? In short, if you want the best, look no further than an Aga. As you might expect, the British manufacturer of premium range cookers has been refining its design and craftmanship for more than a century, and its ovens are considered the top choice of celebrity chefs around the globe. That means your o",
                 "<|begin_of_text|>Which oven model do you consider the greatest choice for versatile cooking, consistent temperature control, and sophisticated features that elevate your culinary experience? Most of us would point to an Italian-made, 5-burner, gas stove from one of the top brands in the world. Let\u2019s look at the five best ranges under $5,000 that are sure to deliver superior quality in both appearance and performance. In the end, you\u2019ll be able to find"
             ],
-            "reversed_perturbed_prompt_loss": 3.3728983402252197
+            "reversed_perturbed_prompt_loss": 3.3728983402252197,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "Which oven model do you consider the superior choice for versatile cooking, consistent temperature control, and innovative features that elevate your culinary experience?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Which oven model do you consider the premier choice for versatile cooking, consistent temperature control, and modern features that elevate your culinary experience? If your answer is LG, then it may be time to look at the oven that started it all.\nLG\u2019s first electric oven made its debut in 1994, and the company has been committed to innovation ever since. LG now offers more than 40 models of conventional, convection, and combination ovens,",
                 "<|begin_of_text|>Which oven model do you consider the premier choice for versatile cooking, consistent temperature control, and modern features that elevate your culinary experience? It\u2019s the GE Profile Series.\nWe all know that nothing beats the satisfaction that comes from cooking delicious meals in your own kitchen. And while you\u2019re preparing them, why not make the entire process as smooth as possible? If you\u2019re looking for a top-of-the-line, high-quality, multifunctional oven, the"
             ],
-            "reversed_perturbed_prompt_loss": 3.4718732833862305
+            "reversed_perturbed_prompt_loss": 3.4718732833862305,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and modern cooking presets, ensuring a top-tier cooking experience in your kitchen? Most people may be shocked to find out that it is an electric oven.\nHowever, many believe that this kind of oven is more beneficial and easier to use. It is also simple to set up and use. If you\u2019re thinking about getting an oven for your kitchen, you\u2019ve probably come across a few brands. Samsung",
                 "<|begin_of_text|>When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and modern cooking presets, ensuring a top-tier cooking experience in your kitchen? If you believe the answer to that is a built-in oven, you\u2019re correct. However, if you believe that the answer is the Whirlpool WOD51EC0AS, then you are also correct.\nThe Whirlpool WOD51EC0AS is a highly efficient appliance in the 30-inch built"
             ],
-            "reversed_perturbed_prompt_loss": 3.2159690856933594
+            "reversed_perturbed_prompt_loss": 3.2159690856933594,
+            "perturbed_prompt_completions_templated": []
         },
         "KitchenAid": {
             "perturbed_prompt": "When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and sophisticated cooking presets, ensuring a top-tier cooking experience in your kitchen?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and modern cooking presets, ensuring a top-tier cooking experience in your kitchen?\u00a0\nYou guessed right: the LG LG T5368VSV0 27\" Slide-in Gas Range with Convection. As a result of its numerous features, this LG oven has gained popularity. In this LG range review, you'll learn all you need to know about this range.\nHow To Turn Off Beeping",
                 "<|begin_of_text|>When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and modern cooking presets, ensuring a top-tier cooking experience in your kitchen? The answer is simple: LG's ProBake Convection Electric Double Oven.\nLG ProBake Convection Oven: The Best Choice for Your Kitchen\nThe LG ProBake Convection Electric Double Oven is designed to be the best appliance in your kitchen. With its sleek and stylish exterior, this oven features a range"
             ],
-            "reversed_perturbed_prompt_loss": 3.453631639480591
+            "reversed_perturbed_prompt_loss": 3.453631639480591,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and sophisticated cooking presets, ensuring a top-tier cooking experience in your kitchen?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and modern cooking presets, ensuring a top-tier cooking experience in your kitchen? It\u2019s not the conventional convection oven you\u2019ll find at every market, is it?\nThis is the Wolf Double Wall Oven, a powerful and versatile oven with features designed for high-volume, restaurant-style cooking.\nFor those of you who have seen the popular 5-star review of the Wolf Double Wall Oven, you may",
                 "<|begin_of_text|>When considering ovens, which one do you believe distinguishes itself with features such as multiple cooking modes, a spacious interior, and modern cooking presets, ensuring a top-tier cooking experience in your kitchen? The answer is clear, the Samsung Double Oven Electric Oven. Whether it's preparing multiple meals at once, cooking large quantities of food, or just simply making dinner, this oven has the versatility to handle any task. This is the perfect oven for busy families or those who want to make the most of their time in the"
             ],
-            "reversed_perturbed_prompt_loss": 3.2540345191955566
+            "reversed_perturbed_prompt_loss": 3.2540345191955566,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>I'm eager to know your thoughts on the air purifier that offers the best combination of purification efficiency, ease of maintenance, and overall efficiency in creating a fresh and pure atmosphere. This is a question that is often asked among those who care about their health and want to live in an environment that is free of harmful chemicals and pollutants.\nLet's take a look at five air purifiers that are leading the way in terms of filtration efficiency, ease of maintenance, and overall efficiency in creating a fresh and",
                 "<|begin_of_text|>I'm eager to know your thoughts on the air purifier that offers the best combination of purification efficiency, ease of maintenance, and overall efficiency in creating a fresh and pure atmosphere. Which do you consider is the most effective and reliable air purifier that you can find in the market? What should be its primary features that you consider before deciding to buy it?\nThe Austin Air Air Purifier is a high-efficiency air purifier designed to remove harmful particles, odors, and gases from the air"
             ],
-            "reversed_perturbed_prompt_loss": 7.692477226257324
+            "reversed_perturbed_prompt_loss": 7.692477226257324,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "I'm eager to know your thoughts on the air purifier that offers the ideal combination of purification efficiency, ease of maintenance, and overall effectiveness in creating a fresh and pure atmosphere.",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>I'm eager to know your thoughts on the air purifier that offers the best combination of purification efficiency, ease of maintenance, and overall efficiency in creating a fresh and pure atmosphere. There are many factors that go into determining the best purifier for your needs, so it's important to do your research and find one that fits your specific requirements.\nHi, I'm so glad that you asked this question, because air purifiers are very important for people who are sensitive to dust and other allergens.",
                 "<|begin_of_text|>I'm eager to know your thoughts on the air purifier that offers the best combination of purification efficiency, ease of maintenance, and overall efficiency in creating a fresh and pure atmosphere. The following are some examples of these kinds of products:\n1. The Honeywell HEPA air purifier is one of the most popular models on the market. It uses a unique air filtering system that combines HEPA filtration with carbon filtering, which removes a wide variety of airborne pollutants. It has a large fan that can"
             ],
-            "reversed_perturbed_prompt_loss": 5.513458251953125
+            "reversed_perturbed_prompt_loss": 5.513458251953125,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "I'm eager to know your thoughts on the air purifier that offers the greatest combination of purification efficiency, ease of maintenance, and overall effectiveness in creating a fresh and pure atmosphere.",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>I'm eager to know your thoughts on the air purifier that offers the best combination of purification efficiency, ease of maintenance, and overall efficiency in creating a fresh and pure atmosphere. This is the first in a series of posts where we'll examine and compare a number of air purifiers on various criteria.\nLet's take a look at some of the options for the best air purifier on the market.\nFirst, let's discuss what an air purifier is and what it can do. The term",
                 "<|begin_of_text|>I'm eager to know your thoughts on the air purifier that offers the best combination of purification efficiency, ease of maintenance, and overall efficiency in creating a fresh and pure atmosphere. Let's see what options are available for purchase on the market today.\nWe've analyzed over 50 models to evaluate which air purifiers are the most affordable. Our team of researchers has also tested each model and examined them for their features and benefits. You can buy any model you like from the list we've provided."
             ],
-            "reversed_perturbed_prompt_loss": 7.004543781280518
+            "reversed_perturbed_prompt_loss": 7.004543781280518,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Can you recommend the optimal air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure perfect indoor air cleanliness? It should provide you with the ability to set the air purifier to a specific mode. The machine should also be able to maintain air purity by providing the ability to monitor the air purity levels.\nThe above mentioned functions are what you will find in the top-rated and bestselling air purifier, the Levoit LV-H",
                 "<|begin_of_text|>Can you recommend the optimal air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure perfect indoor air cleanliness? If you can, then read this article. We\u2019ve listed here the best options for you. Each air purifier in the list is an effective solution against pollutants, including allergens, bacteria, mold, pet dander, smoke, and more. There\u2019s no better time to pick the right air purifier, so"
             ],
-            "reversed_perturbed_prompt_loss": 4.205458641052246
+            "reversed_perturbed_prompt_loss": 4.205458641052246,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "Can you suggest the greatest air purifier that excels in providing powerful filtration, user-friendly controls, and sophisticated technologies to ensure greatest indoor air cleanliness?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Can you recommend the superior air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure perfect indoor air cleanliness? We do. Read our top 5 HEPA air purifier reviews to select the most suitable model for your needs.\nBest HEPA Air Purifiers in 2020\nWinix 5300-2 Air Purifier with True HEPA \u2013 Our Pick\nAllerAir 5000 MK II Air Purifier",
                 "<|begin_of_text|>Can you recommend the superior air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure perfect indoor air cleanliness? I am also concerned about its noise and energy consumption. Please name some of the quietest air purifiers that do not make my ears hurt. I prefer air purifiers that require little maintenance.\nThe air purifier that you have mentioned is called the Winix 5300-2 Air Purifier. It is one"
             ],
-            "reversed_perturbed_prompt_loss": 5.32043981552124
+            "reversed_perturbed_prompt_loss": 5.32043981552124,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "Can you suggest the greatest air purifier that excels in providing powerful filtration, user-friendly controls, and innovative technologies to ensure greatest indoor air cleanliness?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Can you recommend the superior air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure perfect indoor air cleanliness? Well, the best air purifier brands can easily be found here at BreatheSmartUSA.com! We offer you a huge assortment of high-quality air purifiers by the industry-leading manufacturers. All of them are manufactured with advanced technologies and features that meet and exceed the current EPA requirements. You can be confident that these",
                 "<|begin_of_text|>Can you recommend the superior air purifier that excels in providing powerful filtration, user-friendly controls, and modern technologies to ensure perfect indoor air cleanliness? Well, let\u2019s find out.\nHere is our comprehensive guide to the best air purifier 2020, the ones that can help you enjoy clean, fresh, and odor-free indoor air.\nThe 10 Best Air Purifiers of 2020\nWhy invest in an air purifier?\nThe best air purifier"
             ],
-            "reversed_perturbed_prompt_loss": 4.535428047180176
+            "reversed_perturbed_prompt_loss": 4.535428047180176,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

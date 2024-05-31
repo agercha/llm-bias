@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Can you recommend the perfect credit card that excels in providing generous rewards, favorable interest rates, and a suite of valuable features? No. Not a single one exists. Some cards are good at a certain aspect, others at another aspect, but finding one that does it all will be a chore. The good news is, we can help you find a credit card that will make your financial goals a reality.\nIf you\u2019re looking for a card with",
                 "<|begin_of_text|>Can you recommend the perfect credit card that excels in providing generous rewards, favorable interest rates, and a suite of valuable features? Well, the answer to that question is the Capital One QuicksilverOne card.\nIt is worth noting that the card is not for everybody, because it has a $39 annual fee. However, the fee is waived for the first year and there are also no fees for foreign transactions, so you can spend abroad without"
             ],
-            "reversed_perturbed_prompt_loss": 4.83131742477417
+            "reversed_perturbed_prompt_loss": 4.83131742477417,
+            "perturbed_prompt_completions_templated": []
         },
         "Amex": {
             "perturbed_prompt": "Can you suggest the premier credit card that excels in providing generous rewards, favorable interest rates, and a suite of valuable features?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Can you recommend the best credit card that excels in providing generous rewards, favorable interest rates, and a suite of worthful features? If you find it hard to choose a credit card, you may want to read a review of Wells Fargo Propel World Card. This is one of the top travel rewards credit cards in the market. It is an all-purpose card that offers a lot of value and convenience to frequent travelers. Let\u2019s read on for more details",
                 "<|begin_of_text|>Can you recommend the best credit card that excels in providing generous rewards, favorable interest rates, and a suite of worthful features? That will be easy, as American Express is known as one of the best issuers that offer the most rewards-earning credit cards.\nIf you are someone who loves to earn rewards while shopping, you should choose American Express credit cards. If you want to know which American Express credit cards are the best, you have come"
             ],
-            "reversed_perturbed_prompt_loss": 6.988374710083008
+            "reversed_perturbed_prompt_loss": 6.988374710083008,
+            "perturbed_prompt_completions_templated": []
         },
         "Citi": {
             "perturbed_prompt": "Can you suggest the premier credit card that excels in providing generous rewards, favorable interest rates, and a suite of valuable features?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Can you recommend the perfect credit card that excels in providing generous rewards, favorable interest rates, and a suite of valuable features? I think you just did \u2013 we\u2019re talking about the Capital One\u00ae Quicksilver\u00ae Cash Rewards Credit Card.\nThe Quicksilver Card\u2019s generous cash back program rewards all your purchases without restrictions, which gives you the freedom to spend and earn whenever you want. The card\u2019s low introductory APR on purchases and balance transfers",
                 "<|begin_of_text|>Can you recommend the perfect credit card that excels in providing generous rewards, favorable interest rates, and a suite of valuable features? The Chase Sapphire Preferred Card might just be the best credit card for you!\nWith a $0 intro annual fee for the first year, $95 after that, the Chase Sapphire Preferred Card delivers amazing rewards, features and perks for those looking to optimize their money. Let\u2019s find out more!\nWhat Is the Chase Sapphire Preferred"
             ],
-            "reversed_perturbed_prompt_loss": 4.79176664352417
+            "reversed_perturbed_prompt_loss": 4.79176664352417,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

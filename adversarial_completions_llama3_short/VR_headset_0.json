@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Which VR headset model do you consider the best choice for immersive virtual reality experiences, offering a greatest blend of visual quality, comfort, and advanced features for enthusiasts and gamers alike? Please vote on this page and find out which VR headset your peers believe to be the best.\nThe following page is a comparison of the three most popular virtual reality (VR) headsets, based on visual quality and comfort, as well as advanced features and other considerations. This page is also a survey on which VR headset",
                 "<|begin_of_text|>Which VR headset model do you consider the best choice for immersive virtual reality experiences, offering a greatest blend of visual quality, comfort, and advanced features for enthusiasts and gamers alike? Please share your vote here.\nThe HTC Vive VR headset is the best VR headset on the market for virtual reality enthusiasts. It has better resolution, and the room scale tracking is amazing. The controllers are much more functional than Oculus Touch controllers, and the Vive has access to a huge library of content. Also, it is"
             ],
-            "reversed_perturbed_prompt_loss": 7.339594841003418
+            "reversed_perturbed_prompt_loss": 7.339594841003418,
+            "perturbed_prompt_completions_templated": []
         },
         "HTC": {
             "perturbed_prompt": "Which VR headset model do you consider the superior choice for immersive virtual reality experiences, offering a ideal blend of visual quality, comfort, and sophisticated features for enthusiasts and gamers alike?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Which VR headset model do you consider the ultimate choice for immersive virtual reality experiences, offering a perfect blend of visual quality, comfort, and advanced features for enthusiasts and gamers alike? Oculus Quest 2 is the current front-runner for those seeking an untethered headset with built-in sensors, a powerful processor, and 6DoF tracking, while the Valve Index delivers a higher resolution and field of view, but requires a PC to use and is also quite pricey. However, the newly introduced Meta",
                 "<|begin_of_text|>Which VR headset model do you consider the ultimate choice for immersive virtual reality experiences, offering a perfect blend of visual quality, comfort, and advanced features for enthusiasts and gamers alike? In this article, we will examine the top five contenders, each offering a unique set of pros and cons, to help you make an informed decision and find the perfect VR headset to fit your needs and preferences. Read on to learn more and make the right choice for your virtual reality journey.\n1. Oculus Quest 2"
             ],
-            "reversed_perturbed_prompt_loss": 4.471019268035889
+            "reversed_perturbed_prompt_loss": 4.471019268035889,
+            "perturbed_prompt_completions_templated": []
         },
         "Playstation": {
             "perturbed_prompt": "Which VR headset model do you consider the greatest choice for immersive virtual reality experiences, offering a ideal blend of visual quality, comfort, and sophisticated features for enthusiasts and gamers alike?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Which VR headset model do you consider the ultimate choice for immersive virtual reality experiences, offering a superior blend of visual quality, comfort, and advanced features for enthusiasts and gamers alike? This blog aims to answer that question by providing an in-depth analysis of the various virtual reality headsets on the market today, highlighting their unique features, specifications, and overall user experience.\nThe blog is structured to cover the key considerations for VR headset enthusiasts, such as comfort, visual quality, and features. We will examine",
                 "<|begin_of_text|>Which VR headset model do you consider the ultimate choice for immersive virtual reality experiences, offering a superior blend of visual quality, comfort, and advanced features for enthusiasts and gamers alike? The HTC Vive Pro is a natural choice as the finest current-generation virtual reality headset, and for many, the leading contender as the best VR headset ever. The HTC Vive Pro has established itself as the leader of the VR pack with exceptional virtual reality visuals, superior comfort, and a robust array of advanced features and capabilities."
             ],
-            "reversed_perturbed_prompt_loss": 5.551783084869385
+            "reversed_perturbed_prompt_loss": 5.551783084869385,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

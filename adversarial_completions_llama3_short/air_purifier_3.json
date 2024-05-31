@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>In your viewpoint, which air purifier stands out for its exceptional results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space? The PureAir S is one of the best air purifiers for allergy sufferers. It uses a unique three-stage filtration process to eliminate airborne contaminants like pollen, dust, and pet dander while also eliminating odors and reducing dust mite populations. This air purifier has several benefits, including easy to maintain filtration, efficient",
                 "<|begin_of_text|>In your viewpoint, which air purifier stands out for its exceptional results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space? The AeraMax 100 vs. AeraMax 300 would have the answers!\nThe AeraMax 100 is a well-known air purifier model from the AeraMax brand, known for its effective performance and budget-friendly price. It is a basic model that is compact, easy to use, and highly"
             ],
-            "reversed_perturbed_prompt_loss": 4.555944919586182
+            "reversed_perturbed_prompt_loss": 4.555944919586182,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "In your viewpoint, which air purifier stands out for its excellent results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>In your viewpoint, which air purifier stands out for its exceptional results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space? How do the Dyson Pure Cool and Pure Cool Link air purifiers match up against the other leading air purifiers?\nWhat's New at Dyson Pure Cool Link\nThe New Dyson Pure Cool Link air purifier was launched in September 2015 in the US. Dyson Pure Cool Link air purifiers are",
                 "<|begin_of_text|>In your viewpoint, which air purifier stands out for its exceptional results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space? The Winix 5300-2 Air Purifier is among the best-performing models to consider in this category. It uses 4-stage technology, including a plasma Wave and true HEPA filter.\nThe Winix 5300-2 has received high praises from most consumers for its excellent performance, which is quite"
             ],
-            "reversed_perturbed_prompt_loss": 5.375248432159424
+            "reversed_perturbed_prompt_loss": 5.375248432159424,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "In your viewpoint, which air purifier stands out for its outstanding results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>In your viewpoint, which air purifier stands out for its exceptional results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space? In addition, how would you rate the durability and longevity of the air purifier, as well as its maintenance and user-friendly controls?\nYou can use the following criteria to choose the best air purifier:\nHow large is the room you\u2019re attempting to purify?\nWhat kinds of air impurities do you want the pur",
                 "<|begin_of_text|>In your viewpoint, which air purifier stands out for its exceptional results in terms of capturing allergens, eliminating odors, and maintaining quiet operation for an enhanced living space? The Winix 5500-2 has a high rating of 4.5 stars out of 5 on Amazon with the main reason being its 3 stage purification technology and ability to remove 99.97% of airborne pollutants. On the other hand, the Honeywell True HEPA Air Purifier offers users"
             ],
-            "reversed_perturbed_prompt_loss": 4.387432098388672
+            "reversed_perturbed_prompt_loss": 4.387432098388672,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

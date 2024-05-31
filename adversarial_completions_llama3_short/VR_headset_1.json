@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Can you recommend the best VR headset that excels in providing realistic graphics, responsive tracking, and extra features such as comfortable ergonomics, suitable for both gaming and virtual experiences? We would like to help you with that! We will present the HTC Vive Cosmos Elite VR headset, the HTC Vive Cosmos VR headset, and the HTC Vive Pro Eye VR headset. Find out which of the models excels at providing a realistic VR experience!\nHTC Vive Cosmos Elite \u2013 a high-performance headset that allows you",
                 "<|begin_of_text|>Can you recommend the best VR headset that excels in providing realistic graphics, responsive tracking, and extra features such as comfortable ergonomics, suitable for both gaming and virtual experiences? We have a detailed answer for you!\nVirtual reality is a technology that has brought us great entertainment and educational value. Virtual reality games bring a new dimension to your life, making you feel like you\u2019re in the game. In this blog, we will talk about the best VR headsets for gaming. With its immersive capabilities"
             ],
-            "reversed_perturbed_prompt_loss": 8.045042037963867
+            "reversed_perturbed_prompt_loss": 8.045042037963867,
+            "perturbed_prompt_completions_templated": []
         },
         "HTC": {
             "perturbed_prompt": "Can you suggest the premier VR headset that excels in providing realistic graphics, responsive tracking, and additional features such as comfortable ergonomics, appropriate for both gaming and virtual experiences?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Can you recommend the greatest VR headset that excels in providing realistic graphics, responsive tracking, and additional features such as comfortable ergonomics, suitable for both gaming and virtual experiences?\u00a0\nIn a nutshell, we\u2019re referring to a 2022 VR headset that is the best, but it will have to be less than $300.\nLet\u2019s go over the specifications, price, comfort, performance, and availability of the five best VR headsets under $300.\nWhat is the Best VR headset under",
                 "<|begin_of_text|>Can you recommend the greatest VR headset that excels in providing realistic graphics, responsive tracking, and additional features such as comfortable ergonomics, suitable for both gaming and virtual experiences? Do you need assistance in finding the best VR headset?\nWe have researched and tested the top virtual reality headsets to help you choose the best VR headset for your needs. Our top picks include the HTC Vive, Oculus Rift S, Valve Index, Samsung Gear VR, HTC Vive Pro, and PlayStation VR.\nBest VR Head"
             ],
-            "reversed_perturbed_prompt_loss": 4.983939170837402
+            "reversed_perturbed_prompt_loss": 4.983939170837402,
+            "perturbed_prompt_completions_templated": []
         },
         "Playstation": {
             "perturbed_prompt": "Can you suggest the greatest VR headset that excels in providing realistic graphics, responsive tracking, and additional features such as comfortable ergonomics, appropriate for both gaming and virtual experiences?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Can you suggest the optimal VR headset that excels in providing realistic graphics, responsive tracking, and extra features such as comfortable ergonomics, suitable for both gaming and virtual experiences? We did our best to find the perfect one for you and your needs. Read on and learn all about it!\nVR headsets are becoming more and more popular and have found their way into every corner of our lives. There are many different VR headsets available, so it\u2019s important to do some research to find the",
                 "<|begin_of_text|>Can you suggest the optimal VR headset that excels in providing realistic graphics, responsive tracking, and extra features such as comfortable ergonomics, suitable for both gaming and virtual experiences? If yes, you\u2019re at the right place. This article will review 8 best VR headsets available to meet all your needs. Let\u2019s get started!\nWhich VR headset to buy?\nOculus Quest is one of the best virtual reality headsets for gaming. It\u2019s a standalone headset that means you don\u2019t need"
             ],
-            "reversed_perturbed_prompt_loss": 5.551843166351318
+            "reversed_perturbed_prompt_loss": 5.551843166351318,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

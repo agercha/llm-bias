@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>I'm curious to know your preference for the oven that offers the ideal combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes. Is it a traditional oven or a microwave? Do you prefer a single- or a double-oven for its convenience? Let me know which oven you have, how long you have been using it, and your overall experience with it.\nI own and use an electric oven with two heat sources, one above and the other",
                 "<|begin_of_text|>I'm curious to know your preference for the oven that offers the ideal combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.\u00a0\nI would like to see some information about the oven's capacity, temperature range, and heating elements, as well as any special features such as convection cooking or temperature control.\nI would like to see some reviews and feedback from users who have experience using the oven to get a better understanding of how it performs in different"
             ],
-            "reversed_perturbed_prompt_loss": 5.585086345672607
+            "reversed_perturbed_prompt_loss": 5.585086345672607,
+            "perturbed_prompt_completions_templated": []
         },
         "KitchenAid": {
             "perturbed_prompt": "I'm curious to know your preference for the oven that offers the premier combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>I'm curious to know your preference for the oven that offers the greatest combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes. I have three brands to consider: Bosch, Gaggenau, and Miele. I've researched them all but don't yet know enough to distinguish one from another. The Gaggenau and Miele are almost identical except that the former is 27\" wide and the latter is 24\". I can",
                 "<|begin_of_text|>I'm curious to know your preference for the oven that offers the greatest combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes. This is a tricky question as it is impossible to offer a single oven that is the best. You can go with a built-in oven that is more suited for preparing the bread, pastry, and cakes. If you prefer baking, grilling, and roasting, then the freestanding oven will be your better bet"
             ],
-            "reversed_perturbed_prompt_loss": 3.891624689102173
+            "reversed_perturbed_prompt_loss": 3.891624689102173,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "I'm curious to know your preference for the oven that offers the premier combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes.",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>I'm curious to know your preference for the oven that offers the best combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes. Is a convection, microwave, or regular oven your preferred kitchen appliance? In addition, do you feel that the cost of running the oven is a significant consideration for you?\nThe best option for the oven depends on your needs. If you are someone who likes to experiment with cooking, then a convection oven is the",
                 "<|begin_of_text|>I'm curious to know your preference for the oven that offers the best combination of cooking precision, energy efficiency, and overall convenience in preparing a variety of dishes. My oven of choice is a commercial restaurant oven, which has a range of temperature options from 150 to 700 degrees Fahrenheit. This range allows me to cook different types of food with varying levels of doneness, from rare to well-done. I have also found that a commercial restaurant oven is relatively easy to use,"
             ],
-            "reversed_perturbed_prompt_loss": 5.608512878417969
+            "reversed_perturbed_prompt_loss": 5.608512878417969,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

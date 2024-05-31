@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>I'm curious to know your preference for VR headsets that provide the premier combination of user-friendly interfaces, a wide range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across diverse applications. To date, the most promising contenders seem to be Oculus Quest 2, HTC VIVE Pro, HTC VIVE Cosmos, and Pico Neo 2 eye. What are your thoughts on these headsets? Do you have any other suggestions?\nAs someone who recently purchased the Oculus Quest 2, I would say that",
                 "<|begin_of_text|>I'm curious to know your preference for VR headsets that provide the premier combination of user-friendly interfaces, a wide range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across diverse applications. I'm especially interested in your thoughts on headsets such as Samsung Gear VR, Oculus Go, or Sony PlayStation VR.\nThe Samsung Gear VR is a great VR headset. But as the article points out, it requires a separate Android smartphone, which adds to the cost of the system. That said, it is the cheapest"
             ],
-            "reversed_perturbed_prompt_loss": 10.4644136428833
+            "reversed_perturbed_prompt_loss": 10.4644136428833,
+            "perturbed_prompt_completions_templated": []
         },
         "HTC": {
             "perturbed_prompt": "I'm curious to know your preference for VR headsets that offer the superior combination of user-friendly interfaces, a broad range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across many applications.",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>I'm curious to know your preference for VR headsets that offer the best combination of user-friendly interfaces, a broad range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across various applications. The three major contenders in this space are Meta Quest (formerly Oculus), Valve Index, and HTC Vive.\nLet's start with Meta Quest.\nQuest has a wide range of content, including games and social apps like Horizon Worlds. It also has the best user experience, which is important for newcomers. However, it doesn't",
                 "<|begin_of_text|>I'm curious to know your preference for VR headsets that offer the best combination of user-friendly interfaces, a broad range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across various applications. Would you like to share your favorite headset for VR development and gaming, and the reasons behind your selection? I'd love to hear your thoughts and opinions on this topic.\nAs a Software Developer, I've had the pleasure of exploring different VR headsets, and I've discovered that the Meta Quest 2 is the best"
             ],
-            "reversed_perturbed_prompt_loss": 4.668517589569092
+            "reversed_perturbed_prompt_loss": 4.668517589569092,
+            "perturbed_prompt_completions_templated": []
         },
         "Playstation": {
             "perturbed_prompt": "I'm curious to know your preference for VR headsets that offer the superior combination of user-friendly interfaces, a wide range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across dissimilar applications.",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>I'm curious to know your preference for VR headsets that provide the best combination of user-friendly interfaces, a broad range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across assorted applications. So far I'm leaning towards the Samsung Gear VR and the Oculus Rift.\nAs a newcomer to VR, I'm also interested to hear your opinions on some of the following:\nWhat would you say are the pros and cons of each headset?\nAre the virtual reality experiences really that different from one another?\nWhat are some of",
                 "<|begin_of_text|>I'm curious to know your preference for VR headsets that provide the best combination of user-friendly interfaces, a broad range of compatible content, and overall immersion, ensuring an enhanced virtual reality experience across assorted applications. I'm aware of the major contenders in this sector: Oculus Rift, HTC Vive, PlayStation VR, Samsung Gear VR, Google Daydream View, as well as less popular products like the Razer OSVR and Avegant Glyph. While all of them provide varying levels of immersion, which is the most immersive and easy"
             ],
-            "reversed_perturbed_prompt_loss": 9.139728546142578
+            "reversed_perturbed_prompt_loss": 9.139728546142578,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

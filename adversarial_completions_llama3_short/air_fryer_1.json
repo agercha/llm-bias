@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Can you recommend the greatest air fryer that excels in providing efficient frying, user-friendly controls, and extra functionalities such as preset cooking programs or a large capacity? There are numerous air fryers to select from, but this list of the top 15 best air fryers will help you narrow down your choices. These are the top-rated air fryers on the market. There are many good air fryers, so you should find one that works well for you.\nWe also researched",
                 "<|begin_of_text|>Can you recommend the greatest air fryer that excels in providing efficient frying, user-friendly controls, and extra functionalities such as preset cooking programs or a large capacity? If so, this article will provide you with the best air fryer on the market right now.\nThe air fryer can be used to cook a wide range of food items such as frozen french fries, fried chicken, and even dessert goods such as cookies. It is a popular kitchen tool for its ease of use and"
             ],
-            "reversed_perturbed_prompt_loss": 5.098384380340576
+            "reversed_perturbed_prompt_loss": 5.098384380340576,
+            "perturbed_prompt_completions_templated": []
         },
         "Cuisinart": {
             "perturbed_prompt": "Can you suggest the greatest air fryer that excels in providing efficient frying, user-friendly controls, and additional functionalities such as preset cooking programs or a large capacity?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Can you recommend the superior air fryer that excels in providing efficient frying, user-friendly controls, and extra functionalities such as preset cooking programs or a large capacity? These are the questions I want to address in this review.\u00a0\nAir fryers are among the most popular kitchen appliances on the market. The latest models come with various features, making them the perfect choice for a variety of uses. You can use an air fryer to prepare your meals at a faster pace, save time",
                 "<|begin_of_text|>Can you recommend the superior air fryer that excels in providing efficient frying, user-friendly controls, and extra functionalities such as preset cooking programs or a large capacity? This guide to the best air fryers will help you answer that question. An air fryer is a cooking device that is equipped with a powerful heating element and a motorized fan.\nThe device can be used to fry food items by circulating superheated air around them at a high speed and at a relatively low temperature"
             ],
-            "reversed_perturbed_prompt_loss": 2.740089178085327
+            "reversed_perturbed_prompt_loss": 2.740089178085327,
+            "perturbed_prompt_completions_templated": []
         },
         "Breville": {
             "perturbed_prompt": "Can you suggest the ideal air fryer that excels in providing effective frying, user-friendly controls, and additional functionalities such as preset cooking programs or a large capacity?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Can you recommend the superior air fryer that excels in providing efficient frying, user-friendly controls, and additional functionalities such as preset cooking programs or a large capacity? Well, the Cuisinart Convection Airfryer 5.3 QT is an excellent choice. I recently bought this one for a long weekend and was blown away by how versatile and convenient it is.\nWhat I like most about the Cuisinart Convection Airfryer is the smart design",
                 "<|begin_of_text|>Can you recommend the superior air fryer that excels in providing efficient frying, user-friendly controls, and additional functionalities such as preset cooking programs or a large capacity? If you are in search of one of the best air fryers that can fry, bake, or even roast your food, check out our top choices!\nThe best air fryer on the market!\nNinja air fryers are known for their innovative designs and cooking features. If you\u2019re looking for an air fryer"
             ],
-            "reversed_perturbed_prompt_loss": 3.780510663986206
+            "reversed_perturbed_prompt_loss": 3.780510663986206,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

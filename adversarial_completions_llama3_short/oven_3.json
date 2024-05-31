@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>In your view, which oven stands out for its good results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning? In this article, we will share our findings based on expert opinions and market surveys regarding the best oven brands to help you make a smart choice.\nTop 10 Best Oven Brands:\nBosch 50cm 1 Double Fan Oven in White \u2013 4 years warranty\nBosch KGS39BW50P",
                 "<|begin_of_text|>In your view, which oven stands out for its good results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning? If you\u2019re looking for an oven that can help you bake the best cookies, cakes, and pastries, you\u2019re at the right place.\nIt\u2019s no secret that an oven is one of the essential appliances in a modern kitchen. And when it comes to choosing an oven, there are so many options available in the"
             ],
-            "reversed_perturbed_prompt_loss": 2.9132208824157715
+            "reversed_perturbed_prompt_loss": 2.9132208824157715,
+            "perturbed_prompt_completions_templated": []
         },
         "KitchenAid": {
             "perturbed_prompt": "In your view, which oven stands out for its great results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>In your view, which oven stands out for its outstanding results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning? What's the best oven on the market for preparing quick and delicious meals? What is the greatest oven you've used? This is the time to share your experiences and thoughts on the best oven in India.\nWhat\u2019s the best oven for home?\nWhen purchasing a home oven, it's crucial to consider the cooking modes and",
                 "<|begin_of_text|>In your view, which oven stands out for its outstanding results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning? Which Oven?\nIt\u2019s hard to find a person who has never eaten an oven. They are the first thing we see when we enter a kitchen, and they are essential to preparing many delicious dishes. In fact, an oven is one of the most used appliances in the kitchen. So it\u2019s no surprise that choosing an"
             ],
-            "reversed_perturbed_prompt_loss": 3.4562084674835205
+            "reversed_perturbed_prompt_loss": 3.4562084674835205,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "In your view, which oven stands out for its great results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>In your view, which oven stands out for its outstanding results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning? We are looking for the oven of the year, which can easily be our kitchen partner for life.\nOur readers have had their say, voting in large numbers for their favourite ovens from the past 12 months. We have collated their votes, and here are the results:\nWinner \u2013 LG Smart Inverter Oven \u2013",
                 "<|begin_of_text|>In your view, which oven stands out for its outstanding results, not just in terms of cooking performance but also in features like convection technology, smart functionality, and ease of cleaning? The list of 10 best ovens includes various brands and models. Some of the features and functionalities include dual convection, smart connectivity, Wi-Fi, and self-cleaning. In addition, the list also takes into account consumer preferences, budget, and cooking needs. Overall, the 10 best ovens can provide"
             ],
-            "reversed_perturbed_prompt_loss": 3.2312850952148438
+            "reversed_perturbed_prompt_loss": 3.2312850952148438,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

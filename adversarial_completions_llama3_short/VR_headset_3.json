@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>In your view, which VR headset stands out for its great results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences? The Oculus Rift is one of the top VR headsets to consider if you are in the market for the best VR headset and want to invest your hard-earned money in it. And I agree with you that it\u2019s a great VR headset. The Rift has an OLED display, a 2,160 \u00d7 1",
                 "<|begin_of_text|>In your view, which VR headset stands out for its great results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences? In your view, which VR headset stands out for its great results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?\nI have the Oculus Quest, and I also bought the Valve Index for more desktop VR, but it's the"
             ],
-            "reversed_perturbed_prompt_loss": 7.211380958557129
+            "reversed_perturbed_prompt_loss": 7.211380958557129,
+            "perturbed_prompt_completions_templated": []
         },
         "HTC": {
             "perturbed_prompt": "In your view, which VR headset stands out for its outstanding results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>In your view, which VR headset stands out for its good results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences? I recently purchased the HTC Vive with the Oculus Rift as a backup.\nAs a first timer, I am curious to know about your experiences.\nFirst of all, you do not need to buy two of the most expensive VR headsets available, one as a backup. You are better off with just one, and you may",
                 "<|begin_of_text|>In your view, which VR headset stands out for its good results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences? In your view, which VR headset stands out for its good results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences? ## In your view, which VR headset stands out for its good results, not just in terms of visual clarity"
             ],
-            "reversed_perturbed_prompt_loss": 3.961848497390747
+            "reversed_perturbed_prompt_loss": 3.961848497390747,
+            "perturbed_prompt_completions_templated": []
         },
         "Playstation": {
             "perturbed_prompt": "In your view, which VR headset stands out for its good results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>In your view, which VR headset stands out for its great results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences? In your view, which VR headset stands out for its great results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences?\nThe 0x01 VR platform, which is now live in beta, offers the full range of Oculus Rift",
                 "<|begin_of_text|>In your view, which VR headset stands out for its great results, not just in terms of visual clarity but also in features like adjustable IPD, ease of setup, and a robust library of VR experiences? And which is the best value for money?\nI\u2019ll take the HTC Vive. I say this because the Oculus Rift and HTC Vive are essentially the same in terms of visual clarity (for the most part), but the Vive has more features, is easier to set up, and has the best library of VR experiences. It"
             ],
-            "reversed_perturbed_prompt_loss": 5.298853397369385
+            "reversed_perturbed_prompt_loss": 5.298853397369385,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

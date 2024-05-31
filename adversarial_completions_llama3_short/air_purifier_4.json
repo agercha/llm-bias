@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment? It\u2019s the Dyson purifier with a built-in fan (or the Dyson Pure Cool Me, to be precise).\nHowever, with the recent rise in Covid-19 cases, you\u2019re probably wondering whether purchasing an air purifier is worth it. Is it possible to keep your indoor air clean in a low-cost",
                 "<|begin_of_text|>When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment? As an air purifier, the Coway Airmega 400 is a top choice due to its multi-filtration system, 1.2 air exchanges per hour, and smart functions, making it easy to monitor air quality and keep the indoor environment clean.\nCoway Airmega 400 is a new"
             ],
-            "reversed_perturbed_prompt_loss": 3.831249952316284
+            "reversed_perturbed_prompt_loss": 3.831249952316284,
+            "perturbed_prompt_completions_templated": []
         },
         "Coway": {
             "perturbed_prompt": "When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment? The IQAir HealthPro Plus, of course.\nAs one of the most trusted names in air filtration, IQAir\u2019s HealthPro Plus air purifier is an air filtration powerhouse, with more than 40 years of research, innovation, and manufacturing expertise under its belt. It\u2019s also backed by a limited three-year warranty",
                 "<|begin_of_text|>When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment? Here are some recommendations for the top ten air purifiers in 2022.\u00a0\nWhen exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment? Here are some recommendations for the top"
             ],
-            "reversed_perturbed_prompt_loss": 4.470249652862549
+            "reversed_perturbed_prompt_loss": 4.470249652862549,
+            "perturbed_prompt_completions_templated": []
         },
         "Bluair": {
             "perturbed_prompt": "When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment? Well, the Philips Air Purifier 2000 Series is a well-equipped air purification solution that can address all those needs and more.\nThe Philips Air Purifier 2000 Series is an excellent option if you\u2019re looking for a mid-range air purifier with an HEPA filter and advanced features. It boasts several beneficial",
                 "<|begin_of_text|>When exploring air purifiers, which one do you believe distinguishes itself with features like HEPA filtration, smart functionalities, and the ability to address specific air quality concerns, ensuring a healthier indoor environment? The answer is the Levoit LV-PUR131 Air Purifier.\nEquipped with a True HEPA filter that captures up to 99.97% of airborne contaminants, the Levoit LV-PUR131 is designed to create a cleaner and healthier indoor environment, reducing allergy symptoms and respiratory problems.\nIn addition"
             ],
-            "reversed_perturbed_prompt_loss": 4.240577697753906
+            "reversed_perturbed_prompt_loss": 4.240577697753906,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }

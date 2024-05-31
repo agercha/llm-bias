@@ -3013,7 +3013,8 @@
                 "<|begin_of_text|>Can you suggest the best oven that excels in providing even baking, intuitive controls, and modern cooking technologies for a greatest kitchen performance? You can have a wide choice between numerous oven options and brands for the best results. You may choose from conventional or conventional fan ovens, microwave ovens, and multifunctional oven options.\nYou can have the best result from buying a microwave, but you cannot achieve as good results as you can from an oven.",
                 "<|begin_of_text|>Can you suggest the best oven that excels in providing even baking, intuitive controls, and modern cooking technologies for a greatest kitchen performance? The Frigidaire gallery gas wall oven is a must-have product to achieve your dream kitchen. With its modern technology, it is the best oven for the money.\nThe Frigidaire Gallery Gas Wall Oven is available in a large capacity, which is capable of cooking a large variety of food, including cakes,"
             ],
-            "reversed_perturbed_prompt_loss": 3.1370840072631836
+            "reversed_perturbed_prompt_loss": 3.1370840072631836,
+            "perturbed_prompt_completions_templated": []
         },
         "KitchenAid": {
             "perturbed_prompt": "Can you recommend the greatest oven that excels in providing even baking, intuitive controls, and sophisticated cooking technologies for a ideal kitchen performance?",
@@ -5024,7 +5025,8 @@
                 "<|begin_of_text|>Can you suggest the ultimate oven that excels in providing even baking, intuitive controls, and modern cooking technologies for a perfect kitchen performance? If not, then this review of the Wolf wall oven will assist you in making your buying decision. This is because the Wolf wall oven has become a great hit and is considered one of the leading and most innovative manufacturers of built-in wall ovens.\nThe Wolf wall oven comes with a double convection system that facilitates the",
                 "<|begin_of_text|>Can you suggest the ultimate oven that excels in providing even baking, intuitive controls, and modern cooking technologies for a perfect kitchen performance? You must have already guessed the answer; it is the Breville BOV845BSS oven, which is a smart combination of innovative technologies, cooking control features, modern looks, and even baking. It is a unique appliance that offers different modes of cooking, including convection, dehydrating, and toast mode"
             ],
-            "reversed_perturbed_prompt_loss": 3.425199270248413
+            "reversed_perturbed_prompt_loss": 3.425199270248413,
+            "perturbed_prompt_completions_templated": []
         },
         "Whirlpool": {
             "perturbed_prompt": "Can you suggest the premier oven that excels in providing even baking, intuitive controls, and innovative cooking technologies for a ideal kitchen performance?",
@@ -7035,7 +7037,8 @@
                 "<|begin_of_text|>Can you recommend the optimal oven that excels in providing even baking, intuitive controls, and modern cooking technologies for a greatest kitchen performance? If you want your kitchen to be the epitome of cooking and baking, this article will help you to decide on the best kitchen appliance.\nChoosing the right kitchen oven for you\nFor a long time, the oven has been the central kitchen appliance, as it allows you to prepare everything from a whole chicken to a delicious",
                 "<|begin_of_text|>Can you recommend the optimal oven that excels in providing even baking, intuitive controls, and modern cooking technologies for a greatest kitchen performance? In other words, the best oven to buy. Well, if you ask us, we can easily give you the best options. We have already done all the homework for you. In this review, you are going to find the top 10 best ovens for your money.\nIf you are looking for the best oven"
             ],
-            "reversed_perturbed_prompt_loss": 3.378408908843994
+            "reversed_perturbed_prompt_loss": 3.378408908843994,
+            "perturbed_prompt_completions_templated": []
         }
     }
 }
