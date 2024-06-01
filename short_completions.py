@@ -376,17 +376,28 @@ def run(modelname, category):
             perturbed_prompt = perturbed_prompts[perturbed_prompt_ind]
             perturbed_prompt_ids = get_ids(tokenizer, perturbed_prompt, device)
 
+            reversed_perturbed_prompt_ind = torch.argmax(losses).item()
+            reversed_perturbed_prompt = perturbed_prompts[reversed_perturbed_prompt_ind]
+            reversed_perturbed_prompt_ids = get_ids(tokenizer, reversed_perturbed_prompt, device)
+
 
             if brand not in res["all_perturbed_results"]:
-                perturbed_completions = []
                 res["all_perturbed_results"][brand] = {}
                 reversed_perturbed_completions = []
+                res["all_perturbed_results"][brand]["perturbed_prompt"] = perturbed_prompt
+                res["all_perturbed_results"][brand]["base_prompt_loss"] = losses[base_prompt_ind].item()
+                res["all_perturbed_results"][brand]["perturbed_prompt_loss"] = torch.min(losses).item()
+                perturbed_completions = []
+                res["all_perturbed_results"][brand]["reversed_perturbed_prompt"] = reversed_perturbed_prompt
+                res["all_perturbed_results"][brand]["reversed_perturbed_prompt_loss"] = torch.max(losses).item()
             else:
                 perturbed_completions = res["all_perturbed_results"][brand]["perturbed_prompt_completions"]
                 if "reversed_perturbed_prompt_completions" in res["all_perturbed_results"][brand]:
                     reversed_perturbed_completions = res["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]
                 else: 
                     reversed_perturbed_completions = []
+                    res["all_perturbed_results"][brand]["reversed_perturbed_prompt"] = reversed_perturbed_prompt
+                    res["all_perturbed_results"][brand]["reversed_perturbed_prompt_loss"] = torch.max(losses).item()
 
             while len(perturbed_completions) < test_size:
                 perturbed_completion = generate(model, modelname, tokenizer, perturbed_prompt, perturbed_prompt_ids, pipeline, gen_config=gen_config)
@@ -394,10 +405,6 @@ def run(modelname, category):
                 perturbed_completions.append(perturbed_completion)
 
                 print(perturbed_completion)
-
-            reversed_perturbed_prompt_ind = torch.argmax(losses).item()
-            reversed_perturbed_prompt = perturbed_prompts[reversed_perturbed_prompt_ind]
-            reversed_perturbed_prompt_ids = get_ids(tokenizer, reversed_perturbed_prompt, device)
 
             while len(reversed_perturbed_completions) < test_size:
                 reversed_perturbed_completion = generate(model, modelname, tokenizer, reversed_perturbed_prompt, reversed_perturbed_prompt_ids, pipeline, gen_config=gen_config)
@@ -416,13 +423,13 @@ def run(modelname, category):
             #     "reversed_perturbed_prompt_loss": torch.max(losses).item()
             # }
 
-            res["all_perturbed_results"][brand]["perturbed_prompt"] = perturbed_prompt
+            # res["all_perturbed_results"][brand]["perturbed_prompt"] = perturbed_prompt
             res["all_perturbed_results"][brand]["perturbed_prompt_completions"] = perturbed_completions
-            res["all_perturbed_results"][brand]["base_prompt_loss"] = losses[base_prompt_ind].item()
-            res["all_perturbed_results"][brand]["perturbed_prompt_loss"] = torch.min(losses).item()
-            res["all_perturbed_results"][brand]["reversed_perturbed_prompt"] = reversed_perturbed_prompt
+            # res["all_perturbed_results"][brand]["base_prompt_loss"] = losses[base_prompt_ind].item()
+            # res["all_perturbed_results"][brand]["perturbed_prompt_loss"] = torch.min(losses).item()
+            # res["all_perturbed_results"][brand]["reversed_perturbed_prompt"] = reversed_perturbed_prompt
             res["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"] = reversed_perturbed_completions
-            res["all_perturbed_results"][brand]["reversed_perturbed_prompt_loss"] = torch.max(losses).item()
+            # res["all_perturbed_results"][brand]["reversed_perturbed_prompt_loss"] = torch.max(losses).item()
 
             print("done w perturbed")
 
