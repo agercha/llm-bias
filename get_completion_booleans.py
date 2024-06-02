@@ -9,8 +9,8 @@ def get_first_app(completion, target_strs, tokenizer, modelname, prompt):
         start_ind = completion.index('<start_of_turn>model')
         completion = completion[start_ind+20:]
     elif modelname == "llama":
-        start_ind = completion.index(prompt)
-        completion = completion[start_ind+len(prompt):]
+        # start_ind = completion.index(prompt)
+        completion = completion[4+len(prompt):]
     elif modelname == "llama3":
         start_ind = completion.index(prompt)
         completion = completion[start_ind+len(prompt):]
