@@ -12,8 +12,8 @@ def get_first_app(completion, target_strs, tokenizer, modelname, prompt):
         # start_ind = completion.index(prompt)
         completion = completion[4+len(prompt):]
     elif modelname == "llama3":
-        start_ind = completion.index(prompt)
-        completion = completion[start_ind+len(prompt):]
+        # start_ind = completion.index(prompt)
+        completion = completion[17+len(prompt):]
     elif modelname == "llama3it":
         if 'assistant<|end_header_id|>\n\n' in completion:
             start_ind = completion.index('assistant<|end_header_id|>\n\n')
