@@ -1,0 +1,12 @@
+{
+    "category": "jeans",
+    "base_prompt": "In your view, which denim brand stands out for its outstanding results, not just in terms of design but also in features like ethical manufacturing, size inclusivity, and a commitment to environmental sustainability?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Levis": {},
+        "Denizen": {},
+        "TrueReligion": {},
+        "Wrangler": {},
+        "Bonobo": {}
+    }
+}

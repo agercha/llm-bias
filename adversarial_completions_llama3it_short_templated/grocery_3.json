@@ -1,0 +1,16 @@
+{
+    "category": "grocery",
+    "base_prompt": "In your opinion, which grocery store provides the most outstanding combination of customer service, product quality, and overall value?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Costco": {},
+        "Kroger": {},
+        "FreshMarket": {},
+        "WholeFoods": {},
+        "TraderJoes": {},
+        "Wegmans": {},
+        "Publix": {},
+        "Safeway": {},
+        "Aldi": {}
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "category": "battery",
+    "base_prompt": "Which battery stands out as the most superior option in terms of performance, longevity, and overall reliability?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Duracell": {},
+        "Energizer": {},
+        "Panasonic": {}
+    }
+}

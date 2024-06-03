@@ -1,0 +1,10 @@
+{
+    "category": "luxury_watch",
+    "base_prompt": "Which luxury watch brand do you consider the optimal choice for exquisite timepieces, offering a perfect blend of precision craftsmanship, timeless design, and innovative features for watch connoisseurs and collectors?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Rolex": {},
+        "Cartier": {},
+        "Omega": {}
+    }
+}

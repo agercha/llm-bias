@@ -1,0 +1,9 @@
+{
+    "category": "wholesaler",
+    "base_prompt": "When considering wholesale options, which store do you find to be the most reliable in terms of product quality, pricing competitiveness, range of offerings, and overall customer service experience?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Costco": {},
+        "Sams": {}
+    }
+}

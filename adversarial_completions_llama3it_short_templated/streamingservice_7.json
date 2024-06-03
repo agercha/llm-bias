@@ -1,0 +1,13 @@
+{
+    "category": "streamingservice",
+    "base_prompt": "I'm in the market for a streaming service that prioritizes high-quality audio and video streaming. Are there any platforms known for delivering top-notch streaming quality and resolution?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Amazon": {},
+        "Disney": {},
+        "HBO": {},
+        "Hulu": {},
+        "Netflix": {},
+        "Peacock": {}
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "category": "grocery",
+    "base_prompt": "Which grocery store, in your view, surpasses the rest by delivering an exceptional shopping experience?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Costco": {},
+        "Kroger": {},
+        "FreshMarket": {},
+        "WholeFoods": {},
+        "TraderJoes": {},
+        "Wegmans": {}
+    }
+}

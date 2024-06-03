@@ -1,0 +1,12 @@
+{
+    "category": "coffee_grinder",
+    "base_prompt": "Which coffee grinder model would you consider as the ideal choice for coffee enthusiasts, providing a perfect balance of precision grinding, durability, and innovative features for enhancing the flavor profile of your coffee beans?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Baratza": {},
+        "Capresso": {},
+        "Cuisinart": {},
+        "OXO": {},
+        "KitchenAid": {}
+    }
+}

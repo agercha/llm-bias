@@ -1,0 +1,10 @@
+{
+    "category": "keyboard",
+    "base_prompt": "In your view, which mechanical keyboard stands out for its outstanding results, not just in terms of key switches but also in features like N-key rollover, anti-ghosting, and a durable construction for heavy usage?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Logitech": {},
+        "Keychron": {},
+        "Epomaker": {}
+    }
+}

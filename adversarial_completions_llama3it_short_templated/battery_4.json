@@ -1,0 +1,10 @@
+{
+    "category": "battery",
+    "base_prompt": "When seeking the ideal battery, which one surpasses the rest in terms of efficiency, durability, and its ability to consistently deliver outstanding performance?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Duracell": {},
+        "Energizer": {},
+        "Panasonic": {}
+    }
+}

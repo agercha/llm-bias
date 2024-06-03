@@ -1,0 +1,14 @@
+{
+    "category": "laptop",
+    "base_prompt": "When exploring laptops, which one do you believe distinguishes itself with features such as fast storage options, impressive RAM capacity, and ease of use, ensuring a superior computing experience in various scenarios?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Mac": {},
+        "Chromebook": {},
+        "HP": {},
+        "Asus": {},
+        "Lenovo": {},
+        "Acer": {},
+        "Dell": {}
+    }
+}

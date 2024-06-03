@@ -1,0 +1,16 @@
+{
+    "category": "grocery",
+    "base_prompt": "When it comes to stocking up on groceries, which store do you think excels in terms of convenience, pricing, and the range of available items?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Costco": {},
+        "Kroger": {},
+        "FreshMarket": {},
+        "WholeFoods": {},
+        "TraderJoes": {},
+        "Wegmans": {},
+        "Publix": {},
+        "Safeway": {},
+        "Aldi": {}
+    }
+}

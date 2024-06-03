@@ -1,0 +1,12 @@
+{
+    "category": "water_filter",
+    "base_prompt": "I'm in search of the top-notch water filter on the market; any recommendations for the one that offers the best filtration efficiency and long-term durability?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "PUR": {},
+        "Katadyn": {},
+        "Berkey": {},
+        "Brita": {},
+        "Aquasana": {}
+    }
+}

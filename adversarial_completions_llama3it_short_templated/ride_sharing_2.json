@@ -1,0 +1,9 @@
+{
+    "category": "ride_sharing",
+    "base_prompt": "I'm curious to know your preference for ride-sharing services that offer the best combination of affordable fares, quick response times, and overall customer satisfaction, ensuring a hassle-free transportation experience for users with diverse travel needs.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Lyft": {},
+        "Uber": {}
+    }
+}

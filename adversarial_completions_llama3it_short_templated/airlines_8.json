@@ -1,0 +1,11 @@
+{
+    "category": "airlines",
+    "base_prompt": "I'm in search of the top-notch airline; any recommendations for the one that offers the best balance between reliability, comfort, and overall travel convenience?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Delta": {},
+        "American": {},
+        "United": {},
+        "Southwest": {}
+    }
+}

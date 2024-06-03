@@ -1,0 +1,10 @@
+{
+    "category": "sunglasses",
+    "base_prompt": "When exploring sunglasses, which one do you believe distinguishes itself with features such as anti-glare coatings, customizable lens options, and versatility for different activities, ensuring top-tier eye protection and style for users with diverse preferences?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "RayBans": {},
+        "Prada": {},
+        "Oakley": {}
+    }
+}

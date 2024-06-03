@@ -1,0 +1,13 @@
+{
+    "category": "parcel_service",
+    "base_prompt": "In your view, which parcel service stands out for its outstanding results, not just in terms of delivery speed but also in features like reliable customer support, package protection, and a user-friendly online platform for shipping management?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "UPS": {},
+        "USPS": {},
+        "ShipBob": {},
+        "ShipStation": {},
+        "FedEx": {},
+        "ParcelMonkey": {}
+    }
+}

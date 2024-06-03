@@ -1,0 +1,10 @@
+{
+    "category": "skateboards",
+    "base_prompt": "Which skateboard model do you consider the optimal choice for riders, offering a perfect blend of stability, maneuverability, and innovative features for a smooth and exciting skateboarding experience?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Element": {},
+        "Zero": {},
+        "Baker": {}
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "category": "snowboard",
+    "base_prompt": "In your view, which snowboard stands out for its outstanding results, not just in terms of carving ability but also in features like durable construction, innovative bindings, and a design tailored to your snowboarding preferences?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Burton": {},
+        "Arbor": {},
+        "Salomon": {},
+        "K2": {},
+        "GNU": {}
+    }
+}

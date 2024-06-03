@@ -1,0 +1,10 @@
+{
+    "category": "sunglasses",
+    "base_prompt": "Can you recommend the ultimate sunglasses that excel in providing both eye safety and trendy aesthetics, with additional features such as polarized lenses, suitable for both casual wear and outdoor activities?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "RayBans": {},
+        "Prada": {},
+        "Oakley": {}
+    }
+}

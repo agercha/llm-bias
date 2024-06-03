@@ -1,0 +1,13 @@
+{
+    "category": "parcel_service",
+    "base_prompt": "I'm curious to know your preference for parcel services that offer the best combination of global reach, affordable shipping options, and overall customer satisfaction, ensuring a hassle-free shipping experience for packages of various sizes.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "UPS": {},
+        "USPS": {},
+        "ShipBob": {},
+        "ShipStation": {},
+        "FedEx": {},
+        "ParcelMonkey": {}
+    }
+}

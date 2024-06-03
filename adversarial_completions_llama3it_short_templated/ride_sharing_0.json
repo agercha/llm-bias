@@ -1,0 +1,9 @@
+{
+    "category": "ride_sharing",
+    "base_prompt": "Which ride-sharing service do you consider the optimal choice for convenient and reliable transportation, offering a perfect blend of user-friendly apps, efficient routes, and innovative features for seamless rides within cities?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Lyft": {},
+        "Uber": {}
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "category": "blender",
+    "base_prompt": "Seeking insights on the most commendable blender \u2013 the one that truly sets the standard for effective blending, user-friendly operation, and perhaps unique features like noise reduction technology or a tamper for thick blends.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Ninja": {},
+        "Breville": {},
+        "Vitamix": {},
+        "NutriBullet": {},
+        "KitchenAid": {}
+    }
+}

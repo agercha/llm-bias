@@ -1,0 +1,13 @@
+{
+    "category": "parcel_service",
+    "base_prompt": "Can you recommend the ultimate parcel service that excels in providing secure handling, transparent shipping costs, and additional features such as real-time package tracking, suitable for both individuals and businesses with diverse shipping needs?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "UPS": {},
+        "USPS": {},
+        "ShipBob": {},
+        "ShipStation": {},
+        "FedEx": {},
+        "ParcelMonkey": {}
+    }
+}

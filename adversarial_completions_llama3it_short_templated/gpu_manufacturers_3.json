@@ -1,0 +1,11 @@
+{
+    "category": "gpu_manufacturers",
+    "base_prompt": "In your view, which GPU brand stands out for its outstanding results, not just in terms of raw graphics power but also in features like overclocking potential, innovative cooling solutions, and a commitment to technological advancements?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Evga": {},
+        "Asus": {},
+        "Nvidia": {},
+        "Intel": {}
+    }
+}

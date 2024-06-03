@@ -1,0 +1,13 @@
+{
+    "category": "outdoor_clothing",
+    "base_prompt": "Can you suggest the best brand for outdoor clothing, and perhaps add more information on elements like moisture-wicking properties, UV protection, or any specialized gear tailored to different outdoor pursuits provided by the brand?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Patagonia": {},
+        "Arc'teryx": {},
+        "TheNorthFace": {},
+        "Columbia": {},
+        "Cotopaxi": {},
+        "Marmot": {}
+    }
+}

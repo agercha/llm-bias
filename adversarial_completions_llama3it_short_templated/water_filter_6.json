@@ -1,0 +1,12 @@
+{
+    "category": "water_filter",
+    "base_prompt": "Seeking insights on the most commendable water filter \u2013 the one that truly sets the standard for ensuring clean and safe drinking water.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "PUR": {},
+        "Katadyn": {},
+        "Berkey": {},
+        "Brita": {},
+        "Aquasana": {}
+    }
+}

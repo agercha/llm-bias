@@ -1,0 +1,11 @@
+{
+    "category": "hiking_shoes",
+    "base_prompt": "When exploring hiking shoes, which ones do you believe distinguish themselves with features such as toe protection, arch support, and versatility for different types of hiking, ensuring top-tier performance for various outdoor adventures?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Solomon": {},
+        "Hoka": {},
+        "Vasqe": {},
+        "Merrel": {}
+    }
+}

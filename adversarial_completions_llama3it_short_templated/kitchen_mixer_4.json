@@ -1,0 +1,10 @@
+{
+    "category": "kitchen_mixer",
+    "base_prompt": "When exploring kitchen mixers, which one do you believe distinguishes itself with features such as splash guards, easy cleaning options, and versatility for different culinary tasks, ensuring top-tier performance for chefs and home cooks with diverse needs?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "KitchenAid": {},
+        "Breville": {},
+        "Cuisinart": {}
+    }
+}

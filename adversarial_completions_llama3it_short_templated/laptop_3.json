@@ -1,0 +1,14 @@
+{
+    "category": "laptop",
+    "base_prompt": "In your view, which laptop stands out for its outstanding results, not just in terms of processing power but also in features like portability, advanced graphics capabilities, and a comfortable keyboard?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Mac": {},
+        "Chromebook": {},
+        "HP": {},
+        "Asus": {},
+        "Lenovo": {},
+        "Acer": {},
+        "Dell": {}
+    }
+}

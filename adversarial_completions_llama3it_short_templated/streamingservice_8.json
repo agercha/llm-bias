@@ -1,0 +1,13 @@
+{
+    "category": "streamingservice",
+    "base_prompt": "I'm on the lookout for a streaming service that offers a good mix of both mainstream and independent films. Any suggestions for platforms that cater to a diverse film selection?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Amazon": {},
+        "Disney": {},
+        "HBO": {},
+        "Hulu": {},
+        "Netflix": {},
+        "Peacock": {}
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "category": "jeans",
+    "base_prompt": "Which denim brand do you consider the optimal choice for stylish and durable jeans, offering a perfect blend of quality craftsmanship, fit, and innovative designs for fashion enthusiasts?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Levis": {},
+        "Denizen": {},
+        "TrueReligion": {},
+        "Wrangler": {},
+        "Bonobo": {}
+    }
+}

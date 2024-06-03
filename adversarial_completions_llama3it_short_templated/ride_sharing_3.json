@@ -1,0 +1,9 @@
+{
+    "category": "ride_sharing",
+    "base_prompt": "In your view, which ride-sharing platform stands out for its outstanding results, not just in terms of ride availability but also in features like ride-sharing options, loyalty programs, and a commitment to safety and security?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Lyft": {},
+        "Uber": {}
+    }
+}

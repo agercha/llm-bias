@@ -1,0 +1,10 @@
+{
+    "category": "keyboard",
+    "base_prompt": "Can you recommend the ultimate mechanical keyboard that excels in providing precise key actuation, customizable RGB lighting, and additional features such as programmable keys, suitable for both productivity and gaming?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Logitech": {},
+        "Keychron": {},
+        "Epomaker": {}
+    }
+}

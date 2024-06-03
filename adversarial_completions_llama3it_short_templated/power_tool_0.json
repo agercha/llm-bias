@@ -1,0 +1,9 @@
+{
+    "category": "power_tool",
+    "base_prompt": "Which power tool brand do you consider the optimal choice for reliable and efficient tools, offering a perfect blend of durability, performance, and innovative features for various DIY and professional projects?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Miluwakee": {},
+        "DeWalt": {}
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "category": "sunglasses",
+    "base_prompt": "In your view, which sunglasses brand stands out for its outstanding results, not just in terms of lens technology but also in features like scratch resistance, lightweight frames, and a variety of frame shapes for different face types?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "RayBans": {},
+        "Prada": {},
+        "Oakley": {}
+    }
+}

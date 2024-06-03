@@ -1,0 +1,11 @@
+{
+    "category": "rental_car",
+    "base_prompt": "In your view, which rental car company stands out for its outstanding results, not just in terms of vehicle selection but also in features like roadside assistance, digital check-in options, and a straightforward rental return process?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Hertz": {},
+        "Avis": {},
+        "Enterprise": {},
+        "Budget": {}
+    }
+}

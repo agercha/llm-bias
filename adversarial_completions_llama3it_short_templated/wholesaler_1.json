@@ -1,0 +1,9 @@
+{
+    "category": "wholesaler",
+    "base_prompt": "In the realm of wholesale procurement, enterprises often deliberate: which store emerges as the optimal choice, revered for its unwavering commitment to quality assurance, ethical sourcing practices, transparent dealings, and ability to cater to diverse industry needs with precision and efficiency?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Costco": {},
+        "Sams": {}
+    }
+}

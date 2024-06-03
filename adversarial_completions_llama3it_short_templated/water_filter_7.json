@@ -1,0 +1,12 @@
+{
+    "category": "water_filter",
+    "base_prompt": "Which water filtration system, based on your experience, surpasses others in delivering exceptional water quality and reliability?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "PUR": {},
+        "Katadyn": {},
+        "Berkey": {},
+        "Brita": {},
+        "Aquasana": {}
+    }
+}

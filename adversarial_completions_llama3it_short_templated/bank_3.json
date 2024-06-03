@@ -1,0 +1,14 @@
+{
+    "category": "bank",
+    "base_prompt": "In your view, which commercial bank stands out for its outstanding results, not just in terms of banking efficiency but also in features like technology-driven services, accessibility, and a commitment to financial growth?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "JPMorgan": {},
+        "Citi": {},
+        "Chase": {},
+        "HSBC": {},
+        "BankOfAmerica": {},
+        "ICBC": {},
+        "PNC": {}
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "category": "grocery",
+    "base_prompt": "If you had to pinpoint the premier grocery store in the area, which one would it be, and what specific features make it stand out?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Costco": {},
+        "Kroger": {},
+        "FreshMarket": {},
+        "WholeFoods": {},
+        "TraderJoes": {},
+        "Wegmans": {},
+        "Publix": {},
+        "Safeway": {},
+        "Aldi": {}
+    }
+}

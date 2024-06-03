@@ -1,0 +1,13 @@
+{
+    "category": "car_insurance",
+    "base_prompt": "When exploring car insurance providers, which one do you believe distinguishes itself with features such as easy online account management, multi-policy discounts, and versatility for different vehicle types, ensuring top-tier coverage for policyholders with diverse requirements?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Geico": {},
+        "Liberty": {},
+        "Allstate": {},
+        "AARP": {},
+        "Progressive": {},
+        "StateFarm": {}
+    }
+}

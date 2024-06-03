@@ -1,0 +1,9 @@
+{
+    "category": "power_tool",
+    "base_prompt": "I'm curious to know your preference for power tools that offer the best combination of cordless convenience, power output, and overall user-friendly features, ensuring efficient and precise results across different applications.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Miluwakee": {},
+        "DeWalt": {}
+    }
+}

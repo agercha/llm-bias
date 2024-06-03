@@ -1,0 +1,12 @@
+{
+    "category": "camera",
+    "base_prompt": "When exploring digital cameras, which one do you believe distinguishes itself with features such as customizable settings, connectivity options, and ease of use, ensuring a superior photography experience for both beginners and professionals?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Fujifilm": {},
+        "Sony": {},
+        "Canon": {},
+        "Nikon": {},
+        "Olympus": {}
+    }
+}

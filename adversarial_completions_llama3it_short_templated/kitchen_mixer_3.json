@@ -1,0 +1,10 @@
+{
+    "category": "kitchen_mixer",
+    "base_prompt": "In your view, which kitchen mixer stands out for its outstanding results, not just in terms of motor power but also in features like tilt-head design, planetary mixing action, and a robust build for handling heavy dough and batter?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "KitchenAid": {},
+        "Breville": {},
+        "Cuisinart": {}
+    }
+}

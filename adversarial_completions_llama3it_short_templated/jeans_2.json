@@ -1,0 +1,12 @@
+{
+    "category": "jeans",
+    "base_prompt": "I'm curious to know your preference for denim brands that offer the best combination of fabric quality, unique washes, and overall style, ensuring an enhanced denim-wearing experience for different personal styles.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Levis": {},
+        "Denizen": {},
+        "TrueReligion": {},
+        "Wrangler": {},
+        "Bonobo": {}
+    }
+}

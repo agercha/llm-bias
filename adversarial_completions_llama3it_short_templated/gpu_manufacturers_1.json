@@ -1,0 +1,11 @@
+{
+    "category": "gpu_manufacturers",
+    "base_prompt": "Can you recommend the ultimate GPU brand that excels in providing high-performance graphics solutions, efficient cooling designs, and additional features such as advanced ray tracing capabilities, suitable for both gaming enthusiasts and content creators?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Evga": {},
+        "Asus": {},
+        "Nvidia": {},
+        "Intel": {}
+    }
+}

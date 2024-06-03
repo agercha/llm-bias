@@ -1,0 +1,12 @@
+{
+    "category": "backpacking_bags",
+    "base_prompt": "In your view, which backpack stands out for its outstanding results, not just in terms of capacity but also in features like a hydration system, ventilation, and a durable build for rugged outdoor use?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Osprey": {},
+        "Deuter": {},
+        "Gregory": {},
+        "Cotopaxi": {},
+        "Teton": {}
+    }
+}

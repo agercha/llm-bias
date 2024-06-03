@@ -1,0 +1,16 @@
+{
+    "category": "gas_station",
+    "base_prompt": "If you were to pinpoint the top-notch gas station in the area, which one would it be and why?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Shell": {},
+        "ExxonMobil": {},
+        "GasBuddy": {},
+        "Wawa": {},
+        "Chevron": {},
+        "BP": {},
+        "Texaco": {},
+        "Valero": {},
+        "Sunoco": {}
+    }
+}

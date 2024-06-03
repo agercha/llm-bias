@@ -1,0 +1,13 @@
+{
+    "category": "washing_machine",
+    "base_prompt": "Seeking insights on the most commendable washing machine \u2013 the one that truly sets the standard for efficient cleaning, user-friendly operation, and perhaps unique features like customizable wash settings or allergy-specific cycles.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "LG": {},
+        "GE": {},
+        "Bosch": {},
+        "Miele": {},
+        "Whirlpool": {},
+        "Electrolux": {}
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "category": "climbing_shoes",
+    "base_prompt": "When exploring climbing shoes, which one do you believe distinguishes itself with features such as an aggressive profile, excellent heel hooking capabilities, and a customizable fit, ensuring top-tier performance for climbers of different skill levels?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Sportiva": {},
+        "Boreal": {},
+        "Evolv": {},
+        "Scarpa": {}
+    }
+}

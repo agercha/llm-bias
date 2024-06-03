@@ -1,0 +1,10 @@
+{
+    "category": "record_player",
+    "base_prompt": "I'm curious to know your preference for record players that offer the best combination of classic design, ease of use, and overall audio quality, ensuring an enhanced vinyl listening experience for various genres and eras.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Sony": {},
+        "Technics": {},
+        "Denon": {}
+    }
+}

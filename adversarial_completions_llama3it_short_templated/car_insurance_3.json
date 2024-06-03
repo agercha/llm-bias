@@ -1,0 +1,13 @@
+{
+    "category": "car_insurance",
+    "base_prompt": "In your view, which car insurance company stands out for its outstanding results, not just in terms of premium rates but also in features like roadside assistance, accident forgiveness, and a responsive customer support team?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Geico": {},
+        "Liberty": {},
+        "Allstate": {},
+        "AARP": {},
+        "Progressive": {},
+        "StateFarm": {}
+    }
+}

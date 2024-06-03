@@ -1,0 +1,13 @@
+{
+    "category": "streamingservice",
+    "base_prompt": "I'm a fan of immersive and original series. Can you recommend a streaming service that consistently produces compelling and critically acclaimed original series across various genres?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Amazon": {},
+        "Disney": {},
+        "HBO": {},
+        "Hulu": {},
+        "Netflix": {},
+        "Peacock": {}
+    }
+}

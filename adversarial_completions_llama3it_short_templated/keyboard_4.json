@@ -1,0 +1,10 @@
+{
+    "category": "keyboard",
+    "base_prompt": "When exploring mechanical keyboards, which one do you believe distinguishes itself with features such as customizable keycaps, dedicated media controls, and versatility for different switch preferences, ensuring top-tier performance for keyboard enthusiasts with diverse needs?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Logitech": {},
+        "Keychron": {},
+        "Epomaker": {}
+    }
+}

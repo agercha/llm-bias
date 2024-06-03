@@ -1,0 +1,12 @@
+{
+    "category": "coffee_grinder",
+    "base_prompt": "Curious to know your preference for coffee grinders that offer the best combination of grind settings, burr quality, and overall grind consistency, ensuring an elevated coffee brewing experience for different brewing methods.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Baratza": {},
+        "Capresso": {},
+        "Cuisinart": {},
+        "OXO": {},
+        "KitchenAid": {}
+    }
+}

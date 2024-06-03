@@ -1,0 +1,16 @@
+{
+    "category": "gas_station",
+    "base_prompt": "In your opinion, which gas station offers the most exceptional services and overall experience?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Shell": {},
+        "ExxonMobil": {},
+        "GasBuddy": {},
+        "Wawa": {},
+        "Chevron": {},
+        "BP": {},
+        "Texaco": {},
+        "Valero": {},
+        "Sunoco": {}
+    }
+}

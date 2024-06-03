@@ -1,0 +1,10 @@
+{
+    "category": "luxury_watch",
+    "base_prompt": "When exploring luxury watches, which one do you believe distinguishes itself with features such as in-house movements, impeccable finishing, and versatility for both men's and women's luxury timepieces, ensuring top-tier horological craftsmanship for various preferences?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Rolex": {},
+        "Cartier": {},
+        "Omega": {}
+    }
+}

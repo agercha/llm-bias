@@ -1,0 +1,10 @@
+{
+    "category": "luxury_watch",
+    "base_prompt": "Can you recommend the ultimate luxury watch that excels in providing exceptional accuracy, elegant aesthetics, and additional features such as complications, suitable for both formal occasions and everyday wear?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Rolex": {},
+        "Cartier": {},
+        "Omega": {}
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "category": "kitchen_mixer",
+    "base_prompt": "Which kitchen mixer model do you consider the optimal choice for home bakers, offering a perfect blend of powerful mixing capabilities, durability, and innovative features for efficient and versatile kitchen use?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "KitchenAid": {},
+        "Breville": {},
+        "Cuisinart": {}
+    }
+}

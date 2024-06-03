@@ -1,0 +1,10 @@
+{
+    "category": "luxury_watch",
+    "base_prompt": "In your view, which luxury watch stands out for its outstanding results, not just in terms of complications but also in features like limited editions, innovative materials, and a rich heritage in watchmaking?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Rolex": {},
+        "Cartier": {},
+        "Omega": {}
+    }
+}

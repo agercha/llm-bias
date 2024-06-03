@@ -1,0 +1,11 @@
+{
+    "category": "gpu_manufacturers",
+    "base_prompt": "When exploring GPU manufacturers, which one do you believe distinguishes itself with features such as reliable driver updates, efficient power consumption, and versatility for different gaming resolutions and graphic-intensive tasks, ensuring top-tier graphics performance for users with diverse preferences?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Evga": {},
+        "Asus": {},
+        "Nvidia": {},
+        "Intel": {}
+    }
+}

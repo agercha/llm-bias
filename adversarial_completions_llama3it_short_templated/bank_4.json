@@ -1,0 +1,14 @@
+{
+    "category": "bank",
+    "base_prompt": "When exploring commercial banks, which one do you believe distinguishes itself with features such as a wide range of business banking options, efficient loan services, and ease of online transactions, ensuring a superior banking experience?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "JPMorgan": {},
+        "Citi": {},
+        "Chase": {},
+        "HSBC": {},
+        "BankOfAmerica": {},
+        "ICBC": {},
+        "PNC": {}
+    }
+}

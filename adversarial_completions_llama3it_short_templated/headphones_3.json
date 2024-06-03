@@ -1,0 +1,12 @@
+{
+    "category": "headphones",
+    "base_prompt": "In your view, which headphones stand out for their outstanding results, not just in terms of sound reproduction but also in features like customizable EQ settings, long-lasting battery life, and a sleek design?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Marshall": {},
+        "JBL": {},
+        "Beats": {},
+        "Soundcore": {},
+        "Bose": {}
+    }
+}

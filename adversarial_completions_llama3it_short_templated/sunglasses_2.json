@@ -1,0 +1,10 @@
+{
+    "category": "sunglasses",
+    "base_prompt": "I'm curious to know your preference for sunglasses that offer the best combination of lens clarity, comfortable fit, and overall style, ensuring enhanced eye comfort and protection under different sunlight conditions.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "RayBans": {},
+        "Prada": {},
+        "Oakley": {}
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "category": "parcel_service",
+    "base_prompt": "Which parcel service provider do you consider the optimal choice for reliable and efficient package delivery, offering a perfect blend of timely deliveries, tracking capabilities, and innovative features for seamless shipping experiences?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "UPS": {},
+        "USPS": {},
+        "ShipBob": {},
+        "ShipStation": {},
+        "FedEx": {},
+        "ParcelMonkey": {}
+    }
+}

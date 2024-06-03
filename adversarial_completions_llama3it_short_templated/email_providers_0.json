@@ -1,0 +1,10 @@
+{
+    "category": "email_providers",
+    "base_prompt": "Which email provider do you consider the optimal choice for reliable and secure communication, offering a perfect blend of user-friendly interfaces, robust features, and innovative security measures for efficient email management?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Google": {},
+        "Yahoo": {},
+        "Microsoft": {}
+    }
+}

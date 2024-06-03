@@ -1,0 +1,13 @@
+{
+    "category": "curling_iron",
+    "base_prompt": "When exploring curling irons, which one do you believe distinguishes itself with features such as temperature display, multiple heat settings, and ease of maneuverability, ensuring a superior curling experience?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Conair": {},
+        "Chi": {},
+        "Remington": {},
+        "Dyson": {},
+        "GHD": {},
+        "BaByliss": {}
+    }
+}

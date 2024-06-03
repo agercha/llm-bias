@@ -1,0 +1,12 @@
+{
+    "category": "headphones",
+    "base_prompt": "When exploring headphones, which ones do you believe distinguish themselves with features such as active noise cancellation, a comfortable fit, and versatility for gaming or phone calls, ensuring top-tier performance for different audio needs and preferences?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Marshall": {},
+        "JBL": {},
+        "Beats": {},
+        "Soundcore": {},
+        "Bose": {}
+    }
+}

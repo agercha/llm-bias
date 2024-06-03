@@ -1,0 +1,10 @@
+{
+    "category": "record_player",
+    "base_prompt": "Which record player model do you consider the optimal choice for audiophiles, offering a perfect blend of high-fidelity sound, durability, and innovative features for a nostalgic and premium listening experience?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Sony": {},
+        "Technics": {},
+        "Denon": {}
+    }
+}

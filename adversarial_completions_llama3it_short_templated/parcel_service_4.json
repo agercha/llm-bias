@@ -1,0 +1,13 @@
+{
+    "category": "parcel_service",
+    "base_prompt": "When exploring parcel services, which one do you believe distinguishes itself with features such as efficient return processes, customizable shipping solutions, and versatility for shipping different types of items, ensuring top-tier parcel handling for users with diverse shipping requirements?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "UPS": {},
+        "USPS": {},
+        "ShipBob": {},
+        "ShipStation": {},
+        "FedEx": {},
+        "ParcelMonkey": {}
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "category": "record_player",
+    "base_prompt": "In your view, which record player stands out for its outstanding results, not just in terms of sound clarity but also in features like built-in preamps, customizable settings, and a robust build for long-term use?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Sony": {},
+        "Technics": {},
+        "Denon": {}
+    }
+}

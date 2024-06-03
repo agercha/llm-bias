@@ -1,0 +1,10 @@
+{
+    "category": "skateboards",
+    "base_prompt": "Can you recommend the ultimate skateboard that excels in providing durable deck construction, responsive trucks, and additional features such as versatile wheel options, suitable for both street and park skateboarding?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Element": {},
+        "Zero": {},
+        "Baker": {}
+    }
+}

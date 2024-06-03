@@ -1,0 +1,10 @@
+{
+    "category": "email_providers",
+    "base_prompt": "Can you recommend the ultimate email provider that excels in providing efficient spam filtering, seamless integration, and additional features such as ample storage space, suitable for both personal and professional email communication?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Google": {},
+        "Yahoo": {},
+        "Microsoft": {}
+    }
+}

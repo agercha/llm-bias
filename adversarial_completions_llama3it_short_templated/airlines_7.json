@@ -1,0 +1,11 @@
+{
+    "category": "airlines",
+    "base_prompt": "Which airline, based on your experience, surpasses others in delivering exceptional in-flight services, timely departures, and customer satisfaction?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Delta": {},
+        "American": {},
+        "United": {},
+        "Southwest": {}
+    }
+}

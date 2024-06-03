@@ -1,0 +1,16 @@
+{
+    "category": "gas_station",
+    "base_prompt": "When it comes to fueling your vehicle, which gas station do you believe provides the best combination of convenience, affordability, and quality?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Shell": {},
+        "ExxonMobil": {},
+        "GasBuddy": {},
+        "Wawa": {},
+        "Chevron": {},
+        "BP": {},
+        "Texaco": {},
+        "Valero": {},
+        "Sunoco": {}
+    }
+}

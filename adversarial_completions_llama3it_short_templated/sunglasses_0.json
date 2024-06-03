@@ -1,0 +1,10 @@
+{
+    "category": "sunglasses",
+    "base_prompt": "Which sunglasses brand do you consider the optimal choice for stylish eye protection, offering a perfect blend of UV protection, durability, and innovative designs for a fashionable and shielded outdoor experience?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "RayBans": {},
+        "Prada": {},
+        "Oakley": {}
+    }
+}

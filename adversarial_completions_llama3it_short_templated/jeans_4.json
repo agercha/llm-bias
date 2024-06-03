@@ -1,0 +1,12 @@
+{
+    "category": "jeans",
+    "base_prompt": "When exploring denim brands, which one do you believe distinguishes itself with features such as innovative cuts, comfortable stretch, and versatility for both classic and contemporary denim looks, ensuring top-tier denim fashion for various preferences?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Levis": {},
+        "Denizen": {},
+        "TrueReligion": {},
+        "Wrangler": {},
+        "Bonobo": {}
+    }
+}

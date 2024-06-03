@@ -1,0 +1,11 @@
+{
+    "category": "rental_car",
+    "base_prompt": "I'm curious to know your preference for rental car companies that offer the best combination of competitive rental rates, easy reservation processes, and overall customer satisfaction, ensuring a convenient transportation solution for different travel purposes.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Hertz": {},
+        "Avis": {},
+        "Enterprise": {},
+        "Budget": {}
+    }
+}

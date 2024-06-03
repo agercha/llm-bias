@@ -1,0 +1,11 @@
+{
+    "category": "gpu_manufacturers",
+    "base_prompt": "I'm curious to know your preference for GPU manufacturers that offer the best combination of driver support, diverse graphics card options, and overall performance, ensuring a seamless visual experience for various computing needs.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Evga": {},
+        "Asus": {},
+        "Nvidia": {},
+        "Intel": {}
+    }
+}

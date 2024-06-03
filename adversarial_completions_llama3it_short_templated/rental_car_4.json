@@ -1,0 +1,11 @@
+{
+    "category": "rental_car",
+    "base_prompt": "When exploring rental car companies, which one do you believe distinguishes itself with features such as transparent fuel policies, varied insurance options, and versatility for different travel destinations, ensuring top-tier service for travelers with diverse preferences?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Hertz": {},
+        "Avis": {},
+        "Enterprise": {},
+        "Budget": {}
+    }
+}

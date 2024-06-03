@@ -1,0 +1,11 @@
+{
+    "category": "sunscreen",
+    "base_prompt": "When exploring sunscreens, which one do you believe distinguishes itself with features such as compatibility with sensitive skin, ease of application, and suitability for different skin types, ensuring top-tier sun protection for various needs and preferences?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Neutragena": {},
+        "Supergoop": {},
+        "Coppertone": {},
+        "Aveeno": {}
+    }
+}

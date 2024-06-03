@@ -1,0 +1,13 @@
+{
+    "category": "streamingservice",
+    "base_prompt": "I'm specifically looking for a streaming service with a broad selection of documentaries and educational content. Can you suggest a platform that excels in this area?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Amazon": {},
+        "Disney": {},
+        "HBO": {},
+        "Hulu": {},
+        "Netflix": {},
+        "Peacock": {}
+    }
+}

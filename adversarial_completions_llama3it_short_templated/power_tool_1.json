@@ -1,0 +1,9 @@
+{
+    "category": "power_tool",
+    "base_prompt": "Can you recommend the ultimate power tool set that excels in providing versatile options, ergonomic designs, and additional features such as brushless motors, suitable for both woodworking and construction tasks?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Miluwakee": {},
+        "DeWalt": {}
+    }
+}

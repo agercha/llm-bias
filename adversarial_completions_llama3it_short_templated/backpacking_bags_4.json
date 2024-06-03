@@ -1,0 +1,12 @@
+{
+    "category": "backpacking_bags",
+    "base_prompt": "When exploring backpacks for backpacking, which ones do you believe distinguish themselves with features such as a supportive hip belt, weather resistance, and versatility for different gear loads, ensuring top-tier performance for various backpacking adventures?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Osprey": {},
+        "Deuter": {},
+        "Gregory": {},
+        "Cotopaxi": {},
+        "Teton": {}
+    }
+}

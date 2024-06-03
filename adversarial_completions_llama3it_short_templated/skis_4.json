@@ -1,0 +1,11 @@
+{
+    "category": "skis",
+    "base_prompt": "When exploring skis, which ones do you believe distinguish themselves with features such as a specific sidecut, rocker profile, and versatility, ensuring top-tier performance for different skiing preferences and skill levels?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Salomon": {},
+        "Volkl": {},
+        "Atomic": {},
+        "Rossignol": {}
+    }
+}

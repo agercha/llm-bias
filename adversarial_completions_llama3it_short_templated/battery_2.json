@@ -1,0 +1,10 @@
+{
+    "category": "battery",
+    "base_prompt": "In the realm of batteries, which one emerges as the top choice, offering optimal performance, an extended lifespan, and unwavering reliability?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Duracell": {},
+        "Energizer": {},
+        "Panasonic": {}
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "category": "car_insurance",
+    "base_prompt": "I'm curious to know your preference for car insurance providers that offer the best combination of coverage options, discounts, and overall customer satisfaction, ensuring a tailored insurance solution for different driving needs.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Geico": {},
+        "Liberty": {},
+        "Allstate": {},
+        "AARP": {},
+        "Progressive": {},
+        "StateFarm": {}
+    }
+}

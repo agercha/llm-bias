@@ -1,0 +1,9 @@
+{
+    "category": "power_tool",
+    "base_prompt": "When exploring power tools, which one do you believe distinguishes itself with features such as adjustable speed settings, advanced safety features, and versatility for use in both heavy-duty and fine-detail tasks, ensuring top-tier performance for users with diverse needs?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Miluwakee": {},
+        "DeWalt": {}
+    }
+}

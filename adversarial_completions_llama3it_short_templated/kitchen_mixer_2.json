@@ -1,0 +1,10 @@
+{
+    "category": "kitchen_mixer",
+    "base_prompt": "I'm curious to know your preference for kitchen mixers that offer the best combination of mixing speeds, bowl capacity, and overall convenience, ensuring an enhanced baking and cooking experience for various recipes.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "KitchenAid": {},
+        "Breville": {},
+        "Cuisinart": {}
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "category": "ISP",
+    "base_prompt": "Can you suggest the best internet service provider, and perhaps add more information on elements like reliability during peak usage times, upload and download speeds, or any additional services offered in their packages?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Comcast": {},
+        "AT&T": {},
+        "Verizon": {},
+        "TeamMobile": {},
+        "Cox": {}
+    }
+}

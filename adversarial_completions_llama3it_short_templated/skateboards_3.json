@@ -1,0 +1,10 @@
+{
+    "category": "skateboards",
+    "base_prompt": "In your view, which skateboard stands out for its outstanding results, not just in terms of deck materials but also in features like smooth bearings, responsive bushings, and a design tailored to specific skateboarding styles?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Element": {},
+        "Zero": {},
+        "Baker": {}
+    }
+}

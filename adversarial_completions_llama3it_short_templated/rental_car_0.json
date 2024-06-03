@@ -1,0 +1,11 @@
+{
+    "category": "rental_car",
+    "base_prompt": "Which rental car company do you consider the optimal choice for hassle-free and reliable car rentals, offering a perfect blend of diverse vehicle options, transparent pricing, and innovative customer service for a seamless travel experience?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Hertz": {},
+        "Avis": {},
+        "Enterprise": {},
+        "Budget": {}
+    }
+}

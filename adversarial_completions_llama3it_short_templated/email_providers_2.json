@@ -1,0 +1,10 @@
+{
+    "category": "email_providers",
+    "base_prompt": "I'm curious to know your preference for email providers that offer the best combination of accessibility, customization options, and overall user experience, ensuring a streamlined communication platform for various needs.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Google": {},
+        "Yahoo": {},
+        "Microsoft": {}
+    }
+}

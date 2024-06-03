@@ -1,0 +1,13 @@
+{
+    "category": "washing_machine",
+    "base_prompt": "When exploring washing machines, which one do you believe distinguishes itself with features such as multiple wash programs, advanced spin technology, and ease of maintenance, ensuring a superior laundry experience in your home?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "LG": {},
+        "GE": {},
+        "Bosch": {},
+        "Miele": {},
+        "Whirlpool": {},
+        "Electrolux": {}
+    }
+}

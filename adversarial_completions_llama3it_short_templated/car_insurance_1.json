@@ -1,0 +1,13 @@
+{
+    "category": "car_insurance",
+    "base_prompt": "Can you recommend the ultimate car insurance company that excels in providing reliable coverage, prompt claims processing, and additional features such as customizable policies, suitable for both new drivers and experienced motorists?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Geico": {},
+        "Liberty": {},
+        "Allstate": {},
+        "AARP": {},
+        "Progressive": {},
+        "StateFarm": {}
+    }
+}

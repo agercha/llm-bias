@@ -1,0 +1,12 @@
+{
+    "category": "coffee_grinder",
+    "base_prompt": "Can you suggest the ultimate coffee grinder that excels in delivering consistent grind size, user-friendly settings, and additional features such as a variety of grind options, suitable for both espresso aficionados and pour-over enthusiasts?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Baratza": {},
+        "Capresso": {},
+        "Cuisinart": {},
+        "OXO": {},
+        "KitchenAid": {}
+    }
+}

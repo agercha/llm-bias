@@ -1,0 +1,12 @@
+{
+    "category": "coffee_grinder",
+    "base_prompt": "When exploring coffee grinders, which one do you believe distinguishes itself with features such as adjustable timers, easy maintenance, and versatility for grinding various coffee bean types, ensuring top-tier performance for coffee enthusiasts with diverse preferences?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Baratza": {},
+        "Capresso": {},
+        "Cuisinart": {},
+        "OXO": {},
+        "KitchenAid": {}
+    }
+}

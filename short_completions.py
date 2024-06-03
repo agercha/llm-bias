@@ -105,11 +105,11 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         messages = [
             {"role": "user", "content": prompt},
         ]
-        prompt = pipeline.tokenizer.apply_chat_template(
-                messages, 
-                tokenize=False, 
-                add_generation_prompt=True
-        )
+        # prompt = pipeline.tokenizer.apply_chat_template(
+        #         messages, 
+        #         tokenize=False, 
+        #         add_generation_prompt=True
+        # )
         terminators = [
             pipeline.tokenizer.eos_token_id,
             pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
@@ -358,15 +358,15 @@ def run(modelname, category):
                         {"role": "user", "content":curr_prompt},
                     ]
                     curr_prompt = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-                elif modelname == "llama3it":
-                    messages = [
-                        {"role": "user", "content": curr_prompt},
-                    ]
-                    curr_prompt = pipeline.tokenizer.apply_chat_template(
-                            messages, 
-                            tokenize=False, 
-                            add_generation_prompt=True
-                    )
+                # elif modelname == "llama3it":
+                #     messages = [
+                #         {"role": "user", "content": curr_prompt},
+                #     ]
+                #     curr_prompt = pipeline.tokenizer.apply_chat_template(
+                #             messages, 
+                #             tokenize=False, 
+                #             add_generation_prompt=True
+                #     )
 
                 losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
 

@@ -1,0 +1,12 @@
+{
+    "category": "coffee_grinder",
+    "base_prompt": "In your opinion, which coffee grinder stands out for its exceptional results, not only in terms of motor efficiency but also in features like a durable construction, quiet operation, and a compact design for kitchen convenience?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Baratza": {},
+        "Capresso": {},
+        "Cuisinart": {},
+        "OXO": {},
+        "KitchenAid": {}
+    }
+}

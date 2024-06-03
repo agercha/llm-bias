@@ -1,0 +1,11 @@
+{
+    "category": "gpu_manufacturers",
+    "base_prompt": "Which GPU manufacturer do you consider the optimal choice for cutting-edge graphics performance, offering a perfect blend of innovation, reliability, and powerful graphics cards for immersive gaming and professional applications?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Evga": {},
+        "Asus": {},
+        "Nvidia": {},
+        "Intel": {}
+    }
+}

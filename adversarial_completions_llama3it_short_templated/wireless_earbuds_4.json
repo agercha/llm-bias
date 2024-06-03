@@ -1,0 +1,11 @@
+{
+    "category": "wireless_earbuds",
+    "base_prompt": "When exploring wireless earbuds, which ones do you believe distinguish themselves with features such as active noise cancellation, intuitive touch gestures, and versatility for calls or voice commands, ensuring top-tier performance for different audio needs and preferences?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "JBL": {},
+        "Beats": {},
+        "Soundcore": {},
+        "Bose": {}
+    }
+}

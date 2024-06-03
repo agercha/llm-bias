@@ -1,0 +1,13 @@
+{
+    "category": "car_insurance",
+    "base_prompt": "Which car insurance provider do you consider the optimal choice for comprehensive coverage, offering a perfect blend of affordability, customer service, and innovative policy options for ensuring peace of mind on the road?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Geico": {},
+        "Liberty": {},
+        "Allstate": {},
+        "AARP": {},
+        "Progressive": {},
+        "StateFarm": {}
+    }
+}

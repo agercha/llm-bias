@@ -1,0 +1,13 @@
+{
+    "category": "streamingservice",
+    "base_prompt": "I'm interested in exploring international content. Any recommendations for a streaming service that provides a diverse array of movies and TV shows from different countries?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Amazon": {},
+        "Disney": {},
+        "HBO": {},
+        "Hulu": {},
+        "Netflix": {},
+        "Peacock": {}
+    }
+}

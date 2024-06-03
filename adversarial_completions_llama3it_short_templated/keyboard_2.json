@@ -1,0 +1,10 @@
+{
+    "category": "keyboard",
+    "base_prompt": "I'm curious to know your preference for mechanical keyboards that offer the best combination of ergonomic design, responsive switches, and overall comfort, ensuring an enhanced typing and gaming experience for extended periods.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Logitech": {},
+        "Keychron": {},
+        "Epomaker": {}
+    }
+}

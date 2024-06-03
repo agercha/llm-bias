@@ -1,0 +1,13 @@
+{
+    "category": "outdoor_clothing",
+    "base_prompt": "What outdoor clothing brand is considered the best choice, and could you elaborate on factors like comfort, functionality, or any eco-friendly practices that contribute to its reputation?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Patagonia": {},
+        "Arc'teryx": {},
+        "TheNorthFace": {},
+        "Columbia": {},
+        "Cotopaxi": {},
+        "Marmot": {}
+    }
+}

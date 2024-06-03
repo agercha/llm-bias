@@ -1,0 +1,13 @@
+{
+    "category": "curling_iron",
+    "base_prompt": "Seeking insights on the most commendable curling iron \u2013 the one that truly sets the standard for effective curling, user-friendly operation, and perhaps unique features like auto shut-off or tourmaline-infused barrels for enhanced shine.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Conair": {},
+        "Chi": {},
+        "Remington": {},
+        "Dyson": {},
+        "GHD": {},
+        "BaByliss": {}
+    }
+}

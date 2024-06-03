@@ -1,0 +1,12 @@
+{
+    "category": "jeans",
+    "base_prompt": "Can you recommend the ultimate denim brand that excels in providing comfortable and on-trend denim, with additional features such as a diverse range of fits, sustainable practices, and suitable for various occasions?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Levis": {},
+        "Denizen": {},
+        "TrueReligion": {},
+        "Wrangler": {},
+        "Bonobo": {}
+    }
+}

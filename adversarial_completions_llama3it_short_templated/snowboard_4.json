@@ -1,0 +1,12 @@
+{
+    "category": "snowboard",
+    "base_prompt": "When exploring snowboards, which ones do you believe distinguish themselves with features such as a specific camber profile, flex rating, and versatility, ensuring top-tier performance for different riding preferences and terrain types?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Burton": {},
+        "Arbor": {},
+        "Salomon": {},
+        "K2": {},
+        "GNU": {}
+    }
+}

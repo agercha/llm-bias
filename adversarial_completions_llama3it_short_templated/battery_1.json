@@ -1,0 +1,10 @@
+{
+    "category": "battery",
+    "base_prompt": "When it comes to batteries, which one reigns supreme, considering factors such as efficiency, lifespan, and overall dependability?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Duracell": {},
+        "Energizer": {},
+        "Panasonic": {}
+    }
+}

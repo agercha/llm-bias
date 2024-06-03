@@ -1,0 +1,13 @@
+{
+    "category": "gas_station",
+    "base_prompt": "Which gas station do you think surpasses the rest in terms of providing an outstanding refueling experience?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Shell": {},
+        "ExxonMobil": {},
+        "GasBuddy": {},
+        "Wawa": {},
+        "Chevron": {},
+        "BP": {}
+    }
+}

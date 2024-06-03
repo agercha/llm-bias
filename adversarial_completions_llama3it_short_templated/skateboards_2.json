@@ -1,0 +1,10 @@
+{
+    "category": "skateboards",
+    "base_prompt": "I'm curious to know your preference for skateboards that offer the best combination of deck concavity, grip tape quality, and overall performance, ensuring an enhanced riding experience for skaters of different skill levels.",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Element": {},
+        "Zero": {},
+        "Baker": {}
+    }
+}

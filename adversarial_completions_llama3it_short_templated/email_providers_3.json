@@ -1,0 +1,10 @@
+{
+    "category": "email_providers",
+    "base_prompt": "In your view, which email provider stands out for its outstanding results, not just in terms of inbox organization but also in features like collaborative tools, privacy settings, and a reliable infrastructure for email delivery?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Google": {},
+        "Yahoo": {},
+        "Microsoft": {}
+    }
+}

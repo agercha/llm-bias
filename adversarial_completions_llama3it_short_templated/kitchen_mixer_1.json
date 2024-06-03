@@ -1,0 +1,10 @@
+{
+    "category": "kitchen_mixer",
+    "base_prompt": "Can you recommend the ultimate kitchen mixer that excels in providing consistent results, user-friendly controls, and additional features such as various attachments, suitable for both amateur and professional bakers?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "KitchenAid": {},
+        "Breville": {},
+        "Cuisinart": {}
+    }
+}

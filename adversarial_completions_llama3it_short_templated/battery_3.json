@@ -1,0 +1,10 @@
+{
+    "category": "battery",
+    "base_prompt": "What characteristics should one look for in the quest to find the ultimate battery, considering aspects like efficiency, durability, and consistent performance?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Duracell": {},
+        "Energizer": {},
+        "Panasonic": {}
+    }
+}

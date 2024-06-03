@@ -1,0 +1,10 @@
+{
+    "category": "record_player",
+    "base_prompt": "Can you recommend the ultimate record player that excels in providing precise vinyl playback, user-friendly controls, and additional features such as adjustable tonearms, suitable for both vintage enthusiasts and modern music lovers?",
+    "base_prompt_completions": [],
+    "all_perturbed_completions": {
+        "Sony": {},
+        "Technics": {},
+        "Denon": {}
+    }
+}
