@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/bin/bash 
 #SBATCH --nodes=1
 #SBATCH --gpus-per-node=1
-#SBATCH --time=47:00:00
-#SBATCH --job-name=gemma7bitair_fryer
+#SBATCH --time=48:00:00
+#SBATCH --job-name=air_fryer_gemma7bit_short
 
 
 cd ../llm-bias
-python3.8 short_completions gemma7bit air_fryer
+python3.8 short_completions.py gemma7bit air_fryer
