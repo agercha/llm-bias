@@ -58,7 +58,9 @@ tokenizer = AutoTokenizer.from_pretrained(
 modelname = "llama3"
 
 entries = os.listdir("long_completions_for_user_study/llama3")
-
+for entry in entries:
+    if entry.split(".")[0][-3:] != "__0": entries.remove(entry)
+    
 f = open("llama3_lens.txt", "w")
 
 for entry in entries:
