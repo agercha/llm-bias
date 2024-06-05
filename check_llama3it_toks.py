@@ -44,12 +44,12 @@ for entry in entries:
 
     prompt = res["base_prompt"]
     for completion in res["base_prompt_completions"]:
-        l = get_len(completion, prompt, tokenizer)
+        l = get_len(completion, prompt, tokenizer, modelname)
         f.write(f"{l}\n")
 
     prompt = res["perturbed_prompt"]
     for completion in res["perturbed_prompt_completions"]:
-        l = get_len(completion, prompt, tokenizer)
+        l = get_len(completion, prompt, tokenizer, modelname)
         f.write(f"{l}\n")
 
 # ****************************************************************************
@@ -75,7 +75,7 @@ for entry in entries:
 
     prompt = res["base_prompt"]
     for completion in res["base_prompt_completions"]:
-        l = get_len(completion, prompt, tokenizer)
+        l = get_len(completion, prompt, tokenizer, modelname)
         f.write(f"{l}\n")
 
     prompt = res["perturbed_prompt"]
@@ -100,7 +100,7 @@ for entry in entries:
 
     prompt = res["base_prompt"]
     for completion in res["base_prompt_completions"]:
-        l = get_len(completion, prompt, tokenizer)
+        l = get_len(completion, prompt, tokenizer, modelname)
         f.write(f"{l}\n")
 
     prompt = res["perturbed_prompt"]
