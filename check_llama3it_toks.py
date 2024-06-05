@@ -19,8 +19,8 @@ def get_len(completion, prompt, tokenizer):
 
 device = "cuda:0"
 
-entries = os.listdir("long_completion_for_user_study/llama3it")
-entries.remove("blank.txt")
+entries = os.listdir("long_completions_for_user_study/llama3it")
+# entries.remove("user_study_json")
 
 f = open("llama3it_lens.txt", "w")
 
@@ -43,14 +43,14 @@ tokenizer = AutoTokenizer.from_pretrained(
 # )
 
 for entry in entries:
-    res = json.load(open(f"long_completion_for_user_study/llama3it/{entry}")) 
+    res = json.load(open(f"long_completions_for_user_study/llama3it/{entry}")) 
 
     prompt = res["base_prompt"]
 
     for completion in res["base_prompt_completions"]:
-        len = get_len(completion, prompt, tokenizer)
-        f.write(f"{len}\n")
+        l = get_len(completion, prompt, tokenizer)
+        f.write(f"{l}\n")
 
     for completion in res["perturbed_prompt_completions"]:
-            len = get_len(completion, prompt, tokenizer)
-            f.write(f"{len}\n")
+            l = get_len(completion, prompt, tokenizer)
+            f.write(f"{l}\n")
