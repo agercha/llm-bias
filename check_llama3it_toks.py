@@ -21,34 +21,38 @@ def get_len(completion, prompt, tokenizer, modelname):
     ids = get_ids(tokenizer, completion)
     return len(ids)
 
+# ****************************************************************************
+
 modelname = "llama3it"
 
 device = "cuda:0"
 
-# entries = os.listdir("long_completions_for_user_study/llama3it")
+entries = os.listdir("long_completions_for_user_study/llama3it")
 
-# f = open("llama3it_lens.txt", "w")
+f = open("llama3it_lens.txt", "w")
 
-# model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B-Instruct"
-# tokenizer = AutoTokenizer.from_pretrained(
-#         model_path,
-#         trust_remote_code=True,
-#         use_fast=False
-#     )
+model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B-Instruct"
+tokenizer = AutoTokenizer.from_pretrained(
+        model_path,
+        trust_remote_code=True,
+        use_fast=False
+    )
 
-# for entry in entries:
-#     res = json.load(open(f"long_completions_for_user_study/llama3it/{entry}")) 
+for entry in entries:
+    print(modelname, entry)
+    res = json.load(open(f"long_completions_for_user_study/llama3it/{entry}")) 
 
-#     prompt = res["base_prompt"]
+    prompt = res["base_prompt"]
+    for completion in res["base_prompt_completions"]:
+        l = get_len(completion, prompt, tokenizer)
+        f.write(f"{l}\n")
 
-#     for completion in res["base_prompt_completions"]:
-#         l = get_len(completion, prompt, tokenizer)
-#         f.write(f"{l}\n")
+    prompt = res["perturbed_prompt"]
+    for completion in res["perturbed_prompt_completions"]:
+        l = get_len(completion, prompt, tokenizer)
+        f.write(f"{l}\n")
 
-#     for completion in res["perturbed_prompt_completions"]:
-#             l = get_len(completion, prompt, tokenizer)
-#             f.write(f"{l}\n")
-
+# ****************************************************************************
 
 model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B"
 tokenizer = AutoTokenizer.from_pretrained(
@@ -66,24 +70,23 @@ for entry in entries:
 f = open("llama3_lens.txt", "w")
 
 for entry in entries:
+    print(modelname, entry)
     res = json.load(open(f"long_completions_for_user_study/llama3/{entry}")) 
 
     prompt = res["base_prompt"]
-
     for completion in res["base_prompt_completions"]:
-        l = get_len(completion, prompt, tokenizer, modelname)
+        l = get_len(completion, prompt, tokenizer)
         f.write(f"{l}\n")
 
+    prompt = res["perturbed_prompt"]
     for completion in res["perturbed_prompt_completions"]:
         l = get_len(completion, prompt, tokenizer, modelname)
         f.write(f"{l}\n")
 
-model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B"
-tokenizer = AutoTokenizer.from_pretrained(
-        model_path,
-        trust_remote_code=True,
-        use_fast=False
-    )
+# ****************************************************************************
+
+model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b-it"
+tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 modelname = "gemma7bit"
 
@@ -92,14 +95,15 @@ entries = os.listdir("long_completions_for_user_study/gemma7bit")
 f = open("gemma_lens.txt", "w")
 
 for entry in entries:
+    print(modelname, entry)
     res = json.load(open(f"long_completions_for_user_study/gemma7bit/{entry}")) 
 
     prompt = res["base_prompt"]
-
     for completion in res["base_prompt_completions"]:
-        l = get_len(completion, prompt, tokenizer, modelname)
+        l = get_len(completion, prompt, tokenizer)
         f.write(f"{l}\n")
 
+    prompt = res["perturbed_prompt"]
     for completion in res["perturbed_prompt_completions"]:
         l = get_len(completion, prompt, tokenizer, modelname)
         f.write(f"{l}\n")
