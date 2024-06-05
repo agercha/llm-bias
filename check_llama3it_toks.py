@@ -66,7 +66,7 @@ for entry in entries:
 f = open("llama3_lens.txt", "w")
 
 for entry in entries:
-    res = json.load(open(f"long_completions_for_user_study/llama3it/{entry}")) 
+    res = json.load(open(f"long_completions_for_user_study/llama3/{entry}")) 
 
     prompt = res["base_prompt"]
 
@@ -88,8 +88,6 @@ tokenizer = AutoTokenizer.from_pretrained(
 modelname = "gemma7bit"
 
 entries = os.listdir("long_completions_for_user_study/gemma7bit")
-for entry in entries:
-    if entry.split(".")[0][-3:] != "__0": entries.remove(entry)
     
 f = open("gemma_lens.txt", "w")
 
