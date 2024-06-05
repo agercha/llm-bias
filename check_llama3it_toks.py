@@ -9,7 +9,9 @@ def get_ids(tokenizer, vals, device="cuda:0"):
 
 def get_len(completion, prompt, tokenizer, modelname):
     if "llama3" == modelname:
-        completion_base = completion_base[17+len(prompt):]
+        completion = completion[17+len(prompt):]
+    elif "gemma" in modelname:
+        completion = completion[57+len(prompt):]
     elif 'assistant<|end_header_id|>\n\n' in completion:
         start_ind = completion.index('assistant<|end_header_id|>\n\n')
         completion = completion[start_ind+28:]
@@ -60,11 +62,39 @@ modelname = "llama3"
 entries = os.listdir("long_completions_for_user_study/llama3")
 for entry in entries:
     if entry.split(".")[0][-3:] != "__0": entries.remove(entry)
-    
+
 f = open("llama3_lens.txt", "w")
 
 for entry in entries:
     res = json.load(open(f"long_completions_for_user_study/llama3it/{entry}")) 
+
+    prompt = res["base_prompt"]
+
+    for completion in res["base_prompt_completions"]:
+        l = get_len(completion, prompt, tokenizer, modelname)
+        f.write(f"{l}\n")
+
+    for completion in res["perturbed_prompt_completions"]:
+        l = get_len(completion, prompt, tokenizer, modelname)
+        f.write(f"{l}\n")
+
+model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B"
+tokenizer = AutoTokenizer.from_pretrained(
+        model_path,
+        trust_remote_code=True,
+        use_fast=False
+    )
+
+modelname = "gemma7bit"
+
+entries = os.listdir("long_completions_for_user_study/gemma7bit")
+for entry in entries:
+    if entry.split(".")[0][-3:] != "__0": entries.remove(entry)
+    
+f = open("gemma_lens.txt", "w")
+
+for entry in entries:
+    res = json.load(open(f"long_completions_for_user_study/gemma7bit/{entry}")) 
 
     prompt = res["base_prompt"]
 
