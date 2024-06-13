@@ -226,4 +226,4 @@ for category in dataset:
                     res[f"{category}_{index}"][brand]["one_word"]["reversed_perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, reversed_perturbed_prompt+" Answer in one word.", target_strs, device)
 
  
-(open(f'{modelname}_losses.json', 'w')).write(json.dumps(res, indent=4))
+            (open(f'{modelname}_losses.json', 'w')).write(json.dumps(res, indent=4))
