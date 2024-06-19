@@ -59,10 +59,10 @@ for category in dataset:
 
     for original_prompt in dataset[category]["prompts"]:
 
-        new_prompt = f'Rephrase the prompt "{original_prompt}" in a way that would result in a very different answer. Respond only with the new prompt.'
+        new_prompt = f'Rephrase the prompt "{original_prompt}" in a way that would result in a different product being recommended. Respond only with the new prompt.'
 
         rephrased_prompt = generate(new_prompt, pipeline)
 
         res[category][original_prompt] = rephrased_prompt
 
-        (open(f'rephrased_dataset.json', 'w')).write(json.dumps(res, indent=4))
+        (open(f'rephrased_dataset2.json', 'w')).write(json.dumps(res, indent=4))
