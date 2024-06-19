@@ -185,22 +185,22 @@ for category in dataset:
                 target_strs = dataset[category]["brands"][brand]
 
 
-                # # get scores
-                # base_prompt = old_responses["base_prompt"]
+                # get scores
+                base_prompt = old_responses["base_prompt"]
                 # base_completions = old_responses["base_prompt_completions"]
                 # base_score = sum([check_success(completion, base_prompt, modelname, target_strs) for completion in base_completions])/len(base_completions)
                 # res[f"{category}_{index}"][brand]["base_score"] = base_score
 
-                # perturbed_prompt = old_responses["all_perturbed_results"][brand]["perturbed_prompt"]
+                perturbed_prompt = old_responses["all_perturbed_results"][brand]["perturbed_prompt"]
                 # perturbed_completions = old_responses["all_perturbed_results"][brand]["perturbed_prompt_completions"]
                 # perturbed_score = sum([check_success(completion, perturbed_prompt, modelname, target_strs) for completion in perturbed_completions])/len(perturbed_completions)
                 # res[f"{category}_{index}"][brand]["perturbed_score"] = perturbed_score
 
-                # if "reversed_perturbed_prompt_completions" in old_responses["all_perturbed_results"][brand] and len(old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]) == 1000:
-                #     reversed_perturbed_prompt = old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt"]
-                #     reversed_perturbed_completions = old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]
-                #     reversed_perturbed_score = sum([check_success(completion, reversed_perturbed_prompt, modelname, target_strs) for completion in reversed_perturbed_completions])/len(reversed_perturbed_completions)
-                #     res[f"{category}_{index}"][brand]["reversed_perturbed_score"] = reversed_perturbed_score
+                if "reversed_perturbed_prompt_completions" in old_responses["all_perturbed_results"][brand] and len(old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]) == 1000:
+                    reversed_perturbed_prompt = old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt"]
+                    # reversed_perturbed_completions = old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]
+                    # reversed_perturbed_score = sum([check_success(completion, reversed_perturbed_prompt, modelname, target_strs) for completion in reversed_perturbed_completions])/len(reversed_perturbed_completions)
+                    # res[f"{category}_{index}"][brand]["reversed_perturbed_score"] = reversed_perturbed_score
 
                 # # get basic lossif "gemma7bit" in modelname:
                 # res[f"{category}_{index}"][brand]["no_end"] = {}
