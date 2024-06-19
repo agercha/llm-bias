@@ -28,6 +28,15 @@ def my_loss(model, modelname, pipeline, tokenizer, input_str, end_strs, device, 
             {"role": "user", "content":input_str},
         ]
         input_str = pipeline.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    elif "llama3itnew" in modelname:
+        messages = [
+            {"role": "user", "content":input_str},
+        ]
+        input_str = pipeline.tokenizer.apply_chat_template(
+                messages, 
+                tokenize=False, 
+                add_generation_prompt=True
+        )
 
     input_str += prefix
     input_ids = [torch.tensor(tokenizer(f"{input_str}{end_str}").input_ids).to(device) for end_str in end_strs] 
@@ -103,6 +112,24 @@ elif modelname == "llama3it":
         model_kwargs={"torch_dtype": torch.bfloat16},
         device_map="auto",
     )
+elif modelname == "llama3itnew":
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B-Instruct"
+        model = LlamaForCausalLM.from_pretrained(
+                model_path,
+                torch_dtype=torch.float16,
+                trust_remote_code=True,
+            ).to("cuda:0").eval()
+        tokenizer = AutoTokenizer.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                use_fast=False
+            )
+        pipeline = transformer_pipeline(
+            "text-generation",
+            model=model_path,
+            model_kwargs={"torch_dtype": torch.bfloat16},
+            device_map="auto",
+        )
 elif modelname == "gemma2b":
     model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-2b"
     model = GemmaForCausalLM.from_pretrained(
