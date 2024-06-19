@@ -64,4 +64,4 @@ for category in dataset:
             response = generate(rephrased_prompt, pipeline)
             rephrased_prompt_completions.append(response)
 
-        (open(f'rephrasings_results.json', 'w')).write(json.dumps(res, indent=4))
+        (open(f'rephrasings_results.json', 'w')).write(json.dumps(dataset, indent=4))
