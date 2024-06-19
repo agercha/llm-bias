@@ -151,8 +151,8 @@ elif modelname == "gemma7bit":
 
 dataset = json.load(open("dataset.json"))
 
-# res = {}
-res = json.load(open(f'{modelname}_losses.json', 'r'))
+res = {}
+# res = json.load(open(f'{modelname}_losses.json', 'r'))
 
 # res structure
 # res = {
