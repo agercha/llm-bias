@@ -176,12 +176,12 @@ res = json.load(open(f'{modelname}_losses.json', 'r'))
 
 for category in dataset:
     for index in range(len(dataset[category]["prompts"])):
-        # res[f"{category}_{index}"] = {}
+        res[f"{category}_{index}"] = {}
         if f"{category}_{index}.json" in os.listdir(f"adversarial_completions_{modelname}_short"):
             old_responses = json.load(open(f"adversarial_completions_{modelname}_short/{category}_{index}.json"))
             
             for brand in old_responses["all_perturbed_results"]:
-                # res[f"{category}_{index}"][brand] = {}
+                res[f"{category}_{index}"][brand] = {}
                 target_strs = dataset[category]["brands"][brand]
 
 
