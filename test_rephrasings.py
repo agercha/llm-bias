@@ -20,7 +20,7 @@ def generate(prompt, pipeline):
     ]
     outputs = pipeline(
         prompt,
-        # max_new_tokens=64,
+        max_new_tokens=64,
         eos_token_id=terminators,
         do_sample=True,
         # temperature=0.6,
