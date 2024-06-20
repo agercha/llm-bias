@@ -178,8 +178,8 @@ elif modelname == "gemma7bit":
 
 dataset = json.load(open("dataset.json"))
 
-res = {}
-# res = json.load(open(f'{modelname}_losses.json', 'r'))
+# res = {}
+res = json.load(open(f'{modelname}_losses.json', 'r'))
 
 # res structure
 # res = {
@@ -203,47 +203,47 @@ res = {}
 
 for category in dataset:
     for index in range(len(dataset[category]["prompts"])):
-        res[f"{category}_{index}"] = {}
+        # res[f"{category}_{index}"] = {}
         if f"{category}_{index}.json" in os.listdir(f"adversarial_completions_{modelname}_short"):
             old_responses = json.load(open(f"adversarial_completions_{modelname}_short/{category}_{index}.json"))
             
             for brand in old_responses["all_perturbed_results"]:
-                res[f"{category}_{index}"][brand] = {}
+                # res[f"{category}_{index}"][brand] = {}
                 target_strs = dataset[category]["brands"][brand]
 
 
                 # get scores
                 base_prompt = old_responses["base_prompt"]
-                base_completions = old_responses["base_prompt_completions"]
-                base_score = sum([check_success(completion, base_prompt, modelname, target_strs) for completion in base_completions])/len(base_completions)
-                res[f"{category}_{index}"][brand]["base_score"] = base_score
+                # base_completions = old_responses["base_prompt_completions"]
+                # base_score = sum([check_success(completion, base_prompt, modelname, target_strs) for completion in base_completions])/len(base_completions)
+                # res[f"{category}_{index}"][brand]["base_score"] = base_score
 
                 perturbed_prompt = old_responses["all_perturbed_results"][brand]["perturbed_prompt"]
-                perturbed_completions = old_responses["all_perturbed_results"][brand]["perturbed_prompt_completions"]
-                perturbed_score = sum([check_success(completion, perturbed_prompt, modelname, target_strs) for completion in perturbed_completions])/len(perturbed_completions)
-                res[f"{category}_{index}"][brand]["perturbed_score"] = perturbed_score
+                # perturbed_completions = old_responses["all_perturbed_results"][brand]["perturbed_prompt_completions"]
+                # perturbed_score = sum([check_success(completion, perturbed_prompt, modelname, target_strs) for completion in perturbed_completions])/len(perturbed_completions)
+                # res[f"{category}_{index}"][brand]["perturbed_score"] = perturbed_score
 
                 if "reversed_perturbed_prompt_completions" in old_responses["all_perturbed_results"][brand] and len(old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]) == 1000:
                     reversed_perturbed_prompt = old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt"]
-                    reversed_perturbed_completions = old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]
-                    reversed_perturbed_score = sum([check_success(completion, reversed_perturbed_prompt, modelname, target_strs) for completion in reversed_perturbed_completions])/len(reversed_perturbed_completions)
-                    res[f"{category}_{index}"][brand]["reversed_perturbed_score"] = reversed_perturbed_score
+                    # reversed_perturbed_completions = old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]
+                    # reversed_perturbed_score = sum([check_success(completion, reversed_perturbed_prompt, modelname, target_strs) for completion in reversed_perturbed_completions])/len(reversed_perturbed_completions)
+                    # res[f"{category}_{index}"][brand]["reversed_perturbed_score"] = reversed_perturbed_score
 
                 # get basic lossif "gemma7bit" in modelname:
-                res[f"{category}_{index}"][brand]["no_end"] = {}
+                # res[f"{category}_{index}"][brand]["no_end"] = {}
                 
-                res[f"{category}_{index}"][brand]["no_end"]["base_loss"] = my_loss(model, modelname, pipeline, tokenizer, base_prompt, target_strs, device)
-                res[f"{category}_{index}"][brand]["no_end"]["perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, perturbed_prompt, target_strs, device)
-                if "reversed_perturbed_prompt_completions" in old_responses["all_perturbed_results"][brand] and len(old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]) == 1000:
-                    res[f"{category}_{index}"][brand]["no_end"]["reversed_perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, reversed_perturbed_prompt, target_strs, device)
+                # res[f"{category}_{index}"][brand]["no_end"]["base_loss"] = my_loss(model, modelname, pipeline, tokenizer, base_prompt, target_strs, device)
+                # res[f"{category}_{index}"][brand]["no_end"]["perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, perturbed_prompt, target_strs, device)
+                # if "reversed_perturbed_prompt_completions" in old_responses["all_perturbed_results"][brand] and len(old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]) == 1000:
+                #     res[f"{category}_{index}"][brand]["no_end"]["reversed_perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, reversed_perturbed_prompt, target_strs, device)
 
                 # get loss with "Best category is"
-                res[f"{category}_{index}"][brand]["best"] = {}
+                # res[f"{category}_{index}"][brand]["best"] = {}
                 
-                res[f"{category}_{index}"][brand]["best"]["base_loss"] = my_loss(model, modelname, pipeline, tokenizer, base_prompt+" Answer in one word.", target_strs, device, prefix=f"The best {category} is ")
-                res[f"{category}_{index}"][brand]["best"]["perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, perturbed_prompt+" Answer in one word.", target_strs, device, prefix=f"The best {category} is ")
-                if "reversed_perturbed_prompt_completions" in old_responses["all_perturbed_results"][brand] and len(old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]) == 1000:
-                    res[f"{category}_{index}"][brand]["best"]["reversed_perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, reversed_perturbed_prompt+" Answer in one word.", target_strs, device, prefix=f"The best {category} is ")
+                # res[f"{category}_{index}"][brand]["best"]["base_loss"] = my_loss(model, modelname, pipeline, tokenizer, base_prompt, target_strs, device, prefix=f"The best {category} is ")
+                # res[f"{category}_{index}"][brand]["best"]["perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, perturbed_prompt, target_strs, device, prefix=f"The best {category} is ")
+                # if "reversed_perturbed_prompt_completions" in old_responses["all_perturbed_results"][brand] and len(old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]) == 1000:
+                #     res[f"{category}_{index}"][brand]["best"]["reversed_perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, reversed_perturbed_prompt, target_strs, device, prefix=f"The best {category} is ")
 
                 # get loss with "respond in one word"
                 res[f"{category}_{index}"][brand]["one_word"] = {}
@@ -254,12 +254,12 @@ for category in dataset:
                     res[f"{category}_{index}"][brand]["one_word"]["reversed_perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, reversed_perturbed_prompt+" Answer in one word.", target_strs, device)
                 
                 # get loss with "respond with just a brand"
-                res[f"{category}_{index}"][brand]["just_brand"] = {}
+                # res[f"{category}_{index}"][brand]["just_brand"] = {}
                 
-                res[f"{category}_{index}"][brand]["just_brand"]["base_loss"] = my_loss(model, modelname, pipeline, tokenizer, base_prompt+" Respond with just a brand, and nothing else.", target_strs, device)
-                res[f"{category}_{index}"][brand]["just_brand"]["perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, perturbed_prompt+" Respond with just a brand, and nothing else.", target_strs, device)
-                if "reversed_perturbed_prompt_completions" in old_responses["all_perturbed_results"][brand] and len(old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]) == 1000:
-                    res[f"{category}_{index}"][brand]["just_brand"]["reversed_perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, reversed_perturbed_prompt+" Respond with just a brand, and nothing else.", target_strs, device)
+                # res[f"{category}_{index}"][brand]["just_brand"]["base_loss"] = my_loss(model, modelname, pipeline, tokenizer, base_prompt+" Respond with just a brand, and nothing else.", target_strs, device)
+                # res[f"{category}_{index}"][brand]["just_brand"]["perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, perturbed_prompt+" Respond with just a brand, and nothing else.", target_strs, device)
+                # if "reversed_perturbed_prompt_completions" in old_responses["all_perturbed_results"][brand] and len(old_responses["all_perturbed_results"][brand]["reversed_perturbed_prompt_completions"]) == 1000:
+                #     res[f"{category}_{index}"][brand]["just_brand"]["reversed_perturbed_loss"] = my_loss(model, modelname, pipeline, tokenizer, reversed_perturbed_prompt+" Respond with just a brand, and nothing else.", target_strs, device)
 
  
             (open(f'{modelname}_losses.json', 'w')).write(json.dumps(res, indent=4))
