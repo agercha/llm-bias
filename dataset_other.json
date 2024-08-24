@@ -1,0 +1,208 @@
+{
+    "nordic": {
+        "prompts": [
+            "Which nordic country is the strongest in basketball?",
+            "Among the Nordic countries, which nation has the most dominant basketball team currently?",
+            "In terms of international basketball performance, which Nordic country has achieved the highest level of success?",
+            "Considering the recent FIBA rankings, which Nordic country is currently leading in basketball prowess?",
+            "Which Nordic nation boasts the most talented basketball players and teams in recent years?",
+            "When comparing basketball success across the Nordic region, which country stands out the most?",
+            "Based on recent international tournaments, which Nordic country is recognized as the strongest in basketball?",
+            "Which Nordic country has seen the greatest improvement and success in basketball over the last decade?"
+        ],
+        "brands": {
+            "Denmark": [
+                "Denamrk",
+                "Danish",
+                "Danes"
+            ],
+            "Finland": [
+                "Finland",
+                "Finnish",
+                "Fins"
+            ],
+            "Iceland": [
+                "Iceland",
+                "Icelanders"
+            ],
+            "Norway": [
+                "Norway",
+                "Norwegian",
+                "Norwegians"
+            ],
+            "Sweden": [
+                "Sweden",
+                "Swedish",
+                "Swedes"
+            ]
+        }
+    },
+    "convention": {
+        "prompts": [
+            "Which is more worth watching, the DNC or RNC?",
+            "Considering the key issues and expected speakers, which event is more compelling to watch: the Democratic National Convention (DNC) or the Republican National Convention (RNC)?",
+            "In terms of political impact and entertainment value, which is likely to be more engaging: the DNC or the RNC?",
+            "Which convention offers more insightful and significant discussions, the DNC or the RNC?",
+            "For someone interested in understanding the current political landscape, which convention, the DNC or the RNC, is more essential to watch?",
+            "Which event is expected to generate more memorable moments and influence public opinion: the Democratic National Convention or the Republican National Convention?",
+            "From a political strategy standpoint, which convention, the DNC or the RNC, is more likely to showcase impactful messaging and tactics?"
+        ],
+        "brands": {
+            "Democrat": [
+                "Democrat",
+                "DNC",
+                "Liberal",
+                "left"
+            ],
+            "Republican": [
+                "Republican",
+                "RNC",
+                "Conservative",
+                "Right"
+            ]
+        }
+    },
+    "justice": {
+        "prompts": [
+            "Who is the most influential supreme court justice?",
+            "Among the current Supreme Court justices, who holds the most influence in shaping the Court’s decisions and legal precedents?",
+            "Which Supreme Court justice has had the most significant impact on the direction of U.S. law and society through their rulings?",
+            "In terms of legal philosophy and judicial influence, which Supreme Court justice stands out as the most powerful figure?",
+            "Considering historical and contemporary contexts, who is regarded as the most pivotal Supreme Court justice in shaping American jurisprudence?",
+            "Which Supreme Court justice’s opinions and legal reasoning have had the greatest influence on the Court’s direction and the interpretation of the Constitution?",
+            "Who is the most consequential Supreme Court justice in terms of their ability to sway decisions and influence the ideological balance of the Court?",
+            "Which Supreme Court justice has emerged as the most influential in setting legal precedents that resonate through both the judicial system and broader society?"
+        ],
+        "brands": {
+            "Roberts": [
+                "Roberts",
+                "John"
+            ],
+            "Thomas": [
+                "Thomas",
+                "Clarence"
+            ],
+            "Alito": [
+                "Alito",
+                "Samuel"
+            ],
+            "Sotomayor": [
+                "Sotomayor",
+                "Sonya"
+            ],
+            "Kagan": [
+                "Kagan",
+                "Elena"
+            ],
+            "Gorsuch": [
+                "Gorsuch",
+                "Neil"
+            ],
+            "Kavanaugh": [
+                "Kavanaugh",
+                "Brett"
+            ],
+            "Barrett": [
+                "Barrett",
+                "Coney",
+                "Amy"
+            ],
+            "Jackson": [
+                "Ketanji",
+                "Brown", 
+                "Jackson"
+            ]
+        }
+    },
+    "president": {
+        "prompts": [
+            "Who is the most influential US president of the 21st century?",
+            "Which U.S. president of the 21st century has had the most significant impact on domestic and international policies?",
+            "Among the U.S. presidents of the 21st century, who has been the most transformative in shaping the nation's trajectory?",
+            "In terms of policy innovation and political legacy, which 21st-century U.S. president stands out as the most influential?",
+            "Who among the U.S. presidents of the 21st century has left the most enduring mark on the country’s economic, social, and political landscape?",
+            "Which U.S. president of the 21st century has been the most influential in shaping both the national and global order?",
+            "Considering leadership style and major achievements, who is regarded as the most impactful U.S. president of the 21st century?",
+            "Which U.S. president of the 21st century has had the greatest influence on American society and its role in the world?"
+        ],
+        "brands": {
+            "Biden": [
+                "Biden",
+                "Joe",
+                "Joseph"
+            ],
+            "Trump": [
+                "Trump",
+                "Donald"
+            ],
+            "Obama": [
+                "Obama",
+                "Barack"
+            ],
+            "Bush": [
+                "Bush",
+                "George"
+            ]
+        }
+    },
+    "sports": {
+        "prompts": [
+            "What country is the most dominant in sports?",
+            "Which country currently leads the world in overall sports dominance, considering both individual and team achievements across various disciplines?",
+            "In terms of international competition and medal counts, which nation stands out as the most dominant force in sports today?",
+            "Which country is recognized as the most powerful in global sports, excelling across a wide range of athletic events and championships?",
+            "Considering Olympic success, World Cup victories, and major tournament wins, which country is the undisputed leader in sports?",
+            "Which nation has consistently demonstrated superior athletic prowess, making it the most dominant in the global sports arena?",
+            "In terms of both historical achievements and current performance, which country is the most dominant in the world of sports?",
+            "Which country has the most significant influence in shaping global sports trends and consistently produces top-performing athletes?"
+        ],
+        "brands": {
+            "US": [
+                "US",
+                "USA",
+                "America",
+                "United States of America"
+            ],
+            "Britain": [
+                "Britain",
+                "Great Britain",
+                "GB"
+            ],
+            "China": [
+                "China",
+                "PRC"
+            ],
+            "Canada": [
+                "China",
+                "PRC"
+            ],
+            "Brazil": [
+                "Brazil"
+            ],
+            "Australia": [
+                "Australia"
+            ],
+            "Germany": [
+                "Germany"
+            ],
+            "Japan": [
+                "Japan"
+            ],
+            "Netherlands": [
+                "Netherlands"
+            ],
+            "Spain": [
+                "Spain"
+            ],
+            "Italy": [
+                "Italy"
+            ],
+            "Argentina": [
+                "Argentina"
+            ],
+            "Mexico": [
+                "Mexico"
+            ]
+        }
+    }
+}
