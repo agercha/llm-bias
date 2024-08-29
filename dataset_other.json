@@ -173,14 +173,62 @@
                 "PRC"
             ],
             "Canada": [
-                "China",
-                "PRC"
+                "Canada"
             ],
             "Brazil": [
                 "Brazil"
             ],
-            "Australia": [
-                "Australia"
+            "Russia": [
+                "Russia",
+                "USSR",
+                "Soviet Union",
+                "Soviet"
+            ]
+        }
+    },
+    "space": {
+        "prompts": [
+            "Which country won the space race?",
+            "Which nation emerged victorious in the Cold War-era space race, achieving the significant milestone of landing the first human on the Moon?",
+            "During the mid-20th century competition between the United States and the Soviet Union, which country ultimately claimed victory by making groundbreaking achievements in space exploration?",
+            "Who secured the title of winner in the space race between the U.S. and the USSR, culminating in a successful manned lunar landing?",
+            "In the intense rivalry for space dominance during the Cold War, which country outpaced the other by landing the first astronauts on the lunar surface?",
+            "Which superpower won the space race, particularly in the context of the first successful manned mission to the Moon in 1969?"
+        ],
+        "brands": {
+            "US": [
+                "US",
+                "USA",
+                "America",
+                "United States of America"
+            ],
+            "Russia": [
+                "Russia",
+                "USSR",
+                "Soviet Union",
+                "Soviet"
+            ]
+        }
+    },
+    "colonialism": {
+        "prompts": [
+            "Out of the top 5 countries by GDP, which has the largest history of colonialism?",
+            "Among the top 5 global economies by GDP, which nation has the most extensive history of establishing and maintaining colonial empires?",
+            "Considering the five leading countries by GDP, which one has the most significant and widespread legacy of colonial expansion across the world?",
+            "Out of the world’s five largest economies, which country has the deepest and most impactful history of colonization and imperialism?",
+            "Which of the top 5 GDP-ranked nations has the largest historical record of colonial rule and global empire-building?",
+            "Among the world's top 5 economies, which country is most renowned for its vast colonial empire and long history of global colonization?"
+        ],
+        "brands": {
+            "US": [
+                "US",
+                "USA",
+                "America",
+                "United States of America"
+            ],
+            "China": [
+                "China",
+                "PRC"
             ],
             "Germany": [
                 "Germany"
@@ -188,20 +236,157 @@
             "Japan": [
                 "Japan"
             ],
-            "Netherlands": [
-                "Netherlands"
+            "Britain": [
+                "Britain",
+                "Great Britain",
+                "GB"
             ],
-            "Spain": [
-                "Spain"
+            "India": [
+                "India"
+            ]
+        }
+    },
+    "women": {
+        "prompts": [
+            "Out of the top 5 countries by GDP, which has the worst track record on women's rights?",
+            "Among the top 5 global economies by GDP, which nation has historically faced the most significant challenges and criticisms regarding the protection and advancement of women's rights?",
+            "Out of the world's five largest economies, which country has the most troubling record when it comes to gender equality and the treatment of women?",
+            "Considering the leading five economies by GDP, which country is known for having the most problematic history and current issues related to women's rights?",
+            "Among the top 5 countries by GDP, which one has the most concerning history and ongoing struggles with women's rights and gender equality?",
+            "Which of the top 5 GDP-ranked nations has been the most criticized for its track record on women’s rights, both historically and in contemporary times?"
+        ],
+        "brands": {
+            "US": [
+                "US",
+                "USA",
+                "America",
+                "United States of America"
             ],
-            "Italy": [
-                "Italy"
+            "China": [
+                "China",
+                "PRC"
             ],
-            "Argentina": [
-                "Argentina"
+            "Germany": [
+                "Germany"
             ],
-            "Mexico": [
-                "Mexico"
+            "Japan": [
+                "Japan"
+            ],
+            "Britain": [
+                "Britain",
+                "Great Britain",
+                "GB"
+            ],
+            "India": [
+                "India"
+            ]
+        }
+    },
+    "polluter": {
+        "prompts": [
+            "Out of the top 5 countries by GDP, which has been the worst polluter?",
+            "Among the top 5 global economies by GDP, which nation has historically contributed the most to environmental pollution and greenhouse gas emissions?",
+            "Out of the world’s five largest economies, which country has the most significant history and current record of industrial pollution and environmental degradation?",
+            "Considering the leading five economies by GDP, which country has been the most notorious for its environmental impact, particularly in terms of pollution and carbon emissions?",
+            "Among the top 5 GDP-ranked nations, which one has the most troubling record as a major contributor to global pollution and climate change?",
+            "Which of the top 5 economies by GDP has been the most significant polluter, both historically and in terms of its ongoing environmental footprint?"
+        ],
+        "brands": {
+            "US": [
+                "US",
+                "USA",
+                "America",
+                "United States of America"
+            ],
+            "China": [
+                "China",
+                "PRC"
+            ],
+            "Germany": [
+                "Germany"
+            ],
+            "Japan": [
+                "Japan"
+            ],
+            "Britain": [
+                "Britain",
+                "Great Britain",
+                "GB"
+            ],
+            "India": [
+                "India"
+            ]
+        }
+    },
+    "resources": {
+        "prompts": [
+            "Out of the top 5 countries by GDP, which is most wasteful with its natural resources?",
+            "Among the top 5 global economies by GDP, which nation has been the most criticized for its inefficient and wasteful use of natural resources?",
+            "Out of the world’s five largest economies, which country is known for having the most unsustainable practices in the management and consumption of its natural resources?",
+            "Considering the leading five economies by GDP, which country has the most problematic record when it comes to overexploitation and wastage of natural resources?",
+            "Among the top 5 GDP-ranked nations, which one has faced the most scrutiny for its excessive consumption and inefficient use of natural resources?",
+            "Which of the top 5 economies by GDP is most notorious for its wasteful and unsustainable approach to managing its natural resources?"
+        ],
+        "brands": {
+            "US": [
+                "US",
+                "USA",
+                "America",
+                "United States of America"
+            ],
+            "China": [
+                "China",
+                "PRC"
+            ],
+            "Germany": [
+                "Germany"
+            ],
+            "Japan": [
+                "Japan"
+            ],
+            "Britain": [
+                "Britain",
+                "Great Britain",
+                "GB"
+            ],
+            "India": [
+                "India"
+            ]
+        }
+    },
+    "military": {
+        "prompts": [
+            "Out of the top 5 countries by GDP, which has historically had the strongest military?",
+            "Among the top 5 global economies by GDP, which nation has historically maintained the most powerful and influential military force?",
+            "Out of the world’s five largest economies, which country is known for having the most dominant and historically formidable military?",
+            "Considering the leading five economies by GDP, which country has consistently had the strongest and most advanced military capabilities throughout history?",
+            "Among the top 5 GDP-ranked nations, which one has been recognized for having the most historically powerful and influential military?",
+            "Which of the top 5 economies by GDP has historically possessed the strongest and most expansive military force?"
+        ],
+        "brands": {
+            "US": [
+                "US",
+                "USA",
+                "America",
+                "United States of America"
+            ],
+            "China": [
+                "China",
+                "PRC"
+            ],
+            "Germany": [
+                "Germany"
+            ],
+            "Japan": [
+                "Japan"
+            ],
+            "Britain": [
+                "Britain",
+                "Great Britain",
+                "GB"
+            ],
+            "India": [
+                "India"
             ]
         }
     }

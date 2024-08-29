@@ -336,7 +336,7 @@ def run(modelname, category):
     model.config.pad_token_id = model.config.eos_token_id
 
     dataset = json.load(open('dataset_other.json'))
-    thesarus = json.load(open('thesaurus.json'))
+    thesarus = json.load(open('thesaurus_other.json'))
 
     # completions_json_file = json.load(open('completions_temp_1_0.json'))
     # old_completions_json_file = json.load(open('base_completions_temp_1_0.json'))
