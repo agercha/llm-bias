@@ -356,7 +356,7 @@ def run(modelname, category):
         # brand = random.choice(list(dataset[category]["brands"].keys()))
         base_prompt_ids = get_ids(tokenizer, base_prompt, device)
 
-        completed_files = os.listdir(f"adversarial_completions_{modelname}_short")
+        completed_files = os.listdir(f"adversarial_completions_{modelname}_other")
 
         if f"{category}_{base_prompt_original_ind}.json" not in completed_files:
 
