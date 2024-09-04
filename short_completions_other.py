@@ -384,7 +384,7 @@ def run(modelname, category):
             }
 
         else:
-            res = json.load(open(f'adversarial_completions_{modelname}_short/{category}_{base_prompt_original_ind}.json'))
+            res = json.load(open(f'adversarial_completions_{modelname}_other/{category}_{base_prompt_original_ind}.json'))
 
         for brand in list(dataset[category]["brands"].keys()):
 
