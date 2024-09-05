@@ -6,6 +6,7 @@
             "perturbed_prompt": "I'm curious to know your preference for the grammar checking software that offers the ultimate combination of accuracy, ease of integration, and overall convenience in improving written communication across diverse contexts.",
             "base_prompt_loss": 2.2262065410614014,
             "perturbed_prompt_loss": 2.103550910949707,
+            "reversed_perturbed_prompt_loss": 2.2523083686828613,
             "base_successes_token_length_1": 0.0,
             "perturbed_successes_token_length_1": 0.0,
             "reversed_perturbed_successes_token_length_1": 0.0,

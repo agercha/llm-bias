@@ -6,6 +6,7 @@
             "perturbed_prompt": "Which grammar checking software do you consider the premier choice for ensuring accurate and polished written content, offering comprehensive proofreading, and advanced features that enhance your writing proficiency?",
             "base_prompt_loss": 3.1286699771881104,
             "perturbed_prompt_loss": 2.8970978260040283,
+            "reversed_perturbed_prompt_loss": 3.30277419090271,
             "base_successes_token_length_1": 0.0,
             "perturbed_successes_token_length_1": 0.0,
             "reversed_perturbed_successes_token_length_1": 0.0,

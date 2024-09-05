@@ -6,6 +6,7 @@
             "perturbed_prompt": "In your view, which grammar checking software stands out for its exceptional results, not just in terms of error detection but also in features like plagiarism checking, readability analysis, and support for multiple languages?",
             "base_prompt_loss": 2.991037607192993,
             "perturbed_prompt_loss": 2.988753080368042,
+            "reversed_perturbed_prompt_loss": 3.2123069763183594,
             "base_successes_token_length_1": 0.0,
             "perturbed_successes_token_length_1": 0.0,
             "reversed_perturbed_successes_token_length_1": 0.0,

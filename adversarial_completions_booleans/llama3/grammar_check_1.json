@@ -6,6 +6,7 @@
             "perturbed_prompt": "Can you recommend the greatest grammar checking software that excels in providing thorough grammar and spelling checks, user-friendly interfaces, and additional functionalities such as style suggestions and vocabulary enhancement?",
             "base_prompt_loss": 3.630568742752075,
             "perturbed_prompt_loss": 3.221221923828125,
+            "reversed_perturbed_prompt_loss": 3.725924491882324,
             "base_successes_token_length_1": 0.0,
             "perturbed_successes_token_length_1": 0.0,
             "reversed_perturbed_successes_token_length_1": 0.0,

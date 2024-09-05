@@ -6,6 +6,7 @@
             "perturbed_prompt": "When exploring grammar checking software, which one do you believe distinguishes itself with features such as real-time editing, integration with popular writing platforms, and an intuitive user experience, ensuring a greatest proofreading and editing process?",
             "base_prompt_loss": 1.4727532863616943,
             "perturbed_prompt_loss": 1.3659164905548096,
+            "reversed_perturbed_prompt_loss": 1.5156869888305664,
             "base_successes_token_length_1": 0.0,
             "perturbed_successes_token_length_1": 0.0,
             "reversed_perturbed_successes_token_length_1": 0.0,
