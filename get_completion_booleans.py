@@ -15,17 +15,16 @@ def get_first_app(completion, target_strs, tokenizer, modelname, prompt):
         # start_ind = completion.index(prompt)
         completion = completion[17+len(prompt):]
     elif modelname == "llama3it":
-        try:
-            if 'assistant<|end_header_id|>\n\n' in completion:
-                start_ind = completion.index('assistant<|end_header_id|>\n\n')
-                completion = completion[start_ind+28:]
-            else:
-                prompt = prompt.strip()
-                start_ind = completion.index(prompt)
-                completion = completion[start_ind+len(prompt):]
-        except:
-            print(prompt, completion)
-            assert(False)
+        # try:
+        if 'assistant<|end_header_id|>\n\n' in completion:
+            start_ind = completion.index('assistant<|end_header_id|>\n\n')
+            completion = completion[start_ind+28:]
+        else:
+            start_ind = completion.index(prompt)
+            completion = completion[start_ind+len(prompt):]
+        # except:
+        #     print(prompt, completion)
+        #     assert(False)
 
     min_len = []
     for target_word in target_strs:
@@ -164,7 +163,7 @@ for modelname in ["llama3it"]:
             }
             
             if 'reversed_perturbed_prompt_completions' in completions['all_perturbed_results'][brand]:
-                for completion in completions['all_perturbed_results'][brand]['perturbed_prompt_completions']:
+                for completion in completions['all_perturbed_results'][brand]['reversed_perturbed_prompt_completions']:
                     first_appearances_reverse_perturbed.append(get_first_app(completion, target_strs, tokenizer, modelname, reversed_perturbed_prompt))
                 res['all_perturbed_results'][brand]['reversed_perturbed_prompt_loss'] = completions['all_perturbed_results'][brand]['reversed_perturbed_prompt_loss']
 
