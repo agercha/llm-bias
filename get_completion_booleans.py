@@ -19,6 +19,7 @@ def get_first_app(completion, target_strs, tokenizer, modelname, prompt):
             start_ind = completion.index('assistant<|end_header_id|>\n\n')
             completion = completion[start_ind+28:]
         else:
+            prompt = prompt.strip()
             start_ind = completion.index(prompt)
             completion = completion[start_ind+len(prompt):]
 
@@ -42,7 +43,8 @@ dataset = json.load(open("dataset.json"))
 
 device = "cuda:0"
 
-for modelname in ["gemma7bit", "llama", "llama3", "llama3it"]:
+# for modelname in ["gemma7bit", "llama", "llama3", "llama3it"]:
+for modelname in ["llama3it"]:
 
 
     if modelname == "llama":
