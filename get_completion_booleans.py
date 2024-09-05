@@ -148,10 +148,6 @@ for modelname in ["gemma7bit", "llama", "llama3", "llama3it"]:
 
             for completion in completions['all_perturbed_results'][brand]['perturbed_prompt_completions']:
                 first_appearances_perturbed.append(get_first_app(completion, target_strs, tokenizer, modelname, perturbed_prompt))
-            
-            if 'reversed_perturbed_prompt_completions' in completions['all_perturbed_results'][brand]:
-                for completion in completions['all_perturbed_results'][brand]['perturbed_prompt_completions']:
-                    first_appearances_reverse_perturbed.append(get_first_app(completion, target_strs, tokenizer, modelname, reversed_perturbed_prompt))
 
             res['all_perturbed_results'][brand] = {
                 'perturbed_prompt': completions['all_perturbed_results'][brand]['perturbed_prompt'],
@@ -160,6 +156,11 @@ for modelname in ["gemma7bit", "llama", "llama3", "llama3it"]:
                 # 'perturbed_successes': perturbed_successes,
                 'perturbed_prompt_loss': completions['all_perturbed_results'][brand]['perturbed_prompt_loss']
             }
+            
+            if 'reversed_perturbed_prompt_completions' in completions['all_perturbed_results'][brand]:
+                for completion in completions['all_perturbed_results'][brand]['perturbed_prompt_completions']:
+                    first_appearances_reverse_perturbed.append(get_first_app(completion, target_strs, tokenizer, modelname, reversed_perturbed_prompt))
+                res['all_perturbed_results'][brand]['reversed_perturbed_prompt_loss'] = completions['all_perturbed_results'][brand]['reversed_perturbed_prompt_loss']
 
             for i in range(1, 65):
                 res['all_perturbed_results'][brand][f'base_successes_token_length_{i}'] = get_avg_at_len(first_appearances_base, i)
