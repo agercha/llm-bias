@@ -585,16 +585,16 @@
             "reversed_perturbed_successes_token_length_60": 0.0,
             "base_successes_token_length_61": 0.0,
             "perturbed_successes_token_length_61": 0.0,
-            "reversed_perturbed_successes_token_length_61": 0.0,
+            "reversed_perturbed_successes_token_length_61": 0.001,
             "base_successes_token_length_62": 0.0,
             "perturbed_successes_token_length_62": 0.0,
-            "reversed_perturbed_successes_token_length_62": 0.0,
+            "reversed_perturbed_successes_token_length_62": 0.002,
             "base_successes_token_length_63": 0.0,
             "perturbed_successes_token_length_63": 0.0,
-            "reversed_perturbed_successes_token_length_63": 0.0,
+            "reversed_perturbed_successes_token_length_63": 0.002,
             "base_successes_token_length_64": 0.0,
             "perturbed_successes_token_length_64": 0.0,
-            "reversed_perturbed_successes_token_length_64": 0.0
+            "reversed_perturbed_successes_token_length_64": 0.002
         },
         "Southwest": {
             "perturbed_prompt": "If you had to pinpoint the ultimate airline in the industry, which one would it be, and what specific features make it stand out as the top choice for air travel?",

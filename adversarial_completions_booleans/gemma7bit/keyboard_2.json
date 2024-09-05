@@ -189,16 +189,16 @@
             "reversed_perturbed_successes_token_length_60": 0.0,
             "base_successes_token_length_61": 0.001,
             "perturbed_successes_token_length_61": 0.001,
-            "reversed_perturbed_successes_token_length_61": 0.001,
+            "reversed_perturbed_successes_token_length_61": 0.0,
             "base_successes_token_length_62": 0.001,
             "perturbed_successes_token_length_62": 0.002,
-            "reversed_perturbed_successes_token_length_62": 0.002,
+            "reversed_perturbed_successes_token_length_62": 0.0,
             "base_successes_token_length_63": 0.001,
             "perturbed_successes_token_length_63": 0.002,
-            "reversed_perturbed_successes_token_length_63": 0.002,
+            "reversed_perturbed_successes_token_length_63": 0.0,
             "base_successes_token_length_64": 0.001,
             "perturbed_successes_token_length_64": 0.002,
-            "reversed_perturbed_successes_token_length_64": 0.002
+            "reversed_perturbed_successes_token_length_64": 0.0
         },
         "Keychron": {
             "perturbed_prompt": "I'm curious to know your preference for mechanical keyboards that offer the premier combination of ergonomic design, responsive switches, and overall comfort, ensuring an enhanced typing and gaming experience for extended periods.",
