@@ -4,6 +4,9 @@ from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM,
 import torch
 from transformers import pipeline as transformer_pipeline
 
+other = True
+# other = False
+
 def get_first_app(completion, target_strs, tokenizer, modelname, prompt):
     if modelname == "gemma7bit":
         start_ind = completion.index('<start_of_turn>model')
@@ -42,7 +45,8 @@ def get_avg_at_len(arr, i):
     total_successes = sum([1 if (first_appearance <= i and first_appearance != 1000000) else 0 for first_appearance in arr])
     return total_successes/total
 
-dataset = json.load(open("dataset.json"))
+if other: dataset = json.load(open("dataset_other.json"))
+else: dataset = json.load(open("dataset.json"))
 
 device = "cuda:0"
 
@@ -112,12 +116,14 @@ for modelname in ["llama3it", "gemma7bit", "llama", "llama3"]:
         #     device=device,
         # )
 
-    entries = os.listdir(f'adversarial_completions_{modelname}_short')
+    if other: entries = os.listdir(f'adversarial_completions_{modelname}_other')
+    else: entries = os.listdir(f'adversarial_completions_{modelname}_short')
     if "blank.txt" in entries: entries.remove("blank.txt")
 
     for entry in entries:
         print(modelname, entry)
-        completions = json.load(open(f'adversarial_completions_{modelname}_short/{entry}'))
+        if other: completions = json.load(open(f'adversarial_completions_{modelname}_other/{entry}'))
+        else: completions = json.load(open(f'adversarial_completions_{modelname}_short/{entry}'))
 
         base_prompt = completions['base_prompt']
         base_prompt = base_prompt.strip()
@@ -172,5 +178,9 @@ for modelname in ["llama3it", "gemma7bit", "llama", "llama3"]:
                 res['all_perturbed_results'][brand][f'perturbed_successes_token_length_{i}'] = get_avg_at_len(first_appearances_perturbed, i)
                 if first_appearances_reverse_perturbed != []: res['all_perturbed_results'][brand][f'reversed_perturbed_successes_token_length_{i}'] = get_avg_at_len(first_appearances_reverse_perturbed, i)
 
-        with open(f'adversarial_completions_booleans/{modelname}/{entry}', "w") as f:
-            f.write(json.dumps(res, indent=4))
+        if other:
+            with open(f'adversarial_completions_booleans/{modelname}/{entry}', "w") as f:
+                f.write(json.dumps(res, indent=4))
+        else:
+            with open(f'adversarial_completions_booleans/{modelname}/{entry}', "w") as f:
+                f.write(json.dumps(res, indent=4))
