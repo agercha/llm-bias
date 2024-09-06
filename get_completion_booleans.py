@@ -179,7 +179,7 @@ for modelname in ["llama3it", "gemma7bit", "llama", "llama3"]:
                 if first_appearances_reverse_perturbed != []: res['all_perturbed_results'][brand][f'reversed_perturbed_successes_token_length_{i}'] = get_avg_at_len(first_appearances_reverse_perturbed, i)
 
         if other:
-            with open(f'adversarial_completions_booleans/{modelname}/{entry}', "w") as f:
+            with open(f'adversarial_completions_booleans_other/{modelname}/{entry}', "w") as f:
                 f.write(json.dumps(res, indent=4))
         else:
             with open(f'adversarial_completions_booleans/{modelname}/{entry}', "w") as f:
