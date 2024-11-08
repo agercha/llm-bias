@@ -212,6 +212,12 @@ def run(modelname, category):
                 use_fast=False
             )
         pipeline = None
+    elif modelname == "mistral":
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Ministral-8B-Instruct-2410"
+        model = AutoModelForCausalLM.from_pretrained(model_path, 
+                                                    torch_dtype=torch.float16).to("cuda:0").eval()
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        pipeline = None
     elif modelname == "llama3":
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Meta-Llama-3-8B"
         model = LlamaForCausalLM.from_pretrained(
