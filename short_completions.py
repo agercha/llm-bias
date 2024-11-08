@@ -147,6 +147,26 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
             top_p=0.9,
         )
         return outputs[0]["generated_text"]
+    elif modelname == "mistral":
+
+        if gen_config is None:
+            gen_config = model.generation_config
+            gen_config.max_new_tokens = 64
+            gen_config.temperature = 0.7
+            
+        input_ids = input_ids.to(model.device).unsqueeze(0)
+        attn_masks = torch.ones_like(input_ids).to(model.device)
+        output_ids = model.generate(input_ids, 
+                                    do_sample=True,
+                                    temperature=0.7,
+                                    attention_mask=attn_masks, 
+                                    generation_config=gen_config,
+                                    pad_token_id=tokenizer.pad_token_id)
+        
+        output = tokenizer.decode(output_ids[0]).strip()
+
+        return output
+
     else:
 
         if gen_config is None:
