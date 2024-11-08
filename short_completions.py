@@ -152,6 +152,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         if gen_config is None:
             gen_config = model.generation_config
             gen_config.max_new_tokens = 64
+            gen_config.temperature = 0.7
             
         input_ids = input_ids.to(model.device).unsqueeze(0)
         attn_masks = torch.ones_like(input_ids).to(model.device)
