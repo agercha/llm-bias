@@ -175,7 +175,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
                                     pad_token_id=tokenizer.pad_token_id)
         decoded = tokenizer.batch_decode(generated_ids)
         # print(decoded[0])
-        output = decoded[0].strip
+        output = decoded[0].strip()
             
         # input_ids = input_ids.to(model.device).unsqueeze(0)
         # attn_masks = torch.ones_like(input_ids).to(model.device)
