@@ -166,7 +166,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
                                     do_sample=True,
                                     temperature=0.7,
                                     max_new_tokens=64,
-                                    attention_mask=attn_masks, 
+                                    # attention_mask=attn_masks, 
                                     generation_config=gen_config,
                                     pad_token_id=tokenizer.pad_token_id)
         
