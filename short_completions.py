@@ -153,7 +153,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
             {"role": "user", "content": prompt}
             ]
 
-        prompt = tokenizer.apply_chat_template(chat, tokenize=False)
+        prompt = tokenizer.apply_chat_template(chat, tokenize=True, return_tensors="pt")
 
         # if gen_config is None:
         #     gen_config = model.generation_config
