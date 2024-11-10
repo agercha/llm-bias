@@ -156,9 +156,9 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         prompt = tokenizer.apply_chat_template(chat, tokenize=True, return_tensors="pt")
 
         # if gen_config is None:
-        #     gen_config = model.generation_config
-        #     gen_config.max_new_tokens = 64
-        #     gen_config.temperature = 0.7
+        gen_config = model.generation_config
+        gen_config.max_new_tokens = 64
+        gen_config.temperature = 0.7
 
 
         # encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt")
@@ -170,7 +170,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
                                     do_sample=True,
                                     temperature=0.7,
                                     max_new_tokens=64,
-                                    attention_mask=attn_masks, 
+                                    # attention_mask=attn_masks, 
                                     generation_config=gen_config,
                                     pad_token_id=tokenizer.pad_token_id)
         decoded = tokenizer.batch_decode(generated_ids)
