@@ -159,18 +159,35 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         #     gen_config = model.generation_config
         #     gen_config.max_new_tokens = 64
         #     gen_config.temperature = 0.7
-            
-        # input_ids = input_ids.to(model.device).unsqueeze(0)
-        # attn_masks = torch.ones_like(input_ids).to(model.device)
-        output_ids = model.generate(input_ids, 
+
+
+        # encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt")
+
+        model_inputs = prompt.to("cuda:0")
+        model.to("cuda:0")
+
+        generated_ids = model.generate(model_inputs, 
                                     do_sample=True,
                                     temperature=0.7,
                                     max_new_tokens=64,
-                                    # attention_mask=attn_masks, 
+                                    attention_mask=attn_masks, 
                                     generation_config=gen_config,
                                     pad_token_id=tokenizer.pad_token_id)
+        decoded = tokenizer.batch_decode(generated_ids)
+        # print(decoded[0])
+        output = decoded[0].strip
+            
+        # input_ids = input_ids.to(model.device).unsqueeze(0)
+        # attn_masks = torch.ones_like(input_ids).to(model.device)
+        # output_ids = model.generate(input_ids, 
+        #                             do_sample=True,
+        #                             temperature=0.7,
+        #                             max_new_tokens=64,
+        #                             attention_mask=attn_masks, 
+        #                             generation_config=gen_config,
+        #                             pad_token_id=tokenizer.pad_token_id)
         
-        output = tokenizer.decode(output_ids[0]).strip()
+        # output = tokenizer.decode(output_ids[0]).strip()
 
         return output
 
