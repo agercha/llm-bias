@@ -53,8 +53,9 @@ else: dataset = json.load(open("dataset.json"))
 
 device = "cuda:0"
 
-for modelname in ["llama3it", "gemma7bit", "llama", "llama3"]:
+# for modelname in ["llama3it", "gemma7bit", "llama", "llama3"]:
 # for modelname in ["llama3it"]:
+for modelname in ["mistral"]:
 
 
     if modelname == "llama":
