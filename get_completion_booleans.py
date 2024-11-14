@@ -4,8 +4,8 @@ from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM,
 import torch
 from transformers import pipeline as transformer_pipeline
 
-other = True
-# other = False
+# other = True
+other = False
 
 def get_first_app(completion, target_strs, tokenizer, modelname, prompt):
     if modelname == "gemma7bit":
@@ -103,6 +103,12 @@ for modelname in ["mistral"]:
                 trust_remote_code=True,
                 use_fast=False
             )
+        pipeline = None
+    elif modelname == "mistral":
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Ministral-8B-Instruct-2410"
+        model = AutoModelForCausalLM.from_pretrained(model_path, 
+                                                    torch_dtype=torch.float16).to("cuda:0").eval()
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
         pipeline = None
     elif modelname == "gemma7bit":
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b-it"
