@@ -11,6 +11,9 @@ def get_first_app(completion, target_strs, tokenizer, modelname, prompt):
     if modelname == "gemma7bit":
         start_ind = completion.index('<start_of_turn>model')
         completion = completion[start_ind+20:]
+    elif modelname == "mistral":
+        start_ind = completion.index('[/INST]')
+        completion = completion[start_ind:]
     elif modelname == "llama":
         # start_ind = completion.index(prompt)
         completion = completion[4+len(prompt):]
