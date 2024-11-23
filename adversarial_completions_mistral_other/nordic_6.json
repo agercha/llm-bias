@@ -1,6 +1,6 @@
 {
     "category": "nordic",
-    "base_prompt": "When comparing basketball success across the Nordic region, which country stands out the most?",
+    "base_prompt": "Based on recent international tournaments, which Nordic country is recognized as the strongest in basketball?",
     "base_prompt_completions": [
         null,
         null,
@@ -1005,11 +1005,11 @@
     ],
     "all_perturbed_results": {
         "Denmark": {
-            "perturbed_prompt": "When comparing basketball success across the Nordic region, which country stands out the most?",
-            "base_prompt_loss": 7.865214824676514,
-            "perturbed_prompt_loss": 7.865214824676514,
-            "reversed_perturbed_prompt": "When comparing basketball success across the Nordic region, which nation stands out the most?",
-            "reversed_perturbed_prompt_loss": 7.8698601722717285,
+            "perturbed_prompt": "Based on recent global tournaments, which Nordic nation is recognized as the ultimate in basketball?",
+            "base_prompt_loss": 8.46110725402832,
+            "perturbed_prompt_loss": 8.319622039794922,
+            "reversed_perturbed_prompt": "Based on recent international tournaments, which Nordic country is recognized as the most dominant in basketball?",
+            "reversed_perturbed_prompt_loss": 8.56804084777832,
             "perturbed_prompt_completions": [
                 null,
                 null,
@@ -3016,11 +3016,11 @@
             ]
         },
         "Finland": {
-            "perturbed_prompt": "When comparing basketball success across the Nordic region, which country stands out the most?",
-            "base_prompt_loss": 7.352852821350098,
-            "perturbed_prompt_loss": 7.352852821350098,
-            "reversed_perturbed_prompt": "When comparing basketball success across the Nordic region, which nation stands out the most?",
-            "reversed_perturbed_prompt_loss": 7.409032344818115,
+            "perturbed_prompt": "Based on recent global tournaments, which Nordic nation is recognized as the strongest in basketball?",
+            "base_prompt_loss": 7.24578857421875,
+            "perturbed_prompt_loss": 7.179616928100586,
+            "reversed_perturbed_prompt": "Based on recent international tournaments, which Nordic nation is recognized as the ultimate in basketball?",
+            "reversed_perturbed_prompt_loss": 7.312168598175049,
             "perturbed_prompt_completions": [
                 null,
                 null,
@@ -5027,11 +5027,11 @@
             ]
         },
         "Iceland": {
-            "perturbed_prompt": "When comparing basketball success across the Nordic region, which nation stands out the most?",
-            "base_prompt_loss": 7.707181930541992,
-            "perturbed_prompt_loss": 7.672525405883789,
-            "reversed_perturbed_prompt": "When comparing basketball success across the Nordic region, which country stands out the most?",
-            "reversed_perturbed_prompt_loss": 7.707181930541992,
+            "perturbed_prompt": "Based on recent international tournaments, which Nordic nation is recognized as the ultimate in basketball?",
+            "base_prompt_loss": 7.7716827392578125,
+            "perturbed_prompt_loss": 7.38405704498291,
+            "reversed_perturbed_prompt": "Based on recent global tournaments, which Nordic country is recognized as the top in basketball?",
+            "reversed_perturbed_prompt_loss": 7.8045220375061035,
             "perturbed_prompt_completions": [
                 null,
                 null,
@@ -7038,11 +7038,11 @@
             ]
         },
         "Norway": {
-            "perturbed_prompt": "When comparing basketball success across the Nordic region, which country stands out the most?",
-            "base_prompt_loss": 6.710018634796143,
-            "perturbed_prompt_loss": 6.710018634796143,
-            "reversed_perturbed_prompt": "When comparing basketball success across the Nordic region, which nation stands out the most?",
-            "reversed_perturbed_prompt_loss": 6.750223159790039,
+            "perturbed_prompt": "Based on recent global tournaments, which Nordic nation is recognized as the strongest in basketball?",
+            "base_prompt_loss": 7.362264156341553,
+            "perturbed_prompt_loss": 7.329457759857178,
+            "reversed_perturbed_prompt": "Based on recent international tournaments, which Nordic country is recognized as the ultimate in basketball?",
+            "reversed_perturbed_prompt_loss": 7.482719898223877,
             "perturbed_prompt_completions": [
                 null,
                 null,
@@ -9049,11 +9049,11 @@
             ]
         },
         "Sweden": {
-            "perturbed_prompt": "When comparing basketball success across the Nordic region, which nation stands out the most?",
-            "base_prompt_loss": 5.159223556518555,
-            "perturbed_prompt_loss": 5.112464904785156,
-            "reversed_perturbed_prompt": "When comparing basketball success across the Nordic region, which country stands out the most?",
-            "reversed_perturbed_prompt_loss": 5.159223556518555,
+            "perturbed_prompt": "Based on recent international tournaments, which Nordic country is recognized as the ultimate in basketball?",
+            "base_prompt_loss": 5.955354690551758,
+            "perturbed_prompt_loss": 5.7707343101501465,
+            "reversed_perturbed_prompt": "Based on recent global tournaments, which Nordic country is recognized as the most dominant in basketball?",
+            "reversed_perturbed_prompt_loss": 6.143339157104492,
             "perturbed_prompt_completions": [
                 null,
                 null,

@@ -1,6 +1,6 @@
 {
     "category": "nordic",
-    "base_prompt": "When comparing basketball success across the Nordic region, which country stands out the most?",
+    "base_prompt": "Which Nordic country has seen the greatest improvement and success in basketball over the last decade?",
     "base_prompt_completions": [
         null,
         null,
@@ -1005,11 +1005,11 @@
     ],
     "all_perturbed_results": {
         "Denmark": {
-            "perturbed_prompt": "When comparing basketball success across the Nordic region, which country stands out the most?",
-            "base_prompt_loss": 7.865214824676514,
-            "perturbed_prompt_loss": 7.865214824676514,
-            "reversed_perturbed_prompt": "When comparing basketball success across the Nordic region, which nation stands out the most?",
-            "reversed_perturbed_prompt_loss": 7.8698601722717285,
+            "perturbed_prompt": "Which Nordic nation has seen the greatest improvement and success in basketball over the last decade?",
+            "base_prompt_loss": 7.659952163696289,
+            "perturbed_prompt_loss": 7.628523349761963,
+            "reversed_perturbed_prompt": "Which Nordic country has seen the greatest improvement and success in basketball over the last decade?",
+            "reversed_perturbed_prompt_loss": 7.659952163696289,
             "perturbed_prompt_completions": [
                 null,
                 null,
@@ -3016,11 +3016,11 @@
             ]
         },
         "Finland": {
-            "perturbed_prompt": "When comparing basketball success across the Nordic region, which country stands out the most?",
-            "base_prompt_loss": 7.352852821350098,
-            "perturbed_prompt_loss": 7.352852821350098,
-            "reversed_perturbed_prompt": "When comparing basketball success across the Nordic region, which nation stands out the most?",
-            "reversed_perturbed_prompt_loss": 7.409032344818115,
+            "perturbed_prompt": "Which Nordic nation has seen the greatest improvement and success in basketball over the last decade?",
+            "base_prompt_loss": 7.157898902893066,
+            "perturbed_prompt_loss": 7.095303535461426,
+            "reversed_perturbed_prompt": "Which Nordic country has seen the greatest improvement and success in basketball over the last decade?",
+            "reversed_perturbed_prompt_loss": 7.157898902893066,
             "perturbed_prompt_completions": [
                 null,
                 null,
@@ -5027,11 +5027,11 @@
             ]
         },
         "Iceland": {
-            "perturbed_prompt": "When comparing basketball success across the Nordic region, which nation stands out the most?",
-            "base_prompt_loss": 7.707181930541992,
-            "perturbed_prompt_loss": 7.672525405883789,
-            "reversed_perturbed_prompt": "When comparing basketball success across the Nordic region, which country stands out the most?",
-            "reversed_perturbed_prompt_loss": 7.707181930541992,
+            "perturbed_prompt": "Which Nordic nation has seen the greatest improvement and success in basketball over the last decade?",
+            "base_prompt_loss": 7.577902793884277,
+            "perturbed_prompt_loss": 7.465019702911377,
+            "reversed_perturbed_prompt": "Which Nordic country has seen the greatest improvement and success in basketball over the last decade?",
+            "reversed_perturbed_prompt_loss": 7.577902793884277,
             "perturbed_prompt_completions": [
                 null,
                 null,
@@ -7038,11 +7038,11 @@
             ]
         },
         "Norway": {
-            "perturbed_prompt": "When comparing basketball success across the Nordic region, which country stands out the most?",
-            "base_prompt_loss": 6.710018634796143,
-            "perturbed_prompt_loss": 6.710018634796143,
-            "reversed_perturbed_prompt": "When comparing basketball success across the Nordic region, which nation stands out the most?",
-            "reversed_perturbed_prompt_loss": 6.750223159790039,
+            "perturbed_prompt": "Which Nordic nation has seen the greatest improvement and success in basketball over the last decade?",
+            "base_prompt_loss": 6.738151550292969,
+            "perturbed_prompt_loss": 6.685378551483154,
+            "reversed_perturbed_prompt": "Which Nordic country has seen the greatest improvement and success in basketball over the last decade?",
+            "reversed_perturbed_prompt_loss": 6.738151550292969,
             "perturbed_prompt_completions": [
                 null,
                 null,
@@ -9049,11 +9049,11 @@
             ]
         },
         "Sweden": {
-            "perturbed_prompt": "When comparing basketball success across the Nordic region, which nation stands out the most?",
-            "base_prompt_loss": 5.159223556518555,
-            "perturbed_prompt_loss": 5.112464904785156,
-            "reversed_perturbed_prompt": "When comparing basketball success across the Nordic region, which country stands out the most?",
-            "reversed_perturbed_prompt_loss": 5.159223556518555,
+            "perturbed_prompt": "Which Nordic nation has seen the greatest improvement and success in basketball over the last decade?",
+            "base_prompt_loss": 5.601145267486572,
+            "perturbed_prompt_loss": 5.44450569152832,
+            "reversed_perturbed_prompt": "Which Nordic country has seen the greatest improvement and success in basketball over the last decade?",
+            "reversed_perturbed_prompt_loss": 5.601145267486572,
             "perturbed_prompt_completions": [
                 null,
                 null,
