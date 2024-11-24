@@ -147,13 +147,29 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
             top_p=0.9,
         )
         return outputs[0]["generated_text"]
+    elif modelname == "quen05":
+        chat = [
+            {"role": "user", "content": prompt}
+            ]
+
+        prompt = tokenizer.apply_chat_template(chat, tokenize=True, return_tensors="pt")
+
+        generated_ids = model.generate(
+            **prompt,
+            max_new_tokens=64,
+        )
+        decoded = tokenizer.batch_decode(generated_ids)
+        # print(decoded[0])
+        output = decoded[0].strip()
+        return output
+
     elif modelname == "mistral":
 
         chat = [
             {"role": "user", "content": prompt}
             ]
 
-        prompt = tokenizer.apply_chat_template(chat, tokenize=True, return_tensors="pt")
+        prompt = tokenizer.apply_chat_template(chat, tokenize=True, return_tensors="pt").to("cuda:0")
 
         # if gen_config is None:
         gen_config = model.generation_config
@@ -380,6 +396,15 @@ def run(modelname, category):
             model_kwargs={"torch_dtype": torch.bfloat16},
             device=device,
         )
+    elif modelname == "quen05":
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Qwen2.5-0.5B-Instruct"
+        model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            torch_dtype="auto",
+            device_map="auto"
+        )
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        pipeline = None
         
 
     tokenizer.pad_token = tokenizer.eos_token
@@ -463,6 +488,18 @@ def run(modelname, category):
                             tokenize=False, 
                             add_generation_prompt=True
                     )
+                elif modelname == "mistral":
+                    chat = [
+                        {"role": "user", "content": curr_prompt}
+                        ]
+
+                    curr_prompt = tokenizer.apply_chat_template(chat, tokenize=True, return_tensors="pt")
+                elif modelname == "quen05":
+                    chat = [
+                        {"role": "user", "content": curr_prompt}
+                        ]
+
+                    curr_prompt = tokenizer.apply_chat_template(chat, tokenize=True, return_tensors="pt")
 
                 losses[prompt_ind] = my_loss(model, tokenizer, curr_prompt, target_strs, device)
 
