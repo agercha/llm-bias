@@ -155,7 +155,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         prompt = tokenizer.apply_chat_template(chat, tokenize=True, return_tensors="pt")
 
         generated_ids = model.generate(
-            **prompt,
+            prompt,
             max_new_tokens=64,
         )
         decoded = tokenizer.batch_decode(generated_ids)
