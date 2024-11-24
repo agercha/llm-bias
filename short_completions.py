@@ -152,8 +152,8 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
             {"role": "user", "content": prompt}
             ]
 
-        prompt = tokenizer.apply_chat_template(chat, tokenize=True, return_tensors="pt")
-
+        prompt = tokenizer.apply_chat_template(chat, tokenize=True, return_tensors="pt").to("cuda:0")
+        model.to("cuda:0")
         generated_ids = model.generate(
             prompt,
             max_new_tokens=64,
