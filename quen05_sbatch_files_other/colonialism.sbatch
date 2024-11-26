@@ -6,4 +6,4 @@
 
 
 cd ../llm-bias
-python3.8 short_completions.py quen05 colonialism
+python3.8 short_completions_other.py quen05 colonialism
