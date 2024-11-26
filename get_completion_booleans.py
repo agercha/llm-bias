@@ -4,8 +4,8 @@ from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM,
 import torch
 from transformers import pipeline as transformer_pipeline
 
-other = True
-# other = False
+# other = True
+other = False
 
 def get_first_app(completion, target_strs, tokenizer, modelname, prompt):
     if modelname == "gemma7bit":
@@ -31,6 +31,8 @@ def get_first_app(completion, target_strs, tokenizer, modelname, prompt):
         # except:
         #     print(prompt, completion)
         #     assert(False)
+    elif modelname == "quen05":
+        completion = completion.split("<|im_start|>user\n")[2]
 
     min_len = []
     for target_word in target_strs:
@@ -55,7 +57,9 @@ device = "cuda:0"
 
 # for modelname in ["llama3it", "gemma7bit", "llama", "llama3"]:
 # for modelname in ["llama3it"]:
-for modelname in ["mistral"]:
+# for modelname in ["mistral"]:
+for modelname in ["quen05"]:
+
 
 
     if modelname == "llama":
@@ -108,6 +112,15 @@ for modelname in ["mistral"]:
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Ministral-8B-Instruct-2410"
         model = AutoModelForCausalLM.from_pretrained(model_path, 
                                                     torch_dtype=torch.float16).to("cuda:0").eval()
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        pipeline = None
+    elif modelname == "quen05":
+        model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/Qwen2.5-0.5B-Instruct"
+        model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            torch_dtype="auto",
+            device_map="auto"
+        )
         tokenizer = AutoTokenizer.from_pretrained(model_path)
         pipeline = None
     elif modelname == "gemma7bit":
