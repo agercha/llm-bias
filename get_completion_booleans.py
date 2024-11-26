@@ -4,8 +4,8 @@ from transformers import (AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM,
 import torch
 from transformers import pipeline as transformer_pipeline
 
-# other = True
-other = False
+other = True
+# other = False
 
 def get_first_app(completion, target_strs, tokenizer, modelname, prompt):
     if modelname == "gemma7bit":
