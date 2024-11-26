@@ -176,6 +176,7 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
         decoded = tokenizer.batch_decode(generated_ids)
         # print(decoded[0])
         output = decoded[0].strip()
+        return output
     else:
 
         if gen_config is None:
