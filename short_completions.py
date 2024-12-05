@@ -93,6 +93,8 @@ def generate(model, modelname, tokenizer, prompt, input_ids, pipeline, gen_confi
 
         if "gemma7bit01" == modelname: t=0.1
         elif "gemma7bit10" == modelname: t=1.0
+        elif "gemma7bit04" == modelname: t=0.4
+        elif "gemma7bit09" == modelname: t=0.9
         else: t=0.7
 
         outputs = pipeline(
@@ -380,7 +382,7 @@ def run(modelname, category):
             model_kwargs={"torch_dtype": torch.bfloat16},
             device=device,
         )
-    elif modelname == "gemma7bit" or modelname == "gemma7bit10" or modelname == "gemma7bit01":
+    elif "gemma7bit" in modelname:
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b-it"
         model = GemmaForCausalLM.from_pretrained(
                 model_path,
