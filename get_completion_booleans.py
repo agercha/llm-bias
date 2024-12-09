@@ -8,7 +8,7 @@ other = True
 # other = False
 
 def get_first_app(completion, target_strs, tokenizer, modelname, prompt):
-    if modelname == "gemma7bit":
+    if "gemma7bit" in modelname:
         start_ind = completion.index('<start_of_turn>model')
         completion = completion[start_ind+20:]
     elif modelname == "mistral":
@@ -123,7 +123,7 @@ for modelname in ["quen05", "mistral"]:
         )
         tokenizer = AutoTokenizer.from_pretrained(model_path)
         pipeline = None
-    elif modelname == "gemma7bit":
+    elif "gemma7bit" in modelname:
         model_path = "/data/anna_gerchanovsky/anna_gerchanovsky/gemma-7b-it"
         # model = GemmaForCausalLM.from_pretrained(
         #         model_path,
