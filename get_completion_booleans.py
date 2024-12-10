@@ -59,7 +59,7 @@ device = "cuda:0"
 # for modelname in ["llama3it"]:
 # for modelname in ["mistral"]:
 # for modelname in ["quen05", "mistral"]:
-for modelname in ["gemma7bit01"]:
+for modelname in ["gemma7bit01", "gemma7bit04", "gemma7bit10"]:
 
 
 
